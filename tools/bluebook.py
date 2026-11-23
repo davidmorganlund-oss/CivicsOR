@@ -22,20 +22,22 @@ def folder(name):
 
 def find(row):
     name, county = row[0], row[1]
-    for s in dict.fromkeys([slug(name), slug(name).replace("-", ""), slug(name.replace("St. ", "Saint ").replace("Mt. ", "Mount "))]):
-        url = f"{BASE}/{folder(name)}/{s}.aspx"
+    statuses = []
+    cands = dict.fromkeys([slug(name), slug(name).replace("-", ""), slug(name.replace("St. ", "Saint ").replace("Mt. ", "Mount "))])
+    for url in [f"https://sos.oregon.gov/blue-book/government/Pages/{s}.aspx" for s in cands] + [f"{BASE}/{folder(name)}/{s}.aspx" for s in cands]:
         try:
             r = requests.get(url, headers=UA, timeout=20)
         except Exception:
             continue
-        if r.status_code == 200:
+        statuses.append(r.status_code)
+        if r.status_code == 200 and "Web:" in r.text:
             m = re.search(r"Web:\s*(?:</?[^>]+>\s*)*<a[^>]+href=\"([^\"]+)\"", r.text, re.I) or \
                 re.search(r"Web:\s*(?:</?[^>]+>\s*)*((?:https?://)?www\.[a-z0-9.-]+\.[a-z]{2,}[^\s<\"]*)", r.text, re.I)
             if m:
                 site = m.group(1)
                 return name, county, site if site.startswith("http") else "https://" + site, url
             return name, county, "", url
-    return name, county, "", ""
+    return name, county, "", "statuses " + ",".join(map(str, statuses))
 
 
 if __name__ == "__main__":
