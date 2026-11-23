@@ -1,0 +1,183 @@
+# CivicsOR sources, State of Oregon.
+# Each source names a connector type and the public feed or schedule it reads.
+# "county" groups sources by county. "area" is what the site matches a
+# visitor's city against; "countywide" sources show for everyone in the county.
+# A regional body (Metro) lists every county it serves in "counties".
+# "timezone" defaults to Pacific time. Sources in Malheur County (Mountain
+# time, except its southern tip) say so.
+#
+# First build, November 2026: the Legislature, then the Portland metro area
+# and Salem. Schedules marked type "schedule" come from the regular meeting
+# schedule each body publishes, and show on the site as "Usually meets".
+
+window_days: 60
+timezone: America/Los_Angeles
+
+sources:
+  # ---------- Statewide ----------
+  # The Oregon Legislature's own public data service (OLIS). Interim
+  # committees meet during Legislative Days between sessions; standing
+  # committees meet most weekdays during session.
+  - id: legislature
+    name: Oregon Legislature
+    type: oregon_legislature
+    county: Statewide
+    area: statewide
+    force_category: legislature
+    homepage: https://olis.oregonlegislature.gov/liz/
+
+  # ---------- Portland metro: regional ----------
+  # Metro, the elected regional government for the urban parts of Multnomah,
+  # Washington and Clackamas counties (land use, garbage and recycling, parks,
+  # the Oregon Zoo, supportive housing services). Legistar.
+  - id: metro
+    name: Metro (regional government)
+    type: legistar
+    client: oregonmetro
+    county: Multnomah
+    counties: [Multnomah, Washington, Clackamas]
+    area: countywide
+    default_category: council
+    homepage: https://oregonmetro.legistar.com/Calendar.aspx
+
+  # ---------- Multnomah County ----------
+  # Portland's council (12 members elected from four districts, since 2025)
+  # publishes its regular schedule; agendas post on portland.gov the Friday
+  # before.
+  - id: portland
+    name: City of Portland
+    type: schedule
+    county: Multnomah
+    area: Portland
+    homepage: https://www.portland.gov/council/agenda
+    meetings:
+      - title: City Council meeting
+        when: 1st, 2nd, 4th, 5th Wednesday
+        time: "09:30"
+        location: City Hall, Council Chambers, 1221 SW Fourth Avenue, Portland (and online)
+        category: council
+        url: https://www.portland.gov/council/agenda
+        note: If there is enough business, the council also meets the following Thursday at 2 p.m.
+      - title: City Council evening meeting
+        when: 3rd Wednesday
+        time: "18:00"
+        location: City Hall, Council Chambers, 1221 SW Fourth Avenue, Portland (and online)
+        category: council
+        url: https://www.portland.gov/council/agenda
+
+  - id: multnomah-county
+    name: Multnomah County
+    type: schedule
+    county: Multnomah
+    area: countywide
+    homepage: https://multco.us/info/about-board-meetings
+    meetings:
+      - title: Board of County Commissioners meeting
+        when: 1st, 2nd, 3rd, 4th, 5th Thursday
+        time: "09:30"
+        location: Multnomah Building, Boardroom 100, 501 SE Hawthorne Blvd., Portland (and online)
+        category: council
+        url: https://multco.us/info/about-board-meetings
+        note: The board clerk posts each Friday whether the board meets the next week. Sign up to testify by 4 p.m. the Wednesday before.
+      - title: Board of County Commissioners briefing
+        when: 1st, 2nd, 3rd, 4th, 5th Tuesday
+        time: "10:00"
+        location: Multnomah Building, Boardroom 100, 501 SE Hawthorne Blvd., Portland (and online)
+        category: council
+        url: https://multco.us/info/about-board-meetings
+
+  # Multnomah County Library: civic programs only (voting, citizenship,
+  # town halls and the like), found through the catalog's event search.
+  - id: multnomah-library
+    name: Multnomah County Library
+    type: bibliocommons
+    library: multcolib
+    searches: [voter, citizenship, civic, town hall, legislat]
+    county: Multnomah
+    area: countywide
+    homepage: https://multcolib.bibliocommons.com/v2/events
+
+  # ---------- Washington County ----------
+  - id: washington-county
+    name: Washington County
+    type: schedule
+    county: Washington
+    area: countywide
+    homepage: https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
+    meetings:
+      - title: Board of Commissioners work session
+        when: 1st, 2nd, 3rd Tuesday
+        time: "09:00"
+        location: Public Services Building, Room 120D, 155 N. First Ave., Hillsboro (and online)
+        category: council
+        url: https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
+        note: Agendas post three business days before.
+      - title: Board of Commissioners regular business meeting
+        when: 1st, 3rd Tuesday
+        location: Public Services Building, 155 N. First Ave., Hillsboro (and online)
+        category: council
+        url: https://www.washingtoncountyor.gov/bcc
+
+  - id: hillsboro
+    name: City of Hillsboro
+    type: schedule
+    county: Washington
+    area: Hillsboro
+    homepage: https://www.hillsboro-oregon.gov/
+    meetings:
+      - title: City Council meeting
+        when: 1st, 3rd Tuesday
+        time: "18:00"
+        location: Hillsboro Civic Center Auditorium, 150 E. Main St. (and on Zoom)
+        category: council
+        url: https://www.hillsboro-oregon.gov/
+        note: Agendas and packets post a week before on the city's CivicWeb portal.
+
+  - id: wccls
+    name: Washington County Cooperative Library Services
+    type: bibliocommons
+    library: wccls
+    searches: [voter, citizenship, civic, town hall, legislat]
+    county: Washington
+    area: countywide
+    homepage: https://wccls.bibliocommons.com/v2/events
+
+  # ---------- Clackamas County ----------
+  - id: clackamas-county
+    name: Clackamas County
+    type: schedule
+    county: Clackamas
+    area: countywide
+    homepage: https://www.clackamas.us/meetings/bcc/business
+    meetings:
+      - title: Board of County Commissioners business meeting
+        when: 1st, 2nd, 3rd, 4th, 5th Thursday
+        time: "10:00"
+        location: BCC Hearing Room, Room 409, 2051 Kaen Road, Oregon City (and on Zoom)
+        category: council
+        url: https://www.clackamas.us/meetings/bcc/business
+        note: The board takes recesses some weeks; its business meetings page lists each one.
+
+  - id: oregon-city
+    name: City of Oregon City
+    type: civicclerk
+    tenant: oregoncityor
+    county: Clackamas
+    area: Oregon City
+    default_category: council
+    homepage: https://oregoncityor.portal.civicclerk.com/
+
+  # ---------- Marion County ----------
+  - id: salem
+    name: City of Salem
+    type: schedule
+    county: Marion
+    area: Salem
+    homepage: https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes
+    meetings:
+      - title: City Council meeting
+        when: 2nd, 4th Monday
+        time: "18:00"
+        category: council
+        url: https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes
+        note: Hybrid. Agendas are usually posted by the Thursday before. Sign up online to comment between 8 a.m. and 3 p.m. on meeting day.

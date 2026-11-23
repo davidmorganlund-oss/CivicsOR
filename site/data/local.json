@@ -1,0 +1,153 @@
+{
+ "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page.",
+ "counties": {
+  "Baker": {
+   "site": "https://www.bakercounty.org/"
+  },
+  "Benton": {
+   "site": "https://www.co.benton.or.us/"
+  },
+  "Clackamas": {
+   "site": "https://www.clackamas.us/",
+   "meetings": "https://www.clackamas.us/meetings/bcc/business"
+  },
+  "Clatsop": {
+   "site": "https://www.clatsopcounty.gov/"
+  },
+  "Columbia": {
+   "site": "https://www.columbiacountyor.gov/"
+  },
+  "Coos": {
+   "site": "https://www.co.coos.or.us/"
+  },
+  "Crook": {
+   "site": "https://co.crook.or.us/"
+  },
+  "Curry": {
+   "site": "https://www.co.curry.or.us/"
+  },
+  "Deschutes": {
+   "site": "https://www.deschutes.org/"
+  },
+  "Douglas": {
+   "site": "https://douglascountyor.gov/"
+  },
+  "Gilliam": {
+   "site": "https://www.co.gilliam.or.us/"
+  },
+  "Grant": {
+   "site": "https://gcoregonlive.com/"
+  },
+  "Harney": {
+   "site": "https://www.harneycountyor.gov/"
+  },
+  "Hood River": {
+   "site": "https://www.hoodrivercounty.gov/"
+  },
+  "Jackson": {
+   "site": "https://www.jacksoncountyor.gov/"
+  },
+  "Jefferson": {
+   "site": "https://www.jeffco.net/"
+  },
+  "Josephine": {
+   "site": "https://www.co.josephine.or.us/"
+  },
+  "Klamath": {
+   "site": "https://www.klamathcounty.org/"
+  },
+  "Lake": {
+   "site": "https://www.lakecountyor.org/"
+  },
+  "Lane": {
+   "site": "https://www.lanecounty.org/"
+  },
+  "Lincoln": {
+   "site": "https://www.co.lincoln.or.us/"
+  },
+  "Linn": {
+   "site": "https://www.linncountyor.gov/"
+  },
+  "Malheur": {
+   "site": "https://www.malheurco.org/"
+  },
+  "Marion": {
+   "site": "https://www.co.marion.or.us/"
+  },
+  "Morrow": {
+   "site": "https://www.co.morrow.or.us/"
+  },
+  "Multnomah": {
+   "site": "https://multco.us/",
+   "meetings": "https://multco.us/info/about-board-meetings"
+  },
+  "Polk": {
+   "site": "https://www.co.polk.or.us/"
+  },
+  "Sherman": {
+   "site": "https://www.co.sherman.or.us/"
+  },
+  "Tillamook": {
+   "site": "https://www.tillamookcounty.gov/"
+  },
+  "Umatilla": {
+   "site": "https://www.co.umatilla.or.us/"
+  },
+  "Union": {
+   "site": "https://union-county.org/"
+  },
+  "Wallowa": {
+   "site": "https://co.wallowa.or.us/"
+  },
+  "Wasco": {
+   "site": "https://www.co.wasco.or.us/"
+  },
+  "Washington": {
+   "site": "https://www.washingtoncountyor.gov/",
+   "meetings": "https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule",
+   "commissioners": "https://www.washingtoncountyor.gov/bcc"
+  },
+  "Wheeler": {
+   "site": "https://www.wheelercountyoregon.com/"
+  },
+  "Yamhill": {
+   "site": "https://www.co.yamhill.or.us/"
+  }
+ },
+ "cities": {
+  "Portland": {
+   "county": "Multnomah",
+   "site": "https://www.portland.gov/",
+   "meetings": "https://www.portland.gov/council/agenda",
+   "mayor": {
+    "name": "Keith Wilson",
+    "source": "https://www.portland.gov/council/agenda"
+   }
+  },
+  "Gresham": {
+   "county": "Multnomah",
+   "site": "https://greshamoregon.gov/",
+   "meetings": "https://greshamoregon.gov/government/mayor-and-council/council-meeting-agendas-and-videos"
+  },
+  "Hillsboro": {
+   "county": "Washington",
+   "site": "https://www.hillsboro-oregon.gov/",
+   "boards": "https://www.hillsboro-oregon.gov/our-city/commissions-committees-boards"
+  },
+  "Tigard": {
+   "county": "Washington",
+   "site": "https://www.tigard-or.gov/",
+   "meetings": "https://www.tigard-or.gov/your-government/council/council-meetings"
+  },
+  "Oregon City": {
+   "county": "Clackamas",
+   "site": "https://orcity.org/",
+   "meetings": "https://oregoncityor.portal.civicclerk.com/"
+  },
+  "Salem": {
+   "county": "Marion",
+   "site": "https://www.cityofsalem.net/",
+   "meetings": "https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes"
+  }
+ }
+}

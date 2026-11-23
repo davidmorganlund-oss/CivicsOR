@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Get Engaged, Oregon | CivicsOR</title>
+<meta name="description" content="See what your city council, county commissioners, Metro and the Oregon Legislature are deciding this week, and how to make your voice heard.">
+<meta property="og:site_name" content="CivicsOR">
+<meta property="og:title" content="Get Engaged, Oregon: what your community is deciding this week">
+<meta property="og:description" content="See what your city council, county commissioners, Metro and the Oregon Legislature are deciding this week, and how to make your voice heard.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://civicsor.org/share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CivicsOR: Get Engaged, Oregon.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E5C63">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script src="app-install.js" defer></script>
+<!-- seo -->
+<link rel="canonical" href="https://civicsor.org/">
+<meta property="og:url" content="https://civicsor.org/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://civicsor.org/#site", "name": "CivicsOR", "url": "https://civicsor.org/", "inLanguage": ["en"], "publisher": {"@id": "https://barnoneinc.org/#org"}, "description": "A free calendar of what Oregon's city councils, county boards, Metro and the Legislature are deciding, with plain-language guides to taking part."}, {"@type": "NGO", "@id": "https://barnoneinc.org/#org", "name": "BarNone", "url": "https://barnoneinc.org", "logo": "https://civicsor.org/barnone-phoenix.png"}]}</script>
+<!-- seo -->
+</head>
+<body>
+<a class="skip" href="#events">Skip to events</a>
+<aside class="notice" aria-label="About CivicsOR">A project of BarNone, a nonprofit. Not affiliated with any government agency.</aside>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">Civics<span>OR</span></a>
+  <nav aria-label="Main">
+    <a href="index.html" aria-current="page" aria-label="Community Calendar"><span class="full">Community Calendar</span><span class="short">Calendar</span></a>
+    <a href="engage.html">Engage</a>
+    <a href="reps.html" aria-label="My representatives"><span class="full">My representatives</span><span class="short">My reps</span></a>
+  </nav>
+</div></header>
+
+<section aria-label="Introduction" class="hero"><div class="wrap">
+  <p class="eyebrow light">Community Calendar</p>
+  <h1>Find out what your community is deciding this week.</h1>
+  <p class="lede">City councils, county commissioners, public hearings and the Legislature, from across Oregon, in one calendar. Pick where you live and we'll show you what's near you.</p>
+  <form class="search" id="search">
+    <div class="field">
+      <label for="county">County</label>
+      <select id="county"><option value="">All of Oregon</option></select>
+    </div>
+    <div class="field">
+      <label for="city">City</label>
+      <select id="city" disabled><option value="">Pick a county</option></select>
+    </div>
+  </form>
+  <p class="small"><span id="coverage">Starting with the Portland area, Salem and the Legislature, and adding more of Oregon every month.</span> No account needed, and your choice stays in your browser.</p>
+</div></section>
+
+<div class="wrap layout">
+  <main class="main" id="events">
+    <div class="heading">
+      <h2 id="heading">Coming up across Oregon</h2>
+      <span id="range"></span>
+    </div>
+    <p class="muted" id="place-msg" role="status" hidden></p>
+    <div class="find">
+      <label for="q">Search meetings and agendas</label>
+      <input id="q" type="search" placeholder="Try zoning, library, budget, schools" autocomplete="off">
+    </div>
+    <div class="chips" role="group" aria-label="Filter by type" id="chips"></div>
+    <div class="list" id="list" aria-live="polite"><p class="empty">Loading events…</p></div>
+    <button class="more" id="more" type="button" hidden>Show two more weeks</button>
+  </main>
+
+  <aside class="side">
+    <div class="card">
+      <h2>Get it on your phone</h2>
+      <p id="subscribe-text">Subscribe once and these meetings show up in the calendar app you already use.</p>
+      <a class="link" id="subscribe" href="data/ics/statewide.ics">Subscribe to Oregon Legislature committee meetings</a>
+      <p style="margin-top: 14px">Want to hear when something changes? The <a id="feed" href="data/feeds/statewide.xml">what's-new feed</a> lists new meetings, newly posted agendas and cancellations. Add it to a feed reader, or to a free feed-to-email service to get it by email.</p>
+    </div>
+    <div class="card">
+      <h2>Use it like an app</h2>
+      <p>Add CivicsOR to your home screen and it opens like an app, even without a signal. On iPhone, tap Share, then <strong>Add to Home Screen</strong>. On Android, tap the menu, then <strong>Install app</strong> or <strong>Add to Home screen</strong>.</p>
+    </div>
+    <div class="card">
+      <h2>Two time zones</h2>
+      <p>Each meeting is listed in its own local time: Pacific for nearly all of Oregon, Mountain for most of Malheur County.</p>
+    </div>
+    <div class="card">
+      <h2>The Legislature, day by day</h2>
+      <p>Committee hearings with their agendas, and how to sign up to testify in person or remotely. The 2027 long session starts in January.</p>
+      <a class="link" href="legislature.html">See what's coming up at the Capitol</a>
+    </div>
+    <div class="card warm">
+      <span class="eyebrow">Engage</span>
+      <h2>First time at a public meeting?</h2>
+      <p>What Oregon law lets you do, what to say in two minutes, and what happens after you speak.</p>
+      <a class="link" href="guides/speak-at-a-public-meeting.html">Read the guide</a>
+    </div>
+  </aside>
+</div>
+
+<footer><div class="wrap">
+  <p>Listings come straight from public agency calendars and are refreshed every night. <span id="updated"></span> Schedules change, so confirm with the host before you go.</p>
+  <p class="by-barnone"><a href="https://barnoneinc.org"><img src="barnone-phoenix.png" alt="" width="28" height="28"><span>A service of <strong>BarNone, Inc.</strong></span></a> An independent nonprofit. CivicsOR is not a government website, is not affiliated with any government agency, and does not speak for any public office.</p>
+  <p class="footer-links"><a href="mailto:admin@barnoneinc.org?subject=CivicsOR%3A%20report%20a%20problem">Report a problem or a missing meeting</a> · <a href="privacy.html">Privacy</a></p>
+</div></footer>
+
+<script src="app.js"></script>
+</body>
+</html>
