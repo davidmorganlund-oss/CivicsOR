@@ -3,156 +3,21 @@ VERSION:2.0
 PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Union County
 BEGIN:VEVENT
-UID:098f99c49b9e@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261125T020000Z
-DTEND:20261125T030000Z
-SUMMARY:Design Review Subcommittee (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13269
-END:VEVENT
-BEGIN:VEVENT
-UID:509aee732d00@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261202T010000Z
-DTEND:20261202T020000Z
-SUMMARY:Property Maintenance Board of Appeals (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13324
-END:VEVENT
-BEGIN:VEVENT
-UID:3e37f94c5b35@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261202T020000Z
-DTEND:20261202T030000Z
-SUMMARY:Heritage Commission (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13248
-END:VEVENT
-BEGIN:VEVENT
-UID:18fc0615f97a@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261202T023000Z
-DTEND:20261202T033000Z
-SUMMARY:Human Relations Commission (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13281
-END:VEVENT
-BEGIN:VEVENT
-UID:397de5fa2fb4@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261203T003000Z
-DTEND:20261203T013000Z
-SUMMARY:Liquor Control Commission (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13419
-END:VEVENT
-BEGIN:VEVENT
-UID:90d0668edfb7@civicsor
-DTSTAMP:20261123T050619Z
+UID:d572a98f3191@civicsor
+DTSTAMP:20261123T051524Z
 DTSTART:20261203T020000Z
 DTEND:20261203T030000Z
-SUMMARY:Committee of the Whole Meeting (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13364
+SUMMARY:City Council regular session (City of La Grande)
+LOCATION:La Grande City Hall\, 1000 Adams Ave.
+URL:https://www.cityoflagrande.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:641d2ec00ca3@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261203T030000Z
-DTEND:20261203T040000Z
-SUMMARY:City Council Meeting (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13626
-END:VEVENT
-BEGIN:VEVENT
-UID:f0fba6ff2953@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261208T030000Z
-DTEND:20261208T040000Z
-SUMMARY:Planning and Zoning Commission (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13308
-END:VEVENT
-BEGIN:VEVENT
-UID:b3c0ab70da61@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261209T020000Z
-DTEND:20261209T030000Z
-SUMMARY:Design Review Subcommittee (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13260
-END:VEVENT
-BEGIN:VEVENT
-UID:b86baddc293e@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261209T020000Z
-DTEND:20261209T030000Z
-SUMMARY:Sustainability Commission (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13340
-END:VEVENT
-BEGIN:VEVENT
-UID:647ad905ecad@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261215T020000Z
-DTEND:20261215T030000Z
-SUMMARY:Cultural Arts Commission (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13221
-END:VEVENT
-BEGIN:VEVENT
-UID:140e6e73aa8c@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261217T020000Z
-DTEND:20261217T030000Z
-SUMMARY:Committee of the Whole Meeting (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13627
-END:VEVENT
-BEGIN:VEVENT
-UID:bc0c8d5e376e@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261217T030000Z
-DTEND:20261217T040000Z
-SUMMARY:City Council Meeting (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13628
-END:VEVENT
-BEGIN:VEVENT
-UID:8061e9082164@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261217T233000Z
-DTEND:20261218T003000Z
-SUMMARY:Emergency Telephone System Board (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13233
-END:VEVENT
-BEGIN:VEVENT
-UID:dbf576b27652@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261218T010000Z
-DTEND:20261218T020000Z
-SUMMARY:Fire and Police Board (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/13352
-END:VEVENT
-BEGIN:VEVENT
-UID:cb8bc8e3ba0f@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20261222T013000Z
-DTEND:20261222T023000Z
-SUMMARY:Civilian Review Board (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/12826
-END:VEVENT
-BEGIN:VEVENT
-UID:d9bb54936f96@civicsor
-DTSTAMP:20261123T050619Z
-DTSTART:20270119T013000Z
-DTEND:20270119T023000Z
-SUMMARY:Civilian Review Board (City of Elgin)
-LOCATION:
-URL:https://elginil.gov/m/calendar/event/detail/12827
+UID:2c986d67d373@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270107T020000Z
+DTEND:20270107T030000Z
+SUMMARY:City Council regular session (City of La Grande)
+LOCATION:La Grande City Hall\, 1000 Adams Ave.
+URL:https://www.cityoflagrande.org/
 END:VEVENT
 END:VCALENDAR

@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Lane County
 BEGIN:VEVENT
 UID:7d6343c6c7ac@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261124T010000Z
 DTEND:20261124T030000Z
 SUMMARY:City Council Work Session (City of Veneta)
@@ -12,8 +12,44 @@ LOCATION:
 URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1153
 END:VEVENT
 BEGIN:VEVENT
+UID:8c9da62a3ef6@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261124T013000Z
+DTEND:20261124T023000Z
+SUMMARY:City Council work session (City of Eugene)
+LOCATION:Eugene City Hall\, 500 E. 4th Ave. (and online)
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:2e19d1dfdfd7@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261124T013000Z
+DTEND:20261124T023000Z
+SUMMARY:City Council work session (City of Springfield)
+LOCATION:Springfield City Hall\, 225 Fifth St.
+URL:https://www.springfield-or.gov/city/city-council-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:d108f233c898@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261124T033000Z
+DTEND:20261124T043000Z
+SUMMARY:City Council meeting (City of Eugene)
+LOCATION:Eugene City Hall\, 500 E. 4th Ave. (and online)
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:7530aedaf1e5@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261125T200000Z
+DTEND:20261125T210000Z
+SUMMARY:City Council work session (online) (City of Eugene)
+LOCATION:Online
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
 UID:88a3ece5834a@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261201T000000Z
 DTEND:20261201T020000Z
 SUMMARY:Public Arts Committee Meeting - Rescheduled (City of Florence)
@@ -22,7 +58,7 @@ URL:https://www.ci.florence.or.us/Calendar.aspx?EID=694
 END:VEVENT
 BEGIN:VEVENT
 UID:bb49bfabf7e9@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261202T001500Z
 DTEND:20261202T013000Z
 SUMMARY:Park Board Meeting (City of Veneta)
@@ -31,7 +67,7 @@ URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1200
 END:VEVENT
 BEGIN:VEVENT
 UID:8b47a94437fd@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261202T010000Z
 DTEND:20261202T033000Z
 SUMMARY:State Transportation Improvement Fund (STIF) Advisory Committee Mee
@@ -43,7 +79,7 @@ URL:https://www.ltd.org/event/state-transportation-improvement-fund-stif-ad
 END:VEVENT
 BEGIN:VEVENT
 UID:83a6e7c59c6f@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261202T023000Z
 DTEND:20261202T043000Z
 SUMMARY:Planning Commission Meeting (City of Veneta)
@@ -52,7 +88,7 @@ URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1166
 END:VEVENT
 BEGIN:VEVENT
 UID:264cc82f5cd6@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261203T000000Z
 DTEND:20261203T020000Z
 SUMMARY:Public Arts Committee Meeting (City of Florence)
@@ -60,8 +96,17 @@ LOCATION:City Hall\, 250 Hwy 101
 URL:https://www.ci.florence.or.us/Calendar.aspx?EID=695
 END:VEVENT
 BEGIN:VEVENT
+UID:24f4a8bcd708@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261208T030000Z
+DTEND:20261208T040000Z
+SUMMARY:City Council regular session (City of Springfield)
+LOCATION:Springfield City Hall\, Council Chambers\, 225 Fifth St.
+URL:https://www.springfield-or.gov/city/city-council-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:18d685d7330a@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261209T010000Z
 DTEND:20261209T033000Z
 SUMMARY:State Transportation Improvement Fund (STIF) Advisory Committee Mee
@@ -73,7 +118,7 @@ URL:https://www.ltd.org/event/state-transportation-improvement-fund-stif-ad
 END:VEVENT
 BEGIN:VEVENT
 UID:3cfd813a0d8e@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261209T013000Z
 DTEND:20261209T043000Z
 SUMMARY:Planning Commission Regular Meeting (City of Florence)
@@ -81,8 +126,17 @@ LOCATION:City Hall\, 250 Hwy 101
 URL:https://www.ci.florence.or.us/Calendar.aspx?EID=717
 END:VEVENT
 BEGIN:VEVENT
+UID:9cab6c116bd5@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261209T200000Z
+DTEND:20261209T210000Z
+SUMMARY:City Council work session (online) (City of Eugene)
+LOCATION:Online
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
 UID:24c3165b6526@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261210T163000Z
 DTEND:20261210T193000Z
 SUMMARY:City Council Work Session (City of Florence)
@@ -90,8 +144,17 @@ LOCATION:City Hall\, 250 Hwy 101
 URL:https://www.ci.florence.or.us/Calendar.aspx?EID=677
 END:VEVENT
 BEGIN:VEVENT
+UID:9d4214d99064@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261215T013000Z
+DTEND:20261215T023000Z
+SUMMARY:City Council work session (City of Eugene)
+LOCATION:Eugene City Hall\, 500 E. 4th Ave. (and online)
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
 UID:5bb03f04559d@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261215T013000Z
 DTEND:20261215T043000Z
 SUMMARY:City Council Meeting (City of Florence)
@@ -99,8 +162,17 @@ LOCATION:City Hall\, 250 Hwy 101
 URL:https://www.ci.florence.or.us/Calendar.aspx?EID=675
 END:VEVENT
 BEGIN:VEVENT
+UID:9af97b115110@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261215T013000Z
+DTEND:20261215T023000Z
+SUMMARY:City Council work session (City of Springfield)
+LOCATION:Springfield City Hall\, 225 Fifth St.
+URL:https://www.springfield-or.gov/city/city-council-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:b9095eeb0424@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261215T020000Z
 DTEND:20261215T043000Z
 SUMMARY:City Council Meeting (City of Veneta)
@@ -108,8 +180,26 @@ LOCATION:
 URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1142
 END:VEVENT
 BEGIN:VEVENT
+UID:97046232a8f1@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261215T033000Z
+DTEND:20261215T043000Z
+SUMMARY:City Council meeting (City of Eugene)
+LOCATION:Eugene City Hall\, 500 E. 4th Ave. (and online)
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc9936cbb2ad@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261216T200000Z
+DTEND:20261216T210000Z
+SUMMARY:City Council work session (online) (City of Eugene)
+LOCATION:Online
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
 UID:6e3938b69764@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261216T233000Z
 DTEND:20261217T010000Z
 SUMMARY:Economic Development Committee (City of Veneta)
@@ -118,7 +208,7 @@ URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1130
 END:VEVENT
 BEGIN:VEVENT
 UID:3f8ca9360e19@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261217T013000Z
 DTEND:20261217T030000Z
 SUMMARY:December Board Meeting (Lane Transit District)
@@ -127,8 +217,26 @@ LOCATION:Glenwood Administrative Offices\, 3500 East 17th Avenue\, Eugene\,
 URL:https://www.ltd.org/event/december-board-meeting/
 END:VEVENT
 BEGIN:VEVENT
+UID:1156032335c9@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261222T030000Z
+DTEND:20261222T040000Z
+SUMMARY:City Council regular session (City of Springfield)
+LOCATION:Springfield City Hall\, Council Chambers\, 225 Fifth St.
+URL:https://www.springfield-or.gov/city/city-council-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:eacba415fe94@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261223T200000Z
+DTEND:20261223T210000Z
+SUMMARY:City Council work session (online) (City of Eugene)
+LOCATION:Online
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
 UID:b0c05ff9c8f7@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261225T170000Z
 DTEND:20261225T190000Z
 SUMMARY:Business Assistance Committee Meeting (City of Veneta)
@@ -136,8 +244,26 @@ LOCATION:
 URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1190
 END:VEVENT
 BEGIN:VEVENT
+UID:6984cbed9840@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261229T013000Z
+DTEND:20261229T023000Z
+SUMMARY:City Council work session (City of Eugene)
+LOCATION:Eugene City Hall\, 500 E. 4th Ave. (and online)
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:11badef896a4@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261229T013000Z
+DTEND:20261229T023000Z
+SUMMARY:City Council work session (City of Springfield)
+LOCATION:Springfield City Hall\, 225 Fifth St.
+URL:https://www.springfield-or.gov/city/city-council-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:b1c3d8e6003b@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261229T023000Z
 DTEND:20261229T043000Z
 SUMMARY:City Council Work Session (City of Veneta)
@@ -145,8 +271,35 @@ LOCATION:
 URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1154
 END:VEVENT
 BEGIN:VEVENT
+UID:fd77c994e123@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261229T033000Z
+DTEND:20261229T043000Z
+SUMMARY:City Council meeting (City of Eugene)
+LOCATION:Eugene City Hall\, 500 E. 4th Ave. (and online)
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:48d0c09f217e@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261230T200000Z
+DTEND:20261230T210000Z
+SUMMARY:City Council work session (online) (City of Eugene)
+LOCATION:Online
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:4557e7c7e252@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270105T030000Z
+DTEND:20270105T040000Z
+SUMMARY:City Council regular session (City of Springfield)
+LOCATION:Springfield City Hall\, Council Chambers\, 225 Fifth St.
+URL:https://www.springfield-or.gov/city/city-council-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:54d6563ca586@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270106T001500Z
 DTEND:20270106T013000Z
 SUMMARY:Park Board Meeting (City of Veneta)
@@ -155,7 +308,7 @@ URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1252
 END:VEVENT
 BEGIN:VEVENT
 UID:db9ff2247e60@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270106T023000Z
 DTEND:20270106T043000Z
 SUMMARY:Planning Commission Meeting (City of Veneta)
@@ -163,8 +316,26 @@ LOCATION:
 URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1225
 END:VEVENT
 BEGIN:VEVENT
+UID:b15022039429@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270112T013000Z
+DTEND:20270112T023000Z
+SUMMARY:City Council work session (City of Eugene)
+LOCATION:Eugene City Hall\, 500 E. 4th Ave. (and online)
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:3378a4a53e2b@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270112T013000Z
+DTEND:20270112T023000Z
+SUMMARY:City Council work session (City of Springfield)
+LOCATION:Springfield City Hall\, 225 Fifth St.
+URL:https://www.springfield-or.gov/city/city-council-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:5ed21d48b772@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270112T023000Z
 DTEND:20270112T043000Z
 SUMMARY:City Council Meeting (City of Veneta)
@@ -172,8 +343,35 @@ LOCATION:
 URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1201
 END:VEVENT
 BEGIN:VEVENT
+UID:a985819e3510@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270112T033000Z
+DTEND:20270112T043000Z
+SUMMARY:City Council meeting (City of Eugene)
+LOCATION:Eugene City Hall\, 500 E. 4th Ave. (and online)
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:557fa311aad1@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270113T200000Z
+DTEND:20270113T210000Z
+SUMMARY:City Council work session (online) (City of Eugene)
+LOCATION:Online
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:ea3247762da7@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270120T200000Z
+DTEND:20270120T210000Z
+SUMMARY:City Council work session (online) (City of Eugene)
+LOCATION:Online
+URL:https://www.eugene-or.gov/
+END:VEVENT
+BEGIN:VEVENT
 UID:0127dad94da5@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270120T233000Z
 DTEND:20270121T010000Z
 SUMMARY:Economic Development Committee Meeting (City of Veneta)

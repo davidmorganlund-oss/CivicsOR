@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsOR//Public meetings//EN
+X-WR-CALNAME:CivicsOR Umatilla County
+BEGIN:VEVENT
+UID:f1eacb154cca@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261124T030000Z
+DTEND:20261124T040000Z
+SUMMARY:City Council meeting (City of Hermiston)
+LOCATION:
+URL:https://www.hermiston.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:13b480c2f786@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261202T030000Z
+DTEND:20261202T040000Z
+SUMMARY:City Council meeting (City of Pendleton)
+LOCATION:Pendleton City Hall\, Council Chambers\, 500 SW Dorion Ave.
+URL:https://pendletonor.gov/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:e19420ff3717@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261215T030000Z
+DTEND:20261215T040000Z
+SUMMARY:City Council meeting (City of Hermiston)
+LOCATION:
+URL:https://www.hermiston.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:407312253a60@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261216T030000Z
+DTEND:20261216T040000Z
+SUMMARY:City Council meeting (City of Pendleton)
+LOCATION:Pendleton City Hall\, Council Chambers\, 500 SW Dorion Ave.
+URL:https://pendletonor.gov/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:e97060a4cd68@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261229T030000Z
+DTEND:20261229T040000Z
+SUMMARY:City Council meeting (City of Hermiston)
+LOCATION:
+URL:https://www.hermiston.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:b4e84e7f5fba@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270106T030000Z
+DTEND:20270106T040000Z
+SUMMARY:City Council meeting (City of Pendleton)
+LOCATION:Pendleton City Hall\, Council Chambers\, 500 SW Dorion Ave.
+URL:https://pendletonor.gov/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:e74f856be195@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270112T030000Z
+DTEND:20270112T040000Z
+SUMMARY:City Council meeting (City of Hermiston)
+LOCATION:
+URL:https://www.hermiston.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:7a11a8325ea9@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270120T030000Z
+DTEND:20270120T040000Z
+SUMMARY:City Council meeting (City of Pendleton)
+LOCATION:Pendleton City Hall\, Council Chambers\, 500 SW Dorion Ave.
+URL:https://pendletonor.gov/meetings
+END:VEVENT
+END:VCALENDAR

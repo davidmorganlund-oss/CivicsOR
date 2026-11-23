@@ -3,8 +3,44 @@ VERSION:2.0
 PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Washington County
 BEGIN:VEVENT
+UID:1b9127fc1eaa@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261124T010000Z
+DTEND:20261124T020000Z
+SUMMARY:City Council work session (City of Tualatin)
+LOCATION:Tualatin City Services Building\, 10699 SW Herman Rd.
+URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:d06ad668e6f2@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261124T030000Z
+DTEND:20261124T040000Z
+SUMMARY:City Council meeting (City of Forest Grove)
+LOCATION:Community Auditorium\, 1915 Main St.
+URL:https://forestgrove-or.gov/365
+END:VEVENT
+BEGIN:VEVENT
+UID:0cb0200f021a@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261124T030000Z
+DTEND:20261124T040000Z
+SUMMARY:City Council meeting (City of Tualatin)
+LOCATION:Tualatin City Services Building\, 10699 SW Herman Rd.
+URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:cbc59db03078@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261125T023000Z
+DTEND:20261125T033000Z
+SUMMARY:City Council meeting (City of Tigard)
+LOCATION:Tigard City Hall\, 13125 SW Hall Blvd. (and online)
+URL:https://www.tigard-or.gov/your-government/council/council-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:fe2f6f1bc655@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261128T190000Z
 DTEND:20261128T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -13,7 +49,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514217
 END:VEVENT
 BEGIN:VEVENT
 UID:a01cff65d478@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Board of Commissioners regular business meeting (Washington County)
 LOCATION:Public Services Building\, 155 N. First Ave.\, Hillsboro (and onli
@@ -22,7 +58,7 @@ URL:https://www.washingtoncountyor.gov/bcc
 END:VEVENT
 BEGIN:VEVENT
 UID:4139a3b77d95@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -32,7 +68,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:6d1b785b90f8@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261202T020000Z
 DTEND:20261202T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -40,8 +76,26 @@ LOCATION:Hillsboro Civic Center Auditorium\, 150 E. Main St. (and on Zoom)
 URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
+UID:7398b2e24922@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261202T023000Z
+DTEND:20261202T033000Z
+SUMMARY:City Council meeting (City of Tigard)
+LOCATION:Tigard City Hall\, 13125 SW Hall Blvd. (and online)
+URL:https://www.tigard-or.gov/your-government/council/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:f173db9103ea@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261202T030000Z
+DTEND:20261202T040000Z
+SUMMARY:City Council meeting (City of Sherwood)
+LOCATION:Sherwood City Hall\, 22560 SW Pine St.
+URL:https://www.sherwoodoregon.gov/citycouncil
+END:VEVENT
+BEGIN:VEVENT
 UID:fa650db652c2@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261203T013000Z
 DTEND:20261203T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -50,7 +104,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801076
 END:VEVENT
 BEGIN:VEVENT
 UID:030446a10c66@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261203T020000Z
 DTEND:20261203T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -60,7 +114,7 @@ URL:https://wccls.bibliocommons.com/events/6a9b09d55e6fc10d05512b30
 END:VEVENT
 BEGIN:VEVENT
 UID:6412ac3e9d2a@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261204T013000Z
 DTEND:20261204T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -71,7 +125,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa6
 END:VEVENT
 BEGIN:VEVENT
 UID:1d90baf16a13@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261205T190000Z
 DTEND:20261205T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -80,7 +134,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514218
 END:VEVENT
 BEGIN:VEVENT
 UID:30ed649c541a@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261208T170000Z
 DTEND:20261208T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -89,8 +143,17 @@ LOCATION:Public Services Building\, Room 120D\, 155 N. First Ave.\, Hillsbo
 URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
+UID:8316f9438b19@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261209T023000Z
+DTEND:20261209T033000Z
+SUMMARY:City Council meeting (City of Tigard)
+LOCATION:Tigard City Hall\, 13125 SW Hall Blvd. (and online)
+URL:https://www.tigard-or.gov/your-government/council/council-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:d90c7c90fda9@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261210T013000Z
 DTEND:20261210T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -99,7 +162,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801077
 END:VEVENT
 BEGIN:VEVENT
 UID:f1d918a19d2a@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261210T020000Z
 DTEND:20261210T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -109,7 +172,7 @@ URL:https://wccls.bibliocommons.com/events/6a9b09d55e6fc10d05512b31
 END:VEVENT
 BEGIN:VEVENT
 UID:ed81ee134199@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261211T013000Z
 DTEND:20261211T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -120,7 +183,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa7
 END:VEVENT
 BEGIN:VEVENT
 UID:2fbc0e647529@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261212T190000Z
 DTEND:20261212T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -128,8 +191,35 @@ LOCATION:Beaverton City Library\, 12375 SW Fifth St\, Beaverton
 URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514219
 END:VEVENT
 BEGIN:VEVENT
+UID:550a6811d871@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261215T010000Z
+DTEND:20261215T020000Z
+SUMMARY:City Council work session (City of Tualatin)
+LOCATION:Tualatin City Services Building\, 10699 SW Herman Rd.
+URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:39a4a264e0e0@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261215T030000Z
+DTEND:20261215T040000Z
+SUMMARY:City Council meeting (City of Forest Grove)
+LOCATION:Community Auditorium\, 1915 Main St.
+URL:https://forestgrove-or.gov/365
+END:VEVENT
+BEGIN:VEVENT
+UID:cd901bd03342@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261215T030000Z
+DTEND:20261215T040000Z
+SUMMARY:City Council meeting (City of Tualatin)
+LOCATION:Tualatin City Services Building\, 10699 SW Herman Rd.
+URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:27a952fae5c7@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Board of Commissioners regular business meeting (Washington County)
 LOCATION:Public Services Building\, 155 N. First Ave.\, Hillsboro (and onli
@@ -138,7 +228,7 @@ URL:https://www.washingtoncountyor.gov/bcc
 END:VEVENT
 BEGIN:VEVENT
 UID:b122eb774d86@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261215T170000Z
 DTEND:20261215T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -148,7 +238,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:0c46935f3511@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261216T020000Z
 DTEND:20261216T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -156,8 +246,26 @@ LOCATION:Hillsboro Civic Center Auditorium\, 150 E. Main St. (and on Zoom)
 URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
+UID:2e7a84e93527@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261216T023000Z
+DTEND:20261216T033000Z
+SUMMARY:City Council meeting (City of Tigard)
+LOCATION:Tigard City Hall\, 13125 SW Hall Blvd. (and online)
+URL:https://www.tigard-or.gov/your-government/council/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:9917819affbb@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261216T030000Z
+DTEND:20261216T040000Z
+SUMMARY:City Council meeting (City of Sherwood)
+LOCATION:Sherwood City Hall\, 22560 SW Pine St.
+URL:https://www.sherwoodoregon.gov/citycouncil
+END:VEVENT
+BEGIN:VEVENT
 UID:1fe46b6a975d@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261217T013000Z
 DTEND:20261217T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -166,7 +274,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801078
 END:VEVENT
 BEGIN:VEVENT
 UID:37e51986651d@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261217T020000Z
 DTEND:20261217T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -176,7 +284,7 @@ URL:https://wccls.bibliocommons.com/events/6ada54512b40e729fed354d7
 END:VEVENT
 BEGIN:VEVENT
 UID:f888eb0c9ca7@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261218T013000Z
 DTEND:20261218T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -187,7 +295,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa8
 END:VEVENT
 BEGIN:VEVENT
 UID:f97bf3e4583d@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20261219T190000Z
 DTEND:20261219T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -195,8 +303,44 @@ LOCATION:Beaverton City Library\, 12375 SW Fifth St\, Beaverton
 URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e003851421a
 END:VEVENT
 BEGIN:VEVENT
+UID:051067514d34@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261223T023000Z
+DTEND:20261223T033000Z
+SUMMARY:City Council meeting (City of Tigard)
+LOCATION:Tigard City Hall\, 13125 SW Hall Blvd. (and online)
+URL:https://www.tigard-or.gov/your-government/council/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:2e56517d98c2@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261229T010000Z
+DTEND:20261229T020000Z
+SUMMARY:City Council work session (City of Tualatin)
+LOCATION:Tualatin City Services Building\, 10699 SW Herman Rd.
+URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:8569172e6cc5@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261229T030000Z
+DTEND:20261229T040000Z
+SUMMARY:City Council meeting (City of Forest Grove)
+LOCATION:Community Auditorium\, 1915 Main St.
+URL:https://forestgrove-or.gov/365
+END:VEVENT
+BEGIN:VEVENT
+UID:271a3eefaf50@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20261229T030000Z
+DTEND:20261229T040000Z
+SUMMARY:City Council meeting (City of Tualatin)
+LOCATION:Tualatin City Services Building\, 10699 SW Herman Rd.
+URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:89ee51b30438@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Board of Commissioners regular business meeting (Washington County)
 LOCATION:Public Services Building\, 155 N. First Ave.\, Hillsboro (and onli
@@ -205,7 +349,7 @@ URL:https://www.washingtoncountyor.gov/bcc
 END:VEVENT
 BEGIN:VEVENT
 UID:95577c4a0b49@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270105T170000Z
 DTEND:20270105T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -215,7 +359,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:5b302d9cd0a8@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270106T020000Z
 DTEND:20270106T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -223,8 +367,26 @@ LOCATION:Hillsboro Civic Center Auditorium\, 150 E. Main St. (and on Zoom)
 URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
+UID:cf210ab85ef3@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270106T023000Z
+DTEND:20270106T033000Z
+SUMMARY:City Council meeting (City of Tigard)
+LOCATION:Tigard City Hall\, 13125 SW Hall Blvd. (and online)
+URL:https://www.tigard-or.gov/your-government/council/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:2a35b4b5a30d@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270106T030000Z
+DTEND:20270106T040000Z
+SUMMARY:City Council meeting (City of Sherwood)
+LOCATION:Sherwood City Hall\, 22560 SW Pine St.
+URL:https://www.sherwoodoregon.gov/citycouncil
+END:VEVENT
+BEGIN:VEVENT
 UID:41828860d2af@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270108T013000Z
 DTEND:20270108T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -233,8 +395,35 @@ LOCATION:Hillsboro Public Library\, Brookwood\, 2850 NE Brookwood Pkwy\, Hi
 URL:https://wccls.bibliocommons.com/events/6afe0a6d0f200f1859859a8b
 END:VEVENT
 BEGIN:VEVENT
+UID:00d794ba4e44@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270112T010000Z
+DTEND:20270112T020000Z
+SUMMARY:City Council work session (City of Tualatin)
+LOCATION:Tualatin City Services Building\, 10699 SW Herman Rd.
+URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:4f39ced23c27@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270112T030000Z
+DTEND:20270112T040000Z
+SUMMARY:City Council meeting (City of Forest Grove)
+LOCATION:Community Auditorium\, 1915 Main St.
+URL:https://forestgrove-or.gov/365
+END:VEVENT
+BEGIN:VEVENT
+UID:5676442cd7ab@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270112T030000Z
+DTEND:20270112T040000Z
+SUMMARY:City Council meeting (City of Tualatin)
+LOCATION:Tualatin City Services Building\, 10699 SW Herman Rd.
+URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:2b30f5749994@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270112T170000Z
 DTEND:20270112T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -243,8 +432,17 @@ LOCATION:Public Services Building\, Room 120D\, 155 N. First Ave.\, Hillsbo
 URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
+UID:6cbea4ec54ed@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270113T023000Z
+DTEND:20270113T033000Z
+SUMMARY:City Council meeting (City of Tigard)
+LOCATION:Tigard City Hall\, 13125 SW Hall Blvd. (and online)
+URL:https://www.tigard-or.gov/your-government/council/council-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:8a3c5a2e8d5d@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270115T013000Z
 DTEND:20270115T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -254,7 +452,7 @@ URL:https://wccls.bibliocommons.com/events/6afe0a6d0f200f1859859a8c
 END:VEVENT
 BEGIN:VEVENT
 UID:fc5924cf618d@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART;VALUE=DATE:20270119
 SUMMARY:Board of Commissioners regular business meeting (Washington County)
 LOCATION:Public Services Building\, 155 N. First Ave.\, Hillsboro (and onli
@@ -263,7 +461,7 @@ URL:https://www.washingtoncountyor.gov/bcc
 END:VEVENT
 BEGIN:VEVENT
 UID:2b55c9477cc3@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270119T170000Z
 DTEND:20270119T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -273,7 +471,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:35544ccef113@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270120T020000Z
 DTEND:20270120T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -281,8 +479,26 @@ LOCATION:Hillsboro Civic Center Auditorium\, 150 E. Main St. (and on Zoom)
 URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
+UID:adfafda068e2@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270120T023000Z
+DTEND:20270120T033000Z
+SUMMARY:City Council meeting (City of Tigard)
+LOCATION:Tigard City Hall\, 13125 SW Hall Blvd. (and online)
+URL:https://www.tigard-or.gov/your-government/council/council-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:538971e4d11e@civicsor
+DTSTAMP:20261123T051524Z
+DTSTART:20270120T030000Z
+DTEND:20270120T040000Z
+SUMMARY:City Council meeting (City of Sherwood)
+LOCATION:Sherwood City Hall\, 22560 SW Pine St.
+URL:https://www.sherwoodoregon.gov/citycouncil
+END:VEVENT
+BEGIN:VEVENT
 UID:eda510bf8400@civicsor
-DTSTAMP:20261123T051054Z
+DTSTAMP:20261123T051524Z
 DTSTART:20270122T013000Z
 DTEND:20270122T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
