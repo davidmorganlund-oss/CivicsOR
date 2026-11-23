@@ -144,12 +144,26 @@ def check_robots(url):
         raise RobotsBlocked(f"robots.txt at {parts.netloc} asks automated readers not to read {parts.path}")
 
 
-def get(url, params=None):
+RETRY_STATUS = {429, 500, 502, 503, 504}
+
+
+def get(url, params=None, tries=3):
+    """Fetch a page, trying again a couple of times after a server hiccup
+    (a 5xx or a timeout), which is usually gone a few seconds later."""
+    import time
     import requests
     check_robots(url)
-    resp = requests.get(url, params=params, headers={"User-Agent": UA}, timeout=TIMEOUT)
-    resp.raise_for_status()
-    return resp
+    for attempt in range(tries):
+        try:
+            resp = requests.get(url, params=params, headers={"User-Agent": UA}, timeout=TIMEOUT)
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == tries - 1:
+                raise
+        else:
+            if resp.status_code not in RETRY_STATUS or attempt == tries - 1:
+                resp.raise_for_status()
+                return resp
+        time.sleep(3 * (attempt + 1))
 
 
 # ---------- agenda highlights ----------

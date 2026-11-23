@@ -24,6 +24,10 @@ PLATFORMS = {
     "agendaquick": r"([a-z0-9-]+)\.agendaquick\.com",
     "simbli": r"simbli\.eboardsolutions\.com/[^\"']*?S=(\d+)",
     "govaccess": r"(RssFeed/View\?ctID=\d+(?:&(?:amp;)?cateIDs=[\d,]+)?)",
+    "libcal": r"([a-z0-9-]+\.libcal\.com)",
+    "communico": r"([a-z0-9-]+)\.libnet\.info",
+    "bibliocommons": r"([a-z0-9]+)\.bibliocommons\.com",
+    "assabet": r"([a-z0-9-]+)\.assabetinteractive\.com",
     "gcal": r"calendar\.google\.com/calendar/(?:u/\d/?)?(?:embed|ical|r)?[^\"'\s]*?[?&;](?:src|cid)=([^&\"'\s]+)",
 }
 LINK_HINT = re.compile(r"agenda|meeting|council|commission|calendar|minutes|board|events", re.I)

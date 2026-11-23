@@ -18,7 +18,13 @@ def slug(name):
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
+LIB_DISTRICT = re.compile(r"district|county|cooperative|network|regional|services", re.I)
+LIB_CITY = re.compile(r"\s*(public|city|community|memorial|carnegie)?\s*(public\s*)?(/school\s*)?library.*$", re.I)
+
+
 def area_for(r, kind):
+    if kind == "library":
+        return "countywide" if LIB_DISTRICT.search(r["name"]) else LIB_CITY.sub("", r["name"]).strip() or "countywide"
     if kind == "county" or r["name"].endswith(" County"):
         return "countywide"
     if kind == "school":
@@ -32,6 +38,16 @@ def candidates(r, kind):
     title = f"City of {name}" if kind == "city" and not name.endswith("County") else name
     sid = slug(name if kind != "school" else name.replace(" SD ", " sd "))
     f = r.get("found", {})
+    if kind == "library":
+        title = name
+        for h in f.get("libcal", [])[:1]:
+            out.append({"id": sid, "name": title, "type": "libcal", "host": h, "civic_only": True, **base,
+                        "category": "library", "homepage": f"https://{h}/calendar"})
+        for t in f.get("bibliocommons", [])[:1]:
+            if not out:
+                out.append({"id": sid, "name": title, "type": "bibliocommons", "library": t,
+                            "searches": ["board", "trustee", "voter", "citizenship", "civic", "town hall"], **base,
+                            "category": "library", "homepage": f"https://{t}.bibliocommons.com/v2/events"})
     for t in f.get("legistar", [])[:1]:
         out.append({"id": sid, "name": title, "type": "legistar", "client": t, **base,
                     "homepage": f"https://{t}.legistar.com/Calendar.aspx"})
@@ -93,6 +109,12 @@ def candidates(r, kind):
             if u.startswith("http"):
                 out.append({"id": sid, "name": title, "type": "ics", "url": u, **base,
                             "drop_uncategorized": True, "homepage": r["final"]})
+    if kind == "library":
+        for s in out:
+            s.setdefault("category", "library")
+            if s["type"] == "ics":
+                s["include"] = r"\bboard\b|trustee|budget committee|public hearing|advisory committee"
+                s.pop("drop_uncategorized", None)
     if kind == "school":
         for s in out:
             s["include"] = r"\bboard\b|budget committee|public hearing"
