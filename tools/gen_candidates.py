@@ -62,6 +62,22 @@ def candidates(r, kind):
         if cats:
             out.append({"id": sid, "name": title, "type": "civicplus", "site": cp["root"], "categories": cats,
                         **base, "drop_uncategorized": True, "homepage": cp["root"] + "/Calendar.aspx"})
+    if not out and (r.get("fs_calendars") or {}).get("ids"):
+        fs = r["fs_calendars"]
+        ids = sorted({i for chunk in fs["ids"] for i in chunk.split(",") if i})
+        q = "&".join(f"calendar_ids[]={i}" for i in ids)
+        out.append({"id": sid, "name": title, "type": "ics", **base,
+                    "url": f"{fs['root']}/fs/calendar-manager/events.ics?{q}", "homepage": r["final"]})
+    if not out and (r.get("apptegy_info") or {}).get("feeds"):
+        m = re.search(r"/api/v\d/o/(\d+)/", r["apptegy_info"]["feeds"][0])
+        if m:
+            out.append({"id": sid, "name": title, "type": "apptegy", "org": int(m.group(1)), **base,
+                        "homepage": r["final"]})
+    if not out and r.get("wordpress"):
+        root = re.match(r"https?://[^/]+", r["final"]).group(0)
+        out.append({"id": sid, "name": title, "type": "ics", **base, "url": f"{root}/events/?ical=1",
+                    "include": "council|commission|board|committee|hearing|meeting|session|workshop",
+                    "homepage": f"{root}/events/"})
     if not out:
         for g in f.get("gcal", [])[:2]:
             cid = unquote(g).split("&")[0]
@@ -79,7 +95,7 @@ def candidates(r, kind):
                             "drop_uncategorized": True, "homepage": r["final"]})
     if kind == "school":
         for s in out:
-            s["include"] = r"\bboard\b|budget committee|work session|public hearing"
+            s["include"] = r"\bboard\b|budget committee|public hearing"
             s["category"] = "school"
             s.pop("drop_uncategorized", None)
     return out

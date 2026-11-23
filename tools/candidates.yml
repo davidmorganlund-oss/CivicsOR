@@ -1,634 +1,824 @@
 sources:
-- id: ashland
-  name: City of Ashland
-  type: civicclerk
-  tenant: ashlandor
-  county: Jackson
-  area: Ashland
-  homepage: https://ashlandor.portal.civicclerk.com/
-- id: astoria
-  name: City of Astoria
-  type: granicus
-  tenant: astoria
-  view_id: 1
-  county: Clatsop
-  area: Astoria
-  homepage: https://astoria.granicus.com/viewpublisher.php?view_id=1
-- id: baker-city
-  name: City of Baker City
-  type: civicplus
-  site: https://www.bakercity.com
-  categories:
-  - 14
-  county: Baker
-  area: Baker City
-  drop_uncategorized: true
-  homepage: https://www.bakercity.com/Calendar.aspx
-- id: bandon
-  name: City of Bandon
-  type: civicplus
-  site: https://www.bandon-or.gov
-  categories:
-  - 22
-  county: Coos
-  area: Bandon
-  drop_uncategorized: true
-  homepage: https://www.bandon-or.gov/Calendar.aspx
-- id: boardman
-  name: City of Boardman
-  type: civicclerk
-  tenant: boardmanor
-  county: Morrow
-  area: Boardman
-  homepage: https://boardmanor.portal.civicclerk.com/
-- id: brookings
-  name: City of Brookings
-  type: civicplus
-  site: https://www.brookings.or.us
-  categories:
-  - 32
-  - 33
-  - 26
-  - 35
-  county: Curry
-  area: Brookings
-  drop_uncategorized: true
-  homepage: https://www.brookings.or.us/Calendar.aspx
-- id: carlton
-  name: City of Carlton
+- id: corvallis-sd-509j
+  name: Corvallis SD 509J
   type: ics
-  url: https://www.ci.carlton.or.us/calendar/ical/calendar.ics
-  county: Yamhill
-  area: Carlton
-  drop_uncategorized: true
-  homepage: https://www.ci.carlton.or.us/
-- id: central-point
-  name: City of Central Point
-  type: civicplus
-  site: https://www.centralpointoregon.gov
-  categories:
-  - 23
-  county: Jackson
-  area: Central Point
-  drop_uncategorized: true
-  homepage: https://www.centralpointoregon.gov/Calendar.aspx
-- id: coquille
-  name: City of Coquille
-  type: civicplus
-  site: https://www.cityofcoquille.org
-  categories:
-  - 24
-  county: Coos
-  area: Coquille
-  drop_uncategorized: true
-  homepage: https://www.cityofcoquille.org/Calendar.aspx
-- id: cornelius
-  name: City of Cornelius
-  type: civicplus
-  site: https://www.corneliusor.gov
-  categories:
-  - 34
-  - 38
-  - 43
-  - 37
-  - 35
-  - 36
-  - 39
-  - 40
-  - 41
-  county: Washington
-  area: Cornelius
-  drop_uncategorized: true
-  homepage: https://www.corneliusor.gov/Calendar.aspx
-- id: cottage-grove
-  name: City of Cottage Grove
-  type: civicplus
-  site: https://www.cottagegroveor.gov
-  categories:
-  - 23
-  county: Lane
-  area: Cottage Grove
-  drop_uncategorized: true
-  homepage: https://www.cottagegroveor.gov/Calendar.aspx
-- id: detroit
-  name: City of Detroit
-  type: ics
-  url: https://detroitoregon.us/events/?ical=1
-  county: Marion
-  area: Detroit
-  drop_uncategorized: true
-  homepage: https://detroitoregon.us/
-- id: elgin
-  name: City of Elgin
-  type: civicplus
-  site: https://elginil.gov
-  categories:
-  - 15
-  county: Union
-  area: Elgin
-  drop_uncategorized: true
-  homepage: https://elginil.gov/Calendar.aspx
-- id: enterprise
-  name: City of Enterprise
-  type: ics
-  url: https://www.enterpriseoregon.gov/calendar/ical/calendar.ics
-  county: Wallowa
-  area: Enterprise
-  drop_uncategorized: true
-  homepage: https://www.enterpriseoregon.gov/
-- id: fairview
-  name: City of Fairview
-  type: civicplus
-  site: https://www.fairvieworegon.gov
-  categories:
-  - 22
-  - 23
-  - 24
-  - 31
-  - 27
-  - 32
-  county: Multnomah
-  area: Fairview
-  drop_uncategorized: true
-  homepage: https://www.fairvieworegon.gov/Calendar.aspx
-- id: florence
-  name: City of Florence
-  type: civicplus
-  site: https://www.ci.florence.or.us
-  categories:
-  - 29
-  - 30
-  - 31
-  - 24
-  - 26
-  - 27
-  county: Lane
-  area: Florence
-  drop_uncategorized: true
-  homepage: https://www.ci.florence.or.us/Calendar.aspx
-- id: gearhart
-  name: City of Gearhart
-  type: civicplus
-  site: https://www.cityofgearhart.com
-  categories:
-  - 22
-  - 23
-  county: Clatsop
-  area: Gearhart
-  drop_uncategorized: true
-  homepage: https://www.cityofgearhart.com/Calendar.aspx
-- id: grants-pass
-  name: City of Grants Pass
-  type: civicplus
-  site: https://www.grantspassoregon.gov
-  categories:
-  - 30
-  - 31
-  - 44
-  - 26
-  - 32
-  - 52
-  - 34
-  - 35
-  - 69
-  - 73
-  - 39
-  - 40
-  - 42
-  county: Josephine
-  area: Grants Pass
-  drop_uncategorized: true
-  homepage: https://www.grantspassoregon.gov/Calendar.aspx
-- id: gresham
-  name: City of Gresham
-  type: primegov
-  tenant: gresham
-  county: Multnomah
-  area: Gresham
-  homepage: https://gresham.primegov.com/public/portal
-- id: happy-valley
-  name: City of Happy Valley
-  type: iqm2_rss
-  county: Clackamas
-  area: Happy Valley
-  url: https://happyvalleycityor.iqm2.com/Services/RSS.aspx?Feed=Calendar
-  homepage: https://happyvalleycityor.iqm2.com/Citizens/Calendar.aspx
-- id: independence
-  name: City of Independence
-  type: civicclerk
-  tenant: independenceor
-  county: Polk
-  area: Independence
-  homepage: https://independenceor.portal.civicclerk.com/
-- id: independence-2
-  name: City of Independence
-  type: civicweb
-  tenant: ciindependenceor
-  county: Polk
-  area: Independence
-  homepage: https://ciindependenceor.civicweb.net/Portal/MeetingSchedule.aspx
-- id: irrigon
-  name: City of Irrigon
-  type: ics
-  url: https://ci.irrigon.or.us/event/city-council-meeting-3/2026-12-15/?ical=1
-  county: Morrow
-  area: Irrigon
-  drop_uncategorized: true
-  homepage: https://ci.irrigon.or.us/
-- id: jacksonville
-  name: City of Jacksonville
-  type: legistar
-  client: jaxcityc
-  county: Jackson
-  area: Jacksonville
-  homepage: https://jaxcityc.legistar.com/Calendar.aspx
-- id: keizer
-  name: City of Keizer
-  type: civicclerk
-  tenant: keizeror
-  county: Marion
-  area: Keizer
-  homepage: https://keizeror.portal.civicclerk.com/
-- id: la-pine
-  name: City of La Pine
-  type: civicplus
-  site: https://www.lapineoregon.gov
-  categories:
-  - 22
-  county: Deschutes
-  area: La Pine
-  drop_uncategorized: true
-  homepage: https://www.lapineoregon.gov/Calendar.aspx
-- id: lebanon
-  name: City of Lebanon
-  type: municode
-  county: Linn
-  area: Lebanon
-  url: https://lebanon-or.municodemeetings.com/
-  homepage: https://lebanon-or.municodemeetings.com/
-- id: madras
-  name: City of Madras
-  type: civicplus
-  site: https://www.madras.gov
-  categories:
-  - 26
-  - 28
-  - 22
-  - 27
-  - 32
-  - 23
-  - 29
-  - 24
-  - 25
-  county: Jefferson
-  area: Madras
-  drop_uncategorized: true
-  homepage: https://www.madras.gov/Calendar.aspx
-- id: maywood-park
-  name: City of Maywood Park
-  type: ics
-  county: Multnomah
-  area: Maywood Park
-  url: https://calendar.google.com/calendar/ical/office%40cityofmaywoodpark.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://cityofmaywoodpark.com/
-- id: mcminnville
-  name: City of McMinnville
-  type: ics
-  url: https://mcminnville.org/events/?ical=1
-  county: Yamhill
-  area: McMinnville
-  drop_uncategorized: true
-  homepage: https://mcminnville.org/
-- id: millersburg
-  name: City of Millersburg
-  type: civicplus
-  site: https://www.millersburgoregon.gov
-  categories:
-  - 28
-  - 22
-  - 26
-  - 23
-  county: Linn
-  area: Millersburg
-  drop_uncategorized: true
-  homepage: https://www.millersburgoregon.gov/Calendar.aspx
-- id: monroe
-  name: City of Monroe
-  type: civicplus
-  site: https://www.monroeoregon.gov
-  categories:
-  - 23
   county: Benton
-  area: Monroe
-  drop_uncategorized: true
-  homepage: https://www.monroeoregon.gov/Calendar.aspx
-- id: moro
-  name: City of Moro
+  area: countywide
+  url: https://www.csd509j.net/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.csd509j.net/events/
+  category: school
+- id: monroe-sd-1j
+  name: Monroe SD 1J
   type: ics
-  county: Sherman
-  area: Moro
-  url: https://calendar.google.com/calendar/ical/lsa9tne2fu35ird6uaruqf3kps%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://cityofmoro.net/
-- id: newport
-  name: City of Newport
+  county: Benton
+  area: countywide
+  url: https://monroe.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://monroe.k12.or.us/events/
+  category: school
+- id: philomath-sd-17j
+  name: Philomath SD 17J
+  type: ics
+  county: Benton
+  area: countywide
+  url: https://www.philomathsd.net/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.philomathsd.net/events/
+  category: school
+- id: lake-oswego-sd-7j
+  name: Lake Oswego SD 7J
   type: granicus
-  tenant: thecityofnewport
-  view_id: 1
-  county: Lincoln
-  area: Newport
-  homepage: https://thecityofnewport.granicus.com/viewpublisher.php?view_id=1
-- id: pendleton
-  name: City of Pendleton
-  type: civicweb
-  tenant: cityofpendletonor
-  county: Umatilla
-  area: Pendleton
-  homepage: https://cityofpendletonor.civicweb.net/Portal/MeetingSchedule.aspx
-- id: port-orford
-  name: City of Port Orford
-  type: ics
-  county: Curry
-  area: Port Orford
-  url: https://calendar.google.com/calendar/ical/portorford.meeting%40gmail.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://portorford.org/
-- id: prineville
-  name: City of Prineville
-  type: civicplus
-  site: https://www.cityofprineville.com
-  categories:
-  - 22
-  county: Crook
-  area: Prineville
-  drop_uncategorized: true
-  homepage: https://www.cityofprineville.com/Calendar.aspx
-- id: rockaway-beach
-  name: City of Rockaway Beach
-  type: civicclerk
-  tenant: rockawaybeachor
-  county: Tillamook
-  area: Rockaway Beach
-  homepage: https://rockawaybeachor.portal.civicclerk.com/
-- id: scappoose
-  name: City of Scappoose
-  type: civicplus
-  site: https://www.scappoose.gov
-  categories:
-  - 24
-  - 22
-  - 23
-  county: Columbia
-  area: Scappoose
-  drop_uncategorized: true
-  homepage: https://www.scappoose.gov/Calendar.aspx
-- id: scotts-mills
-  name: City of Scotts Mills
-  type: ics
-  county: Marion
-  area: Scotts Mills
-  url: https://calendar.google.com/calendar/ical/scottsmills.org_l4mf85t33nc2pm1aes3i980iro%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.scottsmills.org/
-- id: shady-cove
-  name: City of Shady Cove
-  type: ics
-  url: https://shadycove.org/events/?ical=1
-  county: Jackson
-  area: Shady Cove
-  drop_uncategorized: true
-  homepage: https://shadycove.org/
-- id: sherwood
-  name: City of Sherwood
-  type: ics
-  county: Washington
-  area: Sherwood
-  url: https://calendar.google.com/calendar/ical/mwebb%40sherwood.org/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://sherwood.org/
-- id: springfield
-  name: City of Springfield
-  type: ics
-  url: https://springfield-or.gov/events/?ical=1
-  county: Lane
-  area: Springfield
-  drop_uncategorized: true
-  homepage: https://springfield-or.gov/
-- id: sweet-home
-  name: City of Sweet Home
-  type: civicclerk
-  tenant: sweethomeor
-  county: Linn
-  area: Sweet Home
-  homepage: https://sweethomeor.portal.civicclerk.com/
-- id: talent
-  name: City of Talent
-  type: civicplus
-  site: https://www.cityoftalent.org
-  categories:
-  - 26
-  - 27
-  - 24
-  - 34
-  - 29
-  - 30
-  - 25
-  - 31
-  - 33
-  county: Jackson
-  area: Talent
-  drop_uncategorized: true
-  homepage: https://www.cityoftalent.org/Calendar.aspx
-- id: toledo
-  name: City of Toledo
-  type: civicclerk
-  tenant: toledoor
-  county: Lincoln
-  area: Toledo
-  homepage: https://toledoor.portal.civicclerk.com/
-- id: troutdale
-  name: City of Troutdale
-  type: civicplus
-  site: https://www.troutdaleoregon.gov
-  categories:
-  - 33
-  - 34
-  - 27
-  - 31
-  - 24
-  - 23
-  - 30
-  - 25
-  - 32
-  county: Multnomah
-  area: Troutdale
-  drop_uncategorized: true
-  homepage: https://www.troutdaleoregon.gov/Calendar.aspx
-- id: umatilla
-  name: City of Umatilla
-  type: civicweb
-  tenant: umatilla
-  county: Umatilla
-  area: Umatilla
-  homepage: https://umatilla.civicweb.net/Portal/MeetingSchedule.aspx
-- id: veneta
-  name: City of Veneta
-  type: civicplus
-  site: https://www.venetaoregon.gov
-  categories:
-  - 14
-  - 27
-  county: Lane
-  area: Veneta
-  drop_uncategorized: true
-  homepage: https://www.venetaoregon.gov/Calendar.aspx
-- id: vernonia
-  name: City of Vernonia
-  type: ics
-  county: Columbia
-  area: Vernonia
-  url: https://calendar.google.com/calendar/ical/cityofvernonia%40gmail.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.vernonia-or.gov/
-- id: vernonia-2
-  name: City of Vernonia
-  type: ics
-  county: Columbia
-  area: Vernonia
-  url: https://calendar.google.com/calendar/ical/nv7kih3tr89o1hsfp4lo3o2rns%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.vernonia-or.gov/
-- id: wilsonville
-  name: City of Wilsonville
-  type: civicclerk
-  tenant: wilsonvilleor
+  tenant: loswegok12
+  view_id: 3
   county: Clackamas
-  area: Wilsonville
-  homepage: https://wilsonvilleor.portal.civicclerk.com/
-- id: woodburn
-  name: City of Woodburn
-  type: civicplus
-  site: https://www.woodburn-or.gov
-  categories:
-  - 24
-  - 23
-  county: Marion
-  area: Woodburn
-  drop_uncategorized: true
-  homepage: https://www.woodburn-or.gov/Calendar.aspx
-- id: clatsop-county
-  name: Clatsop County
-  type: civicplus
-  site: https://www.clatsopcounty.gov
-  categories:
-  - 25
-  - 24
-  - 38
-  - 27
-  - 30
-  - 23
-  - 28
+  area: countywide
+  homepage: https://loswegok12.granicus.com/viewpublisher.php?view_id=3
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: north-clackamas-sd-12
+  name: North Clackamas SD 12
+  type: ics
+  county: Clackamas
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/c_a3vtql85m8mq44128hm1m31d2o%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.nclack.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: astoria-sd-1
+  name: Astoria SD 1
+  type: ics
   county: Clatsop
   area: countywide
-  drop_uncategorized: true
-  homepage: https://www.clatsopcounty.gov/Calendar.aspx
-- id: crook-county
-  name: Crook County
-  type: civicclerk
-  tenant: crookcoor
+  url: https://calendar.google.com/calendar/ical/c_4953d3e4be710fd23eff32ddd72867916a4ea638d49b30274e60117c1654d9aa%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.astoria.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: seaside-sd-10
+  name: Seaside SD 10
+  type: ics
+  county: Clatsop
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/seasidek12.org_5346hknh2p1rcccrkqijhmp3fg%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.seasidek12.org/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: clatskanie-sd-6j
+  name: Clatskanie SD 6J
+  type: ics
+  county: Columbia
+  area: countywide
+  url: https://www.csd.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.csd.k12.or.us/events/
+  category: school
+- id: bandon-sd-54
+  name: Bandon SD 54
+  type: ics
+  county: Coos
+  area: countywide
+  url: https://bandon.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://bandon.k12.or.us/events/
+  category: school
+- id: coquille-sd-8
+  name: Coquille SD 8
+  type: ics
+  county: Coos
+  area: countywide
+  url: https://www.coquille.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.coquille.k12.or.us/events/
+  category: school
+- id: crook-county-sd
+  name: Crook County SD
+  type: ics
   county: Crook
   area: countywide
-  homepage: https://crookcoor.portal.civicclerk.com/
-- id: deschutes-county
-  name: Deschutes County
-  type: iqm2_rss
+  url: https://www.crookcountyschools.org/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.crookcountyschools.org/events/
+  category: school
+- id: sisters-sd-6
+  name: Sisters SD 6
+  type: ics
   county: Deschutes
   area: countywide
-  url: https://deschutescountyor.iqm2.com/Services/RSS.aspx?Feed=Calendar
-  homepage: https://deschutescountyor.iqm2.com/Citizens/Calendar.aspx
-- id: grant-county
-  name: Grant County
+  url: https://district.ssd6.org/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://district.ssd6.org/events/
+  category: school
+- id: glide-sd-12
+  name: Glide SD 12
   type: ics
-  url: https://www.gcoregonlive.com/calendar/?ical=1
-  county: Grant
+  county: Douglas
   area: countywide
-  drop_uncategorized: true
-  homepage: https://www.gcoregonlive.com/
-- id: lincoln-county
-  name: Lincoln County
+  url: https://calendar.google.com/calendar/ical/c_7as1okbqmapqetkpc1bk7j8o3g%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.glide.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: glide-sd-12-2
+  name: Glide SD 12
+  type: ics
+  county: Douglas
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/glide.k12.or.us_36cst9khui2e0pgc1qumnl7m3c%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.glide.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: reedsport-sd-105
+  name: Reedsport SD 105
+  type: ics
+  county: Douglas
+  area: countywide
+  url: https://www.reedsport.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.reedsport.k12.or.us/events/
+  category: school
+- id: riddle-sd-70
+  name: Riddle SD 70
+  type: apptegy
+  org: 6435
+  county: Douglas
+  area: countywide
+  homepage: https://www.riddleschooldistrict.com/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: harney-county-sd-3
+  name: Harney County SD 3
+  type: ics
+  county: Harney
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/c_4qhamj1rgbm38n10p6k3u9hkds%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.hcsd3.org/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: pinehurst-sd-94
+  name: Pinehurst SD 94
+  type: ics
+  county: Jackson
+  area: countywide
+  url: https://www.pinehurst.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.pinehurst.k12.or.us/events/
+  category: school
+- id: rogue-river-sd-35
+  name: Rogue River SD 35
+  type: ics
+  county: Jackson
+  area: countywide
+  url: https://www.rogueriver.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.rogueriver.k12.or.us/events/
+  category: school
+- id: ashwood-sd-8
+  name: Ashwood SD 8
+  type: ics
+  county: Jefferson
+  area: countywide
+  url: https://ashwood.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://ashwood.k12.or.us/events/
+  category: school
+- id: black-butte-sd-41
+  name: Black Butte SD 41
+  type: ics
+  county: Jefferson
+  area: countywide
+  url: https://www.blackbutte.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.blackbutte.k12.or.us/events/
+  category: school
+- id: culver-sd-4
+  name: Culver SD 4
+  type: ics
+  county: Jefferson
+  area: countywide
+  url: https://www.blackbutte.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.blackbutte.k12.or.us/events/
+  category: school
+- id: creswell-sd-40
+  name: Creswell SD 40
+  type: ics
+  county: Lane
+  area: countywide
+  url: https://creswell.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://creswell.k12.or.us/events/
+  category: school
+- id: fern-ridge-sd-28j
+  name: Fern Ridge SD 28J
+  type: ics
+  county: Lane
+  area: countywide
+  url: https://www.fernridge.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.fernridge.k12.or.us/events/
+  category: school
+- id: springfield-sd-19
+  name: Springfield SD 19
+  type: ics
+  county: Lane
+  area: countywide
+  url: https://www.springfield.k12.or.us/fs/calendar-manager/events.ics?calendar_ids[]=10&calendar_ids[]=11&calendar_ids[]=12&calendar_ids[]=13&calendar_ids[]=14&calendar_ids[]=15&calendar_ids[]=16&calendar_ids[]=17&calendar_ids[]=18&calendar_ids[]=19&calendar_ids[]=2&calendar_ids[]=20&calendar_ids[]=21&calendar_ids[]=22&calendar_ids[]=23&calendar_ids[]=3&calendar_ids[]=4&calendar_ids[]=5&calendar_ids[]=6&calendar_ids[]=7&calendar_ids[]=8&calendar_ids[]=9
+  homepage: https://www.springfield.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: central-linn-sd-552
+  name: Central Linn SD 552
+  type: ics
+  county: Linn
+  area: countywide
+  url: https://www.centrallinn.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.centrallinn.k12.or.us/events/
+  category: school
+- id: lebanon-community-sd-9
+  name: Lebanon Community SD 9
+  type: ics
+  county: Linn
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/santiam.k12.or.us_87890t0da4bd9a3i5ahagvi1dg%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.santiam.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: lebanon-community-sd-9-2
+  name: Lebanon Community SD 9
+  type: ics
+  county: Linn
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/santiam.k12.or.us_890utrgc6g6qc1vsgmko19tkhk%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.santiam.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: scio-sd-95
+  name: Scio SD 95
+  type: ics
+  county: Linn
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/sciok12.org_4fkj2bu81nu3ddoh5fiquk0bds%40group.calendar.google.com/public/basic.ics
+  homepage: https://scio.k12.or.us
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: sweet-home-sd-55
+  name: Sweet Home SD 55
+  type: ics
+  county: Malheur
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/sciok12.org_4fkj2bu81nu3ddoh5fiquk0bds%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.scio.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: north-marion-sd-15
+  name: North Marion SD 15
   type: civicplus
-  site: https://www.co.lincoln.or.us
+  site: https://www.nmarion.k12.or.us
   categories:
-  - 29
-  - 32
-  - 33
-  county: Lincoln
+  - 14
+  county: Marion
   area: countywide
-  drop_uncategorized: true
-  homepage: https://www.co.lincoln.or.us/Calendar.aspx
-- id: multnomah-county
-  name: Multnomah County
-  type: granicus
-  tenant: multnomah
-  view_id: 3
+  homepage: https://www.nmarion.k12.or.us/Calendar.aspx
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: corbett-sd-39
+  name: Corbett SD 39
+  type: ics
   county: Multnomah
   area: countywide
-  homepage: https://multnomah.granicus.com/viewpublisher.php?view_id=3
-- id: polk-county
-  name: Polk County
-  type: civicplus
-  site: https://www.polkcountyor.gov
-  categories:
-  - 24
-  - 25
-  county: Polk
+  url: https://corbett.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://corbett.k12.or.us/events/
+  category: school
+- id: portland-sd-1j
+  name: Portland SD 1J
+  type: ics
+  county: Multnomah
   area: countywide
-  drop_uncategorized: true
-  homepage: https://www.polkcountyor.gov/Calendar.aspx
-- id: umatilla-county
-  name: Umatilla County
+  url: https://www.pps.net/fs/calendar-manager/events.ics?calendar_ids[]=113&calendar_ids[]=159&calendar_ids[]=171
+  homepage: https://www.pps.net/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: neah-kah-nie-sd-56
+  name: Neah-Kah-Nie SD 56
+  type: ics
+  county: Tillamook
+  area: countywide
+  url: https://nknsd.org/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://nknsd.org/events/
+  category: school
+- id: echo-sd-5
+  name: Echo SD 5
   type: ics
   county: Umatilla
   area: countywide
-  url: https://calendar.google.com/calendar/ical/c_i6mt119sdkubgn33dap6nrla2k%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.co.umatilla.or.us/
-- id: umatilla-county-2
-  name: Umatilla County
+  url: https://calendar.google.com/calendar/ical/c_a87082ab54837dab1e4e8ac21703cba3b70ca466c9c0124f87a855545d8413ca%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.echo.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: pendleton-sd-16
+  name: Pendleton SD 16
   type: ics
   county: Umatilla
   area: countywide
-  url: https://calendar.google.com/calendar/ical/umatillacounty.net_ns1ukh7s3fmd6oqc6gstpmfsgs%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.co.umatilla.or.us/
-- id: wallowa-county
-  name: Wallowa County
+  url: https://pendleton.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://pendleton.k12.or.us/events/
+  category: school
+- id: north-powder-sd-8j
+  name: North Powder SD 8J
+  type: ics
+  county: Union
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/npowdersd.org_96s1l31sb3eopmqj2n51egdqvk%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.npowder.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: banks-sd-13
+  name: Banks SD 13
+  type: ics
+  county: Wasco
+  area: countywide
+  url: https://www.banks.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.banks.k12.or.us/events/
+  category: school
+- id: sherwood-sd-88j
+  name: Sherwood SD 88J
+  type: ics
+  county: Washington
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/c_24617d56ce34fb717f81bdcc95b95c7e4086eb66790eceb3c9b42b59844a7638%40group.calendar.google.com/public/basic.ics
+  homepage: https://sherwood.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: amity-sd-4j
+  name: Amity SD 4J
+  type: ics
+  url: https://www.amity.k12.or.us/events.ics
+  county: Yamhill
+  area: countywide
+  homepage: https://www.amity.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: mcminnville-sd-40
+  name: McMinnville SD 40
+  type: ics
+  county: Yamhill
+  area: countywide
+  url: https://www.msd.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.msd.k12.or.us/events/
+  category: school
+- id: sheridan-sd-48j
+  name: Sheridan SD 48J
+  type: ics
+  county: Yamhill
+  area: countywide
+  url: https://www.sheridan.k12.or.us/events/?ical=1
+  include: \bboard\b|budget committee|public hearing
+  homepage: https://www.sheridan.k12.or.us/events/
+  category: school
+- id: willamina-sd-30j
+  name: Willamina SD 30J
+  type: ics
+  county: Yamhill
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/c_f817a7d1751a5a987977c6129e228a977ec82de138cf039c0e20e4205838a3b3%40group.calendar.google.com/public/basic.ics
+  homepage: https://www.willamina.k12.or.us/
+  include: \bboard\b|budget committee|public hearing
+  category: school
+- id: adair-village
+  name: City of Adair Village
+  type: ics
+  county: Benton
+  area: Adair Village
+  url: https://adairvillage.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://adairvillage.org/events/
+- id: amity
+  name: City of Amity
+  type: ics
+  county: Yamhill
+  area: Amity
+  url: https://www.amityoregon.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.amityoregon.gov/events/
+- id: aurora
+  name: City of Aurora
+  type: ics
+  county: Marion
+  area: Aurora
+  url: https://www.aurorahealthcare.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.aurorahealthcare.org/events/
+- id: condon
+  name: City of Condon
+  type: ics
+  county: Gilliam
+  area: Condon
+  url: https://cityofcondon.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofcondon.com/events/
+- id: cove
+  name: City of Cove
+  type: ics
+  county: Union
+  area: Cove
+  url: https://cityofcove.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofcove.org/events/
+- id: culver
+  name: City of Culver
+  type: ics
+  county: Jefferson
+  area: Culver
+  url: https://cityofculver.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofculver.org/events/
+- id: estacada
+  name: City of Estacada
+  type: ics
+  county: Clackamas
+  area: Estacada
+  url: https://www.cityofestacada.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.cityofestacada.org/events/
+- id: garibaldi
+  name: City of Garibaldi
+  type: ics
+  county: Tillamook
+  area: Garibaldi
+  url: https://garibaldi.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://garibaldi.gov/events/
+- id: gold-hill
+  name: City of Gold Hill
+  type: ics
+  county: Jackson
+  area: Gold Hill
+  url: https://www.cityofgoldhill.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.cityofgoldhill.gov/events/
+- id: haines
+  name: City of Haines
+  type: ics
+  county: Baker
+  area: Haines
+  url: https://haines.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://haines.com/events/
+- id: heppner
+  name: City of Heppner
+  type: ics
+  county: Morrow
+  area: Heppner
+  url: https://cityofheppner.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofheppner.org/events/
+- id: hood-river
+  name: City of Hood River
+  type: ics
+  county: Hood River
+  area: Hood River
+  url: https://cityofhoodriver.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofhoodriver.gov/events/
+- id: hubbard
+  name: City of Hubbard
+  type: ics
+  county: Marion
+  area: Hubbard
+  url: https://hubbard.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://hubbard.com/events/
+- id: imbler
+  name: City of Imbler
+  type: ics
+  county: Union
+  area: Imbler
+  url: https://cityofimbler.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofimbler.org/events/
+- id: ione
+  name: City of Ione
+  type: ics
+  county: Morrow
+  area: Ione
+  url: https://cityofioneoregon.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofioneoregon.gov/events/
+- id: jefferson
+  name: City of Jefferson
+  type: ics
+  county: Marion
+  area: Jefferson
+  url: https://jeffersonoregon.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://jeffersonoregon.org/events/
+- id: lakeview
+  name: City of Lakeview
+  type: ics
+  county: Lake
+  area: Lakeview
+  url: https://www.lakevieworegon.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.lakevieworegon.org/events/
+- id: lexington
+  name: City of Lexington
+  type: ics
+  county: Morrow
+  area: Lexington
+  url: https://www.cityoflexington.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.cityoflexington.com/events/
+- id: lyons
+  name: City of Lyons
+  type: ics
+  county: Linn
+  area: Lyons
+  url: https://www.cityoflyons.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.cityoflyons.org/events/
+- id: manzanita
+  name: City of Manzanita
+  type: ics
+  county: Tillamook
+  area: Manzanita
+  url: https://ci.manzanita.or.us/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://ci.manzanita.or.us/events/
+- id: maupin
+  name: City of Maupin
+  type: ics
+  county: Wasco
+  area: Maupin
+  url: https://cityofmaupin.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofmaupin.org/events/
+- id: merrill
+  name: City of Merrill
+  type: ics
+  county: Klamath
+  area: Merrill
+  url: https://cityofmerrill.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofmerrill.org/events/
+- id: north-powder
+  name: City of North Powder
+  type: ics
+  county: Union
+  area: North Powder
+  url: https://northpowder.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://northpowder.com/events/
+- id: nyssa
+  name: City of Nyssa
+  type: ics
+  county: Malheur
+  area: Nyssa
+  url: https://nyssacity.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://nyssacity.org/events/
+- id: oakland
+  name: City of Oakland
+  type: ics
+  county: Douglas
+  area: Oakland
+  url: https://cityofoakland.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofoakland.org/events/
+- id: oakridge
+  name: City of Oakridge
+  type: ics
+  county: Lane
+  area: Oakridge
+  url: https://oakridgeoregon.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://oakridgeoregon.org/events/
+- id: ontario
+  name: City of Ontario
+  type: ics
+  county: Malheur
+  area: Ontario
+  url: https://cityofontario.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofontario.com/events/
+- id: oregon-city
+  name: City of Oregon City
+  type: ics
+  county: Clackamas
+  area: Oregon City
+  url: https://oregoncity.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://oregoncity.org/events/
+- id: reedsport
+  name: City of Reedsport
+  type: ics
+  county: Douglas
+  area: Reedsport
+  url: https://reedsport.us/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://reedsport.us/events/
+- id: riddle
+  name: City of Riddle
+  type: ics
+  county: Douglas
+  area: Riddle
+  url: https://www.riddle.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.riddle.com/events/
+- id: rogue-river
+  name: City of Rogue River
+  type: ics
+  county: Jackson
+  area: Rogue River
+  url: https://www.cityofrogueriver.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.cityofrogueriver.org/events/
+- id: stanfield
+  name: City of Stanfield
+  type: ics
+  county: Umatilla
+  area: Stanfield
+  url: https://www.cityofstanfield.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.cityofstanfield.com/events/
+- id: ukiah
+  name: City of Ukiah
+  type: ics
+  county: Umatilla
+  area: Ukiah
+  url: https://cityofukiahoregon.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://cityofukiahoregon.com/events/
+- id: vale
+  name: City of Vale
+  type: ics
+  county: Malheur
+  area: Vale
+  url: https://www.cityofvale.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.cityofvale.com/events/
+- id: wallowa
+  name: City of Wallowa
   type: ics
   county: Wallowa
+  area: Wallowa
+  url: https://wallowa.com/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://wallowa.com/events/
+- id: westfir
+  name: City of Westfir
+  type: ics
+  county: Lane
+  area: Westfir
+  url: https://www.ci.westfir.or.us/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.ci.westfir.or.us/events/
+- id: willamina
+  name: City of Willamina
+  type: ics
+  county: Yamhill
+  area: Willamina
+  url: https://www.willaminaoregon.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.willaminaoregon.gov/events/
+- id: yachats
+  name: City of Yachats
+  type: ics
+  county: Lincoln
+  area: Yachats
+  url: https://www.yachats.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.yachats.org/events/
+- id: benton-county
+  name: Benton County
+  type: ics
+  county: Benton
   area: countywide
-  url: https://calendar.google.com/calendar/ical/jb49rq1ng7u5ri2jouimm3hlp4%40group.calendar.google.com/public/basic.ics
+  url: https://www.bentoncountyor.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.bentoncountyor.gov/events/
+- id: hood-river-county
+  name: Hood River County
+  type: ics
+  county: Hood River
+  area: countywide
+  url: https://www.hoodrivercounty.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.hoodrivercounty.gov/events/
+- id: malheur-county
+  name: Malheur County
+  type: ics
+  county: Malheur
+  area: countywide
+  url: https://www.malheurco.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.malheurco.org/events/
+- id: union-county
+  name: Union County
+  type: ics
+  county: Union
+  area: countywide
+  url: https://unioncountyor.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://unioncountyor.gov/events/
+- id: klamath-falls
+  name: City of Klamath Falls
+  type: civicplus
+  site: https://www.klamathfalls.city
+  categories:
+  - 23
+  county: Klamath
+  area: Klamath Falls
   drop_uncategorized: true
-  homepage: https://www.co.wallowa.or.us/
-- id: washington-county
-  name: Washington County
+  homepage: https://www.klamathfalls.city/Calendar.aspx
+- id: seaside
+  name: City of Seaside
+  type: civicplus
+  site: https://www.cityofseaside.us
+  categories:
+  - 25
+  - 23
+  - 24
+  county: Clatsop
+  area: Seaside
+  drop_uncategorized: true
+  homepage: https://www.cityofseaside.us/Calendar.aspx
+- id: wood-village
+  name: City of Wood Village
+  type: ics
+  county: Multnomah
+  area: Wood Village
+  url: https://www.woodvillageor.gov/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.woodvillageor.gov/events/
+- id: columbia-city
+  name: City of Columbia City
+  type: ics
+  county: Columbia
+  area: Columbia City
+  url: https://columbia-city.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://columbia-city.org/events/
+- id: rivergrove
+  name: City of Rivergrove
+  type: ics
+  county: Clackamas
+  area: Rivergrove
+  url: https://www.cityofrivergrove.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.cityofrivergrove.org/events/
+- id: lane-transit-district
+  name: City of Lane Transit District
+  type: ics
+  county: Lane
+  area: Lane Transit District
+  url: https://www.ltd.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.ltd.org/events/
+- id: portland-community-college
+  name: City of Portland Community College
+  type: ics
+  county: Multnomah
+  area: Portland Community College
+  url: https://www.pcc.edu/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.pcc.edu/events/
+- id: clean-water-services
+  name: City of Clean Water Services
   type: civicweb
   tenant: washingtoncounty
   county: Washington
-  area: countywide
+  area: Clean Water Services
   homepage: https://washingtoncounty.civicweb.net/Portal/MeetingSchedule.aspx
-- id: yamhill-county
-  name: Yamhill County
+- id: tualatin-hills-park-recreation-district
+  name: City of Tualatin Hills Park & Recreation District
   type: civicplus
-  site: https://www.yamhillcounty.gov
+  site: https://www.tualatinhillsparks.org
   categories:
-  - 46
-  - 48
-  - 31
-  - 42
-  - 47
-  - 30
-  county: Yamhill
-  area: countywide
+  - 49
+  - 23
+  - 50
+  county: Washington
+  area: Tualatin Hills Park & Recreation District
   drop_uncategorized: true
-  homepage: https://www.yamhillcounty.gov/Calendar.aspx
+  homepage: https://www.tualatinhillsparks.org/Calendar.aspx
+- id: bend-park-and-recreation-district
+  name: City of Bend Park and Recreation District
+  type: ics
+  county: Deschutes
+  area: Bend Park and Recreation District
+  url: https://www.bendparksandrec.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://www.bendparksandrec.org/events/
+- id: rogue-valley-council-of-governments
+  name: City of Rogue Valley Council of Governments
+  type: ics
+  county: Jackson
+  area: Rogue Valley Council of Governments
+  url: https://rvcog.org/events/?ical=1
+  include: council|commission|board|committee|hearing|meeting|session|workshop
+  homepage: https://rvcog.org/events/
