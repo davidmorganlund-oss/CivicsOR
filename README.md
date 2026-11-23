@@ -4,7 +4,7 @@ A civic calendar, Engage guides and a "who represents you" lookup for Oregon.
 A project of BarNone, an independent nonprofit. Not affiliated with any
 government agency. Sister site to CivicsWA (civicswa.org) and CivicsID (civicsid.org).
 
-**Status: first build, November 2026. Site address: civicsor.org.**
+**Status: live at civicsor.org since November 2026.** See [OPERATIONS.md](OPERATIONS.md) for how it runs and how to add calendars.
 
 Built from CivicsID's code: the same pipeline, connectors, page generator and
 nightly publish, rewritten for Oregon.
@@ -21,16 +21,20 @@ nightly publish, rewritten for Oregon.
   publishes the site with GitHub Pages.
 - `.github/workflows/links.yml` checks every outside link weekly.
 - `site/` is a plain static site that reads those files. No accounts, no tracking.
-- `tools/pages/gen.py` writes the guide, Engage, calendar, Legislature, reps and
-  privacy pages from `tools/pages/guides_or.py`. Run `python3 tools/pages/gen.py`.
+- `tools/pages/gen.py` writes the guide, Engage, calendar, Legislature, reps,
+  About, Coverage and privacy pages from `tools/pages/guides_or.py` and
+  `tools/pages/guides_or2.py` (27 guides). Run `python3 tools/pages/gen.py`.
+- `tools/` also holds the calendar finder (`probe.py`, `find_homes.py`,
+  `bluebook.py`, `ode.py`, `gen_candidates.py`, `trial.py`), run by the
+  "Find calendars" and "Trial sources" workflows.
 
 ## Oregon specifics
 
 - **Time zones.** Nearly all of Oregon is on Pacific time; most of Malheur County is
   on Mountain. Sources default to Pacific; a Malheur source sets `timezone: America/Boise`.
 - **The Legislature** comes from its own public OData service (OLIS), via the
-  `oregon_legislature` connector: meetings, hearing rooms, agenda links, and agenda
-  items as highlights.
+  `oregon_legislature` connector: meetings, hearing rooms, agenda links, each bill
+  on the agenda with its OLIS description, and topic tags for the Legislature page.
 - **Districts.** 30 Senate districts, 60 House districts; each Senate district is two
   House districts. The reps lookup reads both from the Census geocoder.
 - **Regional bodies.** Metro serves three counties. A source can list
