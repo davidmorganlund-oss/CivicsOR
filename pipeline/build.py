@@ -1842,8 +1842,33 @@ def normalize_oregon_legislature(src, meetings, committees, items, tz):
             uid=m.get("MeetingGuid") or f"{code}|{raw}",
             cancelled=bool(re.search(r"cancel", status, re.I)),
         ))
-        events[-1]["_items"] = [t for t in (olis_item(i) for i in mine) if t]
+        events[-1]["_items"] = [t for t in (olis_item(i) for i in mine) if t and not BILL_LINE.match(t)]
+        bills, seen = [], set()
+        for i in mine:
+            if i.get("MeasurePrefix") and i.get("MeasureNumber"):
+                bid = f"{i['MeasurePrefix'].strip()} {i['MeasureNumber']}"
+                if bid not in seen:
+                    seen.add(bid)
+                    bills.append({"id": bid, "kind": " ".join((i.get("MeetingType") or "").split()), "session": session})
+        if bills:
+            events[-1]["bills"] = bills
     return events
+
+
+BILL_LINE = re.compile(r"^[A-Z]{2,4} \d+: ")
+
+
+def olis_catchlines(bills):
+    """Each bill's one-line description (OLIS 'CatchLine'), read a few at a time."""
+    out, keys = {}, sorted({(b["session"], b["id"]) for b in bills})
+    for n in range(0, len(keys), 12):
+        chunk = keys[n:n + 12]
+        flt = " or ".join(f"(SessionKey eq '{s}' and MeasurePrefix eq '{i.split()[0]}' and MeasureNumber eq {i.split()[1]})"
+                          for s, i in chunk)
+        for r in olis_rows("Measures", flt):
+            out[(r.get("SessionKey"), f"{(r.get('MeasurePrefix') or '').strip()} {r.get('MeasureNumber')}")] = \
+                " ".join((r.get("CatchLine") or "").split())
+    return out
 
 
 def fetch_oregon_legislature(src, start_day, end_day, tz):
@@ -1861,10 +1886,62 @@ def fetch_oregon_legislature(src, start_day, end_day, tz):
         print(f"[info] {src['id']}: agenda items not read: {exc}", file=sys.stderr)
         items = []
     events = normalize_oregon_legislature(src, meetings, committees, items, tz)
+    every = [b for e in events for b in e.get("bills", [])]
+    if every:
+        try:
+            about = olis_catchlines(every)
+        except Exception as exc:
+            print(f"[info] {src['id']}: bill descriptions not read: {exc}", file=sys.stderr)
+            about = {}
+        for b in every:
+            b["about"] = about.get((b["session"], b["id"]), "")
     for e in events:
         if soon(e, start_day):
             add_highlights(e, e["_items"])
+        tag_legislature(e)
     return events
+
+
+TOPIC_WORDS = [
+    ("justice", r"crim|justice|judiciary|public safety|community safety|sentenc|prison|\bjails?\b|correction|police|law enforcement|firearm|weapon|offender|felon|incarcerat|\bcourts?\b|judge|judicial|juvenile|parole|probation|reentry|\bbail\b|prosecut|public defense|victim|impaired driving|controlled substance|restitution|community custody|clemency|pardon|detention|warrant|legal financial obligation"),
+    ("housing", r"housing|homeless|tenant|landlord|\brent|evict|zoning|dwelling|mobile home|manufactured home|condominium|residential"),
+    ("education", r"school|student|teacher|educat|college|universit|tuition|early learning|child care|childcare|apprentice|higher ed|postsecondary"),
+    ("health", r"health|medical|hospital|behavioral|\bmental|substance use|opioid|fentanyl|medicaid|pharma|prescription|nurs|physician|long-term care|long term care|dental|disease|vaccin|overdose"),
+    ("elections", r"election|ballot|\bvot|campaign|redistrict|initiative|referend|public records|open public meeting|state government|ethics|lobby|secretary of state|civic"),
+    ("environment", r"environment|climate|energy|electric|utilit|carbon|emission|pollut|water|salmon|wildlife|\bfish|forest|wildfire|solar|nuclear|data center|recycl|waste|agricultur|\bfarm|livestock|pesticide|natural resource|orca|shoreline|parks?\b"),
+    ("transportation", r"transport|highway|\broads?\b|vehicle|driver|transit|ferr|\brail|bicycl|traffic|\btoll|aviation|airport|freight"),
+    ("budget", r"\btax|budget|appropriat|revenue|fiscal|\bbonds?\b|\blevy|levies|capital budget|ways (?:&|and) means|(?<!campaign )finance|pension|retire"),
+    ("labor", r"worker|employ|wage|labor|union|collective bargain|paid leave|paid family|unemployment|workplace|overtime"),
+    ("families", r"child|famil|foster|human services|food assistance|disabilit|senior|aging|veteran|domestic violence|public assistance|poverty"),
+    ("tribes", r"tribe|tribal|\bindian|native american|indigenous"),
+    ("business", r"consumer|business|commerce|insurance|\bbank|financial|privacy|artificial intelligence|technology|broadband|cannabis|liquor|gambling|\bdata\b|trade|economic development|small business"),
+    ("local", r"\bcount(?:y|ies)\b|\bcit(?:y|ies)\b|municipal|port district|special district|local government|annexation"),
+]
+TOPIC_RE = [(k, re.compile(r, re.I)) for k, r in TOPIC_WORDS]
+# Committees that weigh the cost of nearly everything shouldn't tag every
+# bill they hear as a budget bill.
+FISCAL_COMMITTEE = re.compile(r"appropriations|ways (?:&|and) means|\bfinance\b|capital budget", re.I)
+
+
+def topics_for(text):
+    return [k for k, r in TOPIC_RE if r.search(text or "")]
+
+
+def tag_legislature(e):
+    """Topic keys on the meeting and on each of its bills."""
+    committee = re.sub(r"\(.*?\)", "", e["title"])
+    from_committee = topics_for(committee)
+    found = list(from_committee)
+    for b in e.get("bills", []):
+        own = topics_for(b.get("about", ""))
+        b["topics"] = own or ([] if FISCAL_COMMITTEE.search(committee) else from_committee)
+        found += b["topics"]
+    for h in e.get("highlights", []):
+        found += topics_for(h)
+    keys = [k for k, _ in TOPIC_WORDS]
+    e["topics"] = sorted(set(found), key=keys.index)
+    return e
+
 
 
 # --- Granicus agenda feeds and Apptegy school sites (ported from CivicsWA) ---

@@ -196,7 +196,11 @@ def test_oregon_legislature():
     assert a["title"] == "House Interim Committee on Education" and a["tz"] == "PT"
     assert a["start"] == "2026-12-01T08:30:00-08:00" and a["location"] == "Oregon State Capitol, Hearing Room D"
     assert a["url"] == "https://olis.oregonlegislature.gov/liz/2025I1/Committees/HED/Overview"
-    assert a["_items"] == ["LPRO Attendance Report.", "HB 2001: Public Hearing"]
+    assert a["_items"] == ["LPRO Attendance Report."]
+    assert a["bills"] == [{"id": "HB 2001", "kind": "Public Hearing", "session": "2025I1"}]
+    a["bills"][0]["about"] = "Relating to housing; declaring an emergency."
+    build.tag_legislature(a)
+    assert a["topics"] == ["housing", "education"] and a["bills"][0]["topics"] == ["housing"]
     assert b["cancelled"] and b["title"] == "Legislative committee SJ"
 
 

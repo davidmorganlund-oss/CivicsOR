@@ -49,14 +49,14 @@ def head(title, up, desc, share=None, lang="en"):
 <body>'''
 
 
-NAV = {"en": ("Community Calendar", "Calendar", "Engage", "My representatives", "My reps", "Main"),
-       "es": ("Calendario comunitario", "Calendario", "Participa", "Mis representantes", "Mis reps", "Principal")}
+NAV = {"en": ("Community Calendar", "Calendar", "Engage", "My representatives", "My reps", "Main", "Legislature"),
+       "es": ("Calendario comunitario", "Calendario", "Participa", "Mis representantes", "Mis reps", "Principal", "Legislatura")}
 
 
 def top(up, current, lang="en", alt=None, reps_up=None):
     """alt: link to this page in the other language. Spanish pages link to the
     English representatives lookup (reps_up), which isn't translated yet."""
-    cal, cal_s, eng, reps, reps_s, main = NAV[lang]
+    cal, cal_s, eng, reps, reps_s, main, leg = NAV[lang]
     notice = NOTICE if lang == "en" else '<aside class="notice" aria-label="Acerca de CivicsOR">Un proyecto de BarNone, una organización sin fines de lucro. No está afiliado a ninguna agencia de gobierno.</aside>'
     switch = (f'\n  <a class="lang-switch" href="{alt}" lang="{"es" if lang == "en" else "en"}" hreflang="{"es" if lang == "en" else "en"}">{"Español" if lang == "en" else "English"}</a>' if alt else "")
     def a(href, label, key, short=None):
@@ -72,6 +72,7 @@ def top(up, current, lang="en", alt=None, reps_up=None):
   <a class="brand" href="{up}index.html">Civics<span>OR</span></a>{switch}
   <nav aria-label="{main}">
 {a("index.html", cal, "calendar", cal_s)}
+{a("legislature.html", leg, "legislature")}
 {a("engage.html", eng, "engage")}
 {reps_link}
   </nav>
@@ -82,7 +83,7 @@ def footer(up, first):
     return f'''<footer><div class="wrap">
   <p>{first}</p>
   {BY.format(up=up)}
-  <p class="footer-links"><a href="mailto:{REPORT}?subject=CivicsOR%3A%20report%20a%20problem">Report a problem or a missing meeting</a> · <a href="{up}privacy.html">Privacy</a></p>
+  <p class="footer-links"><a href="{up}about.html">About</a> · <a href="{up}coverage.html">Coverage</a> · <a href="{up}privacy.html">Privacy</a> · <a href="{up}about.html#accessibility">Accessibility</a> · <a href="mailto:{REPORT}?subject=CivicsOR%3A%20report%20a%20problem">Report a problem or a missing meeting</a></p>
 </div></footer>'''
 
 
@@ -277,56 +278,134 @@ assert listed == set(ALL), (listed ^ set(ALL))
 ''')
 print(len(ALL), "guides written")
 
-(SITE / "legislature.html").write_text(f'''{head("The Oregon Legislature, day by day | CivicsOR", "", "Every Oregon Legislature committee meeting coming up, with agendas, what's on them, and how to testify in person or remotely.", "The Oregon Legislature, day by day")}
-<a class="skip" href="#hearings">Skip to hearings</a>
-{top("", "calendar")}
+(SITE / "legislature.html").write_text(f'''{head("The Oregon Legislature, day by day | CivicsOR", "", "Every Oregon Legislature committee meeting coming up, with the bills on each agenda, topic filters, and how to testify in person or remotely.", "The Oregon Legislature, day by day")}
+<a class="skip" href="#hearings">Skip to the meetings</a>
+{top("", "legislature")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Oregon Legislature</p>
   <h1>What the Legislature is hearing, day by day.</h1>
-  <p class="lede">Every committee meeting on the Legislature's calendar, with its agenda and what it will take up. Committees take public testimony at public hearings, in person at the Capitol in Salem or remotely by video or phone.</p>
+  <p class="lede">Every committee meeting at the Capitol, day by day. See which bills are up, which meetings take public testimony, and how to register before it closes.</p>
   <p class="small" id="session-note">The 2027 long session starts in January. Until then, these are interim committees, which meet during Legislative Days to study issues between sessions.</p>
 </div></section>
 
 <div class="wrap layout">
   <main class="main" id="hearings">
     <div class="heading">
-      <h2 id="leg-heading">Coming up at the Legislature</h2>
-      <span id="leg-range"></span>
+      <h2 id="day-heading">Committee meetings</h2>
+      <span id="day-count"></span>
     </div>
-    <div class="list" id="leg-list" aria-live="polite"><p class="empty">Loading hearings…</p></div>
+    <div class="chips days scroll" role="group" aria-label="Pick a day" id="days"></div>
+    <div class="find">
+      <label for="bill">Find a bill or a word</label>
+      <input id="bill" type="search" placeholder="A bill number or a word: HB 2001, sentencing, rent" autocomplete="off">
+    </div>
+    <div class="topics-wrap" id="topics-wrap" hidden>
+      <p class="topics-label" id="topics-label">Follow a topic</p>
+      <div class="chips scroll" role="group" aria-labelledby="topics-label" id="topics"></div>
+    </div>
+    <div class="list" id="list" aria-live="polite"><p class="empty">Loading committee meetings…</p></div>
   </main>
 
   <aside class="side">
     <div class="card">
-      <h2>How to testify</h2>
-      <ol class="tight">
-        <li>Find the bill on a committee's agenda below. Agendas usually post a few days ahead.</li>
-        <li>Open the bill or committee on OLIS and choose <strong>Register to Testify</strong>, in person or remotely. Registration closes shortly before the meeting.</li>
-        <li>Or choose <strong>Submit Testimony</strong> to send it in writing, up to 48 hours after the hearing's scheduled start.</li>
-        <li>Keep it short: who you are, where you live, and how the bill would affect you.</li>
-      </ol>
-      <a class="link" href="https://www.oregonlegislature.gov/citizen_engagement/Pages/Submit-Exhibits.aspx" rel="noopener">The Legislature's testimony steps</a>
+      <h2>What the agenda words mean</h2>
+      <p><strong>Public hearing.</strong> The committee takes public testimony on the bill. This is your chance to speak, in person or remotely, or to send written testimony.</p>
+      <p><strong>Work session.</strong> The committee discusses the bill and may vote on amendments and on sending it to the floor. There's usually no public testimony, but you can watch.</p>
+      <p><strong>Informational meeting.</strong> A briefing for the committee from agencies, experts or invited guests. No votes.</p>
     </div>
     <div class="card">
-      <h2>Other ways to weigh in</h2>
-      <p>Email or call your own senator and representative, especially before a committee vote or a floor vote.</p>
+      <h2>How to testify</h2>
+      <ol class="tight">
+        <li>Find the bill on a committee's agenda. Registration opens once a public hearing is scheduled.</li>
+        <li>On the bill's OLIS page, choose <strong>Register to Testify</strong>, in person or remotely by video or phone. Registration closes 30 minutes before the meeting starts.</li>
+        <li>Or choose <strong>Submit Testimony</strong> to send it in writing, up to 24 hours after the meeting's scheduled start.</li>
+        <li>Keep it short: who you are, where you live, and how the bill would affect you.</li>
+      </ol>
+      <a class="link" href="https://www.oregonlegislature.gov/citizen_engagement/Pages/How-to-Testify.aspx" rel="noopener">How to testify, from the Legislature</a>
+      <a class="link" href="guides/weigh-in-on-a-state-bill.html">How to weigh in on a bill</a>
       <a class="link" href="reps.html">Find your legislators</a>
-      <p style="margin-top: 12px">Committee meetings and floor sessions stream live on OLIS, and recordings are kept.</p>
+    </div>
+    <div class="card">
+      <h2>Watch it live</h2>
+      <p>Committee meetings and floor sessions stream live on OLIS, the Legislature's information system, and the recordings are kept. Open a committee's page and pick the meeting date.</p>
       <a class="link" href="https://olis.oregonlegislature.gov/liz/" rel="noopener">Open OLIS</a>
     </div>
-    <div class="card warm">
-      <span class="eyebrow">Engage</span>
-      <h2>New to the Legislature?</h2>
-      <p>Who's in it, how a bill moves, and the ways to make your voice heard.</p>
-      <a class="link" href="guides/weigh-in-on-a-state-bill.html">Read the guide</a>
+    <div class="card">
+      <h2>Get it on your phone</h2>
+      <p>Subscribe once and every committee meeting shows up in the calendar app you already use.</p>
+      <a class="link" href="data/ics/statewide.ics">Subscribe to Legislature committee meetings</a>
     </div>
   </aside>
 </div>
 
-{footer("", "Committee meetings, agendas and agenda items come from the Oregon Legislature's own public data service, refreshed nightly. Agendas can change; check the committee's page before you go.")}
+{footer("", "Committee meetings, agendas and bill descriptions come from the Oregon Legislature's own public data service and are refreshed every night. <span id=\"updated\"></span> Topics are matched by keyword from the committee's name and each bill's description, so they're a guide, not an official category. Agendas change, so check the committee's page before you go.")}
 
 <script src="legislature.js"></script>
+</body>
+</html>
+''')
+
+
+# ---------- About and Coverage ----------
+(SITE / "about.html").write_text(f'''{head("About | CivicsOR", "", "Who runs CivicsOR, where its meeting listings come from, how current they are, and how to report a mistake.")}
+<a class="skip" href="#about">Skip to the page</a>
+{top("", "")}
+
+<section class="hero"><div class="wrap">
+  <p class="eyebrow light">About</p>
+  <h1>About CivicsOR</h1>
+  <p class="lede">One place to see what Oregon's public bodies are deciding, and how to take part.</p>
+</div></section>
+
+<main class="wrap guide-body" id="about" style="padding-block: 32px 64px; display: flex; flex-direction: column; gap: 16px; max-width: 760px">
+<h2>Who runs it</h2>
+<p>CivicsOR is a service of BarNone, Inc., an independent nonprofit. It is not a government website. It is not affiliated with any government agency, and it does not speak for any public office. It doesn't take sides on candidates, parties, bills or ballot measures.</p>
+
+<h2>Where the meetings come from</h2>
+<p>Every listing comes from a public body's own published calendar: city and county meeting portals, school district calendars, library schedules, regional governments like Metro, and the Oregon Legislature's committee schedule. Each night, CivicsOR reads those calendars and updates the site. Every meeting links back to the host's own page.</p>
+<p>A few public bodies publish a standing schedule ("the second and fourth Tuesday at 10 a.m.") instead of a calendar. Those meetings are marked <strong>Regular schedule: confirm first</strong>, because they can be cancelled or moved without the change reaching us. When a standing schedule lands on a state holiday, we leave that date off.</p>
+
+<h2>How current it is</h2>
+<p>Listings refresh every night. If a calendar can't be reached, we keep showing what it listed last time and keep trying. The <a href="coverage.html">coverage page</a> shows every calendar we read and when each was last read successfully.</p>
+<p><strong>Always confirm with the host before you go.</strong> Agendas, times and rooms change, sometimes the same day.</p>
+
+<h2>What's not here yet</h2>
+<p>Some public bodies only post PDFs, or don't post a calendar online at all. Some websites block automated readers, and we respect that, including systems such as BoardDocs that ask automated readers to stay out. For those places, the site links to their own meeting pages instead. The <a href="coverage.html">coverage page</a> lists what's included county by county. Spanish pages are planned.</p>
+
+<h2>Found a mistake or a missing meeting?</h2>
+<p><a class="link" href="mailto:{REPORT}?subject=CivicsOR%20correction">Report a correction</a></p>
+<p class="muted">Email <a href="mailto:{REPORT}">{REPORT}</a>. Tell us what's wrong and where, and include a link to the right information if you have one.</p>
+
+<h2 id="privacy">Privacy</h2>
+<p>CivicsOR has no accounts, no ads and no cookies, and it doesn't sell or share information about visitors. The county you pick is saved only in your own browser. <a href="privacy.html">Read the privacy page</a>.</p>
+
+<h2 id="accessibility">Accessibility</h2>
+<p>We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1, level AA. Pages work with a keyboard and screen readers, text meets contrast standards, and the site works on phones. If something gets in your way, please <a href="mailto:{REPORT}?subject=CivicsOR%20accessibility">tell us</a> and we'll fix it.</p>
+</main>
+
+{footer("", "CivicsOR reads public calendars every night and links every meeting back to its host.")}
+</body>
+</html>
+''')
+
+(SITE / "coverage.html").write_text(f'''{head("Coverage | CivicsOR", "", "Every public calendar CivicsOR reads each night, county by county, and when each was last read.")}
+<a class="skip" href="#coverage">Skip to the list</a>
+{top("", "")}
+
+<section class="hero"><div class="wrap">
+  <p class="eyebrow light">Coverage</p>
+  <h1>What the calendar covers</h1>
+  <p class="lede" id="cov-summary">Loading…</p>
+</div></section>
+
+<main class="wrap" id="coverage" style="padding-block: 32px 64px; display: flex; flex-direction: column; gap: 12px; max-width: 860px">
+  <p>Open a county to see the calendars we read there and when each one was last read. Where we can't read a county's calendars yet, we link to its own meetings page. Know a calendar we're missing? <a href="mailto:{REPORT}?subject=CivicsOR%20missing%20calendar">Tell us</a>.</p>
+  <div id="cov-list" style="display: flex; flex-direction: column; gap: 12px"></div>
+</main>
+
+{footer("", "Calendars are read every night. When one can't be reached, the site keeps showing what it listed before.")}
+<script src="coverage.js"></script>
 </body>
 </html>
 ''')
