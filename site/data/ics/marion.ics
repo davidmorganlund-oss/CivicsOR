@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Marion County
 BEGIN:VEVENT
 UID:9bd3241f9ff2@civicsor
-DTSTAMP:20261123T045434Z
+DTSTAMP:20261123T045910Z
 DTSTART:20261124T020000Z
 DTEND:20261124T030000Z
 SUMMARY:City Council meeting (City of Salem)
@@ -14,7 +14,7 @@ URL:https://www.cityofsalem.net/government/city-council-mayor/city-council-
 END:VEVENT
 BEGIN:VEVENT
 UID:df7b746aa705@civicsor
-DTSTAMP:20261123T045434Z
+DTSTAMP:20261123T045910Z
 DTSTART:20261215T020000Z
 DTEND:20261215T030000Z
 SUMMARY:City Council meeting (City of Salem)
@@ -24,7 +24,7 @@ URL:https://www.cityofsalem.net/government/city-council-mayor/city-council-
 END:VEVENT
 BEGIN:VEVENT
 UID:b055d2e13636@civicsor
-DTSTAMP:20261123T045434Z
+DTSTAMP:20261123T045910Z
 DTSTART:20261229T020000Z
 DTEND:20261229T030000Z
 SUMMARY:City Council meeting (City of Salem)
@@ -34,7 +34,7 @@ URL:https://www.cityofsalem.net/government/city-council-mayor/city-council-
 END:VEVENT
 BEGIN:VEVENT
 UID:6c0d92240781@civicsor
-DTSTAMP:20261123T045434Z
+DTSTAMP:20261123T045910Z
 DTSTART:20270112T020000Z
 DTEND:20270112T030000Z
 SUMMARY:City Council meeting (City of Salem)
