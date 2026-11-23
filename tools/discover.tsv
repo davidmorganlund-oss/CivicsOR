@@ -1,63 +1,217 @@
-Bend	Deschutes	https://www.bendoregon.gov/
-Corvallis	Benton	https://www.corvallisoregon.gov/
-Hermiston	Umatilla	https://www.hermiston.gov/
-Klamath Falls	Klamath	https://www.klamathfalls.city/
-Redmond	Deschutes	https://www.redmondoregon.gov/
-Sandy	Clackamas	https://www.ci.sandy.or.us/
-Tigard	Washington	https://www.tigard-or.gov/
-West Linn	Clackamas	https://westlinnoregon.gov/
-Seaside	Clatsop	https://www.cityofseaside.us/
-North Bend	Coos	https://www.northbendoregon.us/
-Philomath	Benton	https://www.philomathoregon.gov/
-Milton-Freewater	Umatilla	https://www.mfcity.com/
-Warrenton	Clatsop	https://www.warrentonoregon.us/
-Wood Village	Multnomah	https://www.woodvillageor.gov/
-Depoe Bay	Lincoln	https://www.cityofdepoebay.org/
-John Day	Grant	https://www.cityofjohnday.com/
-Sheridan	Yamhill	https://www.cityofsheridanor.com/
-Gervais	Marion	https://www.gervaisoregon.org/
-Harrisburg	Linn	https://www.ci.harrisburg.or.us/
+Adams	Umatilla	https://www.cityofadamsoregon.com/
+Albany	Linn	https://albanyoregon.gov/
+Amity	Yamhill	https://www.amityoregon.gov/
+Antelope	Wasco	https://www.cityofantelope.us/
+Arlington	Gilliam	https://cityofarlingtonoregon.com/
+Ashland	Jackson	https://ashlandoregon.gov/
+Astoria	Clatsop	https://www.astoria.gov/
+Athena	Umatilla	https://www.cityofathena.com/
 Aumsville	Marion	https://www.aumsville.us/
-Coburg	Lane	https://www.coburgoregon.gov/
-Hines	Harney	https://ci.hines.or.us/
-Scio	Linn	https://www.ci.scio.or.us/
-Sublimity	Marion	https://www.cityofsublimity.org/
-Mill City	Linn	https://www.ci.mill-city.or.us/
-Columbia City	Columbia	https://www.columbia-city.org/
-Nehalem	Tillamook	https://nehalem.gov/
+Aurora	Marion	https://www.ci.aurora.or.us/
+Baker City	Baker	https://www.bakercity.com/
+Bandon	Coos	https://www.bandon-or.gov/
+Banks	Washington	https://www.cityofbanks.org/
 Bay City	Tillamook	https://www.ci.bay-city.or.us/
-Chiloquin	Klamath	https://www.chiloquin.us/
-Powers	Coos	https://www.cityofpowers.org/
-Elkton	Douglas	https://www.elktonoregon.org/
-Fossil	Wheeler	https://www.fossiloregon.com/
-Sumpter	Baker	https://www.cityofsumpter.com/
-Rivergrove	Clackamas	https://www.cityofrivergrove.com/
-Gates	Marion	https://www.gatesoregon.com/
-Baker County	Baker	https://www.bakercounty.org/
-Morrow County	Morrow	https://www.co.morrow.or.us/
-Douglas County	Douglas	https://douglascounty-oregon.us/
-Jefferson County	Jefferson	https://www.jeffersoncountyor.gov/
-Linn County	Linn	https://www.linncountyor.gov/
-Port of Portland	Multnomah	https://www.portofportland.com/
-TriMet	Multnomah	https://trimet.org/
-Lane County	Lane	https://www.lanecounty.org/
-Lane Transit District	Lane	https://www.ltd.org/
-Salem Area Mass Transit (Cherriots)	Marion	https://www.cherriots.org/
-Portland Community College	Multnomah	https://www.pcc.edu/
-Multnomah County Library	Multnomah	https://multcolib.org/
-Eugene Water & Electric Board	Lane	https://www.eweb.org/
-Tualatin Valley Fire & Rescue	Washington	https://www.tvfr.com/
-Clean Water Services	Washington	https://www.cleanwaterservices.org/
-Tualatin Hills Park & Recreation District	Washington	https://www.thprd.org/
-Port of Coos Bay	Coos	https://www.portofcoosbay.com/
-Port of Astoria	Clatsop	https://www.portofastoria.com/
-Willamalane Park and Recreation District	Lane	https://www.willamalane.org/
-Bend Park and Recreation District	Deschutes	https://www.bendparksandrec.org/
-Central Oregon Intergovernmental Council	Deschutes	https://coic2.org/
-Rogue Valley Council of Governments	Jackson	https://rvcog.org/
-Lane Council of Governments	Lane	https://www.lcog.org/
-Mid-Willamette Valley Council of Governments	Marion	https://www.mwvcog.org/
-Oregon State Board of Education	Statewide	https://www.oregon.gov/ode/about-us/stateboard/Pages/default.aspx
-Deschutes Public Library	Deschutes	https://www.deschuteslibrary.org/
-Eugene Public Library	Lane	https://www.eugene-or.gov/library
-Salem Public Library	Marion	https://www.cityofsalem.net/library
+Beaverton	Washington	https://www.beavertonoregon.gov/
+Bend	Deschutes	https://www.bendoregon.gov/
+Boardman	Morrow	https://www.cityofboardman.com/
+Bonanza	Klamath	http://www.townofbonanza.com/
+Brookings	Curry	https://www.brookings.or.us/
+Brownsville	Linn	https://www.ci.brownsville.or.us/
+Burns	Harney	https://www.cityofburnsor.gov/
+Butte Falls	Jackson	https://www.townofbuttefalls.com/
+Canby	Clackamas	https://www.canbyoregon.gov/
+Cannon Beach	Clatsop	https://www.ci.cannon-beach.or.us/
+Canyonville	Douglas	https://www.cityofcanyonville.com/
+Carlton	Yamhill	https://www.ci.carlton.or.us/
+Cascade Locks	Hood River	https://www.cascade-locks.or.us/
+Cave Junction	Josephine	https://www.cavejunctionoregon.us/
+Central Point	Jackson	https://www.centralpointoregon.gov/
+Chiloquin	Klamath	https://www.cityofchiloquin.org/
+Clatskanie	Columbia	http://www.cityofclatskanie.com/
+Coburg	Lane	https://www.coburgoregon.gov/
+Columbia City	Columbia	https://columbia-city.org/
+Condon	Gilliam	https://cityofcondon.com/
+Coos Bay	Coos	https://www.coosbayor.gov/
+Coquille	Coos	https://www.cityofcoquille.org/
+Cornelius	Washington	https://www.corneliusor.gov/
+Corvallis	Benton	https://www.corvallisoregon.gov/
+Cottage Grove	Lane	https://www.cottagegroveor.gov/
+Cove	Union	http://cityofcove.org/home-page/
+Creswell	Lane	https://www.ci.creswell.or.us/
+Culver	Jefferson	https://www.cityofculver.net/
+Dallas	Polk	https://www.dallasor.gov/
+Depoe Bay	Lincoln	https://www.cityofdepoebay.org/
+Detroit	Marion	https://detroitoregon.us/
+Donald	Marion	https://www.donaldoregon.gov/
+Drain	Douglas	https://www.cityofdrain.org/
+Dufur	Wasco	https://cityofdufur.org/
+Dundee	Yamhill	https://www.dundeecity.org/
+Dunes City	Lane	https://www.dunescity.gov/
+Durham	Washington	https://durham-oregon.us/
+Eagle Point	Jackson	http://www.cityofeaglepoint.org/
+Echo	Umatilla	https://echo-oregon.com/
+Elgin	Union	https://cityofelginor.org/
+Elkton	Douglas	https://elkton-oregon.com/
+Enterprise	Wallowa	https://www.enterpriseoregon.gov/
+Estacada	Clackamas	https://www.cityofestacada.org/
+Eugene	Lane	https://www.eugene-or.gov/
+Fairview	Multnomah	http://www.fairvieworegon.gov/
+Falls City	Polk	https://www.fallscityoregon.gov/
+Florence	Lane	https://www.ci.florence.or.us/
+Forest Grove	Washington	https://www.forestgrove-or.gov/
+Fossil	Wheeler	http://cityoffossil.com/
+Garibaldi	Tillamook	https://garibaldi.gov/
+Gaston	Washington	https://www.cityofgaston.com/
+Gates	Marion	https://www.cityofgates.com/
+Gearhart	Clatsop	https://www.cityofgearhart.com/
+Gervais	Marion	http://www.gervaisoregon.org/
+Gladstone	Clackamas	https://www.ci.gladstone.or.us/
+Glendale	Douglas	https://cityofglendaleor.com/
+Gold Beach	Curry	https://www.goldbeachoregon.gov/
+Gold Hill	Jackson	https://www.cityofgoldhill.gov/
+Grants Pass	Josephine	https://www.grantspassoregon.gov/
+Grass Valley	Sherman	https://www.grassvalleyoregon.com/
+Gresham	Multnomah	https://www.greshamoregon.gov/
+Haines	Baker	https://www.cityofhainesor.org/
+Halfway	Baker	https://www.halfwayoregon.org/
+Halsey	Linn	https://www.halseyor.gov/
+Happy Valley	Clackamas	https://www.happyvalleyor.gov/
+Harrisburg	Linn	https://www.ci.harrisburg.or.us/
+Heppner	Morrow	https://cityofheppner.org/
+Hermiston	Umatilla	https://www.hermiston.gov/
+Hillsboro	Washington	https://www.hillsboro-oregon.gov/
+Hines	Harney	https://www.cityofhines.com/
+Hood River	Hood River	https://www.hoodrivercounty.gov/
+Hubbard	Marion	https://www.cityofhubbard.org/
+Imbler	Union	https://cityofimbler.org/
+Independence	Polk	https://www.ci.independence.or.us/
+Ione	Morrow	https://cityofioneoregon.gov/
+Irrigon	Morrow	https://ci.irrigon.or.us/
+Island City	Union	https://islandcityoregon.gov/
+Jacksonville	Jackson	https://www.jacksonvilleor.us/
+Jefferson	Marion	https://www.jeffersoncountyor.gov/
+John Day	Grant	https://www.cityofjohnday.com/
+Joseph	Wallowa	https://josephoregon.org/
+Junction City	Lane	https://www.junctioncityoregon.gov/
+Keizer	Marion	https://www.keizeror.gov/
+King City	Washington	https://www.ci.king-city.or.us/
+Klamath Falls	Klamath	https://www.klamathfalls.city/
+La Grande	Union	https://www.cityoflagrande.org/
+La Pine	Deschutes	http://www.lapineoregon.gov/
+Lafayette	Yamhill	https://lafayetteoregon.gov/
+Lake Oswego	Clackamas	https://www.ci.oswego.or.us/
+Lakeside	Coos	https://www.cityoflakeside.org/
+Lakeview	Lake	https://townoflakeview.org/
+Lebanon	Linn	https://www.lebanonoregon.gov/
+Lexington	Morrow	https://lexingtonoregon.com/
+Lincoln City	Lincoln	https://www.lincolncityor.gov/
+Long Creek	Grant	https://www.cityoflongcreek.org/
+Lostine	Wallowa	https://www.cityoflostine.com/
+Lowell	Lane	https://www.lowelloregon.gov/
+Lyons	Linn	https://www.cityoflyons.org/
+Madras	Jefferson	https://www.madras.gov/
+Malin	Klamath	https://cityofmalin.org/
+Manzanita	Tillamook	https://ci.manzanita.or.us/
+Maupin	Wasco	https://cityofmaupin.org/
+Maywood Park	Multnomah	https://cityofmaywoodpark.com/
+McMinnville	Yamhill	https://www.mcminnvilleoregon.gov/
+Medford	Jackson	https://www.medfordoregon.gov/Home/
+Merrill	Klamath	https://cityofmerrill.org/
+Mill City	Marion	http://www.ci.mill-city.or.us/
+Millersburg	Linn	https://www.millersburgoregon.gov/
+Milton-Freewater	Umatilla	https://www.mfcity.com/
+Milwaukie	Clackamas	https://www.milwaukieoregon.gov/
+Mitchell	Wheeler	https://www.mitchelloregon.us/
+Molalla	Clackamas	https://www.cityofmolalla.com/
+Monmouth	Polk	https://www.ci.monmouth.or.us/
+Monroe	Benton	https://monroeoregon.gov/
+Moro	Sherman	https://cityofmoro.net/
+Mosier	Wasco	https://cityofmosier.gov/
+Mt. Angel	Marion	https://www.ci.mt-angel.or.us/
+Myrtle Creek	Douglas	https://www.cityofmyrtlecreek.com/
+Myrtle Point	Coos	https://www.ci.myrtlepoint.or.us/
+Nehalem	Tillamook	https://www.nehalem.gov/
+Newberg	Yamhill	https://www.newbergoregon.gov/
+Newport	Lincoln	https://www.newportoregon.gov/
+North Bend	Coos	https://www.northbendoregon.gov/
+North Plains	Washington	https://northplains.gov/
+North Powder	Union	http://northpowderoregon.org/
+Nyssa	Malheur	https://nyssacity.org/
+Oakland	Douglas	http://www.oaklandoregon.org/
+Oakridge	Lane	https://www.ci.oakridge.or.us/
+Ontario	Malheur	https://www.ontariooregon.org/
+Oregon City	Clackamas	https://www.orcity.org/
+Paisley	Lake	https://cityofpaisley.net/
+Pendleton	Umatilla	https://www.pendletonor.gov/
+Philomath	Benton	https://www.philomathoregon.gov/
+Phoenix	Jackson	https://www.phoenixoregon.gov/
+Pilot Rock	Umatilla	https://www.cityofpilotrock.org/
+Port Orford	Curry	https://portorford.org/
+Portland	Multnomah	https://www.portland.gov/
+Prineville	Crook	https://www.cityofprineville.com/
+Rainier	Columbia	https://cityofrainier.com/
+Redmond	Deschutes	https://www.redmondoregon.gov/
+Reedsport	Douglas	https://www.cityofreedsport.org/
+Rivergrove	Clackamas	https://www.cityofrivergrove.org/
+Rockaway Beach	Tillamook	https://www.rockawaybeachoregon.gov/
+Rogue River	Jackson	https://www.cityofrogueriver.org/
+Roseburg	Douglas	https://roseburgor.gov/
+Rufus	Sherman	https://cityofrufus.gov/
+Salem	Marion	https://www.cityofsalem.net/
+Sandy	Clackamas	https://www.ci.sandy.or.us/
+Scappoose	Columbia	https://www.scappoose.gov/
+Scio	Linn	https://www.sciooregon.gov/
+Scotts Mills	Marion	https://www.scottsmills.org/
+Seaside	Clatsop	https://www.cityofseaside.us/
+Seneca	Grant	https://www.senecaoregon.com/
+Shady Cove	Jackson	https://shadycove.org/
+Shaniko	Wasco	https://cityofshaniko.org/
+Sheridan	Yamhill	https://www.cityofsheridanor.com/
+Sherwood	Washington	https://www.sherwoodoregon.gov/
+Siletz	Lincoln	https://cityofsiletz.org/
+Silverton	Marion	https://www.silverton.or.us/
+Sisters	Deschutes	https://www.ci.sisters.or.us/
+Sodaville	Linn	http://www.sodaville.org/
+Spray	Wheeler	https://sprayoregon.us/
+Springfield	Lane	https://springfield-or.gov/
+St. Helens	Columbia	https://www.sthelensoregon.gov/
+St. Paul	Marion	https://www.cityofstpaul.us/
+Stanfield	Umatilla	https://cityofstanfield.com/
+Stayton	Marion	https://www.staytonoregon.gov/
+Sublimity	Marion	https://www.cityofsublimity.org/
+Sumpter	Baker	https://cityofsumpteror.com/
+Sutherlin	Douglas	https://www.sutherlinoregon.gov/
+Sweet Home	Linn	https://www.sweethomeor.gov/
+Talent	Jackson	https://www.cityoftalent.org/
+Tangent	Linn	https://www.tangentor.gov/
+The Dalles	Wasco	https://www.thedalles.gov/
+Tigard	Washington	https://www.tigard-or.gov/
+Tillamook	Tillamook	https://www.tillamookcounty.gov/
+Toledo	Lincoln	https://www.cityoftoledo.org/
+Troutdale	Multnomah	https://www.troutdaleoregon.gov/
+Tualatin	Washington	https://www.tualatinoregon.gov/
+Turner	Marion	https://turneroregon.gov/
+Ukiah	Umatilla	https://cityofukiahoregon.com/
+Umatilla	Umatilla	https://www.co.umatilla.or.us/
+Union	Union	https://unioncountyor.gov/
+Unity	Baker	https://www.bakercountyor.gov/
+Vale	Malheur	https://www.cityofvale.com/
+Veneta	Lane	https://www.venetaoregon.gov/
+Vernonia	Columbia	https://www.vernonia-or.gov/
+Waldport	Lincoln	https://www.waldportoregon.gov/
+Wallowa	Wallowa	https://www.co.wallowa.or.us/
+Warrenton	Clatsop	https://www.warrentonoregon.us/
+Wasco	Sherman	https://www.wascocountyor.gov/
+West Linn	Clackamas	https://westlinnoregon.gov/
+Westfir	Lane	https://www.ci.westfir.or.us/
+Weston	Umatilla	https://www.cityofwestonoregon.com/
+Wheeler	Tillamook	https://www.wheelercountyoregon.com/
+Willamina	Yamhill	https://www.willaminaoregon.gov/
+Wilsonville	Clackamas	https://www.wilsonvilleoregon.gov/
+Winston	Douglas	https://winstoncity.org/
+Wood Village	Multnomah	https://www.woodvillageor.gov/
+Woodburn	Marion	https://www.woodburn-or.gov/
+Yachats	Lincoln	https://yachatsoregon.org/
+Yamhill	Yamhill	https://www.yamhillcounty.gov/
+Yoncalla	Douglas	https://www.cityofyoncalla.org/

@@ -1,5 +1,5 @@
 {
- "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page. 'cities' now lists every incorporated city with a website we could confirm (November 2026), and each county's 'schools' lists its school districts, from the Oregon Department of Education's school directory.",
+ "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page. 'cities' lists each city's official website as published in the Oregon Blue Book (November 2026), and each county's 'schools' lists its school districts, from the Oregon Department of Education's school directory.",
  "counties": {
   "Baker": {
    "site": "https://www.bakercounty.org/",
@@ -907,43 +907,9 @@
   }
  },
  "cities": {
-  "Portland": {
-   "county": "Multnomah",
-   "site": "https://www.portland.gov/",
-   "meetings": "https://www.portland.gov/council/agenda",
-   "mayor": {
-    "name": "Keith Wilson",
-    "source": "https://www.portland.gov/council/agenda"
-   }
-  },
-  "Gresham": {
-   "county": "Multnomah",
-   "site": "https://greshamoregon.gov/",
-   "meetings": "https://greshamoregon.gov/government/mayor-and-council/council-meeting-agendas-and-videos"
-  },
-  "Hillsboro": {
-   "county": "Washington",
-   "site": "https://www.hillsboro-oregon.gov/",
-   "boards": "https://www.hillsboro-oregon.gov/our-city/commissions-committees-boards"
-  },
-  "Tigard": {
-   "county": "Washington",
-   "site": "https://www.tigard-or.gov/",
-   "meetings": "https://www.tigard-or.gov/your-government/council/council-meetings"
-  },
-  "Oregon City": {
-   "county": "Clackamas",
-   "site": "https://orcity.org/",
-   "meetings": "https://oregoncityor.portal.civicclerk.com/"
-  },
-  "Salem": {
-   "county": "Marion",
-   "site": "https://www.cityofsalem.net/",
-   "meetings": "https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes"
-  },
-  "Adair Village": {
-   "county": "Benton",
-   "site": "https://adairvillage.org/"
+  "Adams": {
+   "county": "Umatilla",
+   "site": "https://www.cityofadamsoregon.com/"
   },
   "Albany": {
    "county": "Linn",
@@ -953,13 +919,17 @@
    "county": "Yamhill",
    "site": "https://www.amityoregon.gov/"
   },
+  "Antelope": {
+   "county": "Wasco",
+   "site": "https://www.cityofantelope.us/"
+  },
   "Arlington": {
    "county": "Gilliam",
-   "site": "https://www.arlington.com/"
+   "site": "https://cityofarlingtonoregon.com/"
   },
   "Ashland": {
    "county": "Jackson",
-   "site": "https://www.ashlandoregon.gov/"
+   "site": "https://ashlandoregon.gov/"
   },
   "Astoria": {
    "county": "Clatsop",
@@ -969,9 +939,13 @@
    "county": "Umatilla",
    "site": "https://www.cityofathena.com/"
   },
+  "Aumsville": {
+   "county": "Marion",
+   "site": "https://www.aumsville.us/"
+  },
   "Aurora": {
    "county": "Marion",
-   "site": "https://www.aurorahealthcare.org/"
+   "site": "https://www.ci.aurora.or.us/"
   },
   "Baker City": {
    "county": "Baker",
@@ -985,9 +959,17 @@
    "county": "Washington",
    "site": "https://www.cityofbanks.org/"
   },
+  "Bay City": {
+   "county": "Tillamook",
+   "site": "https://www.ci.bay-city.or.us/"
+  },
   "Beaverton": {
    "county": "Washington",
    "site": "https://www.beavertonoregon.gov/"
+  },
+  "Bend": {
+   "county": "Deschutes",
+   "site": "https://www.bendoregon.gov/"
   },
   "Boardman": {
    "county": "Morrow",
@@ -995,7 +977,7 @@
   },
   "Bonanza": {
    "county": "Klamath",
-   "site": "https://www.bonanza.com/"
+   "site": "http://www.townofbonanza.com/"
   },
   "Brookings": {
    "county": "Curry",
@@ -1007,19 +989,19 @@
   },
   "Burns": {
    "county": "Harney",
-   "site": "https://ci.burns.or.us/"
+   "site": "https://www.cityofburnsor.gov/"
   },
   "Butte Falls": {
    "county": "Jackson",
-   "site": "https://www.facebook.com/buttefallsoregon"
+   "site": "https://www.townofbuttefalls.com/"
   },
   "Canby": {
    "county": "Clackamas",
-   "site": "https://canby.org/"
+   "site": "https://www.canbyoregon.gov/"
   },
   "Cannon Beach": {
    "county": "Clatsop",
-   "site": "https://www.cannonbeach.org/"
+   "site": "https://www.ci.cannon-beach.or.us/"
   },
   "Canyonville": {
    "county": "Douglas",
@@ -1031,19 +1013,27 @@
   },
   "Cascade Locks": {
    "county": "Hood River",
-   "site": "https://www.cascadelocks.org/"
+   "site": "https://www.cascade-locks.or.us/"
   },
   "Cave Junction": {
    "county": "Josephine",
-   "site": "https://www.cavejunction.com/"
+   "site": "https://www.cavejunctionoregon.us/"
   },
   "Central Point": {
    "county": "Jackson",
    "site": "https://www.centralpointoregon.gov/"
   },
+  "Chiloquin": {
+   "county": "Klamath",
+   "site": "https://www.cityofchiloquin.org/"
+  },
   "Clatskanie": {
    "county": "Columbia",
-   "site": "https://www.cityofclatskanie.com/"
+   "site": "http://www.cityofclatskanie.com/"
+  },
+  "Coburg": {
+   "county": "Lane",
+   "site": "https://www.coburgoregon.gov/"
   },
   "Columbia City": {
    "county": "Columbia",
@@ -1055,7 +1045,7 @@
   },
   "Coos Bay": {
    "county": "Coos",
-   "site": "https://www.cityofcoosbay.com/"
+   "site": "https://www.coosbayor.gov/"
   },
   "Coquille": {
    "county": "Coos",
@@ -1065,33 +1055,33 @@
    "county": "Washington",
    "site": "https://www.corneliusor.gov/"
   },
+  "Corvallis": {
+   "county": "Benton",
+   "site": "https://www.corvallisoregon.gov/"
+  },
   "Cottage Grove": {
    "county": "Lane",
    "site": "https://www.cottagegroveor.gov/"
   },
   "Cove": {
    "county": "Union",
-   "site": "https://cityofcove.org/"
+   "site": "http://cityofcove.org/home-page/"
   },
   "Creswell": {
    "county": "Lane",
-   "site": "https://www.creswellrichardson.com/"
+   "site": "https://www.ci.creswell.or.us/"
   },
   "Culver": {
    "county": "Jefferson",
-   "site": "https://cityofculver.org/"
+   "site": "https://www.cityofculver.net/"
   },
   "Dallas": {
    "county": "Polk",
-   "site": "https://www.dallas.com/"
+   "site": "https://www.dallasor.gov/"
   },
-  "Dayton": {
-   "county": "Yamhill",
-   "site": "https://www.daytonoregon.gov/"
-  },
-  "Dayville": {
-   "county": "Grant",
-   "site": "https://dayville.com"
+  "Depoe Bay": {
+   "county": "Lincoln",
+   "site": "https://www.cityofdepoebay.org/"
   },
   "Detroit": {
    "county": "Marion",
@@ -1103,7 +1093,7 @@
   },
   "Drain": {
    "county": "Douglas",
-   "site": "https://www.drain.com/"
+   "site": "https://www.cityofdrain.org/"
   },
   "Dufur": {
    "county": "Wasco",
@@ -1111,7 +1101,7 @@
   },
   "Dundee": {
    "county": "Yamhill",
-   "site": "https://expireddomains.com/domain/cityofdundee.com?utm_source=redi"
+   "site": "https://www.dundeecity.org/"
   },
   "Dunes City": {
    "county": "Lane",
@@ -1119,19 +1109,23 @@
   },
   "Durham": {
    "county": "Washington",
-   "site": "https://www.cityofdurham.org/"
+   "site": "https://durham-oregon.us/"
   },
   "Eagle Point": {
    "county": "Jackson",
-   "site": "https://www.cityofeaglepoint.org/"
+   "site": "http://www.cityofeaglepoint.org/"
   },
   "Echo": {
    "county": "Umatilla",
-   "site": "https://www.cityofecho.com/"
+   "site": "https://echo-oregon.com/"
   },
   "Elgin": {
    "county": "Union",
-   "site": "https://elginil.gov/"
+   "site": "https://cityofelginor.org/"
+  },
+  "Elkton": {
+   "county": "Douglas",
+   "site": "https://elkton-oregon.com/"
   },
   "Enterprise": {
    "county": "Wallowa",
@@ -1143,11 +1137,11 @@
   },
   "Eugene": {
    "county": "Lane",
-   "site": "https://www.eugene.com/"
+   "site": "https://www.eugene-or.gov/"
   },
   "Fairview": {
    "county": "Multnomah",
-   "site": "https://www.fairvieworegon.gov/"
+   "site": "http://www.fairvieworegon.gov/"
   },
   "Falls City": {
    "county": "Polk",
@@ -1159,11 +1153,11 @@
   },
   "Forest Grove": {
    "county": "Washington",
-   "site": "https://forestgrove.com/"
+   "site": "https://www.forestgrove-or.gov/"
   },
   "Fossil": {
    "county": "Wheeler",
-   "site": "https://www.fossiloregon.com/"
+   "site": "http://cityoffossil.com/"
   },
   "Garibaldi": {
    "county": "Tillamook",
@@ -1181,13 +1175,17 @@
    "county": "Clatsop",
    "site": "https://www.cityofgearhart.com/"
   },
+  "Gervais": {
+   "county": "Marion",
+   "site": "http://www.gervaisoregon.org/"
+  },
   "Gladstone": {
    "county": "Clackamas",
-   "site": "https://www.gladstonecompanies.com/"
+   "site": "https://www.ci.gladstone.or.us/"
   },
   "Glendale": {
    "county": "Douglas",
-   "site": "https://www.glendale.com/"
+   "site": "https://cityofglendaleor.com/"
   },
   "Gold Beach": {
    "county": "Curry",
@@ -1197,21 +1195,26 @@
    "county": "Jackson",
    "site": "https://www.cityofgoldhill.gov/"
   },
-  "Granite": {
-   "county": "Grant",
-   "site": "https://www.granite.org/"
-  },
   "Grants Pass": {
    "county": "Josephine",
    "site": "https://www.grantspassoregon.gov/"
   },
+  "Grass Valley": {
+   "county": "Sherman",
+   "site": "https://www.grassvalleyoregon.com/"
+  },
+  "Gresham": {
+   "county": "Multnomah",
+   "site": "https://www.greshamoregon.gov/",
+   "meetings": "https://greshamoregon.gov/government/mayor-and-council/council-meeting-agendas-and-videos"
+  },
   "Haines": {
    "county": "Baker",
-   "site": "https://haines.com/"
+   "site": "https://www.cityofhainesor.org/"
   },
   "Halfway": {
    "county": "Baker",
-   "site": "https://www.cityofhalfway.com/"
+   "site": "https://www.halfwayoregon.org/"
   },
   "Halsey": {
    "county": "Linn",
@@ -1221,25 +1224,34 @@
    "county": "Clackamas",
    "site": "https://www.happyvalleyor.gov/"
   },
+  "Harrisburg": {
+   "county": "Linn",
+   "site": "https://www.ci.harrisburg.or.us/"
+  },
   "Heppner": {
    "county": "Morrow",
    "site": "https://cityofheppner.org/"
   },
+  "Hermiston": {
+   "county": "Umatilla",
+   "site": "https://www.hermiston.gov/"
+  },
+  "Hillsboro": {
+   "county": "Washington",
+   "site": "https://www.hillsboro-oregon.gov/",
+   "boards": "https://www.hillsboro-oregon.gov/our-city/commissions-committees-boards"
+  },
+  "Hines": {
+   "county": "Harney",
+   "site": "https://www.cityofhines.com/"
+  },
   "Hood River": {
    "county": "Hood River",
-   "site": "https://cityofhoodriver.gov"
+   "site": "https://www.hoodrivercounty.gov/"
   },
   "Hubbard": {
    "county": "Marion",
-   "site": "https://hubbard.com/"
-  },
-  "Huntington": {
-   "county": "Baker",
-   "site": "https://www.cityofhuntington.com/"
-  },
-  "Idanha": {
-   "county": "Marion",
-   "site": "https://www.cityofidanha.us/"
+   "site": "https://www.cityofhubbard.org/"
   },
   "Imbler": {
    "county": "Union",
@@ -1259,23 +1271,19 @@
   },
   "Island City": {
    "county": "Union",
-   "site": "https://www.islandcityoregon.gov/"
+   "site": "https://islandcityoregon.gov/"
   },
   "Jacksonville": {
    "county": "Jackson",
-   "site": "https://www.jacksonville.gov/"
+   "site": "https://www.jacksonvilleor.us/"
   },
   "Jefferson": {
    "county": "Marion",
-   "site": "https://jeffersonoregon.org/"
+   "site": "https://www.jeffersoncountyor.gov/"
   },
-  "Johnson City": {
-   "county": "Clackamas",
-   "site": "https://www.johnsoncityoregon.gov/"
-  },
-  "Jordan Valley": {
-   "county": "Malheur",
-   "site": "https://www.jordanvalley.org/"
+  "John Day": {
+   "county": "Grant",
+   "site": "https://www.cityofjohnday.com/"
   },
   "Joseph": {
    "county": "Wallowa",
@@ -1303,7 +1311,7 @@
   },
   "La Pine": {
    "county": "Deschutes",
-   "site": "https://www.lapineoregon.gov/"
+   "site": "http://www.lapineoregon.gov/"
   },
   "Lafayette": {
    "county": "Yamhill",
@@ -1311,15 +1319,15 @@
   },
   "Lake Oswego": {
    "county": "Clackamas",
-   "site": "https://www.cityoflakeoswego.org/"
+   "site": "https://www.ci.oswego.or.us/"
   },
   "Lakeside": {
    "county": "Coos",
-   "site": "https://www.lakeside.com/"
+   "site": "https://www.cityoflakeside.org/"
   },
   "Lakeview": {
    "county": "Lake",
-   "site": "https://www.lakevieworegon.org/"
+   "site": "https://townoflakeview.org/"
   },
   "Lebanon": {
    "county": "Linn",
@@ -1327,11 +1335,11 @@
   },
   "Lexington": {
    "county": "Morrow",
-   "site": "https://www.cityoflexington.com/"
+   "site": "https://lexingtonoregon.com/"
   },
   "Lincoln City": {
    "county": "Lincoln",
-   "site": "https://lincolncityoregoncoast.com/"
+   "site": "https://www.lincolncityor.gov/"
   },
   "Long Creek": {
    "county": "Grant",
@@ -1355,11 +1363,11 @@
   },
   "Malin": {
    "county": "Klamath",
-   "site": "https://www.cityofmalin.org/"
+   "site": "https://cityofmalin.org/"
   },
   "Manzanita": {
    "county": "Tillamook",
-   "site": "https://ci.manzanita.or.us"
+   "site": "https://ci.manzanita.or.us/"
   },
   "Maupin": {
    "county": "Wasco",
@@ -1371,23 +1379,27 @@
   },
   "McMinnville": {
    "county": "Yamhill",
-   "site": "https://mcminnville.org/"
+   "site": "https://www.mcminnvilleoregon.gov/"
   },
   "Medford": {
    "county": "Jackson",
-   "site": "https://www.medfordoregon.gov/Home"
+   "site": "https://www.medfordoregon.gov/Home/"
   },
   "Merrill": {
    "county": "Klamath",
    "site": "https://cityofmerrill.org/"
   },
-  "Metolius": {
-   "county": "Jefferson",
-   "site": "https://www.cityofmetolius.com/"
+  "Mill City": {
+   "county": "Marion",
+   "site": "http://www.ci.mill-city.or.us/"
   },
   "Millersburg": {
    "county": "Linn",
    "site": "https://www.millersburgoregon.gov/"
+  },
+  "Milton-Freewater": {
+   "county": "Umatilla",
+   "site": "https://www.mfcity.com/"
   },
   "Milwaukie": {
    "county": "Clackamas",
@@ -1395,11 +1407,11 @@
   },
   "Mitchell": {
    "county": "Wheeler",
-   "site": "https://www.cityofmitchell.com/"
+   "site": "https://www.mitchelloregon.us/"
   },
   "Molalla": {
    "county": "Clackamas",
-   "site": "https://www.cityofmolalla.com/Home"
+   "site": "https://www.cityofmolalla.com/"
   },
   "Monmouth": {
    "county": "Polk",
@@ -1407,11 +1419,7 @@
   },
   "Monroe": {
    "county": "Benton",
-   "site": "https://www.monroeoregon.gov/"
-  },
-  "Monument": {
-   "county": "Grant",
-   "site": "https://monument.org/"
+   "site": "https://monroeoregon.gov/"
   },
   "Moro": {
    "county": "Sherman",
@@ -1419,15 +1427,11 @@
   },
   "Mosier": {
    "county": "Wasco",
-   "site": "https://www.mosier.us/"
-  },
-  "Mount Vernon": {
-   "county": "Grant",
-   "site": "https://www.mountvernon.com/"
+   "site": "https://cityofmosier.gov/"
   },
   "Mt. Angel": {
    "county": "Marion",
-   "site": "https://www.mtangel.org/"
+   "site": "https://www.ci.mt-angel.or.us/"
   },
   "Myrtle Creek": {
    "county": "Douglas",
@@ -1437,6 +1441,10 @@
    "county": "Coos",
    "site": "https://www.ci.myrtlepoint.or.us/"
   },
+  "Nehalem": {
+   "county": "Tillamook",
+   "site": "https://www.nehalem.gov/"
+  },
   "Newberg": {
    "county": "Yamhill",
    "site": "https://www.newbergoregon.gov/"
@@ -1445,13 +1453,17 @@
    "county": "Lincoln",
    "site": "https://www.newportoregon.gov/"
   },
+  "North Bend": {
+   "county": "Coos",
+   "site": "https://www.northbendoregon.gov/"
+  },
   "North Plains": {
    "county": "Washington",
-   "site": "https://www.northplains.gov/"
+   "site": "https://northplains.gov/"
   },
   "North Powder": {
    "county": "Union",
-   "site": "https://northpowder.com/"
+   "site": "http://northpowderoregon.org/"
   },
   "Nyssa": {
    "county": "Malheur",
@@ -1459,15 +1471,20 @@
   },
   "Oakland": {
    "county": "Douglas",
-   "site": "https://cityofoakland.org/"
+   "site": "http://www.oaklandoregon.org/"
   },
   "Oakridge": {
    "county": "Lane",
-   "site": "https://oakridgeoregon.org/"
+   "site": "https://www.ci.oakridge.or.us/"
   },
   "Ontario": {
    "county": "Malheur",
-   "site": "https://cityofontario.com/"
+   "site": "https://www.ontariooregon.org/"
+  },
+  "Oregon City": {
+   "county": "Clackamas",
+   "site": "https://www.orcity.org/",
+   "meetings": "https://oregoncityor.portal.civicclerk.com/"
   },
   "Paisley": {
    "county": "Lake",
@@ -1477,25 +1494,30 @@
    "county": "Umatilla",
    "site": "https://www.pendletonor.gov/"
   },
+  "Philomath": {
+   "county": "Benton",
+   "site": "https://www.philomathoregon.gov/"
+  },
   "Phoenix": {
    "county": "Jackson",
-   "site": "https://www.cityofphoenix.org/"
+   "site": "https://www.phoenixoregon.gov/"
   },
   "Pilot Rock": {
    "county": "Umatilla",
-   "site": "https://www.pilotrock.com/"
+   "site": "https://www.cityofpilotrock.org/"
   },
   "Port Orford": {
    "county": "Curry",
    "site": "https://portorford.org/"
   },
-  "Prairie City": {
-   "county": "Grant",
-   "site": "https://www.prairiecityor.gov/"
-  },
-  "Prescott": {
-   "county": "Columbia",
-   "site": "https://www.cityofprescott.com/"
+  "Portland": {
+   "county": "Multnomah",
+   "site": "https://www.portland.gov/",
+   "meetings": "https://www.portland.gov/council/agenda",
+   "mayor": {
+    "name": "Keith Wilson",
+    "source": "https://www.portland.gov/council/agenda"
+   }
   },
   "Prineville": {
    "county": "Crook",
@@ -1503,19 +1525,15 @@
   },
   "Rainier": {
    "county": "Columbia",
-   "site": "https://www.rainier.org/"
+   "site": "https://cityofrainier.com/"
+  },
+  "Redmond": {
+   "county": "Deschutes",
+   "site": "https://www.redmondoregon.gov/"
   },
   "Reedsport": {
    "county": "Douglas",
-   "site": "https://reedsport.us/"
-  },
-  "Richland": {
-   "county": "Baker",
-   "site": "https://cityofrichland.org/"
-  },
-  "Riddle": {
-   "county": "Douglas",
-   "site": "https://www.riddle.com/"
+   "site": "https://www.cityofreedsport.org/"
   },
   "Rivergrove": {
    "county": "Clackamas",
@@ -1533,9 +1551,26 @@
    "county": "Douglas",
    "site": "https://roseburgor.gov/"
   },
+  "Rufus": {
+   "county": "Sherman",
+   "site": "https://cityofrufus.gov/"
+  },
+  "Salem": {
+   "county": "Marion",
+   "site": "https://www.cityofsalem.net/",
+   "meetings": "https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes"
+  },
+  "Sandy": {
+   "county": "Clackamas",
+   "site": "https://www.ci.sandy.or.us/"
+  },
   "Scappoose": {
    "county": "Columbia",
    "site": "https://www.scappoose.gov/"
+  },
+  "Scio": {
+   "county": "Linn",
+   "site": "https://www.sciooregon.gov/"
   },
   "Scotts Mills": {
    "county": "Marion",
@@ -1547,7 +1582,7 @@
   },
   "Seneca": {
    "county": "Grant",
-   "site": "https://api-usa.com/seneca.php"
+   "site": "https://www.senecaoregon.com/"
   },
   "Shady Cove": {
    "county": "Jackson",
@@ -1563,23 +1598,27 @@
   },
   "Sherwood": {
    "county": "Washington",
-   "site": "https://sherwood.org/"
+   "site": "https://www.sherwoodoregon.gov/"
   },
   "Siletz": {
    "county": "Lincoln",
-   "site": "https://www.cityofsiletz.org/"
+   "site": "https://cityofsiletz.org/"
   },
   "Silverton": {
    "county": "Marion",
-   "site": "https://www.silverton.com/"
+   "site": "https://www.silverton.or.us/"
   },
   "Sisters": {
    "county": "Deschutes",
-   "site": "http://www.sistersoregon.org/"
+   "site": "https://www.ci.sisters.or.us/"
+  },
+  "Sodaville": {
+   "county": "Linn",
+   "site": "http://www.sodaville.org/"
   },
   "Spray": {
    "county": "Wheeler",
-   "site": "https://www.spray.com/"
+   "site": "https://sprayoregon.us/"
   },
   "Springfield": {
    "county": "Lane",
@@ -1591,15 +1630,23 @@
   },
   "St. Paul": {
    "county": "Marion",
-   "site": "https://stpaul.org/"
+   "site": "https://www.cityofstpaul.us/"
   },
   "Stanfield": {
    "county": "Umatilla",
-   "site": "https://www.cityofstanfield.com/"
+   "site": "https://cityofstanfield.com/"
   },
   "Stayton": {
    "county": "Marion",
    "site": "https://www.staytonoregon.gov/"
+  },
+  "Sublimity": {
+   "county": "Marion",
+   "site": "https://www.cityofsublimity.org/"
+  },
+  "Sumpter": {
+   "county": "Baker",
+   "site": "https://cityofsumpteror.com/"
   },
   "Sutherlin": {
    "county": "Douglas",
@@ -1621,9 +1668,14 @@
    "county": "Wasco",
    "site": "https://www.thedalles.gov/"
   },
+  "Tigard": {
+   "county": "Washington",
+   "site": "https://www.tigard-or.gov/",
+   "meetings": "https://www.tigard-or.gov/your-government/council/council-meetings"
+  },
   "Tillamook": {
    "county": "Tillamook",
-   "site": "https://www.tillamook.com/"
+   "site": "https://www.tillamookcounty.gov/"
   },
   "Toledo": {
    "county": "Lincoln",
@@ -1635,7 +1687,7 @@
   },
   "Tualatin": {
    "county": "Washington",
-   "site": "https://tualatinoregon.gov/"
+   "site": "https://www.tualatinoregon.gov/"
   },
   "Turner": {
    "county": "Marion",
@@ -1647,11 +1699,15 @@
   },
   "Umatilla": {
    "county": "Umatilla",
-   "site": "https://www.umatilla.gov/"
+   "site": "https://www.co.umatilla.or.us/"
   },
   "Union": {
    "county": "Union",
-   "site": "https://www.cityofunionor.gov/"
+   "site": "https://unioncountyor.gov/"
+  },
+  "Unity": {
+   "county": "Baker",
+   "site": "https://www.bakercountyor.gov/"
   },
   "Vale": {
    "county": "Malheur",
@@ -1671,15 +1727,19 @@
   },
   "Wallowa": {
    "county": "Wallowa",
-   "site": "https://wallowa.com/"
+   "site": "https://www.co.wallowa.or.us/"
+  },
+  "Warrenton": {
+   "county": "Clatsop",
+   "site": "https://www.warrentonoregon.us/"
   },
   "Wasco": {
    "county": "Sherman",
-   "site": "https://www.wasco.org/"
+   "site": "https://www.wascocountyor.gov/"
   },
-  "Waterloo": {
-   "county": "Linn",
-   "site": "https://www.waterloo.com/"
+  "West Linn": {
+   "county": "Clackamas",
+   "site": "https://westlinnoregon.gov/"
   },
   "Westfir": {
    "county": "Lane",
@@ -1687,11 +1747,11 @@
   },
   "Weston": {
    "county": "Umatilla",
-   "site": "https://www.cityofweston.org/"
+   "site": "https://www.cityofwestonoregon.com/"
   },
   "Wheeler": {
    "county": "Tillamook",
-   "site": "https://www.wheeler.com/"
+   "site": "https://www.wheelercountyoregon.com/"
   },
   "Willamina": {
    "county": "Yamhill",
@@ -1703,7 +1763,7 @@
   },
   "Winston": {
    "county": "Douglas",
-   "site": "https://www.winstontaylor.com/"
+   "site": "https://winstoncity.org/"
   },
   "Wood Village": {
    "county": "Multnomah",
@@ -1715,11 +1775,11 @@
   },
   "Yachats": {
    "county": "Lincoln",
-   "site": "https://www.yachats.org/"
+   "site": "https://yachatsoregon.org/"
   },
   "Yamhill": {
    "county": "Yamhill",
-   "site": "https://www.yamhill.com/"
+   "site": "https://www.yamhillcounty.gov/"
   },
   "Yoncalla": {
    "county": "Douglas",
