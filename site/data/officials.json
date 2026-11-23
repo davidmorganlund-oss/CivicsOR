@@ -1,1 +1,783 @@
-{"generated": "", "legislators": {"senate": {}, "house": {}}, "congress": {"senators": [], "house": {}}}
+{
+ "generated": "2026-11-22T19:59:40-08:00",
+ "legislators": {
+  "senate": {
+   "27": [
+    {
+     "name": "Anthony Broadman",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.anthonybroadman@oregonlegislature.gov"
+    }
+   ],
+   "12": [
+    {
+     "name": "Bruce Starr",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.brucestarr@oregonlegislature.gov"
+    }
+   ],
+   "6": [
+    {
+     "name": "Cedric Hayden",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.cedrichayden@oregonlegislature.gov"
+    }
+   ],
+   "25": [
+    {
+     "name": "Chris Gorsek",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.chrisgorsek@oregonlegislature.gov"
+    }
+   ],
+   "26": [
+    {
+     "name": "Christine Drazan",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.christinedrazan@oregonlegislature.gov"
+    }
+   ],
+   "13": [
+    {
+     "name": "Courtney Neron Misslin",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.courtneyneronmisslin@oregonlegislature.gov"
+    }
+   ],
+   "1": [
+    {
+     "name": "David Smith",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.davidbrocksmith@oregonlegislature.gov"
+    }
+   ],
+   "10": [
+    {
+     "name": "Deb Patterson",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.debpatterson@oregonlegislature.gov"
+    }
+   ],
+   "28": [
+    {
+     "name": "Diane Linthicum",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.dianelinthicum@oregonlegislature.gov"
+    }
+   ],
+   "5": [
+    {
+     "name": "Dick Anderson",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.dickanderson@oregonlegislature.gov"
+    }
+   ],
+   "4": [
+    {
+     "name": "Floyd Prozanski",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.floydprozanski@oregonlegislature.gov"
+    }
+   ],
+   "9": [
+    {
+     "name": "Fred Girod",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.fredgirod@oregonlegislature.gov"
+    }
+   ],
+   "7": [
+    {
+     "name": "James Manning",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.jamesmanning@oregonlegislature.gov"
+    }
+   ],
+   "15": [
+    {
+     "name": "Janeen Sollman",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.janeensollman@oregonlegislature.gov"
+    }
+   ],
+   "3": [
+    {
+     "name": "Jeff Golden",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.jeffgolden@oregonlegislature.gov"
+    }
+   ],
+   "14": [
+    {
+     "name": "Kate Lieber",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.katelieber@oregonlegislature.gov"
+    }
+   ],
+   "21": [
+    {
+     "name": "Kathleen Taylor",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.kathleentaylor@oregonlegislature.gov"
+    }
+   ],
+   "24": [
+    {
+     "name": "Kayse Jama",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.kaysejama@oregonlegislature.gov"
+    }
+   ],
+   "23": [
+    {
+     "name": "Khanh Pham",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.khanhpham@oregonlegislature.gov"
+    }
+   ],
+   "11": [
+    {
+     "name": "Kim Thatcher",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.kimthatcher@oregonlegislature.gov"
+    }
+   ],
+   "22": [
+    {
+     "name": "Lew Frederick",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.lewfrederick@oregonlegislature.gov"
+    }
+   ],
+   "17": [
+    {
+     "name": "Lisa Reynolds",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.lisareynolds@oregonlegislature.gov"
+    }
+   ],
+   "20": [
+    {
+     "name": "Mark Meek",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.markmeek@oregonlegislature.gov"
+    }
+   ],
+   "30": [
+    {
+     "name": "Mike McLane",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.mikemclane@oregonlegislature.gov"
+    }
+   ],
+   "2": [
+    {
+     "name": "Noah Robinson",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.noahrobinson@oregonlegislature.gov"
+    }
+   ],
+   "19": [
+    {
+     "name": "Rob Wagner",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.robwagner@oregonlegislature.gov"
+    }
+   ],
+   "8": [
+    {
+     "name": "Sara Gelser Blouin",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.saragelser@oregonlegislature.gov"
+    }
+   ],
+   "16": [
+    {
+     "name": "Suzanne Weber",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.suzanneweber@oregonlegislature.gov"
+    }
+   ],
+   "29": [
+    {
+     "name": "Todd Nash",
+     "party": "Republican",
+     "phone": "",
+     "email": "sen.toddnash@oregonlegislature.gov"
+    }
+   ],
+   "18": [
+    {
+     "name": "Wlnsvey Campos",
+     "party": "Democrat",
+     "phone": "",
+     "email": "sen.wlnsveycampos@oregonlegislature.gov"
+    }
+   ]
+  },
+  "house": {
+   "4": [
+    {
+     "name": "Alek Skarlatos",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.alekskarlatos@oregonlegislature.gov"
+    }
+   ],
+   "47": [
+    {
+     "name": "Andrea Valderrama",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.andreavalderrama@oregonlegislature.gov"
+    }
+   ],
+   "23": [
+    {
+     "name": "Anna Scharf",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.annascharf@oregonlegislature.gov"
+    }
+   ],
+   "40": [
+    {
+     "name": "Annessa Hartman",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.annessahartman@oregonlegislature.gov"
+    }
+   ],
+   "39": [
+    {
+     "name": "April Dobson",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.aprildobson@oregonlegislature.gov"
+    }
+   ],
+   "25": [
+    {
+     "name": "Ben Bowman",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.benbowman@oregonlegislature.gov"
+    }
+   ],
+   "58": [
+    {
+     "name": "Bobby Levy",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.bobbylevy@oregonlegislature.gov"
+    }
+   ],
+   "9": [
+    {
+     "name": "Boomer Wright",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.boomerwright@oregonlegislature.gov"
+    }
+   ],
+   "1": [
+    {
+     "name": "Court Boice",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.courtboice@oregonlegislature.gov"
+    }
+   ],
+   "32": [
+    {
+     "name": "Cyrus Javadi",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.cyrusjavadi@oregonlegislature.gov"
+    }
+   ],
+   "28": [
+    {
+     "name": "Dacia Grayber",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.daciagrayber@oregonlegislature.gov"
+    }
+   ],
+   "38": [
+    {
+     "name": "Daniel Nguyen",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.danielnguyen@oregonlegislature.gov"
+    }
+   ],
+   "31": [
+    {
+     "name": "Darcey Edwards",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.darceyedwards@oregonlegislature.gov"
+    }
+   ],
+   "12": [
+    {
+     "name": "Darin Harbick",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.darinharbick@oregonlegislature.gov"
+    }
+   ],
+   "10": [
+    {
+     "name": "David Gomberg",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.davidgomberg@oregonlegislature.gov"
+    }
+   ],
+   "3": [
+    {
+     "name": "Dwayne Yunker",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.dwayneyunker@oregonlegislature.gov"
+    }
+   ],
+   "55": [
+    {
+     "name": "Werner Reschke",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.ewernerreschke@oregonlegislature.gov"
+    }
+   ],
+   "17": [
+    {
+     "name": "Ed Diehl",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.eddiehl@oregonlegislature.gov"
+    }
+   ],
+   "53": [
+    {
+     "name": "Em Levy",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.emersonlevy@oregonlegislature.gov"
+    }
+   ],
+   "56": [
+    {
+     "name": "Emily McIntire",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.emilymcintire@oregonlegislature.gov"
+    }
+   ],
+   "35": [
+    {
+     "name": "Farrah Chaichi",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.farrahchaichi@oregonlegislature.gov"
+    }
+   ],
+   "57": [
+    {
+     "name": "Greg Smith",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.gregsmith@oregonlegislature.gov"
+    }
+   ],
+   "36": [
+    {
+     "name": "Hai Pham",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.haipham@oregonlegislature.gov"
+    }
+   ],
+   "11": [
+    {
+     "name": "Jami Cate",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.jamicate@oregonlegislature.gov"
+    }
+   ],
+   "54": [
+    {
+     "name": "Jason Kropf",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.jasonkropf@oregonlegislature.gov"
+    }
+   ],
+   "52": [
+    {
+     "name": "Jeff Helfrich",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.jeffhelfrich@oregonlegislature.gov"
+    }
+   ],
+   "7": [
+    {
+     "name": "John Lively",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.johnlively@oregonlegislature.gov"
+    }
+   ],
+   "37": [
+    {
+     "name": "Jules Walters",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.juleswalters@oregonlegislature.gov"
+    }
+   ],
+   "14": [
+    {
+     "name": "Julie Fahey",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.juliefahey@oregonlegislature.gov"
+    }
+   ],
+   "27": [
+    {
+     "name": "Ken Helm",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.kenhelm@oregonlegislature.gov"
+    }
+   ],
+   "21": [
+    {
+     "name": "Kevin Mannix",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.kevinmannix@oregonlegislature.gov"
+    }
+   ],
+   "6": [
+    {
+     "name": "Kim Wallan",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.kimwallan@oregonlegislature.gov"
+    }
+   ],
+   "48": [
+    {
+     "name": "Lamar Wise",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.lamarwise@oregonlegislature.gov"
+    }
+   ],
+   "22": [
+    {
+     "name": "Lesly Mu\u00f1oz",
+     "party": "Democratic/Working Families",
+     "phone": "",
+     "email": "rep.leslymunoz@oregonlegislature.gov"
+    }
+   ],
+   "8": [
+    {
+     "name": "Lisa Fragala",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.lisafragala@oregonlegislature.gov"
+    }
+   ],
+   "24": [
+    {
+     "name": "Lucetta Elmer",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.lucettaelmer@oregonlegislature.gov"
+    }
+   ],
+   "34": [
+    {
+     "name": "Mari Watanabe",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.mariwatanabe@oregonlegislature.gov"
+    }
+   ],
+   "41": [
+    {
+     "name": "Mark Gamba",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.markgamba@oregonlegislature.gov"
+    }
+   ],
+   "60": [
+    {
+     "name": "Mark Owens",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.markowens@oregonlegislature.gov"
+    }
+   ],
+   "51": [
+    {
+     "name": "Matt Bunch",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.mattbunch@oregonlegislature.gov"
+    }
+   ],
+   "13": [
+    {
+     "name": "Nancy Nathanson",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.nancynathanson@oregonlegislature.gov"
+    }
+   ],
+   "30": [
+    {
+     "name": "Nathan Sosa",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.nathansosa@oregonlegislature.gov"
+    }
+   ],
+   "5": [
+    {
+     "name": "Pam Marsh",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.pammarsh@oregonlegislature.gov"
+    }
+   ],
+   "20": [
+    {
+     "name": "Paul Evans",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.paulevans@oregonlegislature.gov"
+    }
+   ],
+   "18": [
+    {
+     "name": "Rick Lewis",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.ricklewis@oregonlegislature.gov"
+    }
+   ],
+   "50": [
+    {
+     "name": "Ricki Ruiz",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.rickiruiz@oregonlegislature.gov"
+    }
+   ],
+   "42": [
+    {
+     "name": "Rob Nosse",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.robnosse@oregonlegislature.gov"
+    }
+   ],
+   "16": [
+    {
+     "name": "Sarah McDonald",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.sarahfingermcdonald@oregonlegislature.gov"
+    }
+   ],
+   "33": [
+    {
+     "name": "Shannon Isadore",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.shannonisadore@oregonlegislature.gov"
+    }
+   ],
+   "15": [
+    {
+     "name": "Shelly Davis",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.shellyboshartdavis@oregonlegislature.gov"
+    }
+   ],
+   "26": [
+    {
+     "name": "Sue Rieke Smith",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.sueriekesmith@oregonlegislature.gov"
+    }
+   ],
+   "29": [
+    {
+     "name": "Susan McLain",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.susanmclain@oregonlegislature.gov"
+    }
+   ],
+   "43": [
+    {
+     "name": "Tawna Sanchez",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.tawnasanchez@oregonlegislature.gov"
+    }
+   ],
+   "45": [
+    {
+     "name": "Thuy Tran",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.thuytran@oregonlegislature.gov"
+    }
+   ],
+   "19": [
+    {
+     "name": "Tom Andersen",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.tomandersen@oregonlegislature.gov"
+    }
+   ],
+   "44": [
+    {
+     "name": "Travis Nelson",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.travisnelson@oregonlegislature.gov"
+    }
+   ],
+   "59": [
+    {
+     "name": "Vikki Breese Iverson",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.vikkibreeseiverson@oregonlegislature.gov"
+    }
+   ],
+   "2": [
+    {
+     "name": "Virgle Osborne",
+     "party": "Republican",
+     "phone": "",
+     "email": "rep.virgleosborne@oregonlegislature.gov"
+    }
+   ],
+   "46": [
+    {
+     "name": "Willy Chotzen",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.willychotzen@oregonlegislature.gov"
+    }
+   ],
+   "49": [
+    {
+     "name": "Zach Hudson",
+     "party": "Democrat",
+     "phone": "",
+     "email": "rep.zachhudson@oregonlegislature.gov"
+    }
+   ]
+  }
+ },
+ "congress": {
+  "senators": [
+   {
+    "name": "Jeff Merkley",
+    "party": "Democrat",
+    "phone": "202-224-3753",
+    "url": "https://www.merkley.senate.gov"
+   },
+   {
+    "name": "Ron Wyden",
+    "party": "Democrat",
+    "phone": "202-224-5244",
+    "url": "https://www.wyden.senate.gov"
+   }
+  ],
+  "house": {
+   "1": {
+    "name": "Suzanne Bonamici",
+    "party": "Democrat",
+    "phone": "202-225-0855",
+    "url": "https://bonamici.house.gov"
+   },
+   "2": {
+    "name": "Cliff Bentz",
+    "party": "Republican",
+    "phone": "202-225-6730",
+    "url": "https://bentz.house.gov"
+   },
+   "4": {
+    "name": "Val T. Hoyle",
+    "party": "Democrat",
+    "phone": "202-225-6416",
+    "url": "https://hoyle.house.gov"
+   },
+   "6": {
+    "name": "Andrea Salinas",
+    "party": "Democrat",
+    "phone": "202-225-5643",
+    "url": "https://salinas.house.gov"
+   },
+   "3": {
+    "name": "Maxine Dexter",
+    "party": "Democrat",
+    "phone": "202-225-4811",
+    "url": "https://dexter.house.gov"
+   },
+   "5": {
+    "name": "Janelle S. Bynum",
+    "party": "Democrat",
+    "phone": "202-225-5711",
+    "url": "https://bynum.house.gov"
+   }
+  }
+ }
+}

@@ -1,0 +1,224 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsOR//Public meetings//EN
+X-WR-CALNAME:CivicsOR Clackamas County
+BEGIN:VEVENT
+UID:decadeded2d2@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261124T030000Z
+DTEND:20261124T040000Z
+SUMMARY:Planning Commission Meeting (4th Monday) (City of Oregon City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3606/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:1b48982b44d6@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261125T030000Z
+DTEND:20261125T040000Z
+SUMMARY:Historic Review Board (City of Oregon City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3522/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:12cb2897db9c@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261203T030000Z
+DTEND:20261203T040000Z
+SUMMARY:City Commission Regular Meeting (first Wednesdays) (City of Oregon 
+ City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3569/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:b79d3de903f6@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261203T180000Z
+DTEND:20261203T190000Z
+SUMMARY:Board of County Commissioners business meeting (Clackamas County)
+LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
+  Zoom)
+URL:https://www.clackamas.us/meetings/bcc/business
+END:VEVENT
+BEGIN:VEVENT
+UID:f837db52e279@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261208T030000Z
+DTEND:20261208T040000Z
+SUMMARY:Citizen Involvement Committee (City of Oregon City)
+LOCATION:625 Center Street\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3653/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:f08f648da7b8@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261209T020000Z
+DTEND:20261209T030000Z
+SUMMARY:City Commission Work Session (City of Oregon City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3538/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:683ed569670b@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261210T023000Z
+DTEND:20261210T033000Z
+SUMMARY:Natural Resources Committee (City of Oregon City)
+LOCATION:695 Warner Parrott Rd\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3599/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:3159761be702@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261210T180000Z
+DTEND:20261210T190000Z
+SUMMARY:Board of County Commissioners business meeting (Clackamas County)
+LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
+  Zoom)
+URL:https://www.clackamas.us/meetings/bcc/business
+END:VEVENT
+BEGIN:VEVENT
+UID:662ff68c1506@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261215T030000Z
+DTEND:20261215T040000Z
+SUMMARY:Planning Commission Meeting (Second Monday) (City of Oregon City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3619/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:f90ecf160f00@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261215T031500Z
+DTEND:20261215T041500Z
+SUMMARY:Youth Advisory Commission (City of Oregon City)
+LOCATION:625 Center Street\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3647/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:04a68ae797ee@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261217T030000Z
+DTEND:20261217T040000Z
+SUMMARY:City Commission Regular Meeting (third Wednesdays) (City of Oregon 
+ City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3582/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:82671ff0780b@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261217T180000Z
+DTEND:20261217T190000Z
+SUMMARY:Board of County Commissioners business meeting (Clackamas County)
+LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
+  Zoom)
+URL:https://www.clackamas.us/meetings/bcc/business
+END:VEVENT
+BEGIN:VEVENT
+UID:f146f0ea09a1@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261218T023000Z
+DTEND:20261218T033000Z
+SUMMARY:Arts Commission (City of Oregon City)
+LOCATION:625 Center Street\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3553/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:579227619cd4@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261224T180000Z
+DTEND:20261224T190000Z
+SUMMARY:Board of County Commissioners business meeting (Clackamas County)
+LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
+  Zoom)
+URL:https://www.clackamas.us/meetings/bcc/business
+END:VEVENT
+BEGIN:VEVENT
+UID:86113e58aa00@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20261231T180000Z
+DTEND:20261231T190000Z
+SUMMARY:Board of County Commissioners business meeting (Clackamas County)
+LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
+  Zoom)
+URL:https://www.clackamas.us/meetings/bcc/business
+END:VEVENT
+BEGIN:VEVENT
+UID:d7dfc5f27628@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20270107T030000Z
+DTEND:20270107T040000Z
+SUMMARY:City Commission Regular Meeting (first Wednesdays) (City of Oregon 
+ City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3570/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:ff1679770e24@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20270107T180000Z
+DTEND:20270107T190000Z
+SUMMARY:Board of County Commissioners business meeting (Clackamas County)
+LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
+  Zoom)
+URL:https://www.clackamas.us/meetings/bcc/business
+END:VEVENT
+BEGIN:VEVENT
+UID:915997503d34@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20270112T030000Z
+DTEND:20270112T040000Z
+SUMMARY:Planning Commission Meeting (Second Monday) (City of Oregon City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3620/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:67cdfce50bfb@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20270113T020000Z
+DTEND:20270113T030000Z
+SUMMARY:City Commission Work Session (City of Oregon City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3539/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:9d5310d62c78@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20270114T180000Z
+DTEND:20270114T190000Z
+SUMMARY:Board of County Commissioners business meeting (Clackamas County)
+LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
+  Zoom)
+URL:https://www.clackamas.us/meetings/bcc/business
+END:VEVENT
+BEGIN:VEVENT
+UID:70630a9bc256@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20270121T030000Z
+DTEND:20270121T040000Z
+SUMMARY:City Commission Regular Meeting (third Wednesdays) (City of Oregon 
+ City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3583/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:a9ca1dcc16d3@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20270121T180000Z
+DTEND:20270121T190000Z
+SUMMARY:Board of County Commissioners business meeting (Clackamas County)
+LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
+  Zoom)
+URL:https://www.clackamas.us/meetings/bcc/business
+END:VEVENT
+BEGIN:VEVENT
+UID:efd28e5017a0@civicsor
+DTSTAMP:20261123T035856Z
+DTSTART:20270122T023000Z
+DTEND:20270122T033000Z
+SUMMARY:Arts Commission (City of Oregon City)
+LOCATION:625 Center Street\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3554/overview
+END:VEVENT
+END:VCALENDAR
