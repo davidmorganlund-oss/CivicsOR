@@ -6,6 +6,7 @@ import html, json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import guides_or
+import guides_or2  # noqa: E402
 
 SITE = Path(__file__).resolve().parents[2] / "site"
 FONTS = ('<link rel="preload" href="{up}fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
@@ -88,7 +89,7 @@ def footer(up, first):
 
 
 # ---------- guides ----------
-ALL = dict(guides_or.G)
+ALL = {**guides_or.G, **guides_or2.G}
 for slug, g in ALL.items():
     sources = "\n".join(f'    <li><a href="{html.escape(u, quote=True)}" rel="noopener">{html.escape(t)}</a></li>' for u, t in g["sources"])
     script = '\n<script src="../local.js"></script>' if 'class="near-you"' in g["body"] else ""
@@ -127,17 +128,35 @@ SECTIONS = [
         ("guides/speak-at-a-public-meeting.html", None, "What Oregon's Public Meetings Law gives you, what it doesn't, and how to use two minutes well."),
         ("guides/public-meetings-law.html", None, "Notice, executive sessions, minutes, and what to do when a board breaks the rules."),
         ("guides/public-records-requests.html", None, "How to ask for emails, contracts and reports, what it costs, the deadlines, and what to do if they say no."),
+        ("guides/your-neighborhood.html", None, "Neighborhood associations, CPOs, and getting notice of land use decisions near you."),
+        ("guides/your-school-board.html", None, "What school boards decide, May elections, and how to speak up or run."),
+        ("guides/local-ballot-measures.html", None, "Bonds, levies, the double majority, and reading your voters' pamphlet."),
     ]),
     ("The State of Oregon", [
         ("guides/legislature.html", None, "Who's in it, long and short sessions, how a bill moves, and where your voice counts."),
         ("guides/weigh-in-on-a-state-bill.html", None, "Testifying in person or remotely, written testimony, and the timing that catches people."),
+        ("guides/state-budgets.html", None, "The two-year state budget, the kicker, and the local budget committees residents sit on."),
+        ("guides/state-agencies.html", None, "The Oregon Bulletin, commenting on proposed rules, and getting help with an agency."),
         ("guides/state-initiatives.html", None, "Initiatives, referendums and referrals, the signature rules, and the Citizens' Initiative Review."),
+        ("guides/constitution.html", None, "What Oregon's constitution does and how voters change it."),
+        ("guides/courts.html", None, "How the courts fit together, elected judges, jury service and watching a case."),
+        ("guides/boards-and-commissions.html", None, "Applying to state and local boards, and what serving involves."),
+    ]),
+    ("Elections and campaigns", [
+        ("guides/running-for-office.html", None, "Which offices are up when, how to file, and the deadlines."),
+        ("guides/campaign-finance.html", None, "Looking up campaign money in ORESTAR, and Oregon's new contribution limits."),
+        ("guides/federal-offices.html", None, "Congress and the President: who can run and how Oregon runs those elections."),
+    ]),
+    ("Federal", [
+        ("guides/federal-agencies.html", None, "Casework help, public lands decisions, commenting on rules and FOIA requests."),
+        ("guides/federal-budget.html", None, "How Congress writes the budget and where you can weigh in."),
     ]),
     ("Skills", [
         ("guides/two-minute-pitch.html", None, "A simple shape for making your case in the time you get."),
         ("guides/read-a-bill-or-agenda.html", None, "Bill numbers, bold type and brackets, consent agendas and packets."),
         ("guides/problem-to-policy.html", None, "Finding the right level of government and shaping a specific ask."),
         ("guides/media-literacy.html", "Media literacy", "Quick habits for sorting good information from bad."),
+        ("guides/volunteer-and-public-service.html", None, "Volunteering, giving wisely, and public service jobs."),
     ]),
 ]
 blocks, listed = [], set()
