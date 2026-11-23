@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CivicsOR: what's new in Lake County</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
+  <id>https://civicsor.org/</id>
+  <link href="https://civicsor.org/"/>
+  <updated>2026-11-22T21:24:52-08:00</updated>
+  <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:f334ac6496fc:new</id>
+    <title>New meeting: November 24, 2026 Town Council Regular Agenda (2026-11-24 17:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://townoflakeview.org/event/november-24-2026-town-council-regular-agenda/"/>
+    <summary>Town of Lakeview · 2026-11-24 17:30 (PT) · Town Hall, 525 N 1st Street, Lakeview, OR, 97630, United States</summary>
+  </entry>
+</feed>

@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T21:15:24-08:00</updated>
+  <updated>2026-11-22T21:24:52-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:d5f6f44aacac:new</id>
@@ -26,6 +26,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://ashlandor.portal.civicclerk.com/event/1491/overview"/>
     <summary>City of Ashland · 2027-01-19 18:00 (PT) · Council Chambers, 1175 E Main Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:1a04132c1623:new</id>
+    <title>New meeting: City Council Work Session Meeting (2027-01-19 12:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/3303"/>
+    <summary>City of Jacksonville · 2027-01-19 12:00 (PT) · City Hall Assembly Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:a0d0338833c3:new</id>
@@ -61,6 +68,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://ashlandor.portal.civicclerk.com/event/1550/overview"/>
     <summary>City of Ashland · 2027-01-13 18:00 (PT) · 1175 E Main Street, Ashland</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:92cbe46f73fd:new</id>
+    <title>New meeting: Planning Commission Meeting (2027-01-13 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/3315"/>
+    <summary>City of Jacksonville · 2027-01-13 18:00 (PT) · City Hall - Assembly Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:df4b691aa6d5:new</id>
@@ -124,6 +138,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/893"/>
     <summary>City of Central Point · 2027-01-05 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:a7d227cafe7a:new</id>
+    <title>New meeting: City Council Meeting (2027-01-05 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/1732"/>
+    <summary>City of Jacksonville · 2027-01-05 18:00 (PT) · City Hall - Assembly Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:38215c93150d:new</id>
@@ -217,6 +238,13 @@
     <summary>City of Ashland · 2026-12-08 19:00 (PT) · 1175 E. Main St, Ashland</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:4a37c557b87e:new</id>
+    <title>New meeting: Cemetery Committee Meeting (2026-12-08 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/3210"/>
+    <summary>City of Jacksonville · 2026-12-08 14:00 (PT) · City Hall - Conference Room</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:fc9a1da840d7:new</id>
     <title>New meeting: Talent Public Arts Committee Meeting (2026-12-07 17:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -259,6 +287,20 @@
     <summary>City of Ashland · 2026-12-02 18:00 (PT) · 1175 E Main Street, Ashland</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:00b7abd3b1d3:new</id>
+    <title>New meeting: Planning Commission Meeting (2026-12-02 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/2724"/>
+    <summary>City of Jacksonville · 2026-12-02 18:00 (PT) · City Hall - Assembly Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:00b7abd3b1d3:cancelled</id>
+    <title>Cancelled: Planning Commission Meeting (2026-12-02 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/2724"/>
+    <summary>City of Jacksonville · 2026-12-02 18:00 (PT) · City Hall - Assembly Room</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:9b8969b20671:new</id>
     <title>New meeting: Historic Preservation Advisory Commission Meeting (2026-12-02 16:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -278,6 +320,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/880"/>
     <summary>City of Central Point · 2026-12-01 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ab2c81a3abb9:new</id>
+    <title>New meeting: City Council Meeting (2026-12-01 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/1731"/>
+    <summary>City of Jacksonville · 2026-12-01 18:00 (PT) · City Hall - Assembly Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:e01643780fc1:new</id>

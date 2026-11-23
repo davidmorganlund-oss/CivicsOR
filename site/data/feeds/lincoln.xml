@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T21:15:24-08:00</updated>
+  <updated>2026-11-22T21:24:52-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:7dd56c103286:new</id>
@@ -14,11 +14,46 @@
     <summary>City of Toledo · 2027-01-20 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:2b4a60befd17:new</id>
+    <title>New meeting: City Council Meeting (2027-01-20 13:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1023/overview"/>
+    <summary>City of Yachats · 2027-01-20 13:00 (PT) · 441 Hwy 101 N., Civic Meeting Room 1, Yachats</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:1b4e9900edf9:new</id>
     <title>New meeting: Board of Commissioners Meeting (2027-01-20)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.co.lincoln.or.us/Calendar.aspx?EID=978"/>
     <summary>Lincoln County · 2027-01-20 (PT) · The Board of Commissioners Chambers in the Lincoln County Courthouse, 225 W Olive Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0f71ee4b9659:new</id>
+    <title>New meeting: Planning Commission Regular Meeting (2027-01-19 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1208/overview"/>
+    <summary>City of Yachats · 2027-01-19 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:061f19754a67:new</id>
+    <title>New meeting: Finance Committee Meeting (2027-01-14 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1161/overview"/>
+    <summary>City of Yachats · 2027-01-14 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:5d13d1f2f021:new</id>
+    <title>New meeting: Public Works and Streets Commission Meeting (2027-01-12 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1221/overview"/>
+    <summary>City of Yachats · 2027-01-12 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6a03844b3244:new</id>
+    <title>New meeting: Planning Commission Work Session (2027-01-07 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/2288/overview"/>
+    <summary>City of Yachats · 2027-01-07 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:551b74057c5e:new</id>
@@ -33,6 +68,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.co.lincoln.or.us/Calendar.aspx?EID=926"/>
     <summary>Lincoln County · 2027-01-06 10:00 (PT) · In the Board of Commissioners' chambers on the first floor of the Lincoln County Courthouse., Lincoln County Courthouse, 225 W Olive Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:2193b9d5bb09:new</id>
+    <title>New meeting: Community Spaces Committee Meeting (2027-01-05 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1195/overview"/>
+    <summary>City of Yachats · 2027-01-05 14:00 (PT) · CIVIC MEETING ROOM 3, 441 Hwy 101 N. , Yachats</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:c4bb34ecba36:new</id>
@@ -63,6 +105,13 @@
     <summary>City of Toledo · 2026-12-16 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:6fb63d04dbf5:new</id>
+    <title>New meeting: City Council Meeting (2026-12-16 13:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1022/overview"/>
+    <summary>City of Yachats · 2026-12-16 13:00 (PT) · 441 Hwy 101 N., Civic Meeting Room 1, Yachats</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:87253f97027e:new</id>
     <title>New meeting: Board of Commissioners Meeting (2026-12-16)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -70,11 +119,39 @@
     <summary>Lincoln County · 2026-12-16 (PT) · The Board of Commissioners Chambers in the Lincoln County Courthouse, 225 W Olive Street</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:02df3ac33ace:new</id>
+    <title>New meeting: Planning Commission Regular Meeting (2026-12-15 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1207/overview"/>
+    <summary>City of Yachats · 2026-12-15 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:1aedd2502ec4:new</id>
+    <title>New meeting: Finance Committee Meeting (2026-12-10 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1160/overview"/>
+    <summary>City of Yachats · 2026-12-10 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:c617940e7153:new</id>
     <title>New meeting: Planning Commission Meeting (2026-12-09 18:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://toledoor.portal.civicclerk.com/event/1721/overview"/>
     <summary>City of Toledo · 2026-12-09 18:30 (PT) · City Hall Council Chambers, 206 N Main Street, Toledo</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:1514ad50b386:new</id>
+    <title>New meeting: Public Works and Streets Commission Meeting (2026-12-08 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1220/overview"/>
+    <summary>City of Yachats · 2026-12-08 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:60c7202d372f:new</id>
+    <title>New meeting: Planning Commission Work Session (2026-12-03 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/2296/overview"/>
+    <summary>City of Yachats · 2026-12-03 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:566c63a66966:new</id>
@@ -96,6 +173,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.co.lincoln.or.us/Calendar.aspx?EID=925"/>
     <summary>Lincoln County · 2026-12-02 10:00 (PT) · In the Board of Commissioners' chambers on the first floor of the Lincoln County Courthouse., Lincoln County Courthouse, 225 W Olive Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c1e96e17dc29:new</id>
+    <title>New meeting: Community Spaces Committee Meeting (2026-12-01 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://yachatsor.portal.civicclerk.com/event/1194/overview"/>
+    <summary>City of Yachats · 2026-12-01 14:00 (PT) · CIVIC MEETING ROOM 3, 441 Hwy 101 N. , Yachats</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:5dd3f7dba7e5:new</id>

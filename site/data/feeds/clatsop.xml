@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T21:15:24-08:00</updated>
+  <updated>2026-11-22T21:24:52-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:ca446f9172a2:new</id>
@@ -35,6 +35,20 @@
     <summary>Clatsop County · 2027-01-13 17:00 (PT) · Judge Guy Boyington Building, 857 Commercial Street</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:8a4686588666:new</id>
+    <title>New meeting: City Commission Meeting 2027.01.12 (2027-01-12 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/4197/overview"/>
+    <summary>City of Warrenton · 2027-01-12 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:5fa0a5963d38:new</id>
+    <title>New meeting: City Commission Work Session 2027.01.12 (2027-01-12 17:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/4224/overview"/>
+    <summary>City of Warrenton · 2027-01-12 17:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:3cb644a2db1e:new</id>
     <title>New meeting: City Council Meeting (2027-01-11 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -47,6 +61,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1200"/>
     <summary>City of Seaside · 2027-01-11 17:00 (PT) · 989 Broadway</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:bbb48da4e258:new</id>
+    <title>New meeting: City Commission Goal Setting 2027.01.09 (2027-01-09 09:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/4223/overview"/>
+    <summary>City of Warrenton · 2027-01-09 09:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:80f8a5fa840f:new</id>
@@ -105,6 +126,20 @@
     <summary>City of Seaside · 2026-12-28 17:00 (PT) · 989 Broadway St.</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:0f83cd003501:new</id>
+    <title>New meeting: City Commission Meeting (2026-12-22 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/31/overview"/>
+    <summary>City of Warrenton · 2026-12-22 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0f83cd003501:cancelled</id>
+    <title>Cancelled: City Commission Meeting (2026-12-22 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/31/overview"/>
+    <summary>City of Warrenton · 2026-12-22 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:f0a83e316147:new</id>
     <title>New meeting: City Council Meeting (2026-12-14 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -119,11 +154,39 @@
     <summary>City of Seaside · 2026-12-14 17:00 (PT) · 989 Broadway</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:1d84892b274e:new</id>
+    <title>New meeting: Parks Advisory Board Meeting (2026-12-14 16:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/1162/overview"/>
+    <summary>City of Warrenton · 2026-12-14 16:00 (PT) · 225 S Main Ave, Warrenton</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:bfa19524e4b9:new</id>
     <title>New meeting: Planning Commission Meeting (2026-12-10 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityofgearhart.com/Calendar.aspx?EID=624"/>
     <summary>City of Gearhart · 2026-12-10 18:00 (PT) · Gearhart City Hall, 698 Pacific Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ffccbc08c9b5:new</id>
+    <title>New meeting: Planning Commission Regular Meeting (2026-12-10 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/5228/overview"/>
+    <summary>City of Warrenton · 2026-12-10 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ffccbc08c9b5:cancelled</id>
+    <title>Cancelled: Planning Commission Regular Meeting (2026-12-10 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/5228/overview"/>
+    <summary>City of Warrenton · 2026-12-10 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9356287cfb5b:new</id>
+    <title>New meeting: Warrenton Community Library Board (WCLB) Meeting (2026-12-09 17:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/2181/overview"/>
+    <summary>City of Warrenton · 2026-12-09 17:30 (PT) · 225 S Main Ave, Warrenton</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:d512c3418d5c:new</id>
@@ -140,11 +203,32 @@
     <summary>City of Seaside · 2026-12-09 10:00 (PT) · Ocean Cafe at Best Western Plus Ocean View, 414 North Prom</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:d63b42378560:new</id>
+    <title>New meeting: City Commission Meeting (2026-12-08 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/17/overview"/>
+    <summary>City of Warrenton · 2026-12-08 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:b2e0ea790f77:new</id>
     <title>New meeting: Planning Commission Meeting (2026-12-08 10:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.clatsopcounty.gov/Calendar.aspx?EID=285"/>
     <summary>Clatsop County · 2026-12-08 10:00 (PT) · Judge Guy Boyington Building, 857 Commercial Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:fccabed76fde:new</id>
+    <title>New meeting: Marina Advisory Committee Meeting (2026-12-07 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/1167/overview"/>
+    <summary>City of Warrenton · 2026-12-07 14:00 (PT) · 225 S Main Ave, Warrenton</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:1c1749bfc1ad:new</id>
+    <title>New meeting: Planning Commission Special Meeting (2026-12-03 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/47/overview"/>
+    <summary>City of Warrenton · 2026-12-03 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:55562490202f:new</id>
@@ -173,6 +257,20 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1008"/>
     <summary>City of Seaside · 2026-12-01 09:15 (PT) · Seaside Coffee House</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:3855c644aa47:new</id>
+    <title>New meeting: City Commission Meeting (2026-11-24 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/30/overview"/>
+    <summary>City of Warrenton · 2026-11-24 18:00 (PT) · City Hall, 225 S. Main, Warrenton · On the agenda: Consideration of Ordinance No. 1306 Signs - Second Reading and Adoption; Kia Lease and first right of refusal; Consideration of City Board Nominations</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ddb9aadf7e81:new</id>
+    <title>New meeting: Warrenton Urban Renewal Agency Meeting 2026.11.24 (2026-11-24 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/4228/overview"/>
+    <summary>City of Warrenton · 2026-11-24 18:00 (PT) · City Hall, 225 S. Main, Warrenton · On the agenda: 238 S. Main Ave Elements Contract for remediation and demolition of building</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:d870c8a00322:new</id>

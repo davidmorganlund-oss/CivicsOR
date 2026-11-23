@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsOR//Public meetings//EN
+X-WR-CALNAME:CivicsOR Lake County
+BEGIN:VEVENT
+UID:f334ac6496fc@civicsor
+DTSTAMP:20261123T052452Z
+DTSTART:20261125T013000Z
+DTEND:20261125T050000Z
+SUMMARY:November 24\, 2026 Town Council Regular Agenda (Town of Lakeview)
+LOCATION:Town Hall\, 525 N 1st Street\, Lakeview\, OR\, 97630\, United Stat
+ es
+URL:https://townoflakeview.org/event/november-24-2026-town-council-regular-
+ agenda/
+END:VEVENT
+END:VCALENDAR
