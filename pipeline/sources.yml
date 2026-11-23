@@ -526,7 +526,8 @@ sources:
     category: library
     homepage: https://ucsld.org/
     meetings:
-      - {title: Library District Board meeting, when: 4th Thursday, time: "17:30", location: "425 S. Main St., Pendleton (and Zoom)", url: "https://ucsld.org/"}
+      # December meetings move (Dec. 15, 2022; Dec. 28, 2023), so no December date is guessed.
+      - {title: Library District Board meeting, when: 4th Thursday, time: "17:30", location: "425 S. Main St., Pendleton (and Zoom)", url: "https://ucsld.org/", skip_months: [12]}
 
   - id: jefferson-library-board
     name: Jefferson County Library District
