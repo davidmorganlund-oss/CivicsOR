@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T21:56:31-08:00</updated>
+  <updated>2026-11-22T22:03:02-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:20bf0865d4e0:new</id>
@@ -91,6 +91,13 @@
     <summary>City of Grants Pass · 2027-01-20 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:419939898c71:new</id>
+    <title>New meeting: Citizenship Class (2027-01-20 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://cornelius-or.libcal.com/event/18052787"/>
+    <summary>Cornelius Public Library · 2027-01-20 18:00 (PT) · Walters Community Room</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:ce730f4b2f81:new</id>
     <title>New meeting: Arts, Culture, and Heritage Commission (2027-01-20 17:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -145,6 +152,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.scappoose.gov/Calendar.aspx?EID=390"/>
     <summary>City of Scappoose · 2027-01-19 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:92b631cae5fa:new</id>
+    <title>New meeting: Library Board Meeting (2027-01-19 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://cedarmillbethany.libcal.com/event/17486150"/>
+    <summary>Cedar Mill &amp; Bethany Community Libraries · 2027-01-19 19:00 (PT) · Cedar Mill Library, Elm &amp; Oak Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6f943c01eab7:new</id>
@@ -355,6 +369,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://keizeror.portal.civicclerk.com/event/3580/overview"/>
     <summary>City of Keizer · 2027-01-13 18:00 (PT) · 930 Chemawa Rd NE, Keizer</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:59417d3e892b:new</id>
+    <title>New meeting: Citizenship Class (2027-01-13 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://cornelius-or.libcal.com/event/18052786"/>
+    <summary>Cornelius Public Library · 2027-01-13 18:00 (PT) · Walters Community Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:1afd36ea578a:new</id>
@@ -621,6 +642,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://ashlandor.portal.civicclerk.com/event/1549/overview"/>
     <summary>City of Ashland · 2027-01-06 18:00 (PT) · 1175 E Main Street, Ashland</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:91b727cdccac:new</id>
+    <title>New meeting: Citizenship Class (2027-01-06 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://cornelius-or.libcal.com/event/18052785"/>
+    <summary>Cornelius Public Library · 2027-01-06 18:00 (PT) · Walters Community Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:b37126a4b193:new</id>
@@ -1274,6 +1302,13 @@
     <summary>Lane Transit District · 2026-12-16 17:30 (PT) · Glenwood Administrative Offices, 3500 East 17th Avenue, Eugene, OR, 97403, United States</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:a7cb34128ac3:new</id>
+    <title>New meeting: Jackson County Library District Board Meeting (2026-12-16 16:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://jcls.libcal.com/event/17461411"/>
+    <summary>Jackson County Library District · 2026-12-16 16:00 (PT) · Medford Library, Board Room</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:6e3938b69764:new</id>
     <title>New meeting: Economic Development Committee (2026-12-16 15:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1330,6 +1365,13 @@
     <summary>City of Madras · 2026-12-15 17:30 (PT) · City Hall, 125 SW E Street</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:242c774f4ee8:new</id>
+    <title>New meeting: Citizenship Class (2026-12-15 17:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://cedarmillbethany.libcal.com/event/17162083"/>
+    <summary>Cedar Mill &amp; Bethany Community Libraries · 2026-12-15 17:30 (PT) · Bethany Library, Annex</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:24b7b9207111:new</id>
     <title>New meeting: Park &amp; Tree Committee Meeting (2026-12-15 16:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1363,47 +1405,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.scappoose.gov/Calendar.aspx?EID=387"/>
     <summary>City of Scappoose · 2026-12-14 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:42a504db1c20:new</id>
-    <title>New meeting: Public Hearing Notice: ADU Ordinance - 2nd Hearing (2026-12-14 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.enterpriseoregon.gov/"/>
-    <summary>City of Enterprise · 2026-12-14 18:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:59c4e10bb826:new</id>
-    <title>New meeting: Urban Tree Advisory Committee (2026-12-14 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4617"/>
-    <summary>City of Grants Pass · 2026-12-14 18:30 (PT) · Ridge Conference Room, 101 NW A Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:6e0d5515730b:new</id>
-    <title>New meeting: Development Review Board A (2026-12-14 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3397/overview"/>
-    <summary>City of Wilsonville · 2026-12-14 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8d8a07a70409:new</id>
-    <title>New meeting: City Council Work Session Meeting (2026-12-14 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://keizeror.portal.civicclerk.com/event/3392/overview"/>
-    <summary>City of Keizer · 2026-12-14 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b9095eeb0424:new</id>
-    <title>New meeting: City Council Meeting (2026-12-14 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1142"/>
-    <summary>City of Veneta · 2026-12-14 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:bb37a8c78e11:new</id>
-    <title>New meeting: Planning Commission Meeting (2026-12-14 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.ci.carlton.or.us/"/>
-    <summary>City of Carlton · 2026-12-14 18:00 (PT)</summary>
   </entry>
 </feed>
