@@ -1,494 +1,208 @@
 sources:
-- id: amity
-  name: City of Amity
+- id: c-giles-hunt-memorial-library
+  name: C. Giles Hunt Memorial Library
   type: ics
-  county: Yamhill
-  area: Amity
-  url: https://www.amityoregon.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.amityoregon.gov/events/
-- id: arlington
-  name: City of Arlington
-  type: ics
-  county: Gilliam
-  area: Arlington
-  url: https://cityofarlingtonoregon.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofarlingtonoregon.com/events/
-- id: astoria
-  name: City of Astoria
-  type: granicus
-  tenant: astoria
-  view_id: 1
-  county: Clatsop
-  area: Astoria
-  homepage: https://astoria.granicus.com/viewpublisher.php?view_id=1
-- id: columbia-city
-  name: City of Columbia City
-  type: ics
-  county: Columbia
-  area: Columbia City
-  url: https://columbia-city.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://columbia-city.org/events/
-- id: condon
-  name: City of Condon
-  type: ics
-  county: Gilliam
-  area: Condon
-  url: https://cityofcondon.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofcondon.com/events/
-- id: cornelius
-  name: City of Cornelius
-  type: civicplus
-  site: https://www.corneliusor.gov
-  categories:
-  - 34
-  - 38
-  - 43
-  - 37
-  - 35
-  - 36
-  - 39
-  - 40
-  - 41
+  county: Douglas
+  area: Sutherlin
+  url: https://www.sutherlinlibrary.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://www.sutherlinlibrary.org/events/
+  category: library
+- id: cedar-mill-bethany-community-libraries-library
+  name: Cedar Mill & Bethany Community Libraries
+  type: libcal
+  host: cedarmillbethany.libcal.com
+  civic_only: true
   county: Washington
-  area: Cornelius
-  drop_uncategorized: true
-  homepage: https://www.corneliusor.gov/Calendar.aspx
-- id: cottage-grove
-  name: City of Cottage Grove
-  type: civicplus
-  site: https://www.cottagegroveor.gov
-  categories:
-  - 23
-  county: Lane
-  area: Cottage Grove
-  drop_uncategorized: true
-  homepage: https://www.cottagegroveor.gov/Calendar.aspx
-- id: cove
-  name: City of Cove
-  type: ics
-  county: Union
-  area: Cove
-  url: http://cityofcove.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: http://cityofcove.org/events/
-- id: detroit
-  name: City of Detroit
+  area: countywide
+  category: library
+  homepage: https://cedarmillbethany.libcal.com/calendar
+- id: chemeketa-cooperative-regional-library-service
+  name: Chemeketa Cooperative Regional Library Service
   type: ics
   county: Marion
-  area: Detroit
-  url: https://detroitoregon.us/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://detroitoregon.us/events/
-- id: durham
-  name: City of Durham
-  type: ics
-  county: Washington
-  area: Durham
-  url: https://durham-oregon.us/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://durham-oregon.us/events/
-- id: elkton
-  name: City of Elkton
-  type: ics
-  county: Douglas
-  area: Elkton
-  url: https://elkton-oregon.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://elkton-oregon.com/events/
-- id: estacada
-  name: City of Estacada
-  type: ics
-  county: Clackamas
-  area: Estacada
-  url: https://www.cityofestacada.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.cityofestacada.org/events/
-- id: fossil
-  name: City of Fossil
-  type: ics
-  county: Wheeler
-  area: Fossil
-  url: http://cityoffossil.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: http://cityoffossil.com/events/
-- id: garibaldi
-  name: City of Garibaldi
-  type: ics
-  county: Tillamook
-  area: Garibaldi
-  url: https://garibaldi.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://garibaldi.gov/events/
-- id: glendale
-  name: City of Glendale
-  type: ics
-  county: Douglas
-  area: Glendale
-  url: https://cityofglendaleor.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofglendaleor.com/events/
-- id: gold-hill
-  name: City of Gold Hill
-  type: ics
-  county: Jackson
-  area: Gold Hill
-  url: https://www.cityofgoldhill.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.cityofgoldhill.gov/events/
-- id: halfway
-  name: City of Halfway
-  type: ics
-  county: Baker
-  area: Halfway
-  url: https://calendar.google.com/calendar/ical/hcjads%40gmail.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.halfwayoregon.org/
-- id: heppner
-  name: City of Heppner
-  type: ics
-  county: Morrow
-  area: Heppner
-  url: https://cityofheppner.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofheppner.org/events/
-- id: hood-river
-  name: City of Hood River
-  type: ics
-  county: Hood River
-  area: Hood River
-  url: https://www.hoodrivercounty.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.hoodrivercounty.gov/events/
-- id: imbler
-  name: City of Imbler
-  type: ics
-  county: Union
-  area: Imbler
-  url: https://cityofimbler.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofimbler.org/events/
-- id: ione
-  name: City of Ione
-  type: ics
-  county: Morrow
-  area: Ione
-  url: https://cityofioneoregon.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofioneoregon.gov/events/
-- id: jacksonville
-  name: City of Jacksonville
-  type: civicplus
-  site: https://www.jacksonvilleor.us
-  categories:
-  - 14
-  county: Jackson
-  area: Jacksonville
-  drop_uncategorized: true
-  homepage: https://www.jacksonvilleor.us/Calendar.aspx
-- id: lakeview
-  name: City of Lakeview
-  type: ics
-  county: Lake
-  area: Lakeview
-  url: https://townoflakeview.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://townoflakeview.org/events/
-- id: manzanita
-  name: City of Manzanita
-  type: ics
-  county: Tillamook
-  area: Manzanita
-  url: https://ci.manzanita.or.us/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://ci.manzanita.or.us/events/
-- id: maupin
-  name: City of Maupin
-  type: ics
-  county: Wasco
-  area: Maupin
-  url: https://cityofmaupin.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofmaupin.org/events/
-- id: maywood-park
-  name: City of Maywood Park
-  type: ics
-  county: Multnomah
-  area: Maywood Park
-  url: https://calendar.google.com/calendar/ical/office%40cityofmaywoodpark.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://cityofmaywoodpark.com/
-- id: merrill
-  name: City of Merrill
-  type: ics
-  county: Klamath
-  area: Merrill
-  url: https://cityofmerrill.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofmerrill.org/events/
-- id: monroe
-  name: City of Monroe
-  type: civicplus
-  site: https://monroeoregon.gov
-  categories:
-  - 23
-  county: Benton
-  area: Monroe
-  drop_uncategorized: true
-  homepage: https://monroeoregon.gov/Calendar.aspx
-- id: moro
-  name: City of Moro
-  type: ics
-  county: Sherman
-  area: Moro
-  url: https://calendar.google.com/calendar/ical/lsa9tne2fu35ird6uaruqf3kps%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://cityofmoro.net/
-- id: mosier
-  name: City of Mosier
-  type: ics
-  county: Wasco
-  area: Mosier
-  url: https://cityofmosier.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofmosier.gov/events/
-- id: newport
-  name: City of Newport
-  type: granicus
-  tenant: thecityofnewport
-  view_id: 1
-  county: Lincoln
-  area: Newport
-  homepage: https://thecityofnewport.granicus.com/viewpublisher.php?view_id=1
-- id: north-powder
-  name: City of North Powder
-  type: ics
-  county: Union
-  area: North Powder
-  url: http://northpowderoregon.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: http://northpowderoregon.org/events/
-- id: nyssa
-  name: City of Nyssa
-  type: ics
-  county: Malheur
-  area: Nyssa
-  url: https://nyssacity.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://nyssacity.org/events/
-- id: ontario
-  name: City of Ontario
-  type: ics
-  county: Malheur
-  area: Ontario
-  url: https://calendar.google.com/calendar/ical/cityofontariocommunitycalendar%40gmail.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.ontariooregon.org/
-- id: port-orford
-  name: City of Port Orford
+  area: countywide
+  url: https://ccrls.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://ccrls.org/events/
+  category: library
+- id: chetco-community-public-library
+  name: Chetco Community Public Library
   type: ics
   county: Curry
-  area: Port Orford
-  url: https://portorford.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://portorford.org/events/
-- id: rainier
-  name: City of Rainier
+  area: Brookings
+  url: https://chetcolibrary.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://chetcolibrary.org/events/
+  category: library
+- id: clatskanie-library-district
+  name: Clatskanie Library District
   type: ics
   county: Columbia
-  area: Rainier
-  url: https://cityofrainier.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofrainier.com/events/
-- id: rivergrove
-  name: City of Rivergrove
+  area: countywide
+  url: https://www.clatskanielibrary.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://www.clatskanielibrary.org/events/
+  category: library
+- id: cornelius-public-library
+  name: Cornelius Public Library
+  type: libcal
+  host: cornelius-or.libcal.com
+  civic_only: true
+  county: Washington
+  area: Cornelius
+  category: library
+  homepage: https://cornelius-or.libcal.com/calendar
+- id: corvallis-benton-county-public-library
+  name: Corvallis-Benton County Public Library
   type: ics
-  county: Clackamas
-  area: Rivergrove
-  url: https://www.cityofrivergrove.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.cityofrivergrove.org/events/
-- id: rogue-river
-  name: City of Rogue River
+  county: Benton
+  area: countywide
+  url: https://cbcpubliclibrary.net/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://cbcpubliclibrary.net/events/
+  category: library
+- id: curry-public-library-district
+  name: Curry Public Library District
   type: ics
-  county: Jackson
-  area: Rogue River
-  url: https://www.cityofrogueriver.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.cityofrogueriver.org/events/
-- id: rufus
-  name: City of Rufus
-  type: ics
-  county: Sherman
-  area: Rufus
-  url: https://calendar.google.com/calendar/ical/kkg7gckr1uflppddruh6a5uhlg%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://cityofrufus.gov/
-- id: rufus-2
-  name: City of Rufus
-  type: ics
-  county: Sherman
-  area: Rufus
-  url: https://calendar.google.com/calendar/ical/lsa9tne2fu35ird6uaruqf3kps%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://cityofrufus.gov/
-- id: scotts-mills
-  name: City of Scotts Mills
-  type: ics
-  county: Marion
-  area: Scotts Mills
-  url: https://www.scottsmills.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.scottsmills.org/events/
-- id: shady-cove
-  name: City of Shady Cove
-  type: ics
-  county: Jackson
-  area: Shady Cove
-  url: https://shadycove.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://shadycove.org/events/
-- id: spray
-  name: City of Spray
-  type: ics
-  county: Wheeler
-  area: Spray
-  url: https://sprayoregon.us/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://sprayoregon.us/events/
-- id: stanfield
-  name: City of Stanfield
-  type: ics
-  county: Umatilla
-  area: Stanfield
-  url: https://cityofstanfield.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofstanfield.com/events/
-- id: ukiah
-  name: City of Ukiah
-  type: ics
-  county: Umatilla
-  area: Ukiah
-  url: https://cityofukiahoregon.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://cityofukiahoregon.com/events/
-- id: umatilla
-  name: City of Umatilla
-  type: ics
-  county: Umatilla
-  area: Umatilla
-  url: https://calendar.google.com/calendar/ical/c_i6mt119sdkubgn33dap6nrla2k%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.co.umatilla.or.us/
-- id: umatilla-2
-  name: City of Umatilla
-  type: ics
-  county: Umatilla
-  area: Umatilla
-  url: https://calendar.google.com/calendar/ical/umatillacounty.net_ns1ukh7s3fmd6oqc6gstpmfsgs%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.co.umatilla.or.us/
-- id: union
-  name: City of Union
-  type: ics
-  county: Union
-  area: Union
-  url: https://unioncountyor.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://unioncountyor.gov/events/
-- id: vale
-  name: City of Vale
+  county: Curry
+  area: countywide
+  url: http://www.currypubliclibrary.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: http://www.currypubliclibrary.org/events/
+  category: library
+- id: emma-humphrey-library
+  name: Emma Humphrey Library
   type: ics
   county: Malheur
   area: Vale
   url: https://www.cityofvale.com/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
   homepage: https://www.cityofvale.com/events/
-- id: vernonia
-  name: City of Vernonia
+  category: library
+- id: estacada-public-library
+  name: Estacada Public Library
+  type: ics
+  county: Clackamas
+  area: Estacada
+  url: https://www.cityofestacada.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://www.cityofestacada.org/events/
+  category: library
+- id: f-maxine-and-thomas-w-cook-memorial-library
+  name: F. Maxine and Thomas W. Cook Memorial Library
+  type: ics
+  county: Union
+  area: La Grande
+  url: https://www.cookmemoriallibrary.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://www.cookmemoriallibrary.org/events/
+  category: library
+- id: happy-valley-public-library
+  name: Happy Valley Public Library
+  type: libcal
+  host: happyvalleyor.libcal.com
+  civic_only: true
+  county: Clackamas
+  area: Happy Valley
+  category: library
+  homepage: https://happyvalleyor.libcal.com/calendar
+- id: jackson-county-library-services
+  name: Jackson County Library Services
+  type: libcal
+  host: jcls.libcal.com
+  civic_only: true
+  county: Jackson
+  area: countywide
+  category: library
+  homepage: https://jcls.libcal.com/calendar
+- id: jefferson-public-library
+  name: Jefferson Public Library
+  type: ics
+  county: Marion
+  area: Jefferson
+  url: https://jeffersonpubliclibrary.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://jeffersonpubliclibrary.org/events/
+  category: library
+- id: josephine-community-library-district
+  name: Josephine Community Library District
+  type: ics
+  county: Josephine
+  area: countywide
+  url: https://josephinelibrary.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://josephinelibrary.org/events/
+  category: library
+- id: keizer-community-library
+  name: Keizer Community Library
+  type: ics
+  county: Marion
+  area: Keizer
+  url: https://keizerlibrary.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://keizerlibrary.org/events/
+  category: library
+- id: north-powder-city-library
+  name: North Powder City Library
+  type: ics
+  county: Union
+  area: North Powder
+  url: https://northpowderoregon.org/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://northpowderoregon.org/events/
+  category: library
+- id: oregon-city-public-library
+  name: Oregon City Public Library
+  type: libcal
+  host: orcity-library.libcal.com
+  civic_only: true
+  county: Clackamas
+  area: Oregon City
+  category: library
+  homepage: https://orcity-library.libcal.com/calendar
+- id: rainier-city-library
+  name: Rainier City Library
   type: ics
   county: Columbia
-  area: Vernonia
-  url: https://calendar.google.com/calendar/ical/cityofvernonia%40gmail.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.vernonia-or.gov/
-- id: vernonia-2
-  name: City of Vernonia
-  type: ics
-  county: Columbia
-  area: Vernonia
-  url: https://calendar.google.com/calendar/ical/nv7kih3tr89o1hsfp4lo3o2rns%40group.calendar.google.com/public/basic.ics
-  drop_uncategorized: true
-  homepage: https://www.vernonia-or.gov/
-- id: wallowa
-  name: City of Wallowa
-  type: ics
-  county: Wallowa
-  area: Wallowa
-  url: https://www.co.wallowa.or.us/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.co.wallowa.or.us/events/
-- id: warrenton
-  name: City of Warrenton
-  type: civicclerk
-  tenant: warrentonor
-  county: Clatsop
-  area: Warrenton
-  homepage: https://warrentonor.portal.civicclerk.com/
-- id: westfir
-  name: City of Westfir
+  area: Rainier
+  url: https://cityofrainier.com/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://cityofrainier.com/events/
+  category: library
+- id: siuslaw-public-library-district
+  name: Siuslaw Public Library District
   type: ics
   county: Lane
-  area: Westfir
-  url: https://www.ci.westfir.or.us/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.ci.westfir.or.us/events/
-- id: willamina
-  name: City of Willamina
+  area: countywide
+  url: https://www.siuslawlibrary.info/events/?ical=1
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
+  homepage: https://www.siuslawlibrary.info/events/
+  category: library
+- id: willamina-public-library
+  name: Willamina Public Library
   type: ics
   county: Yamhill
   area: Willamina
   url: https://www.willaminaoregon.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
+  include: \bboard\b|trustee|budget committee|public hearing|advisory committee
   homepage: https://www.willaminaoregon.gov/events/
-- id: winston
-  name: City of Winston
-  type: ics
-  county: Douglas
-  area: Winston
-  url: https://winstoncity.org/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://winstoncity.org/events/
-- id: wood-village
-  name: City of Wood Village
-  type: ics
-  county: Multnomah
-  area: Wood Village
-  url: https://www.woodvillageor.gov/events/?ical=1
-  include: council|commission|board|committee|hearing|meeting|session|workshop
-  homepage: https://www.woodvillageor.gov/events/
-- id: yachats
-  name: City of Yachats
-  type: civicclerk
-  tenant: yachatsor
-  county: Lincoln
-  area: Yachats
-  homepage: https://yachatsor.portal.civicclerk.com/
-- id: yamhill
-  name: City of Yamhill
-  type: civicplus
-  site: https://www.yamhillcounty.gov
-  categories:
-  - 46
-  - 48
-  - 31
-  - 42
-  - 47
-  - 30
-  county: Yamhill
-  area: Yamhill
-  drop_uncategorized: true
-  homepage: https://www.yamhillcounty.gov/Calendar.aspx
+  category: library
+- id: albany-public-library
+  name: Albany Public Library
+  type: libcal
+  host: cityofalbany.libcal.com
+  civic_only: true
+  county: Linn
+  area: Albany
+  category: library
+  homepage: https://cityofalbany.libcal.com/calendar
+- id: springfield-public-library
+  name: Springfield Public Library
+  type: libcal
+  host: springfield-or.libcal.com
+  civic_only: true
+  county: Lane
+  area: Springfield
+  category: library
+  homepage: https://springfield-or.libcal.com/calendar
