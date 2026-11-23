@@ -11,7 +11,7 @@ OGEC_PML = "https://www.oregon.gov/ogec/Public-Meetings-Law"
 OLIS = "https://olis.oregonlegislature.gov/liz/"
 TESTIFY = "https://www.oregonlegislature.gov/citizen_engagement/Pages/Submit-Exhibits.aspx"
 TESTIFY_HELP = "https://www.oregonlegislature.gov/OLIS_help/Pages/Testimony.aspx"
-FIND_LEG = "https://www.oregonlegislature.gov/FindYourLegislator/leg-districts.html"
+FIND_LEG = "https://geo.maps.arcgis.com/apps/instant/lookup/index.html?appid=fd070b56c975456ea2a25f7e3f4289d1"
 SOS_IR = "https://sos.oregon.gov/elections/Pages/statelaw.aspx"
 VOTE = "https://sos.oregon.gov/voting-elections/Pages/default.aspx"
 
@@ -260,8 +260,7 @@ G["legislature"] = dict(
   <p>Ready to weigh in? See <a href="weigh-in-on-a-state-bill.html">how to weigh in on a state bill</a>.</p>
 """,
     sources=[("https://www.oregonlegislature.gov/", "Oregon State Legislature"),
-             (OLIS, "Oregon Legislative Information System (OLIS)"),
-             ("https://www.oregonlegislature.gov/lpro/Publications/Background-Brief-Direct-Democracy-in-Oregon.pdf", "Background brief on direct democracy (Legislative Policy and Research Office)")],
+             (OLIS, "Oregon Legislative Information System (OLIS)")],
 )
 
 G["weigh-in-on-a-state-bill"] = dict(
@@ -478,7 +477,7 @@ G["problem-to-policy"] = dict(
   <p>Most changes take more than one try. Bills often take several sessions to pass, and local changes may wait for the next budget. Keep a record of each conversation, keep your allies informed, and come back.</p>
   <p>When you're ready to make your case in person, use <a href="two-minute-pitch.html">build a two-minute pitch</a>.</p>
 """,
-    sources=[("https://sos.oregon.gov/archives/Pages/oregon_bulletin.aspx", "Oregon Bulletin, proposed state agency rules (Oregon Secretary of State)"),
+    sources=[("https://sos.oregon.gov/archives/administrative-rules/Pages/publications-reports.aspx", "Oregon Bulletin, proposed state agency rules (Oregon Secretary of State)"),
              (TESTIFY, "Steps to register to testify and submit testimony (Oregon Legislature)")],
 )
 

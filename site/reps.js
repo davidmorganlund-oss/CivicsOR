@@ -7,7 +7,7 @@
   'use strict';
 
   var GEOCODER = 'https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress';
-  var LEG_FINDER = 'https://www.oregonlegislature.gov/FindYourLegislator/leg-districts.html';
+  var LEG_FINDER = 'https://geo.maps.arcgis.com/apps/instant/lookup/index.html?appid=fd070b56c975456ea2a25f7e3f4289d1';
 
   // Local governments with a council or commission page we have checked.
   var LOCAL = {
