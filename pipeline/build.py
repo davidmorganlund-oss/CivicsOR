@@ -2206,6 +2206,10 @@ def write_ics(events, path: Path, stamp: datetime, name: str = "Oregon"):
 def apply_source_rules(src, events):
     """Per-source tidying set in sources.yml.
 
+    include / exclude: keep only, or drop, events whose titles match a pattern
+      (a district calendar that also carries school holidays and concerts).
+    category: file everything from this source under one category (a school
+      board's "Regular Meeting" doesn't say "school"); hearings stay hearings.
     drop_uncategorized: leave out anything that doesn't read as a meeting or
       hearing (office closures, conferences, staff events on a shared calendar).
     default_category: for feeds that only carry meetings, file the ones whose
@@ -2213,9 +2217,19 @@ def apply_source_rules(src, events):
     force_category: file everything from this source under one category
       (the Legislature's own calendar).
     """
+    if src.get("include"):
+        keep = re.compile(src["include"], re.I)
+        events = [e for e in events if keep.search(e["title"])]
+    if src.get("exclude"):
+        drop = re.compile(src["exclude"], re.I)
+        events = [e for e in events if not drop.search(e["title"])]
     if src.get("force_category"):
         for e in events:
             e["category"] = src["force_category"]
+    if src.get("category"):
+        for e in events:
+            if e["category"] != "hearing":
+                e["category"] = src["category"]
     if src.get("default_category"):
         for e in events:
             if e["category"] == "other":

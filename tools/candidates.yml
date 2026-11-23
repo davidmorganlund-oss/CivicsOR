@@ -1,0 +1,634 @@
+sources:
+- id: ashland
+  name: City of Ashland
+  type: civicclerk
+  tenant: ashlandor
+  county: Jackson
+  area: Ashland
+  homepage: https://ashlandor.portal.civicclerk.com/
+- id: astoria
+  name: City of Astoria
+  type: granicus
+  tenant: astoria
+  view_id: 1
+  county: Clatsop
+  area: Astoria
+  homepage: https://astoria.granicus.com/viewpublisher.php?view_id=1
+- id: baker-city
+  name: City of Baker City
+  type: civicplus
+  site: https://www.bakercity.com
+  categories:
+  - 14
+  county: Baker
+  area: Baker City
+  drop_uncategorized: true
+  homepage: https://www.bakercity.com/Calendar.aspx
+- id: bandon
+  name: City of Bandon
+  type: civicplus
+  site: https://www.bandon-or.gov
+  categories:
+  - 22
+  county: Coos
+  area: Bandon
+  drop_uncategorized: true
+  homepage: https://www.bandon-or.gov/Calendar.aspx
+- id: boardman
+  name: City of Boardman
+  type: civicclerk
+  tenant: boardmanor
+  county: Morrow
+  area: Boardman
+  homepage: https://boardmanor.portal.civicclerk.com/
+- id: brookings
+  name: City of Brookings
+  type: civicplus
+  site: https://www.brookings.or.us
+  categories:
+  - 32
+  - 33
+  - 26
+  - 35
+  county: Curry
+  area: Brookings
+  drop_uncategorized: true
+  homepage: https://www.brookings.or.us/Calendar.aspx
+- id: carlton
+  name: City of Carlton
+  type: ics
+  url: https://www.ci.carlton.or.us/calendar/ical/calendar.ics
+  county: Yamhill
+  area: Carlton
+  drop_uncategorized: true
+  homepage: https://www.ci.carlton.or.us/
+- id: central-point
+  name: City of Central Point
+  type: civicplus
+  site: https://www.centralpointoregon.gov
+  categories:
+  - 23
+  county: Jackson
+  area: Central Point
+  drop_uncategorized: true
+  homepage: https://www.centralpointoregon.gov/Calendar.aspx
+- id: coquille
+  name: City of Coquille
+  type: civicplus
+  site: https://www.cityofcoquille.org
+  categories:
+  - 24
+  county: Coos
+  area: Coquille
+  drop_uncategorized: true
+  homepage: https://www.cityofcoquille.org/Calendar.aspx
+- id: cornelius
+  name: City of Cornelius
+  type: civicplus
+  site: https://www.corneliusor.gov
+  categories:
+  - 34
+  - 38
+  - 43
+  - 37
+  - 35
+  - 36
+  - 39
+  - 40
+  - 41
+  county: Washington
+  area: Cornelius
+  drop_uncategorized: true
+  homepage: https://www.corneliusor.gov/Calendar.aspx
+- id: cottage-grove
+  name: City of Cottage Grove
+  type: civicplus
+  site: https://www.cottagegroveor.gov
+  categories:
+  - 23
+  county: Lane
+  area: Cottage Grove
+  drop_uncategorized: true
+  homepage: https://www.cottagegroveor.gov/Calendar.aspx
+- id: detroit
+  name: City of Detroit
+  type: ics
+  url: https://detroitoregon.us/events/?ical=1
+  county: Marion
+  area: Detroit
+  drop_uncategorized: true
+  homepage: https://detroitoregon.us/
+- id: elgin
+  name: City of Elgin
+  type: civicplus
+  site: https://elginil.gov
+  categories:
+  - 15
+  county: Union
+  area: Elgin
+  drop_uncategorized: true
+  homepage: https://elginil.gov/Calendar.aspx
+- id: enterprise
+  name: City of Enterprise
+  type: ics
+  url: https://www.enterpriseoregon.gov/calendar/ical/calendar.ics
+  county: Wallowa
+  area: Enterprise
+  drop_uncategorized: true
+  homepage: https://www.enterpriseoregon.gov/
+- id: fairview
+  name: City of Fairview
+  type: civicplus
+  site: https://www.fairvieworegon.gov
+  categories:
+  - 22
+  - 23
+  - 24
+  - 31
+  - 27
+  - 32
+  county: Multnomah
+  area: Fairview
+  drop_uncategorized: true
+  homepage: https://www.fairvieworegon.gov/Calendar.aspx
+- id: florence
+  name: City of Florence
+  type: civicplus
+  site: https://www.ci.florence.or.us
+  categories:
+  - 29
+  - 30
+  - 31
+  - 24
+  - 26
+  - 27
+  county: Lane
+  area: Florence
+  drop_uncategorized: true
+  homepage: https://www.ci.florence.or.us/Calendar.aspx
+- id: gearhart
+  name: City of Gearhart
+  type: civicplus
+  site: https://www.cityofgearhart.com
+  categories:
+  - 22
+  - 23
+  county: Clatsop
+  area: Gearhart
+  drop_uncategorized: true
+  homepage: https://www.cityofgearhart.com/Calendar.aspx
+- id: grants-pass
+  name: City of Grants Pass
+  type: civicplus
+  site: https://www.grantspassoregon.gov
+  categories:
+  - 30
+  - 31
+  - 44
+  - 26
+  - 32
+  - 52
+  - 34
+  - 35
+  - 69
+  - 73
+  - 39
+  - 40
+  - 42
+  county: Josephine
+  area: Grants Pass
+  drop_uncategorized: true
+  homepage: https://www.grantspassoregon.gov/Calendar.aspx
+- id: gresham
+  name: City of Gresham
+  type: primegov
+  tenant: gresham
+  county: Multnomah
+  area: Gresham
+  homepage: https://gresham.primegov.com/public/portal
+- id: happy-valley
+  name: City of Happy Valley
+  type: iqm2_rss
+  county: Clackamas
+  area: Happy Valley
+  url: https://happyvalleycityor.iqm2.com/Services/RSS.aspx?Feed=Calendar
+  homepage: https://happyvalleycityor.iqm2.com/Citizens/Calendar.aspx
+- id: independence
+  name: City of Independence
+  type: civicclerk
+  tenant: independenceor
+  county: Polk
+  area: Independence
+  homepage: https://independenceor.portal.civicclerk.com/
+- id: independence-2
+  name: City of Independence
+  type: civicweb
+  tenant: ciindependenceor
+  county: Polk
+  area: Independence
+  homepage: https://ciindependenceor.civicweb.net/Portal/MeetingSchedule.aspx
+- id: irrigon
+  name: City of Irrigon
+  type: ics
+  url: https://ci.irrigon.or.us/event/city-council-meeting-3/2026-12-15/?ical=1
+  county: Morrow
+  area: Irrigon
+  drop_uncategorized: true
+  homepage: https://ci.irrigon.or.us/
+- id: jacksonville
+  name: City of Jacksonville
+  type: legistar
+  client: jaxcityc
+  county: Jackson
+  area: Jacksonville
+  homepage: https://jaxcityc.legistar.com/Calendar.aspx
+- id: keizer
+  name: City of Keizer
+  type: civicclerk
+  tenant: keizeror
+  county: Marion
+  area: Keizer
+  homepage: https://keizeror.portal.civicclerk.com/
+- id: la-pine
+  name: City of La Pine
+  type: civicplus
+  site: https://www.lapineoregon.gov
+  categories:
+  - 22
+  county: Deschutes
+  area: La Pine
+  drop_uncategorized: true
+  homepage: https://www.lapineoregon.gov/Calendar.aspx
+- id: lebanon
+  name: City of Lebanon
+  type: municode
+  county: Linn
+  area: Lebanon
+  url: https://lebanon-or.municodemeetings.com/
+  homepage: https://lebanon-or.municodemeetings.com/
+- id: madras
+  name: City of Madras
+  type: civicplus
+  site: https://www.madras.gov
+  categories:
+  - 26
+  - 28
+  - 22
+  - 27
+  - 32
+  - 23
+  - 29
+  - 24
+  - 25
+  county: Jefferson
+  area: Madras
+  drop_uncategorized: true
+  homepage: https://www.madras.gov/Calendar.aspx
+- id: maywood-park
+  name: City of Maywood Park
+  type: ics
+  county: Multnomah
+  area: Maywood Park
+  url: https://calendar.google.com/calendar/ical/office%40cityofmaywoodpark.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://cityofmaywoodpark.com/
+- id: mcminnville
+  name: City of McMinnville
+  type: ics
+  url: https://mcminnville.org/events/?ical=1
+  county: Yamhill
+  area: McMinnville
+  drop_uncategorized: true
+  homepage: https://mcminnville.org/
+- id: millersburg
+  name: City of Millersburg
+  type: civicplus
+  site: https://www.millersburgoregon.gov
+  categories:
+  - 28
+  - 22
+  - 26
+  - 23
+  county: Linn
+  area: Millersburg
+  drop_uncategorized: true
+  homepage: https://www.millersburgoregon.gov/Calendar.aspx
+- id: monroe
+  name: City of Monroe
+  type: civicplus
+  site: https://www.monroeoregon.gov
+  categories:
+  - 23
+  county: Benton
+  area: Monroe
+  drop_uncategorized: true
+  homepage: https://www.monroeoregon.gov/Calendar.aspx
+- id: moro
+  name: City of Moro
+  type: ics
+  county: Sherman
+  area: Moro
+  url: https://calendar.google.com/calendar/ical/lsa9tne2fu35ird6uaruqf3kps%40group.calendar.google.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://cityofmoro.net/
+- id: newport
+  name: City of Newport
+  type: granicus
+  tenant: thecityofnewport
+  view_id: 1
+  county: Lincoln
+  area: Newport
+  homepage: https://thecityofnewport.granicus.com/viewpublisher.php?view_id=1
+- id: pendleton
+  name: City of Pendleton
+  type: civicweb
+  tenant: cityofpendletonor
+  county: Umatilla
+  area: Pendleton
+  homepage: https://cityofpendletonor.civicweb.net/Portal/MeetingSchedule.aspx
+- id: port-orford
+  name: City of Port Orford
+  type: ics
+  county: Curry
+  area: Port Orford
+  url: https://calendar.google.com/calendar/ical/portorford.meeting%40gmail.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://portorford.org/
+- id: prineville
+  name: City of Prineville
+  type: civicplus
+  site: https://www.cityofprineville.com
+  categories:
+  - 22
+  county: Crook
+  area: Prineville
+  drop_uncategorized: true
+  homepage: https://www.cityofprineville.com/Calendar.aspx
+- id: rockaway-beach
+  name: City of Rockaway Beach
+  type: civicclerk
+  tenant: rockawaybeachor
+  county: Tillamook
+  area: Rockaway Beach
+  homepage: https://rockawaybeachor.portal.civicclerk.com/
+- id: scappoose
+  name: City of Scappoose
+  type: civicplus
+  site: https://www.scappoose.gov
+  categories:
+  - 24
+  - 22
+  - 23
+  county: Columbia
+  area: Scappoose
+  drop_uncategorized: true
+  homepage: https://www.scappoose.gov/Calendar.aspx
+- id: scotts-mills
+  name: City of Scotts Mills
+  type: ics
+  county: Marion
+  area: Scotts Mills
+  url: https://calendar.google.com/calendar/ical/scottsmills.org_l4mf85t33nc2pm1aes3i980iro%40group.calendar.google.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://www.scottsmills.org/
+- id: shady-cove
+  name: City of Shady Cove
+  type: ics
+  url: https://shadycove.org/events/?ical=1
+  county: Jackson
+  area: Shady Cove
+  drop_uncategorized: true
+  homepage: https://shadycove.org/
+- id: sherwood
+  name: City of Sherwood
+  type: ics
+  county: Washington
+  area: Sherwood
+  url: https://calendar.google.com/calendar/ical/mwebb%40sherwood.org/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://sherwood.org/
+- id: springfield
+  name: City of Springfield
+  type: ics
+  url: https://springfield-or.gov/events/?ical=1
+  county: Lane
+  area: Springfield
+  drop_uncategorized: true
+  homepage: https://springfield-or.gov/
+- id: sweet-home
+  name: City of Sweet Home
+  type: civicclerk
+  tenant: sweethomeor
+  county: Linn
+  area: Sweet Home
+  homepage: https://sweethomeor.portal.civicclerk.com/
+- id: talent
+  name: City of Talent
+  type: civicplus
+  site: https://www.cityoftalent.org
+  categories:
+  - 26
+  - 27
+  - 24
+  - 34
+  - 29
+  - 30
+  - 25
+  - 31
+  - 33
+  county: Jackson
+  area: Talent
+  drop_uncategorized: true
+  homepage: https://www.cityoftalent.org/Calendar.aspx
+- id: toledo
+  name: City of Toledo
+  type: civicclerk
+  tenant: toledoor
+  county: Lincoln
+  area: Toledo
+  homepage: https://toledoor.portal.civicclerk.com/
+- id: troutdale
+  name: City of Troutdale
+  type: civicplus
+  site: https://www.troutdaleoregon.gov
+  categories:
+  - 33
+  - 34
+  - 27
+  - 31
+  - 24
+  - 23
+  - 30
+  - 25
+  - 32
+  county: Multnomah
+  area: Troutdale
+  drop_uncategorized: true
+  homepage: https://www.troutdaleoregon.gov/Calendar.aspx
+- id: umatilla
+  name: City of Umatilla
+  type: civicweb
+  tenant: umatilla
+  county: Umatilla
+  area: Umatilla
+  homepage: https://umatilla.civicweb.net/Portal/MeetingSchedule.aspx
+- id: veneta
+  name: City of Veneta
+  type: civicplus
+  site: https://www.venetaoregon.gov
+  categories:
+  - 14
+  - 27
+  county: Lane
+  area: Veneta
+  drop_uncategorized: true
+  homepage: https://www.venetaoregon.gov/Calendar.aspx
+- id: vernonia
+  name: City of Vernonia
+  type: ics
+  county: Columbia
+  area: Vernonia
+  url: https://calendar.google.com/calendar/ical/cityofvernonia%40gmail.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://www.vernonia-or.gov/
+- id: vernonia-2
+  name: City of Vernonia
+  type: ics
+  county: Columbia
+  area: Vernonia
+  url: https://calendar.google.com/calendar/ical/nv7kih3tr89o1hsfp4lo3o2rns%40group.calendar.google.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://www.vernonia-or.gov/
+- id: wilsonville
+  name: City of Wilsonville
+  type: civicclerk
+  tenant: wilsonvilleor
+  county: Clackamas
+  area: Wilsonville
+  homepage: https://wilsonvilleor.portal.civicclerk.com/
+- id: woodburn
+  name: City of Woodburn
+  type: civicplus
+  site: https://www.woodburn-or.gov
+  categories:
+  - 24
+  - 23
+  county: Marion
+  area: Woodburn
+  drop_uncategorized: true
+  homepage: https://www.woodburn-or.gov/Calendar.aspx
+- id: clatsop-county
+  name: Clatsop County
+  type: civicplus
+  site: https://www.clatsopcounty.gov
+  categories:
+  - 25
+  - 24
+  - 38
+  - 27
+  - 30
+  - 23
+  - 28
+  county: Clatsop
+  area: countywide
+  drop_uncategorized: true
+  homepage: https://www.clatsopcounty.gov/Calendar.aspx
+- id: crook-county
+  name: Crook County
+  type: civicclerk
+  tenant: crookcoor
+  county: Crook
+  area: countywide
+  homepage: https://crookcoor.portal.civicclerk.com/
+- id: deschutes-county
+  name: Deschutes County
+  type: iqm2_rss
+  county: Deschutes
+  area: countywide
+  url: https://deschutescountyor.iqm2.com/Services/RSS.aspx?Feed=Calendar
+  homepage: https://deschutescountyor.iqm2.com/Citizens/Calendar.aspx
+- id: grant-county
+  name: Grant County
+  type: ics
+  url: https://www.gcoregonlive.com/calendar/?ical=1
+  county: Grant
+  area: countywide
+  drop_uncategorized: true
+  homepage: https://www.gcoregonlive.com/
+- id: lincoln-county
+  name: Lincoln County
+  type: civicplus
+  site: https://www.co.lincoln.or.us
+  categories:
+  - 29
+  - 32
+  - 33
+  county: Lincoln
+  area: countywide
+  drop_uncategorized: true
+  homepage: https://www.co.lincoln.or.us/Calendar.aspx
+- id: multnomah-county
+  name: Multnomah County
+  type: granicus
+  tenant: multnomah
+  view_id: 3
+  county: Multnomah
+  area: countywide
+  homepage: https://multnomah.granicus.com/viewpublisher.php?view_id=3
+- id: polk-county
+  name: Polk County
+  type: civicplus
+  site: https://www.polkcountyor.gov
+  categories:
+  - 24
+  - 25
+  county: Polk
+  area: countywide
+  drop_uncategorized: true
+  homepage: https://www.polkcountyor.gov/Calendar.aspx
+- id: umatilla-county
+  name: Umatilla County
+  type: ics
+  county: Umatilla
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/c_i6mt119sdkubgn33dap6nrla2k%40group.calendar.google.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://www.co.umatilla.or.us/
+- id: umatilla-county-2
+  name: Umatilla County
+  type: ics
+  county: Umatilla
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/umatillacounty.net_ns1ukh7s3fmd6oqc6gstpmfsgs%40group.calendar.google.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://www.co.umatilla.or.us/
+- id: wallowa-county
+  name: Wallowa County
+  type: ics
+  county: Wallowa
+  area: countywide
+  url: https://calendar.google.com/calendar/ical/jb49rq1ng7u5ri2jouimm3hlp4%40group.calendar.google.com/public/basic.ics
+  drop_uncategorized: true
+  homepage: https://www.co.wallowa.or.us/
+- id: washington-county
+  name: Washington County
+  type: civicweb
+  tenant: washingtoncounty
+  county: Washington
+  area: countywide
+  homepage: https://washingtoncounty.civicweb.net/Portal/MeetingSchedule.aspx
+- id: yamhill-county
+  name: Yamhill County
+  type: civicplus
+  site: https://www.yamhillcounty.gov
+  categories:
+  - 46
+  - 48
+  - 31
+  - 42
+  - 47
+  - 30
+  county: Yamhill
+  area: countywide
+  drop_uncategorized: true
+  homepage: https://www.yamhillcounty.gov/Calendar.aspx
