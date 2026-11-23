@@ -30,9 +30,12 @@ def find(row):
         except Exception:
             continue
         statuses.append(r.status_code)
-        if r.status_code == 200 and "Web:" in r.text:
-            m = re.search(r"Web:\s*(?:</?[^>]+>\s*)*<a[^>]+href=\"([^\"]+)\"", r.text, re.I) or \
-                re.search(r"Web:\s*(?:</?[^>]+>\s*)*((?:https?://)?www\.[a-z0-9.-]+\.[a-z]{2,}[^\s<\"]*)", r.text, re.I)
+        if r.status_code == 200 and name in ("Albany", "Adams") and "government/Pages" in url:
+            i = r.text.find("Address")
+            print("PEEK", name, re.sub(r"\s+", " ", r.text[i - 200:i + 1500]))
+        if r.status_code == 200 and re.search(r"Web\b", r.text):
+            m = re.search(r"Web(?:site)?\s*(?::|&#58;)?\s*(?:&nbsp;|\s|</?[^>]+>)*<a[^>]+href=\"([^\"]+)\"", r.text, re.I) or \
+                re.search(r"Web(?:site)?\s*(?::|&#58;)?\s*(?:&nbsp;|\s|</?[^>]+>)*((?:https?://)?(?:www\.)?[a-z0-9.-]+\.(?:gov|org|com|us|net|city)[^\s<\"]*)", r.text, re.I)
             if m:
                 site = m.group(1)
                 return name, county, site if site.startswith("http") else "https://" + site, url
