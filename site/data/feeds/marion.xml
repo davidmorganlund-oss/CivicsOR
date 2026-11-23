@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T21:06:19-08:00</updated>
+  <updated>2026-11-22T21:10:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:c3bb0791ab5b:new</id>
@@ -14,17 +14,17 @@
     <summary>City of Keizer · 2027-01-21 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:ffb8c1ef3387:new</id>
-    <title>New meeting: City Council Meeting (2027-01-19 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://keizeror.portal.civicclerk.com/event/3485/overview"/>
-    <summary>City of Keizer · 2027-01-19 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:6f943c01eab7:new</id>
     <title>New meeting: Public Arts Commission Meeting (2027-01-19 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://keizeror.portal.civicclerk.com/event/513/overview"/>
+    <summary>City of Keizer · 2027-01-19 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ffb8c1ef3387:new</id>
+    <title>New meeting: City Council Meeting (2027-01-19 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://keizeror.portal.civicclerk.com/event/3485/overview"/>
     <summary>City of Keizer · 2027-01-19 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
   </entry>
   <entry>

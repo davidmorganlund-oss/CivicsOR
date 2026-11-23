@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T21:06:19-08:00</updated>
+  <updated>2026-11-22T21:10:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:20bf0865d4e0:new</id>
@@ -14,18 +14,18 @@
     <summary>City of Wilsonville · 2027-01-21 19:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:e9993503f7f2:new</id>
-    <title>New meeting: Parks Board Meeting (2027-01-21 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2290/overview"/>
-    <summary>City of Independence · 2027-01-21 18:00 (PT) · Event Center-Heritage Room</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:c3bb0791ab5b:new</id>
     <title>New meeting: Multi-Modal Safety Committee Meeting (2027-01-21 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://keizeror.portal.civicclerk.com/event/3530/overview"/>
     <summary>City of Keizer · 2027-01-21 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e9993503f7f2:new</id>
+    <title>New meeting: Parks Board Meeting (2027-01-21 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://independenceor.portal.civicclerk.com/event/2290/overview"/>
+    <summary>City of Independence · 2027-01-21 18:00 (PT) · Event Center-Heritage Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:4031e2d57dfe:new</id>
@@ -77,18 +77,18 @@
     <summary>City of Madras · 2027-01-20 18:30 (PT) · City Hall, 125 SW E Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:9a3105f0b9ae:new</id>
-    <title>New meeting: City Council Meeting (2027-01-20 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5602"/>
-    <summary>City of Grants Pass · 2027-01-20 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:7dd56c103286:new</id>
     <title>New meeting: City Council Meeting (2027-01-20 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://toledoor.portal.civicclerk.com/event/122/overview"/>
     <summary>City of Toledo · 2027-01-20 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9a3105f0b9ae:new</id>
+    <title>New meeting: City Council Meeting (2027-01-20 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5602"/>
+    <summary>City of Grants Pass · 2027-01-20 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:ce730f4b2f81:new</id>
@@ -140,20 +140,6 @@
     <summary>City of Scappoose · 2027-01-19 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:906ac4193822:new</id>
-    <title>New meeting: City Council Business Meeting (2027-01-19 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1491/overview"/>
-    <summary>City of Ashland · 2027-01-19 18:00 (PT) · Council Chambers, 1175 E Main Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ffb8c1ef3387:new</id>
-    <title>New meeting: City Council Meeting (2027-01-19 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://keizeror.portal.civicclerk.com/event/3485/overview"/>
-    <summary>City of Keizer · 2027-01-19 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:6f943c01eab7:new</id>
     <title>New meeting: Public Arts Commission Meeting (2027-01-19 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -161,11 +147,25 @@
     <summary>City of Keizer · 2027-01-19 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:906ac4193822:new</id>
+    <title>New meeting: City Council Business Meeting (2027-01-19 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://ashlandor.portal.civicclerk.com/event/1491/overview"/>
+    <summary>City of Ashland · 2027-01-19 18:00 (PT) · Council Chambers, 1175 E Main Street</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:a00b45b0d76b:new</id>
     <title>New meeting: Park Commission Meeting (2027-01-19 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.millersburgoregon.gov/Calendar.aspx?EID=1280"/>
     <summary>City of Millersburg · 2027-01-19 18:00 (PT) · 4222 NE Old Salem Road</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ffb8c1ef3387:new</id>
+    <title>New meeting: City Council Meeting (2027-01-19 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://keizeror.portal.civicclerk.com/event/3485/overview"/>
+    <summary>City of Keizer · 2027-01-19 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:87c21b8ac90a:new</id>
@@ -201,13 +201,6 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://ashlandor.portal.civicclerk.com/event/1465/overview"/>
     <summary>City of Ashland · 2027-01-18 17:30 (PT) · Council Chambers, 1175 E Main Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:d9bb54936f96:new</id>
-    <title>New meeting: Civilian Review Board (2027-01-18 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://elginil.gov/m/calendar/event/detail/12827"/>
-    <summary>City of Elgin · 2027-01-18 17:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6f958689b871:new</id>
@@ -294,25 +287,11 @@
     <summary>City of Grants Pass · 2027-01-14 08:30 (PT) · Police Department Headquarters, 726 NE 7th Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:6d3d2b4be54d:new</id>
-    <title>New meeting: Park Commission Business Meeting (2027-01-13 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1550/overview"/>
-    <summary>City of Ashland · 2027-01-13 18:00 (PT) · 1175 E Main Street, Ashland</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:4246a843296b:new</id>
     <title>New meeting: Urban Area Planning Commission (2027-01-13 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4460"/>
     <summary>City of Grants Pass · 2027-01-13 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:c6893a1a1244:new</id>
-    <title>New meeting: Planning Commission Meeting (2027-01-13 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://keizeror.portal.civicclerk.com/event/3580/overview"/>
-    <summary>City of Keizer · 2027-01-13 18:00 (PT) · 930 Chemawa Rd NE, Keizer</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:5aa689dc9bdd:new</id>
@@ -322,11 +301,25 @@
     <summary>City of Rockaway Beach · 2027-01-13 18:00 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:6d3d2b4be54d:new</id>
+    <title>New meeting: Park Commission Business Meeting (2027-01-13 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://ashlandor.portal.civicclerk.com/event/1550/overview"/>
+    <summary>City of Ashland · 2027-01-13 18:00 (PT) · 1175 E Main Street, Ashland</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:956226aec6fd:new</id>
     <title>New meeting: Planning Commission (2027-01-13 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://wilsonvilleor.portal.civicclerk.com/event/3411/overview"/>
     <summary>City of Wilsonville · 2027-01-13 18:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c6893a1a1244:new</id>
+    <title>New meeting: Planning Commission Meeting (2027-01-13 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://keizeror.portal.civicclerk.com/event/3580/overview"/>
+    <summary>City of Keizer · 2027-01-13 18:00 (PT) · 930 Chemawa Rd NE, Keizer</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:1afd36ea578a:new</id>
@@ -371,13 +364,6 @@
     <summary>City of Independence · 2027-01-12 18:30 (PT) · City Hall - Council Chambers</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:fce68aa3f5e8:new</id>
-    <title>New meeting: Citizens Advisory Committee (2027-01-12 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/936"/>
-    <summary>City of Central Point · 2027-01-12 18:00 (PT)</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:06061f7c1368:new</id>
     <title>New meeting: Keizer Parks &amp; Recreation Advisory Board Meeting (2027-01-12 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -399,11 +385,11 @@
     <summary>City of Wilsonville · 2027-01-12 18:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:9da8429d065c:new</id>
-    <title>New meeting: City Council Meeting (2027-01-12 17:30)</title>
+    <id>tag:civicsor.org,2026:fce68aa3f5e8:new</id>
+    <title>New meeting: Citizens Advisory Committee (2027-01-12 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.brookings.or.us/Calendar.aspx?EID=3316"/>
-    <summary>City of Brookings · 2027-01-12 17:30 (PT) · City Hall Chambers</summary>
+    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/936"/>
+    <summary>City of Central Point · 2027-01-12 18:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:56cf7cdeac4e:new</id>
@@ -420,11 +406,11 @@
     <summary>City of Madras · 2027-01-12 17:30 (PT) · City Hall, 125 SW E Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:717b081586ae:new</id>
-    <title>New meeting: Urban Tree Advisory Committee (2027-01-11 18:30)</title>
+    <id>tag:civicsor.org,2026:9da8429d065c:new</id>
+    <title>New meeting: City Council Meeting (2027-01-12 17:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4618"/>
-    <summary>City of Grants Pass · 2027-01-11 18:30 (PT) · Ridge Conference Room, 101 NW A Street</summary>
+    <link href="https://www.brookings.or.us/Calendar.aspx?EID=3316"/>
+    <summary>City of Brookings · 2027-01-12 17:30 (PT) · City Hall Chambers</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:5ed21d48b772:new</id>
@@ -432,6 +418,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1201"/>
     <summary>City of Veneta · 2027-01-11 18:30 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:717b081586ae:new</id>
+    <title>New meeting: Urban Tree Advisory Committee (2027-01-11 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4618"/>
+    <summary>City of Grants Pass · 2027-01-11 18:30 (PT) · Ridge Conference Room, 101 NW A Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:0713f57d7d36:new</id>
@@ -532,18 +525,11 @@
     <summary>City of Madras · 2027-01-06 18:30 (PT) · City Hall, 125 SW E Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:8a77ceebb8f7:new</id>
-    <title>New meeting: Park Commission Study Session (2027-01-06 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1549/overview"/>
-    <summary>City of Ashland · 2027-01-06 18:00 (PT) · 1175 E Main Street, Ashland</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:80f8a5fa840f:new</id>
+    <id>tag:civicsor.org,2026:551b74057c5e:new</id>
     <title>New meeting: City Council Meeting (2027-01-06 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofgearhart.com/Calendar.aspx?EID=483"/>
-    <summary>City of Gearhart · 2027-01-06 18:00 (PT) · Gearhart City Hall, 698 Pacific Way</summary>
+    <link href="https://toledoor.portal.civicclerk.com/event/95/overview"/>
+    <summary>City of Toledo · 2027-01-06 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:67b91ed9e495:new</id>
@@ -553,11 +539,18 @@
     <summary>City of Grants Pass · 2027-01-06 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:551b74057c5e:new</id>
+    <id>tag:civicsor.org,2026:80f8a5fa840f:new</id>
     <title>New meeting: City Council Meeting (2027-01-06 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://toledoor.portal.civicclerk.com/event/95/overview"/>
-    <summary>City of Toledo · 2027-01-06 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
+    <link href="https://www.cityofgearhart.com/Calendar.aspx?EID=483"/>
+    <summary>City of Gearhart · 2027-01-06 18:00 (PT) · Gearhart City Hall, 698 Pacific Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8a77ceebb8f7:new</id>
+    <title>New meeting: Park Commission Study Session (2027-01-06 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://ashlandor.portal.civicclerk.com/event/1549/overview"/>
+    <summary>City of Ashland · 2027-01-06 18:00 (PT) · 1175 E Main Street, Ashland</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:b37126a4b193:new</id>
@@ -574,18 +567,18 @@
     <summary>Clatsop County · 2027-01-06 10:30 (PT)</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:b688ecf2f278:new</id>
-    <title>New meeting: Tourism Promotion Committee (2027-01-06 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3564/overview"/>
-    <summary>City of Wilsonville · 2027-01-06 10:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:87d89107274f:new</id>
     <title>New meeting: Board of Commissioners Meeting (2027-01-06 10:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.co.lincoln.or.us/Calendar.aspx?EID=926"/>
     <summary>Lincoln County · 2027-01-06 10:00 (PT) · In the Board of Commissioners' chambers on the first floor of the Lincoln County Courthouse., Lincoln County Courthouse, 225 W Olive Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b688ecf2f278:new</id>
+    <title>New meeting: Tourism Promotion Committee (2027-01-06 10:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3564/overview"/>
+    <summary>City of Wilsonville · 2027-01-06 10:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:93c9fc9bac23:new</id>
@@ -630,20 +623,6 @@
     <summary>City of Ashland · 2027-01-05 18:00 (PT) · Council Chambers, 1175 E Main Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:9eba5e8da817:new</id>
-    <title>New meeting: City Council Workshop Joint w/ Planning Commission (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://boardmanor.portal.civicclerk.com/event/604/overview"/>
-    <summary>City of Boardman · 2027-01-05 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:c4698fed9f25:new</id>
-    <title>New meeting: Planning Commission (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/893"/>
-    <summary>City of Central Point · 2027-01-05 18:00 (PT)</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:8107a4b4980b:new</id>
     <title>New meeting: City Council Meeting (2027-01-05 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -658,11 +637,18 @@
     <summary>City of Millersburg · 2027-01-05 18:00 (PT) · 4222 NE Old Salem Road</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:f9cab2c38b11:new</id>
-    <title>New meeting: Urban Forestry Commission Meeting (2027-01-05 17:00)</title>
+    <id>tag:civicsor.org,2026:9eba5e8da817:new</id>
+    <title>New meeting: City Council Workshop Joint w/ Planning Commission (2027-01-05 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=936"/>
-    <summary>City of Madras · 2027-01-05 17:00 (PT) · 216 NW B Street</summary>
+    <link href="https://boardmanor.portal.civicclerk.com/event/604/overview"/>
+    <summary>City of Boardman · 2027-01-05 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c4698fed9f25:new</id>
+    <title>New meeting: Planning Commission (2027-01-05 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/893"/>
+    <summary>City of Central Point · 2027-01-05 18:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:38215c93150d:new</id>
@@ -677,6 +663,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.clatsopcounty.gov/Calendar.aspx?EID=477"/>
     <summary>Clatsop County · 2027-01-05 17:00 (PT) · Fairgrounds &amp; Expo Center</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:f9cab2c38b11:new</id>
+    <title>New meeting: Urban Forestry Commission Meeting (2027-01-05 17:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.madras.gov/Calendar.aspx?EID=936"/>
+    <summary>City of Madras · 2027-01-05 17:00 (PT) · 216 NW B Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:54d6563ca586:new</id>
@@ -700,18 +693,18 @@
     <summary>City of Grants Pass · 2027-01-05 09:30 (PT) · On the first Tuesday of each month, at 9:30 am, KAJO radio, 99.7 FM, presents an hour-long talk show with members of the City Council, who field questions and discuss important issues our community faces. Link to KAJO</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:3cf67c211762:new</id>
+    <title>New meeting: City Council (2027-01-04 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3468/overview"/>
+    <summary>City of Wilsonville · 2027-01-04 19:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:be81f7e939ea:new</id>
     <title>New meeting: Planning Commission Meeting (2027-01-04 19:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://independenceor.portal.civicclerk.com/event/2225/overview"/>
     <summary>City of Independence · 2027-01-04 19:00 (PT) · City Hall - Council Chambers</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:e895671cb0d6:new</id>
-    <title>New meeting: City Council Meeting (2027-01-04 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.klamathfalls.city/Calendar.aspx?EID=841"/>
-    <summary>City of Klamath Falls · 2027-01-04 19:00 (PT) · 500 Klamath Ave.</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:e6802a3214b7:new</id>
@@ -721,11 +714,11 @@
     <summary>City of Scappoose · 2027-01-04 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:3cf67c211762:new</id>
-    <title>New meeting: City Council (2027-01-04 19:00)</title>
+    <id>tag:civicsor.org,2026:e895671cb0d6:new</id>
+    <title>New meeting: City Council Meeting (2027-01-04 19:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3468/overview"/>
-    <summary>City of Wilsonville · 2027-01-04 19:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
+    <link href="https://www.klamathfalls.city/Calendar.aspx?EID=841"/>
+    <summary>City of Klamath Falls · 2027-01-04 19:00 (PT) · 500 Klamath Ave.</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:eb23a1cd03be:new</id>
@@ -959,18 +952,18 @@
     <summary>Crook County · 2026-12-23 09:00 (PT) · 203 NE Court Street, Prineville</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:7b68deecb73f:new</id>
-    <title>New meeting: City Council Work Session (2026-12-22 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2238/overview"/>
-    <summary>City of Independence · 2026-12-22 18:30 (PT) · City Hall - Council Chambers</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:4b9fecc39e72:new</id>
     <title>New meeting: Council Meeting (2026-12-22 18:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityoflyons.org/events/council-meeting-2026-07-28-2026-08-25-2026-09-22-2026-10-27-2026-11-24-2026-12-22/"/>
     <summary>City of Lyons · 2026-12-22 18:30 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:7b68deecb73f:new</id>
+    <title>New meeting: City Council Work Session (2026-12-22 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://independenceor.portal.civicclerk.com/event/2238/overview"/>
+    <summary>City of Independence · 2026-12-22 18:30 (PT) · City Hall - Council Chambers</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:ad61dd67bf36:new</id>
@@ -1008,13 +1001,6 @@
     <summary>City of Madras · 2026-12-22 17:30 (PT) · City Hall, 125 SW E Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:7fcccfcd56c1:new</id>
-    <title>New meeting: City Council Meeting (2026-12-21 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.klamathfalls.city/Calendar.aspx?EID=864"/>
-    <summary>City of Klamath Falls · 2026-12-21 19:00 (PT) · 500 Klamath Ave.</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:410c7c0d1956:new</id>
     <title>New meeting: City Council (2026-12-21 19:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1027,6 +1013,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://wilsonvilleor.portal.civicclerk.com/event/3480/overview"/>
     <summary>City of Wilsonville · 2026-12-21 19:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:7fcccfcd56c1:new</id>
+    <title>New meeting: City Council Meeting (2026-12-21 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.klamathfalls.city/Calendar.aspx?EID=864"/>
+    <summary>City of Klamath Falls · 2026-12-21 19:00 (PT) · 500 Klamath Ave.</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:43f9f24a0765:new</id>
@@ -1043,13 +1036,6 @@
     <summary>City of Keizer · 2026-12-21 18:00 (PT) · 930 Chemawa Road NE, Keizer</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:cb8bc8e3ba0f:new</id>
-    <title>New meeting: Civilian Review Board (2026-12-21 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://elginil.gov/m/calendar/event/detail/12826"/>
-    <summary>City of Elgin · 2026-12-21 17:30 (PT)</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:97d80b44df41:new</id>
     <title>New meeting: Planning Commission Meeting (2026-12-17 18:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1062,13 +1048,6 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://sweethomeor.portal.civicclerk.com/event/102/overview"/>
     <summary>City of Sweet Home · 2026-12-17 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8b1672e06222:new</id>
-    <title>New meeting: Parks Board Meeting (2026-12-17 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2289/overview"/>
-    <summary>City of Independence · 2026-12-17 18:00 (PT) · Event Center-Heritage Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:08a97f249d7a:new</id>
@@ -1085,11 +1064,11 @@
     <summary>City of Keizer · 2026-12-17 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:dbf576b27652:new</id>
-    <title>New meeting: Fire and Police Board (2026-12-17 17:00)</title>
+    <id>tag:civicsor.org,2026:8b1672e06222:new</id>
+    <title>New meeting: Parks Board Meeting (2026-12-17 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://elginil.gov/m/calendar/event/detail/13352"/>
-    <summary>City of Elgin · 2026-12-17 17:00 (PT)</summary>
+    <link href="https://independenceor.portal.civicclerk.com/event/2289/overview"/>
+    <summary>City of Independence · 2026-12-17 18:00 (PT) · Event Center-Heritage Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:91ff4f9aa0b7:new</id>
@@ -1120,13 +1099,6 @@
     <summary>City of Madras · 2026-12-17 16:00 (PT) · 2028 NW Berg Drive</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:8061e9082164:new</id>
-    <title>New meeting: Emergency Telephone System Board (2026-12-17 15:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://elginil.gov/m/calendar/event/detail/13233"/>
-    <summary>City of Elgin · 2026-12-17 15:30 (PT)</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:d84a80a15d14:new</id>
     <title>New meeting: Lincoln County Citizen Corps Coordinating Council (2026-12-17 15:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1148,13 +1120,6 @@
     <summary>Yamhill County · 2026-12-17 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:bc0c8d5e376e:new</id>
-    <title>New meeting: City Council Meeting (2026-12-16 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://elginil.gov/m/calendar/event/detail/13628"/>
-    <summary>City of Elgin · 2026-12-16 19:00 (PT)</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:dafa034ef5a5:new</id>
     <title>New meeting: School Board Meeting (2026-12-16 19:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1174,13 +1139,6 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.madras.gov/Calendar.aspx?EID=836"/>
     <summary>City of Madras · 2026-12-16 18:30 (PT) · City Hall, 125 SW E Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:140e6e73aa8c:new</id>
-    <title>New meeting: Committee of the Whole Meeting (2026-12-16 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://elginil.gov/m/calendar/event/detail/13627"/>
-    <summary>City of Elgin · 2026-12-16 18:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:63f5630433e6:new</id>
@@ -1267,13 +1225,6 @@
     <summary>City of Madras · 2026-12-15 17:30 (PT) · City Hall, 125 SW E Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:647978aeeb5e:new</id>
-    <title>New meeting: City Council Meeting (2026-12-15 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ci.irrigon.or.us/event/city-council-meeting-3/2026-12-15/"/>
-    <summary>City of Irrigon · 2026-12-15 16:00 (PT) · City Hall Building, 500 NE Main Ave, Irrigon, OR, 97844, United States</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:24b7b9207111:new</id>
     <title>New meeting: Park &amp; Tree Committee Meeting (2026-12-15 16:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1323,6 +1274,20 @@
     <summary>City of Wilsonville · 2026-12-14 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:8d8a07a70409:new</id>
+    <title>New meeting: City Council Work Session Meeting (2026-12-14 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://keizeror.portal.civicclerk.com/event/3392/overview"/>
+    <summary>City of Keizer · 2026-12-14 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b9095eeb0424:new</id>
+    <title>New meeting: City Council Meeting (2026-12-14 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1142"/>
+    <summary>City of Veneta · 2026-12-14 18:00 (PT)</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:bb37a8c78e11:new</id>
     <title>New meeting: Planning Commission Meeting (2026-12-14 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1337,20 +1302,6 @@
     <summary>City of Carlton · 2026-12-14 18:00 (PT)</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:647ad905ecad:new</id>
-    <title>New meeting: Cultural Arts Commission (2026-12-14 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://elginil.gov/m/calendar/event/detail/13221"/>
-    <summary>City of Elgin · 2026-12-14 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8d8a07a70409:new</id>
-    <title>New meeting: City Council Work Session Meeting (2026-12-14 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://keizeror.portal.civicclerk.com/event/3392/overview"/>
-    <summary>City of Keizer · 2026-12-14 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:f0a83e316147:new</id>
     <title>New meeting: City Council Meeting (2026-12-14 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1358,11 +1309,25 @@
     <summary>City of Seaside · 2026-12-14 18:00 (PT)</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:b9095eeb0424:new</id>
-    <title>New meeting: City Council Meeting (2026-12-14 18:00)</title>
+    <id>tag:civicsor.org,2026:35a55c0ec167:new</id>
+    <title>New meeting: Historic Preservation Commission Meeting (2026-12-14 17:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1142"/>
-    <summary>City of Veneta · 2026-12-14 18:00 (PT)</summary>
+    <link href="https://independenceor.portal.civicclerk.com/event/2250/overview"/>
+    <summary>City of Independence · 2026-12-14 17:30 (PT) · City Hall - Council Chambers</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:5bb03f04559d:new</id>
+    <title>New meeting: City Council Meeting (2026-12-14 17:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.ci.florence.or.us/Calendar.aspx?EID=675"/>
+    <summary>City of Florence · 2026-12-14 17:30 (PT) · City Hall, 250 Hwy 101</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:5ccb49935739:new</id>
+    <title>New meeting: City Council Workshop Immediately Following City Council Meeting (2026-12-14 17:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.brookings.or.us/Calendar.aspx?EID=2619"/>
+    <summary>City of Brookings · 2026-12-14 17:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:a4b7be0ed2f7:new</id>
@@ -1379,31 +1344,66 @@
     <summary>City of Brookings · 2026-12-14 17:30 (PT) · City Hall Chambers</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:5ccb49935739:new</id>
-    <title>New meeting: City Council Workshop Immediately Following City Council Meeting (2026-12-14 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.brookings.or.us/Calendar.aspx?EID=2619"/>
-    <summary>City of Brookings · 2026-12-14 17:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:5bb03f04559d:new</id>
-    <title>New meeting: City Council Meeting (2026-12-14 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.ci.florence.or.us/Calendar.aspx?EID=675"/>
-    <summary>City of Florence · 2026-12-14 17:30 (PT) · City Hall, 250 Hwy 101</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:35a55c0ec167:new</id>
-    <title>New meeting: Historic Preservation Commission Meeting (2026-12-14 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2250/overview"/>
-    <summary>City of Independence · 2026-12-14 17:30 (PT) · City Hall - Council Chambers</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:17ed2789cb72:new</id>
     <title>New meeting: City Council Work Session (2026-12-14 17:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1199"/>
     <summary>City of Seaside · 2026-12-14 17:00 (PT) · 989 Broadway</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ca2cd0a9549f:new</id>
+    <title>New meeting: Homeless Advisory Committee Meeting (2026-12-14 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.madras.gov/Calendar.aspx?EID=573"/>
+    <summary>City of Madras · 2026-12-14 14:00 (PT) · City Hall, 125 SW E Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:92fec9677433:new</id>
+    <title>New meeting: City Council Workshop (2026-12-14 11:45)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4996"/>
+    <summary>City of Grants Pass · 2026-12-14 11:45 (PT) · Council Chambers, 101 NW A St.</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:f73327e54733:new</id>
+    <title>New meeting: Woodburn City Council Meeting (2026-12-14)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.woodburn-or.gov/Calendar.aspx?EID=1726"/>
+    <summary>City of Woodburn · 2026-12-14 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e446112d28a2:new</id>
+    <title>New meeting: Council Community Connection (2026-12-11 09:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5277"/>
+    <summary>City of Grants Pass · 2026-12-11 09:00 (PT) · Rogue Roasters, 610 SW 6th Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c7e2da10cb38:new</id>
+    <title>New meeting: Library Board Meeting (2026-12-10 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.cityoflyons.org/events/library-board-meeting-2026-12-10/"/>
+    <summary>City of Lyons · 2026-12-10 19:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c8c0de02fc9c:new</id>
+    <title>New meeting: Planning Commission Meeting (2026-12-10 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.woodburn-or.gov/Calendar.aspx?EID=558"/>
+    <summary>City of Woodburn · 2026-12-10 18:30 (PT) · City Hall, 270 Montgomery St</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:341ffa6ceb83:new</id>
+    <title>New meeting: City Council Meeting (2026-12-10 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/843"/>
+    <summary>City of Central Point · 2026-12-10 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:bfa19524e4b9:new</id>
+    <title>New meeting: Planning Commission Meeting (2026-12-10 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.cityofgearhart.com/Calendar.aspx?EID=624"/>
+    <summary>City of Gearhart · 2026-12-10 18:00 (PT) · Gearhart City Hall, 698 Pacific Way</summary>
   </entry>
 </feed>
