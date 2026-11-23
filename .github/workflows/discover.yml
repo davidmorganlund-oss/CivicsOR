@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       list:
-        description: TSV of name, county, homepage (a file in tools/), "all" for every city and county, "schools" for school districts, or "schools-dump"
+        description: TSV of name, county, homepage (a file in tools/), "all" for every city and county, "schools" for school districts, "schools-dump", or "bluebook" for official city websites
         default: all
   push:
     branches: [main]
@@ -34,6 +34,9 @@ jobs:
             cat cities.tsv counties.tsv > all.tsv
             sed 's/^/CITYROW /' cities.tsv
             LIST=all.tsv
+          elif [ "$LIST" = "bluebook" ]; then
+            python tools/bluebook.py tools/or-cities.tsv
+            exit 0
           elif [ "$LIST" = "schools" ] || [ "$LIST" = "schools-dump" ]; then
             sudo apt-get install -y -qq poppler-utils >/dev/null
             if [ "$LIST" = "schools-dump" ]; then python tools/ode.py schools.tsv dump; exit 0; fi
