@@ -1082,7 +1082,14 @@ def fetch_boardbook(src, start_day, end_day, tz):
 # "Civil/Social" label turned out to cover book clubs and chess, so it is not
 # used.) Closures are always dropped.
 
+NOT_A_BOARD = re.compile(r"board ?games?|game board|vision boards?|bulletin board|story ?board|"
+                         r"skate ?board|surf ?board|snow ?board|key ?board|dart ?board|board ?walk|"
+                         r"charcuterie|cutting board|board book", re.I)
+
+
 def libcal_is_civic(title, categories):
+    if NOT_A_BOARD.search(title or ""):
+        return bool(CIVIC_TITLE.search(NOT_A_BOARD.sub("", title or "")))
     if re.search(r"\bboards?\b|trustee", categories + " " + title, re.I):
         return True
     if re.search(r"friends of the library", categories + " " + title, re.I) and re.search(r"meeting", title, re.I):

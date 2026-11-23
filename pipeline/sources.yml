@@ -455,3 +455,85 @@ sources:
   - {id: lakeview, name: Town of Lakeview, type: ics, county: Lake, area: Lakeview, url: 'https://townoflakeview.org/events/?ical=1', include: council|commission|board|committee|hearing|meeting|session|workshop, homepage: 'https://townoflakeview.org/events/'}
   - {id: warrenton, name: City of Warrenton, type: civicclerk, tenant: warrentonor, county: Clatsop, area: Warrenton, homepage: 'https://warrentonor.portal.civicclerk.com/'}
   - {id: yachats, name: City of Yachats, type: civicclerk, tenant: yachatsor, county: Lincoln, area: Yachats, homepage: 'https://yachatsor.portal.civicclerk.com/'}
+
+  # ---------- Libraries (November 2026) ----------
+  # Library districts are elected local governments; city libraries have
+  # advisory boards. Calendars that list board meetings are read directly;
+  # the rest come from the schedule each board publishes.
+  - {id: jackson-county-library-district, name: Jackson County Library District, type: libcal, host: jcls.libcal.com, civic_only: true, county: Jackson, area: countywide, category: library, homepage: 'https://jcls.org/about/board-of-directors'}
+  - {id: cedar-mill-bethany-libraries, name: Cedar Mill & Bethany Community Libraries, type: libcal, host: cedarmillbethany.libcal.com, civic_only: true, county: Washington, area: countywide, category: library, homepage: 'https://cedarmillbethany.libcal.com/calendar'}
+  - {id: cornelius-library, name: Cornelius Public Library, type: libcal, host: cornelius-or.libcal.com, civic_only: true, county: Washington, area: Cornelius, category: library, homepage: 'https://cornelius-or.libcal.com/calendar'}
+  - {id: albany-library, name: Albany Public Library, type: libcal, host: cityofalbany.libcal.com, civic_only: true, county: Linn, area: Albany, category: library, homepage: 'https://cityofalbany.libcal.com/calendar'}
+  - {id: springfield-library, name: Springfield Public Library, type: libcal, host: springfield-or.libcal.com, civic_only: true, county: Lane, area: Springfield, category: library, homepage: 'https://springfield-or.libcal.com/calendar'}
+  - {id: oregon-city-library, name: Oregon City Public Library, type: libcal, host: orcity-library.libcal.com, civic_only: true, county: Clackamas, area: Oregon City, category: library, homepage: 'https://orcity-library.libcal.com/calendar'}
+  - {id: happy-valley-library, name: Happy Valley Library, type: libcal, host: happyvalleyor.libcal.com, civic_only: true, county: Clackamas, area: Happy Valley, category: library, homepage: 'https://happyvalleyor.libcal.com/calendar'}
+
+  - id: multnomah-library-advisory-board
+    name: Multnomah County Library Advisory Board
+    type: schedule
+    county: Multnomah
+    area: countywide
+    category: library
+    homepage: https://multcolib.org/governance/library-advisory-board
+    meetings:
+      - {title: Library Advisory Board meeting, when: 2nd Tuesday, time: "17:30", location: "Online; some meetings are held at a library", url: "https://multcolib.org/governance/library-advisory-board"}
+
+  - id: deschutes-library-board
+    name: Deschutes Public Library District
+    type: schedule
+    county: Deschutes
+    area: countywide
+    category: library
+    homepage: https://www.deschuteslibrary.org/about/board/
+    meetings:
+      - {title: Library Board meeting, when: 2nd Wednesday, time: "17:30", location: "Location varies by month; see the agenda", url: "https://www.deschuteslibrary.org/about/board/agendas/"}
+
+  - id: hood-river-library-board
+    name: Hood River County Library District
+    type: schedule
+    county: Hood River
+    area: countywide
+    category: library
+    homepage: https://www.hoodriverlibrary.org/
+    meetings:
+      - {title: Library District Board meeting, when: 3rd Tuesday, time: "19:00", location: "Gaulke Community Meeting Room, Hood River Library, 502 State St.", url: "https://www.hoodriverlibrary.org/"}
+
+  - id: josephine-library-board
+    name: Josephine Community Library District
+    type: schedule
+    county: Josephine
+    area: countywide
+    category: library
+    homepage: https://josephinelibrary.org/
+    meetings:
+      - {title: Library District Board meeting, when: 3rd Thursday, time: "17:30", location: "Rotates among branches; see the agenda", url: "https://josephinelibrary.org/"}
+
+  - id: baker-library-board
+    name: Baker County Library District
+    type: schedule
+    county: Baker
+    area: countywide
+    category: library
+    homepage: https://www.bakerlib.org/meetings
+    meetings:
+      - {title: Library Board meeting, when: 2nd Tuesday, time: "17:00", location: "Riverside Meeting Room, Baker County Public Library, 2400 Resort St., Baker City (and Zoom)", url: "https://www.bakerlib.org/meetings"}
+
+  - id: umatilla-library-district-board
+    name: Umatilla County Special Library District
+    type: schedule
+    county: Umatilla
+    area: countywide
+    category: library
+    homepage: https://ucsld.org/
+    meetings:
+      - {title: Library District Board meeting, when: 4th Thursday, time: "17:30", location: "425 S. Main St., Pendleton (and Zoom)", url: "https://ucsld.org/"}
+
+  - id: jefferson-library-board
+    name: Jefferson County Library District
+    type: schedule
+    county: Jefferson
+    area: countywide
+    category: library
+    homepage: https://jcld.specialdistrict.org/
+    meetings:
+      - {title: Library District Board meeting, when: 2nd Tuesday, time: "16:30", location: "241 SE 7th St., Madras", url: "https://jcld.specialdistrict.org/"}
