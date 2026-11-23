@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Columbia County
 BEGIN:VEVENT
 UID:43cd5cfd5b82@civicsor
-DTSTAMP:20261123T052452Z
+DTSTAMP:20261123T055631Z
 DTSTART:20261215T030000Z
 DTEND:20261215T050000Z
 SUMMARY:City Council meeting **Please note date**(Verify meetings\, get vir
@@ -15,7 +15,7 @@ URL:https://www.scappoose.gov/Calendar.aspx?EID=387
 END:VEVENT
 BEGIN:VEVENT
 UID:e6802a3214b7@civicsor
-DTSTAMP:20261123T052452Z
+DTSTAMP:20261123T055631Z
 DTSTART:20270105T030000Z
 DTEND:20270105T050000Z
 SUMMARY:City Council meeting (Verify meetings\, get virtual meeting details
@@ -26,7 +26,7 @@ URL:https://www.scappoose.gov/Calendar.aspx?EID=389
 END:VEVENT
 BEGIN:VEVENT
 UID:f3a8ad58af5c@civicsor
-DTSTAMP:20261123T052452Z
+DTSTAMP:20261123T055631Z
 DTSTART:20270120T030000Z
 DTEND:20270120T050000Z
 SUMMARY:City Council meeting (Verify meetings\, get virtual meeting details

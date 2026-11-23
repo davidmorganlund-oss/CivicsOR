@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T21:24:52-08:00</updated>
+  <updated>2026-11-22T21:56:31-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:20bf0865d4e0:new</id>
@@ -336,6 +336,13 @@
     <summary>City of Ashland · 2027-01-13 18:00 (PT) · 1175 E Main Street, Ashland</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:92cbe46f73fd:new</id>
+    <title>New meeting: Planning Commission Meeting (2027-01-13 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/3315"/>
+    <summary>City of Jacksonville · 2027-01-13 18:00 (PT) · City Hall - Assembly Room</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:956226aec6fd:new</id>
     <title>New meeting: Planning Commission (2027-01-13 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -348,13 +355,6 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://keizeror.portal.civicclerk.com/event/3580/overview"/>
     <summary>City of Keizer · 2027-01-13 18:00 (PT) · 930 Chemawa Rd NE, Keizer</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:92cbe46f73fd:new</id>
-    <title>New meeting: Planning Commission Meeting (2027-01-13 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/3315"/>
-    <summary>City of Jacksonville · 2027-01-13 18:00 (PT) · City Hall - Assembly Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:1afd36ea578a:new</id>
@@ -413,6 +413,13 @@
     <summary>City of Millersburg · 2027-01-12 18:00 (PT) · City Hall, 4222 NE Old Salem Road</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:8a4686588666:new</id>
+    <title>New meeting: City Commission Meeting 2027.01.12 (2027-01-12 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://warrentonor.portal.civicclerk.com/event/4197/overview"/>
+    <summary>City of Warrenton · 2027-01-12 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:97b52eb0d32f:new</id>
     <title>New meeting: Diversity, Equity and Inclusion (DEI) Committee (2027-01-12 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -425,13 +432,6 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/936"/>
     <summary>City of Central Point · 2027-01-12 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8a4686588666:new</id>
-    <title>New meeting: City Commission Meeting 2027.01.12 (2027-01-12 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://warrentonor.portal.civicclerk.com/event/4197/overview"/>
-    <summary>City of Warrenton · 2027-01-12 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:56cf7cdeac4e:new</id>
@@ -714,18 +714,18 @@
     <summary>City of Boardman · 2027-01-05 18:00 (PT)</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:c4698fed9f25:new</id>
-    <title>New meeting: Planning Commission (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/893"/>
-    <summary>City of Central Point · 2027-01-05 18:00 (PT)</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:a7d227cafe7a:new</id>
     <title>New meeting: City Council Meeting (2027-01-05 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/1732"/>
     <summary>City of Jacksonville · 2027-01-05 18:00 (PT) · City Hall - Assembly Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c4698fed9f25:new</id>
+    <title>New meeting: Planning Commission (2027-01-05 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/893"/>
+    <summary>City of Central Point · 2027-01-05 18:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:38215c93150d:new</id>
@@ -1064,13 +1064,6 @@
     <summary>City of Sweet Home · 2026-12-22 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:9ab414a754e2:new</id>
-    <title>New meeting: City Council Meeting (2026-12-22 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofprineville.com/Calendar.aspx?EID=382"/>
-    <summary>City of Prineville · 2026-12-22 18:00 (PT)</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:0f83cd003501:new</id>
     <title>New meeting: City Commission Meeting (2026-12-22 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -1083,6 +1076,13 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://warrentonor.portal.civicclerk.com/event/31/overview"/>
     <summary>City of Warrenton · 2026-12-22 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9ab414a754e2:new</id>
+    <title>New meeting: City Council Meeting (2026-12-22 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.cityofprineville.com/Calendar.aspx?EID=382"/>
+    <summary>City of Prineville · 2026-12-22 18:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:ecf69a3a79e5:new</id>
@@ -1281,18 +1281,18 @@
     <summary>City of Veneta · 2026-12-16 15:30 (PT)</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:fc0e4711b7e9:new</id>
-    <title>New meeting: Public Advisory Committee - Protecting Our Natural Heritage (2026-12-16 13:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://crookcoor.portal.civicclerk.com/event/5560/overview"/>
-    <summary>Crook County · 2026-12-16 13:00 (PT) · 320 NE Court Street, Prineville</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:6fb63d04dbf5:new</id>
     <title>New meeting: City Council Meeting (2026-12-16 13:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://yachatsor.portal.civicclerk.com/event/1022/overview"/>
     <summary>City of Yachats · 2026-12-16 13:00 (PT) · 441 Hwy 101 N., Civic Meeting Room 1, Yachats</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:fc0e4711b7e9:new</id>
+    <title>New meeting: Public Advisory Committee - Protecting Our Natural Heritage (2026-12-16 13:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://crookcoor.portal.civicclerk.com/event/5560/overview"/>
+    <summary>Crook County · 2026-12-16 13:00 (PT) · 320 NE Court Street, Prineville</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:950974cf95b6:new</id>
