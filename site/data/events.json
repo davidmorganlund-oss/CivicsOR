@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:03:02-08:00",
+ "generated": "2026-11-22T22:11:10-08:00",
  "events": [
   {
    "id": "814044eb4eb7",
@@ -7137,25 +7137,6 @@
    "agenda_url": "",
    "note": "",
    "cancelled": true
-  },
-  {
-   "id": "ee0bf058f59f",
-   "title": "Library District Board meeting",
-   "host": "Umatilla County Special Library District",
-   "source": "umatilla-library-district-board",
-   "area": "countywide",
-   "county": "Umatilla",
-   "tz": "PT",
-   "category": "library",
-   "start": "2026-12-24T17:30:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "425 S. Main St., Pendleton (and Zoom)",
-   "url": "https://ucsld.org/",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false,
-   "regular": true
   },
   {
    "id": "5e1fec421252",

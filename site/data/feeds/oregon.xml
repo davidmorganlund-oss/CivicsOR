@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T22:03:02-08:00</updated>
+  <updated>2026-11-22T22:11:10-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:20bf0865d4e0:new</id>
@@ -77,6 +77,13 @@
     <summary>City of Madras · 2027-01-20 18:30 (PT) · City Hall, 125 SW E Street</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:419939898c71:new</id>
+    <title>New meeting: Citizenship Class (2027-01-20 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://cornelius-or.libcal.com/event/18052787"/>
+    <summary>Cornelius Public Library · 2027-01-20 18:00 (PT) · Walters Community Room</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:7dd56c103286:new</id>
     <title>New meeting: City Council Meeting (2027-01-20 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -89,13 +96,6 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5602"/>
     <summary>City of Grants Pass · 2027-01-20 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:419939898c71:new</id>
-    <title>New meeting: Citizenship Class (2027-01-20 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://cornelius-or.libcal.com/event/18052787"/>
-    <summary>Cornelius Public Library · 2027-01-20 18:00 (PT) · Walters Community Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:ce730f4b2f81:new</id>
@@ -147,18 +147,18 @@
     <summary>City of Klamath Falls · 2027-01-19 19:00 (PT) · 500 Klamath Ave.</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:f3a8ad58af5c:new</id>
-    <title>New meeting: City Council meeting (Verify meetings, get virtual meeting details, and more meeting information can be found on our website at www.scappoose.gov.) (2027-01-19 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.scappoose.gov/Calendar.aspx?EID=390"/>
-    <summary>City of Scappoose · 2027-01-19 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:92b631cae5fa:new</id>
     <title>New meeting: Library Board Meeting (2027-01-19 19:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://cedarmillbethany.libcal.com/event/17486150"/>
     <summary>Cedar Mill &amp; Bethany Community Libraries · 2027-01-19 19:00 (PT) · Cedar Mill Library, Elm &amp; Oak Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:f3a8ad58af5c:new</id>
+    <title>New meeting: City Council meeting (Verify meetings, get virtual meeting details, and more meeting information can be found on our website at www.scappoose.gov.) (2027-01-19 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.scappoose.gov/Calendar.aspx?EID=390"/>
+    <summary>City of Scappoose · 2027-01-19 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6f943c01eab7:new</id>
@@ -336,6 +336,13 @@
     <summary>City of Grants Pass · 2027-01-13 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:59417d3e892b:new</id>
+    <title>New meeting: Citizenship Class (2027-01-13 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://cornelius-or.libcal.com/event/18052786"/>
+    <summary>Cornelius Public Library · 2027-01-13 18:00 (PT) · Walters Community Room</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:5aa689dc9bdd:new</id>
     <title>New meeting: City Council Meeting (2027-01-13 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -369,13 +376,6 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://keizeror.portal.civicclerk.com/event/3580/overview"/>
     <summary>City of Keizer · 2027-01-13 18:00 (PT) · 930 Chemawa Rd NE, Keizer</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:59417d3e892b:new</id>
-    <title>New meeting: Citizenship Class (2027-01-13 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://cornelius-or.libcal.com/event/18052786"/>
-    <summary>Cornelius Public Library · 2027-01-13 18:00 (PT) · Walters Community Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:1afd36ea578a:new</id>
