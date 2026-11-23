@@ -225,3 +225,229 @@ sources:
   - {id: klamath-falls, name: City of Klamath Falls, type: civicplus, site: 'https://www.klamathfalls.city', categories: [23], county: Klamath, area: Klamath Falls, drop_uncategorized: true, homepage: 'https://www.klamathfalls.city/Calendar.aspx'}
   - {id: seaside, name: City of Seaside, type: civicplus, site: 'https://www.cityofseaside.us', categories: [25, 23, 24], county: Clatsop, area: Seaside, drop_uncategorized: true, homepage: 'https://www.cityofseaside.us/Calendar.aspx'}
   - {id: lane-transit-district, name: Lane Transit District, type: ics, county: Lane, area: countywide, url: 'https://www.ltd.org/events/?ical=1', include: council|commission|board|committee|hearing|meeting|session|workshop, homepage: 'https://www.ltd.org/events/', default_category: council}
+
+  # ---------- Large cities: published regular schedules ----------
+  # These councils don't publish a calendar feed we can read, so the site lists
+  # their regular schedule (as published on the city's site, November 2026)
+  # and marks it "Usually meets". Agendas are on each city's page.
+  - id: eugene
+    name: City of Eugene
+    type: schedule
+    county: Lane
+    area: Eugene
+    homepage: https://www.eugene-or.gov/
+    meetings:
+      - {title: City Council meeting, when: "2nd, 4th Monday", time: "19:30", location: "Eugene City Hall, 500 E. 4th Ave. (and online)", category: council, url: "https://www.eugene-or.gov/"}
+      - {title: City Council work session, when: "2nd, 4th Monday", time: "17:30", location: "Eugene City Hall, 500 E. 4th Ave. (and online)", category: council, url: "https://www.eugene-or.gov/"}
+      - {title: City Council work session (online), when: "2nd, 3rd, 4th, 5th Wednesday", time: "12:00", location: Online, category: council, url: "https://www.eugene-or.gov/"}
+  - id: gresham
+    name: City of Gresham
+    type: schedule
+    county: Multnomah
+    area: Gresham
+    homepage: https://www.greshamoregon.gov/council-meetings
+    meetings:
+      - {title: City Council business meeting, when: "1st, 3rd Tuesday", time: "18:00", location: "Gresham City Hall, Council Chambers, 1333 NW Eastman Pkwy. (and online)", category: council, url: "https://www.greshamoregon.gov/council-meetings"}
+      - {title: City Council work session, when: "1st, 3rd Tuesday", time: "16:00", location: "Gresham City Hall, Council Chambers, 1333 NW Eastman Pkwy.", category: council, url: "https://www.greshamoregon.gov/council-meetings"}
+  - id: bend
+    name: City of Bend
+    type: schedule
+    county: Deschutes
+    area: Bend
+    homepage: https://www.bendoregon.gov/government/city-council/city-council-meeting-agendas-video
+    meetings:
+      - {title: City Council business meeting, when: "1st, 3rd Wednesday", time: "18:00", location: "Bend City Hall, Council Chambers, 710 NW Wall St. (and online)", category: council, url: "https://www.bendoregon.gov/government/city-council/city-council-meeting-agendas-video"}
+      - {title: City Council work session, when: "2nd, 4th Wednesday", time: "16:00", location: "Bend City Hall, Council Chambers, 710 NW Wall St.", category: council, url: "https://www.bendoregon.gov/government/city-council/city-council-meeting-agendas-video"}
+  - id: medford
+    name: City of Medford
+    type: schedule
+    county: Jackson
+    area: Medford
+    homepage: https://www.medfordoregon.gov/Government/Mayor-City-Council
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Wednesday", time: "18:00", location: "Medford City Hall, Council Chambers, 411 W. 8th St.", category: council, url: "https://www.medfordoregon.gov/Government/Mayor-City-Council"}
+      - {title: City Council study session, when: 2nd Wednesday, time: "18:00", location: Medford City Hall, category: council, url: "https://www.medfordoregon.gov/Government/Mayor-City-Council"}
+  - id: corvallis
+    name: City of Corvallis
+    type: schedule
+    county: Benton
+    area: Corvallis
+    homepage: https://www.corvallisoregon.gov/meetings
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Monday", time: "18:00", location: "Downtown Fire Station, 400 NW Harrison Blvd. (and online)", category: council, url: "https://www.corvallisoregon.gov/meetings", note: "When the Monday is a holiday, the council meets Tuesday."}
+  - id: springfield
+    name: City of Springfield
+    type: schedule
+    county: Lane
+    area: Springfield
+    homepage: https://www.springfield-or.gov/city/city-council-meetings/
+    meetings:
+      - {title: City Council regular session, when: "1st, 3rd Monday", time: "19:00", location: "Springfield City Hall, Council Chambers, 225 Fifth St.", category: council, url: "https://www.springfield-or.gov/city/city-council-meetings/"}
+      - {title: City Council work session, when: "2nd, 4th Monday", time: "17:30", location: "Springfield City Hall, 225 Fifth St.", category: council, url: "https://www.springfield-or.gov/city/city-council-meetings/"}
+  - id: albany
+    name: City of Albany
+    type: schedule
+    county: Linn
+    area: Albany
+    homepage: https://www.albanyoregon.gov/council
+    meetings:
+      - {title: City Council meeting, when: "2nd, 4th Wednesday", time: "18:00", location: "Albany City Hall, Council Chambers, 333 Broadalbin St. SW", category: council, url: "https://www.albanyoregon.gov/council"}
+      - {title: City Council work session, when: "2nd, 4th Monday", time: "16:00", location: "Albany City Hall, Council Chambers, 333 Broadalbin St. SW", category: council, url: "https://www.albanyoregon.gov/council"}
+  - id: tigard
+    name: City of Tigard
+    type: schedule
+    county: Washington
+    area: Tigard
+    homepage: https://www.tigard-or.gov/your-government/council/council-meetings
+    meetings:
+      - {title: City Council meeting, when: "1st, 2nd, 3rd, 4th Tuesday", time: "18:30", location: "Tigard City Hall, 13125 SW Hall Blvd. (and online)", category: council, url: "https://www.tigard-or.gov/your-government/council/council-meetings", note: "Business meetings and workshops alternate; the agenda says which."}
+  - id: lake-oswego
+    name: City of Lake Oswego
+    type: schedule
+    county: Clackamas
+    area: Lake Oswego
+    homepage: https://www.ci.oswego.or.us/
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Tuesday", category: council, url: "https://www.ci.oswego.or.us/", note: "The time and place are on each meeting's notice."}
+  - id: redmond
+    name: City of Redmond
+    type: schedule
+    county: Deschutes
+    area: Redmond
+    homepage: https://www.redmondoregon.gov/
+    meetings:
+      - {title: City Council meeting, when: "2nd, 4th Tuesday", time: "18:00", location: "Redmond City Hall, Council Chambers, 411 SW 9th St.", category: council, url: "https://www.redmondoregon.gov/"}
+  - id: mcminnville
+    name: City of McMinnville
+    type: schedule
+    county: Yamhill
+    area: McMinnville
+    homepage: https://www.mcminnvilleoregon.gov/citycouncil
+    meetings:
+      - {title: City Council regular meeting, when: "2nd, 4th Tuesday", time: "19:00", location: "Kent Taylor Civic Hall, 200 NE 2nd St.", category: council, url: "https://www.mcminnvilleoregon.gov/citycouncil"}
+      - {title: City Council work session, when: "2nd, 4th Tuesday", time: "18:00", location: "Kent Taylor Civic Hall, 200 NE 2nd St.", category: council, url: "https://www.mcminnvilleoregon.gov/citycouncil"}
+      - {title: City Council work session, when: 3rd Wednesday, time: "18:00", location: "Kent Taylor Civic Hall, 200 NE 2nd St.", category: council, url: "https://www.mcminnvilleoregon.gov/citycouncil"}
+  - id: happy-valley
+    name: City of Happy Valley
+    type: schedule
+    county: Clackamas
+    area: Happy Valley
+    homepage: https://www.happyvalleyor.gov/city-hall/city-council/
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Tuesday", time: "19:00", location: "Happy Valley City Hall, 16000 SE Misty Dr.", category: council, url: "https://www.happyvalleyor.gov/city-hall/city-council/"}
+      - {title: City Council work session, when: "1st, 3rd Tuesday", time: "18:00", location: "Happy Valley City Hall, 16000 SE Misty Dr.", category: council, url: "https://www.happyvalleyor.gov/city-hall/city-council/"}
+  - id: tualatin
+    name: City of Tualatin
+    type: schedule
+    county: Washington
+    area: Tualatin
+    homepage: https://www.tualatinoregon.gov/citycouncil/council-meetings
+    meetings:
+      - {title: City Council meeting, when: "2nd, 4th Monday", time: "19:00", location: "Tualatin City Services Building, 10699 SW Herman Rd.", category: council, url: "https://www.tualatinoregon.gov/citycouncil/council-meetings"}
+      - {title: City Council work session, when: "2nd, 4th Monday", time: "17:00", location: "Tualatin City Services Building, 10699 SW Herman Rd.", category: council, url: "https://www.tualatinoregon.gov/citycouncil/council-meetings"}
+  - id: forest-grove
+    name: City of Forest Grove
+    type: schedule
+    county: Washington
+    area: Forest Grove
+    homepage: https://forestgrove-or.gov/365
+    meetings:
+      - {title: City Council meeting, when: "2nd, 4th Monday", time: "19:00", location: "Community Auditorium, 1915 Main St.", category: council, url: "https://forestgrove-or.gov/365", note: "When the Monday is a holiday, the council meets Tuesday."}
+  - id: newberg
+    name: City of Newberg
+    type: schedule
+    county: Yamhill
+    area: Newberg
+    homepage: https://www.newbergoregon.gov/government/city_council/city_council_meetings.php
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Monday", category: council, url: "https://www.newbergoregon.gov/government/city_council/city_council_meetings.php", note: "The time and place are on the agenda, posted about a week ahead."}
+  - id: roseburg
+    name: City of Roseburg
+    type: schedule
+    county: Douglas
+    area: Roseburg
+    homepage: https://cityofroseburg.org/your-government/mayor-council
+    meetings:
+      - {title: City Council meeting, when: "2nd, 4th Monday", time: "19:00", location: "Roseburg City Hall, Council Chambers, 900 SE Douglas Ave.", category: council, url: "https://cityofroseburg.org/your-government/mayor-council"}
+  - id: milwaukie
+    name: City of Milwaukie
+    type: schedule
+    county: Clackamas
+    area: Milwaukie
+    homepage: https://www.milwaukieoregon.gov/
+    meetings:
+      - {title: City Council regular session, when: "1st, 3rd Tuesday", time: "18:00", location: "Milwaukie City Hall, Council Chambers (and online)", category: council, url: "https://www.milwaukieoregon.gov/"}
+      - {title: City Council work session, when: "1st, 3rd Tuesday", time: "16:00", location: "Milwaukie City Hall, Council Chambers (and online)", category: council, url: "https://www.milwaukieoregon.gov/"}
+      - {title: City Council study session, when: 2nd Tuesday, time: "17:15", category: council, url: "https://www.milwaukieoregon.gov/"}
+  - id: sherwood
+    name: City of Sherwood
+    type: schedule
+    county: Washington
+    area: Sherwood
+    homepage: https://www.sherwoodoregon.gov/citycouncil
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Tuesday", time: "19:00", location: "Sherwood City Hall, 22560 SW Pine St.", category: council, url: "https://www.sherwoodoregon.gov/citycouncil"}
+  - id: lebanon
+    name: City of Lebanon
+    type: schedule
+    county: Linn
+    area: Lebanon
+    homepage: https://lebanonoregon.gov/citycouncil/page/understanding-city-council-meetings
+    meetings:
+      - {title: City Council meeting, when: 2nd Wednesday, time: "18:00", location: "Santiam Travel Station, 750 S. 3rd St.", category: council, url: "https://lebanonoregon.gov/citycouncil/page/understanding-city-council-meetings"}
+  - id: hermiston
+    name: City of Hermiston
+    type: schedule
+    county: Umatilla
+    area: Hermiston
+    homepage: https://www.hermiston.gov/
+    meetings:
+      - {title: City Council meeting, when: "2nd, 4th Monday", time: "19:00", category: council, url: "https://www.hermiston.gov/", note: "Work sessions, when scheduled, start at 6 p.m."}
+  - id: canby
+    name: City of Canby
+    type: schedule
+    county: Clackamas
+    area: Canby
+    homepage: https://canbyoregon.gov/node/98
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Wednesday", time: "19:00", category: council, url: "https://canbyoregon.gov/node/98"}
+  - id: dallas
+    name: City of Dallas
+    type: schedule
+    county: Polk
+    area: Dallas
+    homepage: https://www.dallasor.gov/
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Monday", time: "19:00", location: "Dallas City Hall, 187 SE Court St.", category: council, url: "https://www.dallasor.gov/"}
+  - id: pendleton
+    name: City of Pendleton
+    type: schedule
+    county: Umatilla
+    area: Pendleton
+    homepage: https://pendletonor.gov/meetings
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Tuesday", time: "19:00", location: "Pendleton City Hall, Council Chambers, 500 SW Dorion Ave.", category: council, url: "https://pendletonor.gov/meetings"}
+  - id: the-dalles
+    name: City of The Dalles
+    type: schedule
+    county: Wasco
+    area: The Dalles
+    homepage: https://www.thedalles.gov/
+    meetings:
+      - {title: City Council meeting, when: "2nd, 4th Monday", time: "17:30", location: "The Dalles City Hall, Council Chamber, 313 Court St.", category: council, url: "https://www.thedalles.gov/", note: "The council usually doesn't meet in August or on holidays."}
+  - id: coos-bay
+    name: City of Coos Bay
+    type: schedule
+    county: Coos
+    area: Coos Bay
+    homepage: https://www.coosbayor.gov/government/city-council
+    meetings:
+      - {title: City Council meeting, when: "1st, 3rd Tuesday", time: "18:00", location: "Coos Bay City Hall, Council Chambers, 500 Central Ave.", category: council, url: "https://www.coosbayor.gov/government/city-council"}
+  - id: la-grande
+    name: City of La Grande
+    type: schedule
+    county: Union
+    area: La Grande
+    homepage: https://www.cityoflagrande.org/
+    meetings:
+      - {title: City Council regular session, when: 1st Wednesday, time: "18:00", location: "La Grande City Hall, 1000 Adams Ave.", category: council, url: "https://www.cityoflagrande.org/"}
