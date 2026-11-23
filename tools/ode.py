@@ -24,10 +24,8 @@ def directory_text():
 if __name__ == "__main__":
     text = directory_text()
     if len(sys.argv) > 2 and sys.argv[2] == "dump":
-        i = text.find("School District")
-        for line in text.splitlines()[:4000]:
-            if re.search(r"SD|School District|www\.|http|County", line):
-                print("DUMP", line.rstrip()[:160])
+        for line in text.splitlines():
+            print("DUMP", line.rstrip())
         sys.exit(0)
     rows, name, ttl = [], None, 0
     head = re.compile(r"^\s*((?:[A-Z][A-Za-z.'/-]*\s)+?(?:SD|Public SD|Unified SD|Schools|School District)(?:\s+[0-9]{1,3}[A-Z0-9]{0,3})?(?:\s*\([A-Za-z .]+\))?)\s*$")
