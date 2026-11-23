@@ -1867,6 +1867,101 @@ def fetch_oregon_legislature(src, start_day, end_day, tz):
     return events
 
 
+# --- Granicus agenda feeds and Apptegy school sites (ported from CivicsWA) ---
+
+GRANICUS_TITLE = re.compile(r"^(?P<name>.*?)\s*[-–]\s*(?P<date>[A-Z][a-z]{2,8}\.? \d{1,2},? \d{4})(?:\s+(?P<clock>\d{1,2}:\d{2}\s*[AaPp]\.?[Mm]\.?))?\s*$")
+
+
+def granicus_parts(item, tz):
+    """Granicus writes pubDate's hour on a 12-hour clock with no AM or PM
+    (a 5:30 p.m. meeting reads 05:30), so prefer <gran:pubDateParts>, whose
+    yr/mo/day/hr/min attributes are the meeting's local 24-hour time."""
+    for child in item:
+        if local(child.tag) == "pubDateParts":
+            a = child.attrib
+            try:
+                return datetime(int(a["yr"]), int(a["mo"]), int(a["day"]),
+                                int(a.get("hr", 0)), int(a.get("min", 0)), tzinfo=tz)
+            except (KeyError, ValueError):
+                return None
+    return None
+
+
+def normalize_granicus(src, xml_text, tz):
+    import html as htmllib
+    from email.utils import parsedate_to_datetime
+    events = []
+    for item in rss_items(xml_text):
+        f = fields(item)
+        title = htmllib.unescape(f.get("title", "")).strip()
+        m = GRANICUS_TITLE.match(title)
+        when = granicus_parts(item, tz)
+        if when is None and f.get("pubDate"):
+            try:
+                when = parsedate_to_datetime(f["pubDate"]).astimezone(tz)
+            except (TypeError, ValueError):
+                when = None
+        if m:
+            day = datetime.strptime(m.group("date").replace(".", "").replace(",", ""), "%b %d %Y" if len(m.group("date").split()[0].rstrip(".")) == 3 else "%B %d %Y").date()
+            clock = parse_clock(m.group("clock")) if m.group("clock") else (when.time() if when and when.date() == day and when.time() != time(0, 0) else None)
+            name = m.group("name")
+        elif when:
+            day, clock, name = when.date(), (when.time() if when.time() != time(0, 0) else None), title
+        else:
+            continue
+        events.append(make_event(
+            src, title=name, start=datetime.combine(day, clock or time(0, 0), tz), all_day=clock is None,
+            url=f.get("link", ""), uid=f.get("guid") or f.get("link") or title,
+        ))
+    return events
+
+
+def fetch_granicus(src, start_day, end_day, tz):
+    xml_text = get(f"https://{src['tenant']}.granicus.com/ViewPublisherRSS.php",
+                   {"view_id": src["view_id"], "mode": "agendas"}).text
+    return [e for e in normalize_granicus(src, xml_text, tz)
+            if start_day <= datetime.fromisoformat(e["start"]).date() <= end_day]
+
+
+# --- Apptegy (Thrillshare) school district sites ---
+# District calendars mix school events with board meetings, so sources keep
+# only the titles their "include" pattern matches.
+
+def normalize_apptegy(src, payload, tz):
+    events = []
+    for r in payload.get("events") or []:
+        try:
+            start = datetime.strptime(r["formatted_start"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=tz)
+            end = datetime.strptime(r["formatted_end"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=tz) if r.get("formatted_end") else None
+        except (KeyError, TypeError, ValueError):
+            continue
+        all_day = bool(r.get("all_day"))
+        events.append(make_event(
+            src, title=r.get("title") or "", start=start, end=None if all_day or end == start else end,
+            all_day=all_day, location=r.get("venue") or r.get("address") or "",
+            url=src.get("homepage", ""), uid=f"apptegy-{r.get('id')}-{r.get('formatted_start')}",
+        ))
+    return events
+
+
+def fetch_apptegy(src, start_day, end_day, tz):
+    events, seen = [], set()
+    for page in range(1, 9):
+        payload = get(f"https://thrillshare-cmsv2.services.thrillshare.com/api/v4/o/{src['org']}/cms/events",
+                      {"locale": "en", "page_no": page}).json()
+        batch = normalize_apptegy(src, payload, tz)
+        if not batch:
+            break
+        for e in batch:
+            day = datetime.fromisoformat(e["start"]).date()
+            if e["id"] not in seen and start_day <= day <= end_day:
+                seen.add(e["id"])
+                events.append(e)
+        if datetime.fromisoformat(batch[-1]["start"]).date() > end_day:
+            break
+    return events
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus, "tyler_mm": fetch_tyler_mm, "daily_agendas": fetch_daily_agendas,
@@ -1878,7 +1973,8 @@ CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics":
               "drupal_meetings": fetch_drupal_meetings, "pdf_agendas": fetch_pdf_agendas,
               "next_meeting": fetch_next_meeting, "ada_agendas": fetch_ada_agendas,
               "escribe": fetch_escribe, "simbli": fetch_simbli,
-              "notice_page": fetch_notice_page, "oregon_legislature": fetch_oregon_legislature}
+              "notice_page": fetch_notice_page, "oregon_legislature": fetch_oregon_legislature,
+              "granicus": fetch_granicus, "apptegy": fetch_apptegy}
 
 
 # ---------- outputs ----------

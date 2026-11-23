@@ -1,0 +1,35 @@
+name: Trial sources
+# Tries candidate calendars before they go on the site. Run it from the Actions
+# tab, or push a change to tools/candidates.yml.
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: YAML with a sources list (a file in tools/)
+        default: tools/candidates.yml
+  push:
+    branches: [main]
+    paths: [tools/candidates.yml]
+permissions:
+  contents: read
+
+jobs:
+  trial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      # The typed-in file name reaches the shell only as a variable, and only
+      # a plain file name in tools/ is accepted.
+      - name: Trial
+        env:
+          FILE: ${{ inputs.file || 'tools/candidates.yml' }}
+        run: |
+          if ! [[ "$FILE" =~ ^tools/[A-Za-z0-9_-][A-Za-z0-9._-]*\.ya?ml$ ]]; then
+            echo "::error::file must be a .yml file in tools/, like tools/candidates.yml"
+            exit 1
+          fi
+          python tools/trial.py "$FILE" 6

@@ -1,0 +1,42 @@
+name: Find calendars
+# Finds city websites and reports the meeting software each public body uses.
+# Run it from the Actions tab, or push a change to tools/discover.tsv.
+on:
+  workflow_dispatch:
+    inputs:
+      list:
+        description: TSV of name, county, homepage (a file in tools/), or "all" for every city and county
+        default: all
+  push:
+    branches: [main]
+    paths: [tools/discover.tsv]
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      # The typed-in list name reaches the shell only as a variable, and only
+      # a plain file name in tools/ (or "all") is accepted.
+      - name: Probe
+        env:
+          LIST: ${{ inputs.list || 'tools/discover.tsv' }}
+        run: |
+          if [ "$LIST" = "all" ]; then
+            python tools/find_homes.py tools/or-cities.tsv cities.tsv
+            python -c "import json;d=json.load(open('site/data/local.json'));[print(f'{k} County\t{k}\t{v[\"site\"]}') for k,v in d['counties'].items()]" > counties.tsv
+            cat cities.tsv counties.tsv > all.tsv
+            sed 's/^/CITYROW /' cities.tsv
+            LIST=all.tsv
+          elif ! [[ "$LIST" =~ ^tools/[A-Za-z0-9_-][A-Za-z0-9._-]*\.tsv$ ]]; then
+            echo "::error::list must be \"all\" or a .tsv file in tools/, like tools/discover.tsv"
+            exit 1
+          fi
+          python tools/probe.py "$LIST" probe.json
+          python -c "import json;[print('PROBE', json.dumps(r)) for r in json.load(open('probe.json'))]"

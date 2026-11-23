@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths-ignore: ["site/data/**", "README.md"]
+    paths-ignore: ["site/data/**", "README.md", "OPERATIONS.md", "tools/**", ".github/workflows/discover.yml", ".github/workflows/trial.yml"]
 
 # Each job gets only what it needs (below); nothing by default.
 permissions: {}
