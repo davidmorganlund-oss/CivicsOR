@@ -189,7 +189,8 @@ def test_oregon_legislature():
     items = [{"CommitteCode": "HED", "MeetingDate": "2026-12-01T08:30:00", "PrintOrder": 2, "MeasurePrefix": "HB ",
               "MeasureNumber": 2001, "MeetingType": "Public Hearing", "Comments": None},
              {"CommitteCode": "HED", "MeetingDate": "2026-12-01T08:30:00", "PrintOrder": 1,
-              "Comments": "<p>LPRO Attendance Report.</p>", "MeetingType": "Informational Meeting"}]
+              "Comments": "<p>LPRO Attendance Report.</p>", "MeetingType": "Informational Meeting"},
+             {"CommitteCode": "HED", "MeetingDate": "2026-12-01T08:30:00", "PrintOrder": 0, "Comments": "Invited Speakers Only"}]
     tz = ZoneInfo("America/Los_Angeles")
     a, b = build.normalize_oregon_legislature(src, meetings, committees, items, tz)
     assert a["title"] == "House Interim Committee on Education" and a["tz"] == "PT"

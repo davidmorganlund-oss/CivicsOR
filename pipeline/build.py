@@ -1801,6 +1801,12 @@ def committee_title(c, code):
     return " ".join(p for p in [kind, name] if p).replace(" On ", " on ") or code
 
 
+# Notes the Legislature prints on most agendas; they aren't what's being decided.
+OLIS_BOILERPLATE = re.compile(r"^(invited speakers? only|public testimony( will be)? (accepted|taken)|"
+                              r"for information about language access|meeting materials|subject to change|"
+                              r"times? (are|is) approximate)", re.I)
+
+
 def olis_item(i):
     """One agenda line: 'HB 2001: Public Hearing' or the item's own words."""
     import html as htmllib
@@ -1811,7 +1817,7 @@ def olis_item(i):
         return f"{bill}: {kind}" + (f" ({note[:120]})" if note and len(note) < 120 else "")
     if i.get("ExecutiveAppointee"):
         return f"Appointment: {i['ExecutiveAppointee']}" + (f", {i['BoardName']}" if i.get("BoardName") else "")
-    return note
+    return "" if OLIS_BOILERPLATE.search(note) else note
 
 
 def normalize_oregon_legislature(src, meetings, committees, items, tz):
