@@ -57,6 +57,11 @@
         if (city && city.site) item(ul, city.site, 'City of ' + place.city, 'Official website: mayor and council, departments and service requests.');
         if (county && county.site) item(ul, county.site, place.county + ' County', 'Official website: commissioners, clerk, departments and services.');
       }
+      if (kind === 'schools') {
+        var list = (county && county.schools) || [];
+        list.forEach(function (s) { item(ul, s.site, s.name, 'District website: school board meetings, agendas and elections.'); });
+        if (!list.length) item(ul, 'https://www.oregon.gov/ode/about-us/Pages/School-Directory.aspx', 'Oregon School Directory', 'Every district in Oregon, with contact information.');
+      }
       if (kind === 'meetings') {
         if (place.county) item(ul, base() + 'index.html', 'Public meetings in ' + place.county + ' County', 'The CivicsOR calendar, set to your county.');
         if (city && (city.meetings || city.site)) item(ul, city.meetings || city.site, 'City of ' + place.city + ' meetings', 'Council agendas are on the city’s website.');

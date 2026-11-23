@@ -1,117 +1,909 @@
 {
- "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page.",
+ "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page. 'cities' now lists every incorporated city with a website we could confirm (November 2026), and each county's 'schools' lists its school districts, from the Oregon Department of Education's school directory.",
  "counties": {
   "Baker": {
-   "site": "https://www.bakercounty.org/"
+   "site": "https://www.bakercounty.org/",
+   "schools": [
+    {
+     "name": "Baker SD 5J",
+     "site": "https://bakersd.org/"
+    },
+    {
+     "name": "Burnt River SD 30J",
+     "site": "https://burntriversd.org/"
+    },
+    {
+     "name": "Huntington SD 16J",
+     "site": "https://www.huntington.k12.or.us"
+    },
+    {
+     "name": "Pine Eagle SD 61",
+     "site": "https://www.pineeagle.org/"
+    }
+   ]
   },
   "Benton": {
-   "site": "https://www.co.benton.or.us/"
+   "site": "https://www.co.benton.or.us/",
+   "schools": [
+    {
+     "name": "Corvallis SD 509J",
+     "site": "https://www.csd509j.net"
+    },
+    {
+     "name": "Monroe SD 1J",
+     "site": "https://www.monroe.k12.or.us"
+    },
+    {
+     "name": "Philomath SD 17J",
+     "site": "https://www.philomathsd.net"
+    }
+   ]
   },
   "Clackamas": {
    "site": "https://www.clackamas.us/",
-   "meetings": "https://www.clackamas.us/meetings/bcc/business"
+   "meetings": "https://www.clackamas.us/meetings/bcc/business",
+   "schools": [
+    {
+     "name": "Canby SD 86",
+     "site": "https://www.canby.k12.or.us"
+    },
+    {
+     "name": "Colton SD 53",
+     "site": "https://www.colton.k12.or.us"
+    },
+    {
+     "name": "Estacada SD 108",
+     "site": "https://www.estacadaschools.org/"
+    },
+    {
+     "name": "Gladstone SD 115",
+     "site": "http://gladstone.k12.or.us/"
+    },
+    {
+     "name": "Lake Oswego SD 7J",
+     "site": "https://losdschools.org"
+    },
+    {
+     "name": "Molalla River SD 35",
+     "site": "https://www.molallariv.k12.or.us/"
+    },
+    {
+     "name": "North Clackamas SD 12",
+     "site": "https://www.nclack.k12.or.us"
+    },
+    {
+     "name": "Oregon City SD 62",
+     "site": "https://www.ocsd62.org"
+    },
+    {
+     "name": "Oregon Trail SD 46",
+     "site": "https://www.oregontrailschools.com"
+    },
+    {
+     "name": "West Linn-Wilsonville SD",
+     "site": "https://www.wlwv.k12.or.us"
+    }
+   ]
   },
   "Clatsop": {
-   "site": "https://www.clatsopcounty.gov/"
+   "site": "https://www.clatsopcounty.gov/",
+   "schools": [
+    {
+     "name": "Astoria SD 1",
+     "site": "https://www.astoria.k12.or.us"
+    },
+    {
+     "name": "Knappa SD 4",
+     "site": "https://www.knappa.k12.or.us"
+    },
+    {
+     "name": "Public Schools",
+     "site": "https://www.jewell.k12.or.us"
+    },
+    {
+     "name": "Seaside SD 10",
+     "site": "https://www.seasidek12.org/"
+    },
+    {
+     "name": "Warrenton-Hammond SD",
+     "site": "https://www.warrentonschools.com"
+    }
+   ]
   },
   "Columbia": {
-   "site": "https://www.columbiacountyor.gov/"
+   "site": "https://www.columbiacountyor.gov/",
+   "schools": [
+    {
+     "name": "Clatskanie SD 6J",
+     "site": "https://www.csd.k12.or.us"
+    },
+    {
+     "name": "Rainier SD 13",
+     "site": "https://www.rainier.k12.or.us"
+    },
+    {
+     "name": "Scappoose SD 1J",
+     "site": "https://www.scappoosek12.org"
+    },
+    {
+     "name": "St Helens SD 502",
+     "site": "https://www.sthelens.k12.or.us"
+    },
+    {
+     "name": "Vernonia SD 47J",
+     "site": "https://www.vernonia.k12.or.us"
+    }
+   ]
   },
   "Coos": {
-   "site": "https://www.co.coos.or.us/"
+   "site": "https://www.co.coos.or.us/",
+   "schools": [
+    {
+     "name": "Bandon SD 54",
+     "site": "https://www.bandon.k12.or.us/"
+    },
+    {
+     "name": "Coos Bay SD 9",
+     "site": "https://www.cbd9.net"
+    },
+    {
+     "name": "Coquille SD 8",
+     "site": "https://www.coquille.k12.or.us"
+    },
+    {
+     "name": "Myrtle Point SD 41",
+     "site": "https://www.mpsd.k12.or.us"
+    },
+    {
+     "name": "North Bend SD 13",
+     "site": "https://www.nbend.k12.or.us"
+    },
+    {
+     "name": "Powers SD 31",
+     "site": "https://www.powersschools.com"
+    }
+   ]
   },
   "Crook": {
-   "site": "https://co.crook.or.us/"
+   "site": "https://co.crook.or.us/",
+   "schools": [
+    {
+     "name": "Crook County SD",
+     "site": "https://www.crookcountyschools.org/"
+    }
+   ]
   },
   "Curry": {
-   "site": "https://www.co.curry.or.us/"
+   "site": "https://www.co.curry.or.us/",
+   "schools": [
+    {
+     "name": "Brookings-Harbor SD 17C",
+     "site": "https://www.brookings.k12.or.us"
+    },
+    {
+     "name": "Central Curry SD 1",
+     "site": "https://www.ccsd.k12.or.us"
+    },
+    {
+     "name": "Port Orford-Langlois SD",
+     "site": "https://www.2cj.com"
+    }
+   ]
   },
   "Deschutes": {
-   "site": "https://www.deschutes.org/"
+   "site": "https://www.deschutes.org/",
+   "schools": [
+    {
+     "name": "Bend-LaPine Admin SD 1",
+     "site": "https://www.bend.k12.or.us"
+    },
+    {
+     "name": "Redmond SD 2J",
+     "site": "https://www.redmondschools.org"
+    },
+    {
+     "name": "Sisters SD 6",
+     "site": "http://ssd6.org"
+    }
+   ]
   },
   "Douglas": {
-   "site": "https://douglascountyor.gov/"
+   "site": "https://douglascountyor.gov/",
+   "schools": [
+    {
+     "name": "Camas Valley SD 21J",
+     "site": "https://www.camasvalley.k12.or.us"
+    },
+    {
+     "name": "Douglas County SD 4",
+     "site": "https://www.roseburg.k12.or.us"
+    },
+    {
+     "name": "Elkton SD 34",
+     "site": "https://www.northdouglas.k12.or.us"
+    },
+    {
+     "name": "Glendale SD 77",
+     "site": "https://www.glendale.k12.or.us/"
+    },
+    {
+     "name": "Glide SD 12",
+     "site": "https://www.glide.k12.or.us"
+    },
+    {
+     "name": "North Douglas SD 22",
+     "site": "https://www.northdouglas.k12.or.us/"
+    },
+    {
+     "name": "Oakland SD 1",
+     "site": "https://www.oakland.k12.or.us/"
+    },
+    {
+     "name": "Reedsport SD 105",
+     "site": "https://www.reedsport.k12.or.us"
+    },
+    {
+     "name": "Riddle SD 70",
+     "site": "https://www.riddleschooldistrict.com"
+    },
+    {
+     "name": "South Umpqua SD 19",
+     "site": "https://www.susd.k12.or.us/"
+    },
+    {
+     "name": "Sutherlin SD 130",
+     "site": "https://www.sutherlin.k12.or.us"
+    },
+    {
+     "name": "Winston-Dillard SD 116",
+     "site": "https://www.wdsd.org"
+    },
+    {
+     "name": "Yoncalla SD 32",
+     "site": "https://www.yoncalla.k12.or.us"
+    }
+   ]
   },
   "Gilliam": {
-   "site": "https://www.co.gilliam.or.us/"
+   "site": "https://www.co.gilliam.or.us/",
+   "schools": [
+    {
+     "name": "Arlington SD 3",
+     "site": "https://www.honkernet.net"
+    },
+    {
+     "name": "Condon SD 25J",
+     "site": "https://www.condon.k12.or.us/"
+    }
+   ]
   },
   "Grant": {
-   "site": "https://gcoregonlive.com/"
+   "site": "https://gcoregonlive.com/",
+   "schools": [
+    {
+     "name": "Dayville SD 16J",
+     "site": "https://www.dayvilleschools.com"
+    },
+    {
+     "name": "John Day SD 3",
+     "site": "https://grantsd3.schoolinsites.com"
+    },
+    {
+     "name": "Monument SD 8",
+     "site": "http://www.monumentschool.com/"
+    },
+    {
+     "name": "Prairie City SD 4",
+     "site": "https://www.prairiecitysd.org/"
+    }
+   ]
   },
   "Harney": {
-   "site": "https://www.harneycountyor.gov/"
+   "site": "https://www.harneycountyor.gov/",
+   "schools": [
+    {
+     "name": "Harney County SD 3",
+     "site": "https://www.hcsd3.org/"
+    }
+   ]
   },
   "Hood River": {
-   "site": "https://www.hoodrivercounty.gov/"
+   "site": "https://www.hoodrivercounty.gov/",
+   "schools": [
+    {
+     "name": "Hood River County SD",
+     "site": "https://www.hoodriver.k12.or.us/"
+    }
+   ]
   },
   "Jackson": {
-   "site": "https://www.jacksoncountyor.gov/"
+   "site": "https://www.jacksoncountyor.gov/",
+   "schools": [
+    {
+     "name": "Ashland SD 5",
+     "site": "https://www.ashland.k12.or.us/"
+    },
+    {
+     "name": "Butte Falls SD 91",
+     "site": "https://www.buttefalls.k12.or.us/"
+    },
+    {
+     "name": "Central Point SD 6",
+     "site": "https://district6.org"
+    },
+    {
+     "name": "Eagle Point SD 9",
+     "site": "https://www.eaglepnt.k12.or.us"
+    },
+    {
+     "name": "Medford SD 549C",
+     "site": "https://www.medford.k12.or.us/"
+    },
+    {
+     "name": "Phoenix-Talent SD 4",
+     "site": "https://www.phoenix.k12.or.us"
+    },
+    {
+     "name": "Pinehurst SD 94",
+     "site": "https://www.pinehurst.k12.or.us/"
+    },
+    {
+     "name": "Prospect SD 59",
+     "site": "https://www.prospect.k12.or.us"
+    },
+    {
+     "name": "Rogue River SD 35",
+     "site": "https://www.rogueriver.k12.or.us/"
+    }
+   ]
   },
   "Jefferson": {
-   "site": "https://www.jeffco.net/"
+   "site": "https://www.jeffco.net/",
+   "schools": [
+    {
+     "name": "Ashwood SD 8",
+     "site": "https://www.ashwood.k12.or.us"
+    },
+    {
+     "name": "Black Butte SD 41",
+     "site": "https://www.blackbutte.k12.or.us/"
+    },
+    {
+     "name": "Culver SD 4",
+     "site": "https://www.culver.k12.or.us/"
+    },
+    {
+     "name": "Jefferson County SD 509J",
+     "site": "https://jcsd.k12.or.us/"
+    }
+   ]
   },
   "Josephine": {
-   "site": "https://www.co.josephine.or.us/"
+   "site": "https://www.co.josephine.or.us/",
+   "schools": [
+    {
+     "name": "Grants Pass SD 7",
+     "site": "https://www.grantspass.k12.or.us"
+    },
+    {
+     "name": "Three Rivers/Josephine County SD",
+     "site": "https://www.threerivers.k12.or.us/"
+    }
+   ]
   },
   "Klamath": {
-   "site": "https://www.klamathcounty.org/"
+   "site": "https://www.klamathcounty.org/",
+   "schools": [
+    {
+     "name": "Klamath County SD",
+     "site": "https://www.kcsd.k12.or.us"
+    },
+    {
+     "name": "Klamath Falls City Schools",
+     "site": "https://www.kfalls.k12.or.us"
+    }
+   ]
   },
   "Lake": {
-   "site": "https://www.lakecountyor.org/"
+   "site": "https://www.lakecountyor.org/",
+   "schools": [
+    {
+     "name": "Lake County SD 7",
+     "site": "https://www.lakeview.k12.or.us"
+    },
+    {
+     "name": "North Lake SD 14",
+     "site": "https://www.nlake.k12.or.us"
+    },
+    {
+     "name": "Paisley SD 11",
+     "site": "https://www.paisleyschooldistrict.com"
+    },
+    {
+     "name": "Plush SD 18",
+     "site": "https://www.plushschool.com/"
+    }
+   ]
   },
   "Lane": {
-   "site": "https://www.lanecounty.org/"
+   "site": "https://www.lanecounty.org/",
+   "schools": [
+    {
+     "name": "Bethel SD 52",
+     "site": "https://www.bethel.k12.or.us"
+    },
+    {
+     "name": "Blachly SD 90",
+     "site": "https://www.blachly.k12.or.us"
+    },
+    {
+     "name": "Creswell SD 40",
+     "site": "https://creswell.k12.or.us/"
+    },
+    {
+     "name": "Eugene SD 4J",
+     "site": "https://www.4j.lane.edu"
+    },
+    {
+     "name": "Fern Ridge SD 28J",
+     "site": "https://www.fernridge.k12.or.us/"
+    },
+    {
+     "name": "Junction City SD 69",
+     "site": "https://www.junctioncity.k12.or.us/"
+    },
+    {
+     "name": "Lowell SD 71",
+     "site": "https://www.lowell.k12.or.us/"
+    },
+    {
+     "name": "Mapleton SD 32",
+     "site": "https://www.mapleton.k12.or.us"
+    },
+    {
+     "name": "Marcola SD 79J",
+     "site": "https://www.marcola.k12.or.us"
+    },
+    {
+     "name": "McKenzie SD 68",
+     "site": "https://www.mckenziesd.org/"
+    },
+    {
+     "name": "Oakridge SD 76",
+     "site": "https://www.oakridge.k12.or.us"
+    },
+    {
+     "name": "Pleasant Hill SD 1",
+     "site": "https://www.pleasanthill.k12.or.us"
+    },
+    {
+     "name": "Siuslaw SD 97J",
+     "site": "https://www.siuslaw.k12.or.us"
+    },
+    {
+     "name": "South Lane SD 45J3",
+     "site": "https://www.slane.k12.or.us"
+    },
+    {
+     "name": "Springfield SD 19",
+     "site": "https://www.springfield.k12.or.us/"
+    }
+   ]
   },
   "Lincoln": {
-   "site": "https://www.co.lincoln.or.us/"
+   "site": "https://www.co.lincoln.or.us/",
+   "schools": [
+    {
+     "name": "Lincoln County SD",
+     "site": "https://www.lincoln.k12.or.us"
+    },
+    {
+     "name": "Siletz Valley Schools",
+     "site": "https://www.siletzvalleyschools.org/"
+    }
+   ]
   },
   "Linn": {
-   "site": "https://www.linncountyor.gov/"
+   "site": "https://www.linncountyor.gov/",
+   "schools": [
+    {
+     "name": "Central Linn SD 552",
+     "site": "https://www.centrallinn.k12.or.us"
+    },
+    {
+     "name": "Greater Albany Public SD",
+     "site": "https://albany.k12.or.us/"
+    },
+    {
+     "name": "Harrisburg SD 7J",
+     "site": "https://www.harrisburg.k12.or.us/"
+    },
+    {
+     "name": "Lebanon Community SD 9",
+     "site": "https://www.santiam.k12.or.us"
+    },
+    {
+     "name": "Santiam Canyon SD 129J",
+     "site": "https://www.santiam.k12.or.us/"
+    },
+    {
+     "name": "Scio SD 95",
+     "site": "https://www.sciok12.org/"
+    }
+   ]
   },
   "Malheur": {
-   "site": "https://www.malheurco.org/"
+   "site": "https://www.malheurco.org/",
+   "schools": [
+    {
+     "name": "Adrian SD 61",
+     "site": "https://www.adriansd.org"
+    },
+    {
+     "name": "Annex SD 29",
+     "site": "https://www.annexsd.org/"
+    },
+    {
+     "name": "Harper SD 66",
+     "site": "https://www.harpersd.org/"
+    },
+    {
+     "name": "Jordan Valley SD 3",
+     "site": "https://www.jordanvalley.k12.or.us"
+    },
+    {
+     "name": "Nyssa SD 26",
+     "site": "https://www.nyssasd.org/"
+    },
+    {
+     "name": "Ontario SD 8C",
+     "site": "https://www.ontario.k12.or.us"
+    },
+    {
+     "name": "Sweet Home SD 55",
+     "site": "https://www.shsd55or.gov/"
+    },
+    {
+     "name": "Vale SD 84",
+     "site": "https://www.valesd.org/"
+    }
+   ]
   },
   "Marion": {
-   "site": "https://www.co.marion.or.us/"
+   "site": "https://www.co.marion.or.us/",
+   "schools": [
+    {
+     "name": "Cascade SD 5",
+     "site": "https://www.cascade.k12.or.us"
+    },
+    {
+     "name": "Gervais SD 1",
+     "site": "https://www.gervais.k12.or.us"
+    },
+    {
+     "name": "Jefferson SD 14J",
+     "site": "https://www.jefferson14j.com"
+    },
+    {
+     "name": "Mt Angel SD 91",
+     "site": "https://www.masd91.org"
+    },
+    {
+     "name": "North Marion SD 15",
+     "site": "https://www.nmarion.k12.or.us"
+    },
+    {
+     "name": "North Santiam SD 29J",
+     "site": "https://www.nssd29j.org/"
+    },
+    {
+     "name": "Salem-Keizer SD 24J",
+     "site": "https://www.salkeiz.k12.or.us"
+    },
+    {
+     "name": "Silver Falls SD 4J",
+     "site": "https://www.silverfallsschools.org/"
+    },
+    {
+     "name": "St Paul SD 45",
+     "site": "https://www.stpaul.k12.or.us/"
+    },
+    {
+     "name": "Woodburn SD 103",
+     "site": "https://www.woodburnsd.org"
+    }
+   ]
   },
   "Morrow": {
-   "site": "https://www.co.morrow.or.us/"
+   "site": "https://www.co.morrow.or.us/",
+   "schools": [
+    {
+     "name": "Morrow SD 1",
+     "site": "https://www.morrow.k12.or.us"
+    }
+   ]
   },
   "Multnomah": {
    "site": "https://multco.us/",
-   "meetings": "https://multco.us/info/about-board-meetings"
+   "meetings": "https://multco.us/info/about-board-meetings",
+   "schools": [
+    {
+     "name": "Centennial SD 28J",
+     "site": "https://www.csd28j.org"
+    },
+    {
+     "name": "Corbett SD 39",
+     "site": "https://www.corbett.k12.or.us"
+    },
+    {
+     "name": "David Douglas SD 40",
+     "site": "https://www.ddouglas.k12.or.us"
+    },
+    {
+     "name": "Gresham-Barlow SD 10J",
+     "site": "https://www.gresham.k12.or.us"
+    },
+    {
+     "name": "Parkrose SD 3",
+     "site": "https://www.parkrose.k12.or.us"
+    },
+    {
+     "name": "Portland SD 1J",
+     "site": "https://www.pps.net"
+    },
+    {
+     "name": "Reynolds SD 7",
+     "site": "https://www.reynolds.k12.or.us"
+    },
+    {
+     "name": "Riverdale SD 51J",
+     "site": "https://www.riverdaleschool.com"
+    }
+   ]
   },
   "Polk": {
-   "site": "https://www.co.polk.or.us/"
+   "site": "https://www.co.polk.or.us/",
+   "schools": [
+    {
+     "name": "Central SD 13J",
+     "site": "https://www.central.k12.or.us"
+    },
+    {
+     "name": "Dallas SD 2",
+     "site": "https://www.dallas.k12.or.us/"
+    },
+    {
+     "name": "Falls City SD 57",
+     "site": "https://www.fallscityschools.org"
+    },
+    {
+     "name": "Perrydale SD 21",
+     "site": "https://www.perrydale.k12.or.us/"
+    }
+   ]
   },
   "Sherman": {
-   "site": "https://www.co.sherman.or.us/"
+   "site": "https://www.co.sherman.or.us/",
+   "schools": [
+    {
+     "name": "Sherman County SD",
+     "site": "https://www.sherman.k12.or.us/"
+    }
+   ]
   },
   "Tillamook": {
-   "site": "https://www.tillamookcounty.gov/"
+   "site": "https://www.tillamookcounty.gov/",
+   "schools": [
+    {
+     "name": "Neah-Kah-Nie SD 56",
+     "site": "https://www.nknsd.org/"
+    },
+    {
+     "name": "Nestucca Valley SD 101",
+     "site": "https://www.nestucca.k12.or.us"
+    },
+    {
+     "name": "Tillamook SD 9",
+     "site": "https://www.tillamook.k12.or.us"
+    }
+   ]
   },
   "Umatilla": {
-   "site": "https://www.co.umatilla.or.us/"
+   "site": "https://www.co.umatilla.or.us/",
+   "schools": [
+    {
+     "name": "Athena-Weston SD 29RJ",
+     "site": "https://www.athwest.k12.or.us"
+    },
+    {
+     "name": "Echo SD 5",
+     "site": "https://www.echo.k12.or.us"
+    },
+    {
+     "name": "Helix SD 1",
+     "site": "https://www.helix.k12.or.us"
+    },
+    {
+     "name": "Hermiston SD 8",
+     "site": "https://www.hermiston.k12.or.us"
+    },
+    {
+     "name": "Milton-Freewater Unified SD 7",
+     "site": "https://www.mfsd.k12.or.us/"
+    },
+    {
+     "name": "Pendleton SD 16",
+     "site": "https://pendleton.k12.or.us"
+    },
+    {
+     "name": "Pilot Rock SD 2",
+     "site": "https://www.pilotrock.k12.or.us"
+    },
+    {
+     "name": "Stanfield SD 61",
+     "site": "https://stanfieldsd.org/"
+    },
+    {
+     "name": "Ukiah SD 80R",
+     "site": "https://www.ukiah.k12.or.us"
+    },
+    {
+     "name": "Umatilla SD 6R",
+     "site": "https://www.umatilla.k12.or.us"
+    }
+   ]
   },
   "Union": {
-   "site": "https://union-county.org/"
+   "site": "https://union-county.org/",
+   "schools": [
+    {
+     "name": "Cove SD 15",
+     "site": "https://www.cove.k12.or.us"
+    },
+    {
+     "name": "Elgin SD 23",
+     "site": "https://www.elgin.k12.or.us"
+    },
+    {
+     "name": "Imbler SD 11",
+     "site": "https://www.imbler.k12.or.us"
+    },
+    {
+     "name": "La Grande SD 1",
+     "site": "https://www.lagrandesd.org/"
+    },
+    {
+     "name": "North Powder SD 8J",
+     "site": "https://www.npowder.k12.or.us"
+    },
+    {
+     "name": "Union SD 5",
+     "site": "https://www.union.k12.or.us"
+    }
+   ]
   },
   "Wallowa": {
-   "site": "https://co.wallowa.or.us/"
+   "site": "https://co.wallowa.or.us/",
+   "schools": [
+    {
+     "name": "Enterprise SD 21",
+     "site": "https://www.enterprise.k12.or.us"
+    },
+    {
+     "name": "Joseph SD 6",
+     "site": "https://www.staff.josephcharter.org"
+    },
+    {
+     "name": "North Wasco County SD 21",
+     "site": "https://www.nwasco.k12.or.us/"
+    },
+    {
+     "name": "Troy SD 54",
+     "site": "https://www.dufur.k12.or.us"
+    },
+    {
+     "name": "Wallowa SD 12",
+     "site": "https://www.wallowa.k12.or.us"
+    }
+   ]
   },
   "Wasco": {
-   "site": "https://www.co.wasco.or.us/"
+   "site": "https://www.co.wasco.or.us/",
+   "schools": [
+    {
+     "name": "Dufur SD 29",
+     "site": "https://www.dufur.k12.or.us/"
+    },
+    {
+     "name": "South Wasco County SD 1",
+     "site": "https://www.swasco.net/"
+    }
+   ]
   },
   "Washington": {
    "site": "https://www.washingtoncountyor.gov/",
    "meetings": "https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule",
-   "commissioners": "https://www.washingtoncountyor.gov/bcc"
+   "commissioners": "https://www.washingtoncountyor.gov/bcc",
+   "schools": [
+    {
+     "name": "Banks SD 13",
+     "site": "https://www.banks.k12.or.us"
+    },
+    {
+     "name": "Beaverton SD 48J",
+     "site": "https://www.beaverton.k12.or.us/"
+    },
+    {
+     "name": "Forest Grove SD 15",
+     "site": "https://www.fgsd.k12.or.us/"
+    },
+    {
+     "name": "Gaston SD 511J",
+     "site": "https://www.gastonk12.org"
+    },
+    {
+     "name": "Hillsboro SD 1J",
+     "site": "https://www.hsd.k12.or.us"
+    },
+    {
+     "name": "Sherwood SD 88J",
+     "site": "https://www.sherwood.k12.or.us/"
+    },
+    {
+     "name": "Tigard-Tualatin SD 23J",
+     "site": "https://www.ttsdschools.org"
+    }
+   ]
   },
   "Wheeler": {
-   "site": "https://www.wheelercountyoregon.com/"
+   "site": "https://www.wheelercountyoregon.com/",
+   "schools": [
+    {
+     "name": "Fossil SD 21J",
+     "site": "https://www.fossilschools.com"
+    },
+    {
+     "name": "Mitchell SD 55",
+     "site": "https://www.mitchell.k12.or.us"
+    },
+    {
+     "name": "Spray SD 1",
+     "site": "https://www.spray.k12.or.us/"
+    }
+   ]
   },
   "Yamhill": {
-   "site": "https://www.co.yamhill.or.us/"
+   "site": "https://www.co.yamhill.or.us/",
+   "schools": [
+    {
+     "name": "Amity SD 4J",
+     "site": "https://www.amity.k12.or.us"
+    },
+    {
+     "name": "Dayton SD 8",
+     "site": "https://www.daytonk12.org"
+    },
+    {
+     "name": "McMinnville SD 40",
+     "site": "https://www.msd.k12.or.us"
+    },
+    {
+     "name": "Newberg SD 29J",
+     "site": "https://www.newberg.k12.or.us"
+    },
+    {
+     "name": "Sheridan SD 48J",
+     "site": "https://www.sheridan.k12.or.us"
+    },
+    {
+     "name": "Willamina SD 30J",
+     "site": "https://www.willamina.k12.or.us"
+    },
+    {
+     "name": "Yamhill Carlton SD 1",
+     "site": "https://www.ycsd.k12.or.us"
+    }
+   ]
   }
  },
  "cities": {
@@ -148,6 +940,790 @@
    "county": "Marion",
    "site": "https://www.cityofsalem.net/",
    "meetings": "https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes"
+  },
+  "Adair Village": {
+   "county": "Benton",
+   "site": "https://adairvillage.org/"
+  },
+  "Albany": {
+   "county": "Linn",
+   "site": "https://albanyoregon.gov/"
+  },
+  "Amity": {
+   "county": "Yamhill",
+   "site": "https://www.amityoregon.gov/"
+  },
+  "Arlington": {
+   "county": "Gilliam",
+   "site": "https://www.arlington.com/"
+  },
+  "Ashland": {
+   "county": "Jackson",
+   "site": "https://www.ashlandoregon.gov/"
+  },
+  "Astoria": {
+   "county": "Clatsop",
+   "site": "https://www.astoria.gov/"
+  },
+  "Athena": {
+   "county": "Umatilla",
+   "site": "https://www.cityofathena.com/"
+  },
+  "Aurora": {
+   "county": "Marion",
+   "site": "https://www.aurorahealthcare.org/"
+  },
+  "Baker City": {
+   "county": "Baker",
+   "site": "https://www.bakercity.com/"
+  },
+  "Bandon": {
+   "county": "Coos",
+   "site": "https://www.bandon-or.gov/"
+  },
+  "Banks": {
+   "county": "Washington",
+   "site": "https://www.cityofbanks.org/"
+  },
+  "Beaverton": {
+   "county": "Washington",
+   "site": "https://www.beavertonoregon.gov/"
+  },
+  "Boardman": {
+   "county": "Morrow",
+   "site": "https://www.cityofboardman.com/"
+  },
+  "Bonanza": {
+   "county": "Klamath",
+   "site": "https://www.bonanza.com/"
+  },
+  "Brookings": {
+   "county": "Curry",
+   "site": "https://www.brookings.or.us/"
+  },
+  "Brownsville": {
+   "county": "Linn",
+   "site": "https://www.ci.brownsville.or.us/"
+  },
+  "Burns": {
+   "county": "Harney",
+   "site": "https://ci.burns.or.us/"
+  },
+  "Butte Falls": {
+   "county": "Jackson",
+   "site": "https://www.facebook.com/buttefallsoregon"
+  },
+  "Canby": {
+   "county": "Clackamas",
+   "site": "https://canby.org/"
+  },
+  "Cannon Beach": {
+   "county": "Clatsop",
+   "site": "https://www.cannonbeach.org/"
+  },
+  "Canyonville": {
+   "county": "Douglas",
+   "site": "https://www.cityofcanyonville.com/"
+  },
+  "Carlton": {
+   "county": "Yamhill",
+   "site": "https://www.ci.carlton.or.us/"
+  },
+  "Cascade Locks": {
+   "county": "Hood River",
+   "site": "https://www.cascadelocks.org/"
+  },
+  "Cave Junction": {
+   "county": "Josephine",
+   "site": "https://www.cavejunction.com/"
+  },
+  "Central Point": {
+   "county": "Jackson",
+   "site": "https://www.centralpointoregon.gov/"
+  },
+  "Clatskanie": {
+   "county": "Columbia",
+   "site": "https://www.cityofclatskanie.com/"
+  },
+  "Columbia City": {
+   "county": "Columbia",
+   "site": "https://columbia-city.org/"
+  },
+  "Condon": {
+   "county": "Gilliam",
+   "site": "https://cityofcondon.com/"
+  },
+  "Coos Bay": {
+   "county": "Coos",
+   "site": "https://www.cityofcoosbay.com/"
+  },
+  "Coquille": {
+   "county": "Coos",
+   "site": "https://www.cityofcoquille.org/"
+  },
+  "Cornelius": {
+   "county": "Washington",
+   "site": "https://www.corneliusor.gov/"
+  },
+  "Cottage Grove": {
+   "county": "Lane",
+   "site": "https://www.cottagegroveor.gov/"
+  },
+  "Cove": {
+   "county": "Union",
+   "site": "https://cityofcove.org/"
+  },
+  "Creswell": {
+   "county": "Lane",
+   "site": "https://www.creswellrichardson.com/"
+  },
+  "Culver": {
+   "county": "Jefferson",
+   "site": "https://cityofculver.org/"
+  },
+  "Dallas": {
+   "county": "Polk",
+   "site": "https://www.dallas.com/"
+  },
+  "Dayton": {
+   "county": "Yamhill",
+   "site": "https://www.daytonoregon.gov/"
+  },
+  "Dayville": {
+   "county": "Grant",
+   "site": "https://dayville.com"
+  },
+  "Detroit": {
+   "county": "Marion",
+   "site": "https://detroitoregon.us/"
+  },
+  "Donald": {
+   "county": "Marion",
+   "site": "https://www.donaldoregon.gov/"
+  },
+  "Drain": {
+   "county": "Douglas",
+   "site": "https://www.drain.com/"
+  },
+  "Dufur": {
+   "county": "Wasco",
+   "site": "https://cityofdufur.org/"
+  },
+  "Dundee": {
+   "county": "Yamhill",
+   "site": "https://expireddomains.com/domain/cityofdundee.com?utm_source=redi"
+  },
+  "Dunes City": {
+   "county": "Lane",
+   "site": "https://www.dunescity.gov/"
+  },
+  "Durham": {
+   "county": "Washington",
+   "site": "https://www.cityofdurham.org/"
+  },
+  "Eagle Point": {
+   "county": "Jackson",
+   "site": "https://www.cityofeaglepoint.org/"
+  },
+  "Echo": {
+   "county": "Umatilla",
+   "site": "https://www.cityofecho.com/"
+  },
+  "Elgin": {
+   "county": "Union",
+   "site": "https://elginil.gov/"
+  },
+  "Enterprise": {
+   "county": "Wallowa",
+   "site": "https://www.enterpriseoregon.gov/"
+  },
+  "Estacada": {
+   "county": "Clackamas",
+   "site": "https://www.cityofestacada.org/"
+  },
+  "Eugene": {
+   "county": "Lane",
+   "site": "https://www.eugene.com/"
+  },
+  "Fairview": {
+   "county": "Multnomah",
+   "site": "https://www.fairvieworegon.gov/"
+  },
+  "Falls City": {
+   "county": "Polk",
+   "site": "https://www.fallscityoregon.gov/"
+  },
+  "Florence": {
+   "county": "Lane",
+   "site": "https://www.ci.florence.or.us/"
+  },
+  "Forest Grove": {
+   "county": "Washington",
+   "site": "https://forestgrove.com/"
+  },
+  "Fossil": {
+   "county": "Wheeler",
+   "site": "https://www.fossiloregon.com/"
+  },
+  "Garibaldi": {
+   "county": "Tillamook",
+   "site": "https://garibaldi.gov/"
+  },
+  "Gaston": {
+   "county": "Washington",
+   "site": "https://www.cityofgaston.com/"
+  },
+  "Gates": {
+   "county": "Marion",
+   "site": "https://www.cityofgates.com/"
+  },
+  "Gearhart": {
+   "county": "Clatsop",
+   "site": "https://www.cityofgearhart.com/"
+  },
+  "Gladstone": {
+   "county": "Clackamas",
+   "site": "https://www.gladstonecompanies.com/"
+  },
+  "Glendale": {
+   "county": "Douglas",
+   "site": "https://www.glendale.com/"
+  },
+  "Gold Beach": {
+   "county": "Curry",
+   "site": "https://www.goldbeachoregon.gov/"
+  },
+  "Gold Hill": {
+   "county": "Jackson",
+   "site": "https://www.cityofgoldhill.gov/"
+  },
+  "Granite": {
+   "county": "Grant",
+   "site": "https://www.granite.org/"
+  },
+  "Grants Pass": {
+   "county": "Josephine",
+   "site": "https://www.grantspassoregon.gov/"
+  },
+  "Haines": {
+   "county": "Baker",
+   "site": "https://haines.com/"
+  },
+  "Halfway": {
+   "county": "Baker",
+   "site": "https://www.cityofhalfway.com/"
+  },
+  "Halsey": {
+   "county": "Linn",
+   "site": "https://www.halseyor.gov/"
+  },
+  "Happy Valley": {
+   "county": "Clackamas",
+   "site": "https://www.happyvalleyor.gov/"
+  },
+  "Heppner": {
+   "county": "Morrow",
+   "site": "https://cityofheppner.org/"
+  },
+  "Hood River": {
+   "county": "Hood River",
+   "site": "https://cityofhoodriver.gov"
+  },
+  "Hubbard": {
+   "county": "Marion",
+   "site": "https://hubbard.com/"
+  },
+  "Huntington": {
+   "county": "Baker",
+   "site": "https://www.cityofhuntington.com/"
+  },
+  "Idanha": {
+   "county": "Marion",
+   "site": "https://www.cityofidanha.us/"
+  },
+  "Imbler": {
+   "county": "Union",
+   "site": "https://cityofimbler.org/"
+  },
+  "Independence": {
+   "county": "Polk",
+   "site": "https://www.ci.independence.or.us/"
+  },
+  "Ione": {
+   "county": "Morrow",
+   "site": "https://cityofioneoregon.gov/"
+  },
+  "Irrigon": {
+   "county": "Morrow",
+   "site": "https://ci.irrigon.or.us/"
+  },
+  "Island City": {
+   "county": "Union",
+   "site": "https://www.islandcityoregon.gov/"
+  },
+  "Jacksonville": {
+   "county": "Jackson",
+   "site": "https://www.jacksonville.gov/"
+  },
+  "Jefferson": {
+   "county": "Marion",
+   "site": "https://jeffersonoregon.org/"
+  },
+  "Johnson City": {
+   "county": "Clackamas",
+   "site": "https://www.johnsoncityoregon.gov/"
+  },
+  "Jordan Valley": {
+   "county": "Malheur",
+   "site": "https://www.jordanvalley.org/"
+  },
+  "Joseph": {
+   "county": "Wallowa",
+   "site": "https://josephoregon.org/"
+  },
+  "Junction City": {
+   "county": "Lane",
+   "site": "https://www.junctioncityoregon.gov/"
+  },
+  "Keizer": {
+   "county": "Marion",
+   "site": "https://www.keizeror.gov/"
+  },
+  "King City": {
+   "county": "Washington",
+   "site": "https://www.ci.king-city.or.us/"
+  },
+  "Klamath Falls": {
+   "county": "Klamath",
+   "site": "https://www.klamathfalls.city/"
+  },
+  "La Grande": {
+   "county": "Union",
+   "site": "https://www.cityoflagrande.org/"
+  },
+  "La Pine": {
+   "county": "Deschutes",
+   "site": "https://www.lapineoregon.gov/"
+  },
+  "Lafayette": {
+   "county": "Yamhill",
+   "site": "https://lafayetteoregon.gov/"
+  },
+  "Lake Oswego": {
+   "county": "Clackamas",
+   "site": "https://www.cityoflakeoswego.org/"
+  },
+  "Lakeside": {
+   "county": "Coos",
+   "site": "https://www.lakeside.com/"
+  },
+  "Lakeview": {
+   "county": "Lake",
+   "site": "https://www.lakevieworegon.org/"
+  },
+  "Lebanon": {
+   "county": "Linn",
+   "site": "https://www.lebanonoregon.gov/"
+  },
+  "Lexington": {
+   "county": "Morrow",
+   "site": "https://www.cityoflexington.com/"
+  },
+  "Lincoln City": {
+   "county": "Lincoln",
+   "site": "https://lincolncityoregoncoast.com/"
+  },
+  "Long Creek": {
+   "county": "Grant",
+   "site": "https://www.cityoflongcreek.org/"
+  },
+  "Lostine": {
+   "county": "Wallowa",
+   "site": "https://www.cityoflostine.com/"
+  },
+  "Lowell": {
+   "county": "Lane",
+   "site": "https://www.lowelloregon.gov/"
+  },
+  "Lyons": {
+   "county": "Linn",
+   "site": "https://www.cityoflyons.org/"
+  },
+  "Madras": {
+   "county": "Jefferson",
+   "site": "https://www.madras.gov/"
+  },
+  "Malin": {
+   "county": "Klamath",
+   "site": "https://www.cityofmalin.org/"
+  },
+  "Manzanita": {
+   "county": "Tillamook",
+   "site": "https://ci.manzanita.or.us"
+  },
+  "Maupin": {
+   "county": "Wasco",
+   "site": "https://cityofmaupin.org/"
+  },
+  "Maywood Park": {
+   "county": "Multnomah",
+   "site": "https://cityofmaywoodpark.com/"
+  },
+  "McMinnville": {
+   "county": "Yamhill",
+   "site": "https://mcminnville.org/"
+  },
+  "Medford": {
+   "county": "Jackson",
+   "site": "https://www.medfordoregon.gov/Home"
+  },
+  "Merrill": {
+   "county": "Klamath",
+   "site": "https://cityofmerrill.org/"
+  },
+  "Metolius": {
+   "county": "Jefferson",
+   "site": "https://www.cityofmetolius.com/"
+  },
+  "Millersburg": {
+   "county": "Linn",
+   "site": "https://www.millersburgoregon.gov/"
+  },
+  "Milwaukie": {
+   "county": "Clackamas",
+   "site": "https://www.milwaukieoregon.gov/"
+  },
+  "Mitchell": {
+   "county": "Wheeler",
+   "site": "https://www.cityofmitchell.com/"
+  },
+  "Molalla": {
+   "county": "Clackamas",
+   "site": "https://www.cityofmolalla.com/Home"
+  },
+  "Monmouth": {
+   "county": "Polk",
+   "site": "https://www.ci.monmouth.or.us/"
+  },
+  "Monroe": {
+   "county": "Benton",
+   "site": "https://www.monroeoregon.gov/"
+  },
+  "Monument": {
+   "county": "Grant",
+   "site": "https://monument.org/"
+  },
+  "Moro": {
+   "county": "Sherman",
+   "site": "https://cityofmoro.net/"
+  },
+  "Mosier": {
+   "county": "Wasco",
+   "site": "https://www.mosier.us/"
+  },
+  "Mount Vernon": {
+   "county": "Grant",
+   "site": "https://www.mountvernon.com/"
+  },
+  "Mt. Angel": {
+   "county": "Marion",
+   "site": "https://www.mtangel.org/"
+  },
+  "Myrtle Creek": {
+   "county": "Douglas",
+   "site": "https://www.cityofmyrtlecreek.com/"
+  },
+  "Myrtle Point": {
+   "county": "Coos",
+   "site": "https://www.ci.myrtlepoint.or.us/"
+  },
+  "Newberg": {
+   "county": "Yamhill",
+   "site": "https://www.newbergoregon.gov/"
+  },
+  "Newport": {
+   "county": "Lincoln",
+   "site": "https://www.newportoregon.gov/"
+  },
+  "North Plains": {
+   "county": "Washington",
+   "site": "https://www.northplains.gov/"
+  },
+  "North Powder": {
+   "county": "Union",
+   "site": "https://northpowder.com/"
+  },
+  "Nyssa": {
+   "county": "Malheur",
+   "site": "https://nyssacity.org/"
+  },
+  "Oakland": {
+   "county": "Douglas",
+   "site": "https://cityofoakland.org/"
+  },
+  "Oakridge": {
+   "county": "Lane",
+   "site": "https://oakridgeoregon.org/"
+  },
+  "Ontario": {
+   "county": "Malheur",
+   "site": "https://cityofontario.com/"
+  },
+  "Paisley": {
+   "county": "Lake",
+   "site": "https://cityofpaisley.net/"
+  },
+  "Pendleton": {
+   "county": "Umatilla",
+   "site": "https://www.pendletonor.gov/"
+  },
+  "Phoenix": {
+   "county": "Jackson",
+   "site": "https://www.cityofphoenix.org/"
+  },
+  "Pilot Rock": {
+   "county": "Umatilla",
+   "site": "https://www.pilotrock.com/"
+  },
+  "Port Orford": {
+   "county": "Curry",
+   "site": "https://portorford.org/"
+  },
+  "Prairie City": {
+   "county": "Grant",
+   "site": "https://www.prairiecityor.gov/"
+  },
+  "Prescott": {
+   "county": "Columbia",
+   "site": "https://www.cityofprescott.com/"
+  },
+  "Prineville": {
+   "county": "Crook",
+   "site": "https://www.cityofprineville.com/"
+  },
+  "Rainier": {
+   "county": "Columbia",
+   "site": "https://www.rainier.org/"
+  },
+  "Reedsport": {
+   "county": "Douglas",
+   "site": "https://reedsport.us/"
+  },
+  "Richland": {
+   "county": "Baker",
+   "site": "https://cityofrichland.org/"
+  },
+  "Riddle": {
+   "county": "Douglas",
+   "site": "https://www.riddle.com/"
+  },
+  "Rivergrove": {
+   "county": "Clackamas",
+   "site": "https://www.cityofrivergrove.org/"
+  },
+  "Rockaway Beach": {
+   "county": "Tillamook",
+   "site": "https://www.rockawaybeachoregon.gov/"
+  },
+  "Rogue River": {
+   "county": "Jackson",
+   "site": "https://www.cityofrogueriver.org/"
+  },
+  "Roseburg": {
+   "county": "Douglas",
+   "site": "https://roseburgor.gov/"
+  },
+  "Scappoose": {
+   "county": "Columbia",
+   "site": "https://www.scappoose.gov/"
+  },
+  "Scotts Mills": {
+   "county": "Marion",
+   "site": "https://www.scottsmills.org/"
+  },
+  "Seaside": {
+   "county": "Clatsop",
+   "site": "https://www.cityofseaside.us/"
+  },
+  "Seneca": {
+   "county": "Grant",
+   "site": "https://api-usa.com/seneca.php"
+  },
+  "Shady Cove": {
+   "county": "Jackson",
+   "site": "https://shadycove.org/"
+  },
+  "Shaniko": {
+   "county": "Wasco",
+   "site": "https://cityofshaniko.org/"
+  },
+  "Sheridan": {
+   "county": "Yamhill",
+   "site": "https://www.cityofsheridanor.com/"
+  },
+  "Sherwood": {
+   "county": "Washington",
+   "site": "https://sherwood.org/"
+  },
+  "Siletz": {
+   "county": "Lincoln",
+   "site": "https://www.cityofsiletz.org/"
+  },
+  "Silverton": {
+   "county": "Marion",
+   "site": "https://www.silverton.com/"
+  },
+  "Sisters": {
+   "county": "Deschutes",
+   "site": "http://www.sistersoregon.org/"
+  },
+  "Spray": {
+   "county": "Wheeler",
+   "site": "https://www.spray.com/"
+  },
+  "Springfield": {
+   "county": "Lane",
+   "site": "https://springfield-or.gov/"
+  },
+  "St. Helens": {
+   "county": "Columbia",
+   "site": "https://www.sthelensoregon.gov/"
+  },
+  "St. Paul": {
+   "county": "Marion",
+   "site": "https://stpaul.org/"
+  },
+  "Stanfield": {
+   "county": "Umatilla",
+   "site": "https://www.cityofstanfield.com/"
+  },
+  "Stayton": {
+   "county": "Marion",
+   "site": "https://www.staytonoregon.gov/"
+  },
+  "Sutherlin": {
+   "county": "Douglas",
+   "site": "https://www.sutherlinoregon.gov/"
+  },
+  "Sweet Home": {
+   "county": "Linn",
+   "site": "https://www.sweethomeor.gov/"
+  },
+  "Talent": {
+   "county": "Jackson",
+   "site": "https://www.cityoftalent.org/"
+  },
+  "Tangent": {
+   "county": "Linn",
+   "site": "https://www.tangentor.gov/"
+  },
+  "The Dalles": {
+   "county": "Wasco",
+   "site": "https://www.thedalles.gov/"
+  },
+  "Tillamook": {
+   "county": "Tillamook",
+   "site": "https://www.tillamook.com/"
+  },
+  "Toledo": {
+   "county": "Lincoln",
+   "site": "https://www.cityoftoledo.org/"
+  },
+  "Troutdale": {
+   "county": "Multnomah",
+   "site": "https://www.troutdaleoregon.gov/"
+  },
+  "Tualatin": {
+   "county": "Washington",
+   "site": "https://tualatinoregon.gov/"
+  },
+  "Turner": {
+   "county": "Marion",
+   "site": "https://turneroregon.gov/"
+  },
+  "Ukiah": {
+   "county": "Umatilla",
+   "site": "https://cityofukiahoregon.com/"
+  },
+  "Umatilla": {
+   "county": "Umatilla",
+   "site": "https://www.umatilla.gov/"
+  },
+  "Union": {
+   "county": "Union",
+   "site": "https://www.cityofunionor.gov/"
+  },
+  "Vale": {
+   "county": "Malheur",
+   "site": "https://www.cityofvale.com/"
+  },
+  "Veneta": {
+   "county": "Lane",
+   "site": "https://www.venetaoregon.gov/"
+  },
+  "Vernonia": {
+   "county": "Columbia",
+   "site": "https://www.vernonia-or.gov/"
+  },
+  "Waldport": {
+   "county": "Lincoln",
+   "site": "https://www.waldportoregon.gov/"
+  },
+  "Wallowa": {
+   "county": "Wallowa",
+   "site": "https://wallowa.com/"
+  },
+  "Wasco": {
+   "county": "Sherman",
+   "site": "https://www.wasco.org/"
+  },
+  "Waterloo": {
+   "county": "Linn",
+   "site": "https://www.waterloo.com/"
+  },
+  "Westfir": {
+   "county": "Lane",
+   "site": "https://www.ci.westfir.or.us/"
+  },
+  "Weston": {
+   "county": "Umatilla",
+   "site": "https://www.cityofweston.org/"
+  },
+  "Wheeler": {
+   "county": "Tillamook",
+   "site": "https://www.wheeler.com/"
+  },
+  "Willamina": {
+   "county": "Yamhill",
+   "site": "https://www.willaminaoregon.gov/"
+  },
+  "Wilsonville": {
+   "county": "Clackamas",
+   "site": "https://www.wilsonvilleoregon.gov/"
+  },
+  "Winston": {
+   "county": "Douglas",
+   "site": "https://www.winstontaylor.com/"
+  },
+  "Wood Village": {
+   "county": "Multnomah",
+   "site": "https://www.woodvillageor.gov/"
+  },
+  "Woodburn": {
+   "county": "Marion",
+   "site": "https://www.woodburn-or.gov/"
+  },
+  "Yachats": {
+   "county": "Lincoln",
+   "site": "https://www.yachats.org/"
+  },
+  "Yamhill": {
+   "county": "Yamhill",
+   "site": "https://www.yamhill.com/"
+  },
+  "Yoncalla": {
+   "county": "Douglas",
+   "site": "https://www.cityofyoncalla.org/"
   }
  }
 }

@@ -150,6 +150,8 @@ G["your-school-board"] = dict(
     <li>Turnout in these elections is often low, so each vote counts for more.</li>
   </ul>
 
+  <section class="near-you" data-show="schools" data-title="School districts in your county" aria-label="School districts in your county"></section>
+
   <h2>Taking part</h2>
   <ul>
     <li><strong>Find the meetings.</strong> Boards usually meet once or twice a month. Agendas post a few days ahead, often on BoardDocs or the district's website. Many districts are on the <a href="../index.html">Community Calendar</a>.</li>
@@ -184,6 +186,8 @@ G["your-neighborhood"] = dict(
     <li>Bring up traffic safety, parks, emergency preparedness and other local concerns with the city.</li>
     <li>Run cleanups, events and small grants.</li>
   </ul>
+
+  <section class="near-you" data-show="site" data-title="Your city and county websites" aria-label="Your city and county websites"></section>
 
   <h2>Getting started</h2>
   <ul>
