@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Oregon
 BEGIN:VEVENT
 UID:9bd3241f9ff2@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261124T020000Z
 DTEND:20261124T030000Z
 SUMMARY:City Council meeting (City of Salem)
@@ -14,7 +14,7 @@ URL:https://www.cityofsalem.net/government/city-council-mayor/city-council-
 END:VEVENT
 BEGIN:VEVENT
 UID:decadeded2d2@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261124T030000Z
 DTEND:20261124T040000Z
 SUMMARY:Planning Commission Meeting (4th Monday) (City of Oregon City)
@@ -23,7 +23,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3606/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d2f1d263a7ad@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261124T180000Z
 DTEND:20261124T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -33,7 +33,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:1b48982b44d6@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261125T030000Z
 DTEND:20261125T040000Z
 SUMMARY:Historic Review Board (City of Oregon City)
@@ -42,7 +42,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3522/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:62c3ce4b5002@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261125T173000Z
 DTEND:20261125T183000Z
 SUMMARY:City Council meeting (City of Portland)
@@ -52,7 +52,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:fe2f6f1bc655@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261128T190000Z
 DTEND:20261128T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -61,7 +61,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514217
 END:VEVENT
 BEGIN:VEVENT
 UID:a01cff65d478@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Board of Commissioners regular business meeting (Washington County)
 LOCATION:Public Services Building\, 155 N. First Ave.\, Hillsboro (and onli
@@ -70,7 +70,7 @@ URL:https://www.washingtoncountyor.gov/bcc
 END:VEVENT
 BEGIN:VEVENT
 UID:96725f7fa1fc@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:House Interim Committee on Early Childhood (Oregon Legislature)
@@ -79,7 +79,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HEC/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:249c32154a06@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:House Interim Committee on Education (Oregon Legislature)
@@ -88,7 +88,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HED/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:81444d284756@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:House Interim Committee on Transportation (Oregon Legislature)
@@ -97,7 +97,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HCT/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:38cd175720d5@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:Senate Interim Committee on Rules and Executive Appointments (Orego
@@ -108,7 +108,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SRULES/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:4139a3b77d95@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -118,7 +118,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:0895af464f4e@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T180000Z
 DTEND:20261201T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -128,7 +128,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:b5b76e6ebb13@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:House Interim Committee on Agriculture\, Land Use\, Natural Resourc
@@ -139,7 +139,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HALNRW/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:47e2cb0b5692@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:House Interim Committee on Economic Development\, Small Business\, 
@@ -150,7 +150,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HECDSB/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:f66bd2516fc7@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:Senate Interim Committee on Judiciary (Oregon Legislature)
@@ -159,7 +159,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SJUD/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:44ce62811796@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:Senate Interim Committee on Labor and Business (Oregon Legislature)
@@ -168,7 +168,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SLB/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4394b2ecca31@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:House Interim Committee on Climate\, Energy\, and Environment (Oreg
@@ -178,7 +178,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HCEE/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:c9fc8b76e974@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:House Interim Committee on Rules (Oregon Legislature)
@@ -188,7 +188,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HRULES/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:86aeb0affec2@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:Joint Committee on Oregon-Ireland Sister State (Oregon Legislature)
@@ -197,7 +197,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/JOISS/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:de32e855c2cf@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:Senate Interim Committee on Energy and Environment (Oregon Legislat
@@ -207,7 +207,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SEE/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:6d1b785b90f8@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T020000Z
 DTEND:20261202T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -216,7 +216,7 @@ URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:725e33928746@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:House Interim Committee on Judiciary (Oregon Legislature)
@@ -225,7 +225,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HJUD/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4df87501d997@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:Senate Interim Committee on Early Childhood and Behavioral Health (
@@ -235,7 +235,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SECBH/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:b4626a136396@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:Senate Interim Committee on Education (Oregon Legislature)
@@ -244,7 +244,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SED/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5236968958b2@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T173000Z
 DTEND:20261202T183000Z
 SUMMARY:City Council meeting (City of Portland)
@@ -254,7 +254,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:33778a5394bf@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T193000Z
 DTEND:20261202T203000Z
 SUMMARY:Senate Interim Committee on Transportation (Oregon Legislature)
@@ -263,7 +263,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SCT/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:384d9c4d299b@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T223000Z
 DTEND:20261202T233000Z
 SUMMARY:House Interim Committee on Health Care (Oregon Legislature)
@@ -272,7 +272,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHC/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d9863615250b@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T223000Z
 DTEND:20261202T233000Z
 SUMMARY:House Interim Committee on Housing and Homelessness (Oregon Legisla
@@ -283,7 +283,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHOUSH/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:42f0b2569d4d@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261202T223000Z
 DTEND:20261202T233000Z
 SUMMARY:Senate Interim Committee on Housing and Development (Oregon Legisla
@@ -293,7 +293,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHDEV/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:fa650db652c2@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261203T013000Z
 DTEND:20261203T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -302,7 +302,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801076
 END:VEVENT
 BEGIN:VEVENT
 UID:030446a10c66@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261203T020000Z
 DTEND:20261203T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -312,7 +312,7 @@ URL:https://wccls.bibliocommons.com/events/6a9b09d55e6fc10d05512b30
 END:VEVENT
 BEGIN:VEVENT
 UID:12cb2897db9c@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261203T030000Z
 DTEND:20261203T040000Z
 SUMMARY:City Commission Regular Meeting (first Wednesdays) (City of Oregon 
@@ -322,7 +322,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3569/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d9b6694a2621@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261203T173000Z
 DTEND:20261203T183000Z
 SUMMARY:Board of County Commissioners meeting (Multnomah County)
@@ -332,7 +332,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:b79d3de903f6@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261203T180000Z
 DTEND:20261203T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -342,7 +342,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:1d13d178fcad@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261203T203000Z
 DTEND:20261203T213000Z
 SUMMARY:House Interim Committee on Behavioral Health (Oregon Legislature)
@@ -351,7 +351,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HBH/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:6f3feb8ad1bd@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261203T203000Z
 DTEND:20261203T213000Z
 SUMMARY:House Interim Committee on Higher Education (Oregon Legislature)
@@ -360,7 +360,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHED/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:208ccea4ee6a@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261203T203000Z
 DTEND:20261203T213000Z
 SUMMARY:Joint Interim Committee on Transportation Oversight (Oregon Legisla
@@ -370,7 +370,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/JTO/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:6412ac3e9d2a@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261204T013000Z
 DTEND:20261204T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -381,7 +381,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa6
 END:VEVENT
 BEGIN:VEVENT
 UID:1d90baf16a13@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261205T190000Z
 DTEND:20261205T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -390,7 +390,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514218
 END:VEVENT
 BEGIN:VEVENT
 UID:f837db52e279@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261208T030000Z
 DTEND:20261208T040000Z
 SUMMARY:Citizen Involvement Committee (City of Oregon City)
@@ -399,7 +399,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3653/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:30ed649c541a@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261208T170000Z
 DTEND:20261208T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -409,7 +409,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:9760e10c1cb7@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261208T180000Z
 DTEND:20261208T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -419,7 +419,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:f08f648da7b8@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261209T020000Z
 DTEND:20261209T030000Z
 SUMMARY:City Commission Work Session (City of Oregon City)
@@ -428,7 +428,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3538/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:0e2a5f2423d9@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261209T173000Z
 DTEND:20261209T183000Z
 SUMMARY:City Council meeting (City of Portland)
@@ -438,7 +438,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:d90c7c90fda9@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261210T013000Z
 DTEND:20261210T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -447,7 +447,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801077
 END:VEVENT
 BEGIN:VEVENT
 UID:f1d918a19d2a@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261210T020000Z
 DTEND:20261210T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -457,7 +457,7 @@ URL:https://wccls.bibliocommons.com/events/6a9b09d55e6fc10d05512b31
 END:VEVENT
 BEGIN:VEVENT
 UID:683ed569670b@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261210T023000Z
 DTEND:20261210T033000Z
 SUMMARY:Natural Resources Committee (City of Oregon City)
@@ -466,7 +466,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3599/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:922122480a36@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261210T173000Z
 DTEND:20261210T183000Z
 SUMMARY:Board of County Commissioners meeting (Multnomah County)
@@ -476,7 +476,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:3159761be702@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261210T180000Z
 DTEND:20261210T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -486,7 +486,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:ed81ee134199@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261211T013000Z
 DTEND:20261211T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -497,7 +497,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa7
 END:VEVENT
 BEGIN:VEVENT
 UID:2fbc0e647529@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261212T190000Z
 DTEND:20261212T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -506,7 +506,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514219
 END:VEVENT
 BEGIN:VEVENT
 UID:df7b746aa705@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261215T020000Z
 DTEND:20261215T030000Z
 SUMMARY:City Council meeting (City of Salem)
@@ -516,7 +516,7 @@ URL:https://www.cityofsalem.net/government/city-council-mayor/city-council-
 END:VEVENT
 BEGIN:VEVENT
 UID:662ff68c1506@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261215T030000Z
 DTEND:20261215T040000Z
 SUMMARY:Planning Commission Meeting (Second Monday) (City of Oregon City)
@@ -525,7 +525,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3619/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:f90ecf160f00@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261215T031500Z
 DTEND:20261215T041500Z
 SUMMARY:Youth Advisory Commission (City of Oregon City)
@@ -534,7 +534,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3647/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:27a952fae5c7@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Board of Commissioners regular business meeting (Washington County)
 LOCATION:Public Services Building\, 155 N. First Ave.\, Hillsboro (and onli
@@ -543,7 +543,7 @@ URL:https://www.washingtoncountyor.gov/bcc
 END:VEVENT
 BEGIN:VEVENT
 UID:b122eb774d86@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261215T170000Z
 DTEND:20261215T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -553,7 +553,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:a48a5ce29872@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261215T180000Z
 DTEND:20261215T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -563,7 +563,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:0c46935f3511@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261216T020000Z
 DTEND:20261216T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -572,7 +572,7 @@ URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:1fe46b6a975d@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261217T013000Z
 DTEND:20261217T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -581,7 +581,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801078
 END:VEVENT
 BEGIN:VEVENT
 UID:a666d84c49a7@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261217T020000Z
 DTEND:20261217T030000Z
 SUMMARY:City Council evening meeting (City of Portland)
@@ -591,7 +591,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:37e51986651d@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261217T020000Z
 DTEND:20261217T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -601,7 +601,7 @@ URL:https://wccls.bibliocommons.com/events/6ada54512b40e729fed354d7
 END:VEVENT
 BEGIN:VEVENT
 UID:04a68ae797ee@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261217T030000Z
 DTEND:20261217T040000Z
 SUMMARY:City Commission Regular Meeting (third Wednesdays) (City of Oregon 
@@ -611,7 +611,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3582/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:8d74e8e2b0f8@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261217T173000Z
 DTEND:20261217T183000Z
 SUMMARY:Board of County Commissioners meeting (Multnomah County)
@@ -621,7 +621,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:82671ff0780b@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261217T180000Z
 DTEND:20261217T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -631,7 +631,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:f888eb0c9ca7@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261218T013000Z
 DTEND:20261218T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -642,7 +642,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa8
 END:VEVENT
 BEGIN:VEVENT
 UID:f146f0ea09a1@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261218T023000Z
 DTEND:20261218T033000Z
 SUMMARY:Arts Commission (City of Oregon City)
@@ -651,7 +651,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3553/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:f97bf3e4583d@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261219T190000Z
 DTEND:20261219T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -660,7 +660,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e003851421a
 END:VEVENT
 BEGIN:VEVENT
 UID:2c3b371502b5@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261222T180000Z
 DTEND:20261222T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -670,7 +670,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:2d2050370a55@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261223T173000Z
 DTEND:20261223T183000Z
 SUMMARY:City Council meeting (City of Portland)
@@ -680,7 +680,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:711d2a4abc1d@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261224T173000Z
 DTEND:20261224T183000Z
 SUMMARY:Board of County Commissioners meeting (Multnomah County)
@@ -690,7 +690,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:579227619cd4@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261224T180000Z
 DTEND:20261224T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -700,7 +700,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:b055d2e13636@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261229T020000Z
 DTEND:20261229T030000Z
 SUMMARY:City Council meeting (City of Salem)
@@ -710,7 +710,7 @@ URL:https://www.cityofsalem.net/government/city-council-mayor/city-council-
 END:VEVENT
 BEGIN:VEVENT
 UID:c6581a156cf9@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261229T180000Z
 DTEND:20261229T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -720,7 +720,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:acc4fab0419e@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261230T173000Z
 DTEND:20261230T183000Z
 SUMMARY:City Council meeting (City of Portland)
@@ -730,7 +730,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:47214e703a96@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261231T173000Z
 DTEND:20261231T183000Z
 SUMMARY:Board of County Commissioners meeting (Multnomah County)
@@ -740,7 +740,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:86113e58aa00@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20261231T180000Z
 DTEND:20261231T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -750,7 +750,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:89ee51b30438@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Board of Commissioners regular business meeting (Washington County)
 LOCATION:Public Services Building\, 155 N. First Ave.\, Hillsboro (and onli
@@ -759,7 +759,7 @@ URL:https://www.washingtoncountyor.gov/bcc
 END:VEVENT
 BEGIN:VEVENT
 UID:95577c4a0b49@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270105T170000Z
 DTEND:20270105T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -769,7 +769,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:ea30eb1f6dd0@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270105T180000Z
 DTEND:20270105T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -779,7 +779,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:5b302d9cd0a8@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270106T020000Z
 DTEND:20270106T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -788,7 +788,7 @@ URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:0ffb68f8d636@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270106T173000Z
 DTEND:20270106T183000Z
 SUMMARY:City Council meeting (City of Portland)
@@ -798,7 +798,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:d7dfc5f27628@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270107T030000Z
 DTEND:20270107T040000Z
 SUMMARY:City Commission Regular Meeting (first Wednesdays) (City of Oregon 
@@ -808,7 +808,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3570/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:71cebb2c0dec@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270107T173000Z
 DTEND:20270107T183000Z
 SUMMARY:Board of County Commissioners meeting (Multnomah County)
@@ -818,7 +818,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:ff1679770e24@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270107T180000Z
 DTEND:20270107T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -828,7 +828,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:41828860d2af@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270108T013000Z
 DTEND:20270108T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -838,7 +838,7 @@ URL:https://wccls.bibliocommons.com/events/6afe0a6d0f200f1859859a8b
 END:VEVENT
 BEGIN:VEVENT
 UID:6c0d92240781@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270112T020000Z
 DTEND:20270112T030000Z
 SUMMARY:City Council meeting (City of Salem)
@@ -848,7 +848,7 @@ URL:https://www.cityofsalem.net/government/city-council-mayor/city-council-
 END:VEVENT
 BEGIN:VEVENT
 UID:915997503d34@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270112T030000Z
 DTEND:20270112T040000Z
 SUMMARY:Planning Commission Meeting (Second Monday) (City of Oregon City)
@@ -857,7 +857,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3620/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:2b30f5749994@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270112T170000Z
 DTEND:20270112T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -867,7 +867,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:c0dcb2271eff@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270112T180000Z
 DTEND:20270112T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -877,7 +877,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:67cdfce50bfb@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270113T020000Z
 DTEND:20270113T030000Z
 SUMMARY:City Commission Work Session (City of Oregon City)
@@ -886,7 +886,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3539/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:49e4ed43e470@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270113T173000Z
 DTEND:20270113T183000Z
 SUMMARY:City Council meeting (City of Portland)
@@ -896,7 +896,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:c2a2e7236feb@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270114T173000Z
 DTEND:20270114T183000Z
 SUMMARY:Board of County Commissioners meeting (Multnomah County)
@@ -906,7 +906,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:9d5310d62c78@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270114T180000Z
 DTEND:20270114T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -916,7 +916,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:8a3c5a2e8d5d@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270115T013000Z
 DTEND:20270115T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -926,7 +926,7 @@ URL:https://wccls.bibliocommons.com/events/6afe0a6d0f200f1859859a8c
 END:VEVENT
 BEGIN:VEVENT
 UID:fc5924cf618d@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART;VALUE=DATE:20270119
 SUMMARY:Board of Commissioners regular business meeting (Washington County)
 LOCATION:Public Services Building\, 155 N. First Ave.\, Hillsboro (and onli
@@ -935,7 +935,7 @@ URL:https://www.washingtoncountyor.gov/bcc
 END:VEVENT
 BEGIN:VEVENT
 UID:2b55c9477cc3@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270119T170000Z
 DTEND:20270119T180000Z
 SUMMARY:Board of Commissioners work session (Washington County)
@@ -945,7 +945,7 @@ URL:https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
 UID:b6f99ecb269f@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270119T180000Z
 DTEND:20270119T190000Z
 SUMMARY:Board of County Commissioners briefing (Multnomah County)
@@ -955,7 +955,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:35544ccef113@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270120T020000Z
 DTEND:20270120T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -964,7 +964,7 @@ URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:ca6ef59d144d@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270121T020000Z
 DTEND:20270121T030000Z
 SUMMARY:City Council evening meeting (City of Portland)
@@ -974,7 +974,7 @@ URL:https://www.portland.gov/council/agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:70630a9bc256@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270121T030000Z
 DTEND:20270121T040000Z
 SUMMARY:City Commission Regular Meeting (third Wednesdays) (City of Oregon 
@@ -984,7 +984,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3583/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:b03b4fe55053@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270121T173000Z
 DTEND:20270121T183000Z
 SUMMARY:Board of County Commissioners meeting (Multnomah County)
@@ -994,7 +994,7 @@ URL:https://multco.us/info/about-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:a9ca1dcc16d3@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270121T180000Z
 DTEND:20270121T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -1004,7 +1004,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:eda510bf8400@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270122T013000Z
 DTEND:20270122T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -1014,7 +1014,7 @@ URL:https://wccls.bibliocommons.com/events/6afe0a6d0f200f1859859a8d
 END:VEVENT
 BEGIN:VEVENT
 UID:efd28e5017a0@civicsor
-DTSTAMP:20261123T044844Z
+DTSTAMP:20261123T045434Z
 DTSTART:20270122T023000Z
 DTEND:20270122T033000Z
 SUMMARY:Arts Commission (City of Oregon City)

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T20:48:44-08:00",
+ "generated": "2026-11-22T20:54:34-08:00",
  "events": [
   {
    "id": "9bd3241f9ff2",
@@ -162,7 +162,11 @@
     "Overview of Head Start Rules Changes Alyssa Chatterjee, Director, Oregon Department of Early Learning and Care",
     "Child and Adult Food Care Program Presenters to be determined, Oregon Department of Education"
    ],
-   "highlights_more": 5
+   "highlights_more": 5,
+   "topics": [
+    "education",
+    "families"
+   ]
   },
   {
    "id": "249c32154a06",
@@ -186,7 +190,10 @@
     "SB 141 Division 22/24 Report Cortney Rowland, Ph.D., Program Director, Education Northwest TBD, Oregon Department of Education",
     "LPRO Attendance Report Monica Cox, Research Analyst, Legislative Policy and Research Office Beth Hustedt, Research Analyst, Legislative\u2026"
    ],
-   "highlights_more": 4
+   "highlights_more": 4,
+   "topics": [
+    "education"
+   ]
   },
   {
    "id": "81444d284756",
@@ -210,7 +217,13 @@
     "Wildlife Crossing Presenters TBD",
     "Tire Dust: Impacts on Oregon Waterways and Solutions Dr. Katie Holzer, Senior Environmental Specialist, City of Gresham Roy Iwai, Waer\u2026"
    ],
-   "highlights_more": 1
+   "highlights_more": 1,
+   "topics": [
+    "environment",
+    "transportation",
+    "families",
+    "local"
+   ]
   },
   {
    "id": "38cd175720d5",
@@ -234,7 +247,10 @@
     "2026 Midterm Election Administration Debrief Ricardo Lujan Valerio, Deputy Chief of Staff, Government Relations, Executive Office, Oregon\u2026",
     "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee\u2019s OLIS page"
    ],
-   "highlights_more": 0
+   "highlights_more": 0,
+   "topics": [
+    "elections"
+   ]
   },
   {
    "id": "4139a3b77d95",
@@ -296,7 +312,11 @@
     "Oregon Solutions Anniversary John Donovan, Director, Oregon Solutions Mark Labhart, Commissioner, Oregon Fish and Wildlife Commission and\u2026",
     "Water Efficiencies, Waste, and Beneficial Use Trevor Hildebrand, National Policy Consensus Center, Portland State University Steve\u2026"
    ],
-   "highlights_more": 4
+   "highlights_more": 4,
+   "topics": [
+    "education",
+    "environment"
+   ]
   },
   {
    "id": "47e2cb0b5692",
@@ -320,7 +340,10 @@
     "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page",
     "Arts and Our Economy Rep. Rob Nosse, Chair, Arts & Culture Caucus Amy Lewin, Director of Arts and Culture, Oregon Arts Commission and\u2026"
    ],
-   "highlights_more": 3
+   "highlights_more": 3,
+   "topics": [
+    "business"
+   ]
   },
   {
    "id": "f66bd2516fc7",
@@ -344,7 +367,10 @@
     "Introduction of Committee Legislative Concepts When available, LC Drafts will be posted on the committee's OLIS page",
     "Comprehensive Public Defense Report Ken Sanchagrin, Executive Director, Oregon Public Defense Commission"
    ],
-   "highlights_more": 4
+   "highlights_more": 4,
+   "topics": [
+    "justice"
+   ]
   },
   {
    "id": "44ce62811796",
@@ -368,7 +394,11 @@
     "Nondisclosure Agreements Speakers to be determined",
     "Workforce Impacts of Artificial Intelligence Speakers to be determined"
    ],
-   "highlights_more": 6
+   "highlights_more": 6,
+   "topics": [
+    "labor",
+    "business"
+   ]
   },
   {
    "id": "4394b2ecca31",
@@ -392,7 +422,10 @@
     "Representative Lively Appreciation",
     "Geologic Carbon Sequestration Ruarri Day-Stirrat, Director, Oregon Department of Geology and Mineral Industries Kaitlin Lovell, Director\u2026"
    ],
-   "highlights_more": 3
+   "highlights_more": 3,
+   "topics": [
+    "environment"
+   ]
   },
   {
    "id": "c9fc8b76e974",
@@ -416,7 +449,11 @@
     "General Election Debrief Oregon Secretary of State Oregon Association of County Clerks",
     "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page"
    ],
-   "highlights_more": 0
+   "highlights_more": 0,
+   "topics": [
+    "elections",
+    "local"
+   ]
   },
   {
    "id": "86aeb0affec2",
@@ -440,7 +477,8 @@
     "Oregon Roots and Irish Aspirations: George Fox's Efforts in Ireland Shawn Daley, PhD, Vice President of Strategic Relationships, Dean of\u2026",
     "Bandon to Bandon: Building Connections Across the Atlantic Julie Miller, Chair, Bandon Oregon\u2013Ireland Twinning Committee"
    ],
-   "highlights_more": 1
+   "highlights_more": 1,
+   "topics": []
   },
   {
    "id": "de32e855c2cf",
@@ -464,7 +502,12 @@
     "2026 Biennial Energy Report Janine Benner, Director, Oregon Department of Energy Jessica Reichers, Manager, Technology and Policy, Oregon\u2026",
     "Heard Farms Wastewater Treatment Services for Municipal Systems Richard Heard, President, Heard Farms"
    ],
-   "highlights_more": 4
+   "highlights_more": 4,
+   "topics": [
+    "environment",
+    "business",
+    "local"
+   ]
   },
   {
    "id": "6d1b785b90f8",
@@ -507,7 +550,10 @@
     "Member Legislative Concept Previews",
     "Comprehensive Public Defense Report Ken Sanchagrin, Executive Director, Oregon Public Defense Commission"
    ],
-   "highlights_more": 5
+   "highlights_more": 5,
+   "topics": [
+    "justice"
+   ]
   },
   {
    "id": "4df87501d997",
@@ -531,7 +577,12 @@
     "Early Childhood Housing Stabilization Programs Liz Weber, Housing Stabilization Division Director, Oregon Housing and Community Services\u2026",
     "Behavioral Health Capacity and Investments Brian Nieubuurt, Legislative Analyst, Legislative Policy and Research Office Ebony Clarke\u2026"
    ],
-   "highlights_more": 2
+   "highlights_more": 2,
+   "topics": [
+    "housing",
+    "health",
+    "families"
+   ]
   },
   {
    "id": "b4626a136396",
@@ -555,7 +606,10 @@
     "Teacher Perspectives TBD",
     "Special Education Funding Models Daniel Thatcher, National Conference of State Legislatures Kristin McGuire, Texas Education Agency"
    ],
-   "highlights_more": 2
+   "highlights_more": 2,
+   "topics": [
+    "education"
+   ]
   },
   {
    "id": "5236968958b2",
@@ -598,7 +652,11 @@
     "TriMet Regional Economic Impact Findings Speakers TBD",
     "High-Speed Rail Updates Ashton Simpson, Metro Councilor, District 1 Amanda Pietz, Administrator, Policy, Data and Analysis Division, Oregon\u2026"
    ],
-   "highlights_more": 4
+   "highlights_more": 4,
+   "topics": [
+    "transportation",
+    "business"
+   ]
   },
   {
    "id": "384d9c4d299b",
@@ -622,7 +680,11 @@
     "Oregon Insurance Coverage Mandate Impact Statements (HB 4040, 2026) Oliver Droppers, Acting Director, Legislative Policy and Research\u2026",
     "2027 Insurance Market Rates Update Speakers to be determined"
    ],
-   "highlights_more": 2
+   "highlights_more": 2,
+   "topics": [
+    "health",
+    "business"
+   ]
   },
   {
    "id": "d9863615250b",
@@ -646,7 +708,15 @@
     "SB 829 (2025): Insurance Study Findings, Recommendations, and Implications for Oregon Housing TK Keen, Oregon Insurance Commissioner and\u2026",
     "Mission-Based Housing Development: Expanding Housing Opportunities on Faith-Based and Educational Properties Presenters TBD"
    ],
-   "highlights_more": 3
+   "highlights_more": 3,
+   "topics": [
+    "housing",
+    "education",
+    "health",
+    "elections",
+    "business",
+    "local"
+   ]
   },
   {
    "id": "42f0b2569d4d",
@@ -670,7 +740,11 @@
     "Baseline Housing Indicators in Oregon Mike Wilkerson, ECOnorthwest",
     "Homes Near Transit Julia Reed, Washington State Representative Andrew Justus, Niskanen Center Nolan Gray, Metropolitan Abundance Project\u2026"
    ],
-   "highlights_more": 3
+   "highlights_more": 3,
+   "topics": [
+    "housing",
+    "transportation"
+   ]
   },
   {
    "id": "fa650db652c2",
@@ -786,7 +860,13 @@
     "Inpatient Geriatric Psychiatric Care Presenters to be determined",
     "School-Based Medicaid Billing Rusha Grinstead, Medicaid Policy Manager for Children & Families, Oregon Health Authority (OHA) Jennifer\u2026"
    ],
-   "highlights_more": 3
+   "highlights_more": 3,
+   "topics": [
+    "housing",
+    "education",
+    "health",
+    "families"
+   ]
   },
   {
    "id": "6f3feb8ad1bd",
@@ -810,7 +890,10 @@
     "House Bill 4124 Preliminary Findings Speakers TBD, HECC Abby Lee, Oregon Community College Association, HB 4124 Advisory Group Matt\u2026",
     "Public University and Community College Funding Ben Cannon, Executive Director, Higher Education Coordinating Commission (HECC) Jim\u2026"
    ],
-   "highlights_more": 2
+   "highlights_more": 2,
+   "topics": [
+    "education"
+   ]
   },
   {
    "id": "208ccea4ee6a",
@@ -834,7 +917,13 @@
     "Interstate Bridge Replacement Program Update Carley Francis, Interim Project Administrator, Interstate 5 Bridge Replacement Project\u2026",
     "Advancing Safer Streets Statewide Michelle DuBarry, Families for Safer Streets Amanda Pietz, Policy, Data and Analysis Division\u2026"
    ],
-   "highlights_more": 1
+   "highlights_more": 1,
+   "topics": [
+    "transportation",
+    "budget",
+    "families",
+    "business"
+   ]
   },
   {
    "id": "6412ac3e9d2a",
