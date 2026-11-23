@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CivicsOR: what's new in Columbia County</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
+  <id>https://civicsor.org/</id>
+  <link href="https://civicsor.org/"/>
+  <updated>2026-11-22T21:06:19-08:00</updated>
+  <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:f3a8ad58af5c:new</id>
+    <title>New meeting: City Council meeting (Verify meetings, get virtual meeting details, and more meeting information can be found on our website at www.scappoose.gov.) (2027-01-19 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.scappoose.gov/Calendar.aspx?EID=390"/>
+    <summary>City of Scappoose · 2027-01-19 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e6802a3214b7:new</id>
+    <title>New meeting: City Council meeting (Verify meetings, get virtual meeting details, and more meeting information can be found on our website at www.scappoose.gov.) (2027-01-04 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.scappoose.gov/Calendar.aspx?EID=389"/>
+    <summary>City of Scappoose · 2027-01-04 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:43cd5cfd5b82:new</id>
+    <title>New meeting: City Council meeting **Please note date**(Verify meetings, get virtual meeting details, and more meeting information can be found on our website at www.scappoose.gov.) (2026-12-14 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.scappoose.gov/Calendar.aspx?EID=387"/>
+    <summary>City of Scappoose · 2026-12-14 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
+  </entry>
+</feed>

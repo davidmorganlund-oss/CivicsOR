@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsOR//Public meetings//EN
+X-WR-CALNAME:CivicsOR Morrow County
+BEGIN:VEVENT
+UID:8701e291df4e@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261202T020000Z
+DTEND:20261202T030000Z
+SUMMARY:City Council Workshop (City of Boardman)
+LOCATION:
+URL:https://boardmanor.portal.civicclerk.com/event/603/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:7159f542e227@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261202T030000Z
+DTEND:20261202T040000Z
+SUMMARY:City Council Meeting (City of Boardman)
+LOCATION:200 City Circle Center\, Boardman
+URL:https://boardmanor.portal.civicclerk.com/event/26/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:647978aeeb5e@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261216T000000Z
+DTEND:20261216T010000Z
+SUMMARY:City Council Meeting (City of Irrigon)
+LOCATION:City Hall Building\, 500 NE Main Ave\, Irrigon\, OR\, 97844\, Unit
+ ed States
+URL:https://ci.irrigon.or.us/event/city-council-meeting-3/2026-12-15/
+END:VEVENT
+BEGIN:VEVENT
+UID:9eba5e8da817@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270106T020000Z
+DTEND:20270106T030000Z
+SUMMARY:City Council Workshop Joint w/ Planning Commission (City of Boardma
+ n)
+LOCATION:
+URL:https://boardmanor.portal.civicclerk.com/event/604/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:6565ed2c407f@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270106T030000Z
+DTEND:20270106T040000Z
+SUMMARY:Urban Renewal Agency Meeting (City of Boardman)
+LOCATION:
+URL:https://boardmanor.portal.civicclerk.com/event/605/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:cedff65ed3cd@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270106T030500Z
+DTEND:20270106T040500Z
+SUMMARY:City Council Meeting (City of Boardman)
+LOCATION:200 City Circle Center\, Boardman
+URL:https://boardmanor.portal.civicclerk.com/event/27/overview
+END:VEVENT
+END:VCALENDAR

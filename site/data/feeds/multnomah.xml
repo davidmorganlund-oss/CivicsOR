@@ -4,7 +4,41 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-22T21:03:15-08:00</updated>
+  <updated>2026-11-22T21:06:19-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
-
+  <entry>
+    <id>tag:civicsor.org,2026:63f5630433e6:new</id>
+    <title>New meeting: City Council (2026-12-16 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.fairvieworegon.gov/m/calendar/event/detail/2614"/>
+    <summary>City of Fairview · 2026-12-16 18:00 (PT) · Council Chambers</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e00e134ddaff:new</id>
+    <title>New meeting: Planning Commission (2026-12-08 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.fairvieworegon.gov/m/calendar/event/detail/2625"/>
+    <summary>City of Fairview · 2026-12-08 18:30 (PT) · Council Chambers</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:2a13ac5f5252:new</id>
+    <title>New meeting: City Council (2026-12-02 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.fairvieworegon.gov/m/calendar/event/detail/2602"/>
+    <summary>City of Fairview · 2026-12-02 18:00 (PT) · Council Chambers</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:cd7607afaf74:new</id>
+    <title>New meeting: Budget Committee Mid-Year Work Session (2026-12-01 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.troutdaleoregon.gov/Calendar.aspx?EID=700"/>
+    <summary>City of Troutdale · 2026-12-01 18:00 (PT) · Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:70c7cfd0ba7d:new</id>
+    <title>New meeting: PlayEast! Recreation Board (2026-12-01 17:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.fairvieworegon.gov/m/calendar/event/detail/2766"/>
+    <summary>City of Fairview · 2026-12-01 17:30 (PT) · Council Chambers</summary>
+  </entry>
 </feed>

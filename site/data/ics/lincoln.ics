@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsOR//Public meetings//EN
+X-WR-CALNAME:CivicsOR Lincoln County
+BEGIN:VEVENT
+UID:5dd3f7dba7e5@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261126T020000Z
+DTEND:20261126T030000Z
+SUMMARY:CANCELLED: City Council Work Session - *CANCELLED* (City of Toledo)
+LOCATION:City Council Chambers\, 206 N Main Street\, Toledo
+URL:https://toledoor.portal.civicclerk.com/event/132/overview
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:b0cf62e6bf43@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261202T180000Z
+DTEND:20261202T200000Z
+SUMMARY:Board of Commissioners Meeting (Lincoln County)
+LOCATION:In the Board of Commissioners' chambers on the first floor of the 
+ Lincoln County Courthouse.\, Lincoln County Courthouse\, 225 W Olive Stree
+ t
+URL:https://www.co.lincoln.or.us/Calendar.aspx?EID=925
+END:VEVENT
+BEGIN:VEVENT
+UID:bf93ff97045f@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261203T013000Z
+DTEND:20261203T023000Z
+SUMMARY:Urban Renewal Agency Meeting (City of Toledo)
+LOCATION:206 N Main Street\, PO Box 220\, Toledo
+URL:https://toledoor.portal.civicclerk.com/event/1720/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:566c63a66966@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261203T020000Z
+DTEND:20261203T030000Z
+SUMMARY:City Council Meeting (City of Toledo)
+LOCATION:City Council Chambers\, 206 N Main Street\, Toledo
+URL:https://toledoor.portal.civicclerk.com/event/94/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:c617940e7153@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261210T023000Z
+DTEND:20261210T033000Z
+SUMMARY:Planning Commission Meeting (City of Toledo)
+LOCATION:City Hall Council Chambers\, 206 N Main Street\, Toledo
+URL:https://toledoor.portal.civicclerk.com/event/1721/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:87253f97027e@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART;VALUE=DATE:20261216
+SUMMARY:Board of Commissioners Meeting (Lincoln County)
+LOCATION:The Board of Commissioners Chambers in the Lincoln County Courthou
+ se\, 225 W Olive Street
+URL:https://www.co.lincoln.or.us/Calendar.aspx?EID=977
+END:VEVENT
+BEGIN:VEVENT
+UID:e63178869a76@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261217T020000Z
+DTEND:20261217T030000Z
+SUMMARY:City Council Meeting (City of Toledo)
+LOCATION:City Council Chambers\, 206 N Main Street\, Toledo
+URL:https://toledoor.portal.civicclerk.com/event/107/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:d84a80a15d14@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261217T230000Z
+DTEND:20261218T000000Z
+SUMMARY:Lincoln County Citizen Corps Coordinating Council (Lincoln County)
+LOCATION:
+URL:https://www.co.lincoln.or.us/Calendar.aspx?EID=2729
+END:VEVENT
+BEGIN:VEVENT
+UID:c4bb34ecba36@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261224T020000Z
+DTEND:20261224T030000Z
+SUMMARY:CANCELLED: City Council Work Session - *CANCELLED* (City of Toledo)
+LOCATION:City Council Chambers\, 206 N Main Street\, Toledo
+URL:https://toledoor.portal.civicclerk.com/event/133/overview
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:87d89107274f@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270106T180000Z
+DTEND:20270106T200000Z
+SUMMARY:Board of Commissioners Meeting (Lincoln County)
+LOCATION:In the Board of Commissioners' chambers on the first floor of the 
+ Lincoln County Courthouse.\, Lincoln County Courthouse\, 225 W Olive Stree
+ t
+URL:https://www.co.lincoln.or.us/Calendar.aspx?EID=926
+END:VEVENT
+BEGIN:VEVENT
+UID:551b74057c5e@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270107T020000Z
+DTEND:20270107T030000Z
+SUMMARY:City Council Meeting (City of Toledo)
+LOCATION:City Council Chambers\, 206 N Main Street\, Toledo
+URL:https://toledoor.portal.civicclerk.com/event/95/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:1b4e9900edf9@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART;VALUE=DATE:20270120
+SUMMARY:Board of Commissioners Meeting (Lincoln County)
+LOCATION:The Board of Commissioners Chambers in the Lincoln County Courthou
+ se\, 225 W Olive Street
+URL:https://www.co.lincoln.or.us/Calendar.aspx?EID=978
+END:VEVENT
+BEGIN:VEVENT
+UID:7dd56c103286@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270121T020000Z
+DTEND:20270121T030000Z
+SUMMARY:City Council Meeting (City of Toledo)
+LOCATION:City Council Chambers\, 206 N Main Street\, Toledo
+URL:https://toledoor.portal.civicclerk.com/event/122/overview
+END:VEVENT
+END:VCALENDAR

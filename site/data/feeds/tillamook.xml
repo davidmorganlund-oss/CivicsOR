@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CivicsOR: what's new in Tillamook County</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
+  <id>https://civicsor.org/</id>
+  <link href="https://civicsor.org/"/>
+  <updated>2026-11-22T21:06:19-08:00</updated>
+  <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:4031e2d57dfe:new</id>
+    <title>New meeting: Planning Commission Meeting (2027-01-21 17:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://rockawaybeachor.portal.civicclerk.com/event/2770/overview"/>
+    <summary>City of Rockaway Beach · 2027-01-21 17:00 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:5aa689dc9bdd:new</id>
+    <title>New meeting: City Council Meeting (2027-01-13 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://rockawaybeachor.portal.civicclerk.com/event/2757/overview"/>
+    <summary>City of Rockaway Beach · 2027-01-13 18:00 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:23d6445fece9:new</id>
+    <title>New meeting: City Council Workshop (2027-01-13 16:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://rockawaybeachor.portal.civicclerk.com/event/2744/overview"/>
+    <summary>City of Rockaway Beach · 2027-01-13 16:30 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:91ff4f9aa0b7:new</id>
+    <title>New meeting: Planning Commission Meeting (2026-12-17 17:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://rockawaybeachor.portal.civicclerk.com/event/2769/overview"/>
+    <summary>City of Rockaway Beach · 2026-12-17 17:00 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:51c946ccd551:new</id>
+    <title>New meeting: City Council Meeting (2026-12-09 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://rockawaybeachor.portal.civicclerk.com/event/2756/overview"/>
+    <summary>City of Rockaway Beach · 2026-12-09 18:00 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:a622ed4b762b:new</id>
+    <title>New meeting: City Council Workshop (2026-12-09 16:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://rockawaybeachor.portal.civicclerk.com/event/2743/overview"/>
+    <summary>City of Rockaway Beach · 2026-12-09 16:30 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
+  </entry>
+</feed>

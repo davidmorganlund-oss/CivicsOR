@@ -1,0 +1,183 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsOR//Public meetings//EN
+X-WR-CALNAME:CivicsOR Lane County
+BEGIN:VEVENT
+UID:7d6343c6c7ac@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261124T010000Z
+DTEND:20261124T030000Z
+SUMMARY:City Council Work Session (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1153
+END:VEVENT
+BEGIN:VEVENT
+UID:88a3ece5834a@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261201T000000Z
+DTEND:20261201T020000Z
+SUMMARY:Public Arts Committee Meeting - Rescheduled (City of Florence)
+LOCATION:City Hall
+URL:https://www.ci.florence.or.us/Calendar.aspx?EID=694
+END:VEVENT
+BEGIN:VEVENT
+UID:bb49bfabf7e9@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261202T001500Z
+DTEND:20261202T013000Z
+SUMMARY:Park Board Meeting (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1200
+END:VEVENT
+BEGIN:VEVENT
+UID:8b47a94437fd@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261202T010000Z
+DTEND:20261202T033000Z
+SUMMARY:State Transportation Improvement Fund (STIF) Advisory Committee Mee
+ ting (Lane Transit District)
+LOCATION:Glenwood Administrative Offices\, 3500 East 17th Avenue\, Eugene\,
+  OR\, 97403\, United States
+URL:https://www.ltd.org/event/state-transportation-improvement-fund-stif-ad
+ visory-committee-meeting-7/
+END:VEVENT
+BEGIN:VEVENT
+UID:83a6e7c59c6f@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261202T023000Z
+DTEND:20261202T043000Z
+SUMMARY:Planning Commission Meeting (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1166
+END:VEVENT
+BEGIN:VEVENT
+UID:264cc82f5cd6@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261203T000000Z
+DTEND:20261203T020000Z
+SUMMARY:Public Arts Committee Meeting (City of Florence)
+LOCATION:City Hall\, 250 Hwy 101
+URL:https://www.ci.florence.or.us/Calendar.aspx?EID=695
+END:VEVENT
+BEGIN:VEVENT
+UID:18d685d7330a@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261209T010000Z
+DTEND:20261209T033000Z
+SUMMARY:State Transportation Improvement Fund (STIF) Advisory Committee Mee
+ ting (Lane Transit District)
+LOCATION:Glenwood Administrative Offices\, 3500 East 17th Avenue\, Eugene\,
+  OR\, 97403\, United States
+URL:https://www.ltd.org/event/state-transportation-improvement-fund-stif-ad
+ visory-committee-meeting-8/
+END:VEVENT
+BEGIN:VEVENT
+UID:3cfd813a0d8e@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261209T013000Z
+DTEND:20261209T043000Z
+SUMMARY:Planning Commission Regular Meeting (City of Florence)
+LOCATION:City Hall\, 250 Hwy 101
+URL:https://www.ci.florence.or.us/Calendar.aspx?EID=717
+END:VEVENT
+BEGIN:VEVENT
+UID:24c3165b6526@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261210T163000Z
+DTEND:20261210T193000Z
+SUMMARY:City Council Work Session (City of Florence)
+LOCATION:City Hall\, 250 Hwy 101
+URL:https://www.ci.florence.or.us/Calendar.aspx?EID=677
+END:VEVENT
+BEGIN:VEVENT
+UID:5bb03f04559d@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261215T013000Z
+DTEND:20261215T043000Z
+SUMMARY:City Council Meeting (City of Florence)
+LOCATION:City Hall\, 250 Hwy 101
+URL:https://www.ci.florence.or.us/Calendar.aspx?EID=675
+END:VEVENT
+BEGIN:VEVENT
+UID:b9095eeb0424@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261215T020000Z
+DTEND:20261215T043000Z
+SUMMARY:City Council Meeting (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1142
+END:VEVENT
+BEGIN:VEVENT
+UID:6e3938b69764@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261216T233000Z
+DTEND:20261217T010000Z
+SUMMARY:Economic Development Committee (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1130
+END:VEVENT
+BEGIN:VEVENT
+UID:3f8ca9360e19@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261217T013000Z
+DTEND:20261217T030000Z
+SUMMARY:December Board Meeting (Lane Transit District)
+LOCATION:Glenwood Administrative Offices\, 3500 East 17th Avenue\, Eugene\,
+  OR\, 97403\, United States
+URL:https://www.ltd.org/event/december-board-meeting/
+END:VEVENT
+BEGIN:VEVENT
+UID:b0c05ff9c8f7@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261225T170000Z
+DTEND:20261225T190000Z
+SUMMARY:Business Assistance Committee Meeting (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1190
+END:VEVENT
+BEGIN:VEVENT
+UID:b1c3d8e6003b@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261229T023000Z
+DTEND:20261229T043000Z
+SUMMARY:City Council Work Session (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1154
+END:VEVENT
+BEGIN:VEVENT
+UID:54d6563ca586@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270106T001500Z
+DTEND:20270106T013000Z
+SUMMARY:Park Board Meeting (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1252
+END:VEVENT
+BEGIN:VEVENT
+UID:db9ff2247e60@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270106T023000Z
+DTEND:20270106T043000Z
+SUMMARY:Planning Commission Meeting (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1225
+END:VEVENT
+BEGIN:VEVENT
+UID:5ed21d48b772@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270112T023000Z
+DTEND:20270112T043000Z
+SUMMARY:City Council Meeting (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1201
+END:VEVENT
+BEGIN:VEVENT
+UID:0127dad94da5@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270120T233000Z
+DTEND:20270121T010000Z
+SUMMARY:Economic Development Committee Meeting (City of Veneta)
+LOCATION:
+URL:https://www.venetaoregon.gov/Calendar.aspx?EID=1240
+END:VEVENT
+END:VCALENDAR

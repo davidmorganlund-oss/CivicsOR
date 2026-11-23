@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CivicsOR: what's new in Morrow County</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
+  <id>https://civicsor.org/</id>
+  <link href="https://civicsor.org/"/>
+  <updated>2026-11-22T21:06:19-08:00</updated>
+  <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:cedff65ed3cd:new</id>
+    <title>New meeting: City Council Meeting (2027-01-05 19:05)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://boardmanor.portal.civicclerk.com/event/27/overview"/>
+    <summary>City of Boardman · 2027-01-05 19:05 (PT) · 200 City Circle Center, Boardman</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6565ed2c407f:new</id>
+    <title>New meeting: Urban Renewal Agency Meeting (2027-01-05 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://boardmanor.portal.civicclerk.com/event/605/overview"/>
+    <summary>City of Boardman · 2027-01-05 19:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9eba5e8da817:new</id>
+    <title>New meeting: City Council Workshop Joint w/ Planning Commission (2027-01-05 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://boardmanor.portal.civicclerk.com/event/604/overview"/>
+    <summary>City of Boardman · 2027-01-05 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:647978aeeb5e:new</id>
+    <title>New meeting: City Council Meeting (2026-12-15 16:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://ci.irrigon.or.us/event/city-council-meeting-3/2026-12-15/"/>
+    <summary>City of Irrigon · 2026-12-15 16:00 (PT) · City Hall Building, 500 NE Main Ave, Irrigon, OR, 97844, United States</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:7159f542e227:new</id>
+    <title>New meeting: City Council Meeting (2026-12-01 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://boardmanor.portal.civicclerk.com/event/26/overview"/>
+    <summary>City of Boardman · 2026-12-01 19:00 (PT) · 200 City Circle Center, Boardman</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8701e291df4e:new</id>
+    <title>New meeting: City Council Workshop (2026-12-01 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://boardmanor.portal.civicclerk.com/event/603/overview"/>
+    <summary>City of Boardman · 2026-12-01 18:00 (PT)</summary>
+  </entry>
+</feed>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CivicsOR: what's new in Wallowa County</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
+  <id>https://civicsor.org/</id>
+  <link href="https://civicsor.org/"/>
+  <updated>2026-11-22T21:06:19-08:00</updated>
+  <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:42a504db1c20:new</id>
+    <title>New meeting: Public Hearing Notice: ADU Ordinance - 2nd Hearing (2026-12-14 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.enterpriseoregon.gov/"/>
+    <summary>City of Enterprise · 2026-12-14 18:30 (PT)</summary>
+  </entry>
+</feed>

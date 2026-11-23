@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsOR//Public meetings//EN
+X-WR-CALNAME:CivicsOR Wallowa County
+BEGIN:VEVENT
+UID:42a504db1c20@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261215T023000Z
+DTEND:20261215T033000Z
+SUMMARY:Public Hearing Notice: ADU Ordinance - 2nd Hearing (City of Enterpr
+ ise)
+LOCATION:
+URL:https://www.enterpriseoregon.gov/
+END:VEVENT
+END:VCALENDAR

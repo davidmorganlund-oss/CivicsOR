@@ -1,0 +1,223 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsOR//Public meetings//EN
+X-WR-CALNAME:CivicsOR Clatsop County
+BEGIN:VEVENT
+UID:84b0e8e08324@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261124T010000Z
+DTEND:20261124T015000Z
+SUMMARY:City Council Work Session (City of Seaside)
+LOCATION:989 Broadway St.
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1159
+END:VEVENT
+BEGIN:VEVENT
+UID:d870c8a00322@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261124T020000Z
+DTEND:20261124T030000Z
+SUMMARY:City Council Meeting (City of Seaside)
+LOCATION:
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1217
+END:VEVENT
+BEGIN:VEVENT
+UID:f46e5a6f225f@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261201T171500Z
+DTEND:20261201T181500Z
+SUMMARY:Coffee with Council President Seth Morrisey (City of Seaside)
+LOCATION:Seaside Coffee House
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1008
+END:VEVENT
+BEGIN:VEVENT
+UID:5b3389dccde4@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261202T010000Z
+DTEND:20261202T030000Z
+SUMMARY:Fair Board Meeting (Clatsop County)
+LOCATION:Fairgrounds & Expo Center
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=476
+END:VEVENT
+BEGIN:VEVENT
+UID:5dd0272f8996@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261202T183000Z
+DTEND:20261202T193000Z
+SUMMARY:BCC Work Session (Clatsop County)
+LOCATION:
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=341
+END:VEVENT
+BEGIN:VEVENT
+UID:55562490202f@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261203T020000Z
+DTEND:20261203T040000Z
+SUMMARY:City Council Meeting (City of Gearhart)
+LOCATION:Gearhart City Hall\, 698 Pacific Way
+URL:https://www.cityofgearhart.com/Calendar.aspx?EID=482
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e0ea790f77@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261208T180000Z
+DTEND:20261208T200000Z
+SUMMARY:Planning Commission Meeting (Clatsop County)
+LOCATION:Judge Guy Boyington Building\, 857 Commercial Street
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=285
+END:VEVENT
+BEGIN:VEVENT
+UID:354fd9d50e48@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261209T180000Z
+DTEND:20261209T190000Z
+SUMMARY:Coffee with Councilor Tita Montero (City of Seaside)
+LOCATION:Ocean Cafe at Best Western Plus Ocean View\, 414 North Prom
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1279
+END:VEVENT
+BEGIN:VEVENT
+UID:d512c3418d5c@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261210T010000Z
+DTEND:20261210T020000Z
+SUMMARY:BCC Work Session & Regular Meeting (Clatsop County)
+LOCATION:Judge Guy Boyington Building\, 857 Commercial Street
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=370
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa19524e4b9@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261211T020000Z
+DTEND:20261211T040000Z
+SUMMARY:Planning Commission Meeting (City of Gearhart)
+LOCATION:Gearhart City Hall\, 698 Pacific Way
+URL:https://www.cityofgearhart.com/Calendar.aspx?EID=624
+END:VEVENT
+BEGIN:VEVENT
+UID:17ed2789cb72@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261215T010000Z
+DTEND:20261215T015000Z
+SUMMARY:City Council Work Session (City of Seaside)
+LOCATION:989 Broadway
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1199
+END:VEVENT
+BEGIN:VEVENT
+UID:f0a83e316147@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261215T020000Z
+DTEND:20261215T030000Z
+SUMMARY:City Council Meeting (City of Seaside)
+LOCATION:
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1179
+END:VEVENT
+BEGIN:VEVENT
+UID:5d129156a34f@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261229T010000Z
+DTEND:20261229T015000Z
+SUMMARY:CANCELLED: City Council Work Session (City of Seaside)
+LOCATION:989 Broadway St.
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1160
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:535baeff7429@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20261229T020000Z
+DTEND:20261229T030000Z
+SUMMARY:CANCELLED: City Council Meeting (City of Seaside)
+LOCATION:
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1218
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:51d82a59b992@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270104T183000Z
+DTEND:20270104T193000Z
+SUMMARY:BCC Work Session SPECIAL SESSION (Clatsop County)
+LOCATION:
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=636
+END:VEVENT
+BEGIN:VEVENT
+UID:4a42053ec77b@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270106T010000Z
+DTEND:20270106T030000Z
+SUMMARY:Fair Board Meeting (Clatsop County)
+LOCATION:Fairgrounds & Expo Center
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=477
+END:VEVENT
+BEGIN:VEVENT
+UID:730b0c6c69bc@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270106T183000Z
+DTEND:20270106T193000Z
+SUMMARY:BCC Work Session (Clatsop County)
+LOCATION:
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=342
+END:VEVENT
+BEGIN:VEVENT
+UID:80f8a5fa840f@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270107T020000Z
+DTEND:20270107T040000Z
+SUMMARY:City Council Meeting (City of Gearhart)
+LOCATION:Gearhart City Hall\, 698 Pacific Way
+URL:https://www.cityofgearhart.com/Calendar.aspx?EID=483
+END:VEVENT
+BEGIN:VEVENT
+UID:6b5a30fbd76d@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270112T010000Z
+DTEND:20270112T015000Z
+SUMMARY:City Council Work Session (City of Seaside)
+LOCATION:989 Broadway
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1200
+END:VEVENT
+BEGIN:VEVENT
+UID:3cb644a2db1e@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270112T020000Z
+DTEND:20270112T030000Z
+SUMMARY:City Council Meeting (City of Seaside)
+LOCATION:
+URL:https://www.cityofseaside.us/Calendar.aspx?EID=1180
+END:VEVENT
+BEGIN:VEVENT
+UID:fc43f513c316@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270114T010000Z
+DTEND:20270114T020000Z
+SUMMARY:BCC Work Session & Regular Meeting (Clatsop County)
+LOCATION:Judge Guy Boyington Building\, 857 Commercial Street
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=371
+END:VEVENT
+BEGIN:VEVENT
+UID:a692a13e9b7e@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270115T020000Z
+DTEND:20270115T040000Z
+SUMMARY:Planning Commission Meeting (City of Gearhart)
+LOCATION:Gearhart City Hall\, 698 Pacific Way
+URL:https://www.cityofgearhart.com/Calendar.aspx?EID=625
+END:VEVENT
+BEGIN:VEVENT
+UID:c17f33959778@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270119T190000Z
+DTEND:20270119T210000Z
+SUMMARY:ASAA Committee Regular Meeting (Clatsop County)
+LOCATION:800 Exchange Street\, Suite 430 Astoria\, OR 97103
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=498
+END:VEVENT
+BEGIN:VEVENT
+UID:ca446f9172a2@civicsor
+DTSTAMP:20261123T050619Z
+DTSTART:20270120T183000Z
+DTEND:20270120T193000Z
+SUMMARY:BCC Work Session (Clatsop County)
+LOCATION:
+URL:https://www.clatsopcounty.gov/Calendar.aspx?EID=447
+END:VEVENT
+END:VCALENDAR

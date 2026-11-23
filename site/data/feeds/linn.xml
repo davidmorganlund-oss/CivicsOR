@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CivicsOR: what's new in Linn County</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
+  <id>https://civicsor.org/</id>
+  <link href="https://civicsor.org/"/>
+  <updated>2026-11-22T21:06:19-08:00</updated>
+  <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:a00b45b0d76b:new</id>
+    <title>New meeting: Park Commission Meeting (2027-01-19 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.millersburgoregon.gov/Calendar.aspx?EID=1280"/>
+    <summary>City of Millersburg · 2027-01-19 18:00 (PT) · 4222 NE Old Salem Road</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:607a5fe53100:new</id>
+    <title>New meeting: Library Board Meeting (2027-01-14 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.cityoflyons.org/events/library-board-meeting-2027-01-14/"/>
+    <summary>City of Lyons · 2027-01-14 19:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:370bc5aeea73:new</id>
+    <title>New meeting: City Council Public Hearing &amp; Regular Meeting (2027-01-12 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.millersburgoregon.gov/Calendar.aspx?EID=342"/>
+    <summary>City of Millersburg · 2027-01-12 18:00 (PT) · City Hall, 4222 NE Old Salem Road</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9829117b7bcf:new</id>
+    <title>New meeting: Planning Commission Public Hearing &amp; Regular Meeting (2027-01-05 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.millersburgoregon.gov/Calendar.aspx?EID=441"/>
+    <summary>City of Millersburg · 2027-01-05 18:00 (PT) · 4222 NE Old Salem Road</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6b80e68517bc:new</id>
+    <title>New meeting: Community Health Committee Meeting (2026-12-23 16:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/2359/overview"/>
+    <summary>City of Sweet Home · 2026-12-23 16:00 (PT) · City Hall,, 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6b80e68517bc:cancelled</id>
+    <title>Cancelled: Community Health Committee Meeting (2026-12-23 16:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/2359/overview"/>
+    <summary>City of Sweet Home · 2026-12-23 16:00 (PT) · City Hall,, 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:4b9fecc39e72:new</id>
+    <title>New meeting: Council Meeting (2026-12-22 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.cityoflyons.org/events/council-meeting-2026-07-28-2026-08-25-2026-09-22-2026-10-27-2026-11-24-2026-12-22/"/>
+    <summary>City of Lyons · 2026-12-22 18:30 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ad61dd67bf36:new</id>
+    <title>New meeting: City Council Meeting (2026-12-22 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/53/overview"/>
+    <summary>City of Sweet Home · 2026-12-22 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ad61dd67bf36:cancelled</id>
+    <title>Cancelled: City Council Meeting (2026-12-22 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/53/overview"/>
+    <summary>City of Sweet Home · 2026-12-22 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:97d80b44df41:new</id>
+    <title>New meeting: Planning Commission Meeting (2026-12-17 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/102/overview"/>
+    <summary>City of Sweet Home · 2026-12-17 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:97d80b44df41:cancelled</id>
+    <title>Cancelled: Planning Commission Meeting (2026-12-17 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/102/overview"/>
+    <summary>City of Sweet Home · 2026-12-17 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:24b7b9207111:new</id>
+    <title>New meeting: Park &amp; Tree Committee Meeting (2026-12-15 16:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/2373/overview"/>
+    <summary>City of Sweet Home · 2026-12-15 16:00 (PT) · City Hall,, 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c7e2da10cb38:new</id>
+    <title>New meeting: Library Board Meeting (2026-12-10 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.cityoflyons.org/events/library-board-meeting-2026-12-10/"/>
+    <summary>City of Lyons · 2026-12-10 19:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:91992b703db2:new</id>
+    <title>New meeting: Library Board Meeting (2026-12-10 16:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/1223/overview"/>
+    <summary>City of Sweet Home · 2026-12-10 16:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:91992b703db2:cancelled</id>
+    <title>Cancelled: Library Board Meeting (2026-12-10 16:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/1223/overview"/>
+    <summary>City of Sweet Home · 2026-12-10 16:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:2d549f0d2c2c:new</id>
+    <title>New meeting: City Council Meeting (2026-12-08 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/40/overview"/>
+    <summary>City of Sweet Home · 2026-12-08 18:30 (PT) · City Hall,, 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:870df1f611f4:new</id>
+    <title>New meeting: City Council Public Hearing &amp; Regular Meeting (2026-12-08 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.millersburgoregon.gov/Calendar.aspx?EID=341"/>
+    <summary>City of Millersburg · 2026-12-08 18:00 (PT) · City Hall, 4222 NE Old Salem Road</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:386c371819f0:new</id>
+    <title>New meeting: Planning Commission Meeting (2026-12-03 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/90/overview"/>
+    <summary>City of Sweet Home · 2026-12-03 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0bb74b4b6cf5:new</id>
+    <title>New meeting: Planning Commission Work Session Meeting (2026-12-01 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.millersburgoregon.gov/Calendar.aspx?EID=440"/>
+    <summary>City of Millersburg · 2026-12-01 18:00 (PT) · 4222 NE Old Salem Road</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c08b04d408cb:new</id>
+    <title>New meeting: Community Health Committee Meeting (2026-11-25 16:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/2408/overview"/>
+    <summary>City of Sweet Home · 2026-11-25 16:00 (PT) · City Hall,, 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c08b04d408cb:cancelled</id>
+    <title>Cancelled: Community Health Committee Meeting (2026-11-25 16:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/2408/overview"/>
+    <summary>City of Sweet Home · 2026-11-25 16:00 (PT) · City Hall,, 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:28d62745276e:new</id>
+    <title>New meeting: Council Meeting (2026-11-24 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.cityoflyons.org/events/council-meeting-2026-07-28-2026-08-25-2026-09-22-2026-10-27-2026-11-24/"/>
+    <summary>City of Lyons · 2026-11-24 18:30 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:09176f8c708a:new</id>
+    <title>New meeting: City Council Meeting (2026-11-24 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/52/overview"/>
+    <summary>City of Sweet Home · 2026-11-24 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:09176f8c708a:cancelled</id>
+    <title>Cancelled: City Council Meeting (2026-11-24 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://sweethomeor.portal.civicclerk.com/event/52/overview"/>
+    <summary>City of Sweet Home · 2026-11-24 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
+  </entry>
+</feed>
