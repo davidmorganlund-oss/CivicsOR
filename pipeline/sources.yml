@@ -538,3 +538,89 @@ sources:
     homepage: https://jcld.specialdistrict.org/
     meetings:
       - {title: Library District Board meeting, when: 2nd Tuesday, time: "16:30", location: "241 SE 7th St., Madras", url: "https://jcld.specialdistrict.org/"}
+
+  - {id: siuslaw-library-board, name: Siuslaw Public Library District, type: ics, url: 'https://www.rivercal.org/events/category/siuslaw-public-library-district/list/?ical=1', include: '\bboard\b|budget committee|public hearing', county: Lane, area: Florence, category: library, homepage: 'https://www.siuslawlibrary.info/'}
+
+  - id: wasco-library-board
+    name: Wasco County Library Service District
+    type: schedule
+    county: Wasco
+    area: countywide
+    category: library
+    homepage: https://wascocountylibrary.com/
+    meetings:
+      - {title: Library District Board meeting, when: 3rd Tuesday, time: "16:00", location: "Zoom; in-person location rotates among the district's libraries", url: "https://wascocountylibrary.com/"}
+
+  - id: fern-ridge-library-board
+    name: Fern Ridge Library District
+    type: schedule
+    county: Lane
+    area: Veneta
+    category: library
+    homepage: https://www.fernridgelibrary.org/board-of-directors.html
+    meetings:
+      - {title: Library Board of Directors meeting, when: 2nd Wednesday, time: "19:00", location: "Fern Ridge Library, 88026 Territorial Rd., Veneta (and Zoom)", url: "https://frpld.specialdistrict.org/public-notices"}
+
+  - id: lane-library-district-board
+    name: Lane Library District (Creswell)
+    type: schedule
+    county: Lane
+    area: Creswell
+    category: library
+    homepage: https://creswell-library.specialdistrict.org/
+    meetings:
+      - {title: Library District Board meeting, when: 4th Tuesday, time: "17:00", location: "Creswell Library, 64 W. Oregon Ave. (and Zoom)", url: "https://creswell-library.specialdistrict.org/"}
+
+  - id: st-helens-library-board
+    name: St. Helens Public Library Board
+    type: schedule
+    county: Columbia
+    area: St. Helens
+    category: library
+    homepage: https://www.sthelensoregon.gov/bc-lb
+    meetings:
+      - {title: Library Board meeting, when: 2nd Monday, time: "19:15", location: "See the agenda; recent meetings have been on Zoom", url: "https://www.sthelensoregon.gov/bc-lb"}
+
+  - id: beaverton-library-board
+    name: Beaverton City Library Advisory Board
+    type: schedule
+    county: Washington
+    area: Beaverton
+    category: library
+    homepage: https://beavertonlibrary.org/104/Library-Advisory-Board
+    meetings:
+      - {title: Library Advisory Board meeting, when: 2nd Wednesday, time: "18:00", location: "Administrative Conference Room, Beaverton City Library, 12375 SW 5th St.", url: "https://beavertonlibrary.org/104/Library-Advisory-Board"}
+
+  - id: springfield-library-board
+    name: Springfield Library Advisory Board
+    type: schedule
+    county: Lane
+    area: Springfield
+    category: library
+    homepage: https://springfield-or.gov/library-advisory-board/
+    meetings:
+      # No meeting in December.
+      - {title: Library Advisory Board meeting, when: 1st Tuesday, time: "17:30", location: "See the agenda (and Zoom)", url: "https://springfield-or.gov/library-advisory-board/", skip_months: [12]}
+
+  - id: albany-library-board
+    name: Albany Library Board
+    type: schedule
+    county: Linn
+    area: Albany
+    category: library
+    homepage: https://www.albanyoregon.gov/council/groups/lib
+    meetings:
+      # November 24, 2026 was canceled and December moved to the 8th.
+      - {title: Library Board meeting, dates: [2026-12-08], time: "17:15", location: "Albany Main Library", url: "https://www.albanyoregon.gov/council/groups/lib"}
+      - {title: Library Board meeting, when: 4th Tuesday, from: 2027-01-01, skip_months: [12], time: "17:15", location: "Albany Main Library", url: "https://www.albanyoregon.gov/council/groups/lib"}
+
+  - id: corvallis-library-board
+    name: Corvallis-Benton County Public Library Advisory Board
+    type: schedule
+    county: Benton
+    area: Corvallis
+    category: library
+    homepage: https://cbcpubliclibrary.net/
+    meetings:
+      # Meets quarterly; these are the dates the city has posted.
+      - {title: Library Advisory Board meeting, dates: [2027-02-03, 2027-05-05], time: "18:30", location: "Corvallis-Benton County Public Library (and online)", url: "https://www.corvallisoregon.gov/node/67579"}
