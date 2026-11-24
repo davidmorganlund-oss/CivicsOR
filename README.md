@@ -70,11 +70,12 @@ initiatives and referendums, a two-minute pitch, reading a bill or agenda,
 problem to policy, and media literacy. Federal guides, courts, budgets, campaign
 finance, boards and commissions, and running for office come next, then Spanish.
 
-## Reading only what sites allow
+## How the reader behaves
 
-Every request the pipeline makes checks the site's robots.txt first. A source whose
-address is disallowed fails with a clear message, shows nothing, and is listed in
-the upkeep issue.
+The pipeline reads public meeting notices once a night, names itself in every
+request and asks each site for only a handful of pages. Since November 24, 2026 it
+no longer applies sites' robots.txt rules (see OPERATIONS.md); the check remains in
+`pipeline/build.py` behind `RESPECT_ROBOTS`.
 
 ## Security
 

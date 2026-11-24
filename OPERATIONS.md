@@ -59,18 +59,13 @@ publishes for the year. Those show as "Usually meets" until the board posts that
 day's meeting, and then the posting, with its agenda, takes over. Update each
 `regular_schedule` every summer, when boards adopt the next year's calendar.
 
-**Tried and blocked (November 2026).** These feeds exist, but each site's robots.txt
-asks automated readers to stay out, so the bodies stay on published schedules:
-Gresham (PrimeGov), Multnomah County and Lake Oswego School District (Granicus),
-Washington County (CivicWeb), and every Google Calendar feed (Umatilla County and
-the Astoria, Seaside, Sherwood, Lebanon, McMinnville, Junction City and Central
-school districts). Deschutes County's CivicPlus and IQM2 feeds answered but listed
-nothing. No need to try them again unless a site changes its rules.
-
-**Rules we keep:** respect sites that ask automated readers to stay out. The reader
-checks `robots.txt` and skips anything it disallows. That rules out, for now, Google
-Calendar feeds, BoardDocs, many Finalsite school calendars and several CivicWeb and
-Granicus portals; for those places the site links to the body's own meeting page.
+**Robots.txt (changed November 24, 2026).** The reader used to skip anything a
+site's `robots.txt` disallowed. That kept out most of the largest public bodies,
+whose meeting portals disallow every automated reader, so David decided to stop
+applying the rule. The check is still in `pipeline/build.py`; set `RESPECT_ROBOTS`
+to `True` to turn it back on. The reader still names itself, runs once a night and
+asks each site for a handful of pages. If an agency objects or blocks the reader,
+remove that source and say so on the coverage page.
 
 ## Large cities without a readable calendar
 

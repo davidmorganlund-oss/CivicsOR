@@ -391,7 +391,7 @@ print(len(ALL), "guides written")
 <p><strong>Always confirm with the host before you go.</strong> Agendas, times and rooms change, sometimes the same day.</p>
 
 <h2>What's not here yet</h2>
-<p>Some public bodies only post PDFs, or don't post a calendar online at all. Some websites block automated readers, and we respect that, including systems such as BoardDocs that ask automated readers to stay out. For those places, the site links to their own meeting pages instead. The <a href="coverage.html">coverage page</a> lists what's included county by county. Spanish pages are planned.</p>
+<p>Some public bodies only post PDFs, or don't post a calendar online at all. CivicsOR reads public meeting notices once a night with a reader that identifies itself, and keeps its requests light. Where a calendar can't be read, the site links to the body's own meeting page instead. The <a href="coverage.html">coverage page</a> lists what's included county by county. Spanish pages are planned.</p>
 
 <h2>Found a mistake or a missing meeting?</h2>
 <p><a class="link" href="mailto:{REPORT}?subject=CivicsOR%20correction">Report a correction</a></p>

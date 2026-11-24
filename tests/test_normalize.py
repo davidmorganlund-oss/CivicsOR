@@ -704,6 +704,11 @@ def test_robots_gate(monkeypatch):
     import requests
     monkeypatch.setattr(requests, "get", lambda url, **kw: Resp(200, robots))
     build._robots_cache.clear()
+    # The rule is off by default since November 2026: nothing is checked or blocked.
+    assert build.RESPECT_ROBOTS is False
+    build.check_robots("https://city.gov/calendar.aspx")
+    assert build._robots_cache == {}
+    monkeypatch.setattr(build, "RESPECT_ROBOTS", True)  # the rest tests the rule itself
     build.check_robots("https://city.gov/Calendar.aspx?CID=14")          # allowed for us
     for blocked in ["https://city.gov/common/modules/iCalendar/iCalendar.aspx?catID=1",  # case-insensitive
                     "https://city.gov/search?q=x"]:
