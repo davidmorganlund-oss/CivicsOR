@@ -9,6 +9,8 @@ import guides_or
 import guides_or2  # noqa: E402
 
 SITE = Path(__file__).resolve().parents[2] / "site"
+# The reps page also loads three state district maps (JSONP).
+REPS_SCRIPTS = " https://services.arcgis.com https://maps.oda.oregon.gov"
 FONTS = ('<link rel="preload" href="{up}fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
          '<link rel="preload" href="{up}fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>')
 SITE_URL = "https://civicsor.org/"
@@ -19,14 +21,15 @@ BY = ('<p class="by-barnone"><a href="https://barnoneinc.org"><img src="{up}barn
       'is not affiliated with any government agency, and does not speak for any public office.</p>')
 
 
-def head(title, up, desc, share=None, lang="en"):
+def head(title, up, desc, share=None, lang="en", scripts=""):
+    """scripts: extra hosts this page may load scripts from, for its CSP."""
     share = share or title.split(" | ")[0]
     return f'''<!doctype html>
 <html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov{scripts}; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc, quote=True)}">
@@ -265,13 +268,13 @@ assert listed == set(ALL), (listed ^ set(ALL))
 ''')
 
 # ---------- representatives ----------
-(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsOR", "", "Enter an Oregon street address to see your state senator, state representative and members of Congress, plus where to find your city and county officials.")}
+(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsOR", "", "Enter an Oregon street address to see every district you live in, your state senator, state representative and members of Congress, plus where to find your city and county officials.", scripts=REPS_SCRIPTS)}
 <a class="skip" href="#results">Skip to results</a>
 {top("", "reps")}
 
 <section class="hero"><div class="wrap">
   <h1>Find who represents you.</h1>
-  <p class="lede">Enter an Oregon street address to see your state senator, state representative and members of Congress and how to reach them, plus where to find your city and county officials.</p>
+  <p class="lede">Enter an Oregon street address to see every district you live in, from Congress down to your fire district, plus your state senator, state representative and members of Congress and how to reach them.</p>
   <form class="search" id="lookup">
     <div class="field wide">
       <label for="address">Street address</label>
@@ -279,7 +282,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
     </div>
     <button class="btn" type="submit">Look up</button>
   </form>
-  <p class="small">Your address is sent from your browser to the U.S. Census Bureau's address lookup to find your districts. CivicsOR never receives or stores it. Your browser remembers only your county and city, so the Engage guides can show local links.</p>
+  <p class="small">Your address is sent from your browser to the U.S. Census Bureau's address lookup to find your districts. Only the map point it returns, not your address, goes to public state maps to find your fire, education and conservation districts. CivicsOR never receives or stores either. Your browser remembers only your county and city, so the Engage guides can show local links.</p>
 </div></section>
 
 <main class="wrap narrow" style="padding-block: 40px 64px">
@@ -292,6 +295,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 {footer("", "State legislators come from Open States, a public roster built from the Oregon Legislature's member pages, and members of Congress from a public roster. Both are refreshed nightly. County links cover all 36 counties, and city links cover some of Oregon's larger cities.")}
 
 <script src="local.js"></script>
+<script src="districts.js"></script>
 <script src="reps.js"></script>
 </body>
 </html>
@@ -442,7 +446,7 @@ PRIV_EN = """
   </ul>
   <h2>What leaves your device</h2>
   <ul>
-    <li><strong>Address lookups.</strong> When you look up your representatives, your browser sends the address straight to the U.S. Census Bureau's public geocoder to find your districts. It doesn't pass through us, and we never see or store it.</li>
+    <li><strong>Address lookups.</strong> When you look up your representatives, your browser sends the address straight to the U.S. Census Bureau's public geocoder to find your districts. Your browser then sends only the map point the Census Bureau returns, not the address, to public map services run by the Oregon State Fire Marshal, the state's education agencies and the Oregon Department of Agriculture to find fire, education and conservation districts. Neither passes through us, and we never see or store them.</li>
     <li><strong>Hosting.</strong> The site is hosted on GitHub Pages. Like any web host, GitHub keeps standard server logs, such as IP addresses, for security. We don't get or use those logs.</li>
     <li><strong>Links you follow.</strong> Meeting details, agendas and guide sources open on government and other websites, which have their own privacy policies.</li>
     <li><strong>Problem reports.</strong> If you email us a correction, it goes to BarNone's inbox ({REPORT}). We use it only to fix the site.</li>
