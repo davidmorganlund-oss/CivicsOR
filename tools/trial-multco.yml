@@ -1,0 +1,7 @@
+# Scratch: why the Multnomah County Library feed times out (not for main)
+sources:
+  - {id: multco-asis, name: Multnomah County Library, type: bibliocommons, library: multcolib, searches: [voter, citizenship, civic, town hall, legislat], county: Multnomah, area: countywide}
+  - {id: multco-voter, name: Multnomah County Library, type: bibliocommons, library: multcolib, searches: [voter], county: Multnomah, area: countywide}
+  - {id: multco-citizenship, name: Multnomah County Library, type: bibliocommons, library: multcolib, searches: [citizenship], county: Multnomah, area: countywide}
+  - {id: multco-townhall, name: Multnomah County Library, type: bibliocommons, library: multcolib, searches: [town hall], county: Multnomah, area: countywide}
+  - {id: wccls-control, name: WCCLS, type: bibliocommons, library: wccls, searches: [voter], county: Washington, area: countywide}
