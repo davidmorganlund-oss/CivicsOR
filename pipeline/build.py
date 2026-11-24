@@ -78,7 +78,9 @@ def make_event(src, *, title, start, end=None, all_day=False, location="", url="
         "start": start.isoformat(),
         "end": end.isoformat() if end else None,
         "all_day": all_day,
-        "location": " ".join((location or "").split()),
+        # Google Calendar room bookings add capacity and equipment to the room's
+        # name ("Room 130 (50) [Big screen with HDMI support]"); keep the name.
+        "location": re.sub(r"\s*\(\d+\)\s*\[[^\]]*\]", "", " ".join((location or "").split())),
         "url": url or src.get("homepage", ""),
         "agenda_url": agenda_url or "",
         "note": " ".join((note or "").split()),

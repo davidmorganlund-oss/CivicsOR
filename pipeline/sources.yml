@@ -101,25 +101,16 @@ sources:
     homepage: https://multcolib.bibliocommons.com/v2/events
 
   # ---------- Washington County ----------
+  # The county's own meeting portal: the Board of Commissioners, its work
+  # sessions, Clean Water Services, the Fair Board and advisory councils.
   - id: washington-county
     name: Washington County
-    type: schedule
+    type: civicweb
+    tenant: washingtoncounty
     county: Washington
     area: countywide
-    homepage: https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
-    meetings:
-      - title: Board of Commissioners work session
-        when: 1st, 2nd, 3rd Tuesday
-        time: "09:00"
-        location: Public Services Building, Room 120D, 155 N. First Ave., Hillsboro (and online)
-        category: council
-        url: https://www.washingtoncountyor.gov/bcc/resources/board-meeting-schedule
-        note: Agendas post three business days before.
-      - title: Board of Commissioners regular business meeting
-        when: 1st, 3rd Tuesday
-        location: Public Services Building, 155 N. First Ave., Hillsboro (and online)
-        category: council
-        url: https://www.washingtoncountyor.gov/bcc
+    default_category: council
+    homepage: https://washingtoncounty.civicweb.net/Portal/
 
   - id: hillsboro
     name: City of Hillsboro
@@ -261,7 +252,7 @@ sources:
   - {id: lane-esd, name: Lane Education Service District, type: boardbook, organization: 1565, county: Lane, area: countywide, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/1565'}
   - {id: corvallis-sd, name: Corvallis School District, type: boardbook, organization: 1216, county: Benton, area: Corvallis, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/1216'}
   - {id: bend-la-pine-schools, name: Bend-La Pine Schools, type: boardbook, organization: 2413, county: Deschutes, area: Bend, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/2413', regular_schedule: [{title: School Board regular meeting, when: '2nd Tuesday', time: "17:30", url: 'https://meetings.boardbook.org/Public/Organization/2413', note: 'Usually at the Education Center, 520 NW Wall Street, Bend; some meetings are held in La Pine.'}, {title: School Board work session, when: '4th Tuesday', time: "17:30", url: 'https://meetings.boardbook.org/Public/Organization/2413', note: 'Usually at the Education Center, 520 NW Wall Street, Bend.', skip_months: [11, 12]}]}
-  - {id: medford-sd, name: Medford School District, type: boardbook, organization: 1545, county: Jackson, area: Medford, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/1545'}
+  - {id: medford-sd, name: Medford School District, type: boardbook, organization: 1545, county: Jackson, area: Medford, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/1545', regular_schedule: [{title: School Board regular session, dates: [2026-12-17, 2027-01-14, 2027-02-18, 2027-03-18, 2027-04-15, 2027-05-20, 2027-06-24], time: "17:45", location: 'Oakdale Middle School, Room 230, 815 S. Oakdale Avenue, Medford', url: 'https://www.medford.k12.or.us/our-district1/school-board/about-the-medford-school-board', note: 'From the district’s 2026-27 School Board meeting schedule.'}, {title: School Board work session, dates: [2027-02-04, 2027-03-04, 2027-04-01, 2027-05-06, 2027-06-10], time: "17:45", location: 'Oakdale Middle School, Room 230, 815 S. Oakdale Avenue, Medford', url: 'https://www.medford.k12.or.us/our-district1/school-board/about-the-medford-school-board', note: 'From the district’s 2026-27 School Board meeting schedule.'}]}
   - {id: ashland-sd, name: Ashland School District, type: boardbook, organization: 1537, county: Jackson, area: Ashland, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/1537'}
   - {id: central-point-sd, name: Central Point School District, type: boardbook, organization: 1553, county: Jackson, area: Central Point, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/1553'}
   - {id: eagle-point-sd, name: Eagle Point School District, type: boardbook, organization: 1542, county: Jackson, area: Eagle Point, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/1542'}
@@ -287,6 +278,11 @@ sources:
   - {id: salem-keizer-sd, name: Salem-Keizer Public Schools, type: schedule, county: Marion, area: Salem, category: school, homepage: 'https://salkeiz.k12.or.us/about/school-board', meetings: [{title: School Board business meeting, dates: [2026-12-08, 2027-01-12, 2027-02-09, 2027-03-09, 2027-04-13, 2027-05-11, 2027-06-08], time: "18:00", location: 'Support Services Center, 2575 Commercial Street SE, Salem', url: 'https://salkeiz.k12.or.us/about/school-board', note: 'From the dates on the district’s School Board page. Business meetings usually begin at 6 p.m.; the district lists some with an earlier start.'}, {title: School Board work session, dates: [2027-01-26, 2027-02-23, 2027-04-27, 2027-06-22], location: 'Support Services Center, 2575 Commercial Street SE, Salem', url: 'https://salkeiz.k12.or.us/about/school-board', note: 'From the dates on the district’s School Board page, which gives no start time for work sessions.'}]}
   - {id: reynolds-sd, name: Reynolds School District, type: boardbook, organization: 1006, county: Multnomah, area: Troutdale, category: school, exclude: '^(?!.*(regular|business|work ?session|public|hearing|budget|special)).*\b(executive|closed)\b', homepage: 'https://meetings.boardbook.org/Public/Organization/1006', regular_schedule: [{title: School Board business meeting, dates: [2026-12-16, 2027-01-27, 2027-02-24, 2027-03-17, 2027-04-28, 2027-05-26, 2027-06-23], time: "18:00", location: 'RSD Edgefield Campus, Building I, 2408 SW Halsey Street, Troutdale', url: 'https://www.reynolds.k12.or.us/schoolboard', note: 'From the district’s 2026-27 board calendar.'}]}
   - {id: grants-pass-sd, name: Grants Pass School District, type: schedule, county: Josephine, area: Grants Pass, category: school, homepage: 'https://www.grantspass.k12.or.us/our-district/board-of-education/2026-agendas', meetings: [{title: Board of Education regular meeting, when: '2nd Tuesday', time: "17:00", url: 'https://www.grantspass.k12.or.us/our-district/board-of-education/2026-agendas', note: 'The district says regular meetings are generally held the second Tuesday at 5 p.m.'}]}
+  # Public Google calendars the bodies publish for subscribing.
+  - {id: umatilla-county, name: Umatilla County, type: ics, url: 'https://calendar.google.com/calendar/ical/c_i6mt119sdkubgn33dap6nrla2k%40group.calendar.google.com/public/basic.ics', county: Umatilla, area: countywide, default_category: council, homepage: 'https://www.umatillacounty.gov/'}
+  - {id: seaside-sd, name: Seaside School District, type: ics, url: 'https://calendar.google.com/calendar/ical/seasidek12.org_5346hknh2p1rcccrkqijhmp3fg%40group.calendar.google.com/public/basic.ics', include: '\bboard\b|budget committee|work ?session', category: school, county: Clatsop, area: Seaside, homepage: 'https://calendar.google.com/calendar/embed?src=seasidek12.org_5346hknh2p1rcccrkqijhmp3fg%40group.calendar.google.com'}
+  - {id: mcminnville-sd, name: McMinnville School District, type: ics, url: 'https://calendar.google.com/calendar/ical/msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com/public/basic.ics', include: '\bboard\b|budget committee|work ?session', exclude: 'appreciation', category: school, county: Yamhill, area: McMinnville, homepage: 'https://calendar.google.com/calendar/embed?src=msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com'}
+  - {id: junction-city-sd, name: Junction City School District, type: ics, url: 'https://calendar.google.com/calendar/ical/jcsdweb%40junctioncity.k12.or.us/public/basic.ics', include: '\bboard\b|budget committee|work ?session', category: school, county: Lane, area: Junction City, homepage: 'https://calendar.google.com/calendar/embed?src=jcsdweb%40junctioncity.k12.or.us'}
 
   # ---------- Large cities: published regular schedules ----------
   # These councils don't publish a calendar feed we can read, so the site lists
