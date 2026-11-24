@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T04:08:31-08:00</updated>
+  <updated>2026-11-24T12:12:53-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:024af040b40b:new</id>
@@ -21,11 +21,25 @@
     <summary>Ashland School District · 2027-01-14 18:30 (PT) · Ashland City Council Chamber, 1175 East Main Street</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:2be7adafe5b9:new</id>
+    <title>New meeting: Kitakata Sister City Advisory Board (2027-01-14 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3439/overview"/>
+    <summary>City of Wilsonville · 2027-01-14 18:00 (PT) · Wilsonville Parks and Recreation Admin Office, 29600 SW Park Place, Wilsonville</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:52b423ee63ab:new</id>
     <title>New meeting: Board Retreat (2027-01-13 17:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
     <summary>Eugene School District 4J · 2027-01-13 17:30 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e9fc9fece846:new</id>
+    <title>New meeting: Board Meeting (2027-01-06 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2027-01-06 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:c6e1a8895229:new</id>
@@ -70,6 +84,13 @@
     <summary>City of Wilsonville · 2026-12-14 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:c7294f190f3a:new</id>
+    <title>New meeting: Kitakata Sister City Advisory Board (2026-12-10 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3438/overview"/>
+    <summary>City of Wilsonville · 2026-12-10 18:00 (PT) · Wilsonville Parks and Recreation Admin Office, 29600 SW Park Place, Wilsonville</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:102be800c29d:new</id>
     <title>New meeting: Planning Commission (2026-12-09 19:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -89,6 +110,55 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
     <summary>Eugene School District 4J · 2026-12-07 07:30 (PT) · District Office, 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9779edbc9480:new</id>
+    <title>New meeting: Policy Committee Meeting (2026-12-03 19:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Agenda/1539?meeting=778358"/>
+    <summary>Molalla River School District · 2026-12-03 19:00 (PT) · MRSD Board Room, 412 S. Swiegle Ave</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:2533bb324454:new</id>
+    <title>New meeting: Joint Committee on Legislative Audits (2026-12-03 12:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/JLAUD/Overview"/>
+    <summary>Oregon Legislature · 2026-12-03 12:30 (PT) · Oregon State Capitol, Hearing Room 30 · On the agenda: Senator Lieber, Presiding Co-Chair; Secretary of State / Oregon Health Authority - Medicaid Duplicate IDs Put Federal Funding at Risk (Report No. 2026-26); Secretary of State / Department of Corrections / Oregon Youth Authority - Youth and Adults in Close-Custody Correctional Facilities Need…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:2533bb324454:agenda</id>
+    <title>Agenda posted: Joint Committee on Legislative Audits (2026-12-03 12:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JLAUD/2026-12-03-12-30"/>
+    <summary>Oregon Legislature · 2026-12-03 12:30 (PT) · Oregon State Capitol, Hearing Room 30 · On the agenda: Senator Lieber, Presiding Co-Chair; Secretary of State / Oregon Health Authority - Medicaid Duplicate IDs Put Federal Funding at Risk (Report No. 2026-26); Secretary of State / Department of Corrections / Oregon Youth Authority - Youth and Adults in Close-Custody Correctional Facilities Need…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:95f554ed13be:new</id>
+    <title>New meeting: Joint Committee on Information Management and Technology (2026-12-03 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/JLCIMT/Overview"/>
+    <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Chotzen, Presiding Co-Chair; Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Cybersecurity Briefing - Local Government Ransomware Attack (2023) Presenter: Jay Trost, Curry County Commissioner</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:95f554ed13be:agenda</id>
+    <title>Agenda posted: Joint Committee on Information Management and Technology (2026-12-03 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JLCIMT/2026-12-03-08-30"/>
+    <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Chotzen, Presiding Co-Chair; Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Cybersecurity Briefing - Local Government Ransomware Attack (2023) Presenter: Jay Trost, Curry County Commissioner</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0b11be9fd513:new</id>
+    <title>New meeting: Joint: Emergency Board (2026-12-03 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/EB/Overview"/>
+    <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Representative Fahey, Presiding Co-Chair; Consent Grants - Natural Resources Subcommittee 29. Department of Fish and Wildlife - Native Seed Supply Chain 30. Department of Fish and…; Consent Grants - Public Safety Subcommittee 2. Judicial Department - Columbia County Adult Treatment Court 3. Judicial Department -…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0b11be9fd513:agenda</id>
+    <title>Agenda posted: Joint: Emergency Board (2026-12-03 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EB/2026-12-03-08-30"/>
+    <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Representative Fahey, Presiding Co-Chair; Consent Grants - Natural Resources Subcommittee 29. Department of Fish and Wildlife - Native Seed Supply Chain 30. Department of Fish and…; Consent Grants - Public Safety Subcommittee 2. Judicial Department - Columbia County Adult Treatment Court 3. Judicial Department -…</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:44201b006dc7:new</id>
@@ -147,18 +217,32 @@
     <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Language Access Services For more information: https://www.oregonlegislature.gov/lpro/Pages/language-access.aspx Spanish interpretation is…; Wyatt v. Kotek Settlement Agreement and Neutral’s Annual Review; Strengthening, Preserving, and Reunifying Families (SPRF) Program Rule Changes</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:4c7bdd42bf84:new</id>
+    <title>New meeting: Joint Interim Subcommittee on Public Safety (2026-12-02 14:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/EBPS/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Senator Broadman, Presiding Co-Chair; Consent Grants 2. Judicial Department - Columbia County Adult Treatment Court 3. Judicial Department - Behavioral Health Facilitator Pilot…; Individual Items 1. Judicial Department - Compensation Plan Changes 14. Oregon Military Department - Combat Pistol Qualification Course 15.…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:4c7bdd42bf84:agenda</id>
+    <title>Agenda posted: Joint Interim Subcommittee on Public Safety (2026-12-02 14:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EBPS/2026-12-02-14-30"/>
+    <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Senator Broadman, Presiding Co-Chair; Consent Grants 2. Judicial Department - Columbia County Adult Treatment Court 3. Judicial Department - Behavioral Health Facilitator Pilot…; Individual Items 1. Judicial Department - Compensation Plan Changes 14. Oregon Military Department - Combat Pistol Qualification Course 15.…</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:121a631adcfd:new</id>
     <title>New meeting: Senate Interim Committee on Veterans, Emergency Management, Federal and World Affairs (2026-12-02 11:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/SVEMFW/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page; Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea…; Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Sen. Floyd Prozanski, Senate District 4 Lini…</summary>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page; Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea…; Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Lini DeMorias</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:121a631adcfd:agenda</id>
     <title>Agenda posted: Senate Interim Committee on Veterans, Emergency Management, Federal and World Affairs (2026-12-02 11:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SVEMFW/2026-12-02-11-30"/>
-    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page; Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea…; Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Sen. Floyd Prozanski, Senate District 4 Lini…</summary>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page; Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea…; Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Lini DeMorias</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:3c48c35b8463:new</id>
@@ -231,6 +315,34 @@
     <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:780852ca4c2c:new</id>
+    <title>New meeting: Joint Interim Subcommittee on Natural Resources (2026-12-02 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/EBNR/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Levy, Presiding Co-Chair; Consent Grants 29. Department of Fish and Wildlife - Native Seed Supply Chain 30. Department of Fish and Wildlife - Oregon Pink Shrimp…; Individual Items 32. Department of State Lands - Oregon Wetland GIS Data Project 33. Department of State Lands - Willamette Cove Remedial…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:780852ca4c2c:agenda</id>
+    <title>Agenda posted: Joint Interim Subcommittee on Natural Resources (2026-12-02 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EBNR/2026-12-02-08-30"/>
+    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Levy, Presiding Co-Chair; Consent Grants 29. Department of Fish and Wildlife - Native Seed Supply Chain 30. Department of Fish and Wildlife - Oregon Pink Shrimp…; Individual Items 32. Department of State Lands - Oregon Wetland GIS Data Project 33. Department of State Lands - Willamette Cove Remedial…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:d4d01a1fed44:new</id>
+    <title>New meeting: Joint Interim Subcommittee on Human Services (2026-12-01 14:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/EBHS/Overview"/>
+    <summary>Oregon Legislature · 2026-12-01 14:30 (PT) · Oregon State Capitol, Hearing Room H · On the agenda: Representative Valderrama, Presiding Co-Chair; 6. Oregon Health Authority - Fall 2026 Rebalance 7. Oregon Health Authority - Mental Health and Substance Use Prevention and Treatment 8.…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:d4d01a1fed44:agenda</id>
+    <title>Agenda posted: Joint Interim Subcommittee on Human Services (2026-12-01 14:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EBHS/2026-12-01-14-30"/>
+    <summary>Oregon Legislature · 2026-12-01 14:30 (PT) · Oregon State Capitol, Hearing Room H · On the agenda: Representative Valderrama, Presiding Co-Chair; 6. Oregon Health Authority - Fall 2026 Rebalance 7. Oregon Health Authority - Mental Health and Substance Use Prevention and Treatment 8.…</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:c204c5c8e043:new</id>
     <title>New meeting: Joint Committee on Oregon-China Sister State (2026-12-01 11:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -243,6 +355,20 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JOCSS/2026-12-01-11-30"/>
     <summary>Oregon Legislature · 2026-12-01 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Welcome and Roll Call; Introduction of New Members; 2026 Oregon-China Relations Annual Report Jin Lan, Executive Director, Oregon-China Sister State Committee</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c624fbfc1356:new</id>
+    <title>New meeting: Joint Interim Subcommittee on Higher Education (2026-12-01 11:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/EBHED/Overview"/>
+    <summary>Oregon Legislature · 2026-12-01 11:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Senator Neron Misslin, Presiding Co-Chair; 4. Higher Education Coordinating Commission - Oregon Tribal Student Grant 5. Higher Education Coordinating Commission - Youth Conservation…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c624fbfc1356:agenda</id>
+    <title>Agenda posted: Joint Interim Subcommittee on Higher Education (2026-12-01 11:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EBHED/2026-12-01-11-30"/>
+    <summary>Oregon Legislature · 2026-12-01 11:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Senator Neron Misslin, Presiding Co-Chair; 4. Higher Education Coordinating Commission - Oregon Tribal Student Grant 5. Higher Education Coordinating Commission - Youth Conservation…</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:7d471f732ada:new</id>
@@ -313,6 +439,13 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
     <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:a170bf43a82b:new</id>
+    <title>New meeting: Las Posadas Subcommittee (2026-11-24 15:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3624/overview"/>
+    <summary>City of Wilsonville · 2026-11-24 15:00 (PT) · 8200 SW Wilsonville Road, Wilsonville · On the agenda: Event Planning (All Aspects of the Event); Event Space Tour (Wilsonville Public Library - Oak Room)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:new</id>
@@ -1272,138 +1405,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1160"/>
     <summary>City of Seaside · 2026-12-28 17:00 (PT) · 989 Broadway St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:865fd7496297:new</id>
-    <title>New meeting: Woodburn City Council Meeting (2026-12-28)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.woodburn-or.gov/Calendar.aspx?EID=1781"/>
-    <summary>City of Woodburn · 2026-12-28 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b0c05ff9c8f7:new</id>
-    <title>New meeting: Business Assistance Committee Meeting (2026-12-25 09:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1190"/>
-    <summary>City of Veneta · 2026-12-25 09:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:5e1fec421252:new</id>
-    <title>New meeting: Planning Commission Meeting (2026-12-24 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.woodburn-or.gov/Calendar.aspx?EID=936"/>
-    <summary>City of Woodburn · 2026-12-24 18:30 (PT) · City Hall, 270 Montgomery Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:941a520c1337:new</id>
-    <title>New meeting: Board of Commissioners Formal Session (2026-12-24 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=801"/>
-    <summary>Yamhill County · 2026-12-24 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:941a520c1337:cancelled</id>
-    <title>Cancelled: Board of Commissioners Formal Session (2026-12-24 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=801"/>
-    <summary>Yamhill County · 2026-12-24 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ca555a20d271:new</id>
-    <title>New meeting: Urban Forestry Committee Meeting (2026-12-23 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1480"/>
-    <summary>City of Talent · 2026-12-23 18:30 (PT) · Community Center - Conference Room D and Zoom, 104 East Main Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:71a66221cadf:new</id>
-    <title>New meeting: Urban Area Planning Commission (2026-12-23 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5665"/>
-    <summary>City of Grants Pass · 2026-12-23 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:71a66221cadf:cancelled</id>
-    <title>Cancelled: Urban Area Planning Commission (2026-12-23 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5665"/>
-    <summary>City of Grants Pass · 2026-12-23 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:c4bb34ecba36:new</id>
-    <title>New meeting: City Council Work Session - *CANCELLED* (2026-12-23 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://toledoor.portal.civicclerk.com/event/133/overview"/>
-    <summary>City of Toledo · 2026-12-23 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:c4bb34ecba36:cancelled</id>
-    <title>Cancelled: City Council Work Session - *CANCELLED* (2026-12-23 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://toledoor.portal.civicclerk.com/event/133/overview"/>
-    <summary>City of Toledo · 2026-12-23 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:5042739168b9:new</id>
-    <title>New meeting: City Council Regular Meeting CANCELLED (2026-12-23 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.lapineoregon.gov/Calendar.aspx?EID=381"/>
-    <summary>City of La Pine · 2026-12-23 17:30 (PT) · 16345 6th St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:5042739168b9:cancelled</id>
-    <title>Cancelled: City Council Regular Meeting CANCELLED (2026-12-23 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.lapineoregon.gov/Calendar.aspx?EID=381"/>
-    <summary>City of La Pine · 2026-12-23 17:30 (PT) · 16345 6th St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:6b80e68517bc:new</id>
-    <title>New meeting: Community Health Committee Meeting (2026-12-23 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://sweethomeor.portal.civicclerk.com/event/2359/overview"/>
-    <summary>City of Sweet Home · 2026-12-23 16:00 (PT) · City Hall,, 3225 Main Street, Sweet Home</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:6b80e68517bc:cancelled</id>
-    <title>Cancelled: Community Health Committee Meeting (2026-12-23 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://sweethomeor.portal.civicclerk.com/event/2359/overview"/>
-    <summary>City of Sweet Home · 2026-12-23 16:00 (PT) · City Hall,, 3225 Main Street, Sweet Home</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:fe6c3a6c7f0d:new</id>
-    <title>New meeting: Planning Commission Regular Meeting (2026-12-23 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://crookcoor.portal.civicclerk.com/event/5517/overview"/>
-    <summary>Crook County · 2026-12-23 16:00 (PT) · 320 NE Court Street, Prineville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:fe6c3a6c7f0d:cancelled</id>
-    <title>Cancelled: Planning Commission Regular Meeting (2026-12-23 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://crookcoor.portal.civicclerk.com/event/5517/overview"/>
-    <summary>Crook County · 2026-12-23 16:00 (PT) · 320 NE Court Street, Prineville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:6b0f61c4c994:new</id>
-    <title>New meeting: Board of Commissioners Work Session (2026-12-23 09:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://crookcoor.portal.civicclerk.com/event/4503/overview"/>
-    <summary>Crook County · 2026-12-23 09:00 (PT) · 203 NE Court Street, Prineville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:4b9fecc39e72:new</id>
-    <title>New meeting: Council Meeting (2026-12-22 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityoflyons.org/events/council-meeting-2026-07-28-2026-08-25-2026-09-22-2026-10-27-2026-11-24-2026-12-22/"/>
-    <summary>City of Lyons · 2026-12-22 18:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:7b68deecb73f:new</id>
-    <title>New meeting: City Council Work Session (2026-12-22 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2238/overview"/>
-    <summary>City of Independence · 2026-12-22 18:30 (PT) · City Hall - Council Chambers</summary>
   </entry>
 </feed>
