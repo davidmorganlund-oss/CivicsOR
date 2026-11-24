@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T00:57:49-08:00</updated>
+  <updated>2026-11-24T04:08:31-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:024af040b40b:new</id>
@@ -98,18 +98,18 @@
     <summary>City of Troutdale · 2026-12-02 19:00 (PT) · Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:b3e329b118de:new</id>
-    <title>New meeting: City Council Study Session (2026-12-02 18:00)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1899"/>
-    <summary>City of Talent · 2026-12-02 18:00 (PT) · Community Center - Dining Room and Zoom, 104 E Main Street</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:82e9f551c22b:new</id>
     <title>New meeting: Regular Board Meeting (2026-12-02 18:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
     <summary>Eugene School District 4J · 2026-12-02 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b3e329b118de:new</id>
+    <title>New meeting: City Council Study Session (2026-12-02 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1899"/>
+    <summary>City of Talent · 2026-12-02 18:00 (PT) · Community Center - Dining Room and Zoom, 104 E Main Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:1bdb88702f53:cancelled</id>
