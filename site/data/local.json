@@ -1,5 +1,5 @@
 {
- "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page. 'cities' lists each city's official website as published in the Oregon Blue Book (November 2026), and each county's 'schools' lists its school districts, from the Oregon Department of Education's school directory.",
+ "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page. 'cities' lists each city's official website as published in the Oregon Blue Book (November 2026), and each county's 'schools' lists its school districts, from the Oregon Department of Education's school directory. Added November 2026: cities with no website of their own carry 'bluebook', their Oregon Blue Book page; each county's 'districts' lists its education service district, ports and libraries.",
  "counties": {
   "Baker": {
    "site": "https://www.bakercounty.org/",
@@ -20,11 +20,22 @@
      "name": "Pine Eagle SD 61",
      "site": "https://www.pineeagle.org/"
     }
+   ],
+   "districts": [
+    {
+     "name": "InterMountain ESD",
+     "kind": "esd",
+     "site": "https://www.imesd.k12.or.us/"
+    }
    ]
   },
   "Benton": {
    "site": "https://www.co.benton.or.us/",
    "schools": [
+    {
+     "name": "Alsea School District 7J",
+     "site": "https://www.alsea.k12.or.us/"
+    },
     {
      "name": "Corvallis SD 509J",
      "site": "https://www.csd509j.net"
@@ -36,6 +47,13 @@
     {
      "name": "Philomath SD 17J",
      "site": "https://www.philomathsd.net"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Linn Benton Lincoln ESD",
+     "kind": "esd",
+     "site": "https://www.lblesd.gov/"
     }
    ]
   },
@@ -83,6 +101,63 @@
      "name": "West Linn-Wilsonville SD",
      "site": "https://www.wlwv.k12.or.us"
     }
+   ],
+   "districts": [
+    {
+     "name": "Port of Portland",
+     "kind": "port",
+     "site": "https://www.portofportland.com/"
+    },
+    {
+     "name": "Canby Public Library",
+     "kind": "library",
+     "site": "https://www.canbyoregon.gov/library"
+    },
+    {
+     "name": "Clackamas County - Oak Lodge Public Library",
+     "kind": "library",
+     "site": "https://www.clackamas.us/lib"
+    },
+    {
+     "name": "Estacada Public Library",
+     "kind": "library",
+     "site": "https://www.cityofestacada.org/departments/estacada-public-library/"
+    },
+    {
+     "name": "Gladstone Public Library",
+     "kind": "library",
+     "site": "https://www.clackamas.us/lib"
+    },
+    {
+     "name": "Lake Oswego Public Library",
+     "kind": "library",
+     "site": "https://www.ci.oswego.or.us/library"
+    },
+    {
+     "name": "Ledding Library",
+     "kind": "library",
+     "site": "https://www.milwaukieoregon.gov/departments/library/index.php"
+    },
+    {
+     "name": "Library Information Network of Clackamas County",
+     "kind": "library",
+     "site": "https://www.lincc.org/"
+    },
+    {
+     "name": "Molalla Public Library",
+     "kind": "library",
+     "site": "https://www.cityofmolalla.com/Departments/Library"
+    },
+    {
+     "name": "West Linn Public Library",
+     "kind": "library",
+     "site": "https://westlinnoregon.gov/library/"
+    },
+    {
+     "name": "Wilsonville Public Library",
+     "kind": "library",
+     "site": "https://www.wilsonvillelibrary.org/"
+    }
    ]
   },
   "Clatsop": {
@@ -91,6 +166,10 @@
     {
      "name": "Astoria SD 1",
      "site": "https://www.astoria.k12.or.us"
+    },
+    {
+     "name": "Jewell School District",
+     "site": "https://www.jewell.k12.or.us/"
     },
     {
      "name": "Knappa SD 4",
@@ -107,6 +186,28 @@
     {
      "name": "Warrenton-Hammond SD",
      "site": "https://www.warrentonschools.com"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Port of Astoria",
+     "kind": "port",
+     "site": "https://www.portofastoria.com/"
+    },
+    {
+     "name": "Astoria Public Library",
+     "kind": "library",
+     "site": "https://www.astoria.gov/dept/Library"
+    },
+    {
+     "name": "Seaside Public Library",
+     "kind": "library",
+     "site": "https://www.seasidelibrary.org/"
+    },
+    {
+     "name": "Warrenton Community Library",
+     "kind": "library",
+     "site": "https://www.warrentonlibrary.org/"
     }
    ]
   },
@@ -132,6 +233,33 @@
     {
      "name": "Vernonia SD 47J",
      "site": "https://www.vernonia.k12.or.us"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Port of Columbia County",
+     "kind": "port",
+     "site": "https://www.portofcolumbiacounty.org/"
+    },
+    {
+     "name": "Clatskanie Library District",
+     "kind": "library",
+     "site": "https://www.clatskanielibrary.org/"
+    },
+    {
+     "name": "Rainier City Library",
+     "kind": "library",
+     "site": "https://cityofrainier.com/?view=library"
+    },
+    {
+     "name": "Scappoose Public Library District",
+     "kind": "library",
+     "site": "https://www.scappooselibrary.org/"
+    },
+    {
+     "name": "Vernonia Public Library",
+     "kind": "library",
+     "site": "https://www.vernonia-or.gov/departments/library/"
     }
    ]
   },
@@ -162,14 +290,68 @@
      "name": "Powers SD 31",
      "site": "https://www.powersschools.com"
     }
+   ],
+   "districts": [
+    {
+     "name": "South Coast ESD",
+     "kind": "esd",
+     "site": "https://www.scesd.k12.or.us/"
+    },
+    {
+     "name": "Oregon International Port of Coos Bay",
+     "kind": "port",
+     "site": "https://www.portofcoosbay.com/"
+    },
+    {
+     "name": "Port of Bandon",
+     "kind": "port",
+     "site": "https://www.portofbandon.com/"
+    },
+    {
+     "name": "Bandon Public Library",
+     "kind": "library",
+     "site": "https://www.bandonlibrary.org/"
+    },
+    {
+     "name": "Coos Bay Public Library",
+     "kind": "library",
+     "site": "https://www.coosbaylibrary.org/"
+    },
+    {
+     "name": "Coos County Library Service District",
+     "kind": "library",
+     "site": "https://www.cooslibraries.org/"
+    },
+    {
+     "name": "Dora Public Library",
+     "kind": "library",
+     "site": "https://dorapubliclibrary.org/"
+    },
+    {
+     "name": "North Bend Public Library",
+     "kind": "library",
+     "site": "https://www.northbendoregon.gov/21062"
+    }
    ]
   },
   "Crook": {
-   "site": "https://co.crook.or.us/",
+   "site": "https://www.crookcountyor.gov/",
    "schools": [
     {
      "name": "Crook County SD",
      "site": "https://www.crookcountyschools.org/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "High Desert ESD",
+     "kind": "esd",
+     "site": "https://www.hdesd.org/"
+    },
+    {
+     "name": "Crook County Library",
+     "kind": "library",
+     "site": "https://crooklibraryor.gov/"
     }
    ]
   },
@@ -188,6 +370,53 @@
      "name": "Port Orford-Langlois SD",
      "site": "https://www.2cj.com"
     }
+   ],
+   "districts": [
+    {
+     "name": "South Coast ESD",
+     "kind": "esd",
+     "site": "https://www.scesd.k12.or.us/"
+    },
+    {
+     "name": "Port of Brookings Harbor",
+     "kind": "port",
+     "site": "https://www.portofbrookingsharbor.com/"
+    },
+    {
+     "name": "Port of Gold Beach",
+     "kind": "port",
+     "site": "https://portofgoldbeach.com/"
+    },
+    {
+     "name": "Port of Port Orford",
+     "kind": "port",
+     "site": "https://portofportorford.org/"
+    },
+    {
+     "name": "Agness Community Library District",
+     "kind": "library",
+     "site": "https://agnesscommunitylibrary.weebly.com/"
+    },
+    {
+     "name": "Chetco Community Public Library",
+     "kind": "library",
+     "site": "https://chetcolibrary.org/"
+    },
+    {
+     "name": "Curry Public Library District",
+     "kind": "library",
+     "site": "https://www.currypubliclibrary.org/"
+    },
+    {
+     "name": "Langlois Library District",
+     "kind": "library",
+     "site": "https://www.langloispubliclibrary.org/"
+    },
+    {
+     "name": "Port Orford Public Library",
+     "kind": "library",
+     "site": "https://www.portorfordlibrary.gov/"
+    }
    ]
   },
   "Deschutes": {
@@ -205,6 +434,13 @@
      "name": "Sisters SD 6",
      "site": "http://ssd6.org"
     }
+   ],
+   "districts": [
+    {
+     "name": "High Desert ESD",
+     "kind": "esd",
+     "site": "https://www.hdesd.org/"
+    }
    ]
   },
   "Douglas": {
@@ -213,6 +449,10 @@
     {
      "name": "Camas Valley SD 21J",
      "site": "https://www.camasvalley.k12.or.us"
+    },
+    {
+     "name": "Days Creek School District 15",
+     "site": "https://www.dayscreekschools.com/"
     },
     {
      "name": "Douglas County SD 4",
@@ -247,6 +487,10 @@
      "site": "https://www.riddleschooldistrict.com"
     },
     {
+     "name": "Roseburg Public Schools",
+     "site": "https://www.roseburg.k12.or.us/"
+    },
+    {
      "name": "South Umpqua SD 19",
      "site": "https://www.susd.k12.or.us/"
     },
@@ -262,6 +506,33 @@
      "name": "Yoncalla SD 32",
      "site": "https://www.yoncalla.k12.or.us"
     }
+   ],
+   "districts": [
+    {
+     "name": "C. Giles Hunt Memorial Library",
+     "kind": "library",
+     "site": "https://www.sutherlinlibrary.org/"
+    },
+    {
+     "name": "Lower Umpqua Library District",
+     "kind": "library",
+     "site": "https://www.luld.org/"
+    },
+    {
+     "name": "North Douglas Library District",
+     "kind": "library",
+     "site": "https://www.ndld.org/"
+    },
+    {
+     "name": "Oakland Public Library",
+     "kind": "library",
+     "site": "https://oaklandor.biblionix.com/catalog/"
+    },
+    {
+     "name": "Roseburg Public Library",
+     "kind": "library",
+     "site": "https://cityofroseburg.org/departments/library"
+    }
    ]
   },
   "Gilliam": {
@@ -274,6 +545,28 @@
     {
      "name": "Condon SD 25J",
      "site": "https://www.condon.k12.or.us/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "North Central ESD",
+     "kind": "esd",
+     "site": "https://www.ncesd.k12.or.us/"
+    },
+    {
+     "name": "Port of Arlington",
+     "kind": "port",
+     "site": "https://www.portofarlington.com/"
+    },
+    {
+     "name": "Arlington Public Library",
+     "kind": "library",
+     "site": "https://arlington.ploud.net/"
+    },
+    {
+     "name": "Gilliam County Public Library",
+     "kind": "library",
+     "site": "https://www.gilliamcountyor.gov/government/library/index.php"
     }
    ]
   },
@@ -289,6 +582,10 @@
      "site": "https://grantsd3.schoolinsites.com"
     },
     {
+     "name": "Long Creek School District",
+     "site": "https://www.longcreekschool.com/"
+    },
+    {
      "name": "Monument SD 8",
      "site": "http://www.monumentschool.com/"
     },
@@ -296,14 +593,50 @@
      "name": "Prairie City SD 4",
      "site": "https://www.prairiecitysd.org/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Grant County ESD",
+     "kind": "esd",
+     "site": "https://grantesd.org/"
+    },
+    {
+     "name": "Grant County Library",
+     "kind": "library",
+     "site": "https://grantcountylibrary.net/"
+    }
    ]
   },
   "Harney": {
    "site": "https://www.harneycountyor.gov/",
    "schools": [
     {
+     "name": "Diamond School District",
+     "site": "https://harneyesd.k12.or.us/"
+    },
+    {
+     "name": "Frenchglen School District",
+     "site": "https://frenchglen.school/"
+    },
+    {
      "name": "Harney County SD 3",
      "site": "https://www.hcsd3.org/"
+    },
+    {
+     "name": "South Harney School District",
+     "site": "https://harneyesd.k12.or.us/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Harney ESD",
+     "kind": "esd",
+     "site": "https://harneyesd.k12.or.us/"
+    },
+    {
+     "name": "Harney County Library",
+     "kind": "library",
+     "site": "https://www.harneycountylibrary.org/"
     }
    ]
   },
@@ -313,6 +646,23 @@
     {
      "name": "Hood River County SD",
      "site": "https://www.hoodriver.k12.or.us/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Columbia Gorge ESD",
+     "kind": "esd",
+     "site": "https://www.cgesd.k12.or.us/"
+    },
+    {
+     "name": "Port of Cascade Locks",
+     "kind": "port",
+     "site": "https://www.portofcascadelocks.gov/"
+    },
+    {
+     "name": "Port of Hood River",
+     "kind": "port",
+     "site": "https://www.portofhoodriver.com/"
     }
    ]
   },
@@ -355,6 +705,13 @@
      "name": "Rogue River SD 35",
      "site": "https://www.rogueriver.k12.or.us/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Southern Oregon ESD",
+     "kind": "esd",
+     "site": "https://www.soesd.k12.or.us/"
+    }
    ]
   },
   "Jefferson": {
@@ -376,6 +733,13 @@
      "name": "Jefferson County SD 509J",
      "site": "https://jcsd.k12.or.us/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Jefferson County ESD",
+     "kind": "esd",
+     "site": "https://jcesd.k12.or.us/"
+    }
    ]
   },
   "Josephine": {
@@ -388,6 +752,13 @@
     {
      "name": "Three Rivers/Josephine County SD",
      "site": "https://www.threerivers.k12.or.us/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Southern Oregon ESD",
+     "kind": "esd",
+     "site": "https://www.soesd.k12.or.us/"
     }
    ]
   },
@@ -402,11 +773,27 @@
      "name": "Klamath Falls City Schools",
      "site": "https://www.kfalls.k12.or.us"
     }
+   ],
+   "districts": [
+    {
+     "name": "Southern Oregon ESD",
+     "kind": "esd",
+     "site": "https://www.soesd.k12.or.us/"
+    },
+    {
+     "name": "Klamath County Library Service District",
+     "kind": "library",
+     "site": "https://www.klamathlibrary.org/"
+    }
    ]
   },
   "Lake": {
    "site": "https://www.lakecountyor.org/",
    "schools": [
+    {
+     "name": "Adel School District",
+     "site": "https://www.lakeesd.k12.or.us/"
+    },
     {
      "name": "Lake County SD 7",
      "site": "https://www.lakeview.k12.or.us"
@@ -422,6 +809,18 @@
     {
      "name": "Plush SD 18",
      "site": "https://www.plushschool.com/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Lake ESD",
+     "kind": "esd",
+     "site": "https://www.lakeesd.k12.or.us/"
+    },
+    {
+     "name": "Lake County Library District",
+     "kind": "library",
+     "site": "https://www.lakecountylibrary.org/"
     }
    ]
   },
@@ -439,6 +838,10 @@
     {
      "name": "Creswell SD 40",
      "site": "https://creswell.k12.or.us/"
+    },
+    {
+     "name": "Crow-Applegate-Lorane School District",
+     "site": "https://www.cal.k12.or.us/"
     },
     {
      "name": "Eugene SD 4J",
@@ -488,6 +891,23 @@
      "name": "Springfield SD 19",
      "site": "https://www.springfield.k12.or.us/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Port of Siuslaw",
+     "kind": "port",
+     "site": "https://portofsiuslaw.com/"
+    },
+    {
+     "name": "Eugene Public Library",
+     "kind": "library",
+     "site": "https://www.eugene-or.gov/library"
+    },
+    {
+     "name": "Junction City Public Library",
+     "kind": "library",
+     "site": "https://junctioncity.ploud.net/"
+    }
    ]
   },
   "Lincoln": {
@@ -500,6 +920,58 @@
     {
      "name": "Siletz Valley Schools",
      "site": "https://www.siletzvalleyschools.org/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Linn Benton Lincoln ESD",
+     "kind": "esd",
+     "site": "https://www.lblesd.gov/"
+    },
+    {
+     "name": "Port of Alsea",
+     "kind": "port",
+     "site": "https://www.portofalsea.com/"
+    },
+    {
+     "name": "Port of Newport",
+     "kind": "port",
+     "site": "https://www.portofnewport.com/"
+    },
+    {
+     "name": "Port of Toledo",
+     "kind": "port",
+     "site": "https://www.portoftoledo.org/"
+    },
+    {
+     "name": "Driftwood Public Library",
+     "kind": "library",
+     "site": "https://driftwoodlib.org/"
+    },
+    {
+     "name": "Lincoln County Library District",
+     "kind": "library",
+     "site": "https://lincolnlibrary.specialdistrict.org/"
+    },
+    {
+     "name": "Newport Public Library",
+     "kind": "library",
+     "site": "https://www.newportoregon.gov/government/departments/library/index.php"
+    },
+    {
+     "name": "Siletz Public Library",
+     "kind": "library",
+     "site": "https://siletzpubliclibrary.org/"
+    },
+    {
+     "name": "Waldport Public Library",
+     "kind": "library",
+     "site": "https://www.waldportlibrary.org/"
+    },
+    {
+     "name": "Yachats Public Library",
+     "kind": "library",
+     "site": "https://www.yachatsoregon.org/"
     }
    ]
   },
@@ -530,6 +1002,43 @@
      "name": "Scio SD 95",
      "site": "https://www.sciok12.org/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Linn Benton Lincoln ESD",
+     "kind": "esd",
+     "site": "https://www.lblesd.gov/"
+    },
+    {
+     "name": "Brownsville Community Library",
+     "kind": "library",
+     "site": "https://www.brownsvillecommunitylibrary.org/"
+    },
+    {
+     "name": "Halsey City Library",
+     "kind": "library",
+     "site": "https://www.halseyor.gov/services/library/index.php"
+    },
+    {
+     "name": "Lebanon Public Library",
+     "kind": "library",
+     "site": "https://www.lebanonoregon.gov/233/Library"
+    },
+    {
+     "name": "Lyons Public Library",
+     "kind": "library",
+     "site": "https://www.cityoflyons.org/community/library/"
+    },
+    {
+     "name": "Scio Public Library",
+     "kind": "library",
+     "site": "https://www.sciooregon.gov/library"
+    },
+    {
+     "name": "Sweet Home Public Library",
+     "kind": "library",
+     "site": "https://www.sweethomeor.gov/"
+    }
    ]
   },
   "Malheur": {
@@ -544,12 +1053,20 @@
      "site": "https://www.annexsd.org/"
     },
     {
+     "name": "Arock School District",
+     "site": "https://www.malesd.org/"
+    },
+    {
      "name": "Harper SD 66",
      "site": "https://www.harpersd.org/"
     },
     {
      "name": "Jordan Valley SD 3",
      "site": "https://www.jordanvalley.k12.or.us"
+    },
+    {
+     "name": "Juntura School District",
+     "site": "https://www.malesd.org/"
     },
     {
      "name": "Nyssa SD 26",
@@ -566,6 +1083,28 @@
     {
      "name": "Vale SD 84",
      "site": "https://www.valesd.org/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Malheur ESD",
+     "kind": "esd",
+     "site": "https://www.malesd.org/"
+    },
+    {
+     "name": "Emma Humphrey Library",
+     "kind": "library",
+     "site": "https://www.cityofvale.com/government/departments/emma-humphrey-library/"
+    },
+    {
+     "name": "Nyssa Public Library",
+     "kind": "library",
+     "site": "https://ontariolibrary.specialdistrict.org/nyssa-and-vale-libraries"
+    },
+    {
+     "name": "Ontario Library District",
+     "kind": "library",
+     "site": "https://www.ontariocommunitylibrary.org/"
     }
    ]
   },
@@ -612,14 +1151,77 @@
      "name": "Woodburn SD 103",
      "site": "https://www.woodburnsd.org"
     }
+   ],
+   "districts": [
+    {
+     "name": "Willamette ESD",
+     "kind": "esd",
+     "site": "https://www.wesd.org/"
+    },
+    {
+     "name": "Chemeketa Cooperative Regional Library Service",
+     "kind": "library",
+     "site": "https://ccrls.org/"
+    },
+    {
+     "name": "Keizer Community Library",
+     "kind": "library",
+     "site": "https://keizerlibrary.org/"
+    },
+    {
+     "name": "Mt. Angel Public Library",
+     "kind": "library",
+     "site": "https://mtangelpubliclibrary.com/"
+    },
+    {
+     "name": "Salem Public Library",
+     "kind": "library",
+     "site": "https://www.cityofsalem.net/community/library"
+    },
+    {
+     "name": "Silver Falls Library District",
+     "kind": "library",
+     "site": "https://www.silverfallslibrary.org/"
+    },
+    {
+     "name": "Stayton Public Library",
+     "kind": "library",
+     "site": "https://www.staytonoregon.gov/page/library_home"
+    }
    ]
   },
   "Morrow": {
    "site": "https://www.co.morrow.or.us/",
    "schools": [
     {
+     "name": "Ione School District 2",
+     "site": "https://www.ione.k12.or.us/"
+    },
+    {
      "name": "Morrow SD 1",
      "site": "https://www.morrow.k12.or.us"
+    }
+   ],
+   "districts": [
+    {
+     "name": "InterMountain ESD",
+     "kind": "esd",
+     "site": "https://www.imesd.k12.or.us/"
+    },
+    {
+     "name": "Port of Morrow",
+     "kind": "port",
+     "site": "https://www.portofmorrow.com/"
+    },
+    {
+     "name": "Ione Library District",
+     "kind": "library",
+     "site": "https://www.ionelibrary.com/"
+    },
+    {
+     "name": "Oregon Trail Library District",
+     "kind": "library",
+     "site": "https://www.otld.org/"
     }
    ]
   },
@@ -659,6 +1261,13 @@
      "name": "Riverdale SD 51J",
      "site": "https://www.riverdaleschool.com"
     }
+   ],
+   "districts": [
+    {
+     "name": "Port of Portland",
+     "kind": "port",
+     "site": "https://www.portofportland.com/"
+    }
    ]
   },
   "Polk": {
@@ -680,6 +1289,23 @@
      "name": "Perrydale SD 21",
      "site": "https://www.perrydale.k12.or.us/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Willamette ESD",
+     "kind": "esd",
+     "site": "https://www.wesd.org/"
+    },
+    {
+     "name": "Independence Public Library",
+     "kind": "library",
+     "site": "https://www.ci.independence.or.us/library/"
+    },
+    {
+     "name": "Monmouth Public Library",
+     "kind": "library",
+     "site": "https://www.ci.monmouth.or.us/pview.aspx?id=4742"
+    }
    ]
   },
   "Sherman": {
@@ -688,6 +1314,18 @@
     {
      "name": "Sherman County SD",
      "site": "https://www.sherman.k12.or.us/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "North Central ESD",
+     "kind": "esd",
+     "site": "https://www.ncesd.k12.or.us/"
+    },
+    {
+     "name": "Sherman County Public/School Library",
+     "kind": "library",
+     "site": "http://shermancountypsl.weebly.com/"
     }
    ]
   },
@@ -705,6 +1343,23 @@
     {
      "name": "Tillamook SD 9",
      "site": "https://www.tillamook.k12.or.us"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Port of Garibaldi",
+     "kind": "port",
+     "site": "https://www.portofgaribaldi.org/"
+    },
+    {
+     "name": "Port of Tillamook Bay",
+     "kind": "port",
+     "site": "https://www.potb.org/"
+    },
+    {
+     "name": "Tillamook County Library",
+     "kind": "library",
+     "site": "https://www.tillabook.org/"
     }
    ]
   },
@@ -751,6 +1406,73 @@
      "name": "Umatilla SD 6R",
      "site": "https://www.umatilla.k12.or.us"
     }
+   ],
+   "districts": [
+    {
+     "name": "InterMountain ESD",
+     "kind": "esd",
+     "site": "https://www.imesd.k12.or.us/"
+    },
+    {
+     "name": "Port of Umatilla",
+     "kind": "port",
+     "site": "https://portofumatilla.org/"
+    },
+    {
+     "name": "Adams Public Library",
+     "kind": "library",
+     "site": "https://www.cityofadamsoregon.com/"
+    },
+    {
+     "name": "Athena Public Library",
+     "kind": "library",
+     "site": "https://athenalibrary.weebly.com/"
+    },
+    {
+     "name": "Echo Public Library",
+     "kind": "library",
+     "site": "https://echo-oregon.com/library/"
+    },
+    {
+     "name": "Helix Public Library",
+     "kind": "library",
+     "site": "https://helixlibrary.weebly.com/"
+    },
+    {
+     "name": "Hermiston Public Library",
+     "kind": "library",
+     "site": "https://www.hermiston.gov/library"
+    },
+    {
+     "name": "Milton-Freewater Public Library",
+     "kind": "library",
+     "site": "https://milton-freewater-or.gov/library"
+    },
+    {
+     "name": "Pendleton Public Library",
+     "kind": "library",
+     "site": "https://www.pendletonor.gov/library"
+    },
+    {
+     "name": "Pilot Rock Public Library",
+     "kind": "library",
+     "site": "https://www.cityofpilotrock.org/node/80611"
+    },
+    {
+     "name": "Stanfield Public Library",
+     "kind": "library",
+     "site": "https://cityofstanfield.com/library/"
+    },
+    {
+     "name": "Ukiah Public/School Library",
+     "kind": "library",
+     "site": "http://ukiahlibrary.weebly.com/"
+    },
+    {
+     "name": "Weston Public Library",
+     "kind": "library",
+     "site": "https://www.cityofweston.org/departments/library"
+    }
    ]
   },
   "Union": {
@@ -780,6 +1502,28 @@
      "name": "Union SD 5",
      "site": "https://www.union.k12.or.us"
     }
+   ],
+   "districts": [
+    {
+     "name": "InterMountain ESD",
+     "kind": "esd",
+     "site": "https://www.imesd.k12.or.us/"
+    },
+    {
+     "name": "Elgin Public Library",
+     "kind": "library",
+     "site": "https://cityofelginor.org/pages/public-library"
+    },
+    {
+     "name": "F. Maxine and Thomas W. Cook Memorial Library",
+     "kind": "library",
+     "site": "https://www.cookmemoriallibrary.org/"
+    },
+    {
+     "name": "North Powder City Library",
+     "kind": "library",
+     "site": "https://northpowderoregon.org/city-library/"
+    }
    ]
   },
   "Wallowa": {
@@ -801,6 +1545,28 @@
      "name": "Wallowa SD 12",
      "site": "https://www.wallowa.k12.or.us"
     }
+   ],
+   "districts": [
+    {
+     "name": "Region 18 ESD",
+     "kind": "esd",
+     "site": "https://www.r18esd.org/"
+    },
+    {
+     "name": "Enterprise City Library",
+     "kind": "library",
+     "site": "https://www.enterpriseoregon.org/"
+    },
+    {
+     "name": "Joseph City Library",
+     "kind": "library",
+     "site": "https://josephoregon.org/pages/library"
+    },
+    {
+     "name": "Wallowa Public Library",
+     "kind": "library",
+     "site": "https://galepages.com:443/wallowa"
+    }
    ]
   },
   "Wasco": {
@@ -817,6 +1583,28 @@
     {
      "name": "South Wasco County SD 1",
      "site": "https://www.swasco.net/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Columbia Gorge ESD",
+     "kind": "esd",
+     "site": "https://www.cgesd.k12.or.us/"
+    },
+    {
+     "name": "Port of The Dalles",
+     "kind": "port",
+     "site": "https://www.portofthedalles.gov/"
+    },
+    {
+     "name": "Southern Wasco County Library",
+     "kind": "library",
+     "site": "https://www.wascocountylibrary.com/"
+    },
+    {
+     "name": "The Dalles-Wasco County Library",
+     "kind": "library",
+     "site": "https://www.wascocountylibrary.com/"
     }
    ]
   },
@@ -853,6 +1641,48 @@
      "name": "Tigard-Tualatin SD 23J",
      "site": "https://www.ttsdschools.org"
     }
+   ],
+   "districts": [
+    {
+     "name": "Port of Portland",
+     "kind": "port",
+     "site": "https://www.portofportland.com/"
+    },
+    {
+     "name": "Aloha Community Library",
+     "kind": "library",
+     "site": "https://alohalibrary.org/"
+    },
+    {
+     "name": "Forest Grove City Library",
+     "kind": "library",
+     "site": "https://www.forestgrove-or.gov/library"
+    },
+    {
+     "name": "Garden Home and West Slope Community Libraries Library",
+     "kind": "library",
+     "site": "https://www.gardenhomelibrary.org/"
+    },
+    {
+     "name": "Hillsboro Public Library",
+     "kind": "library",
+     "site": "https://www.hillsboro-oregon.gov/our-city/departments/library"
+    },
+    {
+     "name": "Sherwood Public Library",
+     "kind": "library",
+     "site": "https://www.sherwoodoregon.gov/library"
+    },
+    {
+     "name": "Tigard Public Library",
+     "kind": "library",
+     "site": "https://www.tigard-or.gov/your-government/departments/library"
+    },
+    {
+     "name": "Tualatin Public Library",
+     "kind": "library",
+     "site": "https://library.tualatinoregon.gov/"
+    }
    ]
   },
   "Wheeler": {
@@ -869,6 +1699,18 @@
     {
      "name": "Spray SD 1",
      "site": "https://www.spray.k12.or.us/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "North Central ESD",
+     "kind": "esd",
+     "site": "https://www.ncesd.k12.or.us/"
+    },
+    {
+     "name": "Fossil Public Library",
+     "kind": "library",
+     "site": "https://www.fossillibrary.org/"
     }
    ]
   },
@@ -903,13 +1745,58 @@
      "name": "Yamhill Carlton SD 1",
      "site": "https://www.ycsd.k12.or.us"
     }
+   ],
+   "districts": [
+    {
+     "name": "Willamette ESD",
+     "kind": "esd",
+     "site": "https://www.wesd.org/"
+    },
+    {
+     "name": "Amity Public Library",
+     "kind": "library",
+     "site": "https://www.amityoregon.gov/departments/library/"
+    },
+    {
+     "name": "Mary Gilkey Public Library",
+     "kind": "library",
+     "site": "https://www.daytonoregon.gov"
+    },
+    {
+     "name": "McMinnville Public Library",
+     "kind": "library",
+     "site": "https://www.mcminnvilleoregon.gov/library"
+    },
+    {
+     "name": "Newberg Public Library",
+     "kind": "library",
+     "site": "https://www.newbergoregon.gov/library/"
+    },
+    {
+     "name": "Sheridan Public Library",
+     "kind": "library",
+     "site": "https://www.cityofsheridanor.com/library"
+    },
+    {
+     "name": "Willamina Public Library",
+     "kind": "library",
+     "site": "https://www.willaminaoregon.gov/departments/library/"
+    }
    ]
   }
  },
  "cities": {
+  "Adair Village": {
+   "county": "Benton",
+   "site": "https://adairvillage.org/"
+  },
   "Adams": {
    "county": "Umatilla",
    "site": "https://www.cityofadamsoregon.com/"
+  },
+  "Adrian": {
+   "county": "Malheur",
+   "site": "https://www.adrianoregon.com/"
   },
   "Albany": {
    "county": "Linn",
@@ -959,6 +1846,10 @@
    "county": "Washington",
    "site": "https://www.cityofbanks.org/"
   },
+  "Barlow": {
+   "county": "Clackamas",
+   "site": "https://www.barloworegon.com/"
+  },
   "Bay City": {
    "county": "Tillamook",
    "site": "https://www.ci.bay-city.or.us/"
@@ -1002,6 +1893,10 @@
   "Cannon Beach": {
    "county": "Clatsop",
    "site": "https://www.ci.cannon-beach.or.us/"
+  },
+  "Canyon City": {
+   "county": "Grant",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/canyon-city.aspx"
   },
   "Canyonville": {
    "county": "Douglas",
@@ -1078,6 +1973,14 @@
   "Dallas": {
    "county": "Polk",
    "site": "https://www.dallasor.gov/"
+  },
+  "Dayton": {
+   "county": "Yamhill",
+   "site": "https://www.daytonoregon.gov/"
+  },
+  "Dayville": {
+   "county": "Grant",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/dayville.aspx"
   },
   "Depoe Bay": {
    "county": "Lincoln",
@@ -1195,6 +2098,10 @@
    "county": "Jackson",
    "site": "https://www.cityofgoldhill.gov/"
   },
+  "Granite": {
+   "county": "Grant",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/granite.aspx"
+  },
   "Grants Pass": {
    "county": "Josephine",
    "site": "https://www.grantspassoregon.gov/"
@@ -1202,6 +2109,10 @@
   "Grass Valley": {
    "county": "Sherman",
    "site": "https://www.grassvalleyoregon.com/"
+  },
+  "Greenhorn": {
+   "county": "Baker",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/greenhorn.aspx"
   },
   "Gresham": {
    "county": "Multnomah",
@@ -1228,6 +2139,10 @@
    "county": "Linn",
    "site": "https://www.ci.harrisburg.or.us/"
   },
+  "Helix": {
+   "county": "Umatilla",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/helix.aspx"
+  },
   "Heppner": {
    "county": "Morrow",
    "site": "https://cityofheppner.org/"
@@ -1252,6 +2167,14 @@
   "Hubbard": {
    "county": "Marion",
    "site": "https://www.cityofhubbard.org/"
+  },
+  "Huntington": {
+   "county": "Baker",
+   "site": "https://www.cityofhuntingtonor.gov/"
+  },
+  "Idanha": {
+   "county": "Marion",
+   "site": "https://www.cityofidanha.us/"
   },
   "Imbler": {
    "county": "Union",
@@ -1284,6 +2207,14 @@
   "John Day": {
    "county": "Grant",
    "site": "https://www.cityofjohnday.com/"
+  },
+  "Johnson City": {
+   "county": "Clackamas",
+   "site": "https://johnsoncityoregon.gov/"
+  },
+  "Jordan Valley": {
+   "county": "Malheur",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/jordan-valley.aspx"
   },
   "Joseph": {
    "county": "Wallowa",
@@ -1341,6 +2272,10 @@
    "county": "Lincoln",
    "site": "https://www.lincolncityor.gov/"
   },
+  "Lonerock": {
+   "county": "Gilliam",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/lonerock.aspx"
+  },
   "Long Creek": {
    "county": "Grant",
    "site": "https://www.cityoflongcreek.org/"
@@ -1389,6 +2324,10 @@
    "county": "Klamath",
    "site": "https://cityofmerrill.org/"
   },
+  "Metolius": {
+   "county": "Jefferson",
+   "site": "https://www.cityofmetolius.com/"
+  },
   "Mill City": {
    "county": "Marion",
    "site": "http://www.ci.mill-city.or.us/"
@@ -1420,6 +2359,10 @@
   "Monroe": {
    "county": "Benton",
    "site": "https://monroeoregon.gov/"
+  },
+  "Monument": {
+   "county": "Grant",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/monument.aspx"
   },
   "Moro": {
    "county": "Sherman",
@@ -1519,6 +2462,18 @@
     "source": "https://www.portland.gov/council/agenda"
    }
   },
+  "Powers": {
+   "county": "Coos",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/powers.aspx"
+  },
+  "Prairie City": {
+   "county": "Grant",
+   "site": "https://prairiecityor.gov/"
+  },
+  "Prescott": {
+   "county": "Columbia",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/prescott.aspx"
+  },
   "Prineville": {
    "county": "Crook",
    "site": "https://www.cityofprineville.com/"
@@ -1534,6 +2489,14 @@
   "Reedsport": {
    "county": "Douglas",
    "site": "https://www.cityofreedsport.org/"
+  },
+  "Richland": {
+   "county": "Baker",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/richland.aspx"
+  },
+  "Riddle": {
+   "county": "Douglas",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/riddle.aspx"
   },
   "Rivergrove": {
    "county": "Clackamas",
@@ -1644,6 +2607,10 @@
    "county": "Marion",
    "site": "https://www.cityofsublimity.org/"
   },
+  "Summerville": {
+   "county": "Union",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/summerville.aspx"
+  },
   "Sumpter": {
    "county": "Baker",
    "site": "https://cityofsumpteror.com/"
@@ -1736,6 +2703,10 @@
   "Wasco": {
    "county": "Sherman",
    "site": "https://www.wascocountyor.gov/"
+  },
+  "Waterloo": {
+   "county": "Linn",
+   "bluebook": "https://sos.oregon.gov/blue-book/government/Pages/waterloo.aspx"
   },
   "West Linn": {
    "county": "Clackamas",

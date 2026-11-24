@@ -40,6 +40,19 @@
     select.appendChild(o);
   }
 
+  // Other local governments in the county (data/local.json "districts"), by kind.
+  var DISTRICT_NOTES = {
+    esd: 'Education service district: serves the school districts in this area. Board meetings and agendas.',
+    port: 'Port district: elected commissioners. Meetings, agendas and how to comment.',
+    library: 'Library: board meetings and agendas.',
+    utility: 'People’s utility district: elected board sets rates. Meetings and agendas.',
+    transit: 'Transit district: board meetings, agendas and service changes.',
+    hospital: 'Health or hospital district: board meetings and agendas.',
+    fire: 'Fire district: elected board. Meetings and agendas.',
+    parks: 'Park and recreation district: elected board. Meetings and agendas.',
+    other: 'Board meetings and agendas are on its website.'
+  };
+
   function links(data, show, place) {
     var ul = el('ul', 'guide-links near-links');
     var county = data.counties[place.county];
@@ -48,6 +61,7 @@
       if (kind === 'boards') {
         if (city && city.boards) item(ul, city.boards, 'City of ' + place.city + ' boards and commissions', 'Openings, applications and what each board does.');
         else if (city && city.site) item(ul, city.site, 'City of ' + place.city, 'The city does not list its boards on one page we could link. Look under City Clerk, Mayor or Government, or ask the clerk about openings.');
+        else if (city && city.bluebook) item(ul, city.bluebook, 'City of ' + place.city, 'This city has no website of its own. Ask city hall about openings; the Oregon Blue Book lists its address and phone.');
         if (county && county.boards) item(ul, county.boards, place.county + ' County boards and committees', 'County advisory boards and how to apply.');
         else if (county && (county.commissioners || county.site)) item(ul, county.commissioners || county.site, place.county + ' County commissioners',
           'This county does not list its boards on one page. The county commissioners make the appointments, so ask their office about openings.');
@@ -55,7 +69,11 @@
       }
       if (kind === 'site') {
         if (city && city.site) item(ul, city.site, 'City of ' + place.city, 'Official website: mayor and council, departments and service requests.');
+        else if (city && city.bluebook) item(ul, city.bluebook, 'City of ' + place.city, 'This city has no website of its own. The Oregon Blue Book lists its city hall address, phone and elected officials.');
         if (county && county.site) item(ul, county.site, place.county + ' County', 'Official website: commissioners, clerk, departments and services.');
+      }
+      if (kind === 'districts') {
+        ((county && county.districts) || []).forEach(function (d) { item(ul, d.site, d.name, DISTRICT_NOTES[d.kind] || DISTRICT_NOTES.other); });
       }
       if (kind === 'schools') {
         var list = (county && county.schools) || [];
@@ -65,6 +83,7 @@
       if (kind === 'meetings') {
         if (place.county) item(ul, base() + 'index.html', 'Public meetings in ' + place.county + ' County', 'The CivicsOR calendar, set to your county.');
         if (city && (city.meetings || city.site)) item(ul, city.meetings || city.site, 'City of ' + place.city + ' meetings', 'Council agendas are on the city’s website.');
+        else if (city && city.bluebook) item(ul, city.bluebook, 'City of ' + place.city + ' meetings', 'This city has no website. Council meetings are posted at city hall; the Oregon Blue Book lists its address and phone.');
         if (county && (county.meetings || county.site)) item(ul, county.meetings || county.site, place.county + ' County meetings', 'Commissioners’ agendas are on the county’s website.');
       }
     });
