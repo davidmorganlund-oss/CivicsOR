@@ -4,8 +4,71 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-23T04:04:15-08:00</updated>
+  <updated>2026-11-24T00:32:03-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:102be800c29d:new</id>
+    <title>New meeting: Planning Commission (2026-12-09 19:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.troutdaleoregon.gov/Calendar.aspx?EID=703"/>
+    <summary>City of Troutdale · 2026-12-09 19:00 (PT) · Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8f853946a74b:new</id>
+    <title>New meeting: City Council (2026-12-08 19:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.troutdaleoregon.gov/Calendar.aspx?EID=702"/>
+    <summary>City of Troutdale · 2026-12-08 19:00 (PT) · Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:44201b006dc7:new</id>
+    <title>New meeting: Citizens Advisory Committee (2026-12-02 19:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.troutdaleoregon.gov/Calendar.aspx?EID=701"/>
+    <summary>City of Troutdale · 2026-12-02 19:00 (PT) · Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6a86d248c459:new</id>
+    <title>New meeting: Council meeting (2026-11-26 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6a86d248c459:agenda</id>
+    <title>Agenda posted: Council meeting (2026-11-26 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3751_A_Council_meeting_26-11-26_Agenda.pdf"/>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6a86d248c459:cancelled</id>
+    <title>Cancelled: Council meeting (2026-11-26 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:new</id>
+    <title>New meeting: Council work session (2026-11-24 10:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:agenda</id>
+    <title>Agenda posted: Council work session (2026-11-24 10:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3750_A_Council_work_session_26-11-24_Agenda.pdf"/>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:cancelled</id>
+    <title>Cancelled: Council work session (2026-11-24 10:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:63f5630433e6:new</id>
     <title>New meeting: City Council (2026-12-16 18:00)</title>

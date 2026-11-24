@@ -1,408 +1,6 @@
 {
- "generated": "2026-11-23T04:04:15-08:00",
+ "generated": "2026-11-24T00:32:03-08:00",
  "events": [
-  {
-   "id": "814044eb4eb7",
-   "title": "Woodburn City Council Meeting",
-   "host": "City of Woodburn",
-   "source": "woodburn",
-   "area": "Woodburn",
-   "county": "Marion",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T00:00:00-08:00",
-   "end": null,
-   "all_day": true,
-   "location": "",
-   "url": "https://www.woodburn-or.gov/Calendar.aspx?EID=1780",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "d318ff932827",
-   "title": "Performance Evaluation Work Group",
-   "host": "City of Keizer",
-   "source": "keizer",
-   "area": "Keizer",
-   "county": "Marion",
-   "tz": "PT",
-   "category": "other",
-   "start": "2026-11-23T15:45:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "930 Chemawa Road NE, Keizer",
-   "url": "https://keizeror.portal.civicclerk.com/event/3578/overview",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false,
-   "highlights": [
-    "City Manager and City Attorney Evaluations and Job Descriptions"
-   ],
-   "highlights_more": 0
-  },
-  {
-   "id": "0afb756f7184",
-   "title": "City Council work session",
-   "host": "City of Albany",
-   "source": "albany",
-   "area": "Albany",
-   "county": "Linn",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T16:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Albany City Hall, Council Chambers, 333 Broadalbin St. SW",
-   "url": "https://www.albanyoregon.gov/council",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "8d39fa50edde",
-   "title": "CITY COUNCIL EXECUTIVE SESSION",
-   "host": "City of Bandon",
-   "source": "bandon",
-   "area": "Bandon",
-   "county": "Coos",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T16:00:00-08:00",
-   "end": "2026-11-23T17:00:00-08:00",
-   "all_day": false,
-   "location": "",
-   "url": "https://www.bandon-or.gov/Calendar.aspx?EID=439",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "ad5098a2d24a",
-   "title": "Library Board Meeting",
-   "host": "City of Independence",
-   "source": "independence",
-   "area": "Independence",
-   "county": "Polk",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T17:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Independence Public Library",
-   "url": "https://independenceor.portal.civicclerk.com/event/2261/overview",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false,
-   "highlights": [
-    "Public Library Division (PLD) Public Library Standards"
-   ],
-   "highlights_more": 0
-  },
-  {
-   "id": "84b0e8e08324",
-   "title": "City Council Work Session",
-   "host": "City of Seaside",
-   "source": "seaside",
-   "area": "Seaside",
-   "county": "Clatsop",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T17:00:00-08:00",
-   "end": "2026-11-23T17:50:00-08:00",
-   "all_day": false,
-   "location": "989 Broadway St.",
-   "url": "https://www.cityofseaside.us/Calendar.aspx?EID=1159",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "1b9127fc1eaa",
-   "title": "City Council work session",
-   "host": "City of Tualatin",
-   "source": "tualatin",
-   "area": "Tualatin",
-   "county": "Washington",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T17:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Tualatin City Services Building, 10699 SW Herman Rd.",
-   "url": "https://www.tualatinoregon.gov/citycouncil/council-meetings",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "7d6343c6c7ac",
-   "title": "City Council Work Session",
-   "host": "City of Veneta",
-   "source": "veneta",
-   "area": "Veneta",
-   "county": "Lane",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T17:00:00-08:00",
-   "end": "2026-11-23T19:00:00-08:00",
-   "all_day": false,
-   "location": "",
-   "url": "https://www.venetaoregon.gov/Calendar.aspx?EID=1153",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "46c5fa9c7708",
-   "title": "City Council Meeting",
-   "host": "City of Brookings",
-   "source": "brookings",
-   "area": "Brookings",
-   "county": "Curry",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T17:30:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "City Hall Chambers",
-   "url": "https://www.brookings.or.us/Calendar.aspx?EID=3124",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": true
-  },
-  {
-   "id": "8c9da62a3ef6",
-   "title": "City Council work session",
-   "host": "City of Eugene",
-   "source": "eugene",
-   "area": "Eugene",
-   "county": "Lane",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T17:30:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Eugene City Hall, 500 E. 4th Ave. (and online)",
-   "url": "https://www.eugene-or.gov/",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "2e19d1dfdfd7",
-   "title": "City Council work session",
-   "host": "City of Springfield",
-   "source": "springfield",
-   "area": "Springfield",
-   "county": "Lane",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T17:30:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Springfield City Hall, 225 Fifth St.",
-   "url": "https://www.springfield-or.gov/city/city-council-meetings/",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "6094f1e16975",
-   "title": "City Council meeting",
-   "host": "City of The Dalles",
-   "source": "the-dalles",
-   "area": "The Dalles",
-   "county": "Wasco",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T17:30:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "The Dalles City Hall, Council Chamber, 313 Court St.",
-   "url": "https://www.thedalles.gov/",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. The council usually doesn't meet in August or on holidays.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "9bd3241f9ff2",
-   "title": "City Council meeting",
-   "host": "City of Salem",
-   "source": "salem",
-   "area": "Salem",
-   "county": "Marion",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T18:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "",
-   "url": "https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Hybrid. Agendas are usually posted by the Thursday before. Sign up online to comment between 8 a.m. and 3 p.m. on meeting day.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "d870c8a00322",
-   "title": "City Council Meeting",
-   "host": "City of Seaside",
-   "source": "seaside",
-   "area": "Seaside",
-   "county": "Clatsop",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T18:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "",
-   "url": "https://www.cityofseaside.us/Calendar.aspx?EID=1217",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "32a3dcd0a19c",
-   "title": "Development Review Board B",
-   "host": "City of Wilsonville",
-   "source": "wilsonville",
-   "area": "Wilsonville",
-   "county": "Clackamas",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T18:30:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "City Hall, 29799 SW Town Center Loop E, Wilsonville",
-   "url": "https://wilsonvilleor.portal.civicclerk.com/event/3451/overview",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": true
-  },
-  {
-   "id": "d06ad668e6f2",
-   "title": "City Council meeting",
-   "host": "City of Forest Grove",
-   "source": "forest-grove",
-   "area": "Forest Grove",
-   "county": "Washington",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T19:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Community Auditorium, 1915 Main St.",
-   "url": "https://forestgrove-or.gov/365",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. When the Monday is a holiday, the council meets Tuesday.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "f1eacb154cca",
-   "title": "City Council meeting",
-   "host": "City of Hermiston",
-   "source": "hermiston",
-   "area": "Hermiston",
-   "county": "Umatilla",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T19:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "",
-   "url": "https://www.hermiston.gov/",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Work sessions, when scheduled, start at 6 p.m.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "decadeded2d2",
-   "title": "Planning Commission Meeting (4th Monday)",
-   "host": "City of Oregon City",
-   "source": "oregon-city",
-   "area": "Oregon City",
-   "county": "Clackamas",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T19:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Hanlon Commission Chambers, 1234 Linn Ave, Oregon City",
-   "url": "https://oregoncityor.portal.civicclerk.com/event/3606/overview",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false,
-   "highlights": [
-    "Continuance Request for GLUA-24-034-SUB-24-03-GEO-24-07-NROD-24-032 - Park Place II Subdivision",
-    "GLUA-26-010 / MAS-26-03 - Serres Farm PUD Master Plan Adjustment for Fence Height along Holcomb Boulevard"
-   ],
-   "highlights_more": 0
-  },
-  {
-   "id": "5a71233391a6",
-   "title": "City Council meeting",
-   "host": "City of Roseburg",
-   "source": "roseburg",
-   "area": "Roseburg",
-   "county": "Douglas",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T19:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Roseburg City Hall, Council Chambers, 900 SE Douglas Ave.",
-   "url": "https://cityofroseburg.org/your-government/mayor-council",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "0cb0200f021a",
-   "title": "City Council meeting",
-   "host": "City of Tualatin",
-   "source": "tualatin",
-   "area": "Tualatin",
-   "county": "Washington",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T19:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Tualatin City Services Building, 10699 SW Herman Rd.",
-   "url": "https://www.tualatinoregon.gov/citycouncil/council-meetings",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false,
-   "regular": true
-  },
-  {
-   "id": "d108f233c898",
-   "title": "City Council meeting",
-   "host": "City of Eugene",
-   "source": "eugene",
-   "area": "Eugene",
-   "county": "Lane",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-23T19:30:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "Eugene City Hall, 500 E. 4th Ave. (and online)",
-   "url": "https://www.eugene-or.gov/",
-   "agenda_url": "",
-   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false,
-   "regular": true
-  },
   {
    "id": "d2f1d263a7ad",
    "title": "Board of County Commissioners briefing",
@@ -421,6 +19,29 @@
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false,
    "regular": true
+  },
+  {
+   "id": "8ddb7ed5fcf6",
+   "title": "Council work session",
+   "host": "Metro (regional government)",
+   "source": "metro",
+   "area": "countywide",
+   "county": "Multnomah",
+   "counties": [
+    "Multnomah",
+    "Washington",
+    "Clackamas"
+   ],
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-24T10:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "CANCELED",
+   "url": "https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132",
+   "agenda_url": "https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3750_A_Council_work_session_26-11-24_Agenda.pdf",
+   "note": "CANCELED",
+   "cancelled": true
   },
   {
    "id": "e5f81702f670",
@@ -961,6 +582,29 @@
    "cancelled": true
   },
   {
+   "id": "6a86d248c459",
+   "title": "Council meeting",
+   "host": "Metro (regional government)",
+   "source": "metro",
+   "area": "countywide",
+   "county": "Multnomah",
+   "counties": [
+    "Multnomah",
+    "Washington",
+    "Clackamas"
+   ],
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-26T10:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "CANCELED",
+   "url": "https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132",
+   "agenda_url": "https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3751_A_Council_meeting_26-11-26_Agenda.pdf",
+   "note": "CANCELED",
+   "cancelled": true
+  },
+  {
    "id": "d0ba398982b9",
    "title": "Board of Commissioners Formal Session",
    "host": "Yamhill County",
@@ -1015,6 +659,55 @@
    "cancelled": false
   },
   {
+   "id": "d46a9acfa0bd",
+   "title": "Joint Task Force on Blue Economy",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-11-30T13:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room 40",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/JTFBE/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JTFBE/2026-11-30-13-00",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Welcome Review of Work Plan LPRO Staff",
+    "Perspective on the Blue Economy: Science and Innovation Lisa DeBruyckere, Director of Strategic Initiatives and Programs, Oregon Ocean\u2026",
+    "Ocean Cluster Models: Formation and Organizational Structures Joshua Berger, Founder and CEO, Maritime Blue"
+   ],
+   "highlights_more": 1,
+   "topics": [
+    "elections"
+   ]
+  },
+  {
+   "id": "107342d01f4d",
+   "title": "Council Work Group Meeting",
+   "host": "City of Ashland",
+   "source": "ashland",
+   "area": "Ashland",
+   "county": "Jackson",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-30T15:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Siskiyou Room, 51 Winburn Way, Ashland",
+   "url": "https://ashlandor.portal.civicclerk.com/event/1553/overview",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Review of Language Changes to the following"
+   ],
+   "highlights_more": 0
+  },
+  {
    "id": "d02269e5271e",
    "title": "Emergency Planning Committee",
    "host": "City of Keizer",
@@ -1030,7 +723,11 @@
    "url": "https://keizeror.portal.civicclerk.com/event/3509/overview",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": false,
+   "highlights": [
+    "Emergency Operations Plan Recommendation to Council"
+   ],
+   "highlights_more": 0
   },
   {
    "id": "88a3ece5834a",
@@ -1150,7 +847,7 @@
    "highlights": [
     "Child Savings Accounts Elizabeth Steiner, Oregon State Treasurer",
     "Overview of Head Start Rules Changes Alyssa Chatterjee, Director, Oregon Department of Early Learning and Care",
-    "Child and Adult Food Care Program Presenters to be determined, Oregon Department of Education"
+    "Child and Adult Food Care Program Meghan Tschida, Community Team Manager, Oregon Department of Education (ODE) Dustin Melton, Director of\u2026"
    ],
    "highlights_more": 5,
    "topics": [
@@ -1204,7 +901,7 @@
    "cancelled": false,
    "highlights": [
     "Process Update from Governor\u2019s Transportation Vision Panel: Community Livability and Safety, Freight, and Major Projects Kelly Brooks\u2026",
-    "Wildlife Crossing Presenters TBD",
+    "Wildlife Crossing Tristan Henry, Oregon Field Representative, Theodore Roosevelt Conservation Partnership Rep. Ken Helm, House District 27\u2026",
     "Tire Dust: Impacts on Oregon Waterways and Solutions Dr. Katie Holzer, Senior Environmental Specialist, City of Gresham Roy Iwai, Waer\u2026"
    ],
    "highlights_more": 1,
@@ -1213,6 +910,34 @@
     "transportation",
     "families",
     "local"
+   ]
+  },
+  {
+   "id": "37502bed3bf0",
+   "title": "Senate Interim Committee on Commerce and General Government",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-01T08:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room 60",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/SCGG/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SCGG/2026-12-01-08-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Community Investment Funds and Community Wealth-building Michael Shuman, Founder, Main Street Journal & Author, The Local Economy Solution\u2026",
+    "Community Economic Coalition\u2019s 2027 Legislative Agenda Berk Nelson, Senior Policy Advisor, National Association of Minority Contractors \u2013\u2026",
+    "Perspectives on Economic and Workforce Development: Priorities for the 2027 Legislative Session Oregon Business and Industry Duke Shepard\u2026"
+   ],
+   "highlights_more": 2,
+   "topics": [
+    "families",
+    "business"
    ]
   },
   {
@@ -1259,6 +984,33 @@
    "agenda_url": "",
    "note": "Crook County will hold a public meeting of the SB 111 Deadly Physical Force Planning Authority on Tuesday, December 1, 2026, at 9:00 a.m. The meeting will be held in person in the County Administration Conference Room, located at 203 NE Court Street, Prineville, Oregon. Remote attendance will also be available for members of the public who wish to participate virtually. The agenda will include an introduction; identification of the members of the Planning Authority; review of Deadly Physical Force Plan requirements; review of the Deadly Physical Force Plan; and adjournment. Members of the public are welcome to attend in person. For questions or to request assistance due to disability or for assistance with language interpretation or communications aids, please contact the Crook County District Attorney Kari Hathorn at 541-447-4158 or email da.office@crookcountor.gov. Assistance to disabled individuals or persons needing language interpretation is provided with advance notice.Join Zoom Meeting: https://crookcountyor.zoom.us/j/99254364782?pwd=nydLOgoTnQ7D1OUSBzcT8V98BYqa9Z.1 Meeting ID: 992 5436 4782Passcode: 909542",
    "cancelled": false
+  },
+  {
+   "id": "7d471f732ada",
+   "title": "Senate Interim Committee on Finance and Revenue",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-01T09:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room A",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/SFR/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SFR/2026-12-01-09-00",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Invited testimony only",
+    "9:00 - 9:30 2027 Tax Credit Report Legislative Revenue Office",
+    "9:30 - 10:00 2027 Property Tax Exemption Report Legislative Revenue Office"
+   ],
+   "highlights_more": 2,
+   "topics": [
+    "budget"
+   ]
   },
   {
    "id": "4139a3b77d95",
@@ -1388,6 +1140,31 @@
    "topics": [
     "business"
    ]
+  },
+  {
+   "id": "c204c5c8e043",
+   "title": "Joint Committee on Oregon-China Sister State",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-01T11:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room E",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/JOCSS/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JOCSS/2026-12-01-11-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Welcome and Roll Call",
+    "Introduction of New Members",
+    "2026 Oregon-China Relations Annual Report Jin Lan, Executive Director, Oregon-China Sister State Committee"
+   ],
+   "highlights_more": 2,
+   "topics": []
   },
   {
    "id": "f66bd2516fc7",
@@ -1564,7 +1341,7 @@
     "2026 Biennial Energy Report Janine Benner, Director, Oregon Department of Energy Jessica Reichers, Manager, Technology and Policy, Oregon\u2026",
     "Heard Farms Wastewater Treatment Services for Municipal Systems Richard Heard, President, Heard Farms"
    ],
-   "highlights_more": 4,
+   "highlights_more": 5,
    "topics": [
     "environment",
     "business",
@@ -2150,6 +1927,62 @@
    ]
   },
   {
+   "id": "e223acd0091d",
+   "title": "House Interim Committee on Labor and Workforce Development",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T08:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room F",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/HLWD/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HLWD/2026-12-02-08-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst\u2026",
+    "Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday\u2026",
+    "Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI"
+   ],
+   "highlights_more": 4,
+   "topics": [
+    "environment",
+    "transportation",
+    "labor"
+   ]
+  },
+  {
+   "id": "5901b3f5c1d5",
+   "title": "House Interim Committee on Revenue",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T08:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room A",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/HREV/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HREV/2026-12-02-08-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Invited testimony only",
+    "8:30 - 8:40 Introduction of 2027 Committee Bills (See meeting materials for LC Drafts)",
+    "8:40 - 9:10 2027 Tax Credit Report Legislative Revenue Office"
+   ],
+   "highlights_more": 5,
+   "topics": [
+    "budget"
+   ]
+  },
+  {
    "id": "4df87501d997",
    "title": "Senate Interim Committee on Early Childhood and Behavioral Health",
    "host": "Oregon Legislature",
@@ -2171,7 +2004,7 @@
     "Early Childhood Housing Stabilization Programs Liz Weber, Housing Stabilization Division Director, Oregon Housing and Community Services\u2026",
     "Behavioral Health Capacity and Investments Brian Nieubuurt, Legislative Analyst, Legislative Policy and Research Office Ebony Clarke\u2026"
    ],
-   "highlights_more": 2,
+   "highlights_more": 3,
    "topics": [
     "housing",
     "health",
@@ -2200,7 +2033,7 @@
     "Teacher Perspectives TBD",
     "Special Education Funding Models Daniel Thatcher, National Conference of State Legislatures Kristin McGuire, Texas Education Agency"
    ],
-   "highlights_more": 2,
+   "highlights_more": 1,
    "topics": [
     "education"
    ]
@@ -2297,6 +2130,90 @@
    "cancelled": false
   },
   {
+   "id": "3c48c35b8463",
+   "title": "House Interim Committee on Commerce and Consumer Protection",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T11:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room F",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/HCCP/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HCCP/2026-12-02-11-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Crypto Scams Chad Mullen, National Senior Director of Financial Security, AARP Andrea Meyer, Director of Government Relations, AARP Oregon\u2026",
+    "Oregon DOJ\u2019s Work to Tackle High Costs, Scams, and Fraud Leslie Wu, Policy Advisor to Attorney General Dan Rayfield",
+    "Preview of Commerce and Consumer Protection Related Bills"
+   ],
+   "highlights_more": 1,
+   "topics": [
+    "families",
+    "business"
+   ]
+  },
+  {
+   "id": "eb658be9edc9",
+   "title": "House Interim Committee on Emergency Management and Veterans",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T11:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room E",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/HEMV/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HEMV/2026-12-02-11-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee\u2019s OLIS page",
+    "Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran\u2026",
+    "Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire\u2026"
+   ],
+   "highlights_more": 0,
+   "topics": [
+    "health",
+    "environment",
+    "families"
+   ]
+  },
+  {
+   "id": "71e98a61d5cd",
+   "title": "Senate Interim Committee on Natural Resources and Wildfire",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T11:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room 40",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/SNRW/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SNRW/2026-12-02-11-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee\u2019s OLIS page",
+    "Wildfire Update and 2027 Legislative Priorities: Policy and Funding Needs Kyle Williams, Deputy Director, Fire Operations, Oregon\u2026",
+    "Incentivizing Wildfire Risk Reduction Activities Chief Mariana Ruiz-Temple, State Fire Marshal, Oregon State Fire Marshal TK Keen, Oregon\u2026"
+   ],
+   "highlights_more": 3,
+   "topics": [
+    "environment"
+   ]
+  },
+  {
    "id": "33778a5394bf",
    "title": "Senate Interim Committee on Transportation",
    "host": "Oregon Legislature",
@@ -2315,12 +2232,41 @@
    "cancelled": false,
    "highlights": [
     "Update on Rebuilding Our Transportation Vision Workgroup Speakers TBD",
-    "TriMet Regional Economic Impact Findings Speakers TBD",
-    "High-Speed Rail Updates Ashton Simpson, Metro Councilor, District 1 Amanda Pietz, Administrator, Policy, Data and Analysis Division, Oregon\u2026"
+    "TriMet Regional Economic Impact Findings Dr. Mike Wilkerson, Partner/Director of Economic Research, ECOnorthwest Sam Desue, Jr., General\u2026",
+    "High-Speed Rail Updates Mayor Keith Wilson, City of Portland, Oregon Ashton Simpson, Metro Councilor, District 1 Amanda Pietz\u2026"
    ],
    "highlights_more": 4,
    "topics": [
     "transportation",
+    "local"
+   ]
+  },
+  {
+   "id": "121a631adcfd",
+   "title": "Senate Interim Committee on Veterans, Emergency Management, Federal and World Affairs",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T11:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room D",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/SVEMFW/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SVEMFW/2026-12-02-11-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page",
+    "Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea\u2026",
+    "Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Sen. Floyd Prozanski, Senate District 4 Lini\u2026"
+   ],
+   "highlights_more": 6,
+   "topics": [
+    "elections",
+    "families",
     "business"
    ]
   },
@@ -2362,9 +2308,9 @@
    "highlights": [
     "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee\u2019s OLIS page",
     "Oregon Insurance Coverage Mandate Impact Statements (HB 4040, 2026) Oliver Droppers, Acting Director, Legislative Policy and Research\u2026",
-    "2027 Insurance Market Rates Update Speakers to be determined"
+    "2027 Insurance Market Rates Update TK Keen, Oregon Insurance Commissioner, Department of Consumer and Business Services (DCBS) Jesse\u2026"
    ],
-   "highlights_more": 2,
+   "highlights_more": 3,
    "topics": [
     "health",
     "business"
@@ -2431,6 +2377,33 @@
    ]
   },
   {
+   "id": "687980d77862",
+   "title": "Senate Interim Committee on Human Services",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T14:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room 60",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHS/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SHS/2026-12-02-14-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Language Access Services For more information: https://www.oregonlegislature.gov/lpro/Pages/language-access.aspx Spanish interpretation is\u2026",
+    "Wyatt v. Kotek Settlement Agreement and Neutral\u2019s Annual Review",
+    "Strengthening, Preserving, and Reunifying Families (SPRF) Program Rule Changes"
+   ],
+   "highlights_more": 6,
+   "topics": [
+    "families"
+   ]
+  },
+  {
    "id": "9b8969b20671",
    "title": "Historic Preservation Advisory Commission Meeting",
    "host": "City of Ashland",
@@ -2468,7 +2441,7 @@
   },
   {
    "id": "1bdb88702f53",
-   "title": "Planning Commission Meeting",
+   "title": "Planning Commission Meeting CANCELLED",
    "host": "City of La Pine",
    "source": "la-pine",
    "area": "La Pine",
@@ -2482,7 +2455,7 @@
    "url": "https://www.lapineoregon.gov/Calendar.aspx?EID=378",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "id": "bf93ff97045f",
@@ -2501,6 +2474,34 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "d75b9acf368d",
+   "title": "House Interim Committee on Human Services",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T17:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room D",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHS/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HHS/2026-12-02-17-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee\u2019s OLIS page",
+    "Rural Food Banks in Oregon",
+    "Previewing ODHS 2027 Legislative Concepts"
+   ],
+   "highlights_more": 4,
+   "topics": [
+    "families",
+    "business"
+   ]
   },
   {
    "id": "eba99a3fddfd",
@@ -2686,6 +2687,24 @@
    "regular": true
   },
   {
+   "id": "b3e329b118de",
+   "title": "City Council Study Session",
+   "host": "City of Talent",
+   "source": "talent",
+   "area": "Talent",
+   "county": "Jackson",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-02T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Community Center - Dining Room and Zoom, 104 E Main Street",
+   "url": "https://www.cityoftalent.org/Calendar.aspx?EID=1899",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "566c63a66966",
    "title": "City Council Meeting",
    "host": "City of Toledo",
@@ -2831,6 +2850,24 @@
    "cancelled": false
   },
   {
+   "id": "44201b006dc7",
+   "title": "Citizens Advisory Committee",
+   "host": "City of Troutdale",
+   "source": "troutdale",
+   "area": "Troutdale",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-02T19:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct",
+   "url": "https://www.troutdaleoregon.gov/Calendar.aspx?EID=701",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "d9b6694a2621",
    "title": "Board of County Commissioners meeting",
    "host": "Multnomah County",
@@ -2924,7 +2961,7 @@
    "highlights": [
     "HB 2015 (2025) Residential Behavioral Health Recommendations Holly Heiberg, Medicaid Policy Director, Medicaid Division, Oregon Health\u2026",
     "Inpatient Geriatric Psychiatric Care Presenters to be determined",
-    "School-Based Medicaid Billing Rusha Grinstead, Medicaid Policy Manager for Children & Families, Oregon Health Authority (OHA) Jennifer\u2026"
+    "School-Based Medicaid Billing Rusha Grinstead, Medicaid Policy Manager for Children & Families, Oregon Health Authority Jennifer Dundon\u2026"
    ],
    "highlights_more": 3,
    "topics": [
@@ -2952,11 +2989,11 @@
    "note": "",
    "cancelled": false,
    "highlights": [
-    "State Attainment Goal Ben Cannon, Executive Director, Higher Education Coordinating Commission",
-    "House Bill 4124 Preliminary Findings Speakers TBD, HECC Abby Lee, Oregon Community College Association, HB 4124 Advisory Group Matt\u2026",
-    "Public University and Community College Funding Ben Cannon, Executive Director, Higher Education Coordinating Commission (HECC) Jim\u2026"
+    "State Attainment Goal Ben Cannon, Executive Director, Higher Education Coordinating Commission Julia Pontoni, Chief of Strategy, Higher\u2026",
+    "House Bill 4124 Preliminary Findings Speakers TBD, Higher Education Coordinating Commission",
+    "House Bill 4124 Advisory Group Process Abby Lee, Oregon Community College Association, HB 4124 Advisory Group Matt Swanson, Service\u2026"
    ],
-   "highlights_more": 2,
+   "highlights_more": 3,
    "topics": [
     "education"
    ]
@@ -2979,8 +3016,8 @@
    "note": "",
    "cancelled": false,
    "highlights": [
-    "Fiscal Benefits of Investments in Road Preservation Presenters TBD",
-    "Interstate Bridge Replacement Program Update Carley Francis, Interim Project Administrator, Interstate 5 Bridge Replacement Project\u2026",
+    "Fiscal Benefits of Investments in Road Preservation K.C. Closterman, River Bend Materials Chris Doan, Knife River",
+    "Interstate Bridge Replacement Program Update Carley Francis, Interim Project Administrator, Interstate 5 Bridge Replacement Project",
     "Advancing Safer Streets Statewide Michelle DuBarry, Families for Safer Streets Amanda Pietz, Policy, Data and Analysis Division\u2026"
    ],
    "highlights_more": 1,
@@ -3502,24 +3539,6 @@
    "cancelled": false
   },
   {
-   "id": "7e8a2eb55082",
-   "title": "Board of Commissioners Goal Setting",
-   "host": "Crook County",
-   "source": "crook-county",
-   "area": "countywide",
-   "county": "Crook",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-12-08T13:00:00-08:00",
-   "end": null,
-   "all_day": false,
-   "location": "260 NW 2nd Street, Room 120, Prineville",
-   "url": "https://crookcoor.portal.civicclerk.com/event/5554/overview",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
    "id": "a091e5b720ad",
    "title": "Board of Commissioners Special Meeting",
    "host": "Crook County",
@@ -3534,8 +3553,14 @@
    "location": "260 NW 2nd Street, Room 120, Prineville",
    "url": "https://crookcoor.portal.civicclerk.com/event/5549/overview",
    "agenda_url": "",
-   "note": "",
-   "cancelled": false
+   "note": "Crook County Board of County Commissioners will hold a Special Meeting, on Tuesday, December 8, 2026, beginning at 1:00 PM, at the Crook County Justice Center, Room 120, located at 260 NW 2nd Street, Prineville, OR 97754. The principal subject(s) anticipated to be discussed are: Discussion Items: Introduction; Finance Committee Update; Overview of Five-Year Revenue and Expenditure Assumptions, including Implications for Property Tax Revenues; Mid-Year Updates & Summaries of Goals and Progress; Discussion. Scheduled Appearances: Julie Thompson, Commissioner-Elect; Galan Carter, Crook County Treasurer; Jessica Barnes, Treasurer-Elect; Scott Tibbs, Crook County Budget Committee Member. Additional items may be discussed that arise too late to be included as part of this notice. For complete agenda and scheduled times, please see the website https://crookcountyor.gov/. For information about adding agenda items, for information on remote attendance, or to request assistance due to disability or for assistance with language interpretation or communications aids, please contact the Crook County Administration Office at 541-447-6555 or Eric Blaine at Eric.Blaine@crookcountyor.gov. Assistance to disabled individuals or persons needing language interpretation is provided with advance notice. Join Zoom Meeting: https://crookcountyor.zoom.us/j/97536474869?pwd=szDiWPV87tByfxSyjtKSbshDmDhaPN.1 Meeting ID: 975 3647 4869 Passcode: 943151",
+   "cancelled": false,
+   "highlights": [
+    "Finance Committee Update",
+    "Overview of Five-Year Revenue and Expenditure Assumptions, including Implications for Property Tax Revenues",
+    "Mid-Year Updates & Summaries of Goals and Progress \u200b"
+   ],
+   "highlights_more": 1
   },
   {
    "id": "4a37c557b87e",
@@ -4033,6 +4058,24 @@
    "regular": true
   },
   {
+   "id": "8f853946a74b",
+   "title": "City Council",
+   "host": "City of Troutdale",
+   "source": "troutdale",
+   "area": "Troutdale",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-08T19:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct",
+   "url": "https://www.troutdaleoregon.gov/Calendar.aspx?EID=702",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "64a79496e1b5",
    "title": "Board of Commissioners Work Session",
    "host": "Crook County",
@@ -4121,7 +4164,7 @@
    "location": "510 SE Lynn Blvd, COCC Crook County Open Campus Building, Prineville",
    "url": "https://crookcoor.portal.civicclerk.com/event/5559/overview",
    "agenda_url": "",
-   "note": "",
+   "note": "Crook County Natural Resources Advisory Committee will hold its regularly scheduled meeting December 9, 2026, beginning at 1:00 p.m., COCC Crook County Open Campus Building, 510 SE Lynn Blvd., Prineville Oregon 97754. The principal subject(s) anticipated to be discussed are: Approve Minutes; Management updates from Forest Service, BLM, Oregon State Parks and the Oregon Dept of Fish and Wildlife. New business items are review and possible recommendation to County Commission to fill Committee member vacancies beginning Jan 1, 2027. Additional items may be discussed that arise too late to be included as part of this notice. For complete agenda and scheduled times, please see the website https://www.crookcountyor.gov and click on the meeting agendas and packets tab. For information about adding agenda items, for information on remote attendance, or to request assistance due to disability or for assistance with language interpretation or communications aids, please contact the Crook County Natural Resources Office, Tim Deboodt @ 541-903-5903 or tim.deboodt@crookcountyor.gov. Assistance to disabled individuals or persons needing language interpretation is provided with advance notice. Join Zoom Meeting https://crookcountyor.zoom.us/j/98008797992?pwd=bOf2rhov9xnTY04eaaAQfzK8NZ70PZ.1 Meeting ID: 980 0879 7992 Passcode: 386848 Phone: 1-253-215-8782",
    "cancelled": false
   },
   {
@@ -4510,6 +4553,24 @@
    "all_day": false,
    "location": "City Hall Council Chambers, 206 N Main Street, Toledo",
    "url": "https://toledoor.portal.civicclerk.com/event/1721/overview",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "102be800c29d",
+   "title": "Planning Commission",
+   "host": "City of Troutdale",
+   "source": "troutdale",
+   "area": "Troutdale",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-09T19:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct",
+   "url": "https://www.troutdaleoregon.gov/Calendar.aspx?EID=703",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5294,8 +5355,8 @@
    "location": "City Hall, 29799 SW Town Center Loop E, Wilsonville",
    "url": "https://wilsonvilleor.portal.civicclerk.com/event/3397/overview",
    "agenda_url": "",
-   "note": "",
-   "cancelled": false
+   "note": "This Meeting Has Been Cancelled",
+   "cancelled": true
   },
   {
    "id": "39a4a264e0e0",
@@ -6078,8 +6139,26 @@
    "cancelled": false
   },
   {
+   "id": "8497917021ff",
+   "title": "Arts, Culture, and Heritage Commission",
+   "host": "City of Wilsonville",
+   "source": "wilsonville",
+   "area": "Wilsonville",
+   "county": "Clackamas",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-16T17:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "City Hall, 29799 SW Town Center Loop E, Wilsonville",
+   "url": "https://wilsonvilleor.portal.civicclerk.com/event/3625/overview",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "35adc3449478",
-   "title": "Planning Commission Meeting",
+   "title": "Planning Commission Meeting CANCELLED",
    "host": "City of La Pine",
    "source": "la-pine",
    "area": "La Pine",
@@ -6093,7 +6172,7 @@
    "url": "https://www.lapineoregon.gov/Calendar.aspx?EID=380",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "id": "3f8ca9360e19",
@@ -6569,6 +6648,24 @@
    "url": "https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa8",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "ff3557c914c9",
+   "title": "Planning Commission",
+   "host": "City of Boardman",
+   "source": "boardman",
+   "area": "Boardman",
+   "county": "Morrow",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-17T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "200 City Center Circle, Boardman",
+   "url": "https://boardmanor.portal.civicclerk.com/event/606/overview",
+   "agenda_url": "",
+   "note": "Planning Commission Meeting",
    "cancelled": false
   },
   {
@@ -11308,7 +11405,7 @@
    "cancelled": false
   },
   {
-   "id": "ce730f4b2f81",
+   "id": "8dae3d269524",
    "title": "Arts, Culture, and Heritage Commission",
    "host": "City of Wilsonville",
    "source": "wilsonville",
@@ -11320,7 +11417,7 @@
    "end": null,
    "all_day": false,
    "location": "City Hall, 29799 SW Town Center Loop E, Wilsonville",
-   "url": "https://wilsonvilleor.portal.civicclerk.com/event/3424/overview",
+   "url": "https://wilsonvilleor.portal.civicclerk.com/event/3626/overview",
    "agenda_url": "",
    "note": "",
    "cancelled": false

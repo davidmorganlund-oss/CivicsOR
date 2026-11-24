@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-23T04:04:15-08:00</updated>
+  <updated>2026-11-24T00:32:03-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:ff3557c914c9:new</id>
+    <title>New meeting: Planning Commission (2026-12-17 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://boardmanor.portal.civicclerk.com/event/606/overview"/>
+    <summary>City of Boardman · 2026-12-17 18:00 (PT) · 200 City Center Circle, Boardman</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:cedff65ed3cd:new</id>
     <title>New meeting: City Council Meeting (2027-01-05 19:05)</title>

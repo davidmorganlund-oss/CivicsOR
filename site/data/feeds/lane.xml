@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-23T04:04:15-08:00</updated>
+  <updated>2026-11-24T00:32:03-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:0127dad94da5:new</id>
@@ -138,12 +138,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.ci.florence.or.us/Calendar.aspx?EID=694"/>
     <summary>City of Florence · 2026-11-30 16:00 (PT) · City Hall</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:7d6343c6c7ac:new</id>
-    <title>New meeting: City Council Work Session (2026-11-23 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1153"/>
-    <summary>City of Veneta · 2026-11-23 17:00 (PT)</summary>
   </entry>
 </feed>

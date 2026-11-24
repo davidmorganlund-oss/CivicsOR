@@ -4,8 +4,64 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-23T04:04:15-08:00</updated>
+  <updated>2026-11-24T00:32:03-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:8497917021ff:new</id>
+    <title>New meeting: Arts, Culture, and Heritage Commission (2026-12-16 17:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3625/overview"/>
+    <summary>City of Wilsonville · 2026-12-16 17:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6e0d5515730b:cancelled</id>
+    <title>Cancelled: Development Review Board A (2026-12-14 18:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3397/overview"/>
+    <summary>City of Wilsonville · 2026-12-14 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6a86d248c459:new</id>
+    <title>New meeting: Council meeting (2026-11-26 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6a86d248c459:agenda</id>
+    <title>Agenda posted: Council meeting (2026-11-26 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3751_A_Council_meeting_26-11-26_Agenda.pdf"/>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6a86d248c459:cancelled</id>
+    <title>Cancelled: Council meeting (2026-11-26 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:new</id>
+    <title>New meeting: Council work session (2026-11-24 10:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:agenda</id>
+    <title>Agenda posted: Council work session (2026-11-24 10:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3750_A_Council_work_session_26-11-24_Agenda.pdf"/>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:cancelled</id>
+    <title>Cancelled: Council work session (2026-11-24 10:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:20bf0865d4e0:new</id>
     <title>New meeting: City Council (2027-01-21 19:00)</title>
@@ -14,10 +70,10 @@
     <summary>City of Wilsonville · 2027-01-21 19:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:ce730f4b2f81:new</id>
+    <id>tag:civicsor.org,2026:8dae3d269524:new</id>
     <title>New meeting: Arts, Culture, and Heritage Commission (2027-01-20 17:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3424/overview"/>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3626/overview"/>
     <summary>City of Wilsonville · 2027-01-20 17:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
   <entry>
@@ -138,19 +194,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://wilsonvilleor.portal.civicclerk.com/event/3624/overview"/>
     <summary>City of Wilsonville · 2026-11-24 16:00 (PT) · 8200 SW Wilsonville Road, Wilsonville · On the agenda: Event Planning (All Aspects of the Event); Event Space Tour (Wilsonville Public Library - Oak Room)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:32a3dcd0a19c:new</id>
-    <title>New meeting: Development Review Board B (2026-11-23 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3451/overview"/>
-    <summary>City of Wilsonville · 2026-11-23 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:32a3dcd0a19c:cancelled</id>
-    <title>Cancelled: Development Review Board B (2026-11-23 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3451/overview"/>
-    <summary>City of Wilsonville · 2026-11-23 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
 </feed>

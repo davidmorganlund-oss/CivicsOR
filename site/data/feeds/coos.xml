@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-23T04:04:15-08:00</updated>
+  <updated>2026-11-24T00:32:03-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:eb23a1cd03be:new</id>
@@ -26,12 +26,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityofcoquille.org/Calendar.aspx?EID=1063"/>
     <summary>City of Coquille · 2026-12-07 18:30 (PT) · 851 N Central Blvd</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8d39fa50edde:new</id>
-    <title>New meeting: CITY COUNCIL EXECUTIVE SESSION (2026-11-23 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.bandon-or.gov/Calendar.aspx?EID=439"/>
-    <summary>City of Bandon · 2026-11-23 16:00 (PT)</summary>
   </entry>
 </feed>
