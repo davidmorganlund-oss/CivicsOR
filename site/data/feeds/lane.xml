@@ -4,8 +4,43 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T00:32:03-08:00</updated>
+  <updated>2026-11-24T00:57:49-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:024af040b40b:new</id>
+    <title>New meeting: Regular Board Meeting (2027-01-20 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2027-01-20 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:52b423ee63ab:new</id>
+    <title>New meeting: Board Retreat (2027-01-13 17:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2027-01-13 17:30 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b89539cb3767:new</id>
+    <title>New meeting: Board Work Session (2026-12-16 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2026-12-16 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b2eee1ca5f67:new</id>
+    <title>New meeting: Legislative Breakfast (2026-12-07 07:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2026-12-07 07:30 (PT) · District Office, 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:82e9f551c22b:new</id>
+    <title>New meeting: Regular Board Meeting (2026-12-02 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2026-12-02 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:0127dad94da5:new</id>
     <title>New meeting: Economic Development Committee Meeting (2027-01-20 15:30)</title>

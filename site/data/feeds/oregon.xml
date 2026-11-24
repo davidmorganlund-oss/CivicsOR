@@ -4,14 +4,49 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T00:32:03-08:00</updated>
+  <updated>2026-11-24T00:57:49-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:024af040b40b:new</id>
+    <title>New meeting: Regular Board Meeting (2027-01-20 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2027-01-20 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9180c0889f1d:new</id>
+    <title>New meeting: School Board Regular Session (2027-01-14 18:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1537"/>
+    <summary>Ashland School District · 2027-01-14 18:30 (PT) · Ashland City Council Chamber, 1175 East Main Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:52b423ee63ab:new</id>
+    <title>New meeting: Board Retreat (2027-01-13 17:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2027-01-13 17:30 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c6e1a8895229:new</id>
+    <title>New meeting: School Board Regular Session (2026-12-17 18:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1537"/>
+    <summary>Ashland School District · 2026-12-17 18:30 (PT) · Ashland City Council Chamber, 1175 East Main Street</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:ff3557c914c9:new</id>
     <title>New meeting: Planning Commission (2026-12-17 18:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://boardmanor.portal.civicclerk.com/event/606/overview"/>
     <summary>City of Boardman · 2026-12-17 18:00 (PT) · 200 City Center Circle, Boardman</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b89539cb3767:new</id>
+    <title>New meeting: Board Work Session (2026-12-16 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2026-12-16 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:35adc3449478:cancelled</id>
@@ -49,6 +84,13 @@
     <summary>City of Troutdale · 2026-12-08 19:00 (PT) · Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:b2eee1ca5f67:new</id>
+    <title>New meeting: Legislative Breakfast (2026-12-07 07:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2026-12-07 07:30 (PT) · District Office, 200 North Monroe Street</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:44201b006dc7:new</id>
     <title>New meeting: Citizens Advisory Committee (2026-12-02 19:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -61,6 +103,13 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1899"/>
     <summary>City of Talent · 2026-12-02 18:00 (PT) · Community Center - Dining Room and Zoom, 104 E Main Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:82e9f551c22b:new</id>
+    <title>New meeting: Regular Board Meeting (2026-12-02 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2026-12-02 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:1bdb88702f53:cancelled</id>
@@ -98,6 +147,20 @@
     <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Language Access Services For more information: https://www.oregonlegislature.gov/lpro/Pages/language-access.aspx Spanish interpretation is…; Wyatt v. Kotek Settlement Agreement and Neutral’s Annual Review; Strengthening, Preserving, and Reunifying Families (SPRF) Program Rule Changes</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:121a631adcfd:new</id>
+    <title>New meeting: Senate Interim Committee on Veterans, Emergency Management, Federal and World Affairs (2026-12-02 11:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/SVEMFW/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page; Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea…; Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Sen. Floyd Prozanski, Senate District 4 Lini…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:121a631adcfd:agenda</id>
+    <title>Agenda posted: Senate Interim Committee on Veterans, Emergency Management, Federal and World Affairs (2026-12-02 11:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SVEMFW/2026-12-02-11-30"/>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page; Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea…; Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Sen. Floyd Prozanski, Senate District 4 Lini…</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:3c48c35b8463:new</id>
     <title>New meeting: House Interim Committee on Commerce and Consumer Protection (2026-12-02 11:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -110,20 +173,6 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HCCP/2026-12-02-11-30"/>
     <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Crypto Scams Chad Mullen, National Senior Director of Financial Security, AARP Andrea Meyer, Director of Government Relations, AARP Oregon…; Oregon DOJ’s Work to Tackle High Costs, Scams, and Fraud Leslie Wu, Policy Advisor to Attorney General Dan Rayfield; Preview of Commerce and Consumer Protection Related Bills</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:eb658be9edc9:new</id>
-    <title>New meeting: House Interim Committee on Emergency Management and Veterans (2026-12-02 11:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HEMV/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:eb658be9edc9:agenda</id>
-    <title>Agenda posted: House Interim Committee on Emergency Management and Veterans (2026-12-02 11:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HEMV/2026-12-02-11-30"/>
-    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:71e98a61d5cd:new</id>
@@ -140,32 +189,18 @@
     <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Wildfire Update and 2027 Legislative Priorities: Policy and Funding Needs Kyle Williams, Deputy Director, Fire Operations, Oregon…; Incentivizing Wildfire Risk Reduction Activities Chief Mariana Ruiz-Temple, State Fire Marshal, Oregon State Fire Marshal TK Keen, Oregon…</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:121a631adcfd:new</id>
-    <title>New meeting: Senate Interim Committee on Veterans, Emergency Management, Federal and World Affairs (2026-12-02 11:30)</title>
+    <id>tag:civicsor.org,2026:eb658be9edc9:new</id>
+    <title>New meeting: House Interim Committee on Emergency Management and Veterans (2026-12-02 11:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/SVEMFW/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page; Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea…; Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Sen. Floyd Prozanski, Senate District 4 Lini…</summary>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HEMV/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:121a631adcfd:agenda</id>
-    <title>Agenda posted: Senate Interim Committee on Veterans, Emergency Management, Federal and World Affairs (2026-12-02 11:30)</title>
+    <id>tag:civicsor.org,2026:eb658be9edc9:agenda</id>
+    <title>Agenda posted: House Interim Committee on Emergency Management and Veterans (2026-12-02 11:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SVEMFW/2026-12-02-11-30"/>
-    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee's OLIS page; Oregon Community Media and Emergency Communications Greg Leo, Lobbyist Don Senter, President, Oregon Community Media and KSKQ Althea…; Studying the Use of Surveillance Technology (LC 3356) Sen. Kayse Jama, Senate District 24 Sen. Floyd Prozanski, Senate District 4 Lini…</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:e223acd0091d:new</id>
-    <title>New meeting: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HLWD/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:e223acd0091d:agenda</id>
-    <title>Agenda posted: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HLWD/2026-12-02-08-30"/>
-    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HEMV/2026-12-02-11-30"/>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:5901b3f5c1d5:new</id>
@@ -180,6 +215,20 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HREV/2026-12-02-08-30"/>
     <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room A · On the agenda: Invited testimony only; 8:30 - 8:40 Introduction of 2027 Committee Bills (See meeting materials for LC Drafts); 8:40 - 9:10 2027 Tax Credit Report Legislative Revenue Office</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e223acd0091d:new</id>
+    <title>New meeting: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HLWD/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e223acd0091d:agenda</id>
+    <title>Agenda posted: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HLWD/2026-12-02-08-30"/>
+    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:c204c5c8e043:new</id>
@@ -1356,54 +1405,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://independenceor.portal.civicclerk.com/event/2238/overview"/>
     <summary>City of Independence · 2026-12-22 18:30 (PT) · City Hall - Council Chambers</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ad61dd67bf36:new</id>
-    <title>New meeting: City Council Meeting (2026-12-22 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://sweethomeor.portal.civicclerk.com/event/53/overview"/>
-    <summary>City of Sweet Home · 2026-12-22 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ad61dd67bf36:cancelled</id>
-    <title>Cancelled: City Council Meeting (2026-12-22 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://sweethomeor.portal.civicclerk.com/event/53/overview"/>
-    <summary>City of Sweet Home · 2026-12-22 18:30 (PT) · 3225 Main Street, Sweet Home</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:0f83cd003501:new</id>
-    <title>New meeting: City Commission Meeting (2026-12-22 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://warrentonor.portal.civicclerk.com/event/31/overview"/>
-    <summary>City of Warrenton · 2026-12-22 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:0f83cd003501:cancelled</id>
-    <title>Cancelled: City Commission Meeting (2026-12-22 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://warrentonor.portal.civicclerk.com/event/31/overview"/>
-    <summary>City of Warrenton · 2026-12-22 18:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:9ab414a754e2:new</id>
-    <title>New meeting: City Council Meeting (2026-12-22 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofprineville.com/Calendar.aspx?EID=382"/>
-    <summary>City of Prineville · 2026-12-22 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ecf69a3a79e5:new</id>
-    <title>New meeting: City Council Meeting (2026-12-22 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=475"/>
-    <summary>City of Madras · 2026-12-22 17:30 (PT) · City Hall, 125 SW E Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ecf69a3a79e5:cancelled</id>
-    <title>Cancelled: City Council Meeting (2026-12-22 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=475"/>
-    <summary>City of Madras · 2026-12-22 17:30 (PT) · City Hall, 125 SW E Street</summary>
   </entry>
 </feed>

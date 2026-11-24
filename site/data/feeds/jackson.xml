@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T00:32:03-08:00</updated>
+  <updated>2026-11-24T00:57:49-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:9180c0889f1d:new</id>
+    <title>New meeting: School Board Regular Session (2027-01-14 18:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1537"/>
+    <summary>Ashland School District · 2027-01-14 18:30 (PT) · Ashland City Council Chamber, 1175 East Main Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c6e1a8895229:new</id>
+    <title>New meeting: School Board Regular Session (2026-12-17 18:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1537"/>
+    <summary>Ashland School District · 2026-12-17 18:30 (PT) · Ashland City Council Chamber, 1175 East Main Street</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:b3e329b118de:new</id>
     <title>New meeting: City Council Study Session (2026-12-02 18:00)</title>
