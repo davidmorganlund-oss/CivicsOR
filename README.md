@@ -82,6 +82,12 @@ Same as CivicsID: static site, everything from outside treated as untrusted and
 inserted as text, links checked, a Content-Security-Policy on every page, pinned
 Actions and packages. Tests in `tests/test_normalize.py`.
 
+The representatives page's policy also allows `services.arcgis.com` and
+`maps.oda.oregon.gov`, where the State Fire Marshal, the state's education
+boundaries and the Department of Agriculture publish district maps.
+`site/districts.js` sends them only the map point the Census Bureau returned,
+never the address.
+
 ## Run it yourself
 
     pip install -r requirements.txt

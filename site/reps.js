@@ -62,6 +62,63 @@
     return rows && rows[0] ? rows[0].BASENAME : '';
   }
 
+  function names(geographies, pattern) {
+    var out = [];
+    Object.keys(geographies).filter(function (k) { return pattern.test(k); }).forEach(function (k) {
+      (geographies[k] || []).forEach(function (row) {
+        if (row.NAME && out.indexOf(row.NAME) < 0) out.push(row.NAME);
+      });
+    });
+    return out;
+  }
+
+  function districtItem(list, d) {
+    var li = el('li', 'district');
+    li.appendChild(el('strong', null, d.label + ': '));
+    li.appendChild(document.createTextNode(d.name));
+    if (d.note) li.appendChild(el('span', 'muted', d.note));
+    list.appendChild(li);
+  }
+
+  // One card listing every district the address sits in. The districts the
+  // Census lookup already named show right away; fire, education and
+  // conservation districts come from three state map services, which get
+  // only the map point.
+  function districtsCard(g, match, parts) {
+    var card = section('Your districts', 'Every district you live in');
+    var list = el('ul', 'districts');
+    card.appendChild(list);
+    var add = function (d) { districtItem(list, d); };
+    if (parts.cd) add({ label: 'U.S. House', name: 'Congressional District ' + parts.cd });
+    if (parts.sd) add({ label: 'State Senate', name: 'Senate District ' + parts.sd });
+    if (parts.hd) add({ label: 'State House', name: 'House District ' + parts.hd });
+    if (parts.county) add({ label: 'County', name: parts.county + ' County' });
+    add({ label: 'City', name: parts.city ? 'City of ' + parts.city : 'Unincorporated (outside city limits)' });
+    names(g, /School Districts/).forEach(function (n) {
+      add({ label: 'School district', name: n, note: 'An elected school board runs your public schools.' });
+    });
+    names(g, /American Indian Reservations|Off-Reservation Trust Lands/).forEach(function (n) {
+      add({ label: 'Tribal land', name: n, note: 'This address is on tribal land. The tribe’s own government serves its members here.' });
+    });
+
+    var status = el('p', 'muted', 'Looking up fire, education and conservation districts…');
+    card.appendChild(status);
+    var D = window.CivicsORDistricts;
+    var c = match.coordinates || {};
+    if (!D || typeof c.x !== 'number' || typeof c.y !== 'number') {
+      status.textContent = 'We could not look up special districts for this address.';
+      return card;
+    }
+    D.lookup(c.x, c.y).then(function (r) {
+      [r.fire, r.education, r.swcd].forEach(function (found) { (found || []).forEach(add); });
+      status.textContent = (!r.fire || !r.education || !r.swcd)
+        ? 'Part of the special district lookup did not respond, so this list may be missing some districts. Try again in a few minutes.'
+        : 'Fire districts come from the Oregon State Fire Marshal’s maps, education districts from the state’s education boundary maps, and conservation districts from the Oregon Department of Agriculture.';
+      card.appendChild(el('p', 'muted', 'Not listed here: county commissioner districts, city council districts, voting precincts, and library, park, water, sanitary, transit, port and Metro districts. Your county elections office can tell you which of those you live in.'));
+    });
+    return card;
+  }
+
   function person(p) {
     var li = el('li', 'person');
     li.appendChild(el('strong', null, p.name));
@@ -158,6 +215,7 @@
     var cd = layer(g, /Congressional Districts/);
 
     out.appendChild(el('p', 'muted', 'Showing results for ' + match.matchedAddress + '.'));
+    out.appendChild(districtsCard(g, match, { city: city, county: county, sd: sd, hd: hd, cd: cd }));
     if (window.CivicsORLocal && county) {
       // Remember only the county and city, so the Engage guides can show local links.
       window.CivicsORLocal.save({ county: county, city: localData && localData.cities[city] ? city : '' });

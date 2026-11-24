@@ -1,0 +1,150 @@
+/* CivicsOR special-district lookup.
+   Takes the map point the Census Bureau returned for an address and asks
+   three free public state map services which districts that point falls in:
+   - Oregon State Fire Marshal structural fire district boundaries
+   - Oregon education boundaries (education service districts and community
+     college districts)
+   - Oregon Department of Agriculture soil and water conservation district zones
+   Only the map coordinates are sent, never the address, and nothing is kept.
+   All three answer JSONP, so this works from a static site with no key. */
+(function (root) {
+  'use strict';
+
+  var FIRE = 'https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Structural_Fire_Districts_Public/FeatureServer/68/query';
+  var EDU = 'https://services.arcgis.com/uUvqNMGPm7axC2dD/ArcGIS/rest/services/EDUCATIONAL_BOUNDARIES/FeatureServer/0/query';
+  var SWCD = 'https://maps.oda.oregon.gov/arcgis/rest/services/Framework/ODA_AdminBounds_SoilWaterConservationDistrict_Zones/MapServer/0/query';
+
+  // Short forms the Fire Marshal's data uses in agency names.
+  var WORDS = {
+    RFPD: 'Rural Fire Protection District', RFD: 'Rural Fire District', FPD: 'Fire Protection District',
+    FD: 'Fire Department', VFD: 'Volunteer Fire Department', WD: 'Water District', 'F&R': 'Fire & Rescue',
+    DIST: 'District', CO: 'County', AMB: 'Ambulance', EMERG: 'Emergency', SRVCS: 'Services', INTL: 'International',
+    MT: 'Mount', ST: 'St.', VLY: 'Valley', LK: 'Lake', BCH: 'Beach', N: 'North', SW: 'Southwest',
+    SPRGFD: 'Springfield', EMS: 'EMS', DE: 'Department', OF: 'of', AND: 'and'
+  };
+
+  var FIRE_NOTES = {
+    'Rural Fire Protection District': 'Fire and emergency response, run by an elected board of directors.',
+    'County Special District': 'Fire and emergency response, run by a county service district.',
+    'Water District': 'This water district also provides fire protection. An elected board runs it.',
+    'Fire Department': 'A city or other public fire department covers this address.',
+    'Tribal': 'A tribal fire department covers this address.',
+    'Private': 'Fire protection here comes from a private provider, not a tax district.',
+    'Subscription': 'Fire protection here is by subscription, not a tax district.'
+  };
+
+  // Community college districts, as the education boundaries name them.
+  var COLLEGES = {
+    'Portland': 'Portland Community College', 'Clackamas': 'Clackamas Community College',
+    'Rogue': 'Rogue Community College', 'Southwest Oregon': 'Southwestern Oregon Community College',
+    'Klamath': 'Klamath Community College', 'Blue Mountain': 'Blue Mountain Community College',
+    'Columbia Gorge': 'Columbia Gorge Community College', 'Linn-Benton': 'Linn-Benton Community College',
+    'Chemeketa': 'Chemeketa Community College', 'Treasure Valley': 'Treasure Valley Community College',
+    'Umpqua': 'Umpqua Community College', 'Mount Hood': 'Mt. Hood Community College',
+    'Tillamook Bay': 'Tillamook Bay Community College', 'Lincoln': 'Oregon Coast Community College',
+    'Central Oregon': 'Central Oregon Community College', 'Lane': 'Lane Community College',
+    'Clatsop': 'Clatsop Community College'
+  };
+
+  function titleWord(w) {
+    return w.toLowerCase().replace(/[a-z]+/g, function (p) { return p.charAt(0).toUpperCase() + p.slice(1); })
+      .replace(/^Mc([a-z])/, function (m, c) { return 'Mc' + c.toUpperCase(); });
+  }
+
+  // "TUALATIN VALLEY F&R" -> "Tualatin Valley Fire & Rescue",
+  // "CLACKAMAS CO FIRE DIST 1" -> "Clackamas County Fire District 1".
+  function fireName(raw) {
+    var s = String(raw || '').replace(/\s+/g, ' ').trim();
+    if (!s) return '';
+    s = s.replace(/#\s*(\d+)/g, 'No. $1');
+    return s.split(' ').map(function (w) {
+      var core = w.replace(/^\(|\)$/g, '');
+      var hit = WORDS.hasOwnProperty(core) ? WORDS[core] : null;
+      var out = hit || core.split('-').map(function (p) { return WORDS[p] || titleWord(p); }).join('-');
+      return w.replace(core, out);
+    }).join(' ').replace(/^(\w)/, function (c) { return c.toUpperCase(); });
+  }
+
+  function swcdName(raw) {
+    var s = String(raw || '').trim();
+    return s ? s.replace(/\bSWCD\b/, 'Soil and Water Conservation District') : '';
+  }
+
+  function jsonp(url, timeoutMs) {
+    return new Promise(function (resolve, reject) {
+      var name = '__civicsor_d' + Date.now() + Math.floor(Math.random() * 1e6);
+      var script = document.createElement('script');
+      var timer = setTimeout(function () { finish(); reject(new Error('timeout')); }, timeoutMs || 15000);
+      function finish() { clearTimeout(timer); delete root[name]; script.remove(); }
+      root[name] = function (data) { finish(); resolve(data); };
+      script.onerror = function () { finish(); reject(new Error('network')); };
+      script.src = url + (url.indexOf('?') < 0 ? '?' : '&') + 'callback=' + name;
+      document.head.appendChild(script);
+    });
+  }
+
+  function features(response) {
+    if (!response || !response.features) throw new Error('bad response');
+    return response.features.map(function (f) { return f.attributes || {}; });
+  }
+
+  function fromFire(response) {
+    var seen = {};
+    return features(response).map(function (a) {
+      return { type: 'FIRE', label: 'Fire', name: fireName(a.Agency_Name), note: FIRE_NOTES[a.Category] || '' };
+    }).filter(function (d) {
+      if (!d.name || seen[d.name]) return false;
+      seen[d.name] = true;
+      return true;
+    });
+  }
+
+  function fromEducation(response) {
+    var out = [];
+    features(response).slice(0, 1).forEach(function (a) {
+      var esd = String(a.ESD_Name || '').trim();
+      if (esd) out.push({ type: 'ESD', label: 'Education service district', name: esd,
+        note: 'Gives the school districts in the region special education, technology and other shared services. Run by an elected board.' });
+      var cc = String(a.CC_Taxing_District_Name || '').trim();
+      var contract = /\(contract out of district\)/i.exec(cc);
+      var key = cc.replace(/\s*\(.*\)\s*$/, '').trim();
+      key = Object.keys(COLLEGES).filter(function (k) { return k.toLowerCase() === key.toLowerCase(); })[0];
+      if (key && contract) {
+        out.push({ type: 'CC', label: 'Community college', name: COLLEGES[key] + ' (by contract)',
+          note: 'This address isn’t in a community college district. ' + COLLEGES[key] + ' serves the area under a contract, so you don’t vote for its board.' });
+      } else if (key) {
+        out.push({ type: 'CC', label: 'Community college', name: COLLEGES[key],
+          note: 'Run by an elected board. Residents here pay in-district tuition.' });
+      }
+    });
+    return out;
+  }
+
+  function fromSwcd(response) {
+    return features(response).slice(0, 1).filter(function (a) { return swcdName(a.SWCD_Name); }).map(function (a) {
+      var name = swcdName(a.SWCD_Name);
+      var zone = a.Zone != null && String(a.Zone).trim() !== '' ? String(a.Zone).trim() : '';
+      return { type: 'SWCD', label: 'Soil and water conservation', name: name + (zone ? ', Zone ' + zone : ''),
+        note: 'Helps landowners with erosion, water quality and habitat. Its directors are elected, some by zone.' };
+    });
+  }
+
+  function query(base, x, y, fields) {
+    return base + '?geometry=' + encodeURIComponent(x + ',' + y) + '&geometryType=esriGeometryPoint&inSR=4326' +
+      '&spatialRel=esriSpatialRelIntersects&outFields=' + fields + '&returnGeometry=false&f=json';
+  }
+
+  // Each source can fail on its own; a null result means that one didn't answer.
+  function lookup(x, y) {
+    var safe = function (p) { return p.catch(function () { return null; }); };
+    return Promise.all([
+      safe(jsonp(query(FIRE, x, y, 'Agency_Name,Category')).then(fromFire)),
+      safe(jsonp(query(EDU, x, y, 'ESD_Name,CC_Taxing_District_Name')).then(fromEducation)),
+      safe(jsonp(query(SWCD, x, y, 'SWCD_Name,Zone')).then(fromSwcd))
+    ]).then(function (r) { return { fire: r[0], education: r[1], swcd: r[2] }; });
+  }
+
+  var api = { lookup: lookup, fromFire: fromFire, fromEducation: fromEducation, fromSwcd: fromSwcd, fireName: fireName };
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.CivicsORDistricts = api;
+})(typeof window !== 'undefined' ? window : this);
