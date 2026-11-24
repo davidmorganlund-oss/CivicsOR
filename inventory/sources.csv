@@ -3,7 +3,7 @@ State,Oregon Legislature,Statewide,OLIS public data service (OData),api.oregonle
 Regional,Metro,"Multnomah, Washington, Clackamas",Legistar,oregonmetro.legistar.com,Live on CivicsOR,"Council, MPAC, JPACT and other committees, with agenda highlights"
 City,Portland,Multnomah,portland.gov (Drupal) council agenda,portland.gov/council/agenda,Published schedule,Council committees not added yet; look for a feed on portland.gov/council/events
 County,Multnomah County,Multnomah,Own website,multco.us/info/about-board-meetings,Published schedule,Thursday board meetings and Tuesday briefings; clerk posts weekly whether the board meets
-Library,Multnomah County Library,Multnomah,BiblioCommons,multcolib.bibliocommons.com,Live on CivicsOR (to confirm on first run),Civic programs only
+Library,Multnomah County Library,Multnomah,Own site (multcolib.org/events-classes),multcolib.org,Not on CivicsOR: BiblioCommons events turned off Nov 2026; needs a new reader,Civic programs only
 County,Washington County,Washington,iAgenda portal,washingtoncountyor.gov/bcc,Published schedule,Regular business meeting time not published on the schedule page; check the iAgenda portal for a feed
 City,Hillsboro,Washington,CivicWeb portal; GovAccess calendar,hillsboro-oregon.gov,Published schedule,CivicWeb tenant name still to find; the civicweb connector could read it
 Library,Washington County Cooperative Library Services,Washington,BiblioCommons,wccls.bibliocommons.com,Live on CivicsOR (to confirm on first run),Civic programs only
