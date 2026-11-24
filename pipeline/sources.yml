@@ -89,16 +89,11 @@ sources:
         category: council
         url: https://multco.us/info/about-board-meetings
 
-  # Multnomah County Library: civic programs only (voting, citizenship,
-  # town halls and the like), found through the catalog's event search.
-  - id: multnomah-library
-    name: Multnomah County Library
-    type: bibliocommons
-    library: multcolib
-    searches: [voter, citizenship, civic, town hall, legislat]
-    county: Multnomah
-    area: countywide
-    homepage: https://multcolib.bibliocommons.com/v2/events
+  # Multnomah County Library is left out for now: it has turned off BiblioCommons
+  # events ("The Events feature is not available at Multnomah County Library"),
+  # and the gateway feed has timed out on every search since Nov. 22, 2026. Its
+  # events now live on its own site, multcolib.org/events-classes, which would
+  # need a new reader. The Library Advisory Board is still listed below.
 
   # ---------- Washington County ----------
   - id: washington-county
