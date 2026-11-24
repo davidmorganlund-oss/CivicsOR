@@ -41,6 +41,7 @@ def head(title, up, desc, share=None, lang="en"):
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0E5C63">
 <link rel="manifest" href="{up}manifest.webmanifest">
+<link rel="icon" href="{up}favicon.ico" sizes="32x32">
 <link rel="icon" href="{up}icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="{up}apple-touch-icon.png">
 {FONTS.format(up=up)}
@@ -208,7 +209,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
       <select id="city" disabled><option value="">Pick a county</option></select>
     </div>
   </form>
-  <p class="small"><span id="coverage">Starting with the Portland area, Salem and the Legislature, and adding more of Oregon every month.</span> No account needed, and your choice stays in your browser.</p>
+  <p class="small"><span id="coverage">Meetings from across Oregon, with links to each county's own page where we can't read its calendar yet.</span> No account needed, and your choice stays in your browser.</p>
 </div></section>
 
 <div class="wrap layout">
@@ -338,7 +339,7 @@ print(len(ALL), "guides written")
       <ol class="tight">
         <li>Find the bill on a committee's agenda. Registration opens once a public hearing is scheduled.</li>
         <li>On the bill's OLIS page, choose <strong>Register to Testify</strong>, in person or remotely by video or phone. Registration closes 30 minutes before the meeting starts.</li>
-        <li>Or choose <strong>Submit Testimony</strong> to send it in writing, up to 24 hours after the meeting's scheduled start.</li>
+        <li>Or choose <strong>Submit Testimony</strong> to send it in writing, up to 48 hours after the meeting's scheduled start.</li>
         <li>Keep it short: who you are, where you live, and how the bill would affect you.</li>
       </ol>
       <a class="link" href="https://www.oregonlegislature.gov/citizen_engagement/Pages/How-to-Testify.aspx" rel="noopener">How to testify, from the Legislature</a>
@@ -462,6 +463,29 @@ PRIV_EN = """
 print("privacy pages written")
 
 
+# The page GitHub Pages shows for an address that doesn't exist. It can be
+# served from any path, so its links are absolute, and search engines skip it.
+(SITE / "404.html").write_text(f'''{head("Page not found | CivicsOR", "/", "That page isn't here. Find your meetings, guides and representatives from the CivicsOR home page.").replace("<title>", '<meta name="robots" content="noindex">\n<title>', 1)}
+<a class="skip" href="#notfound">Skip to content</a>
+{top("/", "")}
+<main class="wrap narrow guide" id="notfound">
+  <h1>We can't find that page.</h1>
+  <p class="lede">The address may be mistyped, or the page may have moved.</p>
+  <ul>
+    <li><a href="/index.html">Community Calendar</a>: what your city, county and the Legislature are deciding.</li>
+    <li><a href="/legislature.html">The Legislature, day by day</a></li>
+    <li><a href="/engage.html">Engage guides</a>: how to take part.</li>
+    <li><a href="/reps.html">Find who represents you</a></li>
+  </ul>
+  <p>Followed a link from this site to get here? <a href="mailto:{REPORT}?subject=CivicsOR%3A%20broken%20link">Tell us</a> and we'll fix it.</p>
+</main>
+{footer("/", "CivicsOR is free to use and asks nothing of you.")}
+</body>
+</html>
+''')
+print("404 page written")
+
+
 # Every page's intro band is a named region, so screen reader users can jump
 # to it and nothing on the page sits outside a landmark.
 for page in SITE.rglob("*.html"):
@@ -501,7 +525,7 @@ ORG = {
     ],
 }
 
-pages = sorted(p.relative_to(SITE).as_posix() for p in SITE.rglob("*.html"))
+pages = sorted(p.relative_to(SITE).as_posix() for p in SITE.rglob("*.html") if p.name != "404.html")
 MARK = "<!-- seo -->"
 for rel in pages:
     page = SITE / rel
