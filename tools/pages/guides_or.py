@@ -87,7 +87,7 @@ G["local-government"] = dict(
     <li><strong>Raise it, or you may lose it.</strong> If you want to appeal a land use decision to the state Land Use Board of Appeals later, you generally have to raise your issue, in writing or in testimony, before the local hearing record closes. Be specific.</li>
   </ul>
 
-  <section class="near-you" data-show="site" data-title="Your city and county websites" aria-label="Your city and county websites"></section>
+  <section class="near-you" data-show="site,districts" data-title="Your local governments" aria-label="Your local governments"></section>
 
   <h2>Neighborhood groups</h2>
   <p>Many cities recognize neighborhood associations, and Washington County has Citizen Participation Organizations, or CPOs, that review land use proposals and talk with county staff. They are a low-key way to learn what's coming and to be heard early.</p>
