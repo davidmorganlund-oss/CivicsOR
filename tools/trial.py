@@ -21,8 +21,16 @@ def trial(src):
     try:
         events = build.CONNECTORS[src["type"]](src, today, today + timedelta(days=60), TZ)
         events = build.apply_source_rules(src, events)
+        events = build.with_regular_schedule(src, events, today, today + timedelta(days=60), TZ)
+        events = [e for e in events if today <= datetime.fromisoformat(e["start"]).date() <= today + timedelta(days=60)]
         cats = collections.Counter(e["category"] for e in events)
-        return {"id": src["id"], "n": len(events), "cats": cats,
+        org = ""
+        if src["type"] == "boardbook":  # the organization's own name, to confirm it's the right one
+            import re
+            page = build.get(f"{build.BOARDBOOK}/Public/Organization/{src['organization']}").text
+            m = re.search(r"<title>\s*(.*?)\s*(?:Public View)?\s*</title>", page, re.S)
+            org = m.group(1).strip() if m else ""
+        return {"id": src["id"], "org": org, "n": len(events), "cats": cats,
                 "titles": sorted({e["title"] for e in events})[:8],
                 "loc": next((e["location"] for e in events if e["location"]), "")}
     except Exception as e:  # report and move on

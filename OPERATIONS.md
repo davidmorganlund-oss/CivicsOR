@@ -52,6 +52,13 @@ Granicus agenda feeds, Apptegy school sites, iCalendar feeds (WordPress, Finalsi
 BiblioCommons library events, OLIS for the Legislature, and published standing
 schedules (`type: schedule`, shown as "Usually meets").
 
+**School boards on BoardBook** (`type: boardbook`, with the number from the board's
+BoardBook address as `organization`) usually post a meeting about a week ahead. For
+the largest districts the source also has a `regular_schedule`: the dates the board
+publishes for the year. Those show as "Usually meets" until the board posts that
+day's meeting, and then the posting, with its agenda, takes over. Update each
+`regular_schedule` every summer, when boards adopt the next year's calendar.
+
 **Rules we keep:** respect sites that ask automated readers to stay out. The reader
 checks `robots.txt` and skips anything it disallows. That rules out, for now, Google
 Calendar feeds, BoardDocs, many Finalsite school calendars and several CivicWeb and

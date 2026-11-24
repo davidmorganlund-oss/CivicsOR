@@ -2260,6 +2260,23 @@ def apply_source_rules(src, events):
     return events
 
 
+def with_regular_schedule(src, posted, start_day, end_day, tz):
+    """Fill in a body's published regular schedule behind what it has posted.
+
+    Some boards post each meeting only a week or so ahead (BoardBook), but
+    publish the whole year's dates. A source can carry both: its feed, and a
+    "regular_schedule" list written like a schedule source's "meetings". A
+    scheduled date shows as "Usually meets" until the body posts anything for
+    that day; then the posting, with its agenda, takes its place.
+    """
+    if not src.get("regular_schedule"):
+        return posted
+    taken = {e["start"][:10] for e in posted}
+    usual = fetch_schedule({**src, "meetings": src["regular_schedule"]}, start_day, end_day, tz)
+    usual = apply_source_rules({k: v for k, v in src.items() if k in ("category", "force_category", "default_category")}, usual)
+    return posted + [e for e in usual if e["start"][:10] not in taken]
+
+
 def county_slug(county: str) -> str:
     return re.sub(r"[^a-z]+", "-", county.lower()).strip("-")
 
@@ -2293,6 +2310,7 @@ def main() -> int:
             found = CONNECTORS[src["type"]](src, start_day, end_day, tz)
             found = [e for e in found if start_day <= datetime.fromisoformat(e["start"]).date() <= end_day]
             found = apply_source_rules(src, found)
+            found = with_regular_schedule(src, found, start_day, end_day, tz)
             status.update(ok=True, count=len(found), last_success=status["checked"], error="", failing_since="")
             # A source that answers but lists nothing is suspicious, not fine.
             status["state"] = "ok" if found else "quiet"
