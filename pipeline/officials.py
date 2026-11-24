@@ -51,6 +51,40 @@ def parse_legislators(csv_text: str) -> dict:
     return out
 
 
+def add_capitol_phones(found: dict, olis_rows: list) -> int:
+    """Fill in Capitol phone numbers from the Legislature's own member list.
+
+    Open States carries no phone for Oregon. The Legislature's public data
+    service lists members session by session; for each seat, take the newest
+    row whose last name matches the member we already have, so a phone never
+    lands on the wrong person. Returns how many numbers were added.
+    """
+    added = 0
+    newest: dict[tuple, dict] = {}
+    for r in olis_rows:
+        chamber = {"S": "senate", "H": "house"}.get(str(r.get("Chamber") or "").strip()[:1].upper())
+        m = re.match(r"^\s*0*(\d+)\s*$", str(r.get("DistrictNumber") or ""))
+        phone = " ".join(str(r.get("CapitolPhone") or "").split())
+        last = str(r.get("LastName") or "").strip().lower()
+        if not chamber or not m or not last or not re.search(r"\d{3}\D*\d{4}", phone):
+            continue
+        key = (chamber, m.group(1), last)
+        if key not in newest or str(r.get("SessionKey") or "") > str(newest[key].get("SessionKey") or ""):
+            newest[key] = {**r, "CapitolPhone": phone}
+    for chamber in ("senate", "house"):
+        for district, people in found.get(chamber, {}).items():
+            for person in people:
+                if person.get("phone"):
+                    continue
+                words = re.findall(r"[a-z'-]+", person["name"].lower())
+                hit = next((newest[(chamber, district, w)] for w in reversed(words)
+                            if (chamber, district, w) in newest), None)
+                if hit:
+                    person["phone"] = hit["CapitolPhone"]
+                    added += 1
+    return added
+
+
 def parse_congress(rows: list, state: str = "OR") -> dict:
     out = {"senators": [], "house": {}}
     for person in rows:
@@ -93,6 +127,12 @@ def main() -> int:
 
     try:
         found = parse_legislators(get(LEGISLATORS).content.decode("utf-8-sig"))
+        try:  # phone numbers are a nicety; the roster stands without them
+            from build import olis_rows
+            rows = olis_rows("Legislators", "SessionKey ge '2025R1'")
+            print(f"capitol phones: {add_capitol_phones(found, rows)} added from {len(rows)} member rows")
+        except Exception as exc:
+            print(f"[warn] capitol phones: {type(exc).__name__}: {exc}"[:300], file=sys.stderr)
         # A short file means the source is mid-update; keep the last good one.
         if len(found["senate"]) >= 25 and len(found["house"]) >= 50:
             data["legislators"] = found

@@ -862,3 +862,19 @@ def test_regular_schedule_fills_in_behind_postings():
     assert got == [("2026-12-01", "Regular Meeting", False), ("2026-12-15", "Board meeting", True)]
     assert [e["category"] for e in out if e.get("regular")] == ["school"]
     assert build.with_regular_schedule({**src, "regular_schedule": None}, posted, date(2026, 11, 24), date(2027, 1, 23), tz) == posted
+
+
+def test_capitol_phones_only_land_on_the_matching_member():
+    import officials
+    found = {"senate": {"11": [{"name": "Kim Thatcher", "party": "Republican", "phone": "", "email": ""}]},
+             "house": {"21": [{"name": "Kevin Mannix", "party": "Republican", "phone": "", "email": ""}],
+                       "22": [{"name": "New Member", "party": "Democrat", "phone": "", "email": ""}]}}
+    rows = [{"SessionKey": "2025R1", "Chamber": "S", "DistrictNumber": "11", "LastName": "Thatcher", "CapitolPhone": "503-986-1711"},
+            {"SessionKey": "2026R1", "Chamber": "S", "DistrictNumber": "11", "LastName": "Thatcher", "CapitolPhone": "503-986-1700"},
+            {"SessionKey": "2025R1", "Chamber": "H", "DistrictNumber": "21", "LastName": "Mannix", "CapitolPhone": " 503-986-1421 "},
+            {"SessionKey": "2025R1", "Chamber": "H", "DistrictNumber": "22", "LastName": "Former", "CapitolPhone": "503-986-1422"},
+            {"SessionKey": "2025R1", "Chamber": "H", "DistrictNumber": "21", "LastName": "Mannix", "CapitolPhone": ""}]
+    assert officials.add_capitol_phones(found, rows) == 2
+    assert found["senate"]["11"][0]["phone"] == "503-986-1700"
+    assert found["house"]["21"][0]["phone"] == "503-986-1421"
+    assert found["house"]["22"][0]["phone"] == ""
