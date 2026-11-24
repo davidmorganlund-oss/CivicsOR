@@ -845,3 +845,20 @@ def test_twin_falls_daily_agenda():
                                    "Public hearing: Rezone request, 3600 N Rd"]
     quiet = TF_AGENDA.replace("**Consider", "Consider").replace("**Public", "Public")
     assert build.normalize_daily_agenda(src, quiet, date(2026, 11, 24), "u", tz) == []
+
+
+def test_regular_schedule_fills_in_behind_postings():
+    """A board's published dates show until it posts that day's meeting."""
+    from datetime import date
+    tz = ZoneInfo("America/Los_Angeles")
+    src = {"id": "x-sd", "name": "X School District", "type": "boardbook", "county": "Lane", "area": "Eugene",
+           "category": "school", "timezone": "America/Los_Angeles",
+           "regular_schedule": [{"title": "Board meeting", "dates": ["2026-12-01", "2026-12-15"], "time": "18:00",
+                                 "url": "https://example.org/board"}]}
+    posted = [build.make_event(src, title="Regular Meeting", start=datetime(2026, 12, 1, 18, 0, tzinfo=tz),
+                               location="Board Room", url="https://example.org/a", uid="1")]
+    out = build.with_regular_schedule(src, posted, date(2026, 11, 24), date(2027, 1, 23), tz)
+    got = sorted((e["start"][:10], e["title"], bool(e.get("regular"))) for e in out)
+    assert got == [("2026-12-01", "Regular Meeting", False), ("2026-12-15", "Board meeting", True)]
+    assert [e["category"] for e in out if e.get("regular")] == ["school"]
+    assert build.with_regular_schedule({**src, "regular_schedule": None}, posted, date(2026, 11, 24), date(2027, 1, 23), tz) == posted
