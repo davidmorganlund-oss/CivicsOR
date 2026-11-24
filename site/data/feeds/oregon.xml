@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T12:12:53-08:00</updated>
+  <updated>2026-11-24T12:16:32-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:024af040b40b:new</id>
@@ -133,20 +133,6 @@
     <summary>Oregon Legislature · 2026-12-03 12:30 (PT) · Oregon State Capitol, Hearing Room 30 · On the agenda: Senator Lieber, Presiding Co-Chair; Secretary of State / Oregon Health Authority - Medicaid Duplicate IDs Put Federal Funding at Risk (Report No. 2026-26); Secretary of State / Department of Corrections / Oregon Youth Authority - Youth and Adults in Close-Custody Correctional Facilities Need…</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:95f554ed13be:new</id>
-    <title>New meeting: Joint Committee on Information Management and Technology (2026-12-03 08:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/JLCIMT/Overview"/>
-    <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Chotzen, Presiding Co-Chair; Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Cybersecurity Briefing - Local Government Ransomware Attack (2023) Presenter: Jay Trost, Curry County Commissioner</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:95f554ed13be:agenda</id>
-    <title>Agenda posted: Joint Committee on Information Management and Technology (2026-12-03 08:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JLCIMT/2026-12-03-08-30"/>
-    <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Chotzen, Presiding Co-Chair; Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Cybersecurity Briefing - Local Government Ransomware Attack (2023) Presenter: Jay Trost, Curry County Commissioner</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:0b11be9fd513:new</id>
     <title>New meeting: Joint: Emergency Board (2026-12-03 08:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -159,6 +145,20 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EB/2026-12-03-08-30"/>
     <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Representative Fahey, Presiding Co-Chair; Consent Grants - Natural Resources Subcommittee 29. Department of Fish and Wildlife - Native Seed Supply Chain 30. Department of Fish and…; Consent Grants - Public Safety Subcommittee 2. Judicial Department - Columbia County Adult Treatment Court 3. Judicial Department -…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:95f554ed13be:new</id>
+    <title>New meeting: Joint Committee on Information Management and Technology (2026-12-03 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/JLCIMT/Overview"/>
+    <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Chotzen, Presiding Co-Chair; Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Cybersecurity Briefing - Local Government Ransomware Attack (2023) Presenter: Jay Trost, Curry County Commissioner</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:95f554ed13be:agenda</id>
+    <title>Agenda posted: Joint Committee on Information Management and Technology (2026-12-03 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JLCIMT/2026-12-03-08-30"/>
+    <summary>Oregon Legislature · 2026-12-03 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Chotzen, Presiding Co-Chair; Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Cybersecurity Briefing - Local Government Ransomware Attack (2023) Presenter: Jay Trost, Curry County Commissioner</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:44201b006dc7:new</id>
@@ -203,20 +203,6 @@
     <summary>Oregon Legislature · 2026-12-02 17:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Rural Food Banks in Oregon; Previewing ODHS 2027 Legislative Concepts</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:687980d77862:new</id>
-    <title>New meeting: Senate Interim Committee on Human Services (2026-12-02 14:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHS/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Language Access Services For more information: https://www.oregonlegislature.gov/lpro/Pages/language-access.aspx Spanish interpretation is…; Wyatt v. Kotek Settlement Agreement and Neutral’s Annual Review; Strengthening, Preserving, and Reunifying Families (SPRF) Program Rule Changes</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:687980d77862:agenda</id>
-    <title>Agenda posted: Senate Interim Committee on Human Services (2026-12-02 14:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SHS/2026-12-02-14-30"/>
-    <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Language Access Services For more information: https://www.oregonlegislature.gov/lpro/Pages/language-access.aspx Spanish interpretation is…; Wyatt v. Kotek Settlement Agreement and Neutral’s Annual Review; Strengthening, Preserving, and Reunifying Families (SPRF) Program Rule Changes</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:4c7bdd42bf84:new</id>
     <title>New meeting: Joint Interim Subcommittee on Public Safety (2026-12-02 14:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -229,6 +215,20 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EBPS/2026-12-02-14-30"/>
     <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Senator Broadman, Presiding Co-Chair; Consent Grants 2. Judicial Department - Columbia County Adult Treatment Court 3. Judicial Department - Behavioral Health Facilitator Pilot…; Individual Items 1. Judicial Department - Compensation Plan Changes 14. Oregon Military Department - Combat Pistol Qualification Course 15.…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:687980d77862:new</id>
+    <title>New meeting: Senate Interim Committee on Human Services (2026-12-02 14:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHS/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Language Access Services For more information: https://www.oregonlegislature.gov/lpro/Pages/language-access.aspx Spanish interpretation is…; Wyatt v. Kotek Settlement Agreement and Neutral’s Annual Review; Strengthening, Preserving, and Reunifying Families (SPRF) Program Rule Changes</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:687980d77862:agenda</id>
+    <title>Agenda posted: Senate Interim Committee on Human Services (2026-12-02 14:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SHS/2026-12-02-14-30"/>
+    <summary>Oregon Legislature · 2026-12-02 14:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Language Access Services For more information: https://www.oregonlegislature.gov/lpro/Pages/language-access.aspx Spanish interpretation is…; Wyatt v. Kotek Settlement Agreement and Neutral’s Annual Review; Strengthening, Preserving, and Reunifying Families (SPRF) Program Rule Changes</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:121a631adcfd:new</id>
@@ -301,20 +301,6 @@
     <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room A · On the agenda: Invited testimony only; 8:30 - 8:40 Introduction of 2027 Committee Bills (See meeting materials for LC Drafts); 8:40 - 9:10 2027 Tax Credit Report Legislative Revenue Office</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:e223acd0091d:new</id>
-    <title>New meeting: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HLWD/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:e223acd0091d:agenda</id>
-    <title>Agenda posted: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HLWD/2026-12-02-08-30"/>
-    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:780852ca4c2c:new</id>
     <title>New meeting: Joint Interim Subcommittee on Natural Resources (2026-12-02 08:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -327,6 +313,20 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EBNR/2026-12-02-08-30"/>
     <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Representative Levy, Presiding Co-Chair; Consent Grants 29. Department of Fish and Wildlife - Native Seed Supply Chain 30. Department of Fish and Wildlife - Oregon Pink Shrimp…; Individual Items 32. Department of State Lands - Oregon Wetland GIS Data Project 33. Department of State Lands - Willamette Cove Remedial…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e223acd0091d:new</id>
+    <title>New meeting: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HLWD/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e223acd0091d:agenda</id>
+    <title>Agenda posted: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HLWD/2026-12-02-08-30"/>
+    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:d4d01a1fed44:new</id>
