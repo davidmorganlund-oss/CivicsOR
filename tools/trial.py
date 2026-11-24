@@ -21,6 +21,7 @@ def trial(src):
     try:
         events = build.CONNECTORS[src["type"]](src, today, today + timedelta(days=60), TZ)
         events = build.apply_source_rules(src, events)
+        events = [e for e in events if today <= datetime.fromisoformat(e["start"]).date() <= today + timedelta(days=60)]
         cats = collections.Counter(e["category"] for e in events)
         org = ""
         if src["type"] == "boardbook":  # the organization's own name, to confirm it's the right one

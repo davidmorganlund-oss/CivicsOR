@@ -794,10 +794,6 @@
      "site": "https://www.staff.josephcharter.org"
     },
     {
-     "name": "North Wasco County SD 21",
-     "site": "https://www.nwasco.k12.or.us/"
-    },
-    {
      "name": "Troy SD 54",
      "site": "https://www.dufur.k12.or.us"
     },
@@ -813,6 +809,10 @@
     {
      "name": "Dufur SD 29",
      "site": "https://www.dufur.k12.or.us/"
+    },
+    {
+     "name": "North Wasco County SD 21",
+     "site": "https://www.nwasco.k12.or.us/"
     },
     {
      "name": "South Wasco County SD 1",
