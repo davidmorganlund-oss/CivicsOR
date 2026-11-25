@@ -2,12 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://civicsor.org/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/about.html"/>
   </url>
   <url>
     <loc>https://civicsor.org/coverage.html</loc>
   </url>
   <url>
     <loc>https://civicsor.org/engage.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/engage.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/engage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/engage.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/about.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/engage.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/engage.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/engage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/engage.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/guides/contact-your-representatives.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/contact-your-representatives.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/contact-your-representatives.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/contact-your-representatives.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/guides/public-records-requests.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/public-records-requests.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/public-records-requests.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/public-records-requests.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/guides/speak-at-a-public-meeting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/speak-at-a-public-meeting.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/speak-at-a-public-meeting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/speak-at-a-public-meeting.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/guides/voting-in-oregon.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/voting-in-oregon.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/voting-in-oregon.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/voting-in-oregon.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/guides/your-school-board.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/your-school-board.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/your-school-board.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/your-school-board.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://civicsor.org/es/reps.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/reps.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/reps.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/reps.html"/>
   </url>
   <url>
     <loc>https://civicsor.org/guides/boards-and-commissions.html</loc>
@@ -20,6 +86,9 @@
   </url>
   <url>
     <loc>https://civicsor.org/guides/contact-your-representatives.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/contact-your-representatives.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/contact-your-representatives.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/contact-your-representatives.html"/>
   </url>
   <url>
     <loc>https://civicsor.org/guides/courts.html</loc>
@@ -53,6 +122,9 @@
   </url>
   <url>
     <loc>https://civicsor.org/guides/public-records-requests.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/public-records-requests.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/public-records-requests.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/public-records-requests.html"/>
   </url>
   <url>
     <loc>https://civicsor.org/guides/read-a-bill-or-agenda.html</loc>
@@ -62,6 +134,9 @@
   </url>
   <url>
     <loc>https://civicsor.org/guides/speak-at-a-public-meeting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/speak-at-a-public-meeting.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/speak-at-a-public-meeting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/speak-at-a-public-meeting.html"/>
   </url>
   <url>
     <loc>https://civicsor.org/guides/state-agencies.html</loc>
@@ -80,6 +155,9 @@
   </url>
   <url>
     <loc>https://civicsor.org/guides/voting-in-oregon.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/voting-in-oregon.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/voting-in-oregon.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/voting-in-oregon.html"/>
   </url>
   <url>
     <loc>https://civicsor.org/guides/weigh-in-on-a-state-bill.html</loc>
@@ -89,17 +167,29 @@
   </url>
   <url>
     <loc>https://civicsor.org/guides/your-school-board.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/guides/your-school-board.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/guides/your-school-board.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/guides/your-school-board.html"/>
   </url>
   <url>
     <loc>https://civicsor.org/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/"/>
   </url>
   <url>
     <loc>https://civicsor.org/legislature.html</loc>
   </url>
   <url>
     <loc>https://civicsor.org/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/privacy.html"/>
   </url>
   <url>
     <loc>https://civicsor.org/reps.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsor.org/reps.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsor.org/es/reps.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsor.org/reps.html"/>
   </url>
 </urlset>

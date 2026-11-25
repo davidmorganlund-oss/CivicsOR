@@ -30,7 +30,39 @@
     SPRGFD: 'Springfield', EMS: 'EMS', DE: 'Department', OF: 'of', AND: 'and'
   };
 
-  var FIRE_NOTES = {
+  // Labels and notes in English, or in Spanish on pages under /es/
+  // (<html lang="es">). District names come from the state's data and stay as they are.
+  var LANG = (typeof document !== 'undefined' && document.documentElement.lang === 'es') ? 'es' : 'en';
+  var S = {
+    en: {
+      fire: 'Fire', esd: 'Education service district', cc: 'Community college', swcd: 'Soil and water conservation',
+      esdNote: 'Gives the school districts in the region special education, technology and other shared services. Run by an elected board.',
+      byContract: ' (by contract)',
+      ccContract: function (c) { return 'This address isn’t in a community college district. ' + c + ' serves the area under a contract, so you don’t vote for its board.'; },
+      ccNote: 'Run by an elected board. Residents here pay in-district tuition.',
+      zone: ', Zone ',
+      swcdNote: 'Helps landowners with erosion, water quality and habitat. Its directors are elected, some by zone.'
+    },
+    es: {
+      fire: 'Bomberos', esd: 'Distrito de servicios educativos', cc: 'Colegio comunitario', swcd: 'Conservación de suelos y agua',
+      esdNote: 'Da a los distritos escolares de la región educación especial, tecnología y otros servicios compartidos. Lo dirige una junta electa.',
+      byContract: ' (por contrato)',
+      ccContract: function (c) { return 'Esta dirección no está dentro de un distrito de colegio comunitario. ' + c + ' atiende la zona por contrato, así que usted no vota por su junta.'; },
+      ccNote: 'Lo dirige una junta electa. Los residentes de aquí pagan la matrícula reducida para residentes del distrito (in-district tuition).',
+      zone: ', zona ',
+      swcdNote: 'Ayuda a los propietarios de terrenos con la erosión, la calidad del agua y los hábitats. Sus directores se eligen, algunos por zona.'
+    }
+  }[LANG];
+
+  var FIRE_NOTES = LANG === 'es' ? {
+    'Rural Fire Protection District': 'Bomberos y respuesta a emergencias, a cargo de una junta directiva electa.',
+    'County Special District': 'Bomberos y respuesta a emergencias, a cargo de un distrito de servicios del condado.',
+    'Water District': 'Este distrito de agua también da protección contra incendios. Lo dirige una junta electa.',
+    'Fire Department': 'Un departamento de bomberos de la ciudad u otro departamento público cubre esta dirección.',
+    'Tribal': 'Un departamento de bomberos tribal cubre esta dirección.',
+    'Private': 'Aquí la protección contra incendios viene de un proveedor privado, no de un distrito con impuestos.',
+    'Subscription': 'Aquí la protección contra incendios es por suscripción, no de un distrito con impuestos.'
+  } : {
     'Rural Fire Protection District': 'Fire and emergency response, run by an elected board of directors.',
     'County Special District': 'Fire and emergency response, run by a county service district.',
     'Water District': 'This water district also provides fire protection. An elected board runs it.',
@@ -98,7 +130,7 @@
   function fromFire(response) {
     var seen = {};
     return features(response).map(function (a) {
-      return { type: 'FIRE', label: 'Fire', name: fireName(a.Agency_Name), note: FIRE_NOTES[a.Category] || '' };
+      return { type: 'FIRE', label: S.fire, name: fireName(a.Agency_Name), note: FIRE_NOTES[a.Category] || '' };
     }).filter(function (d) {
       if (!d.name || seen[d.name]) return false;
       seen[d.name] = true;
@@ -110,18 +142,15 @@
     var out = [];
     features(response).slice(0, 1).forEach(function (a) {
       var esd = String(a.ESD_Name || '').trim();
-      if (esd) out.push({ type: 'ESD', label: 'Education service district', name: esd,
-        note: 'Gives the school districts in the region special education, technology and other shared services. Run by an elected board.' });
+      if (esd) out.push({ type: 'ESD', label: S.esd, name: esd, note: S.esdNote });
       var cc = String(a.CC_Taxing_District_Name || '').trim();
       var contract = /\(contract out of district\)/i.exec(cc);
       var key = cc.replace(/\s*\(.*\)\s*$/, '').trim();
       key = Object.keys(COLLEGES).filter(function (k) { return k.toLowerCase() === key.toLowerCase(); })[0];
       if (key && contract) {
-        out.push({ type: 'CC', label: 'Community college', name: COLLEGES[key] + ' (by contract)',
-          note: 'This address isn’t in a community college district. ' + COLLEGES[key] + ' serves the area under a contract, so you don’t vote for its board.' });
+        out.push({ type: 'CC', label: S.cc, name: COLLEGES[key] + S.byContract, note: S.ccContract(COLLEGES[key]) });
       } else if (key) {
-        out.push({ type: 'CC', label: 'Community college', name: COLLEGES[key],
-          note: 'Run by an elected board. Residents here pay in-district tuition.' });
+        out.push({ type: 'CC', label: S.cc, name: COLLEGES[key], note: S.ccNote });
       }
     });
     return out;
@@ -131,8 +160,7 @@
     return features(response).slice(0, 1).filter(function (a) { return swcdName(a.SWCD_Name); }).map(function (a) {
       var name = swcdName(a.SWCD_Name);
       var zone = a.Zone != null && String(a.Zone).trim() !== '' ? String(a.Zone).trim() : '';
-      return { type: 'SWCD', label: 'Soil and water conservation', name: name + (zone ? ', Zone ' + zone : ''),
-        note: 'Helps landowners with erosion, water quality and habitat. Its directors are elected, some by zone.' };
+      return { type: 'SWCD', label: S.swcd, name: name + (zone ? S.zone + zone : ''), note: S.swcdNote };
     });
   }
 

@@ -347,6 +347,7 @@ G["voting-in-oregon"] = dict(
     body=f"""
   <h2>Registering</h2>
   <ul>
+    <li><strong>You must be a U.S. citizen to register and vote.</strong> You also need to live in Oregon and be at least 16 to register. You get your first ballot for an election held on or after your 18th birthday. Green card holders and other noncitizens can't register or vote in Oregon.</li>
     <li><strong>Register by 21 days before an election.</strong> You can register online with an Oregon driver's license or ID, or by mail.</li>
     <li><strong>Many people are registered automatically</strong> when they get or renew an Oregon license or ID at the DMV, and get a card in the mail asking which party, if any, they want.</li>
     <li><strong>Update your registration when you move,</strong> so your ballot finds you.</li>
@@ -372,6 +373,7 @@ G["voting-in-oregon"] = dict(
   <p>If you're helping someone leaving prison, registering to vote can go on the reentry checklist alongside ID and benefits.</p>
 """,
     sources=[(VOTE, "Voting and elections (Oregon Secretary of State)"),
+             ("https://sos.oregon.gov/elections/Pages/registration.aspx", "Register to vote: who can register (Oregon Secretary of State)"),
              ("https://sos.oregon.gov/elections/Pages/faq.aspx", "Elections FAQ, including the postmark rule (Oregon Secretary of State)"),
              ("https://multco.us/info/voting-rights-oregon-person-convicted-felony-frequently-asked-questions", "Voting rights for people convicted of a felony (Multnomah County Elections)"),
              ("https://www.oregonlegislature.gov/bills_laws/ors/ors137.html", "ORS 137.281, rights during incarceration (Oregon Legislature)")],
