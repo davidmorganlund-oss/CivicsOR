@@ -54,10 +54,27 @@ def is_cancelled(*texts: str) -> bool:
     return any(re.search(r"cancel", t or "", re.I) for t in texts)
 
 
+# A field that says only that the meeting is off ("CANCELED", "** Meeting
+# Cancelled **"). Metro's Legistar puts that in the location and comment.
+CANCEL_ONLY = re.compile(r"^[\s*\-–:()!.]*(?:this\s+)?(?:meeting\s+)?(?:has\s+been\s+|is\s+)?"
+                         r"cancel+ed[\s*\-–:()!.]*$", re.I)
+# "CANCELED - Council Chamber": a cancellation word in front of the real place.
+CANCEL_LEAD = re.compile(r"^[\s*]*(?:meeting\s+)?cancel+ed[\s*]*(?:[:\-–]\s*|\s+(?=\S))", re.I)
+
+
 def make_event(src, *, title, start, end=None, all_day=False, location="", url="",
                agenda_url="", note="", uid="", category="", area="", cancelled=False):
     key = f"{src['id']}|{uid or title}|{start.isoformat()}"
     cancelled = cancelled or is_cancelled(title, note)
+    # The site shows its own Cancelled tag, so a location or note that only
+    # says "cancelled" is dropped, and a leading "Cancelled -" is trimmed off
+    # the place.
+    if CANCEL_ONLY.match(location or ""):
+        location, cancelled = "", True
+    elif CANCEL_LEAD.match(location or ""):
+        location, cancelled = CANCEL_LEAD.sub("", location), True
+    if CANCEL_ONLY.match(note or ""):
+        note = ""
     # Hosts often prefix the title ("Canceled: Board Work Session"); the site
     # shows its own Cancelled tag, so drop the prefix.
     title = re.sub(r"^[\s*]*cancel+ed[\s*]*(?:[:\-–]\s*|\s+(?=\S))", "", title or "", flags=re.I)

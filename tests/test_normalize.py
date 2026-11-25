@@ -28,6 +28,23 @@ def test_legistar():
     assert b["all_day"] and b["cancelled"]
 
 
+def test_legistar_cancelled_location_is_cleaned():
+    # Metro's Legistar writes CANCELED into the location and the comment.
+    src = {"id": "metro", "name": "Metro (regional government)", "area": "countywide"}
+    rows = [{"EventId": 3750, "EventBodyName": "Council work session", "EventDate": "2026-11-24T00:00:00",
+             "EventTime": "10:30 AM", "EventLocation": "CANCELED", "EventComment": "CANCELED"},
+            {"EventId": 3751, "EventBodyName": "Council meeting", "EventDate": "2026-11-26T00:00:00",
+             "EventTime": "2:00 PM", "EventLocation": "CANCELED - Council chamber", "EventComment": None},
+            {"EventId": 3752, "EventBodyName": "Council meeting", "EventDate": "2026-12-03T00:00:00",
+             "EventTime": "2:00 PM", "EventLocation": "Council chamber, Metro Regional Center",
+             "EventComment": None}]
+    a, b, c = build.normalize_legistar(src, rows, TZ)
+    assert a["cancelled"] and a["location"] == "" and a["note"] == ""
+    assert a["title"] == "Council work session"
+    assert b["cancelled"] and b["location"] == "Council chamber"
+    assert not c["cancelled"] and c["location"] == "Council chamber, Metro Regional Center"
+
+
 def test_civicclerk_times_are_local():
     src = {"id": "lacey", "name": "City of Lacey", "area": "Lacey", "tenant": "laceywa"}
     rows = [{"id": 1580, "eventName": "City Council Meeting ", "startDateTime": "2026-12-01T18:00:00Z",
