@@ -39,7 +39,7 @@
     },
     es: {
       all: 'Todo', council: 'Concejos y comisiones', hearing: 'Audiencias públicas', legislature: 'Legislatura de Oregon',
-      school: 'Juntas escolares', library: 'Bibliotecas', other: 'Otros', locale: 'es-US',
+      school: 'Juntas escolares', library: 'Programas de bibliotecas', other: 'Otros', locale: 'es-US',
       noTime: 'Hora no indicada', noTimeRegular: 'Hora no publicada', pacific: 'Pacífico', mountain: 'Montaña',
       cancelled: 'Cancelada', usually: 'Reunión habitual', onAgenda: 'En la agenda',
       more: function (n) { return 'y ' + n + (n === 1 ? ' punto más' : ' puntos más'); },
@@ -59,7 +59,7 @@
       allState: 'Todo Oregon', county: function (c) { return 'Condado de ' + c; }, linksOnly: ' (solo enlaces)',
       coverage: function (n) { return 'Reuniones de ' + n + ' de los 36 condados de Oregon, y enlaces para los demás.'; },
       cantRead: function (c) { return 'Todavía no podemos leer el calendario del condado de ' + c; },
-      cantReadText: 'El condado publica las reuniones y agendas de su junta en su propio sitio web. Hasta que podamos agregarlas aquí, revise allí. La ley de reuniones públicas de Oregon exige avisar de cada reunión, con una lista de los temas principales.',
+      cantReadText: 'El condado publica las reuniones y agendas de su junta en su propio sitio web. Hasta que podamos agregarlas aquí, revise allí. La Ley de Reuniones Públicas de Oregon exige avisar de cada reunión, con una lista de los temas principales que se esperan tratar.',
       countyMeetings: function (c) { return 'Reuniones y agendas del condado de ' + c; },
       anywhere: function (c) { return 'Cualquier lugar del condado de ' + c; }, pickCounty: 'Elija condado',
       report: 'Reportar un problema', reportSubject: 'CivicsOR: problema con una reunión',

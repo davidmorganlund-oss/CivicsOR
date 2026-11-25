@@ -12,15 +12,135 @@
   // Local governments with a council or commission page we have checked.
   var LOCAL = {
     places: {
-      Portland: { label: 'Portland City Council agendas', url: 'https://www.portland.gov/council/agenda', note: 'Meetings, agendas and how to testify. Since 2025, each of Portland’s four districts elects three councilors' },
-      Salem: { label: 'Salem City Council agendas', url: 'https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes', note: 'Meetings, agendas and how to comment' }
+      Portland: { label: 'Portland City Council agendas', url: 'https://www.portland.gov/council/agenda', note: 'Meetings, agendas and how to testify. Since 2025, each of Portland’s four districts elects three councilors',
+                  label_es: 'Agendas del Concejo Municipal de Portland (en inglés)', note_es: 'Reuniones, agendas y cómo testificar. Desde 2025, cada uno de los cuatro distritos de Portland elige a tres concejales' },
+      Salem: { label: 'Salem City Council agendas', url: 'https://www.cityofsalem.net/government/city-council-mayor/city-council-meetings/city-council-meeting-agendas-and-minutes', note: 'Meetings, agendas and how to comment',
+               label_es: 'Agendas del Concejo Municipal de Salem (en inglés)', note_es: 'Reuniones, agendas y cómo enviar comentarios' }
     },
     counties: {
-      Multnomah: { label: 'Multnomah County Board of Commissioners', url: 'https://multco.us/info/about-board-meetings', note: 'Meetings, agendas and how to testify' },
-      Clackamas: { label: 'Clackamas County Board of County Commissioners', url: 'https://www.clackamas.us/meetings/bcc/business', note: 'Business meetings and agendas' },
-      Washington: { label: 'Washington County Board of Commissioners', url: 'https://www.washingtoncountyor.gov/bcc', note: 'Members, meetings and agendas' }
+      Multnomah: { label: 'Multnomah County Board of Commissioners', url: 'https://multco.us/info/about-board-meetings', note: 'Meetings, agendas and how to testify',
+                   label_es: 'Junta de Comisionados del Condado de Multnomah (en inglés)', note_es: 'Reuniones, agendas y cómo testificar' },
+      Clackamas: { label: 'Clackamas County Board of County Commissioners', url: 'https://www.clackamas.us/meetings/bcc/business', note: 'Business meetings and agendas',
+                   label_es: 'Junta de Comisionados del Condado de Clackamas (en inglés)', note_es: 'Reuniones de trabajo (business meetings) y agendas' },
+      Washington: { label: 'Washington County Board of Commissioners', url: 'https://www.washingtoncountyor.gov/bcc', note: 'Members, meetings and agendas',
+                    label_es: 'Junta de Comisionados del Condado de Washington (en inglés)', note_es: 'Miembros, reuniones y agendas' }
     }
   };
+
+  // English and Spanish wording. The page under /es/ sets <html lang="es">.
+  // Names, phone numbers and district numbers come from the data and stay as they are.
+  var LANG = document.documentElement.lang === 'es' ? 'es' : 'en';
+  var BASE = LANG === 'es' ? '../' : '';
+  var S = {
+    en: {
+      locale: 'en-US',
+      termWho: ['New members of Congress', 'New members of the Oregon Legislature'],
+      tookOffice: ' took office ', takeOffice: ' take office ',
+      termLag: ' The lists below can lag by a few weeks after a new term starts.',
+      termUntil: ' Until then, the lists below show the members serving now.',
+      dEyebrow: 'Your districts', dTitle: 'Every district you live in',
+      usHouse: 'U.S. House', cd: function (n) { return 'Congressional District ' + n; },
+      stSenate: 'State Senate', sdName: function (n) { return 'Senate District ' + n; },
+      stHouse: 'State House', hdName: function (n) { return 'House District ' + n; },
+      county: 'County', countyOf: function (c) { return c + ' County'; },
+      city: 'City', cityOf: function (c) { return 'City of ' + c; }, unincorporated: 'Unincorporated (outside city limits)',
+      school: 'School district', schoolNote: 'An elected school board runs your public schools.',
+      tribal: 'Tribal land', tribalNote: 'This address is on tribal land. The tribe’s own government serves its members here.',
+      dLooking: 'Looking up fire, education and conservation districts…',
+      dNone: 'We could not look up special districts for this address.',
+      council: 'City council', councilName: function (n) { return 'Portland City Council District ' + n; },
+      commission: 'County commission', commissionName: function (n) { return 'Multnomah County Commissioner District ' + n; },
+      dPartial: 'Part of the district lookup did not respond, so this list may be missing some districts. Try again in a few minutes.',
+      dSource: 'Fire districts come from the Oregon State Fire Marshal’s maps, education districts from the state’s education boundary maps, and conservation districts from the Oregon Department of Agriculture.',
+      dSourcePdx: ' Portland council districts come from the City of Portland’s district map.',
+      dSourceMult: ' Multnomah County commissioner districts come from the county’s elections map.',
+      missCommission: 'county commissioner districts', missCouncil: 'city council districts', missPrecincts: 'voting precincts',
+      notListed: 'Not listed here: ',
+      notListedEnd: ' and library, park, water, sanitary, transit, port and Metro districts. Your county elections office can tell you which of those you live in.',
+      lookupFail: function (what) { return 'We could not look up your ' + what + ' right now. Try again in a few minutes.'; },
+      seeMembers: function (who) { return 'See the ' + who + ' page for the members of this district.'; },
+      membersAsListed: 'Members as listed by the ',
+      seat: ' · Seat ', website: 'Website', official: 'Official website',
+      boards: 'Boards and committees', commissionersLink: 'Commissioners (they appoint board members)', meetings: 'Meetings and agendas',
+      mayor: 'Mayor', councilAgendas: 'City Council agendas', councilMembers: 'City council members',
+      elsewhere: function (st) { return 'That address is in ' + st + '. CivicsOR only covers Oregon.'; },
+      showing: function (a) { return 'Showing results for ' + a + '.'; },
+      outside: 'Outside city limits',
+      cityFallback: 'Your mayor and council members are listed on the city’s website. We have not added a direct link for this city yet.',
+      uninc: 'This address is in an unincorporated area, so the county is your local government.',
+      pdxCouncil: { heading: 'City Council, District', what: 'Portland City Council district', who: 'City of Portland' },
+      multCommission: { heading: 'County Commissioner, District', what: 'county commissioner district', who: 'Multnomah County Board of Commissioners',
+        chairHeading: 'County Chair (elected countywide)', note: 'Four commissioners are elected by district and the chair countywide.' },
+      countyFallback: 'Your county commissioners are listed on the county’s website. Most Oregon counties have a board of three to five commissioners; a few smaller ones have a county court, a county judge and two commissioners.',
+      legislature: 'State Legislature', legNotFound: 'Legislative districts not found',
+      legTitle: function (sd, hd) { return 'Senate District ' + sd + ' · House District ' + hd; },
+      senator: 'State Senator', noSenator: 'No senator listed.', rep: 'State Representative', noRep: 'No representative listed.',
+      noRoster: 'We could not load the member list.',
+      confirm: 'Each Senate district is two House districts put together, so you have one state senator and one state representative. Members elected in November take office in January, and this list can lag by a few weeks. Confirm current members with the Legislature’s ',
+      finder: 'Find Your Legislator', pageEnd: ' page.',
+      congress: 'Congress', cdNotFound: 'Congressional district not found',
+      usRep: 'U.S. Representative', noUsRep: 'No representative listed.', usSens: 'U.S. Senators', noUsSens: 'No senators listed.',
+      tooShort: 'Enter a street address with a city or ZIP code, like 900 Court St NE, Salem.',
+      looking: 'Looking up your districts…',
+      notFound: 'We could not find that address. Check the street number, spelling and ZIP code, and leave off apartment numbers. If it still isn’t found, try a nearby street address. Some government buildings aren’t in the Census Bureau’s address list.',
+      down: 'The address lookup is not responding right now. You can use the Legislature’s ', downEnd: ' page instead.',
+      party: {}
+    },
+    es: {
+      locale: 'es-US',
+      termWho: ['Los nuevos miembros del Congreso', 'Los nuevos miembros de la Legislatura de Oregon'],
+      tookOffice: ' asumieron el cargo el ', takeOffice: ' asumen el cargo el ',
+      termLag: ' Las listas de abajo pueden tardar unas semanas en actualizarse después de que empieza un nuevo periodo.',
+      termUntil: ' Hasta entonces, las listas de abajo muestran a quienes ocupan los cargos ahora.',
+      dEyebrow: 'Sus distritos', dTitle: 'Todos los distritos donde vive',
+      usHouse: 'Cámara de Representantes federal', cd: function (n) { return 'Distrito congresional ' + n; },
+      stSenate: 'Senado estatal', sdName: function (n) { return 'Distrito del Senado ' + n; },
+      stHouse: 'Cámara estatal', hdName: function (n) { return 'Distrito de la Cámara ' + n; },
+      county: 'Condado', countyOf: function (c) { return 'Condado de ' + c; },
+      city: 'Ciudad', cityOf: function (c) { return 'Ciudad de ' + c; }, unincorporated: 'Área no incorporada (fuera de los límites de la ciudad)',
+      school: 'Distrito escolar', schoolNote: 'Una junta escolar electa dirige sus escuelas públicas.',
+      tribal: 'Tierra tribal', tribalNote: 'Esta dirección está en tierra tribal. El gobierno de la tribu atiende a sus miembros aquí.',
+      dLooking: 'Buscando distritos de bomberos, de educación y de conservación…',
+      dNone: 'No pudimos buscar los distritos especiales de esta dirección.',
+      council: 'Concejo municipal', councilName: function (n) { return 'Distrito ' + n + ' del Concejo Municipal de Portland'; },
+      commission: 'Comisión del condado', commissionName: function (n) { return 'Distrito ' + n + ' de Comisionados del Condado de Multnomah'; },
+      dPartial: 'Una parte de la búsqueda de distritos no respondió, así que puede que falten algunos distritos en esta lista. Intente de nuevo en unos minutos.',
+      dSource: 'Los distritos de bomberos vienen de los mapas de la Oficina del Jefe de Bomberos del Estado de Oregon, los distritos de educación de los mapas de límites educativos del estado, y los distritos de conservación del Departamento de Agricultura de Oregon.',
+      dSourcePdx: ' Los distritos del concejo de Portland vienen del mapa de distritos de la Ciudad de Portland.',
+      dSourceMult: ' Los distritos de comisionados del condado de Multnomah vienen del mapa electoral del condado.',
+      missCommission: 'distritos de comisionados del condado', missCouncil: 'distritos del concejo municipal', missPrecincts: 'precintos electorales',
+      notListed: 'No aparecen aquí: ',
+      notListedEnd: ' ni los distritos de bibliotecas, parques, agua, saneamiento, transporte público, puertos y Metro. La oficina de elecciones de su condado puede decirle en cuáles vive.',
+      lookupFail: function (what) { return 'No pudimos buscar su ' + what + ' en este momento. Intente de nuevo en unos minutos.'; },
+      seeMembers: function (who) { return 'Vea la página de ' + who + ' (en inglés) para los miembros de este distrito.'; },
+      membersAsListed: 'Miembros según la página de ',
+      seat: ' · Puesto ', website: 'Sitio web', official: 'Sitio web oficial (en inglés)',
+      boards: 'Juntas y comités (en inglés)', commissionersLink: 'Comisionados (nombran a los miembros de las juntas) (en inglés)', meetings: 'Reuniones y agendas (en inglés)',
+      mayor: 'Alcalde o alcaldesa', councilAgendas: 'Agendas del Concejo Municipal (en inglés)', councilMembers: 'Miembros del concejo municipal (en inglés)',
+      elsewhere: function (st) { return 'Esa dirección está en ' + st + '. CivicsOR solo cubre Oregon.'; },
+      showing: function (a) { return 'Resultados para ' + a + '.'; },
+      outside: 'Fuera de los límites de la ciudad',
+      cityFallback: 'Su alcalde o alcaldesa y los miembros del concejo aparecen en el sitio web de la ciudad. Todavía no hemos agregado un enlace directo para esta ciudad.',
+      uninc: 'Esta dirección está en un área no incorporada, así que el condado es su gobierno local.',
+      pdxCouncil: { heading: 'Concejo Municipal, distrito', what: 'distrito del Concejo Municipal de Portland', who: 'la Ciudad de Portland' },
+      multCommission: { heading: 'Comisionados del condado, distrito', what: 'distrito de comisionados del condado', who: 'la Junta de Comisionados del Condado de Multnomah',
+        chairHeading: 'Presidencia del condado (County Chair, elegida en todo el condado)', note: 'Cuatro comisionados se eligen por distrito y la presidencia en todo el condado.' },
+      countyFallback: 'Sus comisionados del condado aparecen en el sitio web del condado. La mayoría de los condados de Oregon tienen una junta de tres a cinco comisionados; algunos condados más pequeños tienen una corte del condado (county court), con un juez del condado y dos comisionados.',
+      legislature: 'Legislatura estatal', legNotFound: 'No se encontraron los distritos legislativos',
+      legTitle: function (sd, hd) { return 'Distrito del Senado ' + sd + ' · Distrito de la Cámara ' + hd; },
+      senator: 'Senador o senadora estatal', noSenator: 'No hay senador en la lista.', rep: 'Representante estatal', noRep: 'No hay representante en la lista.',
+      noRoster: 'No pudimos cargar la lista de miembros.',
+      confirm: 'Cada distrito del Senado está formado por dos distritos de la Cámara, así que usted tiene un senador o senadora estatal y un o una representante estatal. Los miembros elegidos en noviembre asumen el cargo en enero, y esta lista puede tardar unas semanas en actualizarse. Confirme los miembros actuales en la página de la Legislatura ',
+      finder: 'Find Your Legislator (en inglés)', pageEnd: '.',
+      congress: 'Congreso', cdNotFound: 'No se encontró el distrito congresional',
+      usRep: 'Representante federal', noUsRep: 'No hay representante en la lista.', usSens: 'Senadores federales', noUsSens: 'No hay senadores en la lista.',
+      tooShort: 'Escriba una dirección con la ciudad o el código postal, como 900 Court St NE, Salem.',
+      looking: 'Buscando sus distritos…',
+      notFound: 'No pudimos encontrar esa dirección. Revise el número, cómo está escrita la calle y el código postal, y no incluya el número de apartamento. Si aún no aparece, pruebe con una dirección cercana. Algunos edificios de gobierno no están en la lista de direcciones de la Oficina del Censo.',
+      down: 'La búsqueda de direcciones no responde en este momento. Puede usar la página de la Legislatura ', downEnd: '.',
+      party: { Republican: 'Partido Republicano', Democrat: 'Partido Demócrata', 'Democratic/Working Families': 'Partido Demócrata y Working Families', Independent: 'Independiente' }
+    }
+  }[LANG];
 
   // New terms start after each November election. Update these after every
   // election: Congress on January 3; the Oregon Legislature on the second
@@ -43,12 +163,10 @@
     var parts = NEW_TERMS.map(function (t, i) {
       var past = today >= dates[i];
       if (past) anyPast = true;
-      var when = dates[i].toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-      return t.who + (past ? ' took office ' : ' take office ') + when + '.';
+      var when = dates[i].toLocaleDateString(S.locale, { month: 'long', day: 'numeric', year: 'numeric' });
+      return (S.termWho[i] || t.who) + (past ? S.tookOffice : S.takeOffice) + when + '.';
     });
-    return parts.join(' ') + (anyPast
-      ? ' The lists below can lag by a few weeks after a new term starts.'
-      : ' Until then, the lists below show the members serving now.');
+    return parts.join(' ') + (anyPast ? S.termLag : S.termUntil);
   }
 
   var officials = null;
@@ -114,46 +232,44 @@
   // conservation districts come from three state map services, which get
   // only the map point.
   function districtsCard(g, match, parts) {
-    var card = section('Your districts', 'Every district you live in');
+    var card = section(S.dEyebrow, S.dTitle);
     var list = el('ul', 'districts');
     card.appendChild(list);
     var add = function (d) { districtItem(list, d); };
-    if (parts.cd) add({ label: 'U.S. House', name: 'Congressional District ' + parts.cd });
-    if (parts.sd) add({ label: 'State Senate', name: 'Senate District ' + parts.sd });
-    if (parts.hd) add({ label: 'State House', name: 'House District ' + parts.hd });
-    if (parts.county) add({ label: 'County', name: parts.county + ' County' });
-    add({ label: 'City', name: parts.city ? 'City of ' + parts.city : 'Unincorporated (outside city limits)' });
+    if (parts.cd) add({ label: S.usHouse, name: S.cd(parts.cd) });
+    if (parts.sd) add({ label: S.stSenate, name: S.sdName(parts.sd) });
+    if (parts.hd) add({ label: S.stHouse, name: S.hdName(parts.hd) });
+    if (parts.county) add({ label: S.county, name: S.countyOf(parts.county) });
+    add({ label: S.city, name: parts.city ? S.cityOf(parts.city) : S.unincorporated });
     names(g, /School Districts/).forEach(function (n) {
-      add({ label: 'School district', name: n, note: 'An elected school board runs your public schools.' });
+      add({ label: S.school, name: n, note: S.schoolNote });
     });
     names(g, /American Indian Reservations|Off-Reservation Trust Lands/).forEach(function (n) {
-      add({ label: 'Tribal land', name: n, note: 'This address is on tribal land. The tribe’s own government serves its members here.' });
+      add({ label: S.tribal, name: n, note: S.tribalNote });
     });
 
-    var status = el('p', 'muted', 'Looking up fire, education and conservation districts…');
+    var status = el('p', 'muted', S.dLooking);
     card.appendChild(status);
     var D = window.CivicsORDistricts;
     var c = match.coordinates || {};
     if (!D || typeof c.x !== 'number' || typeof c.y !== 'number') {
-      status.textContent = 'We could not look up special districts for this address.';
+      status.textContent = S.dNone;
       return card;
     }
     var local = parts.local || Promise.resolve({});
     Promise.all([D.lookup(c.x, c.y), local]).then(function (both) {
       var r = both[0], here = both[1];
-      if (here.council) add({ label: 'City council', name: 'Portland City Council District ' + here.council });
-      if (here.commission) add({ label: 'County commission', name: 'Multnomah County Commissioner District ' + here.commission });
+      if (here.council) add({ label: S.council, name: S.councilName(here.council) });
+      if (here.commission) add({ label: S.commission, name: S.commissionName(here.commission) });
       [r.fire, r.education, r.swcd].forEach(function (found) { (found || []).forEach(add); });
       status.textContent = (!r.fire || !r.education || !r.swcd || here.council === null || here.commission === null)
-        ? 'Part of the district lookup did not respond, so this list may be missing some districts. Try again in a few minutes.'
-        : 'Fire districts come from the Oregon State Fire Marshal’s maps, education districts from the state’s education boundary maps, and conservation districts from the Oregon Department of Agriculture.' +
-          (here.council ? ' Portland council districts come from the City of Portland’s district map.' : '') +
-          (here.commission ? ' Multnomah County commissioner districts come from the county’s elections map.' : '');
+        ? S.dPartial
+        : S.dSource + (here.council ? S.dSourcePdx : '') + (here.commission ? S.dSourceMult : '');
       var missing = [];
-      if (!here.commission) missing.push('county commissioner districts');
-      if (!here.council) missing.push('city council districts');
-      card.appendChild(el('p', 'muted', 'Not listed here: ' + missing.concat(['voting precincts']).join(', ') +
-        (missing.length ? ',' : '') + ' and library, park, water, sanitary, transit, port and Metro districts. Your county elections office can tell you which of those you live in.'));
+      if (!here.commission) missing.push(S.missCommission);
+      if (!here.council) missing.push(S.missCouncil);
+      card.appendChild(el('p', 'muted', S.notListed + missing.concat([S.missPrecincts]).join(', ') +
+        (missing.length && LANG === 'en' ? ',' : '') + S.notListedEnd));
     });
     return card;
   }
@@ -168,19 +284,19 @@
       var num = here[key];
       if (num === undefined || num === '') return;  // not asked, or outside the map
       if (num === null) {
-        slot.appendChild(el('p', 'muted', 'We could not look up your ' + opts.what + ' right now. Try again in a few minutes.'));
+        slot.appendChild(el('p', 'muted', S.lookupFail(opts.what)));
         return;
       }
       var roster = opts.roster || {};
       slot.appendChild(el('h4', null, opts.heading + ' ' + num));
-      people(slot, roster[num], 'See the ' + opts.who + ' page for the members of this district.');
+      people(slot, roster[num], S.seeMembers(opts.who));
       if (roster.chair) {
         slot.appendChild(el('h4', null, opts.chairHeading));
         people(slot, [roster.chair], '');
       }
       if (safeUrl(roster.source)) {
         var p = el('p', 'muted');
-        p.appendChild(document.createTextNode((opts.note ? opts.note + ' ' : '') + 'Members as listed by the '));
+        p.appendChild(document.createTextNode((opts.note ? opts.note + ' ' : '') + S.membersAsListed));
         p.appendChild(link(roster.source, opts.who));
         p.appendChild(document.createTextNode('.'));
         slot.appendChild(p);
@@ -191,12 +307,12 @@
   function person(p) {
     var li = el('li', 'person');
     li.appendChild(el('strong', null, p.name));
-    if (p.seat) li.appendChild(el('span', 'muted', ' · Seat ' + p.seat));
-    if (p.party) li.appendChild(el('span', 'muted', ' · ' + p.party));
+    if (p.seat) li.appendChild(el('span', 'muted', S.seat + p.seat));
+    if (p.party) li.appendChild(el('span', 'muted', ' · ' + (S.party[p.party] || p.party)));
     var contact = el('div', 'contact');
     if (p.phone) contact.appendChild(link('tel:' + p.phone.replace(/[^\d+]/g, ''), p.phone));
     if (p.email) contact.appendChild(link('mailto:' + p.email, p.email));
-    if (safeUrl(p.url)) contact.appendChild(link(p.url, 'Website'));
+    if (safeUrl(p.url)) contact.appendChild(link(p.url, S.website));
     if (contact.children.length) li.appendChild(contact);
     return li;
   }
@@ -223,10 +339,10 @@
   function extraLinks(card, place) {
     if (!place) return;
     var p = el('p');
-    if (safeUrl(place.site)) p.appendChild(link(place.site, 'Official website'));
-    var second = place.boards ? [place.boards, 'Boards and committees']
-      : place.commissioners ? [place.commissioners, 'Commissioners (they appoint board members)']
-      : place.meetings ? [place.meetings, 'Meetings and agendas'] : null;
+    if (safeUrl(place.site)) p.appendChild(link(place.site, S.official));
+    var second = place.boards ? [place.boards, S.boards]
+      : place.commissioners ? [place.commissioners, S.commissionersLink]
+      : place.meetings ? [place.meetings, S.meetings] : null;
     if (second && safeUrl(second[0])) {
       if (p.childNodes.length) p.appendChild(document.createTextNode(' · '));
       p.appendChild(link(second[0], second[1]));
@@ -238,28 +354,28 @@
   // link to the council members page where we found one.
   function addMayor(card, place) {
     if (!place || !place.mayor) return;
-    card.appendChild(el('h4', null, 'Mayor'));
+    card.appendChild(el('h4', null, S.mayor));
     people(card, [{ name: place.mayor.name, url: place.mayor.source }], '');
     var links = card.querySelector('ul.people:last-of-type .contact a');
     // Other people's rows say "Website". Where the page we confirmed the mayor
     // on is the council's agenda page, not the mayor's own, say so.
-    if (links && /\/council\/agenda/.test(place.mayor.source)) links.textContent = 'City Council agendas';
+    if (links && /\/council\/agenda/.test(place.mayor.source)) links.textContent = S.councilAgendas;
     if (place.mayor.note) card.appendChild(el('p', 'muted', place.mayor.note));
     if (safeUrl(place.council)) {
       var p = el('p');
-      p.appendChild(link(place.council, 'City council members'));
+      p.appendChild(link(place.council, S.councilMembers));
       card.appendChild(p);
     }
   }
 
   function localCard(title, name, entry, fallback, place) {
     var card = section(title, name);
-    if (title === 'City') addMayor(card, place);
+    if (title === S.city) addMayor(card, place);
     if (!entry && place) { extraLinks(card, place); return card; }
     if (entry) {
       var p = el('p');
-      p.appendChild(link(entry.url, entry.label));
-      p.appendChild(document.createTextNode(': ' + entry.note + '.'));
+      p.appendChild(link(entry.url, LANG === 'es' ? entry.label_es : entry.label));
+      p.appendChild(document.createTextNode(': ' + (LANG === 'es' ? entry.note_es : entry.note) + '.'));
       card.appendChild(p);
     } else {
       card.appendChild(el('p', 'muted', fallback));
@@ -275,7 +391,7 @@
 
     var state = layer(g, /^States$/);
     if (state && state !== 'Oregon') {
-      out.appendChild(el('p', 'empty', 'That address is in ' + state + '. CivicsOR only covers Oregon.'));
+      out.appendChild(el('p', 'empty', S.elsewhere(state)));
       return;
     }
 
@@ -292,7 +408,7 @@
     var local = (D && D.localDistricts && typeof c.x === 'number' && typeof c.y === 'number' &&
       (city === 'Portland' || county === 'Multnomah')) ? D.localDistricts(c.x, c.y, { city: city, county: county }) : null;
 
-    out.appendChild(el('p', 'muted', 'Showing results for ' + match.matchedAddress + '.'));
+    out.appendChild(el('p', 'muted', S.showing(match.matchedAddress)));
     out.appendChild(districtsCard(g, match, { city: city, county: county, sd: sd, hd: hd, cd: cd, local: local }));
     if (window.CivicsORLocal && county) {
       // Remember only the county and city, so the Engage guides can show local links.
@@ -301,21 +417,22 @@
 
     var cityPlace = localData && localData.cities[city];
     var cityCard = city
-      ? localCard('City', 'City of ' + city, LOCAL.places[city], 'Your mayor and council members are listed on the city’s website. We have not added a direct link for this city yet.', cityPlace)
-      : localCard('City', 'Outside city limits', null, 'This address is in an unincorporated area, so the county is your local government.');
+      ? localCard(S.city, S.cityOf(city), LOCAL.places[city], S.cityFallback, cityPlace)
+      : localCard(S.city, S.outside, null, S.uninc);
     if (local && city === 'Portland') {
-      localDistrict(cityCard, local, 'council', { heading: 'City Council, District', what: 'Portland City Council district',
-        who: 'City of Portland', roster: cityPlace && cityPlace.council_districts });
+      localDistrict(cityCard, local, 'council', { heading: S.pdxCouncil.heading, what: S.pdxCouncil.what,
+        who: S.pdxCouncil.who, roster: cityPlace && cityPlace.council_districts });
     }
     out.appendChild(cityCard);
 
     if (county) {
       var countyPlace = localData && localData.counties[county];
-      var countyCard = localCard('County', county + ' County', LOCAL.counties[county], 'Your county commissioners are listed on the county’s website. Most Oregon counties have a board of three to five commissioners; a few smaller ones have a county court, a county judge and two commissioners.', countyPlace);
+      var countyCard = localCard(S.county, S.countyOf(county), LOCAL.counties[county], S.countyFallback, countyPlace);
       if (local && county === 'Multnomah') {
-        localDistrict(countyCard, local, 'commission', { heading: 'County Commissioner, District', what: 'county commissioner district',
-          who: 'Multnomah County Board of Commissioners', roster: countyPlace && countyPlace.commissioner_districts,
-          chairHeading: 'County Chair (elected countywide)', note: 'Four commissioners are elected by district and the chair countywide.' });
+        var mc = S.multCommission;
+        localDistrict(countyCard, local, 'commission', { heading: mc.heading, what: mc.what,
+          who: mc.who, roster: countyPlace && countyPlace.commissioner_districts,
+          chairHeading: mc.chairHeading, note: mc.note });
       }
       out.appendChild(countyCard);
     }
@@ -323,28 +440,28 @@
     var leg = officials && officials.legislators;
     var senators = leg && leg.senate ? leg.senate[sd] : null;
     var reps = leg && leg.house ? leg.house[hd] : null;
-    var legCard = section('State Legislature', sd || hd ? 'Senate District ' + (sd || '?') + ' · House District ' + (hd || '?') : 'Legislative districts not found');
+    var legCard = section(S.legislature, sd || hd ? S.legTitle(sd || '?', hd || '?') : S.legNotFound);
     if (leg) {
-      legCard.appendChild(el('h4', null, 'State Senator'));
-      people(legCard, senators, 'No senator listed.');
-      legCard.appendChild(el('h4', null, 'State Representative'));
-      people(legCard, reps, 'No representative listed.');
+      legCard.appendChild(el('h4', null, S.senator));
+      people(legCard, senators, S.noSenator);
+      legCard.appendChild(el('h4', null, S.rep));
+      people(legCard, reps, S.noRep);
     } else {
-      legCard.appendChild(el('p', 'muted', 'We could not load the member list.'));
+      legCard.appendChild(el('p', 'muted', S.noRoster));
     }
     var confirm = el('p', 'muted');
-    confirm.appendChild(document.createTextNode('Each Senate district is two House districts put together, so you have one state senator and one state representative. Members elected in November take office in January, and this list can lag by a few weeks. Confirm current members with the Legislature’s '));
-    confirm.appendChild(link(LEG_FINDER, 'Find Your Legislator'));
-    confirm.appendChild(document.createTextNode(' page.'));
+    confirm.appendChild(document.createTextNode(S.confirm));
+    confirm.appendChild(link(LEG_FINDER, S.finder));
+    confirm.appendChild(document.createTextNode(S.pageEnd));
     legCard.appendChild(confirm);
     out.appendChild(legCard);
 
     var congress = (officials && officials.congress) || { senators: [], house: {} };
-    var fed = section('Congress', cd ? 'Congressional District ' + cd : 'Congressional district not found');
-    fed.appendChild(el('h4', null, 'U.S. Representative'));
-    people(fed, congress.house[cd] ? [congress.house[cd]] : [], 'No representative listed.');
-    fed.appendChild(el('h4', null, 'U.S. Senators'));
-    people(fed, congress.senators, 'No senators listed.');
+    var fed = section(S.congress, cd ? S.cd(cd) : S.cdNotFound);
+    fed.appendChild(el('h4', null, S.usRep));
+    people(fed, congress.house[cd] ? [congress.house[cd]] : [], S.noUsRep);
+    fed.appendChild(el('h4', null, S.usSens));
+    people(fed, congress.senators, S.noUsSens);
     out.appendChild(fed);
   }
 
@@ -354,24 +471,24 @@
     var out = $('results');
     out.textContent = '';
     if (address.length < 6) {
-      out.appendChild(el('p', 'empty', 'Enter a street address with a city or ZIP code, like 900 Court St NE, Salem.'));
+      out.appendChild(el('p', 'empty', S.tooShort));
       return;
     }
-    out.appendChild(el('p', 'empty', 'Looking up your districts…'));
+    out.appendChild(el('p', 'empty', S.looking));
     geocode(/oregon|,\s*or\b|\bor\s+9\d{4}/i.test(address) ? address : address + ', OR').then(function (data) {
       var matches = data && data.result && data.result.addressMatches;
       if (!matches || !matches.length) {
         out.textContent = '';
-        out.appendChild(el('p', 'empty', 'We could not find that address. Check the street number, spelling and ZIP code, and leave off apartment numbers. If it still isn’t found, try a nearby street address. Some government buildings aren’t in the Census Bureau’s address list.'));
+        out.appendChild(el('p', 'empty', S.notFound));
         return;
       }
       render(matches[0]);
     }).catch(function () {
       out.textContent = '';
       var p = el('p', 'empty');
-      p.appendChild(document.createTextNode('The address lookup is not responding right now. You can use the Legislature’s '));
-      p.appendChild(link(LEG_FINDER, 'Find Your Legislator'));
-      p.appendChild(document.createTextNode(' page instead.'));
+      p.appendChild(document.createTextNode(S.down));
+      p.appendChild(link(LEG_FINDER, S.finder));
+      p.appendChild(document.createTextNode(S.downEnd));
       out.appendChild(p);
     });
   });
@@ -380,6 +497,6 @@
   var noteText = note ? termNote(new Date()) : '';
   if (noteText) { note.textContent = noteText; note.hidden = false; }
 
-  fetch('data/local.json').then(function (r) { return r.json(); }).then(function (d) { localData = d; }).catch(function () {});
-  fetch('data/officials.json').then(function (r) { return r.json(); }).then(function (d) { officials = d; }).catch(function () {});
+  fetch(BASE + 'data/local.json').then(function (r) { return r.json(); }).then(function (d) { localData = d; }).catch(function () {});
+  fetch(BASE + 'data/officials.json').then(function (r) { return r.json(); }).then(function (d) { officials = d; }).catch(function () {});
 })();
