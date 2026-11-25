@@ -1,9 +1,11 @@
 """Build site/data/officials.json: who holds each Oregon legislative and
 congressional seat, for the "Who represents you" lookup.
 
-Sources (both public and meant for reuse):
+Sources (all public and meant for reuse):
   - Open States current-legislators file for Oregon (public domain data,
     gathered from the Oregon Legislature's member pages)
+  - the Oregon Legislature's own OData service (OLIS), for each member's
+    Capitol phone number, which the Open States file leaves out
   - unitedstates/congress-legislators (public-domain roster of Congress)
 
 Oregon has 30 Senate districts and 60 House districts. Each Senate district
@@ -27,6 +29,7 @@ OUT = Path(__file__).resolve().parent.parent / "site" / "data" / "officials.json
 UA = "CivicsOR/0.1 (BarNone nonprofit civic calendar; contact via barnoneinc.org)"
 LEGISLATORS = "https://data.openstates.org/people/current/or.csv"
 CONGRESS = "https://raw.githubusercontent.com/unitedstates/congress-legislators/gh-pages/legislators-current.json"
+OLIS_API = "https://api.oregonlegislature.gov/odata/odataservice.svc"
 PARTY = {"Democratic": "Democrat"}
 
 
@@ -49,6 +52,57 @@ def parse_legislators(csv_text: str) -> dict:
         for people in seats.values():
             people.sort(key=lambda p: p["name"])
     return out
+
+
+def format_phone(raw: str) -> str:
+    """503-986-1419 -> (503) 986-1419, the way CivicsWA shows numbers."""
+    digits = re.sub(r"\D", "", raw or "")
+    if len(digits) == 11 and digits.startswith("1"):
+        digits = digits[1:]
+    return f"({digits[:3]}) {digits[3:6]}-{digits[6:]}" if len(digits) == 10 else ""
+
+
+def _surname_key(text: str) -> str:
+    """The last word of a name, without accents or a Jr./Sr./II suffix, so
+    "Manning Jr." matches "James Manning" and "Boshart Davis" matches
+    "Shelly Davis"."""
+    import unicodedata
+    plain = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode().lower()
+    words = [w for w in re.findall(r"[a-z]+", plain) if w not in {"jr", "sr", "ii", "iii", "iv"}]
+    return words[-1] if words else ""
+
+
+def current_session(sessions: list) -> str:
+    """The session the Legislature marks as its default (the current one)."""
+    for s in sessions:
+        if s.get("DefaultSession"):
+            return s.get("SessionKey", "")
+    return ""
+
+
+def add_capitol_phones(legislators: dict, rows: list) -> int:
+    """Fill each member's phone from the Legislature's own roster (OLIS
+    Legislators). A number is used only when the chamber, the district and
+    the last name all match, so a seat that changed hands never gets the
+    previous member's number. Returns how many numbers were filled."""
+    by_seat: dict = {}
+    for r in rows:
+        chamber = {"H": "house", "S": "senate"}.get((r.get("Chamber") or "").strip())
+        m = re.match(r"^\s*0*(\d+)\s*$", str(r.get("DistrictNumber") or ""))
+        phone = format_phone(r.get("CapitolPhone") or "")
+        if chamber and m and phone:
+            by_seat.setdefault((chamber, m.group(1)), []).append((_surname_key(r.get("LastName")), phone))
+    filled = 0
+    for chamber, seats in legislators.items():
+        for district, people in seats.items():
+            for person in people:
+                name = _surname_key(person.get("name"))
+                for last, phone in by_seat.get((chamber, district), []):
+                    if last and name == last:
+                        person["phone"] = phone
+                        filled += 1
+                        break
+    return filled
 
 
 def parse_congress(rows: list, state: str = "OR") -> dict:
@@ -100,6 +154,15 @@ def main() -> int:
               f"{sum(map(len, found['house'].values()))} representatives in {len(found['house'])} districts")
     except Exception as exc:
         print(f"[warn] legislators: {type(exc).__name__}: {exc}"[:300], file=sys.stderr)
+
+    try:
+        sessions = get(f"{OLIS_API}/LegislativeSessions", {"$format": "json"}).json().get("value", [])
+        session = current_session(sessions)
+        if session:
+            rows = get(f"{OLIS_API}/LegislativeSessions('{session}')/Legislators", {"$format": "json"}).json().get("value", [])
+            print(f"capitol phones: {add_capitol_phones(data['legislators'], rows)} filled from OLIS ({session})")
+    except Exception as exc:
+        print(f"[warn] capitol phones: {type(exc).__name__}: {exc}"[:300], file=sys.stderr)
 
     try:
         congress = parse_congress(get(CONGRESS).json())

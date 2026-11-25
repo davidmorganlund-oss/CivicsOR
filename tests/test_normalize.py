@@ -195,6 +195,26 @@ def test_officials_parsers():
     assert c["senators"][0]["name"] == "A Senator" and c["house"]["2"]["name"] == "B Rep" and len(c["house"]) == 1
 
 
+def test_capitol_phones_from_olis():
+    import officials
+    assert officials.current_session([{"SessionKey": "2026R1", "DefaultSession": False},
+                                      {"SessionKey": "2025I1", "DefaultSession": True}]) == "2025I1"
+    assert officials.format_phone("503-986-1419") == "(503) 986-1419" and officials.format_phone("n/a") == ""
+    leg = {"senate": {"8": [{"name": "Sam Sample", "phone": ""}], "7": [{"name": "James Manning", "phone": ""}]},
+           "house": {"15": [{"name": "Shelly Davis", "phone": ""}],
+                     "52": [{"name": "New Member", "phone": ""}]}}
+    rows = [{"Chamber": "S", "DistrictNumber": "8", "LastName": "Sample", "CapitolPhone": "503-986-1708"},
+            {"Chamber": "H", "DistrictNumber": "15", "LastName": "Boshart Davis", "CapitolPhone": "503-986-1415"},
+            {"Chamber": "S", "DistrictNumber": "7", "LastName": "Manning Jr.", "CapitolPhone": "503-986-1707"},
+            # The seat changed hands: the old member's number must not carry over.
+            {"Chamber": "H", "DistrictNumber": "52", "LastName": "Helfrich", "CapitolPhone": "503-986-1452"}]
+    assert officials.add_capitol_phones(leg, rows) == 3
+    assert leg["senate"]["7"][0]["phone"] == "(503) 986-1707"
+    assert leg["senate"]["8"][0]["phone"] == "(503) 986-1708"
+    assert leg["house"]["15"][0]["phone"] == "(503) 986-1415"
+    assert leg["house"]["52"][0]["phone"] == ""
+
+
 def test_oregon_legislature():
     src = {"id": "legislature", "name": "Oregon Legislature", "area": "statewide", "county": "Statewide"}
     meetings = [{"SessionKey": "2025I1", "CommitteeCode": "HED", "MeetingDate": "2026-12-01T08:30:00", "Location": "HR D",
