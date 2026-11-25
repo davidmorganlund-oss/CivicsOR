@@ -74,6 +74,7 @@ G["constitution"] = dict(
 
 G["state-budgets"] = dict(
     cat="State", title="How Oregon's budgets are made, and where you can weigh in",
+    short="Oregon's budgets and where you can weigh in",
     lede="The state writes a two-year budget, and every city, county, school district and special district writes its own, with members of the public at the table.",
     body="""
   <h2>The state budget</h2>
@@ -146,7 +147,7 @@ G["your-school-board"] = dict(
   <h2>Elections</h2>
   <ul>
     <li>Board members serve four-year terms, elected on a nonpartisan ballot in May of odd-numbered years. About half the seats are up each time.</li>
-    <li>The next school board election is <strong>May 18, 2027</strong>. Candidates file with the county elections office by <strong>March 18, 2027</strong>.</li>
+    <li>The next school board election is <strong>May 18, 2027</strong>. Candidates file with the county elections office. Filing opens February 6, 2027. Board members who were elected and are running again must file by <strong>March 11, 2027</strong>. Everyone else, including board members who were appointed, has until <strong>March 18, 2027</strong>.</li>
     <li>Turnout in these elections is often low, so each vote counts for more.</li>
   </ul>
 
@@ -161,6 +162,8 @@ G["your-school-board"] = dict(
   </ul>
 """,
     sources=[("https://ballotpedia.org/Rules_governing_school_board_election_dates_and_timing_in_Oregon", "School board election dates in Oregon (Ballotpedia)"),
+             ("https://sos.oregon.gov/elections/Documents/Candidate-SEL190-Highlighted.pdf", "2027 district election filing dates, form SEL 190 (Oregon Secretary of State)"),
+             ("https://apps.oregon.gov/oregon-newsroom/OR/SOS/Posts/Post/candidate-filing-window-opens-today-new-deadlines", "Earlier filing deadline for elected incumbents (Oregon Secretary of State)"),
              ("https://www.oregonlegislature.gov/bills_laws/ors/ors332.html", "ORS chapter 332, local administration of education (Oregon Legislature)"),
              ("https://www.osba.org/", "Oregon School Boards Association")],
 )
@@ -174,8 +177,8 @@ G["your-neighborhood"] = dict(
 
   <h2>What it looks like where you live</h2>
   <ul>
-    <li><strong>Portland</strong> has about 95 neighborhood associations, grouped into districts with district coalition offices, supported by the Office of Community & Civic Life.</li>
-    <li><strong>Unincorporated Washington County</strong> has Community Participation Organizations (CPOs), which advise the county on land use and transportation.</li>
+    <li><strong>Portland</strong> has 94 neighborhood associations, grouped into districts with district coalition offices, supported by the Office of Community & Civic Life.</li>
+    <li><strong>Washington County</strong> replaced its former Community Participation Organizations (CPOs) in 2026. On January 27, 2026, the county board approved a new program it calls SPARC, Strengthening Participation and Reaching Communities. The county describes it as a district-aligned community engagement program, organized in four areas, one for each county commissioner district.</li>
     <li><strong>Many other cities</strong>, from Eugene and Salem to Beaverton and Bend, recognize neighborhood associations and notify them about land use applications nearby.</li>
   </ul>
   <p>Search your city's website for "neighborhood associations." In rural areas, your county's planning department or a community planning organization is the place to start.</p>
@@ -198,11 +201,12 @@ G["your-neighborhood"] = dict(
 """,
     sources=[("https://www.oregon.gov/lcd/op/pages/goal-1.aspx", "Goal 1: Citizen Involvement (Department of Land Conservation and Development)"),
              ("https://www.portland.gov/civic/myneighborhood/about-neighborhood-system", "About neighborhood associations and district offices (City of Portland)"),
-             ("https://washingtoncountyor.gov/CAO/CPO", "Community Participation Organizations (Washington County)")],
+             ("https://washingtoncountyor.gov/CAO/CPO", "SPARC, which replaced the former CPOs (Washington County)")],
 )
 
 G["local-ballot-measures"] = dict(
     cat="Local", title="Local ballot measures: bonds, levies and local laws",
+    short="Local ballot measures: bonds, levies and laws",
     lede="Most of what's on an Oregon ballot in May is local: school bonds, fire district levies, library districts. Here is how to read them.",
     body="""
   <h2>The kinds you'll see</h2>
@@ -236,6 +240,7 @@ G["local-ballot-measures"] = dict(
 
 G["state-agencies"] = dict(
     cat="State", title="Working with state agencies and commenting on rules",
+    short="State agencies and commenting on rules",
     lede="State agencies write the rules that carry out Oregon's laws, and they have to take public comment first.",
     body=f"""
   <h2>How rules get made</h2>
@@ -274,6 +279,7 @@ G["state-agencies"] = dict(
 
 G["campaign-finance"] = dict(
     cat="State", title="Follow the money in Oregon campaigns",
+    desc="Every Oregon campaign reports its money to the Secretary of State, and anyone can look it up. Oregon limits contributions for the first time in 2027.",
     lede="Every Oregon candidate and campaign reports its money to the Secretary of State, and anyone can look it up. Starting in 2027, Oregon also limits contributions for the first time.",
     body=f"""
   <h2>Look it up in ORESTAR</h2>
@@ -285,7 +291,7 @@ G["campaign-finance"] = dict(
   </ul>
 
   <h2>Contribution limits start in 2027</h2>
-  <p>For most of its history Oregon had no limits on campaign contributions. House Bill 4024 (2024) sets limits on contributions to candidates and committees, with enforcement starting <strong>January 1, 2027</strong>, and adds new disclosure requirements in later years. Local governments can set lower limits for their own elections, and some, like Portland and Multnomah County, already have them. The Secretary of State's Campaign Finance Manual has the current amounts.</p>
+  <p>For most of its history Oregon had no limits on campaign contributions. House Bill 4024 (2024) sets limits on contributions to candidates and committees, with enforcement starting <strong>January 1, 2027</strong>, and adds new disclosure requirements in later years. House Bill 4018 (2026) changed parts of HB 4024. Starting at the end of 2028, the Secretary of State adjusts the limits for the cost of living every two years. HB 4018 also moved the deadline for the state's web-based campaign finance dashboard to January 1, 2032. Local governments can set lower limits for their own elections, and some, like Portland and Multnomah County, already have them. The Secretary of State's Campaign Finance Manual has the current amounts.</p>
 
   <h2>Other places to look</h2>
   <ul>
@@ -299,6 +305,7 @@ G["campaign-finance"] = dict(
 """,
     sources=[(ORESTAR, "ORESTAR campaign finance search (Oregon Secretary of State)"),
              ("https://sos.oregon.gov/elections/Pages/campaign-finance-legislation.aspx", "Campaign finance legislation, HB 4024 (Oregon Secretary of State)"),
+             ("https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/HB4018", "HB 4018 (2026), changes to the campaign finance law (Oregon Legislature)"),
              ("https://www.oregon.gov/ogec/Pages/default.aspx", "Oregon Government Ethics Commission"),
              ("https://www.fec.gov/", "Federal Election Commission")],
 )
@@ -375,6 +382,7 @@ G["federal-offices"] = dict(
 
 G["federal-agencies"] = dict(
     cat="Federal", title="Working with federal agencies",
+    desc="Federal agencies manage more than half of Oregon's land and run programs many Oregonians rely on. Here is how to get through when one affects you.",
     lede="Federal agencies manage more than half the land in Oregon and run programs millions of Oregonians rely on. When one is stuck, slow or about to change a rule that affects you, there are ways through.",
     body="""
   <h2>When you're stuck with an agency</h2>
@@ -409,6 +417,7 @@ G["federal-agencies"] = dict(
 
 G["federal-budget"] = dict(
     cat="Federal", title="The federal budget and where you can weigh in",
+    desc="Federal money pays for much of Oregon's state budget, from health coverage to highways. How the federal budget gets made and where public input fits.",
     lede="Federal money pays for much of what Oregon's state budget does, from health coverage to highways. Here is how the federal budget gets made and where public input fits.",
     body="""
   <h2>Two kinds of spending</h2>

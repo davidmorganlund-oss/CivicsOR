@@ -97,7 +97,9 @@ ALL = {**guides_or.G, **guides_or2.G}
 for slug, g in ALL.items():
     sources = "\n".join(f'    <li><a href="{html.escape(u, quote=True)}" rel="noopener">{html.escape(t)}</a></li>' for u, t in g["sources"])
     script = '\n<script src="../local.js"></script>' if 'class="near-you"' in g["body"] else ""
-    page = f'''{head(g["title"] + " | CivicsOR", "../", g["lede"])}
+    # "short" and "desc" are optional: a shorter <title> and meta description
+    # for guides whose heading or lede runs past what search results show.
+    page = f'''{head(g.get("short", g["title"]) + " | CivicsOR", "../", g.get("desc", g["lede"]))}
 <a class="skip" href="#guide">Skip to guide</a>
 {top("../", "engage")}
 
@@ -132,7 +134,7 @@ SECTIONS = [
         ("guides/speak-at-a-public-meeting.html", None, "What Oregon's Public Meetings Law gives you, what it doesn't, and how to use two minutes well."),
         ("guides/public-meetings-law.html", None, "Notice, executive sessions, minutes, and what to do when a board breaks the rules."),
         ("guides/public-records-requests.html", None, "How to ask for emails, contracts and reports, what it costs, the deadlines, and what to do if they say no."),
-        ("guides/your-neighborhood.html", None, "Neighborhood associations, CPOs, and getting notice of land use decisions near you."),
+        ("guides/your-neighborhood.html", None, "Neighborhood associations, county engagement programs, and getting notice of land use decisions near you."),
         ("guides/your-school-board.html", None, "What school boards decide, May elections, and how to speak up or run."),
         ("guides/local-ballot-measures.html", None, "Bonds, levies, the double majority, and reading your voters' pamphlet."),
     ]),
@@ -268,7 +270,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 ''')
 
 # ---------- representatives ----------
-(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsOR", "", "Enter an Oregon street address to see every district you live in, your state senator, state representative and members of Congress, plus where to find your city and county officials.", scripts=REPS_SCRIPTS)}
+(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsOR", "", "Enter an Oregon street address to see every district you live in, your state legislators and members of Congress, and where to find city and county officials.", scripts=REPS_SCRIPTS)}
 <a class="skip" href="#results">Skip to results</a>
 {top("", "reps")}
 
@@ -292,7 +294,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
   <p class="muted" style="margin-top: 24px">Not sure what to say once you have a name? Read <a href="guides/contact-your-representatives.html">how to contact the people who represent you</a>.</p>
 </main>
 
-{footer("", "State legislators come from Open States, a public roster built from the Oregon Legislature's member pages, and members of Congress from a public roster. Both are refreshed nightly. County links cover all 36 counties, and city links cover some of Oregon's larger cities.")}
+{footer("", "State legislators come from Open States, a public roster built from the Oregon Legislature's member pages, and members of Congress from a public roster. Both are refreshed nightly. County links cover all 36 counties, and city links cover the official websites of 226 cities, from the Oregon Blue Book.")}
 
 <script src="local.js"></script>
 <script src="districts.js"></script>
