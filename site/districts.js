@@ -6,13 +6,20 @@
      college districts)
    - Oregon Department of Agriculture soil and water conservation district zones
    Only the map coordinates are sent, never the address, and nothing is kept.
-   All three answer JSONP, so this works from a static site with no key. */
+   All three answer JSONP, so this works from a static site with no key.
+   For addresses in Portland and Multnomah County, two local maps add the
+   City Council district (City of Portland open data) and the County
+   Commissioner district (Multnomah County's elections map). */
 (function (root) {
   'use strict';
 
   var FIRE = 'https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Structural_Fire_Districts_Public/FeatureServer/68/query';
   var EDU = 'https://services.arcgis.com/uUvqNMGPm7axC2dD/ArcGIS/rest/services/EDUCATIONAL_BOUNDARIES/FeatureServer/0/query';
   var SWCD = 'https://maps.oda.oregon.gov/arcgis/rest/services/Framework/ODA_AdminBounds_SoilWaterConservationDistrict_Zones/MapServer/0/query';
+  // Portland City Council districts (four since 2025), from Portland Maps open data.
+  var PDX_COUNCIL = 'https://www.portlandmaps.com/od/rest/services/COP_OpenData_Boundary/MapServer/1413/query';
+  // Multnomah County Commissioner districts, from the county's elections map.
+  var MULTCO_COMMISSION = 'https://www3.multco.us/gisagspublic/rest/services/Elections/Congress_State_Jurisdictional_Boundaries/MapServer/4/query';
 
   // Short forms the Fire Marshal's data uses in agency names.
   var WORDS = {
@@ -129,6 +136,15 @@
     });
   }
 
+  // A district number, "1" to "4", from either local map; '' if none.
+  function districtNumber(response, field) {
+    var a = features(response)[0];
+    var m = a ? /(\d+)/.exec(String(a[field] == null ? '' : a[field])) : null;
+    return m ? String(Number(m[1])) : '';
+  }
+  function fromCouncil(response) { return districtNumber(response, 'DISTRICT'); }
+  function fromCommission(response) { return districtNumber(response, 'DIST_ID'); }
+
   function query(base, x, y, fields) {
     return base + '?geometry=' + encodeURIComponent(x + ',' + y) + '&geometryType=esriGeometryPoint&inSR=4326' +
       '&spatialRel=esriSpatialRelIntersects&outFields=' + fields + '&returnGeometry=false&f=json';
@@ -144,7 +160,20 @@
     ]).then(function (r) { return { fire: r[0], education: r[1], swcd: r[2] }; });
   }
 
-  var api = { lookup: lookup, fromFire: fromFire, fromEducation: fromEducation, fromSwcd: fromSwcd, fireName: fireName };
+  // Portland and Multnomah County only: which council and commissioner
+  // district the point is in. Each is null if its map didn't answer, '' if
+  // the point is outside it, and undefined (not asked) for other places.
+  function localDistricts(x, y, where) {
+    var safe = function (p) { return p.catch(function () { return null; }); };
+    var skip = Promise.resolve(undefined);
+    return Promise.all([
+      where.city === 'Portland' ? safe(jsonp(query(PDX_COUNCIL, x, y, 'DISTRICT')).then(fromCouncil)) : skip,
+      where.county === 'Multnomah' ? safe(jsonp(query(MULTCO_COMMISSION, x, y, 'DIST_ID')).then(fromCommission)) : skip
+    ]).then(function (r) { return { council: r[0], commission: r[1] }; });
+  }
+
+  var api = { lookup: lookup, localDistricts: localDistricts, fromFire: fromFire, fromEducation: fromEducation,
+    fromSwcd: fromSwcd, fromCouncil: fromCouncil, fromCommission: fromCommission, fireName: fireName };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.CivicsORDistricts = api;
 })(typeof window !== 'undefined' ? window : this);

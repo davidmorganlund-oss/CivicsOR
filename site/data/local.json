@@ -1,5 +1,5 @@
 {
- "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page. 'cities' lists each city's official website as published in the Oregon Blue Book (November 2026), and each county's 'schools' lists its school districts, from the Oregon Department of Education's school directory. Added November 2026: cities with no website of their own carry 'bluebook', their Oregon Blue Book page; each county's 'districts' lists its education service district, ports and libraries.",
+ "_note": "Official websites for Oregon's 36 counties and meetings pages for some of its larger cities, gathered in November 2026. County addresses are checked by the link check in .github/workflows/links.yml; fix any it reports. 'meetings' is the county's or city's own meetings or agendas page. 'cities' lists each city's official website as published in the Oregon Blue Book (November 2026), and each county's 'schools' lists its school districts, from the Oregon Department of Education's school directory. Added November 2026: cities with no website of their own carry 'bluebook', their Oregon Blue Book page; each county's 'districts' lists its education service district, ports and libraries. Added November 2026: Portland's 'council_districts' (three councilors per district, from portland.gov/council) and Multnomah County's 'commissioner_districts' (from the county board's page), used by the reps lookup with the City's and County's district maps. Check both after each election.",
  "counties": {
   "Baker": {
    "site": "https://www.bakercounty.org/",
@@ -1268,7 +1268,38 @@
      "kind": "port",
      "site": "https://www.portofportland.com/"
     }
-   ]
+   ],
+   "commissioner_districts": {
+    "source": "https://multco.us/elected/board-county-commissioners",
+    "chair": {
+     "name": "Jessica Vega Pederson",
+     "url": "https://multco.us/profile/chair-jessica-vega-pederson"
+    },
+    "1": [
+     {
+      "name": "Meghan Moyer",
+      "url": "https://multco.us/profile/meghan-moyer"
+     }
+    ],
+    "2": [
+     {
+      "name": "Shannon Singleton",
+      "url": "https://multco.us/profile/shannon-singleton"
+     }
+    ],
+    "3": [
+     {
+      "name": "Julia Brim-Edwards",
+      "url": "https://multco.us/profile/julia-brim-edwards"
+     }
+    ],
+    "4": [
+     {
+      "name": "Vince Jones-Dixon",
+      "url": "https://multco.us/profile/vince-jones-dixon"
+     }
+    ]
+   }
   },
   "Polk": {
    "site": "https://www.co.polk.or.us/",
@@ -2460,6 +2491,65 @@
    "mayor": {
     "name": "Keith Wilson",
     "source": "https://www.portland.gov/council/agenda"
+   },
+   "council_districts": {
+    "source": "https://www.portland.gov/council",
+    "1": [
+     {
+      "name": "Candace Avalos",
+      "url": "https://www.portland.gov/council/districts/1/candace-avalos"
+     },
+     {
+      "name": "Jamie Dunphy",
+      "url": "https://www.portland.gov/council/districts/1/jamie-dunphy"
+     },
+     {
+      "name": "Loretta Smith",
+      "url": "https://www.portland.gov/council/districts/1/loretta-smith"
+     }
+    ],
+    "2": [
+     {
+      "name": "Dan Ryan",
+      "url": "https://www.portland.gov/council/districts/2/dan-ryan"
+     },
+     {
+      "name": "Elana Pirtle-Guiney",
+      "url": "https://www.portland.gov/council/districts/2/elana-pirtle-guiney"
+     },
+     {
+      "name": "Sameer Kanal",
+      "url": "https://www.portland.gov/council/districts/2/sameer-kanal"
+     }
+    ],
+    "3": [
+     {
+      "name": "Angelita Morillo",
+      "url": "https://www.portland.gov/council/districts/3/angelita-morillo"
+     },
+     {
+      "name": "Steve Novick",
+      "url": "https://www.portland.gov/council/districts/3/steve-novick"
+     },
+     {
+      "name": "Tiffany Koyama Lane",
+      "url": "https://www.portland.gov/council/districts/3/tiffany-koyama-lane"
+     }
+    ],
+    "4": [
+     {
+      "name": "Eric Zimmerman",
+      "url": "https://www.portland.gov/council/districts/4/eric-zimmerman"
+     },
+     {
+      "name": "Mitch Green",
+      "url": "https://www.portland.gov/council/districts/4/mitch-green"
+     },
+     {
+      "name": "Olivia Clark",
+      "url": "https://www.portland.gov/council/districts/4/olivia-clark"
+     }
+    ]
    }
   },
   "Powers": {
