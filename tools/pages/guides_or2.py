@@ -325,7 +325,7 @@ G["running-for-office"] = dict(
     <li><strong>Check the qualifications</strong> in the Secretary of State's candidate manuals: usually being a registered voter who lives in the district, sometimes for a set time. A partisan candidate must have been registered with the party 180 days before the filing deadline.</li>
     <li><strong>File with the right office.</strong> State and federal candidates file with the Secretary of State, online through ORESTAR. County, city and district candidates file with the county elections office or city recorder.</li>
     <li><strong>Pay the filing fee or gather signatures</strong> instead. Many local offices have no fee.</li>
-    <li><strong>Watch the deadline.</strong> For the May 2026 primary, filing opened in September 2025 and closed in March 2026. Since 2026, incumbents running again must file a week earlier than everyone else.</li>
+    <li><strong>Watch the deadline.</strong> For the May 2026 primary, filing opened in September 2025 and closed in March 2026. Since 2026, elected incumbents running again must file a week earlier than everyone else; appointed incumbents use the regular deadline.</li>
   </ul>
 
   <h2>Money</h2>
