@@ -148,6 +148,7 @@ G["your-school-board"] = dict(
   <ul>
     <li>Board members serve four-year terms, elected on a nonpartisan ballot in May of odd-numbered years. About half the seats are up each time.</li>
     <li>The next school board election is <strong>May 18, 2027</strong>. Candidates file with the county elections office. Filing opens February 6, 2027. Board members who were elected and are running again must file by <strong>March 11, 2027</strong>. Everyone else, including board members who were appointed, has until <strong>March 18, 2027</strong>.</li>
+    <li>Only U.S. citizens who are registered to vote can vote in these elections or run for the board. Green card holders and other noncitizens can't.</li>
     <li>Turnout in these elections is often low, so each vote counts for more.</li>
   </ul>
 
@@ -164,6 +165,7 @@ G["your-school-board"] = dict(
     sources=[("https://ballotpedia.org/Rules_governing_school_board_election_dates_and_timing_in_Oregon", "School board election dates in Oregon (Ballotpedia)"),
              ("https://sos.oregon.gov/elections/Documents/Candidate-SEL190-Highlighted.pdf", "2027 district election filing dates, form SEL 190 (Oregon Secretary of State)"),
              ("https://apps.oregon.gov/oregon-newsroom/OR/SOS/Posts/Post/candidate-filing-window-opens-today-new-deadlines", "Earlier filing deadline for elected incumbents (Oregon Secretary of State)"),
+             ("https://sos.oregon.gov/elections/Pages/registration.aspx", "Register to vote: who can register (Oregon Secretary of State)"),
              ("https://www.oregonlegislature.gov/bills_laws/ors/ors332.html", "ORS chapter 332, local administration of education (Oregon Legislature)"),
              ("https://www.osba.org/", "Oregon School Boards Association")],
 )
