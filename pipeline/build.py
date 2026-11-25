@@ -95,7 +95,9 @@ def make_event(src, *, title, start, end=None, all_day=False, location="", url="
         "start": start.isoformat(),
         "end": end.isoformat() if end else None,
         "all_day": all_day,
-        "location": " ".join((location or "").split()),
+        # Google Calendar room bookings add capacity and equipment to the room's
+        # name ("Room 130 (50) [Big screen with HDMI support]"); keep the name.
+        "location": re.sub(r"\s*\(\d+\)\s*\[[^\]]*\]", "", " ".join((location or "").split())),
         "url": url or src.get("homepage", ""),
         "agenda_url": agenda_url or "",
         "note": " ".join((note or "").split()),
@@ -104,13 +106,20 @@ def make_event(src, *, title, start, end=None, all_day=False, location="", url="
 
 
 # ---------- robots.txt ----------
-# CivicsOR only reads what a site allows automated readers to read. Every
-# request checks the host's robots.txt first (cached per run); a source whose
-# address is disallowed fails with a clear message instead of being fetched.
+# Until November 2026 CivicsOR read only what a site's robots.txt allowed. That
+# kept out most of the largest public bodies, whose meeting portals (Granicus,
+# PrimeGov, CivicWeb, Google Calendar) disallow every automated reader, feeds
+# included. David Lund (BarNone) decided on 2026-11-24 to stop applying the
+# rule: these are public meeting notices, read once a night by a reader that
+# names itself. Set RESPECT_ROBOTS back to True to restore the old behavior;
+# the check below is unchanged. When it is on, every request checks the host's
+# robots.txt first (cached per run), and a disallowed address fails with a
+# clear message instead of being fetched.
 # Paths are compared without regard to case, because these government sites
 # run on servers that ignore case (a rule for /common/modules/icalendar/ is
 # meant to cover /common/modules/iCalendar/ too).
 
+RESPECT_ROBOTS = False
 ROBOTS_AGENT = "CivicsOR"
 _robots_cache = {}
 
@@ -149,6 +158,8 @@ def robots_rules(host_url):
 
 
 def check_robots(url):
+    if not RESPECT_ROBOTS:
+        return
     from urllib.parse import urlsplit
     rules = robots_rules(url)
     if rules is None:

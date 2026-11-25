@@ -409,7 +409,7 @@ print(len(ALL), "guides written")
 <p><strong>Always confirm with the host before you go.</strong> Agendas, times and rooms change, sometimes the same day.</p>
 
 <h2>What's not here yet</h2>
-<p>Some public bodies only post PDFs, or don't post a calendar online at all. Some websites block automated readers, and we respect that, including systems such as BoardDocs that ask automated readers to stay out. For those places, the site links to their own meeting pages instead. The <a href="coverage.html">coverage page</a> lists what's included county by county. The calendar, the address lookup and five of the guides are also <a href="es/index.html" hreflang="es" lang="es">en español</a>; more Spanish pages are planned.</p>
+<p>Some public bodies only post PDFs, or don't post a calendar online at all. CivicsOR reads public meeting notices once a night with a reader that identifies itself, and keeps its requests light. Where a calendar can't be read, the site links to the body's own meeting page instead. The <a href="coverage.html">coverage page</a> lists what's included county by county. The calendar, the address lookup and five of the guides are also <a href="es/index.html" hreflang="es" lang="es">en español</a>; more Spanish pages are planned.</p>
 
 <h2>Found a mistake or a missing meeting?</h2>
 <p><a class="link" href="mailto:{REPORT}?subject=CivicsOR%20correction">Report a correction</a></p>
@@ -690,7 +690,7 @@ ABOUT_ES = """
 <p><strong>Siempre confirme con la entidad antes de ir.</strong> Las agendas, los horarios y las salas cambian, a veces el mismo día. Los nombres de las reuniones y las agendas vienen de cada entidad y están en inglés.</p>
 
 <h2>Lo que todavía no está aquí</h2>
-<p>Algunas entidades públicas solo publican archivos PDF, o no publican ningún calendario en línea. Algunos sitios web bloquean a los lectores automáticos, y lo respetamos, incluidos sistemas como BoardDocs que piden a los lectores automáticos que no entren. Para esos lugares, el sitio tiene un enlace a sus propias páginas de reuniones. La <a href="../coverage.html" hreflang="en">página de cobertura (en inglés)</a> muestra lo que se incluye, condado por condado.</p>
+<p>Algunas entidades públicas solo publican archivos PDF, o no publican ningún calendario en línea. CivicsOR lee los avisos de reuniones públicas una vez por noche con un lector que se identifica, y hace pocas solicitudes. Donde no se puede leer un calendario, el sitio tiene un enlace a la página de reuniones de esa entidad. La <a href="../coverage.html" hreflang="en">página de cobertura (en inglés)</a> muestra lo que se incluye, condado por condado.</p>
 
 <h2>Sobre esta traducción</h2>
 <p>En español están el calendario, la búsqueda de representantes, esta página, la página de privacidad y cinco guías: <a href="guides/contact-your-representatives.html">cómo comunicarse con quienes le representan</a>, <a href="guides/voting-in-oregon.html">votar en Oregon</a>, <a href="guides/speak-at-a-public-meeting.html">cómo hablar en una reunión pública</a>, <a href="guides/public-records-requests.html">cómo pedir registros públicos</a> y <a href="guides/your-school-board.html">su junta escolar</a>. Las demás guías y las páginas de la Legislatura y de cobertura todavía están en inglés.</p>
