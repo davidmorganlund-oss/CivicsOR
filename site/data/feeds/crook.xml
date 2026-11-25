@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T23:59:54-08:00</updated>
+  <updated>2026-11-25T00:08:12-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:b1f1b624cf30:new</id>
@@ -159,19 +159,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://crookcoor.portal.civicclerk.com/event/4497/overview"/>
     <summary>Crook County · 2026-11-25 09:00 (PT) · 320 NE Court Street, Prineville · On the agenda: COIC Presentation on the 2027–2029 STIF Formula Fund Applications; Consider HB4084 Resolution; Consider Approval of ILS Contract for CCL_DPL_JCLD 2026</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b3c83108dc58:new</id>
-    <title>New meeting: City Council Meeting (2026-11-24 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofprineville.com/Calendar.aspx?EID=381"/>
-    <summary>City of Prineville · 2026-11-24 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b3c83108dc58:cancelled</id>
-    <title>Cancelled: City Council Meeting (2026-11-24 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofprineville.com/Calendar.aspx?EID=381"/>
-    <summary>City of Prineville · 2026-11-24 18:00 (PT)</summary>
   </entry>
 </feed>

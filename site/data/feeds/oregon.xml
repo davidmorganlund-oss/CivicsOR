@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T23:59:54-08:00</updated>
+  <updated>2026-11-25T00:08:12-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:024af040b40b:new</id>
@@ -70,18 +70,18 @@
     <summary>City of Ashland · 2026-12-17 16:00 (PT)</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:b89539cb3767:new</id>
-    <title>New meeting: Board Work Session (2026-12-16 18:00)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
-    <summary>Eugene School District 4J · 2026-12-16 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:461df56efb06:new</id>
     <title>New meeting: Urban Renewal Agency Meeting (2026-12-16 18:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://toledoor.portal.civicclerk.com/event/2720/overview"/>
     <summary>City of Toledo · 2026-12-16 18:00 (PT) · 206 N Main Street, PO Box 220, Toledo</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b89539cb3767:new</id>
+    <title>New meeting: Board Work Session (2026-12-16 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2026-12-16 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:35adc3449478:cancelled</id>
@@ -294,20 +294,6 @@
     <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Wildfire Update and 2027 Legislative Priorities: Policy and Funding Needs Kyle Williams, Deputy Director, Fire Operations, Oregon…; Incentivizing Wildfire Risk Reduction Activities Chief Mariana Ruiz-Temple, State Fire Marshal, Oregon State Fire Marshal TK Keen, Oregon…</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:eb658be9edc9:new</id>
-    <title>New meeting: House Interim Committee on Emergency Management and Veterans (2026-12-02 11:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HEMV/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:eb658be9edc9:agenda</id>
-    <title>Agenda posted: House Interim Committee on Emergency Management and Veterans (2026-12-02 11:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HEMV/2026-12-02-11-30"/>
-    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:79cb685c064d:new</id>
     <title>New meeting: Senate Interim Committee on Health Care (2026-12-02 11:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -320,6 +306,20 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SHC/2026-12-02-11-30"/>
     <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Oregon Insurance Coverage Mandate Impact Statements Oliver Droppers, Acting Director, Legislative Policy and Research Office (LPRO)…; Care First Coalition Reva Ricketts-Loriaux, President, Oregon Medical Association (OMA) Melissa Todd, President, Western Oregon Mental…; Hospital Discharge Challenges Nakeshia Knight, Director, Office of Aging &amp; People with Disabilities, Oregon Department of Human Services…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:eb658be9edc9:new</id>
+    <title>New meeting: House Interim Committee on Emergency Management and Veterans (2026-12-02 11:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HEMV/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:eb658be9edc9:agenda</id>
+    <title>Agenda posted: House Interim Committee on Emergency Management and Veterans (2026-12-02 11:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HEMV/2026-12-02-11-30"/>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:5901b3f5c1d5:new</id>
@@ -509,34 +509,6 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
     <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:a170bf43a82b:new</id>
-    <title>New meeting: Las Posadas Subcommittee (2026-11-24 15:00)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3624/overview"/>
-    <summary>City of Wilsonville · 2026-11-24 15:00 (PT) · 8200 SW Wilsonville Road, Wilsonville · On the agenda: Event Planning (All Aspects of the Event); Event Space Tour (Wilsonville Public Library - Oak Room)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:new</id>
-    <title>New meeting: Council work session (2026-11-24 10:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:agenda</id>
-    <title>Agenda posted: Council work session (2026-11-24 10:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3750_A_Council_work_session_26-11-24_Agenda.pdf"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8ddb7ed5fcf6:cancelled</id>
-    <title>Cancelled: Council work session (2026-11-24 10:30)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:20bf0865d4e0:new</id>
@@ -1405,5 +1377,33 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=802"/>
     <summary>Yamhill County · 2026-12-31 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ed11436647eb:cancelled</id>
+    <title>Cancelled: Board of Commissioners Formal Session (2026-12-31 10:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=802"/>
+    <summary>Yamhill County · 2026-12-31 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b1c3d8e6003b:new</id>
+    <title>New meeting: City Council Work Session (2026-12-28 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1154"/>
+    <summary>City of Veneta · 2026-12-28 18:30 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:cb1a9df1e217:new</id>
+    <title>New meeting: Development Review Board B (2026-12-28 18:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3452/overview"/>
+    <summary>City of Wilsonville · 2026-12-28 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:535baeff7429:new</id>
+    <title>New meeting: City Council Meeting (2026-12-28 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1218"/>
+    <summary>City of Seaside · 2026-12-28 18:00 (PT)</summary>
   </entry>
 </feed>
