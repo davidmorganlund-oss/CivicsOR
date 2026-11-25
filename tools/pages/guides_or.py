@@ -87,15 +87,16 @@ G["local-government"] = dict(
     <li><strong>Raise it, or you may lose it.</strong> If you want to appeal a land use decision to the state Land Use Board of Appeals later, you generally have to raise your issue, in writing or in testimony, before the local hearing record closes. Be specific.</li>
   </ul>
 
-  <section class="near-you" data-show="site" data-title="Your city and county websites" aria-label="Your city and county websites"></section>
+  <section class="near-you" data-show="site,districts" data-title="Your local governments" aria-label="Your local governments"></section>
 
   <h2>Neighborhood groups</h2>
-  <p>Many cities recognize neighborhood associations, and Washington County has Citizen Participation Organizations, or CPOs, that review land use proposals and talk with county staff. They are a low-key way to learn what's coming and to be heard early.</p>
+  <p>Many cities recognize neighborhood associations. They are a low-key way to learn what's coming and to be heard early. Washington County used to have Community Participation Organizations, or CPOs. In January 2026 the county board replaced them with a new program it calls SPARC, Strengthening Participation and Reaching Communities, organized by county commissioner district.</p>
 """,
     sources=[("https://sos.oregon.gov/blue-book/government/pages/about-counties.aspx", "About Oregon counties (Oregon Blue Book)"),
              ("https://www.oregonmetro.gov/", "Metro"),
              ("https://www.oregon.gov/lcd/op/pages/goals.aspx", "Oregon's statewide land use planning goals (DLCD)"),
-             ("https://www.portland.gov/council/agenda", "Portland City Council agendas")],
+             ("https://www.portland.gov/council/agenda", "Portland City Council agendas"),
+             ("https://washingtoncountyor.gov/CAO/CPO", "SPARC, which replaced the former CPOs (Washington County)")],
 )
 
 G["speak-at-a-public-meeting"] = dict(
@@ -121,7 +122,7 @@ G["speak-at-a-public-meeting"] = dict(
   <ol>
     <li><strong>Find the meeting.</strong> The <a href="../index.html">calendar</a> lists what's coming up near you.</li>
     <li><strong>Read the agenda.</strong> Find the item you care about. Note whether it is a public hearing, an action item, or a work session, where a board discusses but usually doesn't vote or take testimony.</li>
-    <li><strong>Check how to sign up.</strong> Many bodies want you to sign up ahead of time, especially to speak online. Multnomah County, for example, closes sign-up at 4 p.m. the day before its Thursday meetings. The sign-up rules are usually on the agenda.</li>
+    <li><strong>Check how to sign up.</strong> Many bodies want you to sign up ahead of time, especially to speak online. Multnomah County, for example, closes sign-up at 4 p.m. on the Wednesday before its Thursday meetings. The sign-up rules are usually on the agenda.</li>
     <li><strong>Send written comments too.</strong> Written testimony goes into the record even if you can't stay, and it's the safest way to preserve an issue in a land use case.</li>
   </ol>
 
@@ -139,7 +140,8 @@ G["speak-at-a-public-meeting"] = dict(
     sources=[(PML, "ORS chapter 192, Public Meetings Law (Oregon Legislature)"),
              (OGEC_PML, "Public Meetings Law (Oregon Government Ethics Commission)"),
              ("https://www.oregonlegislature.gov/bills_laws/ors/ors165.html", "ORS 165.540, recording conversations (Oregon Legislature)"),
-             ("https://multco.us/info/about-board-meetings", "About board meetings (Multnomah County)")],
+             ("https://multco.us/info/about-board-meetings", "About board meetings (Multnomah County)"),
+             ("https://multco.us/info/public-testimony-webform", "Public testimony sign-up (Multnomah County)")],
 )
 
 G["public-meetings-law"] = dict(
@@ -345,6 +347,7 @@ G["voting-in-oregon"] = dict(
     body=f"""
   <h2>Registering</h2>
   <ul>
+    <li><strong>You must be a U.S. citizen to register and vote.</strong> You also need to live in Oregon and be at least 16 to register. You get your first ballot for an election held on or after your 18th birthday. Green card holders and other noncitizens can't register or vote in Oregon.</li>
     <li><strong>Register by 21 days before an election.</strong> You can register online with an Oregon driver's license or ID, or by mail.</li>
     <li><strong>Many people are registered automatically</strong> when they get or renew an Oregon license or ID at the DMV, and get a card in the mail asking which party, if any, they want.</li>
     <li><strong>Update your registration when you move,</strong> so your ballot finds you.</li>
@@ -370,6 +373,7 @@ G["voting-in-oregon"] = dict(
   <p>If you're helping someone leaving prison, registering to vote can go on the reentry checklist alongside ID and benefits.</p>
 """,
     sources=[(VOTE, "Voting and elections (Oregon Secretary of State)"),
+             ("https://sos.oregon.gov/elections/Pages/registration.aspx", "Register to vote: who can register (Oregon Secretary of State)"),
              ("https://sos.oregon.gov/elections/Pages/faq.aspx", "Elections FAQ, including the postmark rule (Oregon Secretary of State)"),
              ("https://multco.us/info/voting-rights-oregon-person-convicted-felony-frequently-asked-questions", "Voting rights for people convicted of a felony (Multnomah County Elections)"),
              ("https://www.oregonlegislature.gov/bills_laws/ors/ors137.html", "ORS 137.281, rights during incarceration (Oregon Legislature)")],
@@ -379,6 +383,7 @@ G["voting-in-oregon"] = dict(
 
 G["two-minute-pitch"] = dict(
     cat="Skills", title="Build a two-minute pitch for your cause",
+    desc="Public comment, a talk with a legislator, a meeting with a commissioner: most chances to make your case last about two minutes. Here is how to use them.",
     lede="Public comment, a hallway conversation with a legislator, a meeting with a commissioner: most chances to make your case last about two minutes. Here is how to use them.",
     body="""
   <h2>The shape of a good pitch</h2>

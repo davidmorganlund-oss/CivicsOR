@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T04:08:31-08:00</updated>
+  <updated>2026-11-24T23:59:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:024af040b40b:new</id>
@@ -19,6 +19,13 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
     <summary>Eugene School District 4J · 2027-01-13 17:30 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e9fc9fece846:new</id>
+    <title>New meeting: Board Meeting (2027-01-06 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
+    <summary>Eugene School District 4J · 2027-01-06 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:b89539cb3767:new</id>
@@ -169,7 +176,7 @@
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:88a3ece5834a:new</id>
-    <title>New meeting: Public Arts Committee Meeting - Rescheduled (2026-11-30 16:00)</title>
+    <title>New meeting: Public Arts Committee Meeting - Rescheduled to Dec. 2 (2026-11-30 16:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.ci.florence.or.us/Calendar.aspx?EID=694"/>
     <summary>City of Florence · 2026-11-30 16:00 (PT) · City Hall</summary>

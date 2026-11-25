@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Participe en Oregon | CivicsOR</title>
+<meta name="description" content="Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, Metro y la Legislatura de Oregon, y cómo hacerse escuchar.">
+<meta property="og:site_name" content="CivicsOR">
+<meta property="og:title" content="Participe en Oregon: lo que su comunidad decide esta semana">
+<meta property="og:description" content="Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, Metro y la Legislatura de Oregon, y cómo hacerse escuchar.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://civicsor.org/share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CivicsOR: Get Engaged, Oregon.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E5C63">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="icon" href="../icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preload" href="../fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../styles.css">
+<script src="../app-install.js" defer></script>
+<!-- seo -->
+<link rel="canonical" href="https://civicsor.org/es/">
+<meta property="og:url" content="https://civicsor.org/es/">
+<link rel="alternate" hreflang="en" href="https://civicsor.org/">
+<link rel="alternate" hreflang="es" href="https://civicsor.org/es/">
+<link rel="alternate" hreflang="x-default" href="https://civicsor.org/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://civicsor.org/#site", "name": "CivicsOR", "url": "https://civicsor.org/", "inLanguage": ["en", "es"], "publisher": {"@id": "https://barnoneinc.org/#org"}, "description": "Un calendario gratuito de lo que deciden los concejos municipales, las juntas de condado, Metro y la Legislatura de Oregon, con guías en lenguaje sencillo para participar."}, {"@type": "NGO", "@id": "https://barnoneinc.org/#org", "name": "BarNone", "url": "https://barnoneinc.org", "logo": "https://civicsor.org/barnone-phoenix.png"}]}</script>
+<!-- seo -->
+</head>
+<body>
+<a class="skip" href="#events">Ir a las reuniones</a>
+<aside class="notice" aria-label="Acerca de CivicsOR">Un proyecto de BarNone, una organización sin fines de lucro. No está afiliado a ninguna agencia de gobierno.</aside>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">Civics<span>OR</span></a>
+  <a class="lang-switch" href="../index.html" lang="en" hreflang="en">English</a>
+  <nav aria-label="Principal">
+    <a href="index.html" aria-current="page" aria-label="Calendario comunitario"><span class="full">Calendario comunitario</span><span class="short">Calendario</span></a>
+    <a href="../legislature.html" hreflang="en" aria-label="Legislatura (en inglés)"><span class="full">Legislatura (en inglés)</span><span class="short">Legislatura</span></a>
+    <a href="engage.html">Participe</a>
+    <a href="reps.html" aria-label="Mis representantes"><span class="full">Mis representantes</span><span class="short">Mis reps</span></a>
+  </nav>
+</div></header>
+
+<section aria-label="Introducción" class="hero"><div class="wrap">
+  <p class="eyebrow light">Calendario comunitario</p>
+  <h1>Entérese de lo que su comunidad decide esta semana.</h1>
+  <p class="lede">Concejos municipales, comisionados del condado, audiencias públicas y la Legislatura, de todo Oregon, en un solo calendario. Elija dónde vive y le mostraremos lo que hay cerca.</p>
+  <form class="search" id="search">
+    <div class="field">
+      <label for="county">Condado</label>
+      <select id="county"><option value="">Todo Oregon</option></select>
+    </div>
+    <div class="field">
+      <label for="city">Ciudad</label>
+      <select id="city" disabled><option value="">Primero elija un condado</option></select>
+    </div>
+  </form>
+  <p class="small"><span id="coverage">Reuniones de todo Oregon, con enlaces a la página de cada condado cuando todavía no podemos leer su calendario.</span> No necesita cuenta, y su elección se guarda solo en su navegador.</p>
+</div></section>
+
+<div class="wrap layout">
+  <main class="main" id="events">
+    <div class="heading">
+      <h2 id="heading">Próximas reuniones en todo Oregon</h2>
+      <span id="range"></span>
+    </div>
+    <p class="muted" id="place-msg" role="status" hidden></p>
+    <p class="muted">Los nombres de las reuniones y las agendas vienen de cada entidad y están en inglés.</p>
+    <div class="find">
+      <label for="q">Buscar reuniones y agendas (escriba en inglés)</label>
+      <input id="q" type="search" placeholder="Pruebe zoning, library, budget, schools" autocomplete="off">
+    </div>
+    <div class="chips" role="group" aria-label="Filtrar por tipo" id="chips"></div>
+    <div class="list" id="list" aria-live="polite"><p class="empty">Cargando reuniones…</p></div>
+    <button class="more" id="more" type="button" hidden>Mostrar dos semanas más</button>
+  </main>
+
+  <aside class="side">
+    <div class="card">
+      <h2>En su teléfono</h2>
+      <p id="subscribe-text">Suscríbase una vez y estas reuniones aparecerán en la aplicación de calendario que ya usa.</p>
+      <a class="link" id="subscribe" href="../data/ics/statewide.ics">Suscribirse a las reuniones de comités de la Legislatura de Oregon</a>
+      <p style="margin-top: 14px">¿Quiere saber cuándo cambia algo? El <a id="feed" href="../data/feeds/statewide.xml">canal de novedades</a> muestra reuniones nuevas, agendas recién publicadas y cancelaciones. Agréguelo a un lector de noticias (feed reader), o a un servicio gratuito que lo envíe por correo electrónico.</p>
+    </div>
+    <div class="card">
+      <h2>Úselo como aplicación</h2>
+      <p>Agregue CivicsOR a su pantalla de inicio y se abrirá como una aplicación, incluso sin señal. En iPhone, toque Compartir y luego <strong>Agregar a pantalla de inicio</strong>. En Android, toque el menú y luego <strong>Instalar aplicación</strong> o <strong>Agregar a la pantalla principal</strong>.</p>
+    </div>
+    <div class="card">
+      <h2>Dos zonas horarias</h2>
+      <p>Cada reunión aparece en su hora local: hora del Pacífico para casi todo Oregon, hora de la Montaña para la mayor parte del condado de Malheur.</p>
+    </div>
+    <div class="card">
+      <h2>La Legislatura, día a día</h2>
+      <p>Las audiencias de los comités, con sus agendas, y cómo inscribirse para testificar en persona o a distancia. La sesión larga de 2027 empieza en enero.</p>
+      <a class="link" href="../legislature.html" hreflang="en">Vea lo que viene en el Capitolio (en inglés)</a>
+    </div>
+    <div class="card warm">
+      <span class="eyebrow">Participe</span>
+      <h2>¿Primera vez en una reunión pública?</h2>
+      <p>Lo que la ley de Oregon le permite, qué decir en dos minutos y qué pasa después de hablar.</p>
+      <a class="link" href="guides/speak-at-a-public-meeting.html">Leer la guía</a>
+    </div>
+  </aside>
+</div>
+
+<footer><div class="wrap">
+  <p>Las reuniones vienen directamente de los calendarios públicos de cada agencia y se actualizan cada noche. <span id="updated"></span> Los horarios cambian, así que confirme con la entidad antes de ir.</p>
+  <p class="by-barnone"><a href="https://barnoneinc.org"><img src="../barnone-phoenix.png" alt="" width="28" height="28"><span>Un servicio de <strong>BarNone, Inc.</strong></span></a> Una organización independiente sin fines de lucro. CivicsOR no es un sitio de gobierno, no está afiliado a ninguna agencia de gobierno y no habla en nombre de ningún cargo público.</p>
+  <p class="footer-links"><a href="../es/about.html">Acerca de CivicsOR</a> · <a href="../coverage.html" hreflang="en">Cobertura (en inglés)</a> · <a href="../es/privacy.html">Privacidad</a> · <a href="../es/about.html#accesibilidad">Accesibilidad</a> · <a href="mailto:admin@barnoneinc.org?subject=CivicsOR%3A%20reportar%20un%20problema">Reportar un problema o una reunión que falta</a></p>
+</div></footer>
+
+<script src="../app.js"></script>
+</body>
+</html>

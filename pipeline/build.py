@@ -54,10 +54,27 @@ def is_cancelled(*texts: str) -> bool:
     return any(re.search(r"cancel", t or "", re.I) for t in texts)
 
 
+# A field that says only that the meeting is off ("CANCELED", "** Meeting
+# Cancelled **"). Metro's Legistar puts that in the location and comment.
+CANCEL_ONLY = re.compile(r"^[\s*\-–:()!.]*(?:this\s+)?(?:meeting\s+)?(?:has\s+been\s+|is\s+)?"
+                         r"cancel+ed[\s*\-–:()!.]*$", re.I)
+# "CANCELED - Council Chamber": a cancellation word in front of the real place.
+CANCEL_LEAD = re.compile(r"^[\s*]*(?:meeting\s+)?cancel+ed[\s*]*(?:[:\-–]\s*|\s+(?=\S))", re.I)
+
+
 def make_event(src, *, title, start, end=None, all_day=False, location="", url="",
                agenda_url="", note="", uid="", category="", area="", cancelled=False):
     key = f"{src['id']}|{uid or title}|{start.isoformat()}"
     cancelled = cancelled or is_cancelled(title, note)
+    # The site shows its own Cancelled tag, so a location or note that only
+    # says "cancelled" is dropped, and a leading "Cancelled -" is trimmed off
+    # the place.
+    if CANCEL_ONLY.match(location or ""):
+        location, cancelled = "", True
+    elif CANCEL_LEAD.match(location or ""):
+        location, cancelled = CANCEL_LEAD.sub("", location), True
+    if CANCEL_ONLY.match(note or ""):
+        note = ""
     # Hosts often prefix the title ("Canceled: Board Work Session"); the site
     # shows its own Cancelled tag, so drop the prefix.
     title = re.sub(r"^[\s*]*cancel+ed[\s*]*(?:[:\-–]\s*|\s+(?=\S))", "", title or "", flags=re.I)
@@ -2325,6 +2342,9 @@ def main() -> int:
             status.update(ok=True, count=len(found), last_success=status["checked"], error="", failing_since="")
             # A source that answers but lists nothing is suspicious, not fine.
             status["state"] = "ok" if found else "quiet"
+            # The first night it went quiet, so a long silence can be flagged (alerts.py).
+            status["quiet_since"] = "" if found else (
+                previous.get(src["id"], {}).get("quiet_since") or now.date().isoformat())
         except Exception as exc:  # one bad source must not sink the rest
             # Keep showing what we had, so a one-night outage doesn't blank a city.
             # Not when the site's robots.txt now asks us to stay out, though:
@@ -2332,7 +2352,7 @@ def main() -> int:
             found = [] if isinstance(exc, RobotsBlocked) else [
                 e for e in old_events if e["source"] == src["id"]
                 and datetime.fromisoformat(e["start"]).date() >= start_day]
-            status.update(ok=False, count=len(found), state="failing",
+            status.update(ok=False, count=len(found), state="failing", quiet_since="",
                           failing_since=previous.get(src["id"], {}).get("failing_since") or now.date().isoformat(),
                           last_success=previous.get(src["id"], {}).get("last_success", ""),
                           error=f"{type(exc).__name__}: {exc}"[:300])

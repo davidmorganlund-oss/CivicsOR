@@ -34,6 +34,7 @@ body{--w:${size}px;--h:${size}px;background:${C.wheat};display:flex;flex-directi
   const b = await chromium.launch();
   const jobs = [
     ['site/share.png', 1200, 630, card('Community calendar', 'Get Engaged, Oregon.', 'See what your city council, county, Metro and the Legislature are deciding this week, and how to make your voice heard.')],
+    ['site/share-es.png', 1200, 630, card('Calendario comunitario', 'Participe, Oregon.', 'Vea lo que deciden esta semana su concejo municipal, su condado, Metro y la Legislatura, y cómo hacerse escuchar.')],
     ['site/icon-512.png', 512, 512, icon(512)], ['site/icon-192.png', 192, 192, icon(192)], ['site/apple-touch-icon.png', 180, 180, icon(180)],
   ];
   for (const [out, w, h, html] of jobs) {

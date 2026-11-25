@@ -23,7 +23,10 @@ nightly publish, rewritten for Oregon.
 - `site/` is a plain static site that reads those files. No accounts, no tracking.
 - `tools/pages/gen.py` writes the guide, Engage, calendar, Legislature, reps,
   About, Coverage and privacy pages from `tools/pages/guides_or.py` and
-  `tools/pages/guides_or2.py` (27 guides). Run `python3 tools/pages/gen.py`.
+  `tools/pages/guides_or2.py` (27 guides), and the Spanish pages in `site/es/`
+  (calendar, lookup, About, Privacy, a short Engage page and the guides in
+  `tools/pages/guides_or_es.py`). Run `python3 tools/pages/gen.py`. When you
+  change a fact in an English guide that has a Spanish twin, change it there too.
 - `tools/` also holds the calendar finder (`probe.py`, `find_homes.py`,
   `bluebook.py`, `ode.py`, `gen_candidates.py`, `trial.py`), run by the
   "Find calendars" and "Trial sources" workflows.
@@ -68,7 +71,13 @@ local government and land use, speaking at a public meeting, the Public Meetings
 Law, public records requests, the Legislature, weighing in on a state bill,
 initiatives and referendums, a two-minute pitch, reading a bill or agenda,
 problem to policy, and media literacy. Federal guides, courts, budgets, campaign
-finance, boards and commissions, and running for office come next, then Spanish.
+finance, boards and commissions, and running for office come next.
+
+Spanish (first set, November 2026): the calendar, the address lookup, About,
+Privacy, and five guides (contact your representatives, voting, speaking at a
+public meeting, public records, your school board). The page scripts (`app.js`,
+`reps.js`, `districts.js`, `local.js`) pick their wording from `<html lang>`.
+Spanish text needs review by a fluent speaker before each release.
 
 ## How the reader behaves
 
@@ -82,6 +91,12 @@ no longer applies sites' robots.txt rules (see OPERATIONS.md); the check remains
 Same as CivicsID: static site, everything from outside treated as untrusted and
 inserted as text, links checked, a Content-Security-Policy on every page, pinned
 Actions and packages. Tests in `tests/test_normalize.py`.
+
+The representatives page's policy also allows `services.arcgis.com` and
+`maps.oda.oregon.gov`, where the State Fire Marshal, the state's education
+boundaries and the Department of Agriculture publish district maps.
+`site/districts.js` sends them only the map point the Census Bureau returned,
+never the address.
 
 ## Run it yourself
 

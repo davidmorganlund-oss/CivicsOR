@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T04:08:31-08:00</updated>
+  <updated>2026-11-24T23:59:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:461df56efb06:new</id>
+    <title>New meeting: Urban Renewal Agency Meeting (2026-12-16 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://toledoor.portal.civicclerk.com/event/2720/overview"/>
+    <summary>City of Toledo · 2026-12-16 18:00 (PT) · 206 N Main Street, PO Box 220, Toledo</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:7dd56c103286:new</id>
     <title>New meeting: City Council Meeting (2027-01-20 18:00)</title>

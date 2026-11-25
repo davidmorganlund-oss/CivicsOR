@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T04:08:31-08:00</updated>
+  <updated>2026-11-24T23:59:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:2be7adafe5b9:new</id>
+    <title>New meeting: Kitakata Sister City Advisory Board (2027-01-14 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3439/overview"/>
+    <summary>City of Wilsonville · 2027-01-14 18:00 (PT) · Wilsonville Parks and Recreation Admin Office, 29600 SW Park Place, Wilsonville</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:8497917021ff:new</id>
     <title>New meeting: Arts, Culture, and Heritage Commission (2026-12-16 17:00)</title>
@@ -21,46 +28,81 @@
     <summary>City of Wilsonville · 2026-12-14 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:c7294f190f3a:new</id>
+    <title>New meeting: Kitakata Sister City Advisory Board (2026-12-10 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3438/overview"/>
+    <summary>City of Wilsonville · 2026-12-10 18:00 (PT) · Wilsonville Parks and Recreation Admin Office, 29600 SW Park Place, Wilsonville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9779edbc9480:new</id>
+    <title>New meeting: Policy Committee Meeting (2026-12-03 19:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Agenda/1539?meeting=778358"/>
+    <summary>Molalla River School District · 2026-12-03 19:00 (PT) · MRSD Board Room, 412 S. Swiegle Ave</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6b410d96c52b:new</id>
+    <title>New meeting: Council work session (2026-12-01 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3755&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-12-01 10:00 (PT) · Metro Regional Center, Council Chamber; https://zoom.us/j/615079992 (Webinar ID: 615079992) or 253-205-0468 (toll free), https://www.youtube.com/@OregonMetro/streams · On the agenda: Parks and Nature Levy Renewal: Framework Refinement; Shaping the Regional Garbage Transfer System</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6b410d96c52b:agenda</id>
+    <title>Agenda posted: Council work session (2026-12-01 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/12/3755_A_Council_work_session_26-12-01_Agenda.pdf"/>
+    <summary>Metro (regional government) · 2026-12-01 10:00 (PT) · Metro Regional Center, Council Chamber; https://zoom.us/j/615079992 (Webinar ID: 615079992) or 253-205-0468 (toll free), https://www.youtube.com/@OregonMetro/streams · On the agenda: Parks and Nature Levy Renewal: Framework Refinement; Shaping the Regional Garbage Transfer System</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:new</id>
     <title>New meeting: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:agenda</id>
     <title>Agenda posted: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3751_A_Council_meeting_26-11-26_Agenda.pdf"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:cancelled</id>
     <title>Cancelled: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:a170bf43a82b:new</id>
+    <title>New meeting: Las Posadas Subcommittee (2026-11-24 15:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3624/overview"/>
+    <summary>City of Wilsonville · 2026-11-24 15:00 (PT) · 8200 SW Wilsonville Road, Wilsonville · On the agenda: Event Planning (All Aspects of the Event); Event Space Tour (Wilsonville Public Library - Oak Room)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:new</id>
     <title>New meeting: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:agenda</id>
     <title>Agenda posted: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3750_A_Council_work_session_26-11-24_Agenda.pdf"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:cancelled</id>
     <title>Cancelled: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:20bf0865d4e0:new</id>
@@ -179,7 +221,7 @@
     <title>New meeting: Library Board (2026-12-02 18:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://wilsonvilleor.portal.civicclerk.com/event/1787/overview"/>
-    <summary>City of Wilsonville · 2026-12-02 18:30 (PT) · Wilsonville Public Library, 8200 SW Wilsonville Road, Wilsonville</summary>
+    <summary>City of Wilsonville · 2026-12-02 18:30 (PT) · Wilsonville Public Library, 8200 SW Wilsonville Road, Wilsonville · On the agenda: Initial FY28 Budget Discuccion; Work Plans/Goals; E-Books Presentation</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:a8e22322d05c:new</id>
@@ -187,12 +229,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://wilsonvilleor.portal.civicclerk.com/event/3563/overview"/>
     <summary>City of Wilsonville · 2026-12-02 10:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:313de7e101c1:new</id>
-    <title>New meeting: Las Posadas Subcommittee (2026-11-24 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3624/overview"/>
-    <summary>City of Wilsonville · 2026-11-24 16:00 (PT) · 8200 SW Wilsonville Road, Wilsonville · On the agenda: Event Planning (All Aspects of the Event); Event Space Tour (Wilsonville Public Library - Oak Room)</summary>
   </entry>
 </feed>
