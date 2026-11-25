@@ -22,6 +22,35 @@
     }
   };
 
+  // New terms start after each November election. Update these after every
+  // election: Congress on January 3; the Oregon Legislature on the second
+  // Monday in January. The note shows from a few weeks before the first date
+  // until a few weeks after the last, and turns itself off after that.
+  var NEW_TERMS = [
+    { date: '2027-01-03', who: 'New members of Congress' },
+    { date: '2027-01-11', who: 'New members of the Oregon Legislature' }
+  ];
+  var TERM_NOTE_DAYS_BEFORE = 45;
+  var TERM_NOTE_DAYS_AFTER = 30;
+
+  function termNote(now) {
+    var DAY = 86400000;
+    var dates = NEW_TERMS.map(function (t) { var p = t.date.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); });
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    if (today < dates[0].getTime() - TERM_NOTE_DAYS_BEFORE * DAY ||
+        today > dates[dates.length - 1].getTime() + TERM_NOTE_DAYS_AFTER * DAY) return '';
+    var anyPast = false;
+    var parts = NEW_TERMS.map(function (t, i) {
+      var past = today >= dates[i];
+      if (past) anyPast = true;
+      var when = dates[i].toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+      return t.who + (past ? ' took office ' : ' take office ') + when + '.';
+    });
+    return parts.join(' ') + (anyPast
+      ? ' The lists below can lag by a few weeks after a new term starts.'
+      : ' Until then, the lists below show the members serving now.');
+  }
+
   var officials = null;
   var localData = null;
   var $ = function (id) { return document.getElementById(id); };
@@ -286,6 +315,10 @@
       out.appendChild(p);
     });
   });
+
+  var note = $('term-note');
+  var noteText = note ? termNote(new Date()) : '';
+  if (noteText) { note.textContent = noteText; note.hidden = false; }
 
   fetch('data/local.json').then(function (r) { return r.json(); }).then(function (d) { localData = d; }).catch(function () {});
   fetch('data/officials.json').then(function (r) { return r.json(); }).then(function (d) { officials = d; }).catch(function () {});

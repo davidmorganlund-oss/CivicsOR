@@ -288,6 +288,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 </div></section>
 
 <main class="wrap narrow" style="padding-block: 40px 64px">
+  <p class="term-note" id="term-note" hidden></p>
   <div class="list" id="results" aria-live="polite">
     <p class="empty">Your representatives will show up here.</p>
   </div>
