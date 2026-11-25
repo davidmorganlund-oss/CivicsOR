@@ -9,8 +9,9 @@ import guides_or
 import guides_or2  # noqa: E402
 
 SITE = Path(__file__).resolve().parents[2] / "site"
-# The reps page also loads three state district maps (JSONP).
-REPS_SCRIPTS = " https://services.arcgis.com https://maps.oda.oregon.gov"
+# The reps page also loads three state district maps and, for Portland and
+# Multnomah County addresses, the City's and County's district maps (JSONP).
+REPS_SCRIPTS = " https://services.arcgis.com https://maps.oda.oregon.gov https://www.portlandmaps.com https://www3.multco.us"
 FONTS = ('<link rel="preload" href="{up}fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
          '<link rel="preload" href="{up}fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>')
 SITE_URL = "https://civicsor.org/"
@@ -97,7 +98,9 @@ ALL = {**guides_or.G, **guides_or2.G}
 for slug, g in ALL.items():
     sources = "\n".join(f'    <li><a href="{html.escape(u, quote=True)}" rel="noopener">{html.escape(t)}</a></li>' for u, t in g["sources"])
     script = '\n<script src="../local.js"></script>' if 'class="near-you"' in g["body"] else ""
-    page = f'''{head(g["title"] + " | CivicsOR", "../", g["lede"])}
+    # "short" and "desc" are optional: a shorter <title> and meta description
+    # for guides whose heading or lede runs past what search results show.
+    page = f'''{head(g.get("short", g["title"]) + " | CivicsOR", "../", g.get("desc", g["lede"]))}
 <a class="skip" href="#guide">Skip to guide</a>
 {top("../", "engage")}
 
@@ -132,7 +135,7 @@ SECTIONS = [
         ("guides/speak-at-a-public-meeting.html", None, "What Oregon's Public Meetings Law gives you, what it doesn't, and how to use two minutes well."),
         ("guides/public-meetings-law.html", None, "Notice, executive sessions, minutes, and what to do when a board breaks the rules."),
         ("guides/public-records-requests.html", None, "How to ask for emails, contracts and reports, what it costs, the deadlines, and what to do if they say no."),
-        ("guides/your-neighborhood.html", None, "Neighborhood associations, CPOs, and getting notice of land use decisions near you."),
+        ("guides/your-neighborhood.html", None, "Neighborhood associations, county engagement programs, and getting notice of land use decisions near you."),
         ("guides/your-school-board.html", None, "What school boards decide, May elections, and how to speak up or run."),
         ("guides/local-ballot-measures.html", None, "Bonds, levies, the double majority, and reading your voters' pamphlet."),
     ]),
@@ -268,7 +271,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 ''')
 
 # ---------- representatives ----------
-(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsOR", "", "Enter an Oregon street address to see every district you live in, your state senator, state representative and members of Congress, plus where to find your city and county officials.", scripts=REPS_SCRIPTS)}
+(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsOR", "", "Enter an Oregon street address to see every district you live in, your state legislators and members of Congress, and where to find city and county officials.", scripts=REPS_SCRIPTS)}
 <a class="skip" href="#results">Skip to results</a>
 {top("", "reps")}
 
@@ -282,17 +285,18 @@ assert listed == set(ALL), (listed ^ set(ALL))
     </div>
     <button class="btn" type="submit">Look up</button>
   </form>
-  <p class="small">Your address is sent from your browser to the U.S. Census Bureau's address lookup to find your districts. Only the map point it returns, not your address, goes to public state maps to find your fire, education and conservation districts. CivicsOR never receives or stores either. Your browser remembers only your county and city, so the Engage guides can show local links.</p>
+  <p class="small">Your address is sent from your browser to the U.S. Census Bureau's address lookup to find your districts. Only the map point it returns, not your address, goes to public state maps to find your fire, education and conservation districts, and, for Portland and Multnomah County addresses, to the City's and County's district maps. CivicsOR never receives or stores either. Your browser remembers only your county and city, so the Engage guides can show local links.</p>
 </div></section>
 
 <main class="wrap narrow" style="padding-block: 40px 64px">
+  <p class="term-note" id="term-note" hidden></p>
   <div class="list" id="results" aria-live="polite">
     <p class="empty">Your representatives will show up here.</p>
   </div>
   <p class="muted" style="margin-top: 24px">Not sure what to say once you have a name? Read <a href="guides/contact-your-representatives.html">how to contact the people who represent you</a>.</p>
 </main>
 
-{footer("", "State legislators come from Open States, a public roster built from the Oregon Legislature's member pages, and members of Congress from a public roster. Both are refreshed nightly. County links cover all 36 counties, and city links cover some of Oregon's larger cities.")}
+{footer("", "State legislators come from Open States, a public roster built from the Oregon Legislature's member pages, and members of Congress from a public roster. Both are refreshed nightly. County links cover all 36 counties, and city links cover the official websites of 226 cities, from the Oregon Blue Book.")}
 
 <script src="local.js"></script>
 <script src="districts.js"></script>
@@ -446,7 +450,7 @@ PRIV_EN = """
   </ul>
   <h2>What leaves your device</h2>
   <ul>
-    <li><strong>Address lookups.</strong> When you look up your representatives, your browser sends the address straight to the U.S. Census Bureau's public geocoder to find your districts. Your browser then sends only the map point the Census Bureau returns, not the address, to public map services run by the Oregon State Fire Marshal, the state's education agencies and the Oregon Department of Agriculture to find fire, education and conservation districts. Neither passes through us, and we never see or store them.</li>
+    <li><strong>Address lookups.</strong> When you look up your representatives, your browser sends the address straight to the U.S. Census Bureau's public geocoder to find your districts. Your browser then sends only the map point the Census Bureau returns, not the address, to public map services run by the Oregon State Fire Marshal, the state's education agencies and the Oregon Department of Agriculture to find fire, education and conservation districts. For an address in Portland or Multnomah County, it also goes to the City of Portland's and Multnomah County's public maps to find your city council and county commissioner districts. Neither passes through us, and we never see or store them.</li>
     <li><strong>Hosting.</strong> The site is hosted on GitHub Pages. Like any web host, GitHub keeps standard server logs, such as IP addresses, for security. We don't get or use those logs.</li>
     <li><strong>Links you follow.</strong> Meeting details, agendas and guide sources open on government and other websites, which have their own privacy policies.</li>
     <li><strong>Problem reports.</strong> If you email us a correction, it goes to BarNone's inbox ({REPORT}). We use it only to fix the site.</li>

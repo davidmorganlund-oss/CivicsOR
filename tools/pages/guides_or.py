@@ -90,12 +90,13 @@ G["local-government"] = dict(
   <section class="near-you" data-show="site,districts" data-title="Your local governments" aria-label="Your local governments"></section>
 
   <h2>Neighborhood groups</h2>
-  <p>Many cities recognize neighborhood associations, and Washington County has Citizen Participation Organizations, or CPOs, that review land use proposals and talk with county staff. They are a low-key way to learn what's coming and to be heard early.</p>
+  <p>Many cities recognize neighborhood associations. They are a low-key way to learn what's coming and to be heard early. Washington County used to have Community Participation Organizations, or CPOs. In January 2026 the county board replaced them with a new program it calls SPARC, Strengthening Participation and Reaching Communities, organized by county commissioner district.</p>
 """,
     sources=[("https://sos.oregon.gov/blue-book/government/pages/about-counties.aspx", "About Oregon counties (Oregon Blue Book)"),
              ("https://www.oregonmetro.gov/", "Metro"),
              ("https://www.oregon.gov/lcd/op/pages/goals.aspx", "Oregon's statewide land use planning goals (DLCD)"),
-             ("https://www.portland.gov/council/agenda", "Portland City Council agendas")],
+             ("https://www.portland.gov/council/agenda", "Portland City Council agendas"),
+             ("https://washingtoncountyor.gov/CAO/CPO", "SPARC, which replaced the former CPOs (Washington County)")],
 )
 
 G["speak-at-a-public-meeting"] = dict(
@@ -121,7 +122,7 @@ G["speak-at-a-public-meeting"] = dict(
   <ol>
     <li><strong>Find the meeting.</strong> The <a href="../index.html">calendar</a> lists what's coming up near you.</li>
     <li><strong>Read the agenda.</strong> Find the item you care about. Note whether it is a public hearing, an action item, or a work session, where a board discusses but usually doesn't vote or take testimony.</li>
-    <li><strong>Check how to sign up.</strong> Many bodies want you to sign up ahead of time, especially to speak online. Multnomah County, for example, closes sign-up at 4 p.m. the day before its Thursday meetings. The sign-up rules are usually on the agenda.</li>
+    <li><strong>Check how to sign up.</strong> Many bodies want you to sign up ahead of time, especially to speak online. Multnomah County, for example, closes sign-up at 4 p.m. on the Wednesday before its Thursday meetings. The sign-up rules are usually on the agenda.</li>
     <li><strong>Send written comments too.</strong> Written testimony goes into the record even if you can't stay, and it's the safest way to preserve an issue in a land use case.</li>
   </ol>
 
@@ -139,7 +140,8 @@ G["speak-at-a-public-meeting"] = dict(
     sources=[(PML, "ORS chapter 192, Public Meetings Law (Oregon Legislature)"),
              (OGEC_PML, "Public Meetings Law (Oregon Government Ethics Commission)"),
              ("https://www.oregonlegislature.gov/bills_laws/ors/ors165.html", "ORS 165.540, recording conversations (Oregon Legislature)"),
-             ("https://multco.us/info/about-board-meetings", "About board meetings (Multnomah County)")],
+             ("https://multco.us/info/about-board-meetings", "About board meetings (Multnomah County)"),
+             ("https://multco.us/info/public-testimony-webform", "Public testimony sign-up (Multnomah County)")],
 )
 
 G["public-meetings-law"] = dict(
@@ -379,6 +381,7 @@ G["voting-in-oregon"] = dict(
 
 G["two-minute-pitch"] = dict(
     cat="Skills", title="Build a two-minute pitch for your cause",
+    desc="Public comment, a talk with a legislator, a meeting with a commissioner: most chances to make your case last about two minutes. Here is how to use them.",
     lede="Public comment, a hallway conversation with a legislator, a meeting with a commissioner: most chances to make your case last about two minutes. Here is how to use them.",
     body="""
   <h2>The shape of a good pitch</h2>

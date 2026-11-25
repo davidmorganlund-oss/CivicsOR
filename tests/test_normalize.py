@@ -28,6 +28,23 @@ def test_legistar():
     assert b["all_day"] and b["cancelled"]
 
 
+def test_legistar_cancelled_location_is_cleaned():
+    # Metro's Legistar writes CANCELED into the location and the comment.
+    src = {"id": "metro", "name": "Metro (regional government)", "area": "countywide"}
+    rows = [{"EventId": 3750, "EventBodyName": "Council work session", "EventDate": "2026-11-24T00:00:00",
+             "EventTime": "10:30 AM", "EventLocation": "CANCELED", "EventComment": "CANCELED"},
+            {"EventId": 3751, "EventBodyName": "Council meeting", "EventDate": "2026-11-26T00:00:00",
+             "EventTime": "2:00 PM", "EventLocation": "CANCELED - Council chamber", "EventComment": None},
+            {"EventId": 3752, "EventBodyName": "Council meeting", "EventDate": "2026-12-03T00:00:00",
+             "EventTime": "2:00 PM", "EventLocation": "Council chamber, Metro Regional Center",
+             "EventComment": None}]
+    a, b, c = build.normalize_legistar(src, rows, TZ)
+    assert a["cancelled"] and a["location"] == "" and a["note"] == ""
+    assert a["title"] == "Council work session"
+    assert b["cancelled"] and b["location"] == "Council chamber"
+    assert not c["cancelled"] and c["location"] == "Council chamber, Metro Regional Center"
+
+
 def test_civicclerk_times_are_local():
     src = {"id": "lacey", "name": "City of Lacey", "area": "Lacey", "tenant": "laceywa"}
     rows = [{"id": 1580, "eventName": "City Council Meeting ", "startDateTime": "2026-12-01T18:00:00Z",
@@ -176,6 +193,26 @@ def test_officials_parsers():
             {"name": {"official_full": "Other"}, "terms": [{"type": "rep", "state": "ID", "district": 1}]}]
     c = officials.parse_congress(rows)
     assert c["senators"][0]["name"] == "A Senator" and c["house"]["2"]["name"] == "B Rep" and len(c["house"]) == 1
+
+
+def test_capitol_phones_from_olis():
+    import officials
+    assert officials.current_session([{"SessionKey": "2026R1", "DefaultSession": False},
+                                      {"SessionKey": "2025I1", "DefaultSession": True}]) == "2025I1"
+    assert officials.format_phone("503-986-1419") == "(503) 986-1419" and officials.format_phone("n/a") == ""
+    leg = {"senate": {"8": [{"name": "Sam Sample", "phone": ""}], "7": [{"name": "James Manning", "phone": ""}]},
+           "house": {"15": [{"name": "Shelly Davis", "phone": ""}],
+                     "52": [{"name": "New Member", "phone": ""}]}}
+    rows = [{"Chamber": "S", "DistrictNumber": "8", "LastName": "Sample", "CapitolPhone": "503-986-1708"},
+            {"Chamber": "H", "DistrictNumber": "15", "LastName": "Boshart Davis", "CapitolPhone": "503-986-1415"},
+            {"Chamber": "S", "DistrictNumber": "7", "LastName": "Manning Jr.", "CapitolPhone": "503-986-1707"},
+            # The seat changed hands: the old member's number must not carry over.
+            {"Chamber": "H", "DistrictNumber": "52", "LastName": "Helfrich", "CapitolPhone": "503-986-1452"}]
+    assert officials.add_capitol_phones(leg, rows) == 3
+    assert leg["senate"]["7"][0]["phone"] == "(503) 986-1707"
+    assert leg["senate"]["8"][0]["phone"] == "(503) 986-1708"
+    assert leg["house"]["15"][0]["phone"] == "(503) 986-1415"
+    assert leg["house"]["52"][0]["phone"] == ""
 
 
 def test_oregon_legislature():
@@ -329,6 +366,24 @@ def test_alerts_pick_long_failures():
         {"name": "B", "state": "failing", "failing_since": "2026-11-10"},
         {"name": "C", "state": "ok", "failing_since": ""}]}
     assert [s["name"] for s in alerts.stuck_sources(status, date(2026, 11, 11))] == ["A"]
+
+
+def test_alerts_pick_long_quiet_feeds():
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "pipeline"))
+    import alerts
+    cfg = {"sources": [{"id": "a", "type": "boardbook"}, {"id": "b", "type": "boardbook"},
+                       {"id": "c", "type": "schedule"}, {"id": "d", "type": "ics"}]}
+    status = {"sources": [
+        {"id": "a", "name": "A", "state": "quiet", "quiet_since": "2026-11-18", "county": "Lane"},
+        {"id": "b", "name": "B", "state": "quiet", "quiet_since": "2026-11-20"},
+        {"id": "c", "name": "C", "state": "quiet", "quiet_since": "2026-10-01"},  # hand schedule: upkeep issue covers it
+        {"id": "d", "name": "D", "state": "ok", "quiet_since": ""}]}
+    silent = alerts.quiet_sources(status, date(2026, 11, 24), cfg)
+    assert [s["name"] for s in silent] == ["A"]
+    text = alerts.body([], silent)
+    assert "**A** (Lane County), quiet since 2026-11-18" in text and "closes itself" in text
+    both = alerts.body([{"name": "F", "failing_since": "2026-11-20", "error": "x"}], silent)
+    assert both.index("not answered") < both.index("listed no meetings")
 
 
 def test_schedule_dates_and_agenda_links():

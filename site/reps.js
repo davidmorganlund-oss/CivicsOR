@@ -22,6 +22,35 @@
     }
   };
 
+  // New terms start after each November election. Update these after every
+  // election: Congress on January 3; the Oregon Legislature on the second
+  // Monday in January. The note shows from a few weeks before the first date
+  // until a few weeks after the last, and turns itself off after that.
+  var NEW_TERMS = [
+    { date: '2027-01-03', who: 'New members of Congress' },
+    { date: '2027-01-11', who: 'New members of the Oregon Legislature' }
+  ];
+  var TERM_NOTE_DAYS_BEFORE = 45;
+  var TERM_NOTE_DAYS_AFTER = 30;
+
+  function termNote(now) {
+    var DAY = 86400000;
+    var dates = NEW_TERMS.map(function (t) { var p = t.date.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); });
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    if (today < dates[0].getTime() - TERM_NOTE_DAYS_BEFORE * DAY ||
+        today > dates[dates.length - 1].getTime() + TERM_NOTE_DAYS_AFTER * DAY) return '';
+    var anyPast = false;
+    var parts = NEW_TERMS.map(function (t, i) {
+      var past = today >= dates[i];
+      if (past) anyPast = true;
+      var when = dates[i].toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+      return t.who + (past ? ' took office ' : ' take office ') + when + '.';
+    });
+    return parts.join(' ') + (anyPast
+      ? ' The lists below can lag by a few weeks after a new term starts.'
+      : ' Until then, the lists below show the members serving now.');
+  }
+
   var officials = null;
   var localData = null;
   var $ = function (id) { return document.getElementById(id); };
@@ -109,14 +138,54 @@
       status.textContent = 'We could not look up special districts for this address.';
       return card;
     }
-    D.lookup(c.x, c.y).then(function (r) {
+    var local = parts.local || Promise.resolve({});
+    Promise.all([D.lookup(c.x, c.y), local]).then(function (both) {
+      var r = both[0], here = both[1];
+      if (here.council) add({ label: 'City council', name: 'Portland City Council District ' + here.council });
+      if (here.commission) add({ label: 'County commission', name: 'Multnomah County Commissioner District ' + here.commission });
       [r.fire, r.education, r.swcd].forEach(function (found) { (found || []).forEach(add); });
-      status.textContent = (!r.fire || !r.education || !r.swcd)
-        ? 'Part of the special district lookup did not respond, so this list may be missing some districts. Try again in a few minutes.'
-        : 'Fire districts come from the Oregon State Fire Marshal’s maps, education districts from the state’s education boundary maps, and conservation districts from the Oregon Department of Agriculture.';
-      card.appendChild(el('p', 'muted', 'Not listed here: county commissioner districts, city council districts, voting precincts, and library, park, water, sanitary, transit, port and Metro districts. Your county elections office can tell you which of those you live in.'));
+      status.textContent = (!r.fire || !r.education || !r.swcd || here.council === null || here.commission === null)
+        ? 'Part of the district lookup did not respond, so this list may be missing some districts. Try again in a few minutes.'
+        : 'Fire districts come from the Oregon State Fire Marshal’s maps, education districts from the state’s education boundary maps, and conservation districts from the Oregon Department of Agriculture.' +
+          (here.council ? ' Portland council districts come from the City of Portland’s district map.' : '') +
+          (here.commission ? ' Multnomah County commissioner districts come from the county’s elections map.' : '');
+      var missing = [];
+      if (!here.commission) missing.push('county commissioner districts');
+      if (!here.council) missing.push('city council districts');
+      card.appendChild(el('p', 'muted', 'Not listed here: ' + missing.concat(['voting precincts']).join(', ') +
+        (missing.length ? ',' : '') + ' and library, park, water, sanitary, transit, port and Metro districts. Your county elections office can tell you which of those you live in.'));
     });
     return card;
+  }
+
+  // Portland's council district and Multnomah County's commissioner district,
+  // with the members the City's and the County's own pages list for each.
+  // roster: { source: url, "1": [people], ..., chair: person } from data/local.json.
+  function localDistrict(card, promise, key, opts) {
+    var slot = el('div');
+    card.appendChild(slot);
+    promise.then(function (here) {
+      var num = here[key];
+      if (num === undefined || num === '') return;  // not asked, or outside the map
+      if (num === null) {
+        slot.appendChild(el('p', 'muted', 'We could not look up your ' + opts.what + ' right now. Try again in a few minutes.'));
+        return;
+      }
+      var roster = opts.roster || {};
+      slot.appendChild(el('h4', null, opts.heading + ' ' + num));
+      people(slot, roster[num], 'See the ' + opts.who + ' page for the members of this district.');
+      if (roster.chair) {
+        slot.appendChild(el('h4', null, opts.chairHeading));
+        people(slot, [roster.chair], '');
+      }
+      if (safeUrl(roster.source)) {
+        var p = el('p', 'muted');
+        p.appendChild(document.createTextNode((opts.note ? opts.note + ' ' : '') + 'Members as listed by the '));
+        p.appendChild(link(roster.source, opts.who));
+        p.appendChild(document.createTextNode('.'));
+        slot.appendChild(p);
+      }
+    });
   }
 
   function person(p) {
@@ -172,7 +241,9 @@
     card.appendChild(el('h4', null, 'Mayor'));
     people(card, [{ name: place.mayor.name, url: place.mayor.source }], '');
     var links = card.querySelector('ul.people:last-of-type .contact a');
-    if (links) links.textContent = /portland\.gov\/council\/agenda/.test(place.mayor.source) ? 'Source' : 'Mayor’s page';
+    // Other people's rows say "Website". Where the page we confirmed the mayor
+    // on is the council's agenda page, not the mayor's own, say so.
+    if (links && /\/council\/agenda/.test(place.mayor.source)) links.textContent = 'City Council agendas';
     if (place.mayor.note) card.appendChild(el('p', 'muted', place.mayor.note));
     if (safeUrl(place.council)) {
       var p = el('p');
@@ -214,19 +285,39 @@
     var hd = layer(g, /State Legislative Districts - Lower/);
     var cd = layer(g, /Congressional Districts/);
 
+    // Portland and Multnomah County only: council and commissioner districts
+    // from the City's and the County's own maps (see districts.js).
+    var D = window.CivicsORDistricts;
+    var c = match.coordinates || {};
+    var local = (D && D.localDistricts && typeof c.x === 'number' && typeof c.y === 'number' &&
+      (city === 'Portland' || county === 'Multnomah')) ? D.localDistricts(c.x, c.y, { city: city, county: county }) : null;
+
     out.appendChild(el('p', 'muted', 'Showing results for ' + match.matchedAddress + '.'));
-    out.appendChild(districtsCard(g, match, { city: city, county: county, sd: sd, hd: hd, cd: cd }));
+    out.appendChild(districtsCard(g, match, { city: city, county: county, sd: sd, hd: hd, cd: cd, local: local }));
     if (window.CivicsORLocal && county) {
       // Remember only the county and city, so the Engage guides can show local links.
       window.CivicsORLocal.save({ county: county, city: localData && localData.cities[city] ? city : '' });
     }
 
-    out.appendChild(city
-      ? localCard('City', 'City of ' + city, LOCAL.places[city], 'Your mayor and council members are listed on the city’s website. We have not added a direct link for this city yet.', localData && localData.cities[city])
-      : localCard('City', 'Outside city limits', null, 'This address is in an unincorporated area, so the county is your local government.'));
+    var cityPlace = localData && localData.cities[city];
+    var cityCard = city
+      ? localCard('City', 'City of ' + city, LOCAL.places[city], 'Your mayor and council members are listed on the city’s website. We have not added a direct link for this city yet.', cityPlace)
+      : localCard('City', 'Outside city limits', null, 'This address is in an unincorporated area, so the county is your local government.');
+    if (local && city === 'Portland') {
+      localDistrict(cityCard, local, 'council', { heading: 'City Council, District', what: 'Portland City Council district',
+        who: 'City of Portland', roster: cityPlace && cityPlace.council_districts });
+    }
+    out.appendChild(cityCard);
 
     if (county) {
-      out.appendChild(localCard('County', county + ' County', LOCAL.counties[county], 'Your county commissioners are listed on the county’s website. Most Oregon counties have a board of three to five commissioners; a few smaller ones have a county court, a county judge and two commissioners.', localData && localData.counties[county]));
+      var countyPlace = localData && localData.counties[county];
+      var countyCard = localCard('County', county + ' County', LOCAL.counties[county], 'Your county commissioners are listed on the county’s website. Most Oregon counties have a board of three to five commissioners; a few smaller ones have a county court, a county judge and two commissioners.', countyPlace);
+      if (local && county === 'Multnomah') {
+        localDistrict(countyCard, local, 'commission', { heading: 'County Commissioner, District', what: 'county commissioner district',
+          who: 'Multnomah County Board of Commissioners', roster: countyPlace && countyPlace.commissioner_districts,
+          chairHeading: 'County Chair (elected countywide)', note: 'Four commissioners are elected by district and the chair countywide.' });
+      }
+      out.appendChild(countyCard);
     }
 
     var leg = officials && officials.legislators;
@@ -271,7 +362,7 @@
       var matches = data && data.result && data.result.addressMatches;
       if (!matches || !matches.length) {
         out.textContent = '';
-        out.appendChild(el('p', 'empty', 'We could not find that address. Check the spelling, include the city or ZIP code, and leave off apartment numbers.'));
+        out.appendChild(el('p', 'empty', 'We could not find that address. Check the street number, spelling and ZIP code, and leave off apartment numbers. If it still isn’t found, try a nearby street address. Some government buildings aren’t in the Census Bureau’s address list.'));
         return;
       }
       render(matches[0]);
@@ -284,6 +375,10 @@
       out.appendChild(p);
     });
   });
+
+  var note = $('term-note');
+  var noteText = note ? termNote(new Date()) : '';
+  if (noteText) { note.textContent = noteText; note.hidden = false; }
 
   fetch('data/local.json').then(function (r) { return r.json(); }).then(function (d) { localData = d; }).catch(function () {});
   fetch('data/officials.json').then(function (r) { return r.json(); }).then(function (d) { officials = d; }).catch(function () {});
