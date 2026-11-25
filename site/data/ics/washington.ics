@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Washington County
 BEGIN:VEVENT
 UID:6a86d248c459@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261126T180000Z
 DTEND:20261126T190000Z
 SUMMARY:CANCELLED: Council meeting (Metro (regional government))
@@ -15,7 +15,7 @@ STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:fe2f6f1bc655@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261128T190000Z
 DTEND:20261128T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -24,7 +24,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514217
 END:VEVENT
 BEGIN:VEVENT
 UID:58328c04d910@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:BCC Work Session (Washington County)
@@ -34,7 +34,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:f9eb6378acf3@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:Land Use Hearings (Washington County)
@@ -44,7 +44,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:6b410d96c52b@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261201T180000Z
 DTEND:20261201T190000Z
 SUMMARY:Council work session (Metro (regional government))
@@ -56,7 +56,7 @@ URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3755&GID=641&
 END:VEVENT
 BEGIN:VEVENT
 UID:abb5fd799a8b@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261201T180000Z
 DTEND:20261201T190000Z
 SUMMARY:Housing Authority Board of Directors (Washington County)
@@ -66,7 +66,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:9c0a40df7eda@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261201T190000Z
 DTEND:20261201T200000Z
 SUMMARY:Board of County Commissioners (BCC) (Washington County)
@@ -76,7 +76,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:6d1b785b90f8@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261202T020000Z
 DTEND:20261202T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -85,7 +85,7 @@ URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:7398b2e24922@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261202T023000Z
 DTEND:20261202T033000Z
 SUMMARY:City Council meeting (City of Tigard)
@@ -94,7 +94,7 @@ URL:https://www.tigard-or.gov/your-government/council/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:f173db9103ea@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261202T030000Z
 DTEND:20261202T040000Z
 SUMMARY:City Council meeting (City of Sherwood)
@@ -103,7 +103,7 @@ URL:https://www.sherwoodoregon.gov/citycouncil
 END:VEVENT
 BEGIN:VEVENT
 UID:bebce5b4a289@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261202T213000Z
 DTEND:20261202T223000Z
 SUMMARY:Planning Commission (Washington County)
@@ -113,7 +113,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:fa650db652c2@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261203T013000Z
 DTEND:20261203T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -122,7 +122,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801076
 END:VEVENT
 BEGIN:VEVENT
 UID:030446a10c66@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261203T020000Z
 DTEND:20261203T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -132,7 +132,7 @@ URL:https://wccls.bibliocommons.com/events/6a9b09d55e6fc10d05512b30
 END:VEVENT
 BEGIN:VEVENT
 UID:ef3d6d1cf4c3@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261203T170000Z
 DTEND:20261203T180000Z
 SUMMARY:BCC Work Session (Washington County)
@@ -142,7 +142,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:cc006247c7e1@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261203T210000Z
 DTEND:20261203T220000Z
 SUMMARY:Board of County Commissioners (BCC) - Special Meeting (Washington C
@@ -153,7 +153,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:1217ef3e4a1f@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261203T213000Z
 DTEND:20261203T223000Z
 SUMMARY:Washington County Coordinating Committee - Transportation Advisory 
@@ -164,7 +164,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:6412ac3e9d2a@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261204T013000Z
 DTEND:20261204T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -175,7 +175,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa6
 END:VEVENT
 BEGIN:VEVENT
 UID:a06b5a56f0e5@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261204T023000Z
 DTEND:20261204T040000Z
 SUMMARY:Library Board Meeting (Cornelius Public Library)
@@ -184,7 +184,7 @@ URL:https://cornelius-or.libcal.com/event/16263032
 END:VEVENT
 BEGIN:VEVENT
 UID:1d90baf16a13@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261205T190000Z
 DTEND:20261205T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -193,7 +193,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514218
 END:VEVENT
 BEGIN:VEVENT
 UID:5c7601fd106a@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261208T020000Z
 DTEND:20261208T030000Z
 SUMMARY:Regular Board meeting (Tigard-Tualatin School District)
@@ -202,7 +202,7 @@ URL:https://www.ttsdschools.org/about-us/school-board/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:d3babd1d8674@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261208T020000Z
 DTEND:20261208T030000Z
 SUMMARY:Advisory Council on Racial Equity (ACRE) (Washington County)
@@ -213,7 +213,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:b708d96b363a@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261208T170000Z
 DTEND:20261208T180000Z
 SUMMARY:Clean Water Services (CWS) Board of Directors (Washington County)
@@ -223,7 +223,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:aa113decf160@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261208T173000Z
 DTEND:20261208T183000Z
 SUMMARY:Clean Water Services (CWS) Board of Directors Work Session (Washing
@@ -234,7 +234,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:a2d92a5b68c5@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261208T190000Z
 DTEND:20261208T200000Z
 SUMMARY:Board of County Commissioners (BCC) (Washington County)
@@ -244,7 +244,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:2a085eba3d06@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261208T210000Z
 DTEND:20261208T220000Z
 SUMMARY:BCC Work Session (Washington County)
@@ -254,7 +254,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:65a261942624@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261209T011500Z
 DTEND:20261209T021500Z
 SUMMARY:Board work session (Hillsboro School District)
@@ -264,7 +264,7 @@ URL:https://www.hsd.k12.or.us/about-us/board-of-directors/meeting-schedule/
 END:VEVENT
 BEGIN:VEVENT
 UID:b382c0e7b31e@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261209T013000Z
 DTEND:20261209T033000Z
 SUMMARY:Citizenship Class (Cedar Mill & Bethany Community Libraries)
@@ -273,7 +273,7 @@ URL:https://cedarmillbethany.libcal.com/event/17162082
 END:VEVENT
 BEGIN:VEVENT
 UID:8316f9438b19@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261209T023000Z
 DTEND:20261209T033000Z
 SUMMARY:City Council meeting (City of Tigard)
@@ -282,7 +282,7 @@ URL:https://www.tigard-or.gov/your-government/council/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:86359b729b3d@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261209T030000Z
 DTEND:20261209T040000Z
 SUMMARY:School Board business meeting (Beaverton School District)
@@ -292,7 +292,7 @@ URL:https://www.beaverton.k12.or.us/school-board
 END:VEVENT
 BEGIN:VEVENT
 UID:6286021dbf68@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261209T030000Z
 DTEND:20261209T040000Z
 SUMMARY:Board regular session (Hillsboro School District)
@@ -302,7 +302,7 @@ URL:https://www.hsd.k12.or.us/about-us/board-of-directors/meeting-schedule/
 END:VEVENT
 BEGIN:VEVENT
 UID:2a18f691547f@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261210T013000Z
 DTEND:20261210T040000Z
 SUMMARY:Town Hall with Rep. Susan McLain (Cornelius Public Library)
@@ -311,7 +311,7 @@ URL:https://cornelius-or.libcal.com/event/17993290
 END:VEVENT
 BEGIN:VEVENT
 UID:d90c7c90fda9@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261210T013000Z
 DTEND:20261210T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -320,7 +320,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801077
 END:VEVENT
 BEGIN:VEVENT
 UID:8cd18a1ba445@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261210T020000Z
 DTEND:20261210T030000Z
 SUMMARY:Library Advisory Board meeting (Beaverton City Library Advisory Boa
@@ -331,7 +331,7 @@ URL:https://beavertonlibrary.org/104/Library-Advisory-Board
 END:VEVENT
 BEGIN:VEVENT
 UID:f1d918a19d2a@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261210T020000Z
 DTEND:20261210T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -341,7 +341,7 @@ URL:https://wccls.bibliocommons.com/events/6a9b09d55e6fc10d05512b31
 END:VEVENT
 BEGIN:VEVENT
 UID:41d5cbff1ed8@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261211T010000Z
 DTEND:20261211T030000Z
 SUMMARY:Friends Board Meeting (Cornelius Public Library)
@@ -350,7 +350,7 @@ URL:https://cornelius-or.libcal.com/event/16263103
 END:VEVENT
 BEGIN:VEVENT
 UID:ed81ee134199@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261211T013000Z
 DTEND:20261211T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -361,7 +361,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa7
 END:VEVENT
 BEGIN:VEVENT
 UID:7fbd9a2ab01c@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261211T020000Z
 DTEND:20261211T030000Z
 SUMMARY:Garbage and Recycling Advisory Committee (Washington County)
@@ -371,7 +371,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:111fc3bc6838@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261211T030000Z
 DTEND:20261211T040000Z
 SUMMARY:Strengthening Participation and Reaching Communities (SPARC) Joint 
@@ -382,7 +382,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:2fbc0e647529@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261212T190000Z
 DTEND:20261212T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -391,7 +391,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e0038514219
 END:VEVENT
 BEGIN:VEVENT
 UID:550a6811d871@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261215T010000Z
 DTEND:20261215T020000Z
 SUMMARY:City Council work session (City of Tualatin)
@@ -400,7 +400,7 @@ URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:39a4a264e0e0@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261215T030000Z
 DTEND:20261215T040000Z
 SUMMARY:City Council meeting (City of Forest Grove)
@@ -409,7 +409,7 @@ URL:https://forestgrove-or.gov/365
 END:VEVENT
 BEGIN:VEVENT
 UID:cd901bd03342@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261215T030000Z
 DTEND:20261215T040000Z
 SUMMARY:City Council meeting (City of Tualatin)
@@ -418,7 +418,7 @@ URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:1cb44dba1898@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261215T220000Z
 DTEND:20261215T230000Z
 SUMMARY:BCC Work Session (Washington County)
@@ -428,7 +428,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:242c774f4ee8@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261216T013000Z
 DTEND:20261216T033000Z
 SUMMARY:Citizenship Class (Cedar Mill & Bethany Community Libraries)
@@ -437,7 +437,7 @@ URL:https://cedarmillbethany.libcal.com/event/17162083
 END:VEVENT
 BEGIN:VEVENT
 UID:5ed0af42f623@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261216T013000Z
 DTEND:20261216T023000Z
 SUMMARY:Clean Water Services (CWS) Board of Directors (Washington County)
@@ -447,7 +447,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:0c46935f3511@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261216T020000Z
 DTEND:20261216T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -456,7 +456,7 @@ URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:2e7a84e93527@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261216T023000Z
 DTEND:20261216T033000Z
 SUMMARY:City Council meeting (City of Tigard)
@@ -465,7 +465,7 @@ URL:https://www.tigard-or.gov/your-government/council/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:f7befe03d811@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261216T023000Z
 DTEND:20261216T033000Z
 SUMMARY:Board of County Commissioners (BCC) (Washington County)
@@ -475,7 +475,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:9917819affbb@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261216T030000Z
 DTEND:20261216T040000Z
 SUMMARY:City Council meeting (City of Sherwood)
@@ -484,7 +484,7 @@ URL:https://www.sherwoodoregon.gov/citycouncil
 END:VEVENT
 BEGIN:VEVENT
 UID:54c874532627@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART;VALUE=DATE:20261216
 SUMMARY:WCCLS Executive Board (Cooperative Library Services) (Washington Co
  unty)
@@ -494,7 +494,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:1fe46b6a975d@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261217T013000Z
 DTEND:20261217T023000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -503,7 +503,7 @@ URL:https://wccls.bibliocommons.com/events/6abc0b34e06996003a801078
 END:VEVENT
 BEGIN:VEVENT
 UID:37e51986651d@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261217T020000Z
 DTEND:20261217T030000Z
 SUMMARY:Mission Citizen: Citizenship Classes (Washington County Cooperative
@@ -513,7 +513,7 @@ URL:https://wccls.bibliocommons.com/events/6ada54512b40e729fed354d7
 END:VEVENT
 BEGIN:VEVENT
 UID:c08c0f1f484d@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261217T023000Z
 DTEND:20261217T033000Z
 SUMMARY:Planning Commission (Washington County)
@@ -523,7 +523,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:ad5ed6a86dfc@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261217T170000Z
 DTEND:20261217T180000Z
 SUMMARY:Land Use Hearings (Washington County)
@@ -533,7 +533,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:552b3cc12af5@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261217T220000Z
 DTEND:20261217T230000Z
 SUMMARY:Homeless Solutions Advisory Council (Washington County)
@@ -543,7 +543,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:f888eb0c9ca7@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261218T013000Z
 DTEND:20261218T033000Z
 SUMMARY:Citizenship Class Provided by SOAR (Washington County Cooperative L
@@ -554,7 +554,7 @@ URL:https://wccls.bibliocommons.com/events/6a7a44c41d5d03c3a6bbafa8
 END:VEVENT
 BEGIN:VEVENT
 UID:f97bf3e4583d@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261219T190000Z
 DTEND:20261219T213000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -563,7 +563,7 @@ URL:https://wccls.bibliocommons.com/events/6aab209bf9ed2e003851421a
 END:VEVENT
 BEGIN:VEVENT
 UID:051067514d34@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261223T023000Z
 DTEND:20261223T033000Z
 SUMMARY:City Council meeting (City of Tigard)
@@ -572,7 +572,7 @@ URL:https://www.tigard-or.gov/your-government/council/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:cf165ca68d9e@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261224T170000Z
 DTEND:20261224T180000Z
 SUMMARY:Housing Advisory Committee (HAC) (Washington County)
@@ -582,7 +582,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:630d4073f238@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261225T210000Z
 DTEND:20261225T220000Z
 SUMMARY:Washington County Transit Committee (WCTC) (Washington County)
@@ -592,7 +592,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:2e56517d98c2@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261229T010000Z
 DTEND:20261229T020000Z
 SUMMARY:City Council work session (City of Tualatin)
@@ -601,7 +601,7 @@ URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:8569172e6cc5@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261229T030000Z
 DTEND:20261229T040000Z
 SUMMARY:City Council meeting (City of Forest Grove)
@@ -610,7 +610,7 @@ URL:https://forestgrove-or.gov/365
 END:VEVENT
 BEGIN:VEVENT
 UID:271a3eefaf50@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261229T030000Z
 DTEND:20261229T040000Z
 SUMMARY:City Council meeting (City of Tualatin)
@@ -619,7 +619,7 @@ URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:8efb76f880b5@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270105T170000Z
 DTEND:20270105T180000Z
 SUMMARY:BCC Work Session (Washington County)
@@ -629,7 +629,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:0e3a79e09621@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270105T180000Z
 DTEND:20270105T190000Z
 SUMMARY:Board of County Commissioners (BCC) (Washington County)
@@ -639,7 +639,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:f2706ab50b0e@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270105T180000Z
 DTEND:20270105T190000Z
 SUMMARY:Housing Authority Board of Directors (Washington County)
@@ -649,7 +649,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:5b302d9cd0a8@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270106T020000Z
 DTEND:20270106T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -658,7 +658,7 @@ URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:cf210ab85ef3@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270106T023000Z
 DTEND:20270106T033000Z
 SUMMARY:City Council meeting (City of Tigard)
@@ -667,7 +667,7 @@ URL:https://www.tigard-or.gov/your-government/council/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:2a35b4b5a30d@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270106T030000Z
 DTEND:20270106T040000Z
 SUMMARY:City Council meeting (City of Sherwood)
@@ -676,7 +676,7 @@ URL:https://www.sherwoodoregon.gov/citycouncil
 END:VEVENT
 BEGIN:VEVENT
 UID:83715da62972@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270106T234500Z
 DTEND:20270107T004500Z
 SUMMARY:Urban Road Maintenance District Advisory Committee (URMDAC) (Washin
@@ -688,7 +688,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:e5188c8cceaa@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270107T003000Z
 DTEND:20270107T013000Z
 SUMMARY:Fair Board (Washington County)
@@ -698,7 +698,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:91b727cdccac@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270107T020000Z
 DTEND:20270107T040000Z
 SUMMARY:Citizenship Class (Cornelius Public Library)
@@ -707,7 +707,7 @@ URL:https://cornelius-or.libcal.com/event/18052785
 END:VEVENT
 BEGIN:VEVENT
 UID:7c564664d47e@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270107T170000Z
 DTEND:20270107T180000Z
 SUMMARY:BCC Roundtable (Washington County)
@@ -717,7 +717,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:41828860d2af@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270108T013000Z
 DTEND:20270108T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -727,7 +727,7 @@ URL:https://wccls.bibliocommons.com/events/6afe0a6d0f200f1859859a8b
 END:VEVENT
 BEGIN:VEVENT
 UID:00d794ba4e44@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270112T010000Z
 DTEND:20270112T020000Z
 SUMMARY:City Council work session (City of Tualatin)
@@ -736,7 +736,7 @@ URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:892b12c25304@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270112T020000Z
 DTEND:20270112T030000Z
 SUMMARY:Regular Board meeting (Tigard-Tualatin School District)
@@ -745,7 +745,7 @@ URL:https://www.ttsdschools.org/about-us/school-board/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:4f39ced23c27@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270112T030000Z
 DTEND:20270112T040000Z
 SUMMARY:City Council meeting (City of Forest Grove)
@@ -754,7 +754,7 @@ URL:https://forestgrove-or.gov/365
 END:VEVENT
 BEGIN:VEVENT
 UID:5676442cd7ab@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270112T030000Z
 DTEND:20270112T040000Z
 SUMMARY:City Council meeting (City of Tualatin)
@@ -763,7 +763,7 @@ URL:https://www.tualatinoregon.gov/citycouncil/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:641179c99eb2@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270112T170000Z
 DTEND:20270112T180000Z
 SUMMARY:Clean Water Services (CWS) Board of Directors (Washington County)
@@ -773,7 +773,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:04ade0804de9@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270112T180000Z
 DTEND:20270112T190000Z
 SUMMARY:Clean Water Services (CWS) Board of Directors Work Session (Washing
@@ -784,7 +784,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:0ef02300325a@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270112T190000Z
 DTEND:20270112T200000Z
 SUMMARY:BCC Work Session (Washington County)
@@ -794,7 +794,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:5ee2a9e21768@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270113T011500Z
 DTEND:20270113T021500Z
 SUMMARY:Board work session (Hillsboro School District)
@@ -804,7 +804,7 @@ URL:https://www.hsd.k12.or.us/about-us/board-of-directors/meeting-schedule/
 END:VEVENT
 BEGIN:VEVENT
 UID:6afaecd61263@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270113T013000Z
 DTEND:20270113T023000Z
 SUMMARY:Public Health Advisory Council (Washington County)
@@ -814,7 +814,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:fecbd0f8ac5e@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270113T020000Z
 DTEND:20270113T030000Z
 SUMMARY:One Book\, One Beaverton: Simon Benson: Lumber King & Portland Civi
@@ -824,7 +824,7 @@ URL:https://wccls.bibliocommons.com/events/6b060ba08d474500d09816b6
 END:VEVENT
 BEGIN:VEVENT
 UID:6cbea4ec54ed@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270113T023000Z
 DTEND:20270113T033000Z
 SUMMARY:City Council meeting (City of Tigard)
@@ -833,7 +833,7 @@ URL:https://www.tigard-or.gov/your-government/council/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:a6da23a7fb39@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270113T030000Z
 DTEND:20270113T040000Z
 SUMMARY:School Board business meeting (Beaverton School District)
@@ -843,7 +843,7 @@ URL:https://www.beaverton.k12.or.us/school-board
 END:VEVENT
 BEGIN:VEVENT
 UID:f96765190443@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270114T020000Z
 DTEND:20270114T030000Z
 SUMMARY:Library Advisory Board meeting (Beaverton City Library Advisory Boa
@@ -854,7 +854,7 @@ URL:https://beavertonlibrary.org/104/Library-Advisory-Board
 END:VEVENT
 BEGIN:VEVENT
 UID:59417d3e892b@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270114T020000Z
 DTEND:20270114T040000Z
 SUMMARY:Citizenship Class (Cornelius Public Library)
@@ -863,7 +863,7 @@ URL:https://cornelius-or.libcal.com/event/18052786
 END:VEVENT
 BEGIN:VEVENT
 UID:8a3c5a2e8d5d@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270115T013000Z
 DTEND:20270115T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)
@@ -873,7 +873,7 @@ URL:https://wccls.bibliocommons.com/events/6afe0a6d0f200f1859859a8c
 END:VEVENT
 BEGIN:VEVENT
 UID:5b51d0016c79@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270119T170000Z
 DTEND:20270119T180000Z
 SUMMARY:BCC Work Session (Washington County)
@@ -883,7 +883,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:0f8d4277e8e4@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270119T180000Z
 DTEND:20270119T190000Z
 SUMMARY:Board of County Commissioners (BCC) (Washington County)
@@ -893,7 +893,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:35544ccef113@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270120T020000Z
 DTEND:20270120T030000Z
 SUMMARY:City Council meeting (City of Hillsboro)
@@ -902,7 +902,7 @@ URL:https://www.hillsboro-oregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:adfafda068e2@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270120T023000Z
 DTEND:20270120T033000Z
 SUMMARY:City Council meeting (City of Tigard)
@@ -911,7 +911,7 @@ URL:https://www.tigard-or.gov/your-government/council/council-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:92b631cae5fa@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270120T030000Z
 DTEND:20270120T040000Z
 SUMMARY:Library Board Meeting (Cedar Mill & Bethany Community Libraries)
@@ -920,7 +920,7 @@ URL:https://cedarmillbethany.libcal.com/event/17486150
 END:VEVENT
 BEGIN:VEVENT
 UID:538971e4d11e@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270120T030000Z
 DTEND:20270120T040000Z
 SUMMARY:City Council meeting (City of Sherwood)
@@ -929,7 +929,7 @@ URL:https://www.sherwoodoregon.gov/citycouncil
 END:VEVENT
 BEGIN:VEVENT
 UID:a01e605724dc@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART;VALUE=DATE:20270120
 SUMMARY:WCCLS Executive Board (Cooperative Library Services) (Washington Co
  unty)
@@ -939,7 +939,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:419939898c71@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270121T020000Z
 DTEND:20270121T040000Z
 SUMMARY:Citizenship Class (Cornelius Public Library)
@@ -948,7 +948,7 @@ URL:https://cornelius-or.libcal.com/event/18052787
 END:VEVENT
 BEGIN:VEVENT
 UID:e9f3c0158043@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270121T023000Z
 DTEND:20270121T033000Z
 SUMMARY:Planning Commission (Washington County)
@@ -958,7 +958,7 @@ URL:https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Or
 END:VEVENT
 BEGIN:VEVENT
 UID:eda510bf8400@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270122T013000Z
 DTEND:20270122T033000Z
 SUMMARY:Citizenship Class (Washington County Cooperative Library Services)

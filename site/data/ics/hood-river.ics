@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Hood River County
 BEGIN:VEVENT
 UID:fec8aa6ec1cc@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20261216T030000Z
 DTEND:20261216T040000Z
 SUMMARY:Library District Board meeting (Hood River County Library District)
@@ -13,7 +13,7 @@ URL:https://www.hoodriverlibrary.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:1ee46fa46ef6@civicsor
-DTSTAMP:20261125T082217Z
+DTSTAMP:20261125T121343Z
 DTSTART:20270120T030000Z
 DTEND:20270120T040000Z
 SUMMARY:Library District Board meeting (Hood River County Library District)
