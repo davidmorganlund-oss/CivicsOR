@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T12:16:32-08:00",
+ "generated": "2026-11-24T23:59:54-08:00",
  "events": [
   {
    "id": "d2f1d263a7ad",
@@ -37,10 +37,10 @@
    "start": "2026-11-24T10:30:00-08:00",
    "end": null,
    "all_day": false,
-   "location": "CANCELED",
+   "location": "",
    "url": "https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132",
    "agenda_url": "https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3750_A_Council_work_session_26-11-24_Agenda.pdf",
-   "note": "CANCELED",
+   "note": "",
    "cancelled": true
   },
   {
@@ -102,24 +102,6 @@
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false,
    "regular": true
-  },
-  {
-   "id": "99d2e83de2c8",
-   "title": "Citizenship Class",
-   "host": "Cedar Mill & Bethany Community Libraries",
-   "source": "cedar-mill-bethany-libraries",
-   "area": "countywide",
-   "county": "Washington",
-   "tz": "PT",
-   "category": "library",
-   "start": "2026-11-24T17:30:00-08:00",
-   "end": "2026-11-24T19:30:00-08:00",
-   "all_day": false,
-   "location": "Bethany Library, Annex",
-   "url": "https://cedarmillbethany.libcal.com/event/17162080",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": true
   },
   {
    "id": "c239ede8ce47",
@@ -388,7 +370,7 @@
    "location": "320 NE Court Street, Prineville",
    "url": "https://crookcoor.portal.civicclerk.com/event/4497/overview",
    "agenda_url": "",
-   "note": "Crook County Board of County Commissioners will hold its scheduled Regular Session meeting on Wednesday, November 25, 2026, beginning at 9:00 AM, at the Crook County Annex Meeting Room, located at 320 NE Court Street, Prineville, OR 97754. The principal subject(s) anticipated to be discussed are: Consent Agenda: Approve Minutes. Discussion Items: COIC Presentation on the 2027\u20132029 STIF Formula Fund Applications; Consider HB4084 Resolution; Consider Approval of ILS Contract for CCL_DPL_JCLD 2026; Consider Approval of Amended Order 2026-37 In the Matter of Distributing Funds from the Oregon Department of Agriculture Wolf Compensation and Financial Assistance Grant; Treasurer's Report October 2026; Consider Approval of Staff Recommendation from RFP for Septage Operation; Sheriff\u2019s Office \u2013 October Monthly Statistics; Consider Amendment No. 4 to Lease Agreement with Mosaic; Consider Approval of Re-Recording Order 2025-38 and Order 2025-27, In the Matter of Appointments to the Community Health Advisory Council (CHAC); Consider Approval of 2027 Holiday Schedule, 2027 Regular Session Schedule, & 2027 Work Session Schedule; Consider Approval of Staff Recommendation from RFP for Health Benefits Consultant; Second reading of Ordinance 361; a Zone Map Amendment. Scheduled Appearances: Andrea Wasilew, Outreach & Engagement Administrator; Michelle Williams, CPA, Deputy Director/Fiscal Manager for COIC; Kelsey Haskett, Prineville/Crook County EDCO Director; and County staff. Executive Session: ORS 192.660(2)(f) To consider information or records that are exempt by law from public inspection. Additional items may be discussed that arise too late to be included as part of this notice. For complete agenda and scheduled times, please see the website www.crookcountyor.gov. For information about adding agenda items, for information on remote attendance, or to request assistance due to disability or for assistance with language interpretation or communications aids, please contact the Crook County Administration Office at 541-447-6555 or Eric Blaine at Eric.Blaine@crookcountyor.gov. Assistance to disabled individuals or persons needing language interpretation is provided with advance notice. Join Zoom Meeting: https://zoom.us/j/98173612010?pwd=OHhtdTlzdlVXUEdMUFpFdVd6eDBtdz09 Meeting ID: 981 7361 2010 Passcode: 033745",
+   "note": "Crook County Board of County Commissioners will hold its scheduled Regular Session meeting on Wednesday, November 25, 2026, beginning at 9:00 AM, at the Crook County Annex Meeting Room, located at 320 NE Court Street, Prineville, OR 97754. The principal subject(s) anticipated to be discussed are: Consent Agenda: Approve Minutes. Discussion Items: COIC Presentation on the 2027\u20132029 STIF Formula Fund Applications; Consider HB4084 Resolution; Consider Approval of ILS Contract for CCL_DPL_JCLD 2026; Consider Approval of Amended Order 2026-37 In the Matter of Distributing Funds from the Oregon Department of Agriculture Wolf Compensation and Financial Assistance Grant; Treasurer's Report October 2026; Consider Approval of Staff Recommendation from RFP for Septage Operation; Sheriff\u2019s Office \u2013 October Monthly Statistics; Consider Amendment No. 4 to Lease Agreement with Mosaic; Consider Approval of Re-Recording Order 2025-38 and Order 2025-27, In the Matter of Appointments to the Community Health Advisory Council (CHAC); Consider Approval of 2027 Holiday Schedule, 2027 Regular Session Schedule, & 2027 Work Session Schedule; Second reading of Ordinance 361; a Zone Map Amendment. Scheduled Appearances: Andrea Wasilew, Outreach & Engagement Administrator; Michelle Williams, CPA, Deputy Director/Fiscal Manager for COIC; Kelsey Haskett, Prineville/Crook County EDCO Director; and County staff. Executive Session: ORS 192.660(2)(f) To consider information or records that are exempt by law from public inspection. Additional items may be discussed that arise too late to be included as part of this notice. For complete agenda and scheduled times, please see the website www.crookcountyor.gov. For information about adding agenda items, for information on remote attendance, or to request assistance due to disability or for assistance with language interpretation or communications aids, please contact the Crook County Administration Office at 541-447-6555 or Eric Blaine at Eric.Blaine@crookcountyor.gov. Assistance to disabled individuals or persons needing language interpretation is provided with advance notice. Join Zoom Meeting: https://zoom.us/j/98173612010?pwd=OHhtdTlzdlVXUEdMUFpFdVd6eDBtdz09 Meeting ID: 981 7361 2010 Passcode: 033745",
    "cancelled": false,
    "highlights": [
     "COIC Presentation on the 2027\u20132029 STIF Formula Fund Applications",
@@ -598,10 +580,10 @@
    "start": "2026-11-26T10:00:00-08:00",
    "end": null,
    "all_day": false,
-   "location": "CANCELED",
+   "location": "",
    "url": "https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132",
    "agenda_url": "https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3751_A_Council_meeting_26-11-26_Agenda.pdf",
-   "note": "CANCELED",
+   "note": "",
    "cancelled": true
   },
   {
@@ -696,12 +678,13 @@
    "cancelled": false,
    "highlights": [
     "Welcome Review of Work Plan LPRO Staff",
-    "Perspective on the Blue Economy: Science and Innovation Lisa DeBruyckere, Director of Strategic Initiatives and Programs, Oregon Ocean\u2026",
-    "Ocean Cluster Models: Formation and Organizational Structures Joshua Berger, Founder and CEO, Maritime Blue"
+    "Fish Hatcheries in Oregon Shaun Clements, Deputy Director, Oregon Department of Fish and Wildlife",
+    "Perspective on the Blue Economy: Science and Innovation Lisa DeBruyckere, Director of Strategic Initiatives and Programs, Oregon Ocean\u2026"
    ],
-   "highlights_more": 1,
+   "highlights_more": 2,
    "topics": [
-    "elections"
+    "elections",
+    "environment"
    ]
   },
   {
@@ -1106,6 +1089,34 @@
    "cancelled": false
   },
   {
+   "id": "6b410d96c52b",
+   "title": "Council work session",
+   "host": "Metro (regional government)",
+   "source": "metro",
+   "area": "countywide",
+   "county": "Multnomah",
+   "counties": [
+    "Multnomah",
+    "Washington",
+    "Clackamas"
+   ],
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-01T10:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Metro Regional Center, Council Chamber; https://zoom.us/j/615079992 (Webinar ID: 615079992) or 253-205-0468 (toll free), https://www.youtube.com/@OregonMetro/streams",
+   "url": "https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3755&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132",
+   "agenda_url": "https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/12/3755_A_Council_work_session_26-12-01_Agenda.pdf",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Parks and Nature Levy Renewal: Framework Refinement",
+    "Shaping the Regional Garbage Transfer System"
+   ],
+   "highlights_more": 0
+  },
+  {
    "id": "0895af464f4e",
    "title": "Board of County Commissioners briefing",
    "host": "Multnomah County",
@@ -1381,7 +1392,7 @@
     "Oregon Roots and Irish Aspirations: George Fox's Efforts in Ireland Shawn Daley, PhD, Vice President of Strategic Relationships, Dean of\u2026",
     "Bandon to Bandon: Building Connections Across the Atlantic Julie Miller, Chair, Bandon Oregon\u2013Ireland Twinning Committee"
    ],
-   "highlights_more": 1,
+   "highlights_more": 2,
    "topics": []
   },
   {
@@ -1442,7 +1453,7 @@
   },
   {
    "id": "4f2a73a71802",
-   "title": "Urban Renewal Agency Meeting",
+   "title": "Urban Renewal Agency Meeting CANCELLED",
    "host": "City of La Pine",
    "source": "la-pine",
    "area": "La Pine",
@@ -1456,7 +1467,7 @@
    "url": "https://www.lapineoregon.gov/Calendar.aspx?EID=377",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "id": "242553551d0c",
@@ -1863,6 +1874,30 @@
    "regular": true
   },
   {
+   "id": "539625bcad57",
+   "title": "Regular School Board Session",
+   "host": "Central Point School District",
+   "source": "central-point-sd",
+   "area": "Central Point",
+   "county": "Jackson",
+   "tz": "PT",
+   "category": "school",
+   "start": "2026-12-01T18:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Central Point School District Office - Board Room, 300 Ash St",
+   "url": "https://meetings.boardbook.org/Public/Agenda/1553?meeting=778126",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Discretionary Budget Carryover - DBD",
+    "The next Regular Board Session - January 12 at 6:30 pm in the District Office Board Room - site showcase, Central Point Elementary",
+    "Fall Sports Wrap Up"
+   ],
+   "highlights_more": 4
+  },
+  {
    "id": "7398b2e24922",
    "title": "City Council meeting",
    "host": "City of Tigard",
@@ -1915,7 +1950,13 @@
    "url": "https://boardmanor.portal.civicclerk.com/event/26/overview",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": false,
+   "highlights": [
+    "Morrow County School District - Boardman",
+    "Boardman Chamber of Commerce",
+    "Boardman Community Development Association"
+   ],
+   "highlights_more": 5
   },
   {
    "id": "d77c7a757c2f",
@@ -1933,7 +1974,7 @@
    "url": "https://www.brookings.or.us/Calendar.aspx?EID=2702",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "id": "717f3b6d9049",
@@ -2055,8 +2096,8 @@
    "note": "",
    "cancelled": false,
    "highlights": [
-    "Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst\u2026",
     "Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday\u2026",
+    "Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst\u2026",
     "Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI"
    ],
    "highlights_more": 4,
@@ -2193,8 +2234,14 @@
    "location": "320 NE Court Street, Prineville",
    "url": "https://crookcoor.portal.civicclerk.com/event/4498/overview",
    "agenda_url": "",
-   "note": "",
-   "cancelled": false
+   "note": "Crook County Board of County Commissioners will hold its scheduled Regular Session meeting on Wednesday, December 2, 2026, beginning at 9:00 AM, at the Crook County Annex Meeting Room, located at 320 NE Court Street, Prineville, OR 97754. The principal subject(s) anticipated to be discussed are: Consent Agenda: None Scheduled. Discussion Items: Consider Approval of Order 2026\u201348 In the Matter of Appointments to the Ag Extension Service District Advisory Board; Consider Approval of Order 2026\u201349 In the Matter of Appointments to the Budget Committee; Consider Approval of FY28 Budget Process Calendar; Review, Reading, and Approval of Horse Racing Grant Fund Spending and Procurement Requirements; Consideration of a 2-step increase for Public Health Modernization Manager; Consider Adoption of Policy Designating Budget Committee Citizen Members to Serve as the Elected Official Compensation Committee; Consider Approval of Albertsons Opioid Class Action Settlement Agreement; Consider Approval of Staff Recommendation from RFP for Health Benefits Consultant; Transient Room Tax (TRT) Ordinance Overview. Scheduled Appearances: County Staff. Executive Session: None Scheduled. Additional items may be discussed that arise too late to be included as part of this notice. For complete agenda and scheduled times, please see the website www.crookcountyor.gov. For information about adding agenda items, for information on remote attendance, or to request assistance due to disability or for assistance with language interpretation or communications aids, please contact the Crook County Administration Office at 541-447-6555 or Eric Blaine at Eric.Blaine@crookcountyor.gov. Assistance to disabled individuals or persons needing language interpretation is provided with advance notice. Join Zoom Meeting: https://crookcountyor.zoom.us/j/95426126858?pwd=U0x4bVYvK0VqZmxJNWNDeXl5TUxKQT09 Meeting ID: 954 2612 6858 Passcode: 178149",
+   "cancelled": false,
+   "highlights": [
+    "Consider Approval of Order 2026\u201348 In the Matter of Appointments to the Ag Extension Service District Advisory Board",
+    "Consider Approval of Order 2026\u201349 In the Matter of Appointments to the Budget Committee",
+    "Consider Approval of FY28 Budget Process Calendar"
+   ],
+   "highlights_more": 7
   },
   {
    "id": "5236968958b2",
@@ -2324,6 +2371,35 @@
     "health",
     "environment",
     "families"
+   ]
+  },
+  {
+   "id": "79cb685c064d",
+   "title": "Senate Interim Committee on Health Care",
+   "host": "Oregon Legislature",
+   "source": "legislature",
+   "area": "statewide",
+   "county": "Statewide",
+   "tz": "PT",
+   "category": "legislature",
+   "start": "2026-12-02T11:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Oregon State Capitol, Hearing Room 60",
+   "url": "https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHC/Overview",
+   "agenda_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SHC/2026-12-02-11-30",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Oregon Insurance Coverage Mandate Impact Statements Oliver Droppers, Acting Director, Legislative Policy and Research Office (LPRO)\u2026",
+    "Care First Coalition Reva Ricketts-Loriaux, President, Oregon Medical Association (OMA) Melissa Todd, President, Western Oregon Mental\u2026",
+    "Hospital Discharge Challenges Nakeshia Knight, Director, Office of Aging & People with Disabilities, Oregon Department of Human Services\u2026"
+   ],
+   "highlights_more": 2,
+   "topics": [
+    "health",
+    "families",
+    "business"
    ]
   },
   {
@@ -2664,9 +2740,9 @@
    "highlights": [
     "Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee\u2019s OLIS page",
     "Rural Food Banks in Oregon",
-    "Previewing ODHS 2027 Legislative Concepts"
+    "Stabilization and Crisis Unit (SACU) Report required by HB 5006 (2025)"
    ],
-   "highlights_more": 4,
+   "highlights_more": 3,
    "topics": [
     "families",
     "business"
@@ -2724,7 +2800,13 @@
    "url": "https://ashlandor.portal.civicclerk.com/event/1311/overview",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": false,
+   "highlights": [
+    "The Freshwater Trust Herbicide Report and NEW Request for Herbicide Use - IPM Policy #105",
+    "Ashland Parks Foundation Annual Report",
+    "Proposed 2027 Park Commission Meeting Schedule"
+   ],
+   "highlights_more": 3
   },
   {
    "id": "2e6456b02b72",
@@ -3341,7 +3423,13 @@
    "url": "https://ashlandor.portal.civicclerk.com/event/1437/overview",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": false,
+   "highlights": [
+    "City of Ashland Annual Comprehensive Financial Report (ACFR)",
+    "Management Letter",
+    "Questions and answers"
+   ],
+   "highlights_more": 2
   },
   {
    "id": "cd52909fcaf8",
@@ -4932,6 +5020,25 @@
    "cancelled": false
   },
   {
+   "id": "75f4c8a803ab",
+   "title": "School Board meeting",
+   "host": "Centennial School District",
+   "source": "centennial-sd",
+   "area": "Portland",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "school",
+   "start": "2026-12-09T18:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://www.csd28j.org/boardmeetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. From the district\u2019s 2026-27 board meeting list. Location and Zoom link are on the agenda.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "683ed569670b",
    "title": "Natural Resources Committee",
    "host": "City of Oregon City",
@@ -5821,7 +5928,7 @@
    "location": "City Hall, 29799 SW Town Center Loop E, Wilsonville",
    "url": "https://wilsonvilleor.portal.civicclerk.com/event/3397/overview",
    "agenda_url": "",
-   "note": "This Meeting Has Been Cancelled",
+   "note": "",
    "cancelled": true
   },
   {
@@ -6365,6 +6472,25 @@
    "regular": true
   },
   {
+   "id": "de5374182aee",
+   "title": "Board regular meeting (online)",
+   "host": "Multnomah Education Service District",
+   "source": "multnomah-esd",
+   "area": "countywide",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "school",
+   "start": "2026-12-15T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Online (Zoom)",
+   "url": "https://www.multnomahesd.org/about-us/board/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. The board says regular meetings are typically held via Zoom on the third Tuesday of the month.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "57f5065478d7",
    "title": "Board work session",
    "host": "Portland Public Schools",
@@ -6826,6 +6952,24 @@
    "cancelled": false
   },
   {
+   "id": "461df56efb06",
+   "title": "Urban Renewal Agency Meeting",
+   "host": "City of Toledo",
+   "source": "toledo",
+   "area": "Toledo",
+   "county": "Lincoln",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-16T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "206 N Main Street, PO Box 220, Toledo",
+   "url": "https://toledoor.portal.civicclerk.com/event/2720/overview",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "b89539cb3767",
    "title": "Board Work Session",
    "host": "Eugene School District 4J",
@@ -6933,6 +7077,25 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "91e217127be9",
+   "title": "School Board business meeting",
+   "host": "Corbett School District",
+   "source": "corbett-sd",
+   "area": "Corbett",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "school",
+   "start": "2026-12-16T19:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "In person and on Zoom",
+   "url": "https://corbett.k12.or.us/school-board/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. From the district\u2019s 2026-27 board meeting dates. The Zoom link is on the agenda.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "dafa034ef5a5",
@@ -7058,6 +7221,24 @@
    "all_day": false,
    "location": "1175 E. Main St, Ashland",
    "url": "https://ashlandor.portal.civicclerk.com/event/1265/overview",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "659fce5aea88",
+   "title": "Transportation Advisory Committee and Planning Commission Joint Meeting",
+   "host": "City of Ashland",
+   "source": "ashland",
+   "area": "Ashland",
+   "county": "Jackson",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-17T16:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://ashlandor.portal.civicclerk.com/event/1554/overview",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7424,7 +7605,7 @@
    "location": "City Hall, 29799 SW Town Center Loop E, Wilsonville",
    "url": "https://wilsonvilleor.portal.civicclerk.com/event/3480/overview",
    "agenda_url": "",
-   "note": "This meeting has been cancelled.",
+   "note": "",
    "cancelled": true
   },
   {
@@ -10622,6 +10803,24 @@
    "regular": true
   },
   {
+   "id": "fecbd0f8ac5e",
+   "title": "One Book, One Beaverton: Simon Benson: Lumber King & Portland Civic Leader",
+   "host": "Washington County Cooperative Library Services",
+   "source": "wccls",
+   "area": "Beaverton",
+   "county": "Washington",
+   "tz": "PT",
+   "category": "library",
+   "start": "2027-01-12T18:00:00-08:00",
+   "end": "2027-01-12T19:00:00-08:00",
+   "all_day": false,
+   "location": "Beaverton City Library, 12375 SW Fifth St, Beaverton",
+   "url": "https://wccls.bibliocommons.com/events/6b060ba08d474500d09816b6",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "b2b1b1946ab6",
    "title": "City Council Meeting",
    "host": "City of Independence",
@@ -11081,6 +11280,25 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "c579dbe06adb",
+   "title": "School Board meeting",
+   "host": "Centennial School District",
+   "source": "centennial-sd",
+   "area": "Portland",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "school",
+   "start": "2027-01-13T18:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://www.csd28j.org/boardmeetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. From the district\u2019s 2026-27 board meeting list. Location and Zoom link are on the agenda.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "f3be21549520",
@@ -11873,6 +12091,25 @@
    "regular": true
   },
   {
+   "id": "420f78203568",
+   "title": "Board regular meeting (online)",
+   "host": "Multnomah Education Service District",
+   "source": "multnomah-esd",
+   "area": "countywide",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "school",
+   "start": "2027-01-19T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Online (Zoom)",
+   "url": "https://www.multnomahesd.org/about-us/board/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. The board says regular meetings are typically held via Zoom on the third Tuesday of the month.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "adfafda068e2",
    "title": "City Council meeting",
    "host": "City of Tigard",
@@ -12368,6 +12605,25 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "b1528fafbbfd",
+   "title": "School Board business meeting",
+   "host": "Corbett School District",
+   "source": "corbett-sd",
+   "area": "Corbett",
+   "county": "Multnomah",
+   "tz": "PT",
+   "category": "school",
+   "start": "2027-01-20T19:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "In person and on Zoom",
+   "url": "https://corbett.k12.or.us/school-board/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. From the district\u2019s 2026-27 board meeting dates. The Zoom link is on the agenda.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "4ae40aef28b7",

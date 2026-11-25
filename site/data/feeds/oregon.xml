@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T12:16:32-08:00</updated>
+  <updated>2026-11-24T23:59:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:024af040b40b:new</id>
@@ -35,6 +35,13 @@
     <summary>Eugene School District 4J · 2027-01-13 17:30 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:fecbd0f8ac5e:new</id>
+    <title>New meeting: One Book, One Beaverton: Simon Benson: Lumber King &amp; Portland Civic Leader (2027-01-12 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wccls.bibliocommons.com/events/6b060ba08d474500d09816b6"/>
+    <summary>Washington County Cooperative Library Services · 2027-01-12 18:00 (PT) · Beaverton City Library, 12375 SW Fifth St, Beaverton</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:e9fc9fece846:new</id>
     <title>New meeting: Board Meeting (2027-01-06 18:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -56,11 +63,25 @@
     <summary>City of Boardman · 2026-12-17 18:00 (PT) · 200 City Center Circle, Boardman</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:659fce5aea88:new</id>
+    <title>New meeting: Transportation Advisory Committee and Planning Commission Joint Meeting (2026-12-17 16:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://ashlandor.portal.civicclerk.com/event/1554/overview"/>
+    <summary>City of Ashland · 2026-12-17 16:00 (PT)</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:b89539cb3767:new</id>
     <title>New meeting: Board Work Session (2026-12-16 18:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
     <summary>Eugene School District 4J · 2026-12-16 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:461df56efb06:new</id>
+    <title>New meeting: Urban Renewal Agency Meeting (2026-12-16 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://toledoor.portal.civicclerk.com/event/2720/overview"/>
+    <summary>City of Toledo · 2026-12-16 18:00 (PT) · 206 N Main Street, PO Box 220, Toledo</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:35adc3449478:cancelled</id>
@@ -193,14 +214,14 @@
     <title>New meeting: House Interim Committee on Human Services (2026-12-02 17:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHS/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 17:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Rural Food Banks in Oregon; Previewing ODHS 2027 Legislative Concepts</summary>
+    <summary>Oregon Legislature · 2026-12-02 17:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Rural Food Banks in Oregon; Stabilization and Crisis Unit (SACU) Report required by HB 5006 (2025)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:d75b9acf368d:agenda</id>
     <title>Agenda posted: House Interim Committee on Human Services (2026-12-02 17:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HHS/2026-12-02-17-30"/>
-    <summary>Oregon Legislature · 2026-12-02 17:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Rural Food Banks in Oregon; Previewing ODHS 2027 Legislative Concepts</summary>
+    <summary>Oregon Legislature · 2026-12-02 17:30 (PT) · Oregon State Capitol, Hearing Room D · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Rural Food Banks in Oregon; Stabilization and Crisis Unit (SACU) Report required by HB 5006 (2025)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:4c7bdd42bf84:new</id>
@@ -287,6 +308,20 @@
     <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room E · On the agenda: Introduction of Committee Legislative Concepts When available, LC drafts will be posted on the committee’s OLIS page; Measure 96 and the Veteran Service Fund Programs Christa Jones, Behavioral Health Deputy Director, Service Delivery Susan Davis, Veteran…; Wildfire Season Report Doug Grafe, Wildfire Programs Director, Office of Governor Tina Kotek Kyle Williams, Deputy Director Fire…</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:79cb685c064d:new</id>
+    <title>New meeting: Senate Interim Committee on Health Care (2026-12-02 11:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHC/Overview"/>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Oregon Insurance Coverage Mandate Impact Statements Oliver Droppers, Acting Director, Legislative Policy and Research Office (LPRO)…; Care First Coalition Reva Ricketts-Loriaux, President, Oregon Medical Association (OMA) Melissa Todd, President, Western Oregon Mental…; Hospital Discharge Challenges Nakeshia Knight, Director, Office of Aging &amp; People with Disabilities, Oregon Department of Human Services…</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:79cb685c064d:agenda</id>
+    <title>Agenda posted: Senate Interim Committee on Health Care (2026-12-02 11:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SHC/2026-12-02-11-30"/>
+    <summary>Oregon Legislature · 2026-12-02 11:30 (PT) · Oregon State Capitol, Hearing Room 60 · On the agenda: Oregon Insurance Coverage Mandate Impact Statements Oliver Droppers, Acting Director, Legislative Policy and Research Office (LPRO)…; Care First Coalition Reva Ricketts-Loriaux, President, Oregon Medical Association (OMA) Melissa Todd, President, Western Oregon Mental…; Hospital Discharge Challenges Nakeshia Knight, Director, Office of Aging &amp; People with Disabilities, Oregon Department of Human Services…</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:5901b3f5c1d5:new</id>
     <title>New meeting: House Interim Committee on Revenue (2026-12-02 08:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -319,14 +354,35 @@
     <title>New meeting: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/HLWD/Overview"/>
-    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
+    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:e223acd0091d:agenda</id>
     <title>Agenda posted: House Interim Committee on Labor and Workforce Development (2026-12-02 08:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HLWD/2026-12-02-08-30"/>
-    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
+    <summary>Oregon Legislature · 2026-12-02 08:30 (PT) · Oregon State Capitol, Hearing Room F · On the agenda: Overview of High-Roads Workforce Development Framework Dr. Michel Wilkerson, Director of Economic Research, ECOnorthwest Miriam Halliday…; Agricultural Workers in Oregon Presentation on Oregon's Agricultural Labor Standards (House Bill 2548, 2025) Monica Cox, Research Analyst…; Bureau of Labor and Industries (BOLI) Funding Update Josh Nasbe, Legislative Director, BOLI</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:d77c7a757c2f:cancelled</id>
+    <title>Cancelled: Planning Commission Meeting (2026-12-01 19:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.brookings.or.us/Calendar.aspx?EID=2702"/>
+    <summary>City of Brookings · 2026-12-01 19:00 (PT) · City Hall, 898 Elk Drive</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:539625bcad57:new</id>
+    <title>New meeting: Regular School Board Session (2026-12-01 18:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Agenda/1553?meeting=778126"/>
+    <summary>Central Point School District · 2026-12-01 18:30 (PT) · Central Point School District Office - Board Room, 300 Ash St · On the agenda: Discretionary Budget Carryover - DBD; The next Regular Board Session - January 12 at 6:30 pm in the District Office Board Room - site showcase, Central Point Elementary; Fall Sports Wrap Up</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:4f2a73a71802:cancelled</id>
+    <title>Cancelled: Urban Renewal Agency Meeting CANCELLED (2026-12-01 15:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.lapineoregon.gov/Calendar.aspx?EID=377"/>
+    <summary>City of La Pine · 2026-12-01 15:00 (PT) · 16345 6th St.</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:d4d01a1fed44:new</id>
@@ -371,6 +427,20 @@
     <summary>Oregon Legislature · 2026-12-01 11:30 (PT) · Oregon State Capitol, Hearing Room G · On the agenda: Senator Neron Misslin, Presiding Co-Chair; 4. Higher Education Coordinating Commission - Oregon Tribal Student Grant 5. Higher Education Coordinating Commission - Youth Conservation…</summary>
   </entry>
   <entry>
+    <id>tag:civicsor.org,2026:6b410d96c52b:new</id>
+    <title>New meeting: Council work session (2026-12-01 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3755&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-12-01 10:00 (PT) · Metro Regional Center, Council Chamber; https://zoom.us/j/615079992 (Webinar ID: 615079992) or 253-205-0468 (toll free), https://www.youtube.com/@OregonMetro/streams · On the agenda: Parks and Nature Levy Renewal: Framework Refinement; Shaping the Regional Garbage Transfer System</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6b410d96c52b:agenda</id>
+    <title>Agenda posted: Council work session (2026-12-01 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/12/3755_A_Council_work_session_26-12-01_Agenda.pdf"/>
+    <summary>Metro (regional government) · 2026-12-01 10:00 (PT) · Metro Regional Center, Council Chamber; https://zoom.us/j/615079992 (Webinar ID: 615079992) or 253-205-0468 (toll free), https://www.youtube.com/@OregonMetro/streams · On the agenda: Parks and Nature Levy Renewal: Framework Refinement; Shaping the Regional Garbage Transfer System</summary>
+  </entry>
+  <entry>
     <id>tag:civicsor.org,2026:7d471f732ada:new</id>
     <title>New meeting: Senate Interim Committee on Finance and Revenue (2026-12-01 09:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
@@ -410,35 +480,35 @@
     <title>New meeting: Joint Task Force on Blue Economy (2026-11-30 13:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Committees/JTFBE/Overview"/>
-    <summary>Oregon Legislature · 2026-11-30 13:00 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Welcome Review of Work Plan LPRO Staff; Perspective on the Blue Economy: Science and Innovation Lisa DeBruyckere, Director of Strategic Initiatives and Programs, Oregon Ocean…; Ocean Cluster Models: Formation and Organizational Structures Joshua Berger, Founder and CEO, Maritime Blue</summary>
+    <summary>Oregon Legislature · 2026-11-30 13:00 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Welcome Review of Work Plan LPRO Staff; Fish Hatcheries in Oregon Shaun Clements, Deputy Director, Oregon Department of Fish and Wildlife; Perspective on the Blue Economy: Science and Innovation Lisa DeBruyckere, Director of Strategic Initiatives and Programs, Oregon Ocean…</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:d46a9acfa0bd:agenda</id>
     <title>Agenda posted: Joint Task Force on Blue Economy (2026-11-30 13:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JTFBE/2026-11-30-13-00"/>
-    <summary>Oregon Legislature · 2026-11-30 13:00 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Welcome Review of Work Plan LPRO Staff; Perspective on the Blue Economy: Science and Innovation Lisa DeBruyckere, Director of Strategic Initiatives and Programs, Oregon Ocean…; Ocean Cluster Models: Formation and Organizational Structures Joshua Berger, Founder and CEO, Maritime Blue</summary>
+    <summary>Oregon Legislature · 2026-11-30 13:00 (PT) · Oregon State Capitol, Hearing Room 40 · On the agenda: Welcome Review of Work Plan LPRO Staff; Fish Hatcheries in Oregon Shaun Clements, Deputy Director, Oregon Department of Fish and Wildlife; Perspective on the Blue Economy: Science and Innovation Lisa DeBruyckere, Director of Strategic Initiatives and Programs, Oregon Ocean…</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:new</id>
     <title>New meeting: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:agenda</id>
     <title>Agenda posted: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3751_A_Council_meeting_26-11-26_Agenda.pdf"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:cancelled</id>
     <title>Cancelled: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:a170bf43a82b:new</id>
@@ -452,21 +522,21 @@
     <title>New meeting: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:agenda</id>
     <title>Agenda posted: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3750_A_Council_work_session_26-11-24_Agenda.pdf"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:cancelled</id>
     <title>Cancelled: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:20bf0865d4e0:new</id>
@@ -1335,75 +1405,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=802"/>
     <summary>Yamhill County · 2026-12-31 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ed11436647eb:cancelled</id>
-    <title>Cancelled: Board of Commissioners Formal Session (2026-12-31 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=802"/>
-    <summary>Yamhill County · 2026-12-31 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b1c3d8e6003b:new</id>
-    <title>New meeting: City Council Work Session (2026-12-28 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1154"/>
-    <summary>City of Veneta · 2026-12-28 18:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:cb1a9df1e217:new</id>
-    <title>New meeting: Development Review Board B (2026-12-28 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3452/overview"/>
-    <summary>City of Wilsonville · 2026-12-28 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:535baeff7429:new</id>
-    <title>New meeting: City Council Meeting (2026-12-28 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1218"/>
-    <summary>City of Seaside · 2026-12-28 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:535baeff7429:cancelled</id>
-    <title>Cancelled: City Council Meeting (2026-12-28 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1218"/>
-    <summary>City of Seaside · 2026-12-28 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:afa5453dc830:new</id>
-    <title>New meeting: City Council Meeting (2026-12-28 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.brookings.or.us/Calendar.aspx?EID=3125"/>
-    <summary>City of Brookings · 2026-12-28 17:30 (PT) · City Hall Chambers</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:afa5453dc830:cancelled</id>
-    <title>Cancelled: City Council Meeting (2026-12-28 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.brookings.or.us/Calendar.aspx?EID=3125"/>
-    <summary>City of Brookings · 2026-12-28 17:30 (PT) · City Hall Chambers</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:16235f529d2e:new</id>
-    <title>New meeting: Library Board Meeting (2026-12-28 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2303/overview"/>
-    <summary>City of Independence · 2026-12-28 17:00 (PT) · Independence Public Library</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:5d129156a34f:new</id>
-    <title>New meeting: City Council Work Session (2026-12-28 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1160"/>
-    <summary>City of Seaside · 2026-12-28 17:00 (PT) · 989 Broadway St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:5d129156a34f:cancelled</id>
-    <title>Cancelled: City Council Work Session (2026-12-28 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1160"/>
-    <summary>City of Seaside · 2026-12-28 17:00 (PT) · 989 Broadway St.</summary>
   </entry>
 </feed>

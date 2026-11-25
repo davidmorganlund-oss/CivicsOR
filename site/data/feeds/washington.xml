@@ -4,49 +4,70 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-24T12:16:32-08:00</updated>
+  <updated>2026-11-24T23:59:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:fecbd0f8ac5e:new</id>
+    <title>New meeting: One Book, One Beaverton: Simon Benson: Lumber King &amp; Portland Civic Leader (2027-01-12 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://wccls.bibliocommons.com/events/6b060ba08d474500d09816b6"/>
+    <summary>Washington County Cooperative Library Services · 2027-01-12 18:00 (PT) · Beaverton City Library, 12375 SW Fifth St, Beaverton</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6b410d96c52b:new</id>
+    <title>New meeting: Council work session (2026-12-01 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3755&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
+    <summary>Metro (regional government) · 2026-12-01 10:00 (PT) · Metro Regional Center, Council Chamber; https://zoom.us/j/615079992 (Webinar ID: 615079992) or 253-205-0468 (toll free), https://www.youtube.com/@OregonMetro/streams · On the agenda: Parks and Nature Levy Renewal: Framework Refinement; Shaping the Regional Garbage Transfer System</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6b410d96c52b:agenda</id>
+    <title>Agenda posted: Council work session (2026-12-01 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/12/3755_A_Council_work_session_26-12-01_Agenda.pdf"/>
+    <summary>Metro (regional government) · 2026-12-01 10:00 (PT) · Metro Regional Center, Council Chamber; https://zoom.us/j/615079992 (Webinar ID: 615079992) or 253-205-0468 (toll free), https://www.youtube.com/@OregonMetro/streams · On the agenda: Parks and Nature Levy Renewal: Framework Refinement; Shaping the Regional Garbage Transfer System</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:new</id>
     <title>New meeting: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:agenda</id>
     <title>Agenda posted: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3751_A_Council_meeting_26-11-26_Agenda.pdf"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6a86d248c459:cancelled</id>
     <title>Cancelled: Council meeting (2026-11-26 10:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3751&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-26 10:00 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-26 10:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:new</id>
     <title>New meeting: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:agenda</id>
     <title>Agenda posted: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/11/3750_A_Council_work_session_26-11-24_Agenda.pdf"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:8ddb7ed5fcf6:cancelled</id>
     <title>Cancelled: Council work session (2026-11-24 10:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3750&amp;GID=641&amp;G=7309CF62-5730-456F-B280-2DEB3B0BE132"/>
-    <summary>Metro (regional government) · 2026-11-24 10:30 (PT) · CANCELED</summary>
+    <summary>Metro (regional government) · 2026-11-24 10:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:419939898c71:new</id>
@@ -110,19 +131,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://cornelius-or.libcal.com/event/16263032"/>
     <summary>Cornelius Public Library · 2026-12-03 18:30 (PT) · Westerling Board Room</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:99d2e83de2c8:new</id>
-    <title>New meeting: Citizenship Class (2026-11-24 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://cedarmillbethany.libcal.com/event/17162080"/>
-    <summary>Cedar Mill &amp; Bethany Community Libraries · 2026-11-24 17:30 (PT) · Bethany Library, Annex</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:99d2e83de2c8:cancelled</id>
-    <title>Cancelled: Citizenship Class (2026-11-24 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://cedarmillbethany.libcal.com/event/17162080"/>
-    <summary>Cedar Mill &amp; Bethany Community Libraries · 2026-11-24 17:30 (PT) · Bethany Library, Annex</summary>
   </entry>
 </feed>
