@@ -4,8 +4,407 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-25T00:16:18-08:00</updated>
+  <updated>2026-11-25T00:22:17-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:e9f3c0158043:new</id>
+    <title>New meeting: Planning Commission (2027-01-20 18:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13519"/>
+    <summary>Washington County · 2027-01-20 18:30 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:fdf67b7df155:new</id>
+    <title>New meeting: Board of Commissioners Meeting - Public Meeting (2027-01-20 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2027-01-20 09:00 (PT) · Courthouse-1-North-Room 130</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:a01e605724dc:new</id>
+    <title>New meeting: WCCLS Executive Board (Cooperative Library Services) (2027-01-20)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13583"/>
+    <summary>Washington County · 2027-01-20 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:3054d2f12c02:new</id>
+    <title>New meeting: Regular Meeting of the School Board (2027-01-19 18:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://calendar.google.com/calendar/embed?src=seasidek12.org_5346hknh2p1rcccrkqijhmp3fg%40group.calendar.google.com"/>
+    <summary>Seaside School District · 2027-01-19 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0f8d4277e8e4:new</id>
+    <title>New meeting: Board of County Commissioners (BCC) (2027-01-19 10:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13614"/>
+    <summary>Washington County · 2027-01-19 10:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:5b51d0016c79:new</id>
+    <title>New meeting: BCC Work Session (2027-01-19 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13613"/>
+    <summary>Washington County · 2027-01-19 09:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e191b39df759:new</id>
+    <title>New meeting: Work Session - All Comms (2027-01-18 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2027-01-18 09:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:6afaecd61263:new</id>
+    <title>New meeting: Public Health Advisory Council (2027-01-12 17:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13758"/>
+    <summary>Washington County · 2027-01-12 17:30 (PT) · Virtual</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0ef02300325a:new</id>
+    <title>New meeting: BCC Work Session (2027-01-12 11:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13610"/>
+    <summary>Washington County · 2027-01-12 11:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:04ade0804de9:new</id>
+    <title>New meeting: Clean Water Services (CWS) Board of Directors Work Session (2027-01-12 10:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13612"/>
+    <summary>Washington County · 2027-01-12 10:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:641179c99eb2:new</id>
+    <title>New meeting: Clean Water Services (CWS) Board of Directors (2027-01-12 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13611"/>
+    <summary>Washington County · 2027-01-12 09:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:3c08d61fbdf3:new</id>
+    <title>New meeting: School Board Business Meeting (2027-01-11 18:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://calendar.google.com/calendar/embed?src=msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com"/>
+    <summary>McMinnville School District · 2027-01-11 18:30 (PT) · 800 NE Lafayette Avenue, McMinnville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e9d9e88f3a86:new</id>
+    <title>New meeting: Work Session - All Comms (2027-01-11 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2027-01-11 09:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:7c564664d47e:new</id>
+    <title>New meeting: BCC Roundtable (2027-01-07 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13640"/>
+    <summary>Washington County · 2027-01-07 09:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e5188c8cceaa:new</id>
+    <title>New meeting: Fair Board (2027-01-06 16:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13596"/>
+    <summary>Washington County · 2027-01-06 16:30 (PT) · Westside Commons, 801 NE 34th Ave, Hillsboro, OR 97124</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:83715da62972:new</id>
+    <title>New meeting: Urban Road Maintenance District Advisory Committee (URMDAC) (2027-01-06 15:45)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13577"/>
+    <summary>Washington County · 2027-01-06 15:45 (PT) · Charles D. Cameron Public Services Building, Rm 120D Board Work Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:935049f46608:new</id>
+    <title>New meeting: Board of Commissioners Meeting - Public Meeting (2027-01-06 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2027-01-06 09:00 (PT) · 214 SE 4th St, Pendleton, OR 97801, USA, Courthouse-1-North-Room 130</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0e3a79e09621:new</id>
+    <title>New meeting: Board of County Commissioners (BCC) (2027-01-05 10:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13605"/>
+    <summary>Washington County · 2027-01-05 10:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:f2706ab50b0e:new</id>
+    <title>New meeting: Housing Authority Board of Directors (2027-01-05 10:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13649"/>
+    <summary>Washington County · 2027-01-05 10:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:8efb76f880b5:new</id>
+    <title>New meeting: BCC Work Session (2027-01-05 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13609"/>
+    <summary>Washington County · 2027-01-05 09:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:5deec40ca1bb:new</id>
+    <title>New meeting: Work Session - All Comms (2027-01-04 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2027-01-04 09:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b7113537936a:new</id>
+    <title>New meeting: School Board Work Session (2026-12-28 18:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://calendar.google.com/calendar/embed?src=msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com"/>
+    <summary>McMinnville School District · 2026-12-28 18:30 (PT) · 800 NE Lafayette Avenue, McMinnville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:4ab41be9bd7c:new</id>
+    <title>New meeting: School Board Meeting (2026-12-28 18:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://calendar.google.com/calendar/embed?src=jcsdweb%40junctioncity.k12.or.us"/>
+    <summary>Junction City School District · 2026-12-28 18:00 (PT) · 325 Maple St, Junction City, OR 97448, USA</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:978bb69f79a2:new</id>
+    <title>New meeting: Work Session - All Comms (2026-12-28 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2026-12-28 09:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:630d4073f238:new</id>
+    <title>New meeting: Washington County Transit Committee (WCTC) (2026-12-25 13:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13568"/>
+    <summary>Washington County · 2026-12-25 13:00 (PT) · Zoom</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:cf165ca68d9e:new</id>
+    <title>New meeting: Housing Advisory Committee (HAC) (2026-12-24 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13354"/>
+    <summary>Washington County · 2026-12-24 09:00 (PT) · Adams Crossing, 161 NW Adams Avenue, Olympic Conference Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:2dbe1387bc84:new</id>
+    <title>New meeting: Work Session - All Comms (2026-12-21 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2026-12-21 09:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:552b3cc12af5:new</id>
+    <title>New meeting: Homeless Solutions Advisory Council (2026-12-17 14:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13341"/>
+    <summary>Washington County · 2026-12-17 14:00 (PT) · Hybrid (In-Person and Virtual)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ad5ed6a86dfc:new</id>
+    <title>New meeting: Land Use Hearings (2026-12-17 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13510"/>
+    <summary>Washington County · 2026-12-17 09:00 (PT) · virtual</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c08c0f1f484d:new</id>
+    <title>New meeting: Planning Commission (2026-12-16 18:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13419"/>
+    <summary>Washington County · 2026-12-16 18:30 (PT) · Hybrid meeting (in-person and virtual)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:35098b6bb7b3:new</id>
+    <title>New meeting: Board of Commissioners Meeting - Public Meeting (2026-12-16 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2026-12-16 09:00 (PT) · Courthouse-1-North-Room 130</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:54c874532627:new</id>
+    <title>New meeting: WCCLS Executive Board (Cooperative Library Services) (2026-12-16)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13582"/>
+    <summary>Washington County · 2026-12-16 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:f7befe03d811:new</id>
+    <title>New meeting: Board of County Commissioners (BCC) (2026-12-15 18:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13289"/>
+    <summary>Washington County · 2026-12-15 18:30 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:af6ae84aba5a:new</id>
+    <title>New meeting: Regular Meeting of the School Board (2026-12-15 18:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://calendar.google.com/calendar/embed?src=seasidek12.org_5346hknh2p1rcccrkqijhmp3fg%40group.calendar.google.com"/>
+    <summary>Seaside School District · 2026-12-15 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:5ed0af42f623:new</id>
+    <title>New meeting: Clean Water Services (CWS) Board of Directors (2026-12-15 17:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13464"/>
+    <summary>Washington County · 2026-12-15 17:30 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:1cb44dba1898:new</id>
+    <title>New meeting: BCC Work Session (2026-12-15 14:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13288"/>
+    <summary>Washington County · 2026-12-15 14:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c3a7c52c8710:new</id>
+    <title>New meeting: School Board Business Meeting (2026-12-14 18:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://calendar.google.com/calendar/embed?src=msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com"/>
+    <summary>McMinnville School District · 2026-12-14 18:30 (PT) · 800 NE Lafayette Avenue, McMinnville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:01abc4a37635:new</id>
+    <title>New meeting: Work Session - All Comms (2026-12-14 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2026-12-14 09:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:111fc3bc6838:new</id>
+    <title>New meeting: Strengthening Participation and Reaching Communities (SPARC) Joint Districts 2&amp;4 (2026-12-10 19:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13760"/>
+    <summary>Washington County · 2026-12-10 19:00 (PT) · Hybrid</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:7fbd9a2ab01c:new</id>
+    <title>New meeting: Garbage and Recycling Advisory Committee (2026-12-10 18:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13551"/>
+    <summary>Washington County · 2026-12-10 18:00 (PT) · Virtual</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:2a085eba3d06:new</id>
+    <title>New meeting: BCC Work Session (2026-12-08 13:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13235"/>
+    <summary>Washington County · 2026-12-08 13:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:a2d92a5b68c5:new</id>
+    <title>New meeting: Board of County Commissioners (BCC) (2026-12-08 11:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13290"/>
+    <summary>Washington County · 2026-12-08 11:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:aa113decf160:new</id>
+    <title>New meeting: Clean Water Services (CWS) Board of Directors Work Session (2026-12-08 09:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13462"/>
+    <summary>Washington County · 2026-12-08 09:30 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b708d96b363a:new</id>
+    <title>New meeting: Clean Water Services (CWS) Board of Directors (2026-12-08 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13463"/>
+    <summary>Washington County · 2026-12-08 09:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:d3babd1d8674:new</id>
+    <title>New meeting: Advisory Council on Racial Equity (ACRE) (2026-12-07 18:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13328"/>
+    <summary>Washington County · 2026-12-07 18:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room, Room 120D</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c99724cb017b:new</id>
+    <title>New meeting: Work Session - All Comms (2026-12-07 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2026-12-07 09:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:1217ef3e4a1f:new</id>
+    <title>New meeting: Washington County Coordinating Committee - Transportation Advisory Committee (WCCC-TAC) (2026-12-03 13:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13367"/>
+    <summary>Washington County · 2026-12-03 13:30 (PT) · Zoom</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:cc006247c7e1:new</id>
+    <title>New meeting: Board of County Commissioners (BCC) - Special Meeting (2026-12-03 13:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13753"/>
+    <summary>Washington County · 2026-12-03 13:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ef3d6d1cf4c3:new</id>
+    <title>New meeting: BCC Work Session (2026-12-03 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13752"/>
+    <summary>Washington County · 2026-12-03 09:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:bebce5b4a289:new</id>
+    <title>New meeting: Planning Commission (2026-12-02 13:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13412"/>
+    <summary>Washington County · 2026-12-02 13:30 (PT) · Hybrid meeting (in-person and virtual)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:cc39eeb285f5:new</id>
+    <title>New meeting: Board of Commissioners Meeting - Public Meeting (2026-12-02 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2026-12-02 09:00 (PT) · 214 SE 4th St, Pendleton, OR 97801, USA, Courthouse-1-North-Room 130</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:9c0a40df7eda:new</id>
+    <title>New meeting: Board of County Commissioners (BCC) (2026-12-01 11:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13315"/>
+    <summary>Washington County · 2026-12-01 11:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:abb5fd799a8b:new</id>
+    <title>New meeting: Housing Authority Board of Directors (2026-12-01 10:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13314"/>
+    <summary>Washington County · 2026-12-01 10:00 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:58328c04d910:new</id>
+    <title>New meeting: BCC Work Session (2026-12-01 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13312"/>
+    <summary>Washington County · 2026-12-01 09:00 (PT) · Charles D. Cameron Public Services Building, Work Session Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:f9eb6378acf3:new</id>
+    <title>New meeting: Land Use Hearings (2026-12-01 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13560"/>
+    <summary>Washington County · 2026-12-01 09:00 (PT) · virtual</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:ec1c87d61c99:new</id>
+    <title>New meeting: School Board Work Session (2026-11-30 18:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://calendar.google.com/calendar/embed?src=msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com"/>
+    <summary>McMinnville School District · 2026-11-30 18:30 (PT) · 800 NE Lafayette Avenue, McMinnville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:c0cb7d20478f:new</id>
+    <title>New meeting: Work Session - All Comms (2026-11-30 09:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2026-11-30 09:00 (PT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:024af040b40b:new</id>
     <title>New meeting: Regular Board Meeting (2027-01-20 18:00)</title>
@@ -1006,404 +1405,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4618"/>
     <summary>City of Grants Pass · 2027-01-11 18:30 (PT) · Ridge Conference Room, 101 NW A Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:0713f57d7d36:new</id>
-    <title>New meeting: City Council Work Session Meeting (2027-01-11 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://keizeror.portal.civicclerk.com/event/3393/overview"/>
-    <summary>City of Keizer · 2027-01-11 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:3cb644a2db1e:new</id>
-    <title>New meeting: City Council Meeting (2027-01-11 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1180"/>
-    <summary>City of Seaside · 2027-01-11 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:da5e64678c8a:new</id>
-    <title>New meeting: Development Review Board (2027-01-11 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3515/overview"/>
-    <summary>City of Wilsonville · 2027-01-11 18:00 (PT) · 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:23226634db26:new</id>
-    <title>New meeting: Historic Preservation Commission Meeting (2027-01-11 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2251/overview"/>
-    <summary>City of Independence · 2027-01-11 17:30 (PT) · City Hall - Council Chambers</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:6b5a30fbd76d:new</id>
-    <title>New meeting: City Council Work Session (2027-01-11 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1200"/>
-    <summary>City of Seaside · 2027-01-11 17:00 (PT) · 989 Broadway</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:d7a018b4e803:new</id>
-    <title>New meeting: Ashland Senior Advisory Committee (2027-01-11 15:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1545/overview"/>
-    <summary>City of Ashland · 2027-01-11 15:30 (PT) · 1699 Homes Ave, Ashland</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:c87dccca75f1:new</id>
-    <title>New meeting: Homeless Advisory Committee Meeting (2027-01-11 14:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=574"/>
-    <summary>City of Madras · 2027-01-11 14:00 (PT) · City Hall, 125 SW E Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8d283cc77de8:new</id>
-    <title>New meeting: Woodburn City Council Meeting (2027-01-11)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.woodburn-or.gov/Calendar.aspx?EID=1727"/>
-    <summary>City of Woodburn · 2027-01-11 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:bbb48da4e258:new</id>
-    <title>New meeting: City Commission Goal Setting 2027.01.09 (2027-01-09 09:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://warrentonor.portal.civicclerk.com/event/4223/overview"/>
-    <summary>City of Warrenton · 2027-01-09 09:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:18718d0f07fc:new</id>
-    <title>New meeting: Council Community Connection (2027-01-08 09:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5217"/>
-    <summary>City of Grants Pass · 2027-01-08 09:00 (PT) · Taste &amp; See, 239 SE G Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:9fd9089d2db5:new</id>
-    <title>New meeting: Community Diversity Engagement Committee Meeting (2027-01-07 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://keizeror.portal.civicclerk.com/event/3543/overview"/>
-    <summary>City of Keizer · 2027-01-07 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:eb74380774e1:new</id>
-    <title>New meeting: Social Equity and Racial Justice Advisory Committee Meeting (2027-01-07 16:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1440/overview"/>
-    <summary>City of Ashland · 2027-01-07 16:30 (PT) · 51 Winburn Way, ASHLAND</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:6a03844b3244:new</id>
-    <title>New meeting: Planning Commission Work Session (2027-01-07 14:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://yachatsor.portal.civicclerk.com/event/2288/overview"/>
-    <summary>City of Yachats · 2027-01-07 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:1d2b205543b0:new</id>
-    <title>New meeting: Board of Commissioners Formal Session (2027-01-07 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=803"/>
-    <summary>Yamhill County · 2027-01-07 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b232ac81ea21:new</id>
-    <title>New meeting: City Council Regular Meeting (2027-01-06 18:45)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1677"/>
-    <summary>City of Talent · 2027-01-06 18:45 (PT) · Community Center - Dining Room and Zoom, 104 E Main Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:e689158f4296:new</id>
-    <title>New meeting: Planning Commission Meeting (2027-01-06 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=738"/>
-    <summary>City of Madras · 2027-01-06 18:30 (PT) · City Hall, 125 SW E Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:551b74057c5e:new</id>
-    <title>New meeting: City Council Meeting (2027-01-06 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://toledoor.portal.civicclerk.com/event/95/overview"/>
-    <summary>City of Toledo · 2027-01-06 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:67b91ed9e495:new</id>
-    <title>New meeting: City Council Meeting (2027-01-06 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5590"/>
-    <summary>City of Grants Pass · 2027-01-06 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:80f8a5fa840f:new</id>
-    <title>New meeting: City Council Meeting (2027-01-06 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofgearhart.com/Calendar.aspx?EID=483"/>
-    <summary>City of Gearhart · 2027-01-06 18:00 (PT) · Gearhart City Hall, 698 Pacific Way</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8a77ceebb8f7:new</id>
-    <title>New meeting: Park Commission Study Session (2027-01-06 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1549/overview"/>
-    <summary>City of Ashland · 2027-01-06 18:00 (PT) · 1175 E Main Street, Ashland</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:91b727cdccac:new</id>
-    <title>New meeting: Citizenship Class (2027-01-06 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://cornelius-or.libcal.com/event/18052785"/>
-    <summary>Cornelius Public Library · 2027-01-06 18:00 (PT) · Walters Community Room</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b37126a4b193:new</id>
-    <title>New meeting: Historic Preservation Advisory Commission Meeting (2027-01-06 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1242/overview"/>
-    <summary>City of Ashland · 2027-01-06 16:00 (PT) · 51 Winburn Way, Ashland</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:730b0c6c69bc:new</id>
-    <title>New meeting: BCC Work Session (2027-01-06 10:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.clatsopcounty.gov/Calendar.aspx?EID=342"/>
-    <summary>Clatsop County · 2027-01-06 10:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:87d89107274f:new</id>
-    <title>New meeting: Board of Commissioners Meeting (2027-01-06 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.co.lincoln.or.us/Calendar.aspx?EID=926"/>
-    <summary>Lincoln County · 2027-01-06 10:00 (PT) · In the Board of Commissioners' chambers on the first floor of the Lincoln County Courthouse., Lincoln County Courthouse, 225 W Olive Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b688ecf2f278:new</id>
-    <title>New meeting: Tourism Promotion Committee (2027-01-06 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3564/overview"/>
-    <summary>City of Wilsonville · 2027-01-06 10:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:93c9fc9bac23:new</id>
-    <title>New meeting: Board of Commissioners Regular Session Meeting (2027-01-06 09:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://crookcoor.portal.civicclerk.com/event/5555/overview"/>
-    <summary>Crook County · 2027-01-06 09:00 (PT) · 320 NE Court Street, Prineville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:cedff65ed3cd:new</id>
-    <title>New meeting: City Council Meeting (2027-01-05 19:05)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://boardmanor.portal.civicclerk.com/event/27/overview"/>
-    <summary>City of Boardman · 2027-01-05 19:05 (PT) · 200 City Circle Center, Boardman</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:6565ed2c407f:new</id>
-    <title>New meeting: Urban Renewal Agency Meeting (2027-01-05 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://boardmanor.portal.civicclerk.com/event/605/overview"/>
-    <summary>City of Boardman · 2027-01-05 19:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:75aa335adf45:new</id>
-    <title>New meeting: Planning Commission Meeting (2027-01-05 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.brookings.or.us/Calendar.aspx?EID=2703"/>
-    <summary>City of Brookings · 2027-01-05 19:00 (PT) · City Hall, 898 Elk Drive</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:db9ff2247e60:new</id>
-    <title>New meeting: Planning Commission Meeting (2027-01-05 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1225"/>
-    <summary>City of Veneta · 2027-01-05 18:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:648867893c96:new</id>
-    <title>New meeting: City Council Business Meeting - No Meeting Winter Break (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1478/overview"/>
-    <summary>City of Ashland · 2027-01-05 18:00 (PT) · Council Chambers, 1175 E Main Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8107a4b4980b:new</id>
-    <title>New meeting: City Council Meeting (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://keizeror.portal.civicclerk.com/event/3482/overview"/>
-    <summary>City of Keizer · 2027-01-05 18:00 (PT) · 930 Chemawa Road NE, Keizer</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:9829117b7bcf:new</id>
-    <title>New meeting: Planning Commission Public Hearing &amp; Regular Meeting (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.millersburgoregon.gov/Calendar.aspx?EID=441"/>
-    <summary>City of Millersburg · 2027-01-05 18:00 (PT) · 4222 NE Old Salem Road</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:9eba5e8da817:new</id>
-    <title>New meeting: City Council Workshop Joint w/ Planning Commission (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://boardmanor.portal.civicclerk.com/event/604/overview"/>
-    <summary>City of Boardman · 2027-01-05 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:a7d227cafe7a:new</id>
-    <title>New meeting: City Council Meeting (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.jacksonvilleor.us/m/calendar/event/detail/1732"/>
-    <summary>City of Jacksonville · 2027-01-05 18:00 (PT) · City Hall - Assembly Room</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:c4698fed9f25:new</id>
-    <title>New meeting: Planning Commission (2027-01-05 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/893"/>
-    <summary>City of Central Point · 2027-01-05 18:00 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:38215c93150d:new</id>
-    <title>New meeting: Together for Talent Committee Meeting (2027-01-05 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1320"/>
-    <summary>City of Talent · 2027-01-05 17:00 (PT) · 104 E Main St</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:4a42053ec77b:new</id>
-    <title>New meeting: Fair Board Meeting (2027-01-05 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.clatsopcounty.gov/Calendar.aspx?EID=477"/>
-    <summary>Clatsop County · 2027-01-05 17:00 (PT) · Fairgrounds &amp; Expo Center</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:f9cab2c38b11:new</id>
-    <title>New meeting: Urban Forestry Commission Meeting (2027-01-05 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=936"/>
-    <summary>City of Madras · 2027-01-05 17:00 (PT) · 216 NW B Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:54d6563ca586:new</id>
-    <title>New meeting: Park Board Meeting (2027-01-05 16:15)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1252"/>
-    <summary>City of Veneta · 2027-01-05 16:15 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:13c4fe1c1ec2:new</id>
-    <title>New meeting: Tourism Advisory Committee (2027-01-05 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4685"/>
-    <summary>City of Grants Pass · 2027-01-05 16:00 (PT) · Ridge Conference Room, 101 NW A Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:2193b9d5bb09:new</id>
-    <title>New meeting: Community Spaces Committee Meeting (2027-01-05 14:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://yachatsor.portal.civicclerk.com/event/1195/overview"/>
-    <summary>City of Yachats · 2027-01-05 14:00 (PT) · CIVIC MEETING ROOM 3, 441 Hwy 101 N. , Yachats</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:d977e80f7af9:new</id>
-    <title>New meeting: Council on KAJO (2027-01-05 09:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5307"/>
-    <summary>City of Grants Pass · 2027-01-05 09:30 (PT) · On the first Tuesday of each month, at 9:30 am, KAJO radio, 99.7 FM, presents an hour-long talk show with members of the City Council, who field questions and discuss important issues our community faces. Link to KAJO</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:3cf67c211762:new</id>
-    <title>New meeting: City Council (2027-01-04 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3468/overview"/>
-    <summary>City of Wilsonville · 2027-01-04 19:00 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:be81f7e939ea:new</id>
-    <title>New meeting: Planning Commission Meeting (2027-01-04 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2225/overview"/>
-    <summary>City of Independence · 2027-01-04 19:00 (PT) · City Hall - Council Chambers</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:e6802a3214b7:new</id>
-    <title>New meeting: City Council meeting (Verify meetings, get virtual meeting details, and more meeting information can be found on our website at www.scappoose.gov.) (2027-01-04 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.scappoose.gov/Calendar.aspx?EID=389"/>
-    <summary>City of Scappoose · 2027-01-04 19:00 (PT) · City Hall, 33568 E Columbia Ave</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:e895671cb0d6:new</id>
-    <title>New meeting: City Council Meeting (2027-01-04 19:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.klamathfalls.city/Calendar.aspx?EID=841"/>
-    <summary>City of Klamath Falls · 2027-01-04 19:00 (PT) · 500 Klamath Ave.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:eb23a1cd03be:new</id>
-    <title>New meeting: City Council Meeting (2027-01-04 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofcoquille.org/Calendar.aspx?EID=1064"/>
-    <summary>City of Coquille · 2027-01-04 18:30 (PT) · 851 N Central Blvd</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:64500617565f:new</id>
-    <title>New meeting: City Council Study Session - No Meeting Winter Break (2027-01-04 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1504/overview"/>
-    <summary>City of Ashland · 2027-01-04 17:30 (PT) · Council Chambers, 1175 E Main Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:6b10d8b61a8b:new</id>
-    <title>New meeting: Talent Public Arts Committee Meeting (2027-01-04 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1221"/>
-    <summary>City of Talent · 2027-01-04 17:00 (PT) · Community Center - Conference Room D (and Zoom), 104 East Main Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:cc7e139be074:new</id>
-    <title>New meeting: City Council Workshop (2027-01-04 11:45)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5614"/>
-    <summary>City of Grants Pass · 2027-01-04 11:45 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:51d82a59b992:new</id>
-    <title>New meeting: BCC Work Session SPECIAL SESSION (2027-01-04 10:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.clatsopcounty.gov/Calendar.aspx?EID=636"/>
-    <summary>Clatsop County · 2027-01-04 10:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ed11436647eb:new</id>
-    <title>New meeting: Board of Commissioners Formal Session (2026-12-31 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=802"/>
-    <summary>Yamhill County · 2026-12-31 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ed11436647eb:cancelled</id>
-    <title>Cancelled: Board of Commissioners Formal Session (2026-12-31 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=802"/>
-    <summary>Yamhill County · 2026-12-31 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:b1c3d8e6003b:new</id>
-    <title>New meeting: City Council Work Session (2026-12-28 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1154"/>
-    <summary>City of Veneta · 2026-12-28 18:30 (PT)</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:cb1a9df1e217:new</id>
-    <title>New meeting: Development Review Board B (2026-12-28 18:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/3452/overview"/>
-    <summary>City of Wilsonville · 2026-12-28 18:30 (PT) · City Hall, 29799 SW Town Center Loop E, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:535baeff7429:new</id>
-    <title>New meeting: City Council Meeting (2026-12-28 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1218"/>
-    <summary>City of Seaside · 2026-12-28 18:00 (PT)</summary>
   </entry>
 </feed>
