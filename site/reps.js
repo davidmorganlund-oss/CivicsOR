@@ -172,7 +172,9 @@
     card.appendChild(el('h4', null, 'Mayor'));
     people(card, [{ name: place.mayor.name, url: place.mayor.source }], '');
     var links = card.querySelector('ul.people:last-of-type .contact a');
-    if (links) links.textContent = /portland\.gov\/council\/agenda/.test(place.mayor.source) ? 'Source' : 'Mayor’s page';
+    // Other people's rows say "Website". Where the page we confirmed the mayor
+    // on is the council's agenda page, not the mayor's own, say so.
+    if (links && /\/council\/agenda/.test(place.mayor.source)) links.textContent = 'City Council agendas';
     if (place.mayor.note) card.appendChild(el('p', 'muted', place.mayor.note));
     if (safeUrl(place.council)) {
       var p = el('p');
@@ -271,7 +273,7 @@
       var matches = data && data.result && data.result.addressMatches;
       if (!matches || !matches.length) {
         out.textContent = '';
-        out.appendChild(el('p', 'empty', 'We could not find that address. Check the spelling, include the city or ZIP code, and leave off apartment numbers.'));
+        out.appendChild(el('p', 'empty', 'We could not find that address. Check the street number, spelling and ZIP code, and leave off apartment numbers. If it still isn’t found, try a nearby street address. Some government buildings aren’t in the Census Bureau’s address list.'));
         return;
       }
       render(matches[0]);
