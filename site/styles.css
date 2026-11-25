@@ -11,17 +11,19 @@
 :root {
   /* CivicsOR palette, November 2026: coast teal on driftwood. Deep Pacific
      teal is for text, links, buttons and rules; driftwood and sand carry the
-     large areas, with weathered stone as a second accent. */
+     large areas, with weathered stone as a second accent. Field and chip
+     borders use stone: 3.8:1 on sand, 4.1:1 on white, 3.1:1 on driftwood
+     (WCAG 1.4.11 asks 3:1). */
   --teal: #0E5C63; --teal-dark: #08434A; --teal-medium: #1C7A82; --teal-light: #D3E8E8;
   --driftwood: #E6DED2; --driftwood-light: #F1ECE4; --stone: #8A7B68; --stone-light: #C9BFB1; --sand: #F8F5F0;
 
   --ground: var(--sand); --ink: #1E2A2C; --petrol: var(--teal); --muted: rgb(30 42 44 / 0.75);
-  --line: rgb(138 123 104 / 0.35); --chip-line: #B7AB9A; --tint: var(--driftwood-light); --card: #FFFFFF;
+  --line: rgb(138 123 104 / 0.35); --chip-line: var(--stone); --tint: var(--driftwood-light); --card: #FFFFFF;
   --accent: var(--teal); --accent-soft: var(--driftwood-light); --accent-ink: var(--teal-dark);
   --alert-soft: var(--teal-light); --alert-ink: var(--teal-dark);
   --focus: var(--teal-medium);
   --hero-bg: var(--driftwood); --hero-ink: #1E2A2C; --hero-heading: var(--teal-dark); --hero-rule: var(--teal);
-  --hero-accent: #5E5040; --field-line: var(--stone-light);
+  --hero-accent: #5E5040; --field-line: var(--stone);
   --btn-bg: var(--teal); --btn-ink: #FFFFFF;
   --brand-accent: var(--stone); --brand-badge: var(--teal-medium); --brand-navy: var(--teal-dark); --notice-focus: var(--driftwood);
   --sans: "Inter", Arial, system-ui, sans-serif;
