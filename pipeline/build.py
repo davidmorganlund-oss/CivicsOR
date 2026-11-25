@@ -2331,6 +2331,9 @@ def main() -> int:
             status.update(ok=True, count=len(found), last_success=status["checked"], error="", failing_since="")
             # A source that answers but lists nothing is suspicious, not fine.
             status["state"] = "ok" if found else "quiet"
+            # The first night it went quiet, so a long silence can be flagged (alerts.py).
+            status["quiet_since"] = "" if found else (
+                previous.get(src["id"], {}).get("quiet_since") or now.date().isoformat())
         except Exception as exc:  # one bad source must not sink the rest
             # Keep showing what we had, so a one-night outage doesn't blank a city.
             # Not when the site's robots.txt now asks us to stay out, though:
@@ -2338,7 +2341,7 @@ def main() -> int:
             found = [] if isinstance(exc, RobotsBlocked) else [
                 e for e in old_events if e["source"] == src["id"]
                 and datetime.fromisoformat(e["start"]).date() >= start_day]
-            status.update(ok=False, count=len(found), state="failing",
+            status.update(ok=False, count=len(found), state="failing", quiet_since="",
                           failing_since=previous.get(src["id"], {}).get("failing_since") or now.date().isoformat(),
                           last_success=previous.get(src["id"], {}).get("last_success", ""),
                           error=f"{type(exc).__name__}: {exc}"[:300])

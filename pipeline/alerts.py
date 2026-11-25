@@ -1,6 +1,7 @@
 """Open (or update, or close) one GitHub issue listing calendar sources that
-have failed for three days or more. GitHub emails the repository owner when
-the issue opens, so a broken city calendar doesn't go unnoticed.
+have failed for three days or more, or have answered with no meetings for
+seven days or more. GitHub emails the repository owner when the issue opens,
+so a broken or silent city calendar doesn't go unnoticed.
 
 Runs after build.py in the nightly workflow; needs the gh CLI and GH_TOKEN.
 """
@@ -17,6 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 STATUS = ROOT / "site" / "data" / "status.json"
 SOURCES = ROOT / "pipeline" / "sources.yml"
 DAYS = 3
+QUIET_DAYS = 7  # a feed that answers but lists no meetings this long gets a look
 AHEAD = 21  # warn this many days before a hand-entered date list runs out
 
 
@@ -30,14 +32,39 @@ def stuck_sources(status, today):
             if s.get("state") == "failing" and s.get("failing_since") and s["failing_since"] <= cutoff]
 
 
-def body(stuck):
-    lines = ["These calendars have not answered for three days or more. CivicsOR keeps showing the "
-             "last meetings it read from them, so their listings are going stale.", ""]
-    for s in stuck:
-        lines.append(f"- **{s['name']}** ({s.get('county', '')} County), failing since {s['failing_since']}. "
-                     f"Last good read: {s.get('last_success') or 'never'}. Error: `{s.get('error', '')[:200]}`")
-    lines += ["", "If a site now refuses automated readers, remove it from `pipeline/sources.yml` "
-              "rather than working around the block. This issue closes itself when every source answers again."]
+def quiet_sources(status, today, cfg=None):
+    """Feeds that answer but have listed no meetings for QUIET_DAYS or more.
+    Hand-entered schedules are left out: when their dates run out, the
+    upkeep issue already says so, and a board that skips a month is not news."""
+    cutoff = (today - timedelta(days=QUIET_DAYS - 1)).isoformat()
+    kinds = {s["id"]: s.get("type") for s in (cfg or {}).get("sources", [])}
+    return [s for s in status["sources"]
+            if s.get("state") == "quiet" and s.get("quiet_since") and s["quiet_since"] <= cutoff
+            and kinds.get(s["id"]) != "schedule"]
+
+
+def body(stuck, silent=()):
+    lines = []
+    if stuck:
+        lines += ["These calendars have not answered for three days or more. CivicsOR keeps showing the "
+                  "last meetings it read from them, so their listings are going stale.", ""]
+        for s in stuck:
+            lines.append(f"- **{s['name']}** ({s.get('county', '')} County), failing since {s['failing_since']}. "
+                         f"Last good read: {s.get('last_success') or 'never'}. Error: `{s.get('error', '')[:200]}`")
+        lines += ["", "If a site now refuses automated readers, remove it from `pipeline/sources.yml` "
+                  "rather than working around the block."]
+    if silent:
+        if lines:
+            lines.append("")
+        lines += [f"These calendars answer but have listed no meetings for {QUIET_DAYS} days or more. Some are "
+                  "seasonal (boards that post a week ahead, or skip summer or December); others may have "
+                  "moved to a new page or platform.", ""]
+        for s in silent:
+            lines.append(f"- **{s['name']}** ({s.get('county', '')} County), quiet since {s['quiet_since']}. "
+                         f"Check {s.get('homepage') or 'its website'}.")
+        lines += ["", "For a board that publishes its year's dates, add them as a `regular_schedule` in "
+                  "`pipeline/sources.yml`."]
+    lines += ["", "This issue closes itself when every source answers and lists meetings again."]
     return "\n".join(lines)
 
 
@@ -90,7 +117,8 @@ def sync_issue(title, lines, closing):
 
 def main():
     import yaml
-    items = upkeep_items(yaml.safe_load(SOURCES.read_text()), date.today())
+    cfg = yaml.safe_load(SOURCES.read_text())
+    items = upkeep_items(cfg, date.today())
     roster = ROOT / "site" / "data" / "county_officials.json"
     if roster.exists():
         meta = json.loads(roster.read_text())
@@ -104,21 +132,13 @@ def main():
     sync_issue("Data or link problems to look at", (["The nightly checks found these. Listings that look wrong may be a parsing or time zone "
                                                    "problem; broken links are pages that moved (checked Mondays).", ""] + found) if found else [],
                "Tonight's data and link checks came back clean.")
-    stuck = stuck_sources(json.loads(STATUS.read_text()), date.today())
-    found = json.loads(gh("issue", "list", "--state", "open", "--search", f'"{TITLE}" in:title',
-                          "--json", "number,title"))
-    issue = next((i["number"] for i in found if i["title"] == TITLE), None)
-    if stuck and issue is None:
-        gh("issue", "create", "--title", TITLE, "--body", body(stuck))
-        print(f"opened an issue for {len(stuck)} source(s)")
-    elif stuck:
-        gh("issue", "edit", str(issue), "--body", body(stuck))
-        print(f"updated issue #{issue}: {len(stuck)} source(s)")
-    elif issue is not None:
-        gh("issue", "close", str(issue), "--comment", "Every calendar source is answering again.")
-        print(f"closed issue #{issue}")
-    else:
-        print("all sources healthy or failing for less than three days")
+    status = json.loads(STATUS.read_text())
+    stuck = stuck_sources(status, date.today())
+    silent = quiet_sources(status, date.today(), cfg)
+    print(f"{len(stuck)} source(s) failing {DAYS}+ days, {len(silent)} quiet {QUIET_DAYS}+ days")
+    # One issue for both, opened, updated or closed to match tonight's run.
+    sync_issue(TITLE, body(stuck, silent).split("\n") if (stuck or silent) else [],
+               "Every calendar source is answering and listing meetings again.")
     return 0
 
 

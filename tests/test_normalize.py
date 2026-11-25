@@ -368,6 +368,24 @@ def test_alerts_pick_long_failures():
     assert [s["name"] for s in alerts.stuck_sources(status, date(2026, 11, 11))] == ["A"]
 
 
+def test_alerts_pick_long_quiet_feeds():
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "pipeline"))
+    import alerts
+    cfg = {"sources": [{"id": "a", "type": "boardbook"}, {"id": "b", "type": "boardbook"},
+                       {"id": "c", "type": "schedule"}, {"id": "d", "type": "ics"}]}
+    status = {"sources": [
+        {"id": "a", "name": "A", "state": "quiet", "quiet_since": "2026-11-18", "county": "Lane"},
+        {"id": "b", "name": "B", "state": "quiet", "quiet_since": "2026-11-20"},
+        {"id": "c", "name": "C", "state": "quiet", "quiet_since": "2026-10-01"},  # hand schedule: upkeep issue covers it
+        {"id": "d", "name": "D", "state": "ok", "quiet_since": ""}]}
+    silent = alerts.quiet_sources(status, date(2026, 11, 24), cfg)
+    assert [s["name"] for s in silent] == ["A"]
+    text = alerts.body([], silent)
+    assert "**A** (Lane County), quiet since 2026-11-18" in text and "closes itself" in text
+    both = alerts.body([{"name": "F", "failing_since": "2026-11-20", "error": "x"}], silent)
+    assert both.index("not answered") < both.index("listed no meetings")
+
+
 def test_schedule_dates_and_agenda_links():
     pt = ZoneInfo("America/Los_Angeles")
     src = {"id": "r", "name": "City of Rathdrum", "area": "Rathdrum", "county": "Kootenai", "timezone": "America/Los_Angeles",
