@@ -1,0 +1,905 @@
+{
+ "source": "Oregon Blue Book",
+ "source_url": "https://sos.oregon.gov/blue-book/government/Pages/local-county.aspx",
+ "as_of": "2026-11-26",
+ "counties": {
+  "Baker": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Shane Alderson",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Michelle Kaseberg",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Christina Witham",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/baker.aspx"
+  },
+  "Benton": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Pat Malone",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Gabe Shepherd",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Nancy Wyse",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/benton.aspx"
+  },
+  "Clackamas": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Craig Roberts",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Paul Savas",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Martha Schrader",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Diana Helm",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Ben West",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/clackamas.aspx"
+  },
+  "Clatsop": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Mark Kujala",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Courtney Bangs",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Anthony Huacuja",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Lianne Thompson",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Pamela Wev",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/clatsop.aspx"
+  },
+  "Columbia": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Kellie Jo Smith",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Margaret Magruder",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Casey Garrett",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/columbia.aspx"
+  },
+  "Coos": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "John Sweet",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Rod Taylor",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Drew Farmer",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/coos.aspx"
+  },
+  "Crook": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Seth Crawford",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Brian Barney",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Susan Hermreck",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/crook.aspx"
+  },
+  "Curry": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Brad Alcorn",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Patrick Hollinger",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Jay Trost",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/curry.aspx"
+  },
+  "Deschutes": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Anthony DeBone",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Patti Adair",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Phil Chang",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/deschutes.aspx"
+  },
+  "Douglas": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Tim Freeman",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Chris Boice",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Tom Kress",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/douglas.aspx"
+  },
+  "Gilliam": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Cris Patnode",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Grant Wilkins",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Leah Watkins",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/gilliam.aspx"
+  },
+  "Grant": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Jim Hamsher",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "John A Rowell",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Mitchel Wilson",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/grant.aspx"
+  },
+  "Harney": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Bill Hart",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Patty Dorroh",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Rob Frank",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/harney.aspx"
+  },
+  "Hood River": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Jennifer Euwer",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Arthur Babitz",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Leti Valle Moretti",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Chad Muenzer",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Ed Weathers",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/hood-river.aspx"
+  },
+  "Jackson": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Colleen Roberts",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Rick Dyer",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Randy Sparacino",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/jackson.aspx"
+  },
+  "Jefferson": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Mark Wunsch",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Kelly Simmelink",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Seth Taylor",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/jefferson.aspx"
+  },
+  "Josephine": {
+   "body": "Board of Commissioners",
+   "members": [],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/josephine.aspx"
+  },
+  "Klamath": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Kelley Minty",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Derrick DeGroot",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Andrew Nichols",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/klamath.aspx"
+  },
+  "Lake": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "James Williams",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Mark Albertson",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Barry Shullenberger",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/lake.aspx"
+  },
+  "Lane": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Pat Farr",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Ryan Ceniga",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Dave Loveall",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Heather Buch",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Laurie Trieger",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/lane.aspx"
+  },
+  "Lincoln": {
+   "body": "Board of Commissioners",
+   "members": [],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/lincoln.aspx"
+  },
+  "Linn": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Roger Nyquist",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Will Tucker",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Sherrie Sprenger",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/linn.aspx"
+  },
+  "Malheur": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Dan Joyce",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Ron Jacobs",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Jim Mendiola",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/malheur.aspx"
+  },
+  "Marion": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Danielle Bethell",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Kevin Cameron",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Colm Willis",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/marion.aspx"
+  },
+  "Morrow": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "David Sykes",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Gus Peterson",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Jeff Wenholz",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/morrow.aspx"
+  },
+  "Multnomah": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Jessica Vega Pederson",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Julia Brim-Edwards",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Vince Jones-Dixon",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Meghan Moyer",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Shannon Singleton",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/multnomah.aspx"
+  },
+  "Polk": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Craig Pope",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Jeremy Gordon",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Lyle R. Mordhorst",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/polk.aspx"
+  },
+  "Sherman": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Joe Dabulskis",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Joan Bird",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Justin Miller",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/sherman.aspx"
+  },
+  "Tillamook": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Erin Skaar",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Mary Faith Bell",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Paul Fournier",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/tillamook.aspx"
+  },
+  "Umatilla": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "John Shafer",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Dan Dorran",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Cindy Timmons",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/umatilla.aspx"
+  },
+  "Union": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Paul Anderes",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Matt Scarfo",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Jake Seavert",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/union.aspx"
+  },
+  "Wallowa": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Lisa Collier",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "John Hillock",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Mike Hayward",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/wallowa.aspx"
+  },
+  "Wasco": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Phil Brady",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Scott Hege",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Jeff Justesen",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/wasco.aspx"
+  },
+  "Washington": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Kathryn Harrington",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Nafisa Fai",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Jason Snider",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Pam Treece",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Jerry Willey",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/washington.aspx"
+  },
+  "Wheeler": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Lynn Morley",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Matt Davis",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Ben Logan",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/wheeler.aspx"
+  },
+  "Yamhill": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Kit Johnston",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "David (Bubba) King",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Mary Starrett",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/yamhill.aspx"
+  }
+ }
+}
