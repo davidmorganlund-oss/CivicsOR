@@ -39,6 +39,14 @@ jobs:
       - name: Build the representatives roster
         shell: bash   # with pipefail, so a crash shows up instead of hiding behind tee
         run: python pipeline/officials.py | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Refresh local officials
+        # Mayors and county commissioners from the Oregon Blue Book. These change rarely, so this runs on Mondays,
+        # or whenever the file is missing. A failure keeps the last good file.
+        continue-on-error: true
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ ! -s site/data/county_officials.json ]; then
+            python pipeline/bluebook_officials.py | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Flag calendars that keep failing
         if: always()
         continue-on-error: true

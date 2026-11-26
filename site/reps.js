@@ -71,6 +71,13 @@
       pdxCouncil: { heading: 'City Council, District', what: 'Portland City Council district', who: 'City of Portland' },
       multCommission: { heading: 'County Commissioner, District', what: 'county commissioner district', who: 'Multnomah County Board of Commissioners',
         chairHeading: 'County Chair (elected countywide)', note: 'Four commissioners are elected by district and the chair countywide.' },
+      board: { 'Board of Commissioners': 'Board of County Commissioners', 'County Court': 'County Court' },
+      courtWhat: 'A county court is a county judge and two commissioners. The judge chairs it.',
+      title: { Judge: 'County Judge', Chair: 'Chair', 'Vice Chair': 'Vice Chair', 'Vice-Chair': 'Vice Chair', President: 'President', 'Pres.': 'President' },
+      termEnds: function (y) { return 'Term ends January ' + y; },
+      bbCounty: 'county page', bbCity: 'city page', bbSource: 'Source: Oregon Blue Book, ',
+      seatsOnBallot: 'Seats with a term ending in 2027 were on the November 2026 ballot. Whoever won takes office in January 2027, and the Blue Book can take a few weeks to catch up.',
+      mayorNewTerm: 'Mayors elected in November usually take office at the first council meeting in January. Check the city’s website if this looks out of date.',
       countyFallback: 'Your county commissioners are listed on the county’s website. Most Oregon counties have a board of three to five commissioners; a few smaller ones have a county court, a county judge and two commissioners.',
       legislature: 'State Legislature', legNotFound: 'Legislative districts not found',
       legTitle: function (sd, hd) { return 'Senate District ' + sd + ' · House District ' + hd; },
@@ -125,6 +132,13 @@
       pdxCouncil: { heading: 'Concejo Municipal, distrito', what: 'distrito del Concejo Municipal de Portland', who: 'la Ciudad de Portland' },
       multCommission: { heading: 'Comisionados del condado, distrito', what: 'distrito de comisionados del condado', who: 'la Junta de Comisionados del Condado de Multnomah',
         chairHeading: 'Presidencia del condado (County Chair, elegida en todo el condado)', note: 'Cuatro comisionados se eligen por distrito y la presidencia en todo el condado.' },
+      board: { 'Board of Commissioners': 'Junta de Comisionados del Condado', 'County Court': 'Corte del condado (county court)' },
+      courtWhat: 'Una corte del condado está formada por un juez del condado y dos comisionados. El juez la preside.',
+      title: { Judge: 'Juez del condado', Chair: 'Presidencia', 'Vice Chair': 'Vicepresidencia', 'Vice-Chair': 'Vicepresidencia', President: 'Presidencia', 'Pres.': 'Presidencia' },
+      termEnds: function (y) { return 'Su período termina en enero de ' + y; },
+      bbCounty: 'página del condado', bbCity: 'página de la ciudad', bbSource: 'Fuente: Oregon Blue Book (en inglés), ',
+      seatsOnBallot: 'Los cargos cuyo período termina en 2027 estuvieron en la boleta de noviembre de 2026. Quien ganó asume el cargo en enero de 2027, y el Blue Book puede tardar unas semanas en actualizarse.',
+      mayorNewTerm: 'Los alcaldes elegidos en noviembre suelen asumir el cargo en la primera reunión del concejo en enero. Consulte el sitio web de la ciudad si esto parece desactualizado.',
       countyFallback: 'Sus comisionados del condado aparecen en el sitio web del condado. La mayoría de los condados de Oregon tienen una junta de tres a cinco comisionados; algunos condados más pequeños tienen una corte del condado (county court), con un juez del condado y dos comisionados.',
       legislature: 'Legislatura estatal', legNotFound: 'No se encontraron los distritos legislativos',
       legTitle: function (sd, hd) { return 'Distrito del Senado ' + sd + ' · Distrito de la Cámara ' + hd; },
@@ -171,6 +185,26 @@
 
   var officials = null;
   var localData = null;
+  var mayors = null;
+  var countyOfficials = null;
+
+  // Census names some cities "Mount Angel" or "Saint ..."; local.json and the
+  // Blue Book write "Mt. Angel" and "St. Helens".
+  function byCity(map, city) {
+    if (!map || !city) return null;
+    return map[city] || map[city.replace(/^Mount /, 'Mt. ')] || map[city.replace(/^Saint /, 'St. ')] || null;
+  }
+
+  // Notes about November 2026 winners taking office show until this date.
+  var NEW_LOCAL_TERMS_UNTIL = new Date(2027, 2, 1);
+  function sourceLine(card, url, label) {
+    if (!safeUrl(url)) return;
+    var p = el('p', 'muted');
+    p.appendChild(document.createTextNode(S.bbSource));
+    p.appendChild(link(url, label));
+    p.appendChild(document.createTextNode('.'));
+    card.appendChild(p);
+  }
   var $ = function (id) { return document.getElementById(id); };
 
   function el(tag, cls, text) {
@@ -309,6 +343,7 @@
     li.appendChild(el('strong', null, p.name));
     if (p.seat) li.appendChild(el('span', 'muted', S.seat + p.seat));
     if (p.party) li.appendChild(el('span', 'muted', ' · ' + (S.party[p.party] || p.party)));
+    if (p.note) li.appendChild(el('span', 'muted', ' · ' + p.note));
     var contact = el('div', 'contact');
     if (p.phone) contact.appendChild(link('tel:' + p.phone.replace(/[^\d+]/g, ''), p.phone));
     if (p.email) contact.appendChild(link('mailto:' + p.email, p.email));
@@ -352,8 +387,22 @@
 
   // Mayors confirmed on each city's own website (data/local.json), with a
   // link to the council members page where we found one.
-  function addMayor(card, place) {
-    if (!place || !place.mayor) return;
+  function addMayor(card, place, city) {
+    if (!place || !place.mayor) {
+      // Otherwise, the mayor as the Oregon Blue Book lists them (data/mayors.json).
+      var m = byCity(mayors && mayors.mayors, city);
+      if (!m || !m.name) return;
+      card.appendChild(el('h4', null, S.mayor));
+      people(card, [{ name: m.name }], '');
+      sourceLine(card, m.source, S.bbCity);
+      if (new Date() < NEW_LOCAL_TERMS_UNTIL) card.appendChild(el('p', 'muted', S.mayorNewTerm));
+      if (place && safeUrl(place.council)) {
+        var c = el('p');
+        c.appendChild(link(place.council, S.councilMembers));
+        card.appendChild(c);
+      }
+      return true;
+    }
     card.appendChild(el('h4', null, S.mayor));
     people(card, [{ name: place.mayor.name, url: place.mayor.source }], '');
     var links = card.querySelector('ul.people:last-of-type .contact a');
@@ -368,16 +417,37 @@
     }
   }
 
-  function localCard(title, name, entry, fallback, place) {
+  // County commissioners or county court, from the Oregon Blue Book
+  // (data/county_officials.json). Returns true if it added the list.
+  function addCountyBoard(card, county) {
+    var c = countyOfficials && countyOfficials.counties && countyOfficials.counties[county];
+    if (!c || !c.members || !c.members.length) return false;
+    card.appendChild(el('h4', null, S.board[c.body] || c.body));
+    var onBallot = false;
+    people(card, c.members.map(function (m) {
+      if (m.term_ends && +m.term_ends <= 2027) onBallot = true;
+      var bits = [];
+      if (m.title && S.title[m.title]) bits.push(S.title[m.title]);
+      if (m.term_ends) bits.push(S.termEnds(m.term_ends));
+      return { name: m.name, seat: m.district || '', note: bits.join(' · ') };
+    }), '');
+    if (c.body === 'County Court') card.appendChild(el('p', 'muted', S.courtWhat));
+    if (onBallot && new Date() < NEW_LOCAL_TERMS_UNTIL) card.appendChild(el('p', 'muted', S.seatsOnBallot));
+    sourceLine(card, c.source_url, S.bbCounty);
+    return true;
+  }
+
+  function localCard(title, name, entry, fallback, place, key) {
     var card = section(title, name);
-    if (title === S.city) addMayor(card, place);
+    var listed = title === S.city ? addMayor(card, place, key)
+      : title === S.county && key ? addCountyBoard(card, key) : false;
     if (!entry && place) { extraLinks(card, place); return card; }
     if (entry) {
       var p = el('p');
       p.appendChild(link(entry.url, LANG === 'es' ? entry.label_es : entry.label));
       p.appendChild(document.createTextNode(': ' + (LANG === 'es' ? entry.note_es : entry.note) + '.'));
       card.appendChild(p);
-    } else {
+    } else if (!listed) {
       card.appendChild(el('p', 'muted', fallback));
     }
     extraLinks(card, place);
@@ -415,9 +485,9 @@
       window.CivicsORLocal.save({ county: county, city: localData && localData.cities[city] ? city : '' });
     }
 
-    var cityPlace = localData && localData.cities[city];
+    var cityPlace = localData && byCity(localData.cities, city);
     var cityCard = city
-      ? localCard(S.city, S.cityOf(city), LOCAL.places[city], S.cityFallback, cityPlace)
+      ? localCard(S.city, S.cityOf(city), LOCAL.places[city], S.cityFallback, cityPlace, city)
       : localCard(S.city, S.outside, null, S.uninc);
     if (local && city === 'Portland') {
       localDistrict(cityCard, local, 'council', { heading: S.pdxCouncil.heading, what: S.pdxCouncil.what,
@@ -427,7 +497,7 @@
 
     if (county) {
       var countyPlace = localData && localData.counties[county];
-      var countyCard = localCard(S.county, S.countyOf(county), LOCAL.counties[county], S.countyFallback, countyPlace);
+      var countyCard = localCard(S.county, S.countyOf(county), LOCAL.counties[county], S.countyFallback, countyPlace, county);
       if (local && county === 'Multnomah') {
         var mc = S.multCommission;
         localDistrict(countyCard, local, 'commission', { heading: mc.heading, what: mc.what,
@@ -499,4 +569,6 @@
 
   fetch(BASE + 'data/local.json').then(function (r) { return r.json(); }).then(function (d) { localData = d; }).catch(function () {});
   fetch(BASE + 'data/officials.json').then(function (r) { return r.json(); }).then(function (d) { officials = d; }).catch(function () {});
+  fetch(BASE + 'data/mayors.json').then(function (r) { return r.json(); }).then(function (d) { mayors = d; }).catch(function () {});
+  fetch(BASE + 'data/county_officials.json').then(function (r) { return r.json(); }).then(function (d) { countyOfficials = d; }).catch(function () {});
 })();
