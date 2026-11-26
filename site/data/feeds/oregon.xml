@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-26T04:11:37-08:00</updated>
+  <updated>2026-11-26T08:52:24-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:ce0aeed6f90a:new</id>
@@ -14,13 +14,6 @@
     <summary>City of Oregon City · 2027-01-25 19:00 (PT) · Hanlon Commission Chambers, 1234 Linn Ave, Oregon City</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:efe942193a08:new</id>
-    <title>New meeting: City Council Work Session (2027-01-25 18:30)</title>
-    <updated>2026-11-26T12:00:00Z</updated>
-    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1213"/>
-    <summary>City of Veneta · 2027-01-25 18:30 (PT)</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:6859fcec550d:new</id>
     <title>New meeting: School Board Work Session (2027-01-25 18:30)</title>
     <updated>2026-11-26T12:00:00Z</updated>
@@ -28,11 +21,11 @@
     <summary>McMinnville School District · 2027-01-25 18:30 (PT) · 800 NE Lafayette Avenue, McMinnville</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:b321165ccf9c:new</id>
-    <title>New meeting: City Council Meeting (2027-01-25 18:00)</title>
+    <id>tag:civicsor.org,2026:efe942193a08:new</id>
+    <title>New meeting: City Council Work Session (2027-01-25 18:30)</title>
     <updated>2026-11-26T12:00:00Z</updated>
-    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1219"/>
-    <summary>City of Seaside · 2027-01-25 18:00 (PT)</summary>
+    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1213"/>
+    <summary>City of Veneta · 2027-01-25 18:30 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:44b4e7656055:new</id>
@@ -42,11 +35,18 @@
     <summary>Junction City School District · 2027-01-25 18:00 (PT) · 325 Maple St, Junction City, OR 97448, USA</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:94e8600023c7:new</id>
-    <title>New meeting: Library Board Meeting (2027-01-25 17:00)</title>
+    <id>tag:civicsor.org,2026:b321165ccf9c:new</id>
+    <title>New meeting: City Council Meeting (2027-01-25 18:00)</title>
     <updated>2026-11-26T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2263/overview"/>
-    <summary>City of Independence · 2027-01-25 17:00 (PT) · Independence Public Library</summary>
+    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1219"/>
+    <summary>City of Seaside · 2027-01-25 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:541d45178269:new</id>
+    <title>New meeting: Council Study Session (2027-01-25 18:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/982"/>
+    <summary>City of Central Point · 2027-01-25 18:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:4dc0016b271b:new</id>
@@ -54,6 +54,13 @@
     <updated>2026-11-26T12:00:00Z</updated>
     <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1161"/>
     <summary>City of Seaside · 2027-01-25 17:00 (PT) · 989 Broadway St.</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:94e8600023c7:new</id>
+    <title>New meeting: Library Board Meeting (2027-01-25 17:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://independenceor.portal.civicclerk.com/event/2263/overview"/>
+    <summary>City of Independence · 2027-01-25 17:00 (PT) · Independence Public Library</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:87c8df23c514:new</id>
@@ -686,18 +693,18 @@
     <summary>City of Troutdale · 2026-12-02 19:00 (PT) · Troutdale Police Community Center - Kellogg Room, 234 SW Kendall Ct</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:b3e329b118de:new</id>
-    <title>New meeting: City Council Study Session (2026-12-02 18:00)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1899"/>
-    <summary>City of Talent · 2026-12-02 18:00 (PT) · Community Center - Dining Room and Zoom, 104 E Main Street</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:301ca932a0e2:new</id>
     <title>New meeting: Regular Board Meeting (2026-12-02 18:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://meetings.boardbook.org/Public/Agenda/1549?meeting=753232"/>
     <summary>Eugene School District 4J · 2026-12-02 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street · On the agenda: X.1. Monthly Financial Report Presenter: Bob Blyth, Interim Director for Financial Services; X.2. Star Renaissance Interim Assessments Fall Report Presenters: Erin Gaston, Elementary Curriculum &amp; MTSS Administrator Courtney Leonard…; X.3. Student Device Care and 3-Year Technology Plan Presenter: Dan Farley, Director of Technology</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:b3e329b118de:new</id>
+    <title>New meeting: City Council Study Session (2026-12-02 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1899"/>
+    <summary>City of Talent · 2026-12-02 18:00 (PT) · Community Center - Dining Room and Zoom, 104 E Main Street</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:1bdb88702f53:cancelled</id>
@@ -1046,15 +1053,15 @@
     <id>tag:civicsor.org,2026:44eddc909641:new</id>
     <title>New meeting: Airport-Industrial Site Committee Meeting (2027-01-21 16:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=651"/>
-    <summary>City of Madras · 2027-01-21 16:00 (PT) · 2028 NW Berg Drive</summary>
+    <link href="https://www.madras.gov/m/calendar/event/detail/651"/>
+    <summary>City of Madras · 2027-01-21 16:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:69205ca26f93:new</id>
     <title>New meeting: Board of Commissioners Formal Session (2027-01-21 10:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=805"/>
-    <summary>Yamhill County · 2027-01-21 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
+    <link href="https://www.yamhillcounty.gov/m/calendar/event/detail/805"/>
+    <summary>Yamhill County · 2027-01-21 10:00 (PT) · Government Services Building Public Hearing Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:4ae40aef28b7:new</id>
@@ -1074,8 +1081,8 @@
     <id>tag:civicsor.org,2026:584b379e8ac2:new</id>
     <title>New meeting: Planning Commission Meeting (2027-01-20 18:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=837"/>
-    <summary>City of Madras · 2027-01-20 18:30 (PT) · City Hall, 125 SW E Street</summary>
+    <link href="https://www.madras.gov/m/calendar/event/detail/837"/>
+    <summary>City of Madras · 2027-01-20 18:30 (PT) · City Hall</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:419939898c71:new</id>
@@ -1144,8 +1151,8 @@
     <id>tag:civicsor.org,2026:6ea62696f6dd:new</id>
     <title>New meeting: City Council Meeting (2027-01-19 19:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.klamathfalls.city/Calendar.aspx?EID=865"/>
-    <summary>City of Klamath Falls · 2027-01-19 19:00 (PT) · 500 Klamath Ave.</summary>
+    <link href="https://www.klamathfalls.city/m/calendar/event/detail/865"/>
+    <summary>City of Klamath Falls · 2027-01-19 19:00 (PT)</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:92b631cae5fa:new</id>
@@ -1193,8 +1200,8 @@
     <id>tag:civicsor.org,2026:87c21b8ac90a:new</id>
     <title>New meeting: Madras Redevelopment Commission Meeting (2027-01-19 17:30)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.madras.gov/Calendar.aspx?EID=1185"/>
-    <summary>City of Madras · 2027-01-19 17:30 (PT) · City Hall, 125 SW E Street</summary>
+    <link href="https://www.madras.gov/m/calendar/event/detail/1185"/>
+    <summary>City of Madras · 2027-01-19 17:30 (PT) · City Hall</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:7444d60ba215:new</id>
@@ -1319,8 +1326,8 @@
     <id>tag:civicsor.org,2026:65f5d40d1680:new</id>
     <title>New meeting: Board of Commissioners Formal Session (2027-01-14 10:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=804"/>
-    <summary>Yamhill County · 2027-01-14 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
+    <link href="https://www.yamhillcounty.gov/m/calendar/event/detail/804"/>
+    <summary>Yamhill County · 2027-01-14 10:00 (PT) · Government Services Building Public Hearing Room</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:e470dbca4825:new</id>
@@ -1398,12 +1405,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://rockawaybeachor.portal.civicclerk.com/event/2744/overview"/>
     <summary>City of Rockaway Beach · 2027-01-13 16:30 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:0d88d19361dd:new</id>
-    <title>New meeting: Board of Commissioners Work Session (2027-01-13 09:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://crookcoor.portal.civicclerk.com/event/5557/overview"/>
-    <summary>Crook County · 2027-01-13 09:00 (PT) · 203 NE Court Street, Prineville</summary>
   </entry>
 </feed>

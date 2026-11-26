@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-26T04:11:37-08:00</updated>
+  <updated>2026-11-26T08:52:24-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:541d45178269:new</id>
+    <title>New meeting: Council Study Session (2027-01-25 18:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.centralpointoregon.gov/m/calendar/event/detail/982"/>
+    <summary>City of Central Point · 2027-01-25 18:00 (PT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:9180c0889f1d:new</id>
     <title>New meeting: School Board Regular Session (2027-01-14 18:30)</title>
