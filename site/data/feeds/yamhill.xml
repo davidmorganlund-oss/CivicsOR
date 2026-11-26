@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-25T04:13:43-08:00</updated>
+  <updated>2026-11-26T04:11:37-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:6859fcec550d:new</id>
+    <title>New meeting: School Board Work Session (2027-01-25 18:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://calendar.google.com/calendar/embed?src=msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com"/>
+    <summary>McMinnville School District · 2027-01-25 18:30 (PT) · 800 NE Lafayette Avenue, McMinnville</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:3c08d61fbdf3:new</id>
     <title>New meeting: School Board Business Meeting (2027-01-11 18:30)</title>

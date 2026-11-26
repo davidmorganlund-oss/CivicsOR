@@ -4,14 +4,21 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-25T04:13:43-08:00</updated>
+  <updated>2026-11-26T04:11:37-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
-    <id>tag:civicsor.org,2026:4ab41be9bd7c:new</id>
-    <title>New meeting: School Board Meeting (2026-12-28 18:00)</title>
-    <updated>2026-11-25T12:00:00Z</updated>
+    <id>tag:civicsor.org,2026:efe942193a08:new</id>
+    <title>New meeting: City Council Work Session (2027-01-25 18:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.venetaoregon.gov/Calendar.aspx?EID=1213"/>
+    <summary>City of Veneta · 2027-01-25 18:30 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:44b4e7656055:new</id>
+    <title>New meeting: School Board Meeting (2027-01-25 18:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
     <link href="https://calendar.google.com/calendar/embed?src=jcsdweb%40junctioncity.k12.or.us"/>
-    <summary>Junction City School District · 2026-12-28 18:00 (PT) · 325 Maple St, Junction City, OR 97448, USA</summary>
+    <summary>Junction City School District · 2027-01-25 18:00 (PT) · 325 Maple St, Junction City, OR 97448, USA</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:024af040b40b:new</id>
@@ -49,11 +56,11 @@
     <summary>Eugene School District 4J · 2026-12-07 07:30 (PT) · District Office, 200 North Monroe Street</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:82e9f551c22b:new</id>
+    <id>tag:civicsor.org,2026:301ca932a0e2:new</id>
     <title>New meeting: Regular Board Meeting (2026-12-02 18:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://meetings.boardbook.org/Public/Organization/1549"/>
-    <summary>Eugene School District 4J · 2026-12-02 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street</summary>
+    <link href="https://meetings.boardbook.org/Public/Agenda/1549?meeting=753232"/>
+    <summary>Eugene School District 4J · 2026-12-02 18:00 (PT) · Hybrid Meeting (virtual and in-person), 200 North Monroe Street · On the agenda: X.1. Monthly Financial Report Presenter: Bob Blyth, Interim Director for Financial Services; X.2. Star Renaissance Interim Assessments Fall Report Presenters: Erin Gaston, Elementary Curriculum &amp; MTSS Administrator Courtney Leonard…; X.3. Student Device Care and 3-Year Technology Plan Presenter: Dan Farley, Director of Technology</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:0127dad94da5:new</id>

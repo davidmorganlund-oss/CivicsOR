@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-25T04:13:43-08:00</updated>
+  <updated>2026-11-26T04:11:37-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:b321165ccf9c:new</id>
+    <title>New meeting: City Council Meeting (2027-01-25 18:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1219"/>
+    <summary>City of Seaside · 2027-01-25 18:00 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:4dc0016b271b:new</id>
+    <title>New meeting: City Council Work Session (2027-01-25 17:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1161"/>
+    <summary>City of Seaside · 2027-01-25 17:00 (PT) · 989 Broadway St.</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:3054d2f12c02:new</id>
     <title>New meeting: Regular Meeting of the School Board (2027-01-19 18:00)</title>
@@ -75,13 +89,6 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityofseaside.us/Calendar.aspx?EID=1200"/>
     <summary>City of Seaside · 2027-01-11 17:00 (PT) · 989 Broadway</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:bbb48da4e258:new</id>
-    <title>New meeting: City Commission Goal Setting 2027.01.09 (2027-01-09 09:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://warrentonor.portal.civicclerk.com/event/4223/overview"/>
-    <summary>City of Warrenton · 2027-01-09 09:00 (PT) · City Hall, 225 S. Main, Warrenton</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:80f8a5fa840f:new</id>
@@ -246,7 +253,7 @@
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:55562490202f:new</id>
-    <title>New meeting: City Council Meeting (2026-12-02 18:00)</title>
+    <title>New meeting: December City Council Meeting (2026-12-02 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.cityofgearhart.com/Calendar.aspx?EID=482"/>
     <summary>City of Gearhart · 2026-12-02 18:00 (PT) · Gearhart City Hall, 698 Pacific Way</summary>

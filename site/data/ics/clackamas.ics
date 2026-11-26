@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Clackamas County
 BEGIN:VEVENT
 UID:6a86d248c459@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261126T180000Z
 DTEND:20261126T190000Z
 SUMMARY:CANCELLED: Council meeting (Metro (regional government))
@@ -15,7 +15,7 @@ STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:42571d748c40@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:City Council meeting (City of Lake Oswego)
 LOCATION:
@@ -23,7 +23,7 @@ URL:https://www.ci.oswego.or.us/
 END:VEVENT
 BEGIN:VEVENT
 UID:6b410d96c52b@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261201T180000Z
 DTEND:20261201T190000Z
 SUMMARY:Council work session (Metro (regional government))
@@ -35,7 +35,7 @@ URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3755&GID=641&
 END:VEVENT
 BEGIN:VEVENT
 UID:8d467bf33f53@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261202T000000Z
 DTEND:20261202T010000Z
 SUMMARY:City Council work session (City of Milwaukie)
@@ -44,7 +44,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:35c344a2dabf@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261202T020000Z
 DTEND:20261202T030000Z
 SUMMARY:City Council work session (City of Happy Valley)
@@ -53,7 +53,7 @@ URL:https://www.happyvalleyor.gov/city-hall/city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:e17fc8d0a9a2@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261202T020000Z
 DTEND:20261202T030000Z
 SUMMARY:City Council regular session (City of Milwaukie)
@@ -62,7 +62,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:717f3b6d9049@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261202T030000Z
 DTEND:20261202T040000Z
 SUMMARY:City Council meeting (City of Happy Valley)
@@ -71,7 +71,7 @@ URL:https://www.happyvalleyor.gov/city-hall/city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:a8e22322d05c@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261202T183000Z
 DTEND:20261202T193000Z
 SUMMARY:Tourism Promotion Committee (City of Wilsonville)
@@ -80,7 +80,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3563/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:eec41709ba1f@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261203T023000Z
 DTEND:20261203T033000Z
 SUMMARY:Library Board (City of Wilsonville)
@@ -90,7 +90,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/1787/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ee4ad7721686@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261203T030000Z
 DTEND:20261203T040000Z
 SUMMARY:City Council meeting (City of Canby)
@@ -99,7 +99,7 @@ URL:https://canbyoregon.gov/node/98
 END:VEVENT
 BEGIN:VEVENT
 UID:12cb2897db9c@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261203T030000Z
 DTEND:20261203T040000Z
 SUMMARY:City Commission Regular Meeting (first Wednesdays) (City of Oregon 
@@ -109,7 +109,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3569/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:b79d3de903f6@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261203T180000Z
 DTEND:20261203T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -118,8 +118,20 @@ LOCATION:BCC Hearing Room\, Room 409\, 2051 Kaen Road\, Oregon City (and on
 URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
+UID:46301d0a7dfb@civicsor
+DTSTAMP:20261126T121137Z
+DTSTART:20261203T180000Z
+DTEND:20261203T190000Z
+SUMMARY:Council meeting (Metro (regional government))
+LOCATION:Metro Regional Center\, Council chamber\; https://zoom.us/j/615079
+ 992 (Webinar ID: 615079992) or 253-205-0468 (toll free)\, https://www.yout
+ ube.com/@OregonMetro/streams
+URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3756&GID=641&
+ G=7309CF62-5730-456F-B280-2DEB3B0BE132
+END:VEVENT
+BEGIN:VEVENT
 UID:9779edbc9480@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261204T030000Z
 DTEND:20261204T040000Z
 SUMMARY:Policy Committee Meeting (Molalla River School District)
@@ -128,7 +140,7 @@ URL:https://meetings.boardbook.org/Public/Agenda/1539?meeting=778358
 END:VEVENT
 BEGIN:VEVENT
 UID:21edf11ef5fc@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261208T010000Z
 DTEND:20261208T020000Z
 SUMMARY:Urban Renewal Agency (City of Wilsonville)
@@ -137,7 +149,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3605/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:f837db52e279@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261208T030000Z
 DTEND:20261208T040000Z
 SUMMARY:Citizen Involvement Committee (City of Oregon City)
@@ -146,7 +158,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3653/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5b2f0a6a525e@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261208T030000Z
 DTEND:20261208T040000Z
 SUMMARY:City Council (City of Wilsonville)
@@ -155,7 +167,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3467/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:55a0fdb3a531@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261209T011500Z
 DTEND:20261209T021500Z
 SUMMARY:City Council study session (City of Milwaukie)
@@ -164,7 +176,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:f08f648da7b8@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261209T020000Z
 DTEND:20261209T030000Z
 SUMMARY:City Commission Work Session (City of Oregon City)
@@ -173,7 +185,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3538/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4e1ad609de6b@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261209T020000Z
 DTEND:20261209T030000Z
 SUMMARY:Diversity\, Equity and Inclusion (DEI) Committee (City of Wilsonvil
@@ -183,7 +195,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3542/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ebc990ba2993@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261210T020000Z
 DTEND:20261210T030000Z
 SUMMARY:Planning Commission (City of Wilsonville)
@@ -192,7 +204,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3410/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:683ed569670b@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261210T023000Z
 DTEND:20261210T033000Z
 SUMMARY:Natural Resources Committee (City of Oregon City)
@@ -201,7 +213,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3599/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:3159761be702@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261210T180000Z
 DTEND:20261210T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -211,7 +223,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:c7294f190f3a@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261211T020000Z
 DTEND:20261211T030000Z
 SUMMARY:Kitakata Sister City Advisory Board (City of Wilsonville)
@@ -221,7 +233,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3438/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:bd51de5214a4@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261211T020000Z
 DTEND:20261211T030000Z
 SUMMARY:Board business meeting (North Clackamas School District)
@@ -232,7 +244,7 @@ URL:https://www.nclack.k12.or.us/about-ncsd/school-board/school-board-meeti
 END:VEVENT
 BEGIN:VEVENT
 UID:6e0d5515730b@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261215T023000Z
 DTEND:20261215T033000Z
 SUMMARY:CANCELLED: Development Review Board A (City of Wilsonville)
@@ -242,7 +254,7 @@ STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:662ff68c1506@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261215T030000Z
 DTEND:20261215T040000Z
 SUMMARY:Planning Commission Meeting (Second Monday) (City of Oregon City)
@@ -251,7 +263,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3619/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:f90ecf160f00@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261215T031500Z
 DTEND:20261215T041500Z
 SUMMARY:Youth Advisory Commission (City of Oregon City)
@@ -260,7 +272,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3647/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5c35594c1b87@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:City Council meeting (City of Lake Oswego)
 LOCATION:
@@ -268,7 +280,7 @@ URL:https://www.ci.oswego.or.us/
 END:VEVENT
 BEGIN:VEVENT
 UID:d18e6ee6d4f3@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261216T000000Z
 DTEND:20261216T010000Z
 SUMMARY:City Council work session (City of Milwaukie)
@@ -277,7 +289,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:ffef86c0c5c5@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261216T020000Z
 DTEND:20261216T030000Z
 SUMMARY:City Council work session (City of Happy Valley)
@@ -286,7 +298,7 @@ URL:https://www.happyvalleyor.gov/city-hall/city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:93c0a7a10160@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261216T020000Z
 DTEND:20261216T030000Z
 SUMMARY:City Council regular session (City of Milwaukie)
@@ -295,7 +307,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:ef30b00af1f9@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261216T030000Z
 DTEND:20261216T040000Z
 SUMMARY:City Council meeting (City of Happy Valley)
@@ -304,7 +316,7 @@ URL:https://www.happyvalleyor.gov/city-hall/city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:8497917021ff@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261217T010000Z
 DTEND:20261217T020000Z
 SUMMARY:Arts\, Culture\, and Heritage Commission (City of Wilsonville)
@@ -313,7 +325,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3625/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:de91395022d9@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261217T030000Z
 DTEND:20261217T040000Z
 SUMMARY:City Council meeting (City of Canby)
@@ -322,7 +334,7 @@ URL:https://canbyoregon.gov/node/98
 END:VEVENT
 BEGIN:VEVENT
 UID:04a68ae797ee@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261217T030000Z
 DTEND:20261217T040000Z
 SUMMARY:City Commission Regular Meeting (third Wednesdays) (City of Oregon 
@@ -332,7 +344,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3582/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:82671ff0780b@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261217T180000Z
 DTEND:20261217T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -342,7 +354,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:f146f0ea09a1@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261218T023000Z
 DTEND:20261218T033000Z
 SUMMARY:Arts Commission (City of Oregon City)
@@ -351,7 +363,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3553/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:410c7c0d1956@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261222T030000Z
 DTEND:20261222T040000Z
 SUMMARY:CANCELLED: City Council (City of Wilsonville)
@@ -361,7 +373,7 @@ STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:579227619cd4@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261224T180000Z
 DTEND:20261224T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -371,7 +383,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:cb1a9df1e217@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261229T023000Z
 DTEND:20261229T033000Z
 SUMMARY:Development Review Board B (City of Wilsonville)
@@ -380,7 +392,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3452/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:86113e58aa00@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20261231T180000Z
 DTEND:20261231T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -390,7 +402,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:3cf67c211762@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270105T030000Z
 DTEND:20270105T040000Z
 SUMMARY:City Council (City of Wilsonville)
@@ -399,7 +411,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3468/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:217b30f6c7a9@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:City Council meeting (City of Lake Oswego)
 LOCATION:
@@ -407,7 +419,7 @@ URL:https://www.ci.oswego.or.us/
 END:VEVENT
 BEGIN:VEVENT
 UID:0e23eec197b2@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270106T000000Z
 DTEND:20270106T010000Z
 SUMMARY:City Council work session (City of Milwaukie)
@@ -416,7 +428,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:4bfe42c65f88@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270106T020000Z
 DTEND:20270106T030000Z
 SUMMARY:City Council work session (City of Happy Valley)
@@ -425,7 +437,7 @@ URL:https://www.happyvalleyor.gov/city-hall/city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:792595f13a6b@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270106T020000Z
 DTEND:20270106T030000Z
 SUMMARY:City Council regular session (City of Milwaukie)
@@ -434,7 +446,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:ee05e60cee18@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270106T030000Z
 DTEND:20270106T040000Z
 SUMMARY:City Council meeting (City of Happy Valley)
@@ -443,7 +455,7 @@ URL:https://www.happyvalleyor.gov/city-hall/city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:b688ecf2f278@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270106T180000Z
 DTEND:20270106T190000Z
 SUMMARY:Tourism Promotion Committee (City of Wilsonville)
@@ -452,7 +464,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3564/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4d6f341f6896@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270107T030000Z
 DTEND:20270107T040000Z
 SUMMARY:City Council meeting (City of Canby)
@@ -461,7 +473,7 @@ URL:https://canbyoregon.gov/node/98
 END:VEVENT
 BEGIN:VEVENT
 UID:d7dfc5f27628@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270107T030000Z
 DTEND:20270107T040000Z
 SUMMARY:City Commission Regular Meeting (first Wednesdays) (City of Oregon 
@@ -471,7 +483,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3570/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ff1679770e24@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270107T180000Z
 DTEND:20270107T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -481,7 +493,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:da5e64678c8a@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270112T020000Z
 DTEND:20270112T030000Z
 SUMMARY:Development Review Board (City of Wilsonville)
@@ -490,7 +502,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3515/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:915997503d34@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270112T030000Z
 DTEND:20270112T040000Z
 SUMMARY:Planning Commission Meeting (Second Monday) (City of Oregon City)
@@ -499,7 +511,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3620/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ea5c2a2754c4@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270113T011500Z
 DTEND:20270113T021500Z
 SUMMARY:City Council study session (City of Milwaukie)
@@ -508,7 +520,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:67cdfce50bfb@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270113T020000Z
 DTEND:20270113T030000Z
 SUMMARY:City Commission Work Session (City of Oregon City)
@@ -517,7 +529,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3539/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:97b52eb0d32f@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270113T020000Z
 DTEND:20270113T030000Z
 SUMMARY:Diversity\, Equity and Inclusion (DEI) Committee (City of Wilsonvil
@@ -527,7 +539,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3543/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:956226aec6fd@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270114T020000Z
 DTEND:20270114T030000Z
 SUMMARY:Planning Commission (City of Wilsonville)
@@ -536,7 +548,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3411/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:9d5310d62c78@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270114T180000Z
 DTEND:20270114T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -546,7 +558,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:8ffe214e1b01@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270115T000000Z
 DTEND:20270115T010000Z
 SUMMARY:Parks and Recreation Advisory Board (City of Wilsonville)
@@ -556,7 +568,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/1780/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:2be7adafe5b9@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270115T020000Z
 DTEND:20270115T030000Z
 SUMMARY:Kitakata Sister City Advisory Board (City of Wilsonville)
@@ -566,7 +578,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3439/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d5dda7bd94fa@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270115T020000Z
 DTEND:20270115T030000Z
 SUMMARY:School Board meeting (North Clackamas School District)
@@ -577,7 +589,7 @@ URL:https://www.nclack.k12.or.us/about-ncsd/school-board/school-board-meeti
 END:VEVENT
 BEGIN:VEVENT
 UID:143f4f523678@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART;VALUE=DATE:20270119
 SUMMARY:City Council meeting (City of Lake Oswego)
 LOCATION:
@@ -585,7 +597,7 @@ URL:https://www.ci.oswego.or.us/
 END:VEVENT
 BEGIN:VEVENT
 UID:18b5fc5be478@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270120T000000Z
 DTEND:20270120T010000Z
 SUMMARY:City Council work session (City of Milwaukie)
@@ -594,7 +606,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:39029774b79b@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270120T020000Z
 DTEND:20270120T030000Z
 SUMMARY:City Council work session (City of Happy Valley)
@@ -603,7 +615,7 @@ URL:https://www.happyvalleyor.gov/city-hall/city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:c985ec162ec8@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270120T020000Z
 DTEND:20270120T030000Z
 SUMMARY:City Council regular session (City of Milwaukie)
@@ -612,7 +624,7 @@ URL:https://www.milwaukieoregon.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:4a0f6fc1e444@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270120T030000Z
 DTEND:20270120T040000Z
 SUMMARY:City Council meeting (City of Happy Valley)
@@ -621,7 +633,7 @@ URL:https://www.happyvalleyor.gov/city-hall/city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:8dae3d269524@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270121T010000Z
 DTEND:20270121T020000Z
 SUMMARY:Arts\, Culture\, and Heritage Commission (City of Wilsonville)
@@ -630,7 +642,7 @@ URL:https://wilsonvilleor.portal.civicclerk.com/event/3626/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:54e3e2e863bc@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270121T030000Z
 DTEND:20270121T040000Z
 SUMMARY:City Council meeting (City of Canby)
@@ -639,7 +651,7 @@ URL:https://canbyoregon.gov/node/98
 END:VEVENT
 BEGIN:VEVENT
 UID:70630a9bc256@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270121T030000Z
 DTEND:20270121T040000Z
 SUMMARY:City Commission Regular Meeting (third Wednesdays) (City of Oregon 
@@ -649,7 +661,7 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3583/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:a9ca1dcc16d3@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270121T180000Z
 DTEND:20270121T190000Z
 SUMMARY:Board of County Commissioners business meeting (Clackamas County)
@@ -659,7 +671,7 @@ URL:https://www.clackamas.us/meetings/bcc/business
 END:VEVENT
 BEGIN:VEVENT
 UID:efd28e5017a0@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270122T023000Z
 DTEND:20270122T033000Z
 SUMMARY:Arts Commission (City of Oregon City)
@@ -668,11 +680,20 @@ URL:https://oregoncityor.portal.civicclerk.com/event/3554/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:20bf0865d4e0@civicsor
-DTSTAMP:20261125T121343Z
+DTSTAMP:20261126T121137Z
 DTSTART:20270122T030000Z
 DTEND:20270122T040000Z
 SUMMARY:City Council (City of Wilsonville)
 LOCATION:City Hall\, 29799 SW Town Center Loop E\, Wilsonville
 URL:https://wilsonvilleor.portal.civicclerk.com/event/3481/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:ce0aeed6f90a@civicsor
+DTSTAMP:20261126T121137Z
+DTSTART:20270126T030000Z
+DTEND:20270126T040000Z
+SUMMARY:Planning Commission Meeting (4th Monday) (City of Oregon City)
+LOCATION:Hanlon Commission Chambers\, 1234 Linn Ave\, Oregon City
+URL:https://oregoncityor.portal.civicclerk.com/event/3608/overview
 END:VEVENT
 END:VCALENDAR

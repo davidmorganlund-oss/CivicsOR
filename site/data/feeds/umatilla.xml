@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-25T04:13:43-08:00</updated>
+  <updated>2026-11-26T04:11:37-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:87c8df23c514:new</id>
+    <title>New meeting: Work Session - All Comms (2027-01-25 09:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.umatillacounty.gov/"/>
+    <summary>Umatilla County · 2027-01-25 09:00 (PT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:fdf67b7df155:new</id>
     <title>New meeting: Board of Commissioners Meeting - Public Meeting (2027-01-20 09:00)</title>

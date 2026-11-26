@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-25T04:13:43-08:00</updated>
+  <updated>2026-11-26T04:11:37-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:35adc3449478:cancelled</id>
@@ -82,19 +82,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.lapineoregon.gov/Calendar.aspx?EID=377"/>
     <summary>City of La Pine · 2026-12-01 15:00 (PT) · 16345 6th St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:0826a0365125:new</id>
-    <title>New meeting: City Council Regular Meeting CANCELLED (2026-11-25 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.lapineoregon.gov/Calendar.aspx?EID=365"/>
-    <summary>City of La Pine · 2026-11-25 17:30 (PT) · 16345 6th St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:0826a0365125:cancelled</id>
-    <title>Cancelled: City Council Regular Meeting CANCELLED (2026-11-25 17:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.lapineoregon.gov/Calendar.aspx?EID=365"/>
-    <summary>City of La Pine · 2026-11-25 17:30 (PT) · 16345 6th St.</summary>
   </entry>
 </feed>

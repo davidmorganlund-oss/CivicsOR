@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-25T04:13:43-08:00</updated>
+  <updated>2026-11-26T04:11:37-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:94e8600023c7:new</id>
+    <title>New meeting: Library Board Meeting (2027-01-25 17:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://independenceor.portal.civicclerk.com/event/2263/overview"/>
+    <summary>City of Independence · 2027-01-25 17:00 (PT) · Independence Public Library</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:e9993503f7f2:new</id>
     <title>New meeting: Parks Board Meeting (2027-01-21 18:00)</title>

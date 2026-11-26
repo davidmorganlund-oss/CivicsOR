@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-25T04:13:43-08:00</updated>
+  <updated>2026-11-26T04:11:37-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:9a3105f0b9ae:new</id>
@@ -222,19 +222,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4984"/>
     <summary>City of Grants Pass · 2026-11-30 11:45 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:3518e2215b22:new</id>
-    <title>New meeting: Urban Area Planning Commission (2026-11-25 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5664"/>
-    <summary>City of Grants Pass · 2026-11-25 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:3518e2215b22:cancelled</id>
-    <title>Cancelled: Urban Area Planning Commission (2026-11-25 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5664"/>
-    <summary>City of Grants Pass · 2026-11-25 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
   </entry>
 </feed>
