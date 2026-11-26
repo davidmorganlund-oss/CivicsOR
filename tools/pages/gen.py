@@ -75,6 +75,8 @@ def top(up, current, lang="en", alt=None):
     switch = (f'\n  <a class="lang-switch" href="{alt}" lang="{"es" if lang == "en" else "en"}" hreflang="{"es" if lang == "en" else "en"}">{"Español" if lang == "en" else "English"}</a>' if alt else "")
     def a(href, label, key, short=None):
         cur = ' aria-current="page"' if key == current else ""
+        if href == "index.html":  # link the calendar by its folder address, the one search engines index
+            href = "" if up else "./"
         if short:  # a shorter label on phones; the full name stays for screen readers
             return f'    <a href="{up}{href}"{cur} aria-label="{label}"><span class="full">{label}</span><span class="short">{short}</span></a>'
         return f'    <a href="{up}{href}"{cur}>{label}</a>'
@@ -85,7 +87,7 @@ def top(up, current, lang="en", alt=None):
     return f'''{notice}
 
 <header class="top"><div class="wrap">
-  <a class="brand" href="{up}index.html">Civics<span>OR</span></a>{switch}
+  <a class="brand" href="{up or './'}">Civics<span>OR</span></a>{switch}
   <nav aria-label="{main}">
 {a("index.html", cal, "calendar", cal_s)}
 {leg_link}
@@ -209,7 +211,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 # ---------- calendar ----------
 (SITE / "index.html").write_text(f'''{head("Get Engaged, Oregon | CivicsOR", "", "See what your city council, county commissioners, Metro and the Oregon Legislature are deciding this week, and how to make your voice heard.", "Get Engaged, Oregon: what your community is deciding this week")}
 <a class="skip" href="#events">Skip to events</a>
-{top("", "calendar", alt="es/index.html")}
+{top("", "calendar", alt="es/")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Community Calendar</p>
@@ -409,7 +411,7 @@ print(len(ALL), "guides written")
 <p><strong>Always confirm with the host before you go.</strong> Agendas, times and rooms change, sometimes the same day.</p>
 
 <h2>What's not here yet</h2>
-<p>Some public bodies only post PDFs, or don't post a calendar online at all. CivicsOR reads public meeting notices once a night with a reader that identifies itself, and keeps its requests light. Where a calendar can't be read, the site links to the body's own meeting page instead. The <a href="coverage.html">coverage page</a> lists what's included county by county. The calendar, the address lookup and five of the guides are also <a href="es/index.html" hreflang="es" lang="es">en español</a>; more Spanish pages are planned.</p>
+<p>Some public bodies only post PDFs, or don't post a calendar online at all. CivicsOR reads public meeting notices once a night with a reader that identifies itself, and keeps its requests light. Where a calendar can't be read, the site links to the body's own meeting page instead. The <a href="coverage.html">coverage page</a> lists what's included county by county. The calendar, the address lookup and five of the guides are also <a href="es/" hreflang="es" lang="es">en español</a>; more Spanish pages are planned.</p>
 
 <h2>Found a mistake or a missing meeting?</h2>
 <p><a class="link" href="mailto:{REPORT}?subject=CivicsOR%20correction">Report a correction</a></p>
@@ -571,7 +573,7 @@ assert es_listed == set(guides_or_es.G), (es_listed ^ set(guides_or_es.G))
 
 (ES / "index.html").write_text(f'''{head("Participe en Oregon | CivicsOR", "../", "Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, Metro y la Legislatura de Oregon, y cómo hacerse escuchar.", "Participe en Oregon: lo que su comunidad decide esta semana", lang="es")}
 <a class="skip" href="#events">Ir a las reuniones</a>
-{top("", "calendar", lang="es", alt="../index.html")}
+{top("", "calendar", lang="es", alt="../")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Calendario comunitario</p>
@@ -759,17 +761,17 @@ print("Spanish pages written:", len(guides_or_es.G) + 5)
 # served from any path, so its links are absolute, and search engines skip it.
 (SITE / "404.html").write_text(f'''{head("Page not found | CivicsOR", "/", "That page isn't here. Find your meetings, guides and representatives from the CivicsOR home page.").replace("<title>", '<meta name="robots" content="noindex">\n<title>', 1)}
 <a class="skip" href="#notfound">Skip to content</a>
-{top("/", "", alt="/es/index.html")}
+{top("/", "", alt="/es/")}
 <main class="wrap narrow guide" id="notfound">
   <h1>We can't find that page.</h1>
   <p class="lede">The address may be mistyped, or the page may have moved.</p>
   <ul>
-    <li><a href="/index.html">Community Calendar</a>: what your city, county and the Legislature are deciding.</li>
+    <li><a href="/">Community Calendar</a>: what your city, county and the Legislature are deciding.</li>
     <li><a href="/legislature.html">The Legislature, day by day</a></li>
     <li><a href="/engage.html">Engage guides</a>: how to take part.</li>
     <li><a href="/reps.html">Find who represents you</a></li>
   </ul>
-  <p lang="es">¿Busca la versión en español? Vaya al <a href="/es/index.html" hreflang="es">calendario en español</a>.</p>
+  <p lang="es">¿Busca la versión en español? Vaya al <a href="/es/" hreflang="es">calendario en español</a>.</p>
   <p>Followed a link from this site to get here? <a href="mailto:{REPORT}?subject=CivicsOR%3A%20broken%20link">Tell us</a> and we'll fix it.</p>
 </main>
 {footer("/", "CivicsOR is free to use and asks nothing of you.")}

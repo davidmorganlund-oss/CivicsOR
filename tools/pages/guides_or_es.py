@@ -8,7 +8,7 @@ Cada guía: cat, title, lede, body (HTML), sources [(url, etiqueta)], y
 opcionalmente "short" (título más corto para la pestaña) y "desc" (descripción
 para buscadores, menos de 160 caracteres).
 
-Enlaces dentro del cuerpo: "../index.html", "../reps.html" y "<slug>.html" llevan
+Enlaces dentro del cuerpo: "../" (el calendario), "../reps.html" y "<slug>.html" llevan
 a páginas en español. Las guías que todavía no están en español se enlazan a
 la versión en inglés con ../../guides/<slug>.html, hreflang="en" y "(en inglés)".
 
@@ -141,7 +141,7 @@ G["speak-at-a-public-meeting"] = dict(
 
   <h2>Antes de la reunión</h2>
   <ol>
-    <li><strong>Encuentre la reunión.</strong> El <a href="../index.html">calendario</a> muestra lo que viene cerca de usted.</li>
+    <li><strong>Encuentre la reunión.</strong> El <a href="../">calendario</a> muestra lo que viene cerca de usted.</li>
     <li><strong>Lea la agenda.</strong> Busque el asunto que le interesa. Fíjese si es una audiencia pública, un punto de acción (action item) o una sesión de trabajo (work session), en la que el órgano habla del tema pero por lo general no vota ni recibe testimonio. Casi todas las agendas están en inglés; puede pedirle ayuda al secretario (clerk).</li>
     <li><strong>Averigüe cómo inscribirse.</strong> Muchos órganos piden que se inscriba con anticipación, sobre todo para hablar en línea. El Condado de Multnomah, por ejemplo, cierra la inscripción a las 4 p. m. del miércoles anterior a sus reuniones de los jueves. Las reglas de inscripción suelen estar en la agenda.</li>
     <li><strong>Envíe también comentarios por escrito.</strong> El testimonio por escrito queda en el registro aunque usted no pueda quedarse, y es la manera más segura de dejar constancia de un asunto en un caso de uso de suelo.</li>
@@ -227,7 +227,7 @@ G["your-school-board"] = dict(
 
   <h2>Cómo participar</h2>
   <ul>
-    <li><strong>Encuentre las reuniones.</strong> Las juntas suelen reunirse una o dos veces al mes. Las agendas se publican unos días antes, muchas veces en BoardDocs o en el sitio web del distrito, y casi siempre en inglés. Muchos distritos están en el <a href="../index.html">calendario comunitario</a>.</li>
+    <li><strong>Encuentre las reuniones.</strong> Las juntas suelen reunirse una o dos veces al mes. Las agendas se publican unos días antes, muchas veces en BoardDocs o en el sitio web del distrito, y casi siempre en inglés. Muchos distritos están en el <a href="../">calendario comunitario</a>.</li>
     <li><strong>Hable durante los comentarios del público.</strong> La mayoría de las juntas reservan un tiempo y le piden que se inscriba antes. Vea <a href="speak-at-a-public-meeting.html">cómo hablar en una reunión pública</a>.</li>
     <li><strong>Únase al comité de presupuesto</strong> o a un comité asesor del distrito.</li>
     <li><strong>Postúlese.</strong> Debe ser un votante registrado que vive en el distrito, y algunas zonas tienen sus propias reglas de residencia. Vea <a href="../../guides/running-for-office.html" {EN}>cómo postularse a un cargo (en inglés)</a>.</li>

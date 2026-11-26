@@ -120,7 +120,7 @@ G["speak-at-a-public-meeting"] = dict(
 
   <h2>Before the meeting</h2>
   <ol>
-    <li><strong>Find the meeting.</strong> The <a href="../index.html">calendar</a> lists what's coming up near you.</li>
+    <li><strong>Find the meeting.</strong> The <a href="../">calendar</a> lists what's coming up near you.</li>
     <li><strong>Read the agenda.</strong> Find the item you care about. Note whether it is a public hearing, an action item, or a work session, where a board discusses but usually doesn't vote or take testimony.</li>
     <li><strong>Check how to sign up.</strong> Many bodies want you to sign up ahead of time, especially to speak online. Multnomah County, for example, closes sign-up at 4 p.m. on the Wednesday before its Thursday meetings. The sign-up rules are usually on the agenda.</li>
     <li><strong>Send written comments too.</strong> Written testimony goes into the record even if you can't stay, and it's the safest way to preserve an issue in a land use case.</li>
@@ -511,7 +511,7 @@ G["media-literacy"] = dict(
   <p>Local reporters cover city councils, school boards and county decisions that national outlets never will. Many Oregon communities have lost their local paper or seen it shrink. Supporting the local news you still have, and reading it, is one of the easiest ways to stay informed about decisions close to home.</p>
 
   <h2>Go to the source on government</h2>
-  <p>For local and state decisions, the primary sources are usually online: meeting agendas and recordings, the Legislature's bill pages and live video on OLIS, and agency reports. The <a href="../index.html">calendar</a> links to each meeting's official page. For elections, your county elections office and the Secretary of State are the official word on dates, drop boxes and results.</p>
+  <p>For local and state decisions, the primary sources are usually online: meeting agendas and recordings, the Legislature's bill pages and live video on OLIS, and agency reports. The <a href="../">calendar</a> links to each meeting's official page. For elections, your county elections office and the Secretary of State are the official word on dates, drop boxes and results.</p>
 """,
     sources=[("https://www.newslit.org/", "News Literacy Project"),
              (VOTE, "Voting and elections (Oregon Secretary of State)"),
