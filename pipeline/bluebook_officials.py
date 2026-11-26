@@ -129,7 +129,7 @@ def mayor_of(item):
     page = get(url)
     if not page:
         return city, url, None
-    m = re.search(r"Mayor\s*(?::|&#58;)\s*(?:</?[^>]+>|\s)*([^<]+)", page)
+    m = re.search(r"Mayor\s*(?::|&#58;)(?:<[^<>]*>|\s)*([^<]+)", page)
     name = text(m.group(1)) if m else ""
     if not name or re.match(r"(?i)(vacant|none|tbd|n/?a)\b", name):
         return city, url, ""
