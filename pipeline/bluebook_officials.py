@@ -40,11 +40,12 @@ OFFICER = re.compile(
     r"Admin|Auditor|Coroner|Recorder|Tax|Legal|Counsel|Manager|Public Works|Road|Dir|Health|Juvenile|Elections|Finance|Commission Admin)",
     re.I)
 MEMBER = re.compile(
-    r"(?:(?P<title>Chair|Vice[- ]Chair|Judge|Commissioner|President|Pres\.)\s+)?"
-    r"(?:(?:Dist\.?|District|Pos\.?|Position)\s*(?P<d1>\d+)\s*[:,-]?\s+)?"
-    r"(?P<name>[A-Z][^,;:()]*?)\s*"
+    r"^(?:(?P<title>Chair|Vice[- ]Chair|Judge|Commissioner|President|Pres\.)\s+)?"
+    r"(?:(?:Dist\.?|District|Pos\.?|Position)\s*(?P<d1>\d+)\s*[:-]?\s+)?"
+    r"(?P<name>[A-Z](?:[^,;:()]|\([A-Za-z][^()]*\))*?)\s*"
     r"(?:\((?:Dist\.?|District|Pos\.?|Position)\s*(?P<d2>\d+)\)\s*)?"
-    r"\((?P<year>\d{4})\)")
+    r"\((?P<year>\d{4})\)$")
+SUFFIX = re.compile(r"^(?:Jr|Sr|II|III|IV)\.?\s*\(\d{4}\)$")
 
 
 def text(fragment: str) -> str:
@@ -61,26 +62,42 @@ def officials_paragraph(page: str) -> str:
 
 
 def parse_body(paragraph: str):
-    """(body, members) from a County Officials paragraph."""
-    body = "County Court" if re.match(r"\s*County Court", paragraph, re.I) or re.search(r"\bJudge\b", paragraph.split(";")[0]) else "Board of Commissioners"
+    """(body, members) from a County Officials paragraph. Members are the
+    names before the first other county officer, each with the year the term
+    ends."""
+    first = paragraph.split(";")[0]
+    body = "County Court" if re.match(r"\s*County Court", paragraph, re.I) or re.search(r"\bJudge\b", first) else "Board of Commissioners"
     members = []
-    for seg in paragraph.split(";"):
-        seg = seg.strip()
+    for piece in re.split(r"[;,]", paragraph):
+        piece = piece.strip()
+        if not piece:
+            continue
         # Drop labels like "Commissioners:" or "County Court:" in front of names.
-        bare = re.sub(r"^(?:[A-Za-z. ]+:\s*)+", "", seg) if re.match(r"^[A-Za-z. ]+:", seg) else seg
-        if members and OFFICER.match(bare):
+        bare = re.sub(r"^(?:[A-Za-z. ]+:\s*)+", "", piece)
+        if OFFICER.match(bare):
             break
-        if not members and OFFICER.match(bare) and not re.match(r"(?i)co(?:unty|\.)? (?:court|comm)", seg):
-            break
-        for m in MEMBER.finditer(bare):
-            title = (m.group("title") or "").replace("Pres.", "President").replace("Vice Chair", "Vice-Chair")
-            members.append({
-                "name": m.group("name").strip(),
-                "title": title or None,
-                "district": m.group("d1") or m.group("d2"),
-                "term_ends": m.group("year"),
-            })
-    return body, members
+        if SUFFIX.match(bare) and members:
+            members[-1]["name"] += ", " + bare.split("(")[0].strip()
+            continue
+        m = MEMBER.match(bare)
+        if not m:
+            # A comma inside "Name, (2027)" splits the year from the name.
+            if re.fullmatch(r"\(\d{4}\)", bare) and members and members[-1]["term_ends"] is None:
+                members[-1]["term_ends"] = bare.strip("()")
+            elif re.match(r"^(?:Chair|Vice[- ]Chair|Judge)?\s*[A-Z][A-Za-z.' ()-]+$", bare) and "(" not in bare:
+                t = re.match(r"^(?:(Chair|Vice[- ]Chair|Judge)\s+)?(.*)$", bare)
+                members.append({"name": t.group(2).strip(), "title": t.group(1), "district": None, "term_ends": None})
+            continue
+        title = (m.group("title") or "").replace("Pres.", "President").replace("Vice Chair", "Vice-Chair")
+        members.append({
+            "name": m.group("name").strip(),
+            "title": title or None,
+            "district": m.group("d1") or m.group("d2"),
+            "term_ends": m.group("year"),
+        })
+    # Every governing body member is elected, so a name without a term year
+    # isn't one of them.
+    return body, [m for m in members if m["term_ends"]]
 
 
 def get(url):
@@ -141,7 +158,11 @@ def main() -> int:
             body, members = parse_body(para)
             if not members:
                 problems.append(f"{name}: no commissioners parsed from: {para[:200]}")
-            counties[name] = {"body": body, "members": members, "source_url": url, "text": para}
+            # The Blue Book sometimes lists only part of a board. Every Oregon
+            # county has at least three, so a shorter list is left out.
+            counties[name] = {"body": body, "members": members if len(members) >= 3 else [], "source_url": url}
+            if 0 < len(members) < 3:
+                problems.append(f"{name}: only {len(members)} commissioner(s) listed; left out")
             cities += city_links(page)
         for city, url, name in pool.map(mayor_of, dict(cities).items()):
             if name is None:
