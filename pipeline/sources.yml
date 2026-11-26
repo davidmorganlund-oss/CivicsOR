@@ -505,7 +505,7 @@ sources:
     meetings:
       - {title: City Council regular session, when: '1st Wednesday', time: "18:00", location: "La Grande City Hall, 1000 Adams Ave.", category: council, url: "https://www.cityoflagrande.org/"}
   - {id: jacksonville, name: City of Jacksonville, type: civicplus, site: 'https://www.jacksonvilleor.us', categories: [14], county: Jackson, area: Jacksonville, drop_uncategorized: true, homepage: 'https://www.jacksonvilleor.us/Calendar.aspx'}
-  - {id: lakeview, name: Town of Lakeview, type: ics, county: Lake, area: Lakeview, url: 'https://townoflakeview.org/events/?ical=1', include: council|commission|board|committee|hearing|meeting|session|workshop, homepage: 'https://townoflakeview.org/events/'}
+  - {id: lakeview, name: Town of Lakeview, type: tribe, county: Lake, area: Lakeview, site: 'https://townoflakeview.org', include: council|commission|board|committee|hearing|meeting|session|workshop, homepage: 'https://townoflakeview.org/events/'}
   - {id: warrenton, name: City of Warrenton, type: civicclerk, tenant: warrentonor, county: Clatsop, area: Warrenton, homepage: 'https://warrentonor.portal.civicclerk.com/'}
   - {id: yachats, name: City of Yachats, type: civicclerk, tenant: yachatsor, county: Lincoln, area: Yachats, homepage: 'https://yachatsor.portal.civicclerk.com/'}
 
