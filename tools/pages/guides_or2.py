@@ -156,7 +156,7 @@ G["your-school-board"] = dict(
 
   <h2>Taking part</h2>
   <ul>
-    <li><strong>Find the meetings.</strong> Boards usually meet once or twice a month. Agendas post a few days ahead, often on BoardDocs or the district's website. Many districts are on the <a href="../index.html">Community Calendar</a>.</li>
+    <li><strong>Find the meetings.</strong> Boards usually meet once or twice a month. Agendas post a few days ahead, often on BoardDocs or the district's website. Many districts are on the <a href="../">Community Calendar</a>.</li>
     <li><strong>Speak during public comment.</strong> Most boards set aside time and ask you to sign up first. See <a href="speak-at-a-public-meeting.html">how to speak at a public meeting</a>.</li>
     <li><strong>Join the budget committee</strong> or a district advisory committee.</li>
     <li><strong>Run.</strong> You need to be a registered voter living in the district, and some zones have their own residency rules. See <a href="running-for-office.html">running for office</a>.</li>
@@ -229,7 +229,7 @@ G["local-ballot-measures"] = dict(
   <ul>
     <li>Your county voters' pamphlet has each measure's ballot title, an explanatory statement, and arguments for and against.</li>
     <li>For a tax measure, look for the estimated rate per $1,000 of assessed value and how long it lasts.</li>
-    <li>Ask the district for its plans and past audits, and see how it voted to put the measure on the ballot. The <a href="../index.html">Community Calendar</a> lists the meetings where these decisions are made.</li>
+    <li>Ask the district for its plans and past audits, and see how it voted to put the measure on the ballot. The <a href="../">Community Calendar</a> lists the meetings where these decisions are made.</li>
   </ul>
 
   <h2>Putting a measure on the ballot yourself</h2>

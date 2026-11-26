@@ -66,7 +66,7 @@
       notSure: 'Not sure which county or city you’re in? ', lookUp: 'Look up your address', remember: '. We remember your choice on this device only.',
       another: 'Another town, or outside city limits', countyFirst: 'Choose a county first',
       mostCities: 'Most cities and towns post their boards on their own website, usually under City Hall or Government. If you live outside city limits, the county is your local government.',
-      calPage: 'index.html', repsPage: 'reps.html',
+      calPage: './', repsPage: 'reps.html',
       districtNotes: {
         esd: 'Education service district: serves the school districts in this area. Board meetings and agendas.',
         port: 'Port district: elected commissioners. Meetings, agendas and how to comment.',
@@ -101,7 +101,7 @@
       notSure: '¿No sabe en qué condado o ciudad está? ', lookUp: 'Busque su dirección', remember: '. Recordamos su elección solo en este dispositivo.',
       another: 'Otro pueblo, o fuera de los límites de la ciudad', countyFirst: 'Primero elija un condado',
       mostCities: 'La mayoría de las ciudades y pueblos publican sus juntas en su propio sitio web, casi siempre en City Hall o Government. Si vive fuera de los límites de la ciudad, el condado es su gobierno local.',
-      calPage: 'es/index.html', repsPage: 'es/reps.html',
+      calPage: 'es/', repsPage: 'es/reps.html',
       districtNotes: {
         esd: 'Distrito de servicios educativos: atiende a los distritos escolares de esta zona. Reuniones y agendas de la junta.',
         port: 'Distrito portuario: comisionados electos. Reuniones, agendas y cómo enviar comentarios.',

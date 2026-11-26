@@ -2,7 +2,7 @@
    Pages, scripts and styles: served from cache right away, refreshed in the
    background. Calendar data (data/*.json): network first, so it's never stale
    when you're online, with the last copy as the fallback offline. */
-var VERSION = 'civicsor-v7';
+var VERSION = 'civicsor-v8';
 var SHELL = ['/', '/index.html', '/styles.css', '/app.js', '/engage.html', '/legislature.html', '/legislature.js',
   '/reps.html', '/reps.js', '/districts.js', '/privacy.html', '/about.html', '/coverage.html', '/coverage.js', '/local.js',
   '/es/', '/es/index.html', '/es/reps.html', '/es/engage.html', '/es/about.html', '/es/privacy.html',
