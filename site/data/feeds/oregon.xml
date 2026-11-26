@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-26T09:11:41-08:00</updated>
+  <updated>2026-11-26T10:09:55-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
     <id>tag:civicsor.org,2026:ce0aeed6f90a:new</id>
@@ -266,13 +266,6 @@
     <summary>Umatilla County · 2027-01-04 09:00 (PT)</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:b7113537936a:new</id>
-    <title>New meeting: School Board Work Session (2026-12-28 18:30)</title>
-    <updated>2026-11-25T12:00:00Z</updated>
-    <link href="https://calendar.google.com/calendar/embed?src=msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com"/>
-    <summary>McMinnville School District · 2026-12-28 18:30 (PT) · 800 NE Lafayette Avenue, McMinnville</summary>
-  </entry>
-  <entry>
     <id>tag:civicsor.org,2026:978bb69f79a2:new</id>
     <title>New meeting: Work Session - All Comms (2026-12-28 09:00)</title>
     <updated>2026-11-25T12:00:00Z</updated>
@@ -495,13 +488,6 @@
     <updated>2026-11-25T12:00:00Z</updated>
     <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13560"/>
     <summary>Washington County · 2026-12-01 09:00 (PT) · virtual</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:ec1c87d61c99:new</id>
-    <title>New meeting: School Board Work Session (2026-11-30 18:30)</title>
-    <updated>2026-11-25T12:00:00Z</updated>
-    <link href="https://calendar.google.com/calendar/embed?src=msd.oregonk-12.net_pahhc93bihmeglb881ofdqen5g%40group.calendar.google.com"/>
-    <summary>McMinnville School District · 2026-11-30 18:30 (PT) · 800 NE Lafayette Avenue, McMinnville</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:c0cb7d20478f:new</id>
@@ -1405,5 +1391,19 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://rockawaybeachor.portal.civicclerk.com/event/2744/overview"/>
     <summary>City of Rockaway Beach · 2027-01-13 16:30 (PT) · Rockaway Beach City Hall, 276 S Hwy 101, Rockaway Beach</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0d88d19361dd:new</id>
+    <title>New meeting: Board of Commissioners Work Session (2027-01-13 09:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://crookcoor.portal.civicclerk.com/event/5557/overview"/>
+    <summary>Crook County · 2027-01-13 09:00 (PT) · 203 NE Court Street, Prineville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:df4b691aa6d5:new</id>
+    <title>New meeting: Planning Commission Meeting (2027-01-12 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://ashlandor.portal.civicclerk.com/event/1245/overview"/>
+    <summary>City of Ashland · 2027-01-12 19:00 (PT) · 1175 E. Main St, Ashland</summary>
   </entry>
 </feed>

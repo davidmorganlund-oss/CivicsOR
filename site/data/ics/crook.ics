@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Crook County
 BEGIN:VEVENT
 UID:813b649255f3@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261201T000000Z
 DTEND:20261201T010000Z
 SUMMARY:Crook County Budget Committee Selection Subcommittee Meeting (Crook
@@ -14,7 +14,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5564/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:11a57e417d55@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:Public Meeting of the SB 111 Deadly Physical Force Planning Authori
@@ -24,7 +24,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5563/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:15f01b6123e1@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261202T170000Z
 DTEND:20261202T180000Z
 SUMMARY:Board of Commissioners Regular Session Meeting (Crook County)
@@ -33,7 +33,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/4498/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:a091e5b720ad@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261208T210000Z
 DTEND:20261208T220000Z
 SUMMARY:Board of Commissioners Special Meeting (Crook County)
@@ -42,7 +42,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5549/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:7721dc143077@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261209T020000Z
 DTEND:20261209T040000Z
 SUMMARY:City Council Meeting (City of Prineville)
@@ -51,7 +51,7 @@ URL:https://www.cityofprineville.com/Calendar.aspx?EID=376
 END:VEVENT
 BEGIN:VEVENT
 UID:64a79496e1b5@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261209T170000Z
 DTEND:20261209T180000Z
 SUMMARY:Board of Commissioners Work Session (Crook County)
@@ -60,7 +60,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/4502/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:43cc909595c8@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261209T210000Z
 DTEND:20261209T220000Z
 SUMMARY:Natural Resources Advisory Committee Meeting (Crook County)
@@ -70,7 +70,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5559/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:9f50a46a0ce4@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261210T000000Z
 DTEND:20261210T010000Z
 SUMMARY:Planning Commission Regular Meeting (Crook County)
@@ -79,7 +79,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5516/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:daec7f4eb7c6@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261215T180000Z
 DTEND:20261215T190000Z
 SUMMARY:Public Advisory Committee - Preserving Our Community Character (Cro
@@ -89,7 +89,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5562/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ed0e1080d6c1@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261215T210000Z
 DTEND:20261215T220000Z
 SUMMARY:Board of Commissioners Special Meeting (Crook County)
@@ -98,7 +98,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5565/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:950974cf95b6@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261216T170000Z
 DTEND:20261216T180000Z
 SUMMARY:Board of Commissioners Regular Session Meeting (Crook County)
@@ -107,7 +107,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/4499/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:fc0e4711b7e9@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261216T210000Z
 DTEND:20261216T220000Z
 SUMMARY:Public Advisory Committee - Protecting Our Natural Heritage (Crook 
@@ -117,7 +117,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5560/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:6b8ac7d81756@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261217T210000Z
 DTEND:20261217T220000Z
 SUMMARY:Public Advisory Committee - Balancing Working Lands and Energy (Cro
@@ -127,7 +127,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5561/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:9ab414a754e2@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261223T020000Z
 DTEND:20261223T040000Z
 SUMMARY:City Council Meeting (City of Prineville)
@@ -136,7 +136,7 @@ URL:https://www.cityofprineville.com/Calendar.aspx?EID=382
 END:VEVENT
 BEGIN:VEVENT
 UID:6b0f61c4c994@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261223T170000Z
 DTEND:20261223T180000Z
 SUMMARY:Board of Commissioners Work Session (Crook County)
@@ -145,7 +145,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/4503/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:fe6c3a6c7f0d@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20261224T000000Z
 DTEND:20261224T010000Z
 SUMMARY:CANCELLED: Planning Commission Regular Meeting (Crook County)
@@ -155,7 +155,7 @@ STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:93c9fc9bac23@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20270106T170000Z
 DTEND:20270106T180000Z
 SUMMARY:Board of Commissioners Regular Session Meeting (Crook County)
@@ -164,7 +164,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5555/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:0d88d19361dd@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20270113T170000Z
 DTEND:20270113T180000Z
 SUMMARY:Board of Commissioners Work Session (Crook County)
@@ -173,7 +173,7 @@ URL:https://crookcoor.portal.civicclerk.com/event/5557/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:b1f1b624cf30@civicsor
-DTSTAMP:20261126T171141Z
+DTSTAMP:20261126T180955Z
 DTSTART:20270120T170000Z
 DTEND:20270120T180000Z
 SUMMARY:Board of Commissioners Regular Session Meeting (Crook County)
