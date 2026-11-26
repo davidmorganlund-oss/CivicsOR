@@ -1,0 +1,951 @@
+{
+ "source": "Oregon Blue Book",
+ "source_url": "https://sos.oregon.gov/blue-book/government/Pages/local-cities.aspx",
+ "as_of": "2026-11-26",
+ "mayors": {
+  "Adair Village": {
+   "name": "William (Bill) Currier",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/adair.aspx"
+  },
+  "Adams": {
+   "name": "Charles Vickery",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/adams.aspx"
+  },
+  "Adrian": {
+   "name": "Carlos Mendoza",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/adrian.aspx"
+  },
+  "Albany": {
+   "name": "Alex Johnson II",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/albany.aspx"
+  },
+  "Amity": {
+   "name": "Rachel King",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/amity.aspx"
+  },
+  "Antelope": {
+   "name": "Julianne Herman",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/antelope.aspx"
+  },
+  "Arlington": {
+   "name": "Jeffery C. Bufton",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/arlington.aspx"
+  },
+  "Ashland": {
+   "name": "Tonya Graham",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/ashland.aspx"
+  },
+  "Astoria": {
+   "name": "Sean Fitzpatrick",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/astoria.aspx"
+  },
+  "Athena": {
+   "name": "Rebecca Schroeder",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/athena.aspx"
+  },
+  "Aumsville": {
+   "name": "Angelica Ceja",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/aumsville.aspx"
+  },
+  "Aurora": {
+   "name": "Brian Asher",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/aurora.aspx"
+  },
+  "Baker City": {
+   "name": "Randy Daugherty",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/baker-city.aspx"
+  },
+  "Bandon": {
+   "name": "Mary Schamehorn",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/bandon.aspx"
+  },
+  "Banks": {
+   "name": "Marsha Kirk",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/banks.aspx"
+  },
+  "Barlow": {
+   "name": "Robert Lang Larson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/barlow.aspx"
+  },
+  "Bay City": {
+   "name": "Liane Welch",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/bay-city.aspx"
+  },
+  "Beaverton": {
+   "name": "Lacey Beaty",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/beaverton.aspx"
+  },
+  "Bend": {
+   "name": "Melanie Kebler",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/bend.aspx"
+  },
+  "Boardman": {
+   "name": "Paul Keefer",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/boardman.aspx"
+  },
+  "Bonanza": {
+   "name": "Ashlie Pence",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/bonanza.aspx"
+  },
+  "Brookings": {
+   "name": "Phoebe Pereda",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/brookings.aspx"
+  },
+  "Brownsville": {
+   "name": "Adam Craven",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/brownsville.aspx"
+  },
+  "Burns": {
+   "name": "Jen Hoke",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/burns.aspx"
+  },
+  "Butte Falls": {
+   "name": "Trish Callahan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/butte-falls.aspx"
+  },
+  "Canby": {
+   "name": "Brian Hodson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/canby.aspx"
+  },
+  "Cannon Beach": {
+   "name": "Barbara Knopp",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/cannon-beach.aspx"
+  },
+  "Canyon City": {
+   "name": "Steve Fischer",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/canyon-city.aspx"
+  },
+  "Canyonville": {
+   "name": "Christine Morgan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/canyonville.aspx"
+  },
+  "Carlton": {
+   "name": "Linda Watkins",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/carlton.aspx"
+  },
+  "Cascade Locks": {
+   "name": "Brenda Wood",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/cascade-locks.aspx"
+  },
+  "Cave Junction": {
+   "name": "Jesse Dugas",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/cave-junction.aspx"
+  },
+  "Central Point": {
+   "name": "Taneea Browning",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/central-point.aspx"
+  },
+  "Chiloquin": {
+   "name": "Julie Bettles",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/chiloquin.aspx"
+  },
+  "Clatskanie": {
+   "name": "Robert (Bob) Brajcich",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/clatskanie.aspx"
+  },
+  "Coburg": {
+   "name": "Nancy Bell",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/coburg.aspx"
+  },
+  "Columbia City": {
+   "name": "Alexander Reed",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/columbia-city.aspx"
+  },
+  "Coos Bay": {
+   "name": "Joe Benetti",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/coos-bay.aspx"
+  },
+  "Coquille": {
+   "name": "Sam Flaherty",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/coquille.aspx"
+  },
+  "Cornelius": {
+   "name": "Jeffrey C. Dalin",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/cornelius.aspx"
+  },
+  "Corvallis": {
+   "name": "Charles Maughan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/corvallis.aspx"
+  },
+  "Cottage Grove": {
+   "name": "Candace Lamb Solesbee",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/cottage-grove.aspx"
+  },
+  "Cove": {
+   "name": "Sherry Haeger",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/cove.aspx"
+  },
+  "Creswell": {
+   "name": "Nicholas Smith",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/creswell.aspx"
+  },
+  "Culver": {
+   "name": "Bart Carpenter",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/culver.aspx"
+  },
+  "Dallas": {
+   "name": "Rich Slack",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/dallas.aspx"
+  },
+  "Dayton": {
+   "name": "Annette Frank",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/dayton.aspx"
+  },
+  "Dayville": {
+   "name": "Valli Hettinga",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/dayville.aspx"
+  },
+  "Depoe Bay": {
+   "name": "Joe Cannon",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/depoe-bay.aspx"
+  },
+  "Detroit": {
+   "name": "Eric Page",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/detroit.aspx"
+  },
+  "Donald": {
+   "name": "James Houdyshell",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/donald.aspx"
+  },
+  "Drain": {
+   "name": "Ben Simons",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/drain.aspx"
+  },
+  "Dufur": {
+   "name": "Conner Reed",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/dufur.aspx"
+  },
+  "Dundee": {
+   "name": "David Ford",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/dundee.aspx"
+  },
+  "Dunes City": {
+   "name": "Ed McGuire",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/dunes-city.aspx"
+  },
+  "Durham": {
+   "name": "Joshua Drake",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/durham.aspx"
+  },
+  "Eagle Point": {
+   "name": "Kathy Sell",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/eagle-point.aspx"
+  },
+  "Echo": {
+   "name": "Chad Ray",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/echo.aspx"
+  },
+  "Elgin": {
+   "name": "S. James Johnson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/elgin.aspx"
+  },
+  "Elkton": {
+   "name": "Daniel Burke",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/elkton.aspx"
+  },
+  "Estacada": {
+   "name": "Sean Drinkwine",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/estacada.aspx"
+  },
+  "Eugene": {
+   "name": "Kaarin Knudson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/eugene.aspx"
+  },
+  "Fairview": {
+   "name": "Keith Kudrna",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/fairview.aspx"
+  },
+  "Falls City": {
+   "name": "TJ Bailey",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/falls-city.aspx"
+  },
+  "Florence": {
+   "name": "Rob Ward",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/florence.aspx"
+  },
+  "Forest Grove": {
+   "name": "Malynda Wenzl",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/forest-grove.aspx"
+  },
+  "Fossil": {
+   "name": "Carol MacInnes",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/fossil.aspx"
+  },
+  "Garibaldi": {
+   "name": "Linda Bade",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/garibaldi.aspx"
+  },
+  "Gaston": {
+   "name": "Bill Martin",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/gaston.aspx"
+  },
+  "Gates": {
+   "name": "Donald Mann",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/gates.aspx"
+  },
+  "Gearhart": {
+   "name": "Kerry Smith",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/gearhart.aspx"
+  },
+  "Gervais": {
+   "name": "Brian Wagner",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/gervais.aspx"
+  },
+  "Gladstone": {
+   "name": "Michael Milch",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/gladstone.aspx"
+  },
+  "Glendale": {
+   "name": "Crystal Martin",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/glendale.aspx"
+  },
+  "Gold Beach": {
+   "name": "Tamie Kaufman",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/gold-beach.aspx"
+  },
+  "Gold Hill": {
+   "name": "Ronald Palmer",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/gold-hill.aspx"
+  },
+  "Granite": {
+   "name": "Daniel LaPlaca",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/granite.aspx"
+  },
+  "Grants Pass": {
+   "name": "Clint Scherf",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/grants-pass.aspx"
+  },
+  "Grass Valley": {
+   "name": "Christian Ayles",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/grass-valley.aspx"
+  },
+  "Greenhorn": {
+   "name": "Dennis Koellermeier",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/greenhorn.aspx"
+  },
+  "Gresham": {
+   "name": "Travis Stovall",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/gresham.aspx"
+  },
+  "Haines": {
+   "name": "Dennis Anthony",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/haines.aspx"
+  },
+  "Halfway": {
+   "name": "Jackelyn Jackson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/halfway.aspx"
+  },
+  "Halsey": {
+   "name": "Jerry Lachenbruch",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/halsey.aspx"
+  },
+  "Happy Valley": {
+   "name": "Tom Ellis",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/happy-valley.aspx"
+  },
+  "Harrisburg": {
+   "name": "Robert “Bobby” Duncan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/harrisburg.aspx"
+  },
+  "Helix": {
+   "name": "Kim Herron",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/helix.aspx"
+  },
+  "Heppner": {
+   "name": "Corey Sweeney",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/heppner.aspx"
+  },
+  "Hermiston": {
+   "name": "Doug Primmer",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/hermiston.aspx"
+  },
+  "Hillsboro": {
+   "name": "Beach Pace",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/hillsboro.aspx"
+  },
+  "Hines": {
+   "name": "Nikki Morgan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/hines.aspx"
+  },
+  "Hood River": {
+   "name": "Paul Blackburn",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/hood-river-city.aspx"
+  },
+  "Hubbard": {
+   "name": "Charles EW Rostocil",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/hubbard.aspx"
+  },
+  "Huntington": {
+   "name": "Charles Guerri",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/huntington.aspx"
+  },
+  "Idanha": {
+   "name": "Anthony Moronez",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/idanha.aspx"
+  },
+  "Imbler": {
+   "name": "Jason M.L. Berglund, Sr.",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/imbler.aspx"
+  },
+  "Independence": {
+   "name": "Kate Schwarzler",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/independence.aspx"
+  },
+  "Ione": {
+   "name": "Jesse Shoemake",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/ione.aspx"
+  },
+  "Irrigon": {
+   "name": "Michelle Patton",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/irrigon.aspx"
+  },
+  "Island City": {
+   "name": "Dave Comfort",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/island-city.aspx"
+  },
+  "Jacksonville": {
+   "name": "Donna Bowen",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/jacksonville.aspx"
+  },
+  "John Day": {
+   "name": "Sherrie Rininger",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/john-day.aspx"
+  },
+  "Johnson City": {
+   "name": "Vincent O. Whitehead, Jr.",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/johnson-city.aspx"
+  },
+  "Jordan Valley": {
+   "name": "Sheila C. Quintero",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/jordan-valley.aspx"
+  },
+  "Joseph": {
+   "name": "Stephen Bartlow",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/joseph.aspx"
+  },
+  "Junction City": {
+   "name": "Ken Wells",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/junction-city.aspx"
+  },
+  "Keizer": {
+   "name": "Cathy Clark",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/keizer.aspx"
+  },
+  "King City": {
+   "name": "Rachel Kazmierski",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/king-city.aspx"
+  },
+  "Klamath Falls": {
+   "name": "Carol Westfall",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/klamath-falls.aspx"
+  },
+  "La Grande": {
+   "name": "Justin Rock",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/la-grande.aspx"
+  },
+  "La Pine": {
+   "name": "Jeannine Earls",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/la-pine.aspx"
+  },
+  "Lafayette": {
+   "name": "Hilary Malcomson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lafayette.aspx"
+  },
+  "Lake Oswego": {
+   "name": "Joe Buck",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lake-oswego.aspx"
+  },
+  "Lakeside": {
+   "name": "Nikki Wood",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lakeside.aspx"
+  },
+  "Lakeview": {
+   "name": "Kevin D. Sims",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lakeview.aspx"
+  },
+  "Lebanon": {
+   "name": "Kenneth Jackola",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lebanon.aspx"
+  },
+  "Lexington": {
+   "name": "Sheila Miller",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lexington.aspx"
+  },
+  "Lincoln City": {
+   "name": "Susan Wahlke",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lincoln-city.aspx"
+  },
+  "Lonerock": {
+   "name": "Stan Forrest",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lonerock.aspx"
+  },
+  "Long Creek": {
+   "name": "Don Porter",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/long-creek.aspx"
+  },
+  "Lostine": {
+   "name": "Dusty Tippet",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lostine.aspx"
+  },
+  "Lowell": {
+   "name": "Maureen Weathers",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lowell.aspx"
+  },
+  "Lyons": {
+   "name": "Mike Wagner",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/lyons.aspx"
+  },
+  "Madras": {
+   "name": "Mike Lepin",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/madras.aspx"
+  },
+  "Malin": {
+   "name": "John Hughto",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/malin.aspx"
+  },
+  "Manzanita": {
+   "name": "Kathryn Stock",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/manzanita.aspx"
+  },
+  "Maupin": {
+   "name": "Carol Beatty",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/maupin.aspx"
+  },
+  "Maywood Park": {
+   "name": "Jim Akers",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/maywood-park.aspx"
+  },
+  "McMinnville": {
+   "name": "Kim Morris",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/mcminnville.aspx"
+  },
+  "Medford": {
+   "name": "Michael Zarosinski",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/medford.aspx"
+  },
+  "Merrill": {
+   "name": "Terry Guthrie",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/merrill.aspx"
+  },
+  "Metolius": {
+   "name": "Shawn Stanfill",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/metolius.aspx"
+  },
+  "Mill City": {
+   "name": "Tim Kirsch",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/mill-city.aspx"
+  },
+  "Millersburg": {
+   "name": "Scott Cowan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/millersburg.aspx"
+  },
+  "Milton-Freewater": {
+   "name": "Michael J Odman",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/milton-freewater.aspx"
+  },
+  "Milwaukie": {
+   "name": "Lisa Batey",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/milwaukie.aspx"
+  },
+  "Mitchell": {
+   "name": "Jacob Crawford",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/mitchell.aspx"
+  },
+  "Molalla": {
+   "name": "Scott Keyser",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/molalla.aspx"
+  },
+  "Monmouth": {
+   "name": "Cecelia Koontz",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/monmouth.aspx"
+  },
+  "Monroe": {
+   "name": "Daniel Sheets",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/monroe.aspx"
+  },
+  "Monument": {
+   "name": "Ron Ford",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/monument.aspx"
+  },
+  "Moro": {
+   "name": "Bert Perisho",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/moro.aspx"
+  },
+  "Mosier": {
+   "name": "Witt Anderson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/mosier.aspx"
+  },
+  "Mt. Angel": {
+   "name": "Joseph Pfau",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/mt-angel.aspx"
+  },
+  "Mt. Vernon": {
+   "name": "Kenny Delano",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/mt-vernon.aspx"
+  },
+  "Myrtle Creek": {
+   "name": "Luke Dillon",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/myrtle-creek.aspx"
+  },
+  "Myrtle Point": {
+   "name": "Samantha Clayburn",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/myrtle-point.aspx"
+  },
+  "Nehalem": {
+   "name": "Phil Chick",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/nehalem.aspx"
+  },
+  "Newberg": {
+   "name": "Bill Rosacker",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/newberg.aspx"
+  },
+  "Newport": {
+   "name": "Jan Kaplan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/newport.aspx"
+  },
+  "North Bend": {
+   "name": "Jessica Engelke",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/north-bend.aspx"
+  },
+  "North Powder": {
+   "name": "John Frieboes",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/north-powder.aspx"
+  },
+  "Nyssa": {
+   "name": "Patricia Esplin",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/nyssa.aspx"
+  },
+  "Oakland": {
+   "name": "Bette Keehley",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/oakland.aspx"
+  },
+  "Oakridge": {
+   "name": "Bryan Cutchen",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/oakridge.aspx"
+  },
+  "Ontario": {
+   "name": "Deborah Folden",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/ontario.aspx"
+  },
+  "Oregon City": {
+   "name": "Denyse McGriff",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/oregon-city.aspx"
+  },
+  "Paisley": {
+   "name": "Keith Harra",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/paisley.aspx"
+  },
+  "Pendleton": {
+   "name": "McKennon McDonald",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/pendleton.aspx"
+  },
+  "Philomath": {
+   "name": "Christopher McMorran",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/philomath.aspx"
+  },
+  "Phoenix": {
+   "name": "Al Muelhoefer",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/phoenix.aspx"
+  },
+  "Pilot Rock": {
+   "name": "Randy Gawith",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/pilot-rock.aspx"
+  },
+  "Port Orford": {
+   "name": "Ann Vileisis",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/port-orford.aspx"
+  },
+  "Portland": {
+   "name": "Keith Wilson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/portland.aspx"
+  },
+  "Powers": {
+   "name": "Fred Fry",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/powers.aspx"
+  },
+  "Prairie City": {
+   "name": "Colby Bradford",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/prairie-city.aspx"
+  },
+  "Prescott": {
+   "name": "Laurie Blair",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/prescott.aspx"
+  },
+  "Prineville": {
+   "name": "Steve Uffelman",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/prineville.aspx"
+  },
+  "Rainier": {
+   "name": "Jerry Cole",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/rainier.aspx"
+  },
+  "Redmond": {
+   "name": "Ed Fitch",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/redmond.aspx"
+  },
+  "Reedsport": {
+   "name": "Linda R. McCollum",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/reedsport.aspx"
+  },
+  "Richland": {
+   "name": "Andy Patton",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/richland.aspx"
+  },
+  "Riddle": {
+   "name": "William \"Bill\" Ducket",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/riddle.aspx"
+  },
+  "Rivergrove": {
+   "name": "Chris Barhyte",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/rivergrove.aspx"
+  },
+  "Rockaway Beach": {
+   "name": "Charles McNeilly",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/rockaway-beach.aspx"
+  },
+  "Rogue River": {
+   "name": "Pam VanArsdale",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/rogue-river.aspx"
+  },
+  "Roseburg": {
+   "name": "Larry Rich",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/roseburg.aspx"
+  },
+  "Rufus": {
+   "name": "Austin Evans",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/rufus.aspx"
+  },
+  "Salem": {
+   "name": "Julie Hoy",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/salem.aspx"
+  },
+  "Sandy": {
+   "name": "Kathleen Walker",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sandy.aspx"
+  },
+  "Scappoose": {
+   "name": "Joe Backus",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/scappoose.aspx"
+  },
+  "Scio": {
+   "name": "Debbie Sims Nuber",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/scio.aspx"
+  },
+  "Scotts Mills": {
+   "name": "Paul Brakeman",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/scotts-mills.aspx"
+  },
+  "Seaside": {
+   "name": "Steve Wright",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/seaside.aspx"
+  },
+  "Seneca": {
+   "name": "Andrea Officer",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/seneca.aspx"
+  },
+  "Shady Cove": {
+   "name": "Steve Mitchell, Mayor Pro Tem",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/shady-cove.aspx"
+  },
+  "Shaniko": {
+   "name": "Mark Haskett",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/shaniko.aspx"
+  },
+  "Sheridan": {
+   "name": "Cale George",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sheridan.aspx"
+  },
+  "Sherwood": {
+   "name": "Tim Rosener",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sherwood.aspx"
+  },
+  "Siletz": {
+   "name": "Will Worman",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/siletz.aspx"
+  },
+  "Silverton": {
+   "name": "Jason Freilinger",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/silverton.aspx"
+  },
+  "Sisters": {
+   "name": "Jennifer Letz",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sisters.aspx"
+  },
+  "Sodaville": {
+   "name": "Brian Lewis",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sodaville.aspx"
+  },
+  "Spray": {
+   "name": "Valerie Howell (Interim)",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/spray.aspx"
+  },
+  "Springfield": {
+   "name": "Sean VanGordon",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/springfield.aspx"
+  },
+  "St. Helens": {
+   "name": "Jennifer Massey",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/st-helens.aspx"
+  },
+  "St. Paul": {
+   "name": "Marty Waldo",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/st-paul.aspx"
+  },
+  "Stanfield": {
+   "name": "Scott Challis",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/stanfield.aspx"
+  },
+  "Stayton": {
+   "name": "Brian Quigley",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/stayton.aspx"
+  },
+  "Sublimity": {
+   "name": "Michael Taylor",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sublimity.aspx"
+  },
+  "Summerville": {
+   "name": "Sheri Rogers",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/summerville.aspx"
+  },
+  "Sumpter": {
+   "name": "Linda Wise",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sumpter.aspx"
+  },
+  "Sutherlin": {
+   "name": "Michelle Sumner",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sutherlin.aspx"
+  },
+  "Sweet Home": {
+   "name": "Susan Coleman",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/sweet-home.aspx"
+  },
+  "Talent": {
+   "name": "Darby Ayers-Flood",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/talent.aspx"
+  },
+  "Tangent": {
+   "name": "Loel E. Trulove, Jr.",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/tangent.aspx"
+  },
+  "The Dalles": {
+   "name": "Rich Mays",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/the-dalles.aspx"
+  },
+  "Tigard": {
+   "name": "Yi-Kang Hu",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/tigard.aspx"
+  },
+  "Tillamook": {
+   "name": "Aaron Burris",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/tillamook-city.aspx"
+  },
+  "Toledo": {
+   "name": "Tracy Mix",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/toledo.aspx"
+  },
+  "Troutdale": {
+   "name": "David Ripma",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/troutdale.aspx"
+  },
+  "Tualatin": {
+   "name": "Frank Bubenik",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/tualatin.aspx"
+  },
+  "Turner": {
+   "name": "Mike Schaufler",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/turner.aspx"
+  },
+  "Ukiah": {
+   "name": "Clinton Barber",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/ukiah.aspx"
+  },
+  "Umatilla": {
+   "name": "Caden Sipe",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/umatilla-city.aspx"
+  },
+  "Union": {
+   "name": "Susan Hawkins",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/union-city.aspx"
+  },
+  "Vale": {
+   "name": "Michael A. Hartwell",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/vale.aspx"
+  },
+  "Veneta": {
+   "name": "Robbie L. McCoy",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/veneta.aspx"
+  },
+  "Vernonia": {
+   "name": "Rick Hobart",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/vernonia.aspx"
+  },
+  "Waldport": {
+   "name": "Heide Lambert",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/waldport.aspx"
+  },
+  "Wallowa": {
+   "name": "Gary Lee Hulse",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/wallowa-city.aspx"
+  },
+  "Warrenton": {
+   "name": "Henry Balensifer III",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/warrenton.aspx"
+  },
+  "Wasco": {
+   "name": "Beth McCurdy",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/wasco-city.aspx"
+  },
+  "Waterloo": {
+   "name": "Justin Sawdon",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/waterloo.aspx"
+  },
+  "West Linn": {
+   "name": "Rory Bialostosky",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/west-linn.aspx"
+  },
+  "Westfir": {
+   "name": "Richard Watson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/westfir.aspx"
+  },
+  "Weston": {
+   "name": "Michael Dowd",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/weston.aspx"
+  },
+  "Wheeler": {
+   "name": "Denise Donohue",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/wheeler-city.aspx"
+  },
+  "Willamina": {
+   "name": "Vickie Hernandez",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/willamina.aspx"
+  },
+  "Wilsonville": {
+   "name": "Shawn O’Neil",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/wilsonville.aspx"
+  },
+  "Winston": {
+   "name": "Christie Glen-Knutson",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/winston.aspx"
+  },
+  "Wood Village": {
+   "name": "Jairo Rios-Campos",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/wood-village.aspx"
+  },
+  "Woodburn": {
+   "name": "Frank Lonergan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/woodburn.aspx"
+  },
+  "Yachats": {
+   "name": "Craig Berdie",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/yachats.aspx"
+  },
+  "Yamhill": {
+   "name": "Shea Corrigan",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/yamhill-city.aspx"
+  },
+  "Yoncalla": {
+   "name": "Pauline Kingery",
+   "source": "https://sos.oregon.gov/blue-book/government/Pages/yoncalla.aspx"
+  }
+ }
+}

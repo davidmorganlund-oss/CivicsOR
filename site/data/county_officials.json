@@ -1,0 +1,961 @@
+{
+ "source": "Oregon Blue Book",
+ "source_url": "https://sos.oregon.gov/blue-book/government/Pages/local-county.aspx",
+ "as_of": "2026-11-26",
+ "counties": {
+  "Baker": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Shane Alderson",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Michelle Kaseberg",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Christina Witham",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/baker.aspx",
+   "text": "Commissioners: Shane Alderson (2027), Michelle Kaseberg (2029), Christina Witham (2027); Dist. Atty. Greg M. Baxter (2029); Assess. Kerry Savage (2029); Clerk Stefanie Kirby (2027); Justice of the Peace Brent Kerns (2031); Sheriff Travis Ash (2029); Surv. Tom Hanley (2029); Treas. Alice Durflinger (2027); Administrative Services Director Christena Cook"
+  },
+  "Benton": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Pat Malone",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Gabe Shepherd",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Nancy Wyse",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/benton.aspx",
+   "text": "Commissioners: Pat Malone (2027), Gabe Shepherd (2029), Nancy Wyse (2029); Dist. Atty. Ryan Joslin (2029); Clerk Darla Rush, Interim; Sheriff Jefri Van Arsdall (2027)"
+  },
+  "Clackamas": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Craig Roberts",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Paul Savas",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Martha Schrader",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Diana Helm",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Ben West",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/clackamas.aspx",
+   "text": "Commissioners: Chair Craig Roberts (2029); Paul Savas (2027), Martha Schrader (2029), Diana Helm (2029), Ben West (2027); Dist. Atty. John D. Wentworth (2029); Assess. Bronson W Rueda (2027); Clerk Catherine McMullen (2027); Justice of the Peace Karen Brisbin (2029); Sheriff Angela Brandenburg (2029); Treas. Brian T. Nava (2027); Co. Admin. Gary Schmidt"
+  },
+  "Clatsop": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Mark Kujala",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Courtney Bangs",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Anthony Huacuja",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Lianne Thompson",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Pamela Wev",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/clatsop.aspx",
+   "text": "Commissioners: Mark Kujala (2027); Courtney Bangs (2029), Anthony Huacuja (2029), Lianne Thompson (2027), Pamela Wev (2027); Dist. Atty. Ron L. Brown (2027); Assess. Suzanne Johnson; Clerk Tracie Krevanko; Sheriff Matt Phillips (2029); Surv. Vance Swenson; Treas. Jennifer Carlson; County Manager Don Bohn"
+  },
+  "Columbia": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Kellie Jo Smith",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Margaret Magruder",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Casey Garrett",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/columbia.aspx",
+   "text": "Commissioners: Kellie Jo Smith (2027); Margaret Magruder (2029), Casey Garrett (2029); Dist. Atty. Joshua Pond (2027); Assess. Andrea Jurkiewicz (2027); Clerk Debbie Klug (2027); Justice of the Peace James Gibson (2031); Sheriff Brian Pixley (2027); Surv. Nathan Woodward; Treas. Pamela Smith (2029)"
+  },
+  "Coos": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "John Sweet",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Rod Taylor",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Drew Farmer",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/coos.aspx",
+   "text": "Commissioners: John Sweet (2027); Rod Taylor (2027), Drew Farmer (2029); Dist. Atty. Jody Newby (2029); Assess. Jason Corbus (2029); Clerk Julie Brecke (2027); Sheriff Gabe Fabrizio (2027); Surv. Michael Dado (2029); Treas. Megan Simms (2029)"
+  },
+  "Crook": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Seth Crawford",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Brian Barney",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Susan Hermreck",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/crook.aspx",
+   "text": "County Court: Judge Seth Crawford (2029), Brian Barney (2027), Susan Hermreck (2029); Dist. Atty. Kari Hathorn (2027); Assess. Jon Soliz (2027); Clerk Cheryl Seely (2027); Sheriff John Gautney (2029); Surv. Greg Kelso (2029); Treas. Galan Carter (2027)"
+  },
+  "Curry": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Brad Alcorn",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Patrick Hollinger",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Jay Trost",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/curry.aspx",
+   "text": "Commissioners: Chair Brad Alcorn (2027); Patrick Hollinger (2029), Jay Trost (2029); Dist. Atty. Joshua A. Spansail (2029); Assess. Kiley Wegner (2029); Clerk Shelley Denney (2029); Sheriff John Ward (2025); Treas. Nick Vicino (2029)"
+  },
+  "Deschutes": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Anthony DeBone",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Phil Chang",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/deschutes.aspx",
+   "text": "Commissioners: Chair Anthony DeBone (2027); Patti Adair, (2027); Phil Chang (2029); Dist. Atty. Steve Gunnels (2027); Assess. Scot Langton (2027); Clerk Steve Dennison (2027); Kent Vander Kamp (2029); Surv. Kevin Samuel; Treas. William Kuhn (2027); Justice of the Peace Charles Fadeley (2029); Co. Admin. Nick Lelack"
+  },
+  "Douglas": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Tim Freeman",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Chris Boice",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Tom Kress",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/douglas.aspx",
+   "text": "Commissioners: Chair Tim Freeman (2027); Chris Boice (2027), Tom Kress (2027); Dist. Atty. Richard Wesenberg (2029); Assess. Heather Coffel (2027); Clerk Daniel J. Loomis (2029); Justices of the Peace Machelle Briggs-Mayfield (2031) & Kathleen Miller (2031); Sheriff John Hanlin (2029); Surv. Ronald Quimby (2027); Treas. Samuel W. Lee (2029)"
+  },
+  "Gilliam": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Cris Patnode",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Grant Wilkins",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Leah Watkins",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/gilliam.aspx",
+   "text": "County Court: Judge Cris Patnode (2029); Grant Wilkins (2029), Leah Watkins (2027); Dist. Atty. VACANT; Clerk Ellen Wagenaar (2027); Justice of the Peace Kari Hayter (2027); Sheriff Gary Bettencourt (2027); Surv. Todd Catterson (2027); Treas. Nathan Hammer (2027); Assess. Chet Wilkins (2029)"
+  },
+  "Grant": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Jim Hamsher",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "John A Rowell",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Mitchel Wilson",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/grant.aspx",
+   "text": "County Court: Judge Jim Hamsher (2029); John A Rowell (2027), Mitchel Wilson (2029); Dist. Atty. Jim Carpenter (2027); Assess. David Thunell (2029); Clerk Laurie Cates (2029); Justice of the Peace Richard Tirico (2031); Sheriff Todd McKinley (2029); Surv. Mike Springer (2029); Treas. Julie Ellison (2029)"
+  },
+  "Harney": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Bill Hart",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Patty Dorroh",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Rob Frank",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/harney.aspx",
+   "text": "County Court: Judge Bill Hart (2027); Patty Dorroh (2027), Rob Frank (2029); Dist. Atty. Ryan Hughes (2029); Assess. Corey Hill (2029); Clerk Derrin (Dag) Robinson (2029); Justice of the Peace Riley Richardson (2031); Sheriff Dan Jenkins (2029); Surv. Kenny Delano; Treas. Bobbi Jo Heany (2027)"
+  },
+  "Hood River": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Jennifer Euwer",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Arthur Babitz",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Leti Valle Moretti",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Chad Muenzer",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Ed Weathers",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/hood-river.aspx",
+   "text": "Commissioners: Chair Jennifer Euwer (2029); Arthur Babitz (2029), Leti Valle Moretti (2027), Chad Muenzer (2029), Ed Weathers (2027); Dist. Atty. Matthew Ellis (2029); Justice of the Peace John Harvey (2027); Sheriff Matt English (2029); Assess./Clerk Brian Beebe; Surv. Bradley Cross; Co. Admin. Allison Williams; Treas. Sheri Patterson"
+  },
+  "Jackson": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Colleen Roberts",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Rick Dyer",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Randy Sparacino",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/jackson.aspx",
+   "text": "Commissioners: Chair Colleen Roberts (2027); Rick Dyer (2027), Randy Sparacino (2029); Dist. Atty. Patrick Green (2029); Assess. Angela Stuhr (2029); Clerk Chris Walker (2027); Justice of the Peace Joseph Charter (2031); Sheriff Nathan Sickler (2027); Surv. Scott Fein (2029); Finance Director/Treas. Shannon Bell; Co. Admin. Danny Jordan"
+  },
+  "Jefferson": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Mark Wunsch",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Kelly Simmelink",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Seth Taylor",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/jefferson.aspx",
+   "text": "Commissioners: Chair Mark Wunsch (2027); Kelly Simmelink (2027), Seth Taylor (2029); Dist. Atty. Steven Leriche (2029); Assess. Jean McCloskey (2025); Clerk Kate Zemke (2027); Sheriff Jason Pollock (2027); Treas. Jeff Rasmussen (2029); Surv. Gary L. DeJarnatt"
+  },
+  "Josephine": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Ron Smith",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Dist. Atty. Joshua J. Eastman",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/josephine.aspx",
+   "text": "Commissioners: Ron Smith (2029), Dist. Atty. Joshua J. Eastman (2029); Assess. Chris Parton (2029); Clerk Rhiannon Henkels (2027); Sheriff Dave R. Daniel (2027); Surv. Peter D. Allen (2029); Treas. Mark DeYoung (2029)"
+  },
+  "Klamath": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Kelley Minty",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Derrick DeGroot",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Andrew Nichols",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/klamath.aspx",
+   "text": "Commissioners: Chair Kelley Minty (2027); Derrick DeGroot (2029), Andrew Nichols (2029); Dist. Atty. David Schutt (2029); Assess. Nathan Bigby (2023); Clerk Rochelle Long (2027); Justice of the Peace Karen Oakes (2027); Sheriff Shane Mitchell (2029); Surv. Sheryl Hatcher (2029); Treas.Vickie Noel (2029)"
+  },
+  "Lake": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "James Williams",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Mark Albertson",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Barry Shullenberger",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/lake.aspx",
+   "text": "Commissioners: Chair James Williams (2027); Mark Albertson (2027), Barry Shullenberger (2029); Dist. Atty Paul Charas (2029); Assess. Linda Hopper (2029); Clerk Amy Hutchinson (2029); Sheriff Michael Taylor 2027; Surv. Darryl Anderson (2027); Treas. Melanie Lasley (2029)"
+  },
+  "Lane": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Pat Farr",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Ryan Ceniga",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Dave Loveall",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Heather Buch",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Laurie Trieger",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/lane.aspx",
+   "text": "Commissioners: Chair Pat Farr (2029); Ryan Ceniga (2027), Dave Loveall (2027), Heather Buch (2027), Laurie Trieger (2029); Dist. Atty. Christopher Parosa (2029); Assess. Mary Vuksich-Shafer; Tommy Gong Clerk; Justice of the Peace Rick Brissenden (2027); Sheriff Clifton Harrold (2029); Surv. Jay Blomme; Co. Admin. Steve Mokrohisky"
+  },
+  "Lincoln": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Casey Miller",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Walter Chuck",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/lincoln.aspx",
+   "text": "Commissioners: Casey Miller (2027), Walter Chuck (2027); Dist. Atty. Jenna Wallace (2029); Assess. Joe Davidson (2029); Clerk Amy Southwell (2027); Sheriff Adam Shanks (2029); Surv. Eli Adam; Treas. Jayne Welch (2027)"
+  },
+  "Linn": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Roger Nyquist",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Will Tucker",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Sherrie Sprenger",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/linn.aspx",
+   "text": "Commissioners: Chair Roger Nyquist (2029); Will Tucker (2027), Sherrie Sprenger (2029); Dist. Atty. Douglas Marteeny (2029); Assess. Matthew Pitcher (2029); Clerk Marcie Richey (2029); Justice of the Peace Jessica K. Meyer (2027); Sheriff Michelle Duncan (2027); Surv. Thomas Casey (2029); Treas. Michelle Hawkins (2029); Co. Admin. Darrin L. Lane"
+  },
+  "Malheur": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Dan Joyce",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Ron Jacobs",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Jim Mendiola",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/malheur.aspx",
+   "text": "County Court: Judge Dan Joyce (2027); Ron Jacobs (2029), Jim Mendiola (2027); Dist. Atty. David M. Goldthorpe (2027); Assess. G. Chris Russell (2029); Clerk Gayle Trotter (2027); Justice of the Peace Margaret (Margie) Mahony (2031); Sheriff Travis Johnson (2029); Surv. Tom Edwards; Treas. Jennifer Forsyth (2027); Co. Admin. and Chief Information Officer Lorinda DuBois"
+  },
+  "Marion": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Danielle Bethell",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Kevin Cameron",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Colm Willis",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/marion.aspx",
+   "text": "Commissioners: Danielle Bethell (2029), Kevin Cameron (2027), Colm Willis (2027); Dist. Atty. Brandon Murphy (2030); Assess. Tom Rohlfing (2029); Clerk Bill Burgess (2029); Justice of the Peace Justin Kidd (2029); Sheriff Nick Hunter (2029); Surv. Kent Inman; Treas. Sam Brentano (2027); CFO Jeff White"
+  },
+  "Morrow": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "David Sykes",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Gus Peterson",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Jeff Wenholz",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/morrow.aspx",
+   "text": "Commissioners: Chair David Sykes (2027); Gus Peterson (2029), Jeff Wenholz (2027); Dist. Atty. Justin Nelson (2027); Assess. Mike Gorman (2027); Clerk Bobbi Childers (2029); Justice of the Peace Glen G. Diehl (2027); Sheriff John Bowles (2029); Surv. Matt Kenny; Treas. Jaylene Papineau (2029)"
+  },
+  "Multnomah": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Jessica Vega Pederson",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Julia Brim-Edwards",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Vince Jones-Dixon",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Meghan Moyer",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Shannon Singleton",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/multnomah.aspx",
+   "text": "Commissioners: Chair Jessica Vega Pederson (2027); Julia Brim-Edwards (2029), Vince Jones-Dixon (2029), Meghan Moyer (2029), Shannon Singleton (2029); Dist. Atty. Nathan Vasquez (2029); Sheriff Nicole Morrisey-O’Donnell (2027); Auditor Jennifer McGuirk (2027); Assess. Michael Vaughn; Elections Director Tim Scott; Surv. James Clayton; Attorney Jenny Madkour"
+  },
+  "Polk": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Craig Pope",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Jeremy Gordon",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Lyle R. Mordhorst",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/polk.aspx",
+   "text": "Commissioners: Chair Craig Pope (2027); Jeremy Gordon (2027), Lyle R. Mordhorst (2029); Dist. Atty. Aaron Felton (2029); Assess. Valerie Patoine (2029); Clerk Kimberly Williams (2029); Sheriff Mark Garton (2029); Surv. Darren Blackwell; Treas. Steve Milligan (2029)"
+  },
+  "Sherman": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Joe Dabulskis",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Joan Bird",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Justin Miller",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/sherman.aspx",
+   "text": "County Court: Judge Joe Dabulskis (2029); Joan Bird (2029), Justin Miller (2027); Dist. Atty. Wade McLeod (2027); Assess. Drew Messenger (2027); Clerk Kristi Weis (2029); Treas. Theresa Olsen (2027); Justice of the Peace Shandie L. Johnson (2031); Sheriff James Burgett (2029); Surv. Daryl Ingebo"
+  },
+  "Tillamook": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Erin Skaar",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Mary Faith Bell",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Paul Fournier",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/tillamook.aspx",
+   "text": "Commissioners: Erin Skaar (2029); Mary Faith Bell (2027), Paul Fournier (2029); Dist. Atty. Aubrey Olson (2027); Assess. KaSandra Larson (2029); Clerk Christy Nyseth (2029); Justice of the Peace Ryan Connell (2029); Sheriff Josh Brown (2029); Surv. Michael Rice; Treas. Shawn Blanchard (2027)"
+  },
+  "Umatilla": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "John Shafer",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Dan Dorran",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Cindy Timmons",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/umatilla.aspx",
+   "text": "Commissioners: Chair John Shafer (2027); Dan Dorran (2029), Cindy Timmons (2027); Dist. Atty. Daniel R. Primus (2029); Sheriff Terry Rowan (2029); Assess. Rachael Reynolds; Surv. David Krumbein; Financial Mgr. Robert Pahl; Admin. Serv. Director Dan Lonai"
+  },
+  "Union": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Paul Anderes",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Matt Scarfo",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Jake Seavert",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/union.aspx",
+   "text": "Commissioners: Chair Paul Anderes (2027); Matt Scarfo (2027), Jake Seavert (2029); Dist. Atty. Kelsie McDaniel (2027); Assess. Cody Vavra (2029); Clerk Lisa Feik (2027); Justice of the Peace J. Logan Joseph (2029); Sheriff Cody Bowen (2029); Surv. Jeffery Hsu (2029); Treas. Camee Jensen (2027); Co. Admin. and Chief Info. Officer Shelley Burgess"
+  },
+  "Wallowa": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Lisa Collier",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "John Hillock",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Mike Hayward",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/wallowa.aspx",
+   "text": "Commissioners: Lisa Collier (2029), John Hillock (2027), Mike Hayward (2027); Dist. Atty. Rebecca Frolander (2027); Assess. Ashley Immoos (2029); Clerk Sandy Lathrop (2027); Sheriff Ryan Moody (2029); Treas. Ginger Goebel-Burns (2027); Surv. Richard Shaver"
+  },
+  "Wasco": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Phil Brady",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Scott Hege",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Jeff Justesen",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/wasco.aspx",
+   "text": "Commissioners: Phil Brady (2027), Scott Hege (2027), Jeff Justesen (2029); Dist. Atty. Kara Davis (2029); Assess. Jill Filla Amery (2029); Clerk Chrissy Zaugg (2029); Sheriff Lane Magill (2029); Surv. Brad Cross; Treas. Elijah Preston (2029)"
+  },
+  "Washington": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Kathryn Harrington",
+     "title": "Chair",
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Nafisa Fai",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Jason Snider",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Pam Treece",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "Jerry Willey",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/washington.aspx",
+   "text": "Commissioners: Chair Kathryn Harrington (2027); Nafisa Fai (2029), Jason Snider (2029), Pam Treece (2027), Jerry Willey (2027); Dist. Atty. Kevin Barton (2027); Justice of the Peace Dan Cross (2029); Sheriff Caprice Massey (2029); Auditor Kristine Adams-Wannberg (2027); Assess./Clerk Joe Nelson; Surv. Scott Young; Co. Admin. Tanya Ange; CIOs Phillip Bransford & Julie McCloud"
+  },
+  "Wheeler": {
+   "body": "County Court",
+   "members": [
+    {
+     "name": "Lynn Morley",
+     "title": "Judge",
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Matt Davis",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Ben Logan",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/wheeler.aspx",
+   "text": "County Court: Judge Lynn Morley (2029); Matt Davis (2029), Ben Logan (2027); Dist. Atty. Gretchen Ladd Dobler (2029); Assess. Auralea Johnson (2027); Clerk Brenda Snow Potter (2029); Justice of the Peace Robin Ordway Campbell (2027); Sheriff Jeremiah Holmes (2029); Surv. Michael Springer (2029); Treas. Sandra K. Speer (2027)"
+  },
+  "Yamhill": {
+   "body": "Board of Commissioners",
+   "members": [
+    {
+     "name": "Kit Johnston",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    },
+    {
+     "name": "King",
+     "title": null,
+     "district": null,
+     "term_ends": "2029"
+    },
+    {
+     "name": "Mary Starrett",
+     "title": null,
+     "district": null,
+     "term_ends": "2027"
+    }
+   ],
+   "source_url": "https://sos.oregon.gov/blue-book/government/Pages/yamhill.aspx",
+   "text": "Commissioners: Kit Johnston (2027), David (Bubba) King (2029), Mary Starrett (2027); Dist. Atty. Kate Lynch (2029); Assess. Derrick Wharff (2029); Clerk Brian Van Bergen (2025); Sheriff Sam Elliott (2029); Treas. Paulette Alexandria (2029); Surveyor Jamie Stevenson"
+  }
+ }
+}
