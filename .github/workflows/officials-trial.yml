@@ -1,0 +1,24 @@
+name: Officials trial (temporary, branch only)
+on:
+  push:
+    branches: [claude/local-officials]
+    paths: [pipeline/bluebook_officials.py, .github/workflows/officials-trial.yml]
+permissions:
+  contents: write
+jobs:
+  trial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python pipeline/bluebook_officials.py
+      - name: Save to this branch
+        run: |
+          git config user.name "civicsor-bot"
+          git config user.email "civicsor-bot@users.noreply.github.com"
+          git add site/data/county_officials.json site/data/mayors.json || true
+          git diff --cached --quiet || git commit -m "Trial: Blue Book officials"
+          git push
