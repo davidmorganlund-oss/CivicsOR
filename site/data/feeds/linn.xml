@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-26T10:43:30-08:00</updated>
+  <updated>2026-11-27T04:06:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:64b21e4e469f:new</id>
+    <title>New meeting: Council Meeting (2027-01-26 18:30)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://www.cityoflyons.org/events/council-meeting-2026-07-28-2026-08-25-2026-09-22-2026-10-27-2026-11-24-2026-12-22-2027-01-26/"/>
+    <summary>City of Lyons · 2027-01-26 18:30 (PT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:a00b45b0d76b:new</id>
     <title>New meeting: Park Commission Meeting (2027-01-19 18:00)</title>

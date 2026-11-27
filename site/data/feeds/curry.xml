@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-26T10:43:30-08:00</updated>
+  <updated>2026-11-27T04:06:54-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:210bafb9dd12:new</id>
+    <title>New meeting: City Council Meeting (2027-01-26 17:30)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://www.brookings.or.us/Calendar.aspx?EID=3415"/>
+    <summary>City of Brookings · 2027-01-26 17:30 (PT) · City Hall Chambers</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:32e47efe81df:new</id>
+    <title>New meeting: City Council Workshop Immediately Following City Council Meeting (2027-01-26 17:30)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://www.brookings.or.us/Calendar.aspx?EID=2967"/>
+    <summary>City of Brookings · 2027-01-26 17:30 (PT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:d77c7a757c2f:cancelled</id>
     <title>Cancelled: Planning Commission Meeting (2026-12-01 19:00)</title>

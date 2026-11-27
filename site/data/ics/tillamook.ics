@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Tillamook County
 BEGIN:VEVENT
 UID:a622ed4b762b@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20261210T003000Z
 DTEND:20261210T013000Z
 SUMMARY:City Council Workshop (City of Rockaway Beach)
@@ -13,7 +13,7 @@ URL:https://rockawaybeachor.portal.civicclerk.com/event/2743/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:51c946ccd551@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20261210T020000Z
 DTEND:20261210T030000Z
 SUMMARY:City Council Meeting (City of Rockaway Beach)
@@ -22,7 +22,7 @@ URL:https://rockawaybeachor.portal.civicclerk.com/event/2756/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:91ff4f9aa0b7@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20261218T010000Z
 DTEND:20261218T020000Z
 SUMMARY:Planning Commission Meeting (City of Rockaway Beach)
@@ -31,7 +31,7 @@ URL:https://rockawaybeachor.portal.civicclerk.com/event/2769/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:23d6445fece9@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20270114T003000Z
 DTEND:20270114T013000Z
 SUMMARY:City Council Workshop (City of Rockaway Beach)
@@ -40,7 +40,7 @@ URL:https://rockawaybeachor.portal.civicclerk.com/event/2744/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5aa689dc9bdd@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20270114T020000Z
 DTEND:20270114T030000Z
 SUMMARY:City Council Meeting (City of Rockaway Beach)
@@ -49,7 +49,7 @@ URL:https://rockawaybeachor.portal.civicclerk.com/event/2757/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4031e2d57dfe@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20270122T010000Z
 DTEND:20270122T020000Z
 SUMMARY:Planning Commission Meeting (City of Rockaway Beach)

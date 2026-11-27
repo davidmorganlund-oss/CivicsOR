@@ -4,38 +4,38 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Klamath County
 BEGIN:VEVENT
 UID:f1308d643ecd@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20261208T030000Z
 DTEND:20261208T050000Z
 SUMMARY:City Council Meeting (City of Klamath Falls)
-LOCATION:
-URL:https://www.klamathfalls.city/m/calendar/event/detail/840
+LOCATION:500 Klamath Ave.
+URL:https://www.klamathfalls.city/Calendar.aspx?EID=840
 END:VEVENT
 BEGIN:VEVENT
 UID:7fcccfcd56c1@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20261222T030000Z
 DTEND:20261222T050000Z
 SUMMARY:City Council Meeting (City of Klamath Falls)
-LOCATION:
-URL:https://www.klamathfalls.city/m/calendar/event/detail/864
+LOCATION:500 Klamath Ave.
+URL:https://www.klamathfalls.city/Calendar.aspx?EID=864
 END:VEVENT
 BEGIN:VEVENT
 UID:e895671cb0d6@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20270105T030000Z
 DTEND:20270105T050000Z
 SUMMARY:City Council Meeting (City of Klamath Falls)
-LOCATION:
-URL:https://www.klamathfalls.city/m/calendar/event/detail/841
+LOCATION:500 Klamath Ave.
+URL:https://www.klamathfalls.city/Calendar.aspx?EID=841
 END:VEVENT
 BEGIN:VEVENT
 UID:6ea62696f6dd@civicsor
-DTSTAMP:20261126T184330Z
+DTSTAMP:20261127T120654Z
 DTSTART:20270120T030000Z
 DTEND:20270120T050000Z
 SUMMARY:City Council Meeting (City of Klamath Falls)
-LOCATION:
-URL:https://www.klamathfalls.city/m/calendar/event/detail/865
+LOCATION:500 Klamath Ave.
+URL:https://www.klamathfalls.city/Calendar.aspx?EID=865
 END:VEVENT
 END:VCALENDAR
