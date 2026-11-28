@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-27T04:06:54-08:00</updated>
+  <updated>2026-11-28T03:57:15-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:0bdac0c574b3:new</id>
+    <title>New meeting: Site Council Meeting (2026-12-02 17:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Agenda/1554?meeting=780148"/>
+    <summary>Corbett School District · 2026-12-02 17:00 (PT) · ZOOM virtual, 35800 E Historic Columbia River Highway</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:46301d0a7dfb:new</id>
     <title>New meeting: Council meeting (2026-12-03 10:00)</title>

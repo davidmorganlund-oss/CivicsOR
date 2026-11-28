@@ -4,7 +4,7 @@ PRODID:-//CivicsOR//Public meetings//EN
 X-WR-CALNAME:CivicsOR Oregon Legislature
 BEGIN:VEVENT
 UID:d46a9acfa0bd@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261130T210000Z
 DTEND:20261130T220000Z
 SUMMARY:Joint Task Force on Blue Economy (Oregon Legislature)
@@ -13,7 +13,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/JTFBE/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:96725f7fa1fc@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:House Interim Committee on Early Childhood (Oregon Legislature)
@@ -22,7 +22,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HEC/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:249c32154a06@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:House Interim Committee on Education (Oregon Legislature)
@@ -31,7 +31,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HED/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:81444d284756@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:House Interim Committee on Transportation (Oregon Legislature)
@@ -40,7 +40,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HCT/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:37502bed3bf0@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:Senate Interim Committee on Commerce and General Government (Oregon
@@ -50,7 +50,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SCGG/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:38cd175720d5@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T163000Z
 DTEND:20261201T173000Z
 SUMMARY:Senate Interim Committee on Rules and Executive Appointments (Orego
@@ -61,7 +61,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SRULES/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:7d471f732ada@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:Senate Interim Committee on Finance and Revenue (Oregon Legislature
@@ -71,7 +71,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SFR/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:b5b76e6ebb13@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:House Interim Committee on Agriculture\, Land Use\, Natural Resourc
@@ -82,7 +82,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HALNRW/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:47e2cb0b5692@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:House Interim Committee on Economic Development\, Small Business\, 
@@ -93,7 +93,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HECDSB/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:c204c5c8e043@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:Joint Committee on Oregon-China Sister State (Oregon Legislature)
@@ -102,7 +102,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/JOCSS/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:c624fbfc1356@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:Joint Interim Subcommittee on Higher Education (Oregon Legislature)
@@ -111,7 +111,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/EBHED/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:f66bd2516fc7@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:Senate Interim Committee on Judiciary (Oregon Legislature)
@@ -120,7 +120,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SJUD/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:44ce62811796@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T193000Z
 DTEND:20261201T203000Z
 SUMMARY:Senate Interim Committee on Labor and Business (Oregon Legislature)
@@ -129,7 +129,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SLB/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4394b2ecca31@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:House Interim Committee on Climate\, Energy\, and Environment (Oreg
@@ -139,7 +139,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HCEE/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:c9fc8b76e974@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:House Interim Committee on Rules (Oregon Legislature)
@@ -149,7 +149,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HRULES/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:86aeb0affec2@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:Joint Committee on Oregon-Ireland Sister State (Oregon Legislature)
@@ -158,7 +158,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/JOISS/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d4d01a1fed44@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:Joint Interim Subcommittee on Human Services (Oregon Legislature)
@@ -167,7 +167,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/EBHS/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:de32e855c2cf@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261201T223000Z
 DTEND:20261201T233000Z
 SUMMARY:Senate Interim Committee on Energy and Environment (Oregon Legislat
@@ -177,7 +177,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SEE/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:725e33928746@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:House Interim Committee on Judiciary (Oregon Legislature)
@@ -186,7 +186,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HJUD/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:e223acd0091d@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:House Interim Committee on Labor and Workforce Development (Oregon 
@@ -196,7 +196,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HLWD/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5901b3f5c1d5@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:House Interim Committee on Revenue (Oregon Legislature)
@@ -205,7 +205,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HREV/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:780852ca4c2c@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:Joint Interim Subcommittee on Natural Resources (Oregon Legislature
@@ -215,7 +215,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/EBNR/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4df87501d997@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:Senate Interim Committee on Early Childhood and Behavioral Health (
@@ -225,7 +225,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SECBH/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:b4626a136396@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T163000Z
 DTEND:20261202T173000Z
 SUMMARY:Senate Interim Committee on Education (Oregon Legislature)
@@ -234,7 +234,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SED/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:3c48c35b8463@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T193000Z
 DTEND:20261202T203000Z
 SUMMARY:House Interim Committee on Commerce and Consumer Protection (Oregon
@@ -244,7 +244,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HCCP/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:eb658be9edc9@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T193000Z
 DTEND:20261202T203000Z
 SUMMARY:House Interim Committee on Emergency Management and Veterans (Orego
@@ -254,7 +254,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HEMV/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:79cb685c064d@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T193000Z
 DTEND:20261202T203000Z
 SUMMARY:Senate Interim Committee on Health Care (Oregon Legislature)
@@ -263,7 +263,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHC/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:71e98a61d5cd@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T193000Z
 DTEND:20261202T203000Z
 SUMMARY:Senate Interim Committee on Natural Resources and Wildfire (Oregon 
@@ -273,7 +273,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SNRW/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:33778a5394bf@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T193000Z
 DTEND:20261202T203000Z
 SUMMARY:Senate Interim Committee on Transportation (Oregon Legislature)
@@ -282,7 +282,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SCT/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:121a631adcfd@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T193000Z
 DTEND:20261202T203000Z
 SUMMARY:Senate Interim Committee on Veterans\, Emergency Management\, Feder
@@ -293,7 +293,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SVEMFW/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:384d9c4d299b@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T223000Z
 DTEND:20261202T233000Z
 SUMMARY:House Interim Committee on Health Care (Oregon Legislature)
@@ -302,7 +302,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHC/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d9863615250b@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T223000Z
 DTEND:20261202T233000Z
 SUMMARY:House Interim Committee on Housing and Homelessness (Oregon Legisla
@@ -313,7 +313,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHOUSH/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:4c7bdd42bf84@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T223000Z
 DTEND:20261202T233000Z
 SUMMARY:Joint Interim Subcommittee on Public Safety (Oregon Legislature)
@@ -322,7 +322,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/EBPS/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:42f0b2569d4d@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T223000Z
 DTEND:20261202T233000Z
 SUMMARY:Senate Interim Committee on Housing and Development (Oregon Legisla
@@ -332,7 +332,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHDEV/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:687980d77862@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261202T223000Z
 DTEND:20261202T233000Z
 SUMMARY:Senate Interim Committee on Human Services (Oregon Legislature)
@@ -341,7 +341,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/SHS/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d75b9acf368d@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261203T013000Z
 DTEND:20261203T023000Z
 SUMMARY:House Interim Committee on Human Services (Oregon Legislature)
@@ -350,7 +350,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHS/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:95f554ed13be@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261203T163000Z
 DTEND:20261203T173000Z
 SUMMARY:Joint Committee on Information Management and Technology (Oregon Le
@@ -361,7 +361,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/JLCIMT/Overvie
 END:VEVENT
 BEGIN:VEVENT
 UID:0b11be9fd513@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261203T163000Z
 DTEND:20261203T173000Z
 SUMMARY:Joint: Emergency Board (Oregon Legislature)
@@ -370,7 +370,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/EB/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:1d13d178fcad@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261203T203000Z
 DTEND:20261203T213000Z
 SUMMARY:House Interim Committee on Behavioral Health (Oregon Legislature)
@@ -379,7 +379,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HBH/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:6f3feb8ad1bd@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261203T203000Z
 DTEND:20261203T213000Z
 SUMMARY:House Interim Committee on Higher Education (Oregon Legislature)
@@ -388,7 +388,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/HHED/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:2533bb324454@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261203T203000Z
 DTEND:20261203T213000Z
 SUMMARY:Joint Committee on Legislative Audits (Oregon Legislature)
@@ -397,7 +397,7 @@ URL:https://olis.oregonlegislature.gov/liz/2025I1/Committees/JLAUD/Overview
 END:VEVENT
 BEGIN:VEVENT
 UID:208ccea4ee6a@civicsor
-DTSTAMP:20261127T120654Z
+DTSTAMP:20261128T115715Z
 DTSTART:20261203T203000Z
 DTEND:20261203T213000Z
 SUMMARY:Joint Interim Committee on Transportation Oversight (Oregon Legisla

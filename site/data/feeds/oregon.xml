@@ -4,14 +4,70 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-27T04:06:54-08:00</updated>
+  <updated>2026-11-28T03:57:15-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
   <entry>
-    <id>tag:civicsor.org,2026:c84e705f228c:new</id>
-    <title>New meeting: Planning Commission Study Session (2027-01-26 19:00)</title>
-    <updated>2026-11-27T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1266/overview"/>
-    <summary>City of Ashland · 2027-01-26 19:00 (PT) · 1175 E. Main St, Ashland</summary>
+    <id>tag:civicsor.org,2026:bfce003e7ca2:new</id>
+    <title>New meeting: Urban Forestry Committee Meeting (2027-01-27 18:30)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://www.cityoftalent.org/Calendar.aspx?EID=1481"/>
+    <summary>City of Talent · 2027-01-27 18:30 (PT) · Community Center - Conference Room D and Zoom, 104 East Main Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:eb1469cba982:new</id>
+    <title>New meeting: Library Board (2027-01-27 18:30)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://wilsonvilleor.portal.civicclerk.com/event/1788/overview"/>
+    <summary>City of Wilsonville · 2027-01-27 18:30 (PT) · Wilsonville Public Library, 8200 SW Wilsonville Road, Wilsonville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:a2796f8d9e6c:new</id>
+    <title>New meeting: Urban Area Planning Commission (2027-01-27 18:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4513"/>
+    <summary>City of Grants Pass · 2027-01-27 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:02dc2454451b:new</id>
+    <title>New meeting: City Council Work Session (2027-01-27 18:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://toledoor.portal.civicclerk.com/event/134/overview"/>
+    <summary>City of Toledo · 2027-01-27 18:00 (PT) · City Council Chambers, 206 N Main Street, Toledo</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:549f76d0047a:new</id>
+    <title>New meeting: Citizenship Class (2027-01-27 18:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://cornelius-or.libcal.com/event/18052788"/>
+    <summary>Cornelius Public Library · 2027-01-27 18:00 (PT) · Walters Community Room</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:35fb4c2370b5:new</id>
+    <title>New meeting: Florence Urban Renewal Agency (FURA) Meeting (2027-01-27 17:30)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://www.ci.florence.or.us/Calendar.aspx?EID=802"/>
+    <summary>City of Florence · 2027-01-27 17:30 (PT) · City Hall, 250 Hwy 101</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:50bc4d4369d9:new</id>
+    <title>New meeting: BCC Work Session &amp; Regular Meeting (2027-01-27 17:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://www.clatsopcounty.gov/Calendar.aspx?EID=422"/>
+    <summary>Clatsop County · 2027-01-27 17:00 (PT) · Judge Guy Boyington Building, 857 Commercial Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:7da4460cc6d0:new</id>
+    <title>New meeting: Board of Commissioners Work Session (2027-01-27 09:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://crookcoor.portal.civicclerk.com/event/5558/overview"/>
+    <summary>Crook County · 2027-01-27 09:00 (PT) · 203 NE Court Street, Prineville</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:0bdac0c574b3:new</id>
+    <title>New meeting: Site Council Meeting (2026-12-02 17:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://meetings.boardbook.org/Public/Agenda/1554?meeting=780148"/>
+    <summary>Corbett School District · 2026-12-02 17:00 (PT) · ZOOM virtual, 35800 E Historic Columbia River Highway</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:6141c499546d:new</id>
@@ -21,11 +77,11 @@
     <summary>City of Oregon City · 2027-01-26 19:00 (PT) · Hanlon Commission Chambers, 1234 Linn Ave, Oregon City</summary>
   </entry>
   <entry>
-    <id>tag:civicsor.org,2026:e31539e4a6c6:new</id>
-    <title>New meeting: City Council Work Session (2027-01-26 18:30)</title>
+    <id>tag:civicsor.org,2026:c84e705f228c:new</id>
+    <title>New meeting: Planning Commission Study Session (2027-01-26 19:00)</title>
     <updated>2026-11-27T12:00:00Z</updated>
-    <link href="https://independenceor.portal.civicclerk.com/event/2239/overview"/>
-    <summary>City of Independence · 2027-01-26 18:30 (PT) · City Hall - Council Chambers</summary>
+    <link href="https://ashlandor.portal.civicclerk.com/event/1266/overview"/>
+    <summary>City of Ashland · 2027-01-26 19:00 (PT) · 1175 E. Main St, Ashland</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:64b21e4e469f:new</id>
@@ -40,6 +96,13 @@
     <updated>2026-11-27T12:00:00Z</updated>
     <link href="https://washingtoncounty.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&amp;Id=13616"/>
     <summary>Washington County · 2027-01-26 18:30 (PT) · Charles D. Cameron Public Services Building, Auditorium</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsor.org,2026:e31539e4a6c6:new</id>
+    <title>New meeting: City Council Work Session (2027-01-26 18:30)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://independenceor.portal.civicclerk.com/event/2239/overview"/>
+    <summary>City of Independence · 2027-01-26 18:30 (PT) · City Hall - Council Chambers</summary>
   </entry>
   <entry>
     <id>tag:civicsor.org,2026:502ad4dee00a:new</id>
@@ -1342,68 +1405,5 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://keizeror.portal.civicclerk.com/event/3555/overview"/>
     <summary>City of Keizer · 2027-01-14 18:00 (PT) · 930 Chemawa Road NE, City Council Chambers, Keizer</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:f3f96d779ca6:new</id>
-    <title>New meeting: Historical Buildings and Sites Commission (2027-01-14 17:15)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4565"/>
-    <summary>City of Grants Pass · 2027-01-14 17:15 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:48c6bc617b39:new</id>
-    <title>New meeting: Climate and Environment Policy Advisory Committee (CEPAC) Meeting (2027-01-14 17:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://ashlandor.portal.civicclerk.com/event/1533/overview"/>
-    <summary>City of Ashland · 2027-01-14 17:00 (PT) · 51 Winburn Way, Ashland</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:8ffe214e1b01:new</id>
-    <title>New meeting: Parks and Recreation Advisory Board (2027-01-14 16:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://wilsonvilleor.portal.civicclerk.com/event/1780/overview"/>
-    <summary>City of Wilsonville · 2027-01-14 16:00 (PT) · Wilsonville Parks and Recreation Admin Office, 29600 SW Park Place, Wilsonville</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:56a6194358cb:new</id>
-    <title>New meeting: Parks Advisory Committee (2027-01-14 15:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5033"/>
-    <summary>City of Grants Pass · 2027-01-14 15:30 (PT) · Ridge Conference Room, 101 NW A Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:061f19754a67:new</id>
-    <title>New meeting: Finance Committee Meeting (2027-01-14 14:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://yachatsor.portal.civicclerk.com/event/1161/overview"/>
-    <summary>City of Yachats · 2027-01-14 14:00 (PT) · CIVIC MEETING ROOM 1, 441 Hwy 101 N. , Yachats</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:65f5d40d1680:new</id>
-    <title>New meeting: Board of Commissioners Formal Session (2027-01-14 10:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.yamhillcounty.gov/Calendar.aspx?EID=804"/>
-    <summary>Yamhill County · 2027-01-14 10:00 (PT) · Government Services Building Public Hearing Room, 400 NE Baker Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:e470dbca4825:new</id>
-    <title>New meeting: City Council Strategic Planning (2027-01-14 08:30)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=5638"/>
-    <summary>City of Grants Pass · 2027-01-14 08:30 (PT) · Police Department Headquarters, 726 NE 7th Street</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:4246a843296b:new</id>
-    <title>New meeting: Urban Area Planning Commission (2027-01-13 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4460"/>
-    <summary>City of Grants Pass · 2027-01-13 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsor.org,2026:59417d3e892b:new</id>
-    <title>New meeting: Citizenship Class (2027-01-13 18:00)</title>
-    <updated>2026-11-22T12:00:00Z</updated>
-    <link href="https://cornelius-or.libcal.com/event/18052786"/>
-    <summary>Cornelius Public Library · 2027-01-13 18:00 (PT) · Walters Community Room</summary>
   </entry>
 </feed>

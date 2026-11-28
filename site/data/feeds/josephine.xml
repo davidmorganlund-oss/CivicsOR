@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-27T04:06:54-08:00</updated>
+  <updated>2026-11-28T03:57:15-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:a2796f8d9e6c:new</id>
+    <title>New meeting: Urban Area Planning Commission (2027-01-27 18:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://www.grantspassoregon.gov/Calendar.aspx?EID=4513"/>
+    <summary>City of Grants Pass · 2027-01-27 18:00 (PT) · Council Chambers, 101 NW A St.</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:9a3105f0b9ae:new</id>
     <title>New meeting: City Council Meeting (2027-01-20 18:00)</title>

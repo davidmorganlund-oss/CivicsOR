@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsOR</subtitle>
   <id>https://civicsor.org/</id>
   <link href="https://civicsor.org/"/>
-  <updated>2026-11-27T04:06:54-08:00</updated>
+  <updated>2026-11-28T03:57:15-08:00</updated>
   <author><name>CivicsOR (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsor.org,2026:549f76d0047a:new</id>
+    <title>New meeting: Citizenship Class (2027-01-27 18:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://cornelius-or.libcal.com/event/18052788"/>
+    <summary>Cornelius Public Library · 2027-01-27 18:00 (PT) · Walters Community Room</summary>
+  </entry>
   <entry>
     <id>tag:civicsor.org,2026:825816c9a6a9:new</id>
     <title>New meeting: Board of County Commissioners (BCC) (2027-01-26 18:30)</title>
